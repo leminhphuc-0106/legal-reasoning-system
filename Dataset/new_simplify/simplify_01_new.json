@@ -1,0 +1,314 @@
+[
+  {
+    "instruction": "Luật này quy định về đối tượng, phạm vi, nguyên tắc, hình thức, tiêu chuẩn, thẩm quyền, trình tự và thủ tục thi đua, khen thưởng.",
+    "response": [
+      "Luật này quy định về đối tượng thi đua, khen thưởng.",
+      "Luật này quy định về phạm vi thi đua, khen thưởng.",
+      "Luật này quy định về nguyên tắc thi đua, khen thưởng.",
+      "Luật này quy định về hình thức thi đua, khen thưởng.",
+      "Luật này quy định về tiêu chuẩn thi đua, khen thưởng.",
+      "Luật này quy định về thẩm quyền thi đua, khen thưởng.",
+      "Luật này quy định về trình tự thi đua, khen thưởng.",
+      "Luật này quy định về thủ tục thi đua, khen thưởng."
+    ]
+  },
+  {
+    "instruction": "Luật này áp dụng đối với cá nhân, tập thể, hộ gia đình người Việt Nam; cá nhân, tập thể người Việt Nam định cư ở nước ngoài; cá nhân, tập thể người nước ngoài.",
+    "response": [
+      "Luật này áp dụng đối với cá nhân người Việt Nam.",
+      "Luật này áp dụng đối với tập thể người Việt Nam.",
+      "Luật này áp dụng đối với hộ gia đình người Việt Nam.",
+      "Luật này áp dụng đối với cá nhân người Việt Nam định cư ở nước ngoài.",
+      "Luật này áp dụng đối với tập thể người Việt Nam định cư ở nước ngoài.",
+      "Luật này áp dụng đối với cá nhân người nước ngoài.",
+      "Luật này áp dụng đối với tập thể người nước ngoài."
+    ]
+  },
+  {
+    "instruction": "Điều 3. Giải thích từ ngữ\nTrong Luật này, các từ ngữ dưới đây được hiểu như sau:",
+    "response": [
+      "Điều 3 quy định việc giải thích các từ ngữ được sử dụng trong Luật này."
+    ]
+  },
+  {
+    "instruction": "Thi đua là hoạt động có tổ chức do người có thẩm quyền phát động với sự tham gia tự nguyện của cá nhân, tập thể, hộ gia đình.",
+    "response": [
+      "Thi đua là hoạt động có tổ chức.",
+      "Thi đua do người có thẩm quyền phát động.",
+      "Cá nhân tham gia thi đua trên cơ sở tự nguyện.",
+      "Tập thể tham gia thi đua trên cơ sở tự nguyện.",
+      "Hộ gia đình tham gia thi đua trên cơ sở tự nguyện."
+    ]
+  },
+  {
+    "instruction": "Danh hiệu thi đua là hình thức ghi nhận, biểu dương, tôn vinh và khuyến khích bằng lợi ích vật chất đối với cá nhân, tập thể, hộ gia đình có thành tích trong thi đua.",
+    "response": [
+      "Danh hiệu thi đua là hình thức ghi nhận cá nhân, tập thể, hộ gia đình có thành tích trong thi đua.",
+      "Danh hiệu thi đua là hình thức biểu dương cá nhân, tập thể, hộ gia đình có thành tích trong thi đua.",
+      "Danh hiệu thi đua là hình thức tôn vinh cá nhân, tập thể, hộ gia đình có thành tích trong thi đua.",
+      "Danh hiệu thi đua là hình thức khuyến khích cá nhân, tập thể, hộ gia đình có thành tích trong thi đua bằng lợi ích vật chất."
+    ]
+  },
+  {
+    "instruction": "Khen thưởng là việc ghi nhận, biểu dương, tôn vinh và khuyến khích bằng lợi ích vật chất đối với cá nhân, tập thể, hộ gia đình có thành tích trong xây dựng và bảo vệ Tổ quốc.",
+    "response": [
+      "Khen thưởng là việc ghi nhận cá nhân, tập thể, hộ gia đình có thành tích trong xây dựng và bảo vệ Tổ quốc.",
+      "Khen thưởng là việc biểu dương cá nhân, tập thể, hộ gia đình có thành tích trong xây dựng và bảo vệ Tổ quốc.",
+      "Khen thưởng là việc tôn vinh cá nhân, tập thể, hộ gia đình có thành tích trong xây dựng và bảo vệ Tổ quốc.",
+      "Khen thưởng là việc khuyến khích cá nhân, tập thể, hộ gia đình có thành tích trong xây dựng và bảo vệ Tổ quốc bằng lợi ích vật chất."
+    ]
+  },
+  {
+    "instruction": "Sáng kiến là giải pháp có tính mới về kỹ thuật, quản lý, tác nghiệp, ứng dụng tiến bộ kỹ thuật mang lại hiệu quả, lợi ích thiết thực đã được áp dụng tại cơ sở, có khả năng nhân rộng và được cấp có thẩm quyền công nhận.",
+    "response": [
+      "Sáng kiến là giải pháp có tính mới về kỹ thuật.",
+      "Sáng kiến là giải pháp có tính mới về quản lý.",
+      "Sáng kiến là giải pháp có tính mới về tác nghiệp.",
+      "Sáng kiến là giải pháp ứng dụng tiến bộ kỹ thuật.",
+      "Sáng kiến mang lại hiệu quả.",
+      "Sáng kiến mang lại lợi ích thiết thực.",
+      "Sáng kiến đã được áp dụng tại cơ sở.",
+      "Sáng kiến có khả năng nhân rộng.",
+      "Sáng kiến được cấp có thẩm quyền công nhận."
+    ]
+  },
+  {
+    "instruction": "Mục tiêu của khen thưởng là khuyến khích, động viên cá nhân, tập thể, hộ gia đình hăng hái thi đua; ghi nhận công lao, thành tích của cá nhân, tập thể, hộ gia đình trong xây dựng và bảo vệ Tổ quốc.",
+    "response": [
+      "Mục tiêu của khen thưởng là khuyến khích cá nhân hăng hái thi đua.",
+      "Mục tiêu của khen thưởng là khuyến khích tập thể hăng hái thi đua.",
+      "Mục tiêu của khen thưởng là khuyến khích hộ gia đình hăng hái thi đua.",
+      "Mục tiêu của khen thưởng là động viên cá nhân hăng hái thi đua.",
+      "Mục tiêu của khen thưởng là động viên tập thể hăng hái thi đua.",
+      "Mục tiêu của khen thưởng là động viên hộ gia đình hăng hái thi đua.",
+      "Mục tiêu của khen thưởng là ghi nhận công lao của cá nhân trong xây dựng và bảo vệ Tổ quốc.",
+      "Mục tiêu của khen thưởng là ghi nhận thành tích của cá nhân trong xây dựng và bảo vệ Tổ quốc.",
+      "Mục tiêu của khen thưởng là ghi nhận công lao của tập thể trong xây dựng và bảo vệ Tổ quốc.",
+      "Mục tiêu của khen thưởng là ghi nhận thành tích của tập thể trong xây dựng và bảo vệ Tổ quốc."
+    ]
+  },
+  {
+    "instruction": "Thi đua được tổ chức theo nguyên tắc tự nguyện, tự giác, công khai, minh bạch.",
+    "response": [
+      "Thi đua được tổ chức theo nguyên tắc tự nguyện.",
+      "Thi đua được tổ chức theo nguyên tắc tự giác.",
+      "Thi đua được tổ chức theo nguyên tắc công khai.",
+      "Thi đua được tổ chức theo nguyên tắc minh bạch."
+    ]
+  },
+  {
+    "instruction": "Việc khen thưởng phải bảo đảm chính xác, công khai, công bằng, kịp thời.",
+    "response": [
+      "Việc khen thưởng phải bảo đảm tính chính xác.",
+      "Việc khen thưởng phải bảo đảm tính công khai.",
+      "Việc khen thưởng phải bảo đảm tính công bằng.",
+      "Việc khen thưởng phải bảo đảm tính kịp thời."
+    ]
+  },
+  {
+    "instruction": "Căn cứ xét tặng danh hiệu thi đua bao gồm phong trào thi đua, thành tích thi đua và tiêu chuẩn danh hiệu thi đua.",
+    "response": [
+      "Phong trào thi đua là căn cứ xét tặng danh hiệu thi đua.",
+      "Thành tích thi đua là căn cứ xét tặng danh hiệu thi đua.",
+      "Tiêu chuẩn danh hiệu thi đua là căn cứ xét tặng danh hiệu thi đua."
+    ]
+  },
+  {
+    "instruction": "Khen thưởng căn cứ vào điều kiện, tiêu chuẩn và thành tích đạt được của cá nhân, tập thể.",
+    "response": [
+      "Khen thưởng căn cứ vào điều kiện của cá nhân.",
+      "Khen thưởng căn cứ vào tiêu chuẩn của cá nhân.",
+      "Khen thưởng căn cứ vào thành tích đạt được của cá nhân.",
+      "Khen thưởng căn cứ vào điều kiện của tập thể.",
+      "Khen thưởng căn cứ vào tiêu chuẩn của tập thể.",
+      "Khen thưởng căn cứ vào thành tích đạt được của tập thể."
+    ]
+  },
+  {
+    "instruction": "Nhà nước thực hiện khen thưởng thông qua các hình thức trao tặng huân chương, huy chương, danh hiệu vinh dự nhà nước, giải thưởng và bằng khen.",
+    "response": [
+      "Nhà nước thực hiện khen thưởng thông qua hình thức trao tặng huân chương.",
+      "Nhà nước thực hiện khen thưởng thông qua hình thức trao tặng huy chương.",
+      "Nhà nước thực hiện khen thưởng thông qua hình thức trao tặng danh hiệu vinh dự nhà nước.",
+      "Nhà nước thực hiện khen thưởng thông qua hình thức trao tặng giải thưởng.",
+      "Nhà nước thực hiện khen thưởng thông qua hình thức trao tặng bằng khen."
+    ]
+  },
+  {
+    "instruction": "Cá nhân được xét khen thưởng khi có thành tích xuất sắc trong lao động, học tập, công tác và tham gia các phong trào thi đua.",
+    "response": [
+      "Cá nhân được xét khen thưởng khi có thành tích xuất sắc trong lao động.",
+      "Cá nhân được xét khen thưởng khi có thành tích xuất sắc trong học tập.",
+      "Cá nhân được xét khen thưởng khi có thành tích xuất sắc trong công tác.",
+      "Cá nhân được xét khen thưởng khi có thành tích xuất sắc trong tham gia các phong trào thi đua."
+    ]
+  },
+  {
+    "instruction": "Tập thể được xét khen thưởng khi hoàn thành xuất sắc nhiệm vụ, thực hiện tốt các phong trào thi đua và chấp hành nghiêm chủ trương của Đảng, chính sách, pháp luật của Nhà nước.",
+    "response": [
+      "Tập thể được xét khen thưởng khi hoàn thành xuất sắc nhiệm vụ.",
+      "Tập thể được xét khen thưởng khi thực hiện tốt các phong trào thi đua.",
+      "Tập thể được xét khen thưởng khi chấp hành nghiêm chủ trương của Đảng.",
+      "Tập thể được xét khen thưởng khi chấp hành nghiêm chính sách của Nhà nước.",
+      "Tập thể được xét khen thưởng khi chấp hành nghiêm pháp luật của Nhà nước."
+    ]
+  },
+  {
+    "instruction": "Việc tổ chức phong trào thi đua phải xác định rõ mục tiêu, phạm vi, đối tượng, nội dung và tiêu chí đánh giá.",
+    "response": [
+      "Việc tổ chức phong trào thi đua phải xác định rõ mục tiêu.",
+      "Việc tổ chức phong trào thi đua phải xác định rõ phạm vi.",
+      "Việc tổ chức phong trào thi đua phải xác định rõ đối tượng.",
+      "Việc tổ chức phong trào thi đua phải xác định rõ nội dung.",
+      "Việc tổ chức phong trào thi đua phải xác định rõ tiêu chí đánh giá."
+    ]
+  },
+  {
+    "instruction": "Hồ sơ đề nghị khen thưởng gồm tờ trình, báo cáo thành tích và các tài liệu có liên quan.",
+    "response": [
+      "Hồ sơ đề nghị khen thưởng gồm tờ trình.",
+      "Hồ sơ đề nghị khen thưởng gồm báo cáo thành tích.",
+      "Hồ sơ đề nghị khen thưởng gồm các tài liệu có liên quan."
+    ]
+  },
+  
+  {
+    "instruction": "Điều 5. Nguyên tắc thi đua, khen thưởng\nKhoản 1. Việc thi đua được thực hiện theo các nguyên tắc sau đây:\nĐiểm a) Tự nguyện, tự giác, công khai, minh bạch",
+    "response": [
+      "Việc thi đua được thực hiện theo nguyên tắc tự nguyện, tự giác, công khai và minh bạch."
+    ]
+  },
+  {
+    "instruction": "Điều 5. Nguyên tắc thi đua, khen thưởng\nKhoản 1. Việc thi đua được thực hiện theo các nguyên tắc sau đây:\nĐiểm b) Đoàn kết, hợp tác và cùng phát triển.",
+    "response": [
+      "Việc thi đua được thực hiện theo nguyên tắc đoàn kết, hợp tác và cùng phát triển."
+    ]
+  },
+  {
+    "instruction": "Điều 5. Nguyên tắc thi đua, khen thưởng\nKhoản 2. Việc khen thưởng được thực hiện theo các nguyên tắc sau đây:\nĐiểm a) Chính xác, công khai, minh bạch, công bằng, kịp thời",
+    "response": [
+      "Việc khen thưởng được thực hiện theo nguyên tắc chính xác, công khai, minh bạch, công bằng và kịp thời."
+    ]
+  },
+  {
+    "instruction": "Điều 5. Nguyên tắc thi đua, khen thưởng\nKhoản 2. Việc khen thưởng được thực hiện theo các nguyên tắc sau đây:\nĐiểm b) Bảo đảm thống nhất giữa hình thức, đối tượng khen thưởng và công trạng, thành tích đạt được;",
+    "response": [
+      "Việc khen thưởng phải bảo đảm thống nhất giữa hình thức khen thưởng, đối tượng khen thưởng và công trạng, thành tích đạt được."
+    ]
+  },
+  {
+    "instruction": "Điều 5. Nguyên tắc thi đua, khen thưởng\nKhoản 2. Việc khen thưởng được thực hiện theo các nguyên tắc sau đây:\nĐiểm e) Một hình thức khen thưởng có thể tặng nhiều lần cho một đối tượng; không khen thưởng nhiều lần, nhiều hình thức cho một thành tích đạt được; thành tích đến đâu khen thưởng đến đó;",
+    "response": [
+      "Một hình thức khen thưởng có thể tặng nhiều lần cho một đối tượng.",
+      "Không khen thưởng nhiều lần, nhiều hình thức cho một thành tích đạt được.",
+      "Thành tích đến đâu khen thưởng đến đó."
+    ]
+  },
+  {
+    "instruction": "Điều 5. Nguyên tắc thi đua, khen thưởng\nKhoản 2. Việc khen thưởng được thực hiện theo các nguyên tắc sau đây:\nĐiểm d) Chú trọng khen thưởng cá nhân, tập thể, hộ gia đình trực tiếp lao động, sản xuất, kinh doanh; cá nhân, tập thể công tác ở địa bàn biên giới, trên biển, hải đảo, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn.",
+    "response": [
+      "Việc khen thưởng chú trọng cá nhân, tập thể, hộ gia đình trực tiếp lao động, sản xuất, kinh doanh.",
+      "Việc khen thưởng chú trọng cá nhân, tập thể công tác ở địa bàn biên giới, trên biển, hải đảo, vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn."
+    ]
+  },
+  {
+    "instruction": "Điều 5. Nguyên tắc thi đua, khen thưởng\nBảo đảm bình đẳng giới trong thi đua, khen thưởng. CÔNG BÁO/Số 571 + 572/Ngày 15-7-2022 5",
+    "response": [
+      "Thi đua, khen thưởng phải bảo đảm bình đẳng giới."
+    ]
+  },
+  {
+    "instruction": "Điều 6. Danh hiệu thi đua\nDanh hiệu thi đua đối với cá nhân.",
+    "response": [
+      "Danh hiệu thi đua được quy định đối với cá nhân."
+    ]
+  },
+  {
+    "instruction": "Việc thi đua được thực hiện theo nguyên tắc tự nguyện, tự giác, công khai và minh bạch.",
+    "response": [
+      "Việc thi đua được thực hiện theo nguyên tắc tự nguyện.",
+      "Việc thi đua được thực hiện theo nguyên tắc tự giác.",
+      "Việc thi đua được thực hiện theo nguyên tắc công khai.",
+      "Việc thi đua được thực hiện theo nguyên tắc minh bạch."
+    ]
+  },
+  {
+    "instruction": "Việc thi đua được thực hiện theo nguyên tắc đoàn kết, hợp tác và cùng phát triển.",
+    "response": [
+      "Việc thi đua được thực hiện theo nguyên tắc đoàn kết.",
+      "Việc thi đua được thực hiện theo nguyên tắc hợp tác.",
+      "Việc thi đua được thực hiện theo nguyên tắc cùng phát triển."
+    ]
+  },
+  {
+    "instruction": "Việc khen thưởng được thực hiện theo nguyên tắc chính xác, công khai, minh bạch, công bằng và kịp thời.",
+    "response": [
+      "Việc khen thưởng được thực hiện theo nguyên tắc chính xác.",
+      "Việc khen thưởng được thực hiện theo nguyên tắc công khai.",
+      "Việc khen thưởng được thực hiện theo nguyên tắc minh bạch.",
+      "Việc khen thưởng được thực hiện theo nguyên tắc công bằng.",
+      "Việc khen thưởng được thực hiện theo nguyên tắc kịp thời."
+    ]
+  },
+  {
+    "instruction": "Việc khen thưởng phải bảo đảm thống nhất giữa hình thức khen thưởng, đối tượng khen thưởng và công trạng, thành tích đạt được.",
+    "response": [
+      "Hình thức khen thưởng phải thống nhất với đối tượng khen thưởng.",
+      "Hình thức khen thưởng phải thống nhất với công trạng, thành tích đạt được.",
+      "Đối tượng khen thưởng phải phù hợp với công trạng, thành tích đạt được."
+    ]
+  },
+  {
+    "instruction": "Một hình thức khen thưởng có thể tặng nhiều lần cho một đối tượng.",
+    "response": [
+      "Một hình thức khen thưởng có thể được tặng nhiều lần.",
+      "Một đối tượng có thể nhận cùng một hình thức khen thưởng nhiều lần."
+    ]
+  },
+  {
+    "instruction": "Không khen thưởng nhiều lần, nhiều hình thức cho một thành tích đạt được.",
+    "response": [
+      "Không khen thưởng nhiều lần cho cùng một thành tích đạt được.",
+      "Không áp dụng nhiều hình thức khen thưởng cho cùng một thành tích đạt được."
+    ]
+  },
+  {
+    "instruction": "Thành tích đến đâu khen thưởng đến đó.",
+    "response": [
+      "Việc khen thưởng phải tương ứng với thành tích đạt được."
+    ]
+  },
+  {
+    "instruction": "Việc khen thưởng chú trọng cá nhân, tập thể và hộ gia đình trực tiếp lao động, sản xuất, kinh doanh.",
+    "response": [
+      "Việc khen thưởng chú trọng cá nhân trực tiếp lao động, sản xuất, kinh doanh.",
+      "Việc khen thưởng chú trọng tập thể trực tiếp lao động, sản xuất, kinh doanh.",
+      "Việc khen thưởng chú trọng hộ gia đình trực tiếp lao động, sản xuất, kinh doanh."
+    ]
+  },
+  {
+    "instruction": "Việc khen thưởng chú trọng cá nhân, tập thể công tác ở địa bàn biên giới, trên biển, hải đảo và vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn.",
+    "response": [
+      "Việc khen thưởng chú trọng cá nhân công tác ở địa bàn biên giới.",
+      "Việc khen thưởng chú trọng tập thể công tác ở địa bàn biên giới.",
+      "Việc khen thưởng chú trọng cá nhân công tác trên biển và hải đảo.",
+      "Việc khen thưởng chú trọng tập thể công tác trên biển và hải đảo.",
+      "Việc khen thưởng chú trọng cá nhân công tác ở vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn.",
+      "Việc khen thưởng chú trọng tập thể công tác ở vùng có điều kiện kinh tế - xã hội đặc biệt khó khăn."
+    ]
+  },
+  {
+    "instruction": "Thi đua, khen thưởng phải bảo đảm bình đẳng giới.",
+    "response": [
+      "Nguyên tắc bình đẳng giới phải được bảo đảm trong thi đua.",
+      "Nguyên tắc bình đẳng giới phải được bảo đảm trong khen thưởng."
+    ]
+  },
+  {
+    "instruction": "Danh hiệu thi đua được quy định đối với cá nhân.",
+    "response": [
+      "Cá nhân là đối tượng được quy định danh hiệu thi đua."
+    ]
+  }
+]
+

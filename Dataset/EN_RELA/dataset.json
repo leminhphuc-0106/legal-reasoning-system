@@ -1,0 +1,2283 @@
+[
+  {
+    "instruction": "Cá nhân đạt danh hiệu Lao động tiên tiến trong năm 2023.",
+    "response": {
+      "Entity": [
+        "Cá nhân",
+        "Danh hiệu Lao động tiên tiến",
+        "Năm 2023"
+      ],
+      "relations": [
+        {
+          "subject": "Cá nhân",
+          "predicate": "DAT_DANH_HIEU",
+          "object": "Danh hiệu Lao động tiên tiến"
+        },
+        {
+          "subject": "Danh hiệu Lao động tiên tiến",
+          "predicate": "DUOC_XET_TRONG_NAM",
+          "object": "Năm 2023"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Cá nhân có thành tích xuất sắc trong thực hiện nhiệm vụ được giao.",
+    "response": {
+      "Entity": [
+        "Cá nhân",
+        "Thành tích xuất sắc",
+        "Nhiệm vụ được giao"
+      ],
+      "relations": [
+        {
+          "subject": "Cá nhân",
+          "predicate": "CO_THANH_TICH",
+          "object": "Thành tích xuất sắc"
+        },
+        {
+          "subject": "Thành tích xuất sắc",
+          "predicate": "TRONG_THUC_HIEN",
+          "object": "Nhiệm vụ được giao"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Cá nhân đã hoàn thành tốt nhiệm vụ trong 3 năm liên tục.",
+    "response": {
+      "Entity": [
+        "Cá nhân",
+        "Hoàn thành tốt nhiệm vụ",
+        "3 năm liên tục"
+      ],
+      "relations": [
+        {
+          "subject": "Cá nhân",
+          "predicate": "DUOC_XEP_LOAI",
+          "object": "Hoàn thành tốt nhiệm vụ"
+        },
+        {
+          "subject": "Hoàn thành tốt nhiệm vụ",
+          "predicate": "TRONG_THOI_GIAN",
+          "object": "3 năm liên tục"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Cá nhân có 2 đề tài nghiên cứu khoa học được đánh giá loại Tốt.",
+    "response": {
+      "Entity": [
+        "Cá nhân",
+        "2 đề tài nghiên cứu khoa học",
+        "Loại Tốt"
+      ],
+      "relations": [
+        {
+          "subject": "Cá nhân",
+          "predicate": "CO_DE_TAI",
+          "object": "2 đề tài nghiên cứu khoa học"
+        },
+        {
+          "subject": "2 đề tài nghiên cứu khoa học",
+          "predicate": "DUOC_DANH_GIA",
+          "object": "Loại Tốt"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Cá nhân đạt giải Nhì tại Hội thi Sáng tạo Khoa học Kỹ thuật cấp thành phố.",
+    "response": {
+      "Entity": [
+        "Cá nhân",
+        "Giải Nhì",
+        "Hội thi Sáng tạo Khoa học Kỹ thuật cấp thành phố"
+      ],
+      "relations": [
+        {
+          "subject": "Cá nhân",
+          "predicate": "DAT_GIAI",
+          "object": "Giải Nhì"
+        },
+        {
+          "subject": "Giải Nhì",
+          "predicate": "TAI_HOI_THI",
+          "object": "Hội thi Sáng tạo Khoa học Kỹ thuật cấp thành phố"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Cá nhân đã được tặng Giấy khen của Hiệu trưởng năm 2022.",
+    "response": {
+      "Entity": [
+        "Cá nhân",
+        "Giấy khen",
+        "Hiệu trưởng",
+        "Năm 2022"
+      ],
+      "relations": [
+        {
+          "subject": "Cá nhân",
+          "predicate": "DUOC_TANG",
+          "object": "Giấy khen"
+        },
+        {
+          "subject": "Hiệu trưởng",
+          "predicate": "TANG_GIAY_KHEN",
+          "object": "Cá nhân"
+        },
+        {
+          "subject": "Giấy khen",
+          "predicate": "TRONG_NAM",
+          "object": "Năm 2022"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Cá nhân đã được công nhận danh hiệu Chiến sĩ thi đua cơ sở năm 2023.",
+    "response": {
+      "Entity": [
+        "Cá nhân",
+        "Danh hiệu Chiến sĩ thi đua cơ sở",
+        "Năm 2023"
+      ],
+      "relations": [
+        {
+          "subject": "Cá nhân",
+          "predicate": "DUOC_CONG_NHAN_DANH_HIEU",
+          "object": "Danh hiệu Chiến sĩ thi đua cơ sở"
+        },
+        {
+          "subject": "Danh hiệu Chiến sĩ thi đua cơ sở",
+          "predicate": "TRONG_NAM",
+          "object": "Năm 2023"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Cá nhân có thời gian công tác liên tục từ năm 2021 đến năm 2024.",
+    "response": {
+      "Entity": [
+        "Cá nhân",
+        "Thời gian công tác liên tục",
+        "Năm 2021",
+        "Năm 2024"
+      ],
+      "relations": [
+        {
+          "subject": "Cá nhân",
+          "predicate": "CO_THOI_GIAN_CONG_TAC",
+          "object": "Thời gian công tác liên tục"
+        },
+        {
+          "subject": "Thời gian công tác liên tục",
+          "predicate": "BAT_DAU_TU",
+          "object": "Năm 2021"
+        },
+        {
+          "subject": "Thời gian công tác liên tục",
+          "predicate": "KET_THUC_DEN",
+          "object": "Năm 2024"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Cá nhân không bị xử lý kỷ luật trong thời gian xét khen thưởng.",
+    "response": {
+      "Entity": [
+        "Cá nhân",
+        "Xử lý kỷ luật",
+        "Thời gian xét khen thưởng"
+      ],
+      "relations": [
+        {
+          "subject": "Cá nhân",
+          "predicate": "KHONG_BI_XU_LY",
+          "object": "Xử lý kỷ luật"
+        },
+        {
+          "subject": "Xử lý kỷ luật",
+          "predicate": "TRONG_THOI_GIAN",
+          "object": "Thời gian xét khen thưởng"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Cá nhân hoàn thành 100 phần trăm nhiệm vụ được giao trong năm 2024.",
+    "response": {
+      "Entity": [
+        "Cá nhân",
+        "100 phần trăm nhiệm vụ được giao",
+        "Năm 2024"
+      ],
+      "relations": [
+        {
+          "subject": "Cá nhân",
+          "predicate": "HOAN_THANH",
+          "object": "100 phần trăm nhiệm vụ được giao"
+        },
+        {
+          "subject": "100 phần trăm nhiệm vụ được giao",
+          "predicate": "TRONG_NAM",
+          "object": "Năm 2024"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Cá nhân đạt điểm đánh giá viên chức 92 trên 100 trong năm 2024.",
+    "response": {
+      "Entity": [
+        "Cá nhân",
+        "Điểm đánh giá viên chức 92 trên 100",
+        "Năm 2024"
+      ],
+      "relations": [
+        {
+          "subject": "Cá nhân",
+          "predicate": "DAT_DIEM_DANH_GIA",
+          "object": "Điểm đánh giá viên chức 92 trên 100"
+        },
+        {
+          "subject": "Điểm đánh giá viên chức 92 trên 100",
+          "predicate": "TRONG_NAM",
+          "object": "Năm 2024"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Cá nhân có sáng kiến được Hội đồng sáng kiến công nhận.",
+    "response": {
+      "Entity": [
+        "Cá nhân",
+        "Sáng kiến",
+        "Hội đồng sáng kiến"
+      ],
+      "relations": [
+        {
+          "subject": "Cá nhân",
+          "predicate": "CO_SANG_KIEN",
+          "object": "Sáng kiến"
+        },
+        {
+          "subject": "Hội đồng sáng kiến",
+          "predicate": "CONG_NHAN",
+          "object": "Sáng kiến"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Sáng kiến của cá nhân được công nhận cấp cơ sở vào tháng 8 năm 2023.",
+    "response": {
+      "Entity": [
+        "Sáng kiến",
+        "Cá nhân",
+        "Cấp cơ sở",
+        "Tháng 8 năm 2023"
+      ],
+      "relations": [
+        {
+          "subject": "Cá nhân",
+          "predicate": "CO_SANG_KIEN",
+          "object": "Sáng kiến"
+        },
+        {
+          "subject": "Sáng kiến",
+          "predicate": "DUOC_CONG_NHAN",
+          "object": "Cấp cơ sở"
+        },
+        {
+          "subject": "Sáng kiến",
+          "predicate": "DUOC_CONG_NHAN_VAO",
+          "object": "Tháng 8 năm 2023"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Cá nhân đã tham gia thực hiện đề tài cấp thành phố.",
+    "response": {
+      "Entity": [
+        "Cá nhân",
+        "Đề tài cấp thành phố"
+      ],
+      "relations": [
+        {
+          "subject": "Cá nhân",
+          "predicate": "THAM_GIA_THUC_HIEN",
+          "object": "Đề tài cấp thành phố"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đề tài nghiên cứu của cá nhân được nghiệm thu đạt loại Tốt.",
+    "response": {
+      "Entity": [
+        "Đề tài nghiên cứu",
+        "Cá nhân",
+        "Loại Tốt"
+      ],
+      "relations": [
+        {
+          "subject": "Cá nhân",
+          "predicate": "CO_DE_TAI",
+          "object": "Đề tài nghiên cứu"
+        },
+        {
+          "subject": "Đề tài nghiên cứu",
+          "predicate": "DUOC_NGHIEM_THU",
+          "object": "Loại Tốt"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Cá nhân đạt danh hiệu Chiến sĩ thi đua cơ sở liên tục trong các năm 2022 và 2023.",
+    "response": {
+      "Entity": [
+        "Cá nhân",
+        "Danh hiệu Chiến sĩ thi đua cơ sở",
+        "Năm 2022",
+        "Năm 2023"
+      ],
+      "relations": [
+        {
+          "subject": "Cá nhân",
+          "predicate": "DAT_DANH_HIEU",
+          "object": "Danh hiệu Chiến sĩ thi đua cơ sở"
+        },
+        {
+          "subject": "Danh hiệu Chiến sĩ thi đua cơ sở",
+          "predicate": "TRONG_NAM",
+          "object": "Năm 2022"
+        },
+        {
+          "subject": "Danh hiệu Chiến sĩ thi đua cơ sở",
+          "predicate": "TRONG_NAM",
+          "object": "Năm 2023"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Cá nhân đã hoàn thành xuất sắc nhiệm vụ trong năm 2024.",
+    "response": {
+      "Entity": [
+        "Cá nhân",
+        "Hoàn thành xuất sắc nhiệm vụ",
+        "Năm 2024"
+      ],
+      "relations": [
+        {
+          "subject": "Cá nhân",
+          "predicate": "DUOC_XEP_LOAI",
+          "object": "Hoàn thành xuất sắc nhiệm vụ"
+        },
+        {
+          "subject": "Hoàn thành xuất sắc nhiệm vụ",
+          "predicate": "TRONG_NAM",
+          "object": "Năm 2024"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Cá nhân có thành tích nổi bật trong công tác chuyên môn.",
+    "response": {
+      "Entity": [
+        "Cá nhân",
+        "Thành tích nổi bật",
+        "Công tác chuyên môn"
+      ],
+      "relations": [
+        {
+          "subject": "Cá nhân",
+          "predicate": "CO_THANH_TICH",
+          "object": "Thành tích nổi bật"
+        },
+        {
+          "subject": "Thành tích nổi bật",
+          "predicate": "TRONG",
+          "object": "Công tác chuyên môn"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Cá nhân được đơn vị đánh giá hoàn thành xuất sắc nhiệm vụ.",
+    "response": {
+      "Entity": [
+        "Cá nhân",
+        "Đơn vị",
+        "Hoàn thành xuất sắc nhiệm vụ"
+      ],
+      "relations": [
+        {
+          "subject": "Đơn vị",
+          "predicate": "DANH_GIA_XEP_LOAI",
+          "object": "Cá nhân"
+        },
+        {
+          "subject": "Cá nhân",
+          "predicate": "DUOC_XEP_LOAI",
+          "object": "Hoàn thành xuất sắc nhiệm vụ"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Cá nhân đáp ứng điều kiện về thời gian công tác theo quy định.",
+    "response": {
+      "Entity": [
+        "Cá nhân",
+        "Điều kiện về thời gian công tác",
+        "Quy định"
+      ],
+      "relations": [
+        {
+          "subject": "Cá nhân",
+          "predicate": "DAP_UNG_DIEU_KIEN",
+          "object": "Điều kiện về thời gian công tác"
+        },
+        {
+          "subject": "Điều kiện về thời gian công tác",
+          "predicate": "THEO_QUY_DINH",
+          "object": "Quy định"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Cá nhân đã được khen thưởng bằng Giấy khen trong năm 2023.",
+    "response": {
+      "Entity": [
+        "Cá nhân",
+        "Giấy khen",
+        "Năm 2023"
+      ],
+      "relations": [
+        {
+          "subject": "Cá nhân",
+          "predicate": "DUOC_KHEN_THUONG_BANG",
+          "object": "Giấy khen"
+        },
+        {
+          "subject": "Giấy khen",
+          "predicate": "TRONG_NAM",
+          "object": "Năm 2023"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Cá nhân có thành tích trong phong trào thi đua của đơn vị.",
+    "response": {
+      "Entity": [
+        "Cá nhân",
+        "Thành tích",
+        "Phong trào thi đua của đơn vị"
+      ],
+      "relations": [
+        {
+          "subject": "Cá nhân",
+          "predicate": "CO_THANH_TICH",
+          "object": "Thành tích"
+        },
+        {
+          "subject": "Thành tích",
+          "predicate": "TRONG",
+          "object": "Phong trào thi đua của đơn vị"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Cá nhân không vi phạm quy định của cơ quan trong thời gian xét.",
+    "response": {
+      "Entity": [
+        "Cá nhân",
+        "Quy định của cơ quan",
+        "Thời gian xét"
+      ],
+      "relations": [
+        {
+          "subject": "Cá nhân",
+          "predicate": "KHONG_VI_PHAM",
+          "object": "Quy định của cơ quan"
+        },
+        {
+          "subject": "Quy định của cơ quan",
+          "predicate": "TRONG_THOI_GIAN",
+          "object": "Thời gian xét"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Cá nhân có 3 năm liên tiếp đạt danh hiệu Lao động tiên tiến.",
+    "response": {
+      "Entity": [
+        "Cá nhân",
+        "Danh hiệu Lao động tiên tiến",
+        "3 năm liên tiếp"
+      ],
+      "relations": [
+        {
+          "subject": "Cá nhân",
+          "predicate": "DAT_DANH_HIEU",
+          "object": "Danh hiệu Lao động tiên tiến"
+        },
+        {
+          "subject": "Danh hiệu Lao động tiên tiến",
+          "predicate": "TRONG_THOI_GIAN",
+          "object": "3 năm liên tiếp"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Cá nhân đạt thành tích xuất sắc trong phong trào thi đua năm 2024.",
+    "response": {
+      "Entity": [
+        "Cá nhân",
+        "Thành tích xuất sắc",
+        "Phong trào thi đua năm 2024"
+      ],
+      "relations": [
+        {
+          "subject": "Cá nhân",
+          "predicate": "DAT_THANH_TICH",
+          "object": "Thành tích xuất sắc"
+        },
+        {
+          "subject": "Thành tích xuất sắc",
+          "predicate": "TRONG",
+          "object": "Phong trào thi đua năm 2024"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Quy định này áp dụng đối với tập thể, cá nhân, hộ gia đình người Việt Nam; tập thể, cá nhân người Việt Nam định cư ở nước ngoài; tập thể, cá nhân người nước ngoài có thành tích tham gia phong trào thi đua thành phố hoặc có đóng góp cho sự nghiệp xây dựng và phát triển kinh tế, xã hội, quốc phòng, an ninh trên địa bàn thành phố.",
+    "response": {
+      "Entity": [
+        "Quy định này",
+        "Tập thể",
+        "Cá nhân",
+        "Hộ gia đình người Việt Nam",
+        "Tập thể, cá nhân người Việt Nam định cư ở nước ngoài",
+        "Tập thể, cá nhân người nước ngoài",
+        "Phong trào thi đua thành phố",
+        "Sự nghiệp xây dựng và phát triển kinh tế, xã hội, quốc phòng, an ninh trên địa bàn thành phố"
+      ],
+      "relations": [
+        {
+          "subject": "Quy định này",
+          "predicate": "AP_DUNG_DOI_VOI",
+          "object": "Tập thể"
+        },
+        {
+          "subject": "Quy định này",
+          "predicate": "AP_DUNG_DOI_VOI",
+          "object": "Cá nhân"
+        },
+        {
+          "subject": "Quy định này",
+          "predicate": "AP_DUNG_DOI_VOI",
+          "object": "Hộ gia đình người Việt Nam"
+        },
+        {
+          "subject": "Quy định này",
+          "predicate": "AP_DUNG_DOI_VOI",
+          "object": "Tập thể, cá nhân người Việt Nam định cư ở nước ngoài"
+        },
+        {
+          "subject": "Quy định này",
+          "predicate": "AP_DUNG_DOI_VOI",
+          "object": "Tập thể, cá nhân người nước ngoài"
+        },
+        {
+          "subject": "Tập thể, cá nhân người nước ngoài",
+          "predicate": "CO_THANH_TICH_THAM_GIA",
+          "object": "Phong trào thi đua thành phố"
+        },
+        {
+          "subject": "Tập thể, cá nhân người nước ngoài",
+          "predicate": "CO_DONG_GOP_CHO",
+          "object": "Sự nghiệp xây dựng và phát triển kinh tế, xã hội, quốc phòng, an ninh trên địa bàn thành phố"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Các cơ quan, đơn vị, tổ chức, cá nhân có liên quan đến hoạt động xét thi đua, khen thưởng.",
+    "response": {
+      "Entity": [
+        "Các cơ quan",
+        "Đơn vị",
+        "Tổ chức",
+        "Cá nhân",
+        "Hoạt động xét thi đua, khen thưởng"
+      ],
+      "relations": [
+        {
+          "subject": "Các cơ quan",
+          "predicate": "CO_LIEN_QUAN_DEN",
+          "object": "Hoạt động xét thi đua, khen thưởng"
+        },
+        {
+          "subject": "Đơn vị",
+          "predicate": "CO_LIEN_QUAN_DEN",
+          "object": "Hoạt động xét thi đua, khen thưởng"
+        },
+        {
+          "subject": "Tổ chức",
+          "predicate": "CO_LIEN_QUAN_DEN",
+          "object": "Hoạt động xét thi đua, khen thưởng"
+        },
+        {
+          "subject": "Cá nhân",
+          "predicate": "CO_LIEN_QUAN_DEN",
+          "object": "Hoạt động xét thi đua, khen thưởng"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Điều 4. Tiêu chuẩn xét tặng danh hiệu \"Lao động tiên tiến\".",
+    "response": {
+      "Entity": [
+        "Điều 4",
+        "Tiêu chuẩn xét tặng danh hiệu Lao động tiên tiến",
+        "Danh hiệu Lao động tiên tiến"
+      ],
+      "relations": [
+        {
+          "subject": "Điều 4",
+          "predicate": "QUY_DINH",
+          "object": "Tiêu chuẩn xét tặng danh hiệu Lao động tiên tiến"
+        },
+        {
+          "subject": "Tiêu chuẩn xét tặng danh hiệu Lao động tiên tiến",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Danh hiệu Lao động tiên tiến"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu \"Lao động tiên tiến\" được xét tặng hằng năm đối với cán bộ, công chức, viên chức, người lao động trong cơ quan, đơn vị theo quy định tại khoản 1 Điều 24 Luật Thi đua, khen thưởng.",
+    "response": {
+      "Entity": [
+        "Danh hiệu Lao động tiên tiến",
+        "Cán bộ",
+        "Công chức",
+        "Viên chức",
+        "Người lao động",
+        "Cơ quan, đơn vị",
+        "Khoản 1 Điều 24 Luật Thi đua, khen thưởng"
+      ],
+      "relations": [
+        {
+          "subject": "Danh hiệu Lao động tiên tiến",
+          "predicate": "XET_TANG_HANG_NAM_CHO",
+          "object": "Cán bộ"
+        },
+        {
+          "subject": "Danh hiệu Lao động tiên tiến",
+          "predicate": "XET_TANG_HANG_NAM_CHO",
+          "object": "Công chức"
+        },
+        {
+          "subject": "Danh hiệu Lao động tiên tiến",
+          "predicate": "XET_TANG_HANG_NAM_CHO",
+          "object": "Viên chức"
+        },
+        {
+          "subject": "Danh hiệu Lao động tiên tiến",
+          "predicate": "XET_TANG_HANG_NAM_CHO",
+          "object": "Người lao động"
+        },
+        {
+          "subject": "Cán bộ",
+          "predicate": "TRONG",
+          "object": "Cơ quan, đơn vị"
+        },
+        {
+          "subject": "Công chức",
+          "predicate": "TRONG",
+          "object": "Cơ quan, đơn vị"
+        },
+        {
+          "subject": "Viên chức",
+          "predicate": "TRONG",
+          "object": "Cơ quan, đơn vị"
+        },
+        {
+          "subject": "Người lao động",
+          "predicate": "TRONG",
+          "object": "Cơ quan, đơn vị"
+        },
+        {
+          "subject": "Danh hiệu Lao động tiên tiến",
+          "predicate": "THEO_QUY_DINH",
+          "object": "Khoản 1 Điều 24 Luật Thi đua, khen thưởng"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu \"Lao động tiên tiến\" để tặng công nhân không thuộc đối tượng quy định tại khoản 1 Điều này phải đạt các tiêu chuẩn theo quy định tại khoản 3 Điều 24 Luật Thi đua, khen thưởng và đạt các tiêu chuẩn sau:",
+    "response": {
+      "Entity": [
+        "Danh hiệu Lao động tiên tiến",
+        "Công nhân",
+        "Khoản 1 Điều này",
+        "Khoản 3 Điều 24 Luật Thi đua, khen thưởng",
+        "Các tiêu chuẩn"
+      ],
+      "relations": [
+        {
+          "subject": "Danh hiệu Lao động tiên tiến",
+          "predicate": "TANG_CHO",
+          "object": "Công nhân"
+        },
+        {
+          "subject": "Công nhân",
+          "predicate": "KHONG_THUOC_DOI_TUONG",
+          "object": "Khoản 1 Điều này"
+        },
+        {
+          "subject": "Công nhân",
+          "predicate": "PHAI_DAT",
+          "object": "Các tiêu chuẩn"
+        },
+        {
+          "subject": "Các tiêu chuẩn",
+          "predicate": "THEO_QUY_DINH",
+          "object": "Khoản 3 Điều 24 Luật Thi đua, khen thưởng"
+        }
+      ]
+    }
+  },
+
+
+
+
+
+
+
+  
+  {
+    "instruction": "Được đánh giá hoàn thành tốt nhiệm vụ trong năm.",
+    "response": {
+      "Entity": [
+        "Hoàn thành tốt nhiệm vụ",
+        "Trong năm"
+      ],
+      "relations": [
+        {
+          "subject": "Đối tượng xét khen thưởng",
+          "predicate": "DUOC_DANH_GIA",
+          "object": "Hoàn thành tốt nhiệm vụ"
+        },
+        {
+          "subject": "Hoàn thành tốt nhiệm vụ",
+          "predicate": "TRONG_NAM",
+          "object": "Trong năm"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Chấp hành tốt các nội quy, quy trình sản xuất; có ý thức tổ chức kỷ luật.",
+    "response": {
+      "Entity": [
+        "Đối tượng xét khen thưởng",
+        "Các nội quy",
+        "Quy trình sản xuất",
+        "Ý thức tổ chức kỷ luật"
+      ],
+      "relations": [
+        {
+          "subject": "Đối tượng xét khen thưởng",
+          "predicate": "CHAP_HANH_TOT",
+          "object": "Các nội quy"
+        },
+        {
+          "subject": "Đối tượng xét khen thưởng",
+          "predicate": "CHAP_HANH_TOT",
+          "object": "Quy trình sản xuất"
+        },
+        {
+          "subject": "Đối tượng xét khen thưởng",
+          "predicate": "CO_Y_THUC",
+          "object": "Ý thức tổ chức kỷ luật"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Trong lao động, sản xuất có sáng tạo, sáng kiến cải tiến kỹ thuật hoặc áp dụng cải tiến kỹ thuật để nâng cao năng suất lao động.",
+    "response": {
+      "Entity": [
+        "Đối tượng xét khen thưởng",
+        "Sáng tạo",
+        "Sáng kiến cải tiến kỹ thuật",
+        "Cải tiến kỹ thuật",
+        "Năng suất lao động"
+      ],
+      "relations": [
+        {
+          "subject": "Đối tượng xét khen thưởng",
+          "predicate": "CO",
+          "object": "Sáng tạo"
+        },
+        {
+          "subject": "Đối tượng xét khen thưởng",
+          "predicate": "CO",
+          "object": "Sáng kiến cải tiến kỹ thuật"
+        },
+        {
+          "subject": "Đối tượng xét khen thưởng",
+          "predicate": "AP_DUNG",
+          "object": "Cải tiến kỹ thuật"
+        },
+        {
+          "subject": "Cải tiến kỹ thuật",
+          "predicate": "NANG_CAO",
+          "object": "Năng suất lao động"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu \"Lao động tiên tiến\" để tặng nông dân, người lao động không thuộc đối tượng quy định tại khoản 1 Điều này được gương mẫu chấp hành tốt các quy định nơi cư trú.",
+    "response": {
+      "Entity": [
+        "Danh hiệu Lao động tiên tiến",
+        "Nông dân",
+        "Người lao động",
+        "Khoản 1 Điều này",
+        "Các quy định nơi cư trú"
+      ],
+      "relations": [
+        {
+          "subject": "Danh hiệu Lao động tiên tiến",
+          "predicate": "TANG_CHO",
+          "object": "Nông dân"
+        },
+        {
+          "subject": "Danh hiệu Lao động tiên tiến",
+          "predicate": "TANG_CHO",
+          "object": "Người lao động"
+        },
+        {
+          "subject": "Nông dân",
+          "predicate": "KHONG_THUOC_DOI_TUONG",
+          "object": "Khoản 1 Điều này"
+        },
+        {
+          "subject": "Người lao động",
+          "predicate": "KHONG_THUOC_DOI_TUONG",
+          "object": "Khoản 1 Điều này"
+        },
+        {
+          "subject": "Nông dân",
+          "predicate": "CHAP_HANH_TOT",
+          "object": "Các quy định nơi cư trú"
+        },
+        {
+          "subject": "Người lao động",
+          "predicate": "CHAP_HANH_TOT",
+          "object": "Các quy định nơi cư trú"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Áp dụng kỹ thuật tiến bộ trong lao động, sản xuất.",
+    "response": {
+      "Entity": [
+        "Đối tượng xét khen thưởng",
+        "Kỹ thuật tiến bộ",
+        "Lao động, sản xuất"
+      ],
+      "relations": [
+        {
+          "subject": "Đối tượng xét khen thưởng",
+          "predicate": "AP_DUNG",
+          "object": "Kỹ thuật tiến bộ"
+        },
+        {
+          "subject": "Kỹ thuật tiến bộ",
+          "predicate": "TRONG",
+          "object": "Lao động, sản xuất"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Có cách làm mang lại hiệu quả cao trong lao động, sản xuất được cộng đồng suy tôn, công nhận.",
+    "response": {
+      "Entity": [
+        "Đối tượng xét khen thưởng",
+        "Cách làm",
+        "Hiệu quả cao",
+        "Lao động, sản xuất",
+        "Cộng đồng"
+      ],
+      "relations": [
+        {
+          "subject": "Đối tượng xét khen thưởng",
+          "predicate": "CO_CACH_LAM",
+          "object": "Cách làm"
+        },
+        {
+          "subject": "Cách làm",
+          "predicate": "MANG_LAI",
+          "object": "Hiệu quả cao"
+        },
+        {
+          "subject": "Cách làm",
+          "predicate": "TRONG",
+          "object": "Lao động, sản xuất"
+        },
+        {
+          "subject": "Cộng đồng",
+          "predicate": "SUY_TON_CONG_NHAN",
+          "object": "Đối tượng xét khen thưởng"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Đạt các tiêu chuẩn theo quy định tại khoản 3 Điều 24 Luật Thi đua, khen thưởng.",
+    "response": {
+      "Entity": [
+        "Đối tượng xét khen thưởng",
+        "Các tiêu chuẩn",
+        "Khoản 3 Điều 24 Luật Thi đua, khen thưởng"
+      ],
+      "relations": [
+        {
+          "subject": "Đối tượng xét khen thưởng",
+          "predicate": "DAT_TIEU_CHUAN",
+          "object": "Các tiêu chuẩn"
+        },
+        {
+          "subject": "Các tiêu chuẩn",
+          "predicate": "THEO_QUY_DINH",
+          "object": "Khoản 3 Điều 24 Luật Thi đua, khen thưởng"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Điều 5. Đối tượng, tiêu chuẩn xét tặng danh hiệu \"Cờ thi đua của Ủy ban nhân dân thành phố\".",
+    "response": {
+      "Entity": [
+        "Điều 5",
+        "Đối tượng",
+        "Tiêu chuẩn xét tặng danh hiệu Cờ thi đua của Ủy ban nhân dân thành phố",
+        "Cờ thi đua của Ủy ban nhân dân thành phố"
+      ],
+      "relations": [
+        {
+          "subject": "Điều 5",
+          "predicate": "QUY_DINH",
+          "object": "Đối tượng"
+        },
+        {
+          "subject": "Điều 5",
+          "predicate": "QUY_DINH",
+          "object": "Tiêu chuẩn xét tặng danh hiệu Cờ thi đua của Ủy ban nhân dân thành phố"
+        },
+        {
+          "subject": "Tiêu chuẩn xét tặng danh hiệu Cờ thi đua của Ủy ban nhân dân thành phố",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Cờ thi đua của Ủy ban nhân dân thành phố"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu \"Cờ thi đua của Ủy ban nhân dân thành phố\" được xét tặng hằng năm đối với các tập thể tiêu biểu xuất sắc trong các tập thể dẫn đầu cụm, khối thi đua do Ủy ban nhân dân thành phố tổ chức.",
+    "response": {
+      "Entity": [
+        "Cờ thi đua của Ủy ban nhân dân thành phố",
+        "Các tập thể tiêu biểu xuất sắc",
+        "Cụm, khối thi đua",
+        "Ủy ban nhân dân thành phố"
+      ],
+      "relations": [
+        {
+          "subject": "Cờ thi đua của Ủy ban nhân dân thành phố",
+          "predicate": "XET_TANG_HANG_NAM_CHO",
+          "object": "Các tập thể tiêu biểu xuất sắc"
+        },
+        {
+          "subject": "Các tập thể tiêu biểu xuất sắc",
+          "predicate": "DAN_DAU",
+          "object": "Cụm, khối thi đua"
+        },
+        {
+          "subject": "Ủy ban nhân dân thành phố",
+          "predicate": "TO_CHUC",
+          "object": "Cụm, khối thi đua"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Tập thể được xét tặng danh hiệu \"Cờ thi đua của Ủy ban nhân dân thành phố\" phải được các thành viên trong cụm, khối thi đua bình xét, đánh giá, so sánh và bỏ phiếu tín nhiệm suy tôn.",
+    "response": {
+      "Entity": [
+        "Tập thể",
+        "Cờ thi đua của Ủy ban nhân dân thành phố",
+        "Các thành viên trong cụm, khối thi đua"
+      ],
+      "relations": [
+        {
+          "subject": "Tập thể",
+          "predicate": "DUOC_XET_TANG",
+          "object": "Cờ thi đua của Ủy ban nhân dân thành phố"
+        },
+        {
+          "subject": "Các thành viên trong cụm, khối thi đua",
+          "predicate": "BINH_XET",
+          "object": "Tập thể"
+        },
+        {
+          "subject": "Các thành viên trong cụm, khối thi đua",
+          "predicate": "DANH_GIA",
+          "object": "Tập thể"
+        },
+        {
+          "subject": "Các thành viên trong cụm, khối thi đua",
+          "predicate": "SO_SANH",
+          "object": "Tập thể"
+        },
+        {
+          "subject": "Các thành viên trong cụm, khối thi đua",
+          "predicate": "BO_PHIEU_TIN_NHIEM_SUY_TON",
+          "object": "Tập thể"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Tập thể phải hoàn thành vượt các chỉ tiêu thi đua và nhiệm vụ được giao.",
+    "response": {
+      "Entity": [
+        "Tập thể",
+        "Các chỉ tiêu thi đua",
+        "Nhiệm vụ được giao"
+      ],
+      "relations": [
+        {
+          "subject": "Tập thể",
+          "predicate": "HOAN_THANH_VUOT",
+          "object": "Các chỉ tiêu thi đua"
+        },
+        {
+          "subject": "Tập thể",
+          "predicate": "HOAN_THANH",
+          "object": "Nhiệm vụ được giao"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Tập thể phải được cơ quan có thẩm quyền đánh giá, xếp loại là tập thể hoàn thành xuất sắc nhiệm vụ trong năm.",
+    "response": {
+      "Entity": [
+        "Tập thể",
+        "Cơ quan có thẩm quyền",
+        "Tập thể hoàn thành xuất sắc nhiệm vụ trong năm"
+      ],
+      "relations": [
+        {
+          "subject": "Cơ quan có thẩm quyền",
+          "predicate": "DANH_GIA_XEP_LOAI",
+          "object": "Tập thể"
+        },
+        {
+          "subject": "Tập thể",
+          "predicate": "DUOC_XEP_LOAI",
+          "object": "Tập thể hoàn thành xuất sắc nhiệm vụ trong năm"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Tập thể phải có phong trào thi đua được tổ chức thường xuyên, thiết thực, hiệu quả.",
+    "response": {
+      "Entity": [
+        "Tập thể",
+        "Phong trào thi đua",
+        "Thường xuyên",
+        "Thiết thực",
+        "Hiệu quả"
+      ],
+      "relations": [
+        {
+          "subject": "Tập thể",
+          "predicate": "CO_PHONG_TRAO",
+          "object": "Phong trào thi đua"
+        },
+        {
+          "subject": "Phong trào thi đua",
+          "predicate": "DUOC_TO_CHUC",
+          "object": "Thường xuyên"
+        },
+        {
+          "subject": "Phong trào thi đua",
+          "predicate": "MANG_TINH",
+          "object": "Thiết thực"
+        },
+        {
+          "subject": "Phong trào thi đua",
+          "predicate": "MANG_TINH",
+          "object": "Hiệu quả"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Tập thể phải có nhân tố mới, mô hình mới để tập thể, đơn vị khác trong hoặc ngoài thành phố học tập.",
+    "response": {
+      "Entity": [
+        "Tập thể",
+        "Nhân tố mới",
+        "Mô hình mới",
+        "Tập thể, đơn vị khác trong hoặc ngoài thành phố"
+      ],
+      "relations": [
+        {
+          "subject": "Tập thể",
+          "predicate": "CO",
+          "object": "Nhân tố mới"
+        },
+        {
+          "subject": "Tập thể",
+          "predicate": "CO",
+          "object": "Mô hình mới"
+        },
+        {
+          "subject": "Tập thể, đơn vị khác trong hoặc ngoài thành phố",
+          "predicate": "HOC_TAP",
+          "object": "Nhân tố mới"
+        },
+        {
+          "subject": "Tập thể, đơn vị khác trong hoặc ngoài thành phố",
+          "predicate": "HOC_TAP",
+          "object": "Mô hình mới"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Nội bộ tập thể phải đoàn kết.",
+    "response": {
+      "Entity": [
+        "Tập thể",
+        "Nội bộ tập thể"
+      ],
+      "relations": [
+        {
+          "subject": "Nội bộ tập thể",
+          "predicate": "THUOC",
+          "object": "Tập thể"
+        },
+        {
+          "subject": "Nội bộ tập thể",
+          "predicate": "DOAN_KET",
+          "object": "Tập thể"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Tổ chức Đảng, đoàn thể được cơ quan có thẩm quyền đánh giá, công nhận hoàn thành xuất sắc nhiệm vụ.",
+    "response": {
+      "Entity": [
+        "Tổ chức Đảng",
+        "Đoàn thể",
+        "Cơ quan có thẩm quyền",
+        "Hoàn thành xuất sắc nhiệm vụ"
+      ],
+      "relations": [
+        {
+          "subject": "Cơ quan có thẩm quyền",
+          "predicate": "DANH_GIA_XEP_LOAI",
+          "object": "Tổ chức Đảng"
+        },
+        {
+          "subject": "Cơ quan có thẩm quyền",
+          "predicate": "DANH_GIA_XEP_LOAI",
+          "object": "Đoàn thể"
+        },
+        {
+          "subject": "Tổ chức Đảng",
+          "predicate": "DUOC_CONG_NHAN",
+          "object": "Hoàn thành xuất sắc nhiệm vụ"
+        },
+        {
+          "subject": "Đoàn thể",
+          "predicate": "DUOC_CONG_NHAN",
+          "object": "Hoàn thành xuất sắc nhiệm vụ"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Tập thể phải tích cực thực hành tiết kiệm, chống lãng phí, phòng, chống tham nhũng, tiêu cực và các tệ nạn xã hội khác.",
+    "response": {
+      "Entity": [
+        "Tập thể",
+        "Thực hành tiết kiệm",
+        "Lãng phí",
+        "Tham nhũng",
+        "Tiêu cực",
+        "Các tệ nạn xã hội khác"
+      ],
+      "relations": [
+        {
+          "subject": "Tập thể",
+          "predicate": "THUC_HANH",
+          "object": "Thực hành tiết kiệm"
+        },
+        {
+          "subject": "Tập thể",
+          "predicate": "CHONG",
+          "object": "Lãng phí"
+        },
+        {
+          "subject": "Tập thể",
+          "predicate": "PHONG_CHONG",
+          "object": "Tham nhũng"
+        },
+        {
+          "subject": "Tập thể",
+          "predicate": "PHONG_CHONG",
+          "object": "Tiêu cực"
+        },
+        {
+          "subject": "Tập thể",
+          "predicate": "PHONG_CHONG",
+          "object": "Các tệ nạn xã hội khác"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Tập thể đã được đề nghị tặng danh hiệu \"Cờ thi đua Chính phủ\" nhưng không được xét tặng do chưa đảm bảo hồ sơ, thủ tục theo quy định chung thì được xem xét theo quy định tương ứng.",
+    "response": {
+      "Entity": [
+        "Tập thể",
+        "Cờ thi đua Chính phủ",
+        "Hồ sơ",
+        "Thủ tục",
+        "Quy định chung",
+        "Quy định tương ứng"
+      ],
+      "relations": [
+        {
+          "subject": "Tập thể",
+          "predicate": "DUOC_DE_NGHI_TANG",
+          "object": "Cờ thi đua Chính phủ"
+        },
+        {
+          "subject": "Tập thể",
+          "predicate": "KHONG_DUOC_XET_TANG",
+          "object": "Cờ thi đua Chính phủ"
+        },
+        {
+          "subject": "Tập thể",
+          "predicate": "CHUA_DAM_BAO",
+          "object": "Hồ sơ"
+        },
+        {
+          "subject": "Tập thể",
+          "predicate": "CHUA_DAM_BAO",
+          "object": "Thủ tục"
+        },
+        {
+          "subject": "Hồ sơ",
+          "predicate": "THEO_QUY_DINH",
+          "object": "Quy định chung"
+        },
+        {
+          "subject": "Thủ tục",
+          "predicate": "THEO_QUY_DINH",
+          "object": "Quy định chung"
+        },
+        {
+          "subject": "Tập thể",
+          "predicate": "DUOC_XEM_XET_THEO",
+          "object": "Quy định tương ứng"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Không xét tặng danh hiệu \"Cờ thi đua của Ủy ban nhân dân thành phố\" đối với tập thể không được tặng danh hiệu \"Cờ thi đua của Chính phủ\" do có ý kiến của cơ quan có thẩm quyền về hành vi vi phạm của tập thể dẫn tới không đảm bảo tiêu chuẩn khen thưởng.",
+    "response": {
+      "Entity": [
+        "Cờ thi đua của Ủy ban nhân dân thành phố",
+        "Tập thể",
+        "Cờ thi đua của Chính phủ",
+        "Cơ quan có thẩm quyền",
+        "Hành vi vi phạm của tập thể",
+        "Tiêu chuẩn khen thưởng"
+      ],
+      "relations": [
+        {
+          "subject": "Cờ thi đua của Ủy ban nhân dân thành phố",
+          "predicate": "KHONG_XET_TANG_CHO",
+          "object": "Tập thể"
+        },
+        {
+          "subject": "Tập thể",
+          "predicate": "KHONG_DUOC_TANG",
+          "object": "Cờ thi đua của Chính phủ"
+        },
+        {
+          "subject": "Cơ quan có thẩm quyền",
+          "predicate": "CO_Y_KIEN_VE",
+          "object": "Hành vi vi phạm của tập thể"
+        },
+        {
+          "subject": "Hành vi vi phạm của tập thể",
+          "predicate": "DAN_DEN_KHONG_DAM_BAO",
+          "object": "Tiêu chuẩn khen thưởng"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu \"Cờ thi đua của Ủy ban nhân dân thành phố\" tặng tập thể dẫn đầu phong trào thi đua theo chuyên đề do thành phố phát động có thời gian thực hiện 03 năm trở lên khi tổng kết phong trào.",
+    "response": {
+      "Entity": [
+        "Cờ thi đua của Ủy ban nhân dân thành phố",
+        "Tập thể",
+        "Phong trào thi đua theo chuyên đề",
+        "Thành phố",
+        "03 năm trở lên",
+        "Tổng kết phong trào"
+      ],
+      "relations": [
+        {
+          "subject": "Cờ thi đua của Ủy ban nhân dân thành phố",
+          "predicate": "TANG_CHO",
+          "object": "Tập thể"
+        },
+        {
+          "subject": "Tập thể",
+          "predicate": "DAN_DAU",
+          "object": "Phong trào thi đua theo chuyên đề"
+        },
+        {
+          "subject": "Thành phố",
+          "predicate": "PHAT_DONG",
+          "object": "Phong trào thi đua theo chuyên đề"
+        },
+        {
+          "subject": "Phong trào thi đua theo chuyên đề",
+          "predicate": "CO_THOI_GIAN_THUC_HIEN",
+          "object": "03 năm trở lên"
+        },
+        {
+          "subject": "Cờ thi đua của Ủy ban nhân dân thành phố",
+          "predicate": "KHI",
+          "object": "Tổng kết phong trào"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Tập thể phải tổ chức, triển khai thực hiện đầy đủ các nội dung của phong trào thi đua theo chuyên đề do thành phố phát động.",
+    "response": {
+      "Entity": [
+        "Tập thể",
+        "Các nội dung của phong trào thi đua theo chuyên đề",
+        "Thành phố"
+      ],
+      "relations": [
+        {
+          "subject": "Tập thể",
+          "predicate": "TO_CHUC",
+          "object": "Các nội dung của phong trào thi đua theo chuyên đề"
+        },
+        {
+          "subject": "Tập thể",
+          "predicate": "TRIEN_KHAI_THUC_HIEN_DAY_DU",
+          "object": "Các nội dung của phong trào thi đua theo chuyên đề"
+        },
+        {
+          "subject": "Thành phố",
+          "predicate": "PHAT_DONG",
+          "object": "Các nội dung của phong trào thi đua theo chuyên đề"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Tập thể phải ban hành đầy đủ các văn bản thực hiện phong trào thi đua.",
+    "response": {
+      "Entity": [
+        "Tập thể",
+        "Các văn bản thực hiện phong trào thi đua",
+        "Phong trào thi đua"
+      ],
+      "relations": [
+        {
+          "subject": "Tập thể",
+          "predicate": "BAN_HANH_DAY_DU",
+          "object": "Các văn bản thực hiện phong trào thi đua"
+        },
+        {
+          "subject": "Các văn bản thực hiện phong trào thi đua",
+          "predicate": "THUC_HIEN",
+          "object": "Phong trào thi đua"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Tập thể phải tổ chức sơ kết, tổng kết phong trào thi đua và khen thưởng các tập thể, cá nhân có thành tích tiêu biểu trong thực hiện phong trào theo thẩm quyền.",
+    "response": {
+      "Entity": [
+        "Tập thể",
+        "Phong trào thi đua",
+        "Các tập thể, cá nhân có thành tích tiêu biểu",
+        "Thẩm quyền"
+      ],
+      "relations": [
+        {
+          "subject": "Tập thể",
+          "predicate": "TO_CHUC_SO_KET",
+          "object": "Phong trào thi đua"
+        },
+        {
+          "subject": "Tập thể",
+          "predicate": "TO_CHUC_TONG_KET",
+          "object": "Phong trào thi đua"
+        },
+        {
+          "subject": "Tập thể",
+          "predicate": "KHEN_THUONG",
+          "object": "Các tập thể, cá nhân có thành tích tiêu biểu"
+        },
+        {
+          "subject": "Các tập thể, cá nhân có thành tích tiêu biểu",
+          "predicate": "CO_THANH_TICH_TRONG",
+          "object": "Phong trào thi đua"
+        },
+        {
+          "subject": "Tập thể",
+          "predicate": "THEO",
+          "object": "Thẩm quyền"
+        }
+      ]
+    }
+  },
+  
+    {
+        "instruction": "Hoàn thành chỉ tiêu được giao, được cơ quan chức năng có thẩm quyền đánh giá, xếp loại là tập thể hoàn thành xuất sắc nhiệm vụ trong năm",
+
+        "response": {
+            "Entity": [
+                "Tập thể",
+                "Chỉ tiêu được giao",
+                "Cơ quan chức năng có thẩm quyền",
+                "Hoàn thành xuất sắc nhiệm vụ trong năm"
+            ],
+
+            "relations": [
+                {
+                    "subject": "Tập thể",
+                    "predicate": "HOAN_THANH",
+                    "object": "Chỉ tiêu được giao"
+                },
+                {
+                    "subject": "Cơ quan chức năng có thẩm quyền",
+                    "predicate": "DANH_GIA_XEP_LOAI",
+                    "object": "Tập thể"
+                },
+                {
+                    "subject": "Tập thể",
+                    "predicate": "DUOC_XEP_LOAI",
+                    "object": "Hoàn thành xuất sắc nhiệm vụ trong năm"
+                }
+            ]
+        }
+    },
+
+    {
+        "instruction": "Cá nhân đạt tiêu chuẩn theo quy định tại điểm d khoản 1 Điều 74 Luật Thi đua, khen thưởng.",
+        "response": {
+            "Entity": [
+                "Cá nhân",
+                "Điểm d khoản 1 Điều 74 Luật Thi đua, khen thưởng"
+            ],
+
+            "relations": [
+                {
+                    "subject": "Cá nhân",
+                    "predicate": "DAT_TIEU_CHUAN_THEO_QUY_DINH",
+                    "object": "Điểm d khoản 1 Điều 74 Luật Thi đua, khen thưởng"
+                }
+            ]
+        }
+    },
+
+    {
+        "instruction": "Tập thể đạt tiêu chuẩn theo quy định tại điểm d khoản 3 Điều 74 Luật Thi đua, khen thưởng.",
+        "response": {
+            "Entity": [
+                "Tập thể",
+                "Điểm d khoản 3 Điều 74 Luật Thi đua, khen thưởng"
+            ],
+
+            "relations": [
+                {
+                    "subject": "Tập thể",
+                    "predicate": "DAT_TIEU_CHUAN_THEO_QUY_DINH",
+                    "object": "Điểm d khoản 3 Điều 74 Luật Thi đua, khen thưởng"
+                }
+            ]
+        }
+    },
+
+    {
+    "instruction": "Mặt trận Tổ quốc Việt Nam, các tổ chức thành viên của Mặt trận, các tổ chức xã hội khác triển khai tổ chức phong trào thi đua trong phạm vi nhiệm vụ, quyền hạn của mình.",
+    "response": {
+        "Entity": [
+        "Mặt trận Tổ quốc Việt Nam",
+        "Tổ chức thành viên của Mặt trận",
+        "Tổ chức xã hội",
+        "Phong trào thi đua",
+        "Nhiệm vụ",
+        "Quyền hạn"
+        ],
+        "relations": [
+        {
+            "subject": "Mặt trận Tổ quốc Việt Nam",
+            "predicate": "TO_CHUC",
+            "object": "Phong trào thi đua"
+        },
+        {
+            "subject": "Tổ chức thành viên của Mặt trận",
+            "predicate": "TO_CHUC",
+            "object": "Phong trào thi đua"
+        },
+        {
+            "subject": "Tổ chức xã hội",
+            "predicate": "TO_CHUC",
+            "object": "Phong trào thi đua"
+        },
+        {
+            "subject": "Mặt trận Tổ quốc Việt Nam",
+            "predicate": "TRONG_PHAM_VI",
+            "object": "Nhiệm vụ"
+        },
+        {
+            "subject": "Mặt trận Tổ quốc Việt Nam",
+            "predicate": "TRONG_PHAM_VI",
+            "object": "Quyền hạn"
+        }
+        ]
+    }
+    },
+
+    {
+    "instruction": "Tổ chức hoặc phối hợp với các cơ quan nhà nước để phát động, triển khai các cuộc vận động, các phong trào thi đua, phổ biến kinh nghiệm, nhân rộng các điển hình tiên tiến.",
+    "response": {
+        "Entity": [
+        "Tổ chức",
+        "Cơ quan nhà nước",
+        "Cuộc vận động",
+        "Phong trào thi đua",
+        "Kinh nghiệm",
+        "Điển hình tiên tiến"
+        ],
+        "relations": [
+        {
+            "subject": "Tổ chức",
+            "predicate": "PHOI_HOP",
+            "object": "Cơ quan nhà nước"
+        },
+        {
+            "subject": "Tổ chức",
+            "predicate": "PHAT_DONG",
+            "object": "Cuộc vận động"
+        },
+        {
+            "subject": "Tổ chức",
+            "predicate": "TRIEN_KHAI",
+            "object": "Phong trào thi đua"
+        },
+        {
+            "subject": "Tổ chức",
+            "predicate": "PHO_BIEN",
+            "object": "Kinh nghiệm"
+        },
+        {
+            "subject": "Tổ chức",
+            "predicate": "NHAN_RONG",
+            "object": "Điển hình tiên tiến"
+        }
+        ]
+    }
+    },
+
+    {
+    "instruction": "Phối hợp, thống nhất hành động giữa các tổ chức thành viên; tham gia với các cơ quan chức năng tuyên truyền, động viên đoàn viên, hội viên, các tầng lớp nhân dân tham gia phong trào thi đua và thực hiện chính sách khen thưởng.",
+    "response": {
+        "Entity": [
+        "Tổ chức thành viên",
+        "Cơ quan chức năng",
+        "Đoàn viên",
+        "Hội viên",
+        "Các tầng lớp nhân dân",
+        "Phong trào thi đua",
+        "Chính sách khen thưởng"
+        ],
+        "relations": [
+        {
+            "subject": "Tổ chức thành viên",
+            "predicate": "PHOI_HOP",
+            "object": "Tổ chức thành viên"
+        },
+        {
+            "subject": "Tổ chức thành viên",
+            "predicate": "THAM_GIA",
+            "object": "Cơ quan chức năng"
+        },
+        {
+            "subject": "Cơ quan chức năng",
+            "predicate": "TUYEN_TRUYEN",
+            "object": "Đoàn viên"
+        },
+        {
+            "subject": "Cơ quan chức năng",
+            "predicate": "TUYEN_TRUYEN",
+            "object": "Hội viên"
+        },
+        {
+            "subject": "Cơ quan chức năng",
+            "predicate": "TUYEN_TRUYEN",
+            "object": "Các tầng lớp nhân dân"
+        },
+        {
+            "subject": "Đoàn viên",
+            "predicate": "THAM_GIA",
+            "object": "Phong trào thi đua"
+        },
+        {
+            "subject": "Hội viên",
+            "predicate": "THAM_GIA",
+            "object": "Phong trào thi đua"
+        },
+        {
+            "subject": "Các tầng lớp nhân dân",
+            "predicate": "THAM_GIA",
+            "object": "Phong trào thi đua"
+        },
+        {
+            "subject": "Các tầng lớp nhân dân",
+            "predicate": "THUC_HIEN",
+            "object": "Chính sách khen thưởng"
+        }
+        ]
+    }
+    },
+
+    {
+    "instruction": "Giám sát việc thực hiện chính sách, pháp luật về thi đua, khen thưởng và phản biện xã hội đối với dự thảo chính sách, pháp luật về thi đua, khen thưởng; kịp thời phản ánh, đề xuất các giải pháp để thực hiện các quy định của pháp luật về thi đua, khen thưởng.",
+    "response": {
+        "Entity": [
+        "Chính sách về thi đua, khen thưởng",
+        "Pháp luật về thi đua, khen thưởng",
+        "Dự thảo chính sách về thi đua, khen thưởng",
+        "Dự thảo pháp luật về thi đua, khen thưởng",
+        "Giải pháp",
+        "Quy định của pháp luật về thi đua, khen thưởng"
+        ],
+        "relations": [
+        {
+            "subject": "Tổ chức",
+            "predicate": "GIAM_SAT",
+            "object": "Chính sách về thi đua, khen thưởng"
+        },
+        {
+            "subject": "Tổ chức",
+            "predicate": "GIAM_SAT",
+            "object": "Pháp luật về thi đua, khen thưởng"
+        },
+        {
+            "subject": "Tổ chức",
+            "predicate": "PHAN_BIEN_XA_HOI",
+            "object": "Dự thảo chính sách về thi đua, khen thưởng"
+        },
+        {
+            "subject": "Tổ chức",
+            "predicate": "PHAN_BIEN_XA_HOI",
+            "object": "Dự thảo pháp luật về thi đua, khen thưởng"
+        },
+        {
+            "subject": "Tổ chức",
+            "predicate": "PHAN_ANH",
+            "object": "Quy định của pháp luật về thi đua, khen thưởng"
+        },
+        {
+            "subject": "Tổ chức",
+            "predicate": "DE_XUAT",
+            "object": "Giải pháp"
+        },
+        {
+            "subject": "Giải pháp",
+            "predicate": "THUC_HIEN",
+            "object": "Quy định của pháp luật về thi đua, khen thưởng"
+        }
+        ]
+    }
+    },
+
+    {
+    "instruction": "Bộ, ban, ngành, tỉnh xem xét, quyết định tặng cờ thi đua của Bộ, ban, ngành, tỉnh cho tập thể có thành tích tiêu biểu xuất sắc, dẫn đầu cụm thi đua, khối thi đua do Bộ, ban, ngành, tỉnh tổ chức, không tặng cờ thi đua của cấp mình đối với tập thể nằm trong tỷ lệ được đề nghị tặng Cờ thi đua của Chính phủ.",
+    "response": {
+        "Entity": [
+        "Bộ",
+        "Ban",
+        "Ngành",
+        "Tỉnh",
+        "Tập thể",
+        "Cờ thi đua của Bộ, ban, ngành, tỉnh",
+        "Cờ thi đua của Chính phủ",
+        "Thành tích tiêu biểu xuất sắc",
+        "Cụm thi đua",
+        "Khối thi đua",
+        "Tỷ lệ được đề nghị tặng Cờ thi đua của Chính phủ"
+        ],
+        "relations": [
+        {
+            "subject": "Bộ",
+            "predicate": "XEM_XET_QUYET_DINH_TANG",
+            "object": "Cờ thi đua của Bộ, ban, ngành, tỉnh"
+        },
+        {
+            "subject": "Ban",
+            "predicate": "XEM_XET_QUYET_DINH_TANG",
+            "object": "Cờ thi đua của Bộ, ban, ngành, tỉnh"
+        },
+        {
+            "subject": "Ngành",
+            "predicate": "XEM_XET_QUYET_DINH_TANG",
+            "object": "Cờ thi đua của Bộ, ban, ngành, tỉnh"
+        },
+        {
+            "subject": "Tỉnh",
+            "predicate": "XEM_XET_QUYET_DINH_TANG",
+            "object": "Cờ thi đua của Bộ, ban, ngành, tỉnh"
+        },
+        {
+            "subject": "Tập thể",
+            "predicate": "CO_THANH_TICH",
+            "object": "Thành tích tiêu biểu xuất sắc"
+        },
+        {
+            "subject": "Tập thể",
+            "predicate": "DANH_DAU",
+            "object": "Cụm thi đua"
+        },
+        {
+            "subject": "Tập thể",
+            "predicate": "DANH_DAU",
+            "object": "Khối thi đua"
+        },
+        {
+            "subject": "Tập thể",
+            "predicate": "DUOC_TANG",
+            "object": "Cờ thi đua của Bộ, ban, ngành, tỉnh"
+        },
+        {
+            "subject": "Tập thể",
+            "predicate": "KHONG_DUOC_TANG",
+            "object": "Cờ thi đua của Bộ, ban, ngành, tỉnh"
+        },
+        {
+            "subject": "Tập thể",
+            "predicate": "THUOC_TY_LE",
+            "object": "Tỷ lệ được đề nghị tặng Cờ thi đua của Chính phủ"
+        }
+        ]
+    }
+    },
+
+    {
+    "instruction": "Trường hợp tập thể đã đề nghị tặng Cờ thi đua của Chính phủ nhưng không được xét tặng do chưa đảm bảo tiêu chuẩn, hồ sơ, thủ tục tặng Cờ thi đua của Chính phủ thì Bộ, ban, ngành, tỉnh xem xét, quyết định tặng cờ thi đua của Bộ, ban, ngành, tỉnh theo quy định chung.",
+    "response": {
+        "Entity": [
+        "Tập thể",
+        "Bộ",
+        "Ban",
+        "Ngành",
+        "Tỉnh",
+        "Cờ thi đua của Chính phủ",
+        "Cờ thi đua của Bộ, ban, ngành, tỉnh",
+        "Tiêu chuẩn tặng Cờ thi đua của Chính phủ",
+        "Hồ sơ tặng Cờ thi đua của Chính phủ",
+        "Thủ tục tặng Cờ thi đua của Chính phủ",
+        "Quy định chung"
+        ],
+        "relations": [
+        {
+            "subject": "Tập thể",
+            "predicate": "DE_NGHI_TANG",
+            "object": "Cờ thi đua của Chính phủ"
+        },
+        {
+            "subject": "Tập thể",
+            "predicate": "KHONG_DUOC_XET_TANG",
+            "object": "Cờ thi đua của Chính phủ"
+        },
+        {
+            "subject": "Tập thể",
+            "predicate": "CHUA_DAM_BAO",
+            "object": "Tiêu chuẩn tặng Cờ thi đua của Chính phủ"
+        },
+        {
+            "subject": "Tập thể",
+            "predicate": "CHUA_DAM_BAO",
+            "object": "Hồ sơ tặng Cờ thi đua của Chính phủ"
+        },
+        {
+            "subject": "Tập thể",
+            "predicate": "CHUA_DAM_BAO",
+            "object": "Thủ tục tặng Cờ thi đua của Chính phủ"
+        },
+        {
+            "subject": "Bộ",
+            "predicate": "XEM_XET_QUYET_DINH_TANG",
+            "object": "Cờ thi đua của Bộ, ban, ngành, tỉnh"
+        },
+        {
+            "subject": "Ban",
+            "predicate": "XEM_XET_QUYET_DINH_TANG",
+            "object": "Cờ thi đua của Bộ, ban, ngành, tỉnh"
+        },
+        {
+            "subject": "Ngành",
+            "predicate": "XEM_XET_QUYET_DINH_TANG",
+            "object": "Cờ thi đua của Bộ, ban, ngành, tỉnh"
+        },
+        {
+            "subject": "Tỉnh",
+            "predicate": "XEM_XET_QUYET_DINH_TANG",
+            "object": "Cờ thi đua của Bộ, ban, ngành, tỉnh"
+        },
+        {
+            "subject": "Cờ thi đua của Bộ, ban, ngành, tỉnh",
+            "predicate": "THEO_QUY_DINH",
+            "object": "Quy định chung"
+        }
+        ]
+    }
+    },
+
+    {
+    "instruction": "Khen thưởng cá nhân, tập thể thuộc các tổ chức tôn giáo.",
+    "response": {
+        "Entity": [
+        "Cá nhân",
+        "Tập thể",
+        "Tổ chức tôn giáo"
+        ],
+        "relations": [
+        {
+            "subject": "Cá nhân",
+            "predicate": "THUOC",
+            "object": "Tổ chức tôn giáo"
+        },
+        {
+            "subject": "Tập thể",
+            "predicate": "THUOC",
+            "object": "Tổ chức tôn giáo"
+        },
+        {
+            "subject": "Cá nhân",
+            "predicate": "DUOC_KHEN_THUONG",
+            "object": "Khen thưởng"
+        },
+        {
+            "subject": "Tập thể",
+            "predicate": "DUOC_KHEN_THUONG",
+            "object": "Khen thưởng"
+        }
+        ]
+    }
+    },
+
+    {
+    "instruction": "Việc khen thưởng cá nhân, tập thể thuộc trung ương các giáo hội do cơ quan quản lý nhà nước về tôn giáo (Bộ Nội vụ) trình Thủ tướng Chính phủ.",
+    "response": {
+        "Entity": [
+        "Cá nhân",
+        "Tập thể",
+        "Trung ương các giáo hội",
+        "Cơ quan quản lý nhà nước về tôn giáo",
+        "Bộ Nội vụ",
+        "Thủ tướng Chính phủ",
+        "Khen thưởng"
+        ],
+        "relations": [
+        {
+            "subject": "Cá nhân",
+            "predicate": "THUOC",
+            "object": "Trung ương các giáo hội"
+        },
+        {
+            "subject": "Tập thể",
+            "predicate": "THUOC",
+            "object": "Trung ương các giáo hội"
+        },
+        {
+            "subject": "Cơ quan quản lý nhà nước về tôn giáo",
+            "predicate": "LA",
+            "object": "Bộ Nội vụ"
+        },
+        {
+            "subject": "Bộ Nội vụ",
+            "predicate": "TRINH",
+            "object": "Thủ tướng Chính phủ"
+        },
+        {
+            "subject": "Bộ Nội vụ",
+            "predicate": "TRINH_KHEN_THUONG",
+            "object": "Khen thưởng"
+        }
+        ]
+    }
+    },
+
+    {
+    "instruction": "Cá nhân, tập thể thuộc giáo hội tỉnh, thành phố trực thuộc trung ương do Chủ tịch Ủy ban nhân dân cấp tỉnh trình Thủ tướng Chính phủ.",
+    "response": {
+        "Entity": [
+        "Cá nhân",
+        "Tập thể",
+        "Giáo hội tỉnh",
+        "Giáo hội thành phố trực thuộc trung ương",
+        "Chủ tịch Ủy ban nhân dân cấp tỉnh",
+        "Thủ tướng Chính phủ",
+        "Khen thưởng"
+        ],
+        "relations": [
+        {
+            "subject": "Cá nhân",
+            "predicate": "THUOC",
+            "object": "Giáo hội tỉnh"
+        },
+        {
+            "subject": "Tập thể",
+            "predicate": "THUOC",
+            "object": "Giáo hội tỉnh"
+        },
+        {
+            "subject": "Cá nhân",
+            "predicate": "THUOC",
+            "object": "Giáo hội thành phố trực thuộc trung ương"
+        },
+        {
+            "subject": "Tập thể",
+            "predicate": "THUOC",
+            "object": "Giáo hội thành phố trực thuộc trung ương"
+        },
+        {
+            "subject": "Chủ tịch Ủy ban nhân dân cấp tỉnh",
+            "predicate": "TRINH",
+            "object": "Thủ tướng Chính phủ"
+        },
+        {
+            "subject": "Chủ tịch Ủy ban nhân dân cấp tỉnh",
+            "predicate": "TRINH_KHEN_THUONG",
+            "object": "Khen thưởng"
+        }
+        ]
+    }
+    },
+
+    {
+    "instruction": "Công dân, cá nhân, hộ gia đình có đơn đề nghị cấp đổi gửi cơ quan, đơn vị đã trình khen thưởng.",
+    "response": {
+        "Entity": [
+            "Công dân",
+            "Cá nhân",
+            "Hộ gia đình",
+            "Đơn đề nghị cấp đổi",
+            "Cơ quan, đơn vị đã trình khen thưởng",
+            "Khen thưởng"
+        ],
+        "relations": [
+            {
+                "subject": "Công dân",
+                "predicate": "CO_DON_DE_NGHI_CAP_DOI",
+                "object": "Đơn đề nghị cấp đổi"
+            },
+            {
+                "subject": "Cá nhân",
+                "predicate": "CO_DON_DE_NGHI_CAP_DOI",
+                "object": "Đơn đề nghị cấp đổi"
+            },
+            {
+                "subject": "Hộ gia đình",
+                "predicate": "CO_DON_DE_NGHI_CAP_DOI",
+                "object": "Đơn đề nghị cấp đổi"
+            },
+            {
+                "subject": "Đơn đề nghị cấp đổi",
+                "predicate": "GUI_DEN",
+                "object": "Cơ quan, đơn vị đã trình khen thưởng"
+            },
+            {
+                "subject": "Cơ quan, đơn vị đã trình khen thưởng",
+                "predicate": "DA_TRINH",
+                "object": "Khen thưởng"
+            }
+        ]
+    }
+    },
+
+    {
+        "instruction": "Mật khẩu đáp ứng yêu cầu bảo mật.",
+        "response": {
+            "Entity": [
+                "Mật khẩu",
+                "Yêu cầu bảo mật"
+            ],
+            "relations": [
+                {
+                    "subject": "Mật khẩu",
+                    "predicate": "DAP_UNG",
+                    "object": "Yêu cầu bảo mật"
+                }
+            ]
+        }
+    },
+    {
+        "instruction": "Hệ thống cho phép người dùng đăng nhập.",
+        "response": {
+            "Entity": [
+                "Hệ thống",
+                "Người dùng",
+                "Đăng nhập"
+            ],
+            "relations": [
+                {
+                    "subject": "Hệ thống",
+                    "predicate": "CHO_PHEP",
+                    "object": "Đăng nhập"
+                },
+                {
+                    "subject": "Người dùng",
+                    "predicate": "THUC_HIEN",
+                    "object": "Đăng nhập"
+                }
+            ]
+        }
+    },
+
+
+    {
+        "instruction": "Nhóm phải phân chia lại công việc.",
+        "response": {
+            "Entity": [
+                "Nhóm",
+                "Công việc"
+            ],
+            "relations": [
+                {
+                    "subject": "Nhóm",
+                    "predicate": "PHAN_CHIA_LAI",
+                    "object": "Công việc"
+                }
+            ]
+        }
+    },
+    {
+        "instruction": "Nhóm phải hoàn thành dự án đúng hạn.",
+        "response": {
+            "Entity": [
+                "Nhóm",
+                "Dự án"
+            ],
+            "relations": [
+                {
+                    "subject": "Nhóm",
+                    "predicate": "HOAN_THANH_DUNG_HAN",
+                    "object": "Dự án"
+                }
+            ]
+        }
+    },
+
+
+    {
+        "instruction": "Cán bộ có nhiều đóng góp cho hoạt động của đơn vị.",
+        "response": {
+            "Entity": [
+                "Cán bộ",
+                "Hoạt động của đơn vị",
+                "Đơn vị"
+            ],
+            "relations": [
+                {
+                    "subject": "Cán bộ",
+                    "predicate": "CO_DONG_GOP",
+                    "object": "Hoạt động của đơn vị"
+                },
+                {
+                    "subject": "Hoạt động của đơn vị",
+                    "predicate": "THUOC",
+                    "object": "Đơn vị"
+                }
+            ]
+        }
+    },
+    {
+        "instruction": "Tập thể đề nghị cấp có thẩm quyền xem xét khen thưởng cán bộ.",
+        "response": {
+            "Entity": [
+                "Tập thể",
+                "Cấp có thẩm quyền",
+                "Khen thưởng",
+                "Cán bộ"
+            ],
+            "relations": [
+                {
+                    "subject": "Tập thể",
+                    "predicate": "DE_NGHI",
+                    "object": "Cấp có thẩm quyền"
+                },
+                {
+                    "subject": "Cấp có thẩm quyền",
+                    "predicate": "XEM_XET",
+                    "object": "Khen thưởng"
+                },
+                {
+                    "subject": "Khen thưởng",
+                    "predicate": "AP_DUNG_CHO",
+                    "object": "Cán bộ"
+                }
+            ]
+        }
+    },
+
+
+    {
+    "instruction": "Việc công nhận mức độ hoàn thành nhiệm vụ đối với cá nhân thực hiện theo quy định của Đảng về kiểm điểm và đánh giá xếp loại chất lượng hằng năm.",
+    "response": {
+        "Entity": [
+            "Cá nhân",
+            "Mức độ hoàn thành nhiệm vụ",
+            "Quy định của Đảng",
+            "Kiểm điểm và đánh giá xếp loại chất lượng hằng năm"
+        ],
+        "relations": [
+            {
+                "subject": "Cá nhân",
+                "predicate": "DUOC_CONG_NHAN",
+                "object": "Mức độ hoàn thành nhiệm vụ"
+            },
+            {
+                "subject": "Mức độ hoàn thành nhiệm vụ",
+                "predicate": "THUC_HIEN_THEO",
+                "object": "Quy định của Đảng"
+            },
+            {
+                "subject": "Quy định của Đảng",
+                "predicate": "VE",
+                "object": "Kiểm điểm và đánh giá xếp loại chất lượng hằng năm"
+            }
+        ]
+    }
+},
+
+    {
+        "instruction": "Sở Nội vụ tra cứu khen thưởng.",
+        "response": {
+            "Entity": [
+                "Sở Nội vụ",
+                "Khen thưởng"
+            ],
+            "relations": [
+                {
+                    "subject": "Sở Nội vụ",
+                    "predicate": "TRA_CUU",
+                    "object": "Khen thưởng"
+                }
+            ]
+        }
+    },
+    {
+        "instruction": "Sở Nội vụ xác nhận khen thưởng.",
+        "response": {
+            "Entity": [
+                "Sở Nội vụ",
+                "Khen thưởng"
+            ],
+            "relations": [
+                {
+                    "subject": "Sở Nội vụ",
+                    "predicate": "XAC_NHAN",
+                    "object": "Khen thưởng"
+                }
+            ]
+        }
+    },
+    {
+        "instruction": "Sở Nội vụ thực hiện cấp đổi hiện vật khen thưởng.",
+        "response": {
+            "Entity": [
+                "Sở Nội vụ",
+                "Hiện vật khen thưởng"
+            ],
+            "relations": [
+                {
+                    "subject": "Sở Nội vụ",
+                    "predicate": "CAP_DOI",
+                    "object": "Hiện vật khen thưởng"
+                }
+            ]
+        }
+    },
+    {
+        "instruction": "Sở Nội vụ thực hiện cấp lại hiện vật khen thưởng.",
+        "response": {
+            "Entity": [
+                "Sở Nội vụ",
+                "Hiện vật khen thưởng"
+            ],
+            "relations": [
+                {
+                    "subject": "Sở Nội vụ",
+                    "predicate": "CAP_LAI",
+                    "object": "Hiện vật khen thưởng"
+                }
+            ]
+        }
+  }
+]

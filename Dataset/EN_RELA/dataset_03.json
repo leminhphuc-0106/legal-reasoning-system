@@ -1,0 +1,955 @@
+[
+  {
+    "instruction": "Công nhân, người lao động có sáng kiến mang lại lợi ích trị giá từ 100 triệu đồng trở lên cho doanh nghiệp.",
+    "response": {
+      "Entity": [
+        "Công nhân, người lao động",
+        "Sáng kiến",
+        "Doanh nghiệp"
+      ],
+      "relations": [
+        {
+          "subject": "Công nhân, người lao động",
+          "predicate": "CO_SANG_KIEN",
+          "object": "Sáng kiến mang lại lợi ích trị giá từ 100 triệu đồng trở lên cho doanh nghiệp"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Công nhân, người lao động có đóng góp trong việc đào tạo, bôi dưỡng, giúp đỡ đồng nghiệp để nâng cao trình độ chuyên môn, tay nghề.",
+    "response": {
+      "Entity": [
+        "Công nhân, người lao động",
+        "Đồng nghiệp",
+        "Trình độ chuyên môn, tay nghề"
+      ],
+      "relations": [
+        {
+          "subject": "Công nhân, người lao động",
+          "predicate": "DONG_GOP_DAO_TAO_BOI_DUONG",
+          "object": "Đào tạo, bôi dưỡng, giúp đỡ đồng nghiệp để nâng cao trình độ chuyên môn, tay nghề"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Nông dân có mô hình sản xuất hiệu quả và ồn định từ 02 năm trở lên.",
+    "response": {
+      "Entity": [
+        "Nông dân",
+        "Mô hình sản xuất",
+        "02 năm"
+      ],
+      "relations": [
+        {
+          "subject": "Nông dân",
+          "predicate": "CO_MO_HINH_SAN_XUAT",
+          "object": "Mô hình sản xuất hiệu quả và ồn định từ 02 năm trở lên"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Nông dân giúp đỡ 05 lượt hộ nông dân giảm nghèo.",
+    "response": {
+      "Entity": [
+        "Nông dân",
+        "05 lượt hộ nông dân",
+        "Giảm nghèo"
+      ],
+      "relations": [
+        {
+          "subject": "Nông dân",
+          "predicate": "GIUP_DO",
+          "object": "05 lượt hộ nông dân giảm nghèo"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Nông dân tạo việc làm cho tối thiểu 10 lao động.",
+    "response": {
+      "Entity": [
+        "Nông dân",
+        "Tối thiểu 10 lao động",
+        "Việc làm"
+      ],
+      "relations": [
+        {
+          "subject": "Nông dân",
+          "predicate": "TAO_VIEC_LAM",
+          "object": "Tối thiểu 10 lao động"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Tập thể, cá nhân lập được thành tích trong lao động, sản xuất, công tác.",
+    "response": {
+      "Entity": [
+        "Tập thể, cá nhân",
+        "Thành tích",
+        "Lao động, sản xuất, công tác"
+      ],
+      "relations": [
+        {
+          "subject": "Tập thể, cá nhân",
+          "predicate": "LAP_THANH_TICH",
+          "object": "Thành tích trong lao động, sản xuất, công tác"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Thành tích có phạm vi ảnh hưởng trên địa bàn xã, phường, thị trần, cơ quan, đơn vị, tô chức, doanh nghiệp, hợp tác xã.",
+    "response": {
+      "Entity": [
+        "Thành tích",
+        "Xã, phường, thị trần, cơ quan, đơn vị, tô chức, doanh nghiệp, hợp tác xã"
+      ],
+      "relations": [
+        {
+          "subject": "Thành tích",
+          "predicate": "CO_PHAM_VI_ANH_HUONG",
+          "object": "Trên địa bàn xã, phường, thị trần, cơ quan, đơn vị, tô chức, doanh nghiệp, hợp tác xã"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Tập thể, cá nhân được Ủy ban nhân dân cấp huyện, cơ quan, đơn vị tặng Giấy khen 02 năm liên tục.",
+    "response": {
+      "Entity": [
+        "Tập thể, cá nhân",
+        "Ủy ban nhân dân cấp huyện, cơ quan, đơn vị",
+        "Giấy khen"
+      ],
+      "relations": [
+        {
+          "subject": "Tập thể, cá nhân",
+          "predicate": "DUOC_TANG",
+          "object": "Giấy khen 02 năm liên tục"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Tập thể, cá nhân mưu trí, dũng cảm.",
+    "response": {
+      "Entity": [
+        "Tập thể, cá nhân",
+        "Mưu trí, dũng cảm"
+      ],
+      "relations": [
+        {
+          "subject": "Tập thể, cá nhân",
+          "predicate": "CO_PHAM_CHAT",
+          "object": "Mưu trí, dũng cảm"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Tập thể, cá nhân trực tiếp tham gia chiến đầu n#ẫm bảo vệ an ninh chính trị, trật tự an toàn xã hội.",
+    "response": {
+      "Entity": [
+        "Tập thể, cá nhân",
+        "An ninh chính trị, trật tự an toàn xã hội"
+      ],
+      "relations": [
+        {
+          "subject": "Tập thể, cá nhân",
+          "predicate": "THAM_GIA_BAO_VE",
+          "object": "An ninh chính trị, trật tự an toàn xã hội"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Tập thể, cá nhân trực tiếp tham gia trong điều tra, truy tố, xét xử các vụ án đặc biệt nghiêm trọng.",
+    "response": {
+      "Entity": [
+        "Tập thể, cá nhân",
+        "Điều tra, truy tố, xét xử",
+        "Các vụ án đặc biệt nghiêm trọng"
+      ],
+      "relations": [
+        {
+          "subject": "Tập thể, cá nhân",
+          "predicate": "THAM_GIA",
+          "object": "Điều tra, truy tố, xét xử các vụ án đặc biệt nghiêm trọng"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Cá nhân đã tố cáo.",
+    "response": {
+      "Entity": [
+        "Cá nhân"
+      ],
+      "relations": [
+        {
+          "subject": "Cá nhân",
+          "predicate": "TO_CAO",
+          "object": "Hành vi được tố cáo"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Cá nhân tích cực cộng tác với cơ quan, tổ chức, cá nhân có thâm quyền trong việc phát hiện, ngăn chặn, xử lý hành vi vi phạm pháp luật gây hậu quả nghiêm trọng.",
+    "response": {
+      "Entity": [
+        "Cá nhân",
+        "Cơ quan, tổ chức, cá nhân có thâm quyền",
+        "Hành vi vi phạm pháp luật gây hậu quả nghiêm trọng"
+      ],
+      "relations": [
+        {
+          "subject": "Cá nhân",
+          "predicate": "CONG_TAC",
+          "object": "Với cơ quan, tổ chức, cá nhân có thâm quyền trong việc phát hiện, ngăn chặn, xử lý hành vi vi phạm pháp luật gây hậu quả nghiêm trọng"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Tập thể, cá nhân lập được nhiều thành tích trong công tác phòng chồng thiên tai.",
+    "response": {
+      "Entity": [
+        "Tập thể, cá nhân",
+        "thiên tai"
+      ],
+      "relations": [
+        {
+          "subject": "Tập thể, cá nhân",
+          "predicate": "LAP_THANH_TICH",
+          "object": "Trong công tác phòng chồng thiên tai"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Tập thể, cá nhân lập được nhiều thành tích trong công tác phòng chồng hỏa hoạn.",
+    "response": {
+      "Entity": [
+        "Tập thể, cá nhân",
+        "hỏa hoạn"
+      ],
+      "relations": [
+        {
+          "subject": "Tập thể, cá nhân",
+          "predicate": "LAP_THANH_TICH",
+          "object": "Trong công tác phòng chồng hỏa hoạn"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Tập thể, cá nhân lập được nhiều thành tích trong công tác phòng chồng dịch bệnh.",
+    "response": {
+      "Entity": [
+        "Tập thể, cá nhân",
+        "dịch bệnh"
+      ],
+      "relations": [
+        {
+          "subject": "Tập thể, cá nhân",
+          "predicate": "LAP_THANH_TICH",
+          "object": "Trong công tác phòng chồng dịch bệnh"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Tập thể, cá nhân lập được nhiều thành tích trong công tác tìm kiếm cứu nạn.",
+    "response": {
+      "Entity": [
+        "Tập thể, cá nhân",
+        "Tìm kiếm cứu nạn"
+      ],
+      "relations": [
+        {
+          "subject": "Tập thể, cá nhân",
+          "predicate": "LAP_THANH_TICH",
+          "object": "Trong công tác tìm kiếm cứu nạn"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Cá nhân có hành động, nghĩa cử cao đẹp.",
+    "response": {
+      "Entity": [
+        "Cá nhân",
+        "Hành động, nghĩa cử cao đẹp"
+      ],
+      "relations": [
+        {
+          "subject": "Cá nhân",
+          "predicate": "CO_HANH_DONG",
+          "object": "Hành động, nghĩa cử cao đẹp"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Cá nhân cứu giúp người.",
+    "response": {
+      "Entity": [
+        "Cá nhân",
+        "Người"
+      ],
+      "relations": [
+        {
+          "subject": "Cá nhân",
+          "predicate": "CUU_GIUP",
+          "object": "Người"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Cá nhân bảo vệ tài sản của Nhà nước, của Nhân dân.",
+    "response": {
+      "Entity": [
+        "Cá nhân",
+        "Tài sản của Nhà nước, của Nhân dân"
+      ],
+      "relations": [
+        {
+          "subject": "Cá nhân",
+          "predicate": "BAO_VE",
+          "object": "Tài sản của Nhà nước, của Nhân dân"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Gương người tốt việc tốt có phạm vi ảnh hưởng trên địa bàn thành phố.",
+    "response": {
+      "Entity": [
+        "Gương người tốt việc tốt",
+        "Địa bàn thành phố"
+      ],
+      "relations": [
+        {
+          "subject": "Gương người tốt việc tốt",
+          "predicate": "CO_PHAM_VI_ANH_HUONG",
+          "object": "Địa bàn thành phố"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Tập thể, cá nhân hoàn thành xuất sắc nhiệm vụ chính trị đột xuất.",
+    "response": {
+      "Entity": [
+        "Tập thể, cá nhân",
+        "Nhiệm vụ chính trị đột xuất"
+      ],
+      "relations": [
+        {
+          "subject": "Tập thể, cá nhân",
+          "predicate": "HOAN_THANH",
+          "object": "Nhiệm vụ chính trị đột xuất"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Nhiệm vụ chính trị đột xuất nằm ngoài kế hoạch do Trung ương hoặc thành phố giao.",
+    "response": {
+      "Entity": [
+        "Nhiệm vụ chính trị đột xuất",
+        "Kế hoạch do Trung ương hoặc thành phố giao"
+      ],
+      "relations": [
+        {
+          "subject": "Nhiệm vụ chính trị đột xuất",
+          "predicate": "NAM_NGOAI",
+          "object": "Kế hoạch do Trung ương hoặc thành phố giao"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Tập thể, cá nhân đạt giải đặc biệt, giải nhất, nhì, ba (hoặc tương đương) tại các hội thi cấp khu vực, quôc gia, quôc tế.",
+    "response": {
+      "Entity": [
+        "Tập thể, cá nhân",
+        "Giải đặc biệt, giải nhất, nhì, ba",
+        "Hội thi cấp khu vực, quôc gia, quôc tế"
+      ],
+      "relations": [
+        {
+          "subject": "Tập thể, cá nhân",
+          "predicate": "DAT_GIAI",
+          "object": "Giải đặc biệt, giải nhất, nhì, ba (hoặc tương đương) tại các hội thi cấp khu vực, quôc gia, quôc tế"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Tập thể, cá nhân đạt giải nhất (hoặc tương đương) tại các hội thi cấp thành phố.",
+    "response": {
+      "Entity": [
+        "Tập thể, cá nhân",
+        "Giải nhất",
+        "Hội thi cấp thành phố"
+      ],
+      "relations": [
+        {
+          "subject": "Tập thể, cá nhân",
+          "predicate": "DAT_GIAI",
+          "object": "Giải nhất (hoặc tương đương) tại các hội thi cấp thành phố"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Cá nhân trực tiếp bồi dưỡng, huấn luyện thí sinh, vận động viên đạt giải nhất (hoặc tương đương) tại các hội thi quôc tê.",
+    "response": {
+      "Entity": [
+        "Cá nhân",
+        "Thí sinh, vận động viên",
+        "Giải nhất",
+        "Hội thi quôc tê"
+      ],
+      "relations": [
+        {
+          "subject": "Cá nhân",
+          "predicate": "BOI_DUONG_HUAN_LUYEN",
+          "object": "Thí sinh, vận động viên đạt giải nhất (hoặc tương đương) tại các hội thi quôc tê"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Tập thể, cá nhân, hộ gia đình có nhiều đóng góp về công sức, đất đai và tài sản cho địa phương, xã hội.",
+    "response": {
+      "Entity": [
+        "Tập thể, cá nhân, hộ gia đình",
+        "Công sức, đất đai và tài sản",
+        "Địa phương, xã hội"
+      ],
+      "relations": [
+        {
+          "subject": "Tập thể, cá nhân, hộ gia đình",
+          "predicate": "DONG_GOP",
+          "object": "Công sức, đất đai và tài sản cho địa phương, xã hội"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Giá trị đóng góp từ 350 triệu đồng trở lên đối với tập thể.",
+    "response": {
+      "Entity": [
+        "Giá trị đóng góp",
+        "Tập thể",
+        "350 triệu đồng"
+      ],
+      "relations": [
+        {
+          "subject": "Giá trị đóng góp",
+          "predicate": "DAT_GIA_TRI",
+          "object": "350 triệu đồng trở lên đối với tập thể"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Giá trị đóng góp từ 150 triệu đồng trở lên đối với cá nhân và gia đình.",
+    "response": {
+      "Entity": [
+        "Giá trị đóng góp",
+        "Cá nhân và gia đình",
+        "150 triệu đồng"
+      ],
+      "relations": [
+        {
+          "subject": "Giá trị đóng góp",
+          "predicate": "DAT_GIA_TRI",
+          "object": "150 triệu đồng trở lên đối với cá nhân và gia đình"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Các đơn vị tham gia đóng góp tài trợ các công trình, sự kiện lớn của thành phô (Lễ hội, Tết) phải có giá trị từ 1,5 tỷ đồng trở lên.",
+    "response": {
+      "Entity": [
+        "Các đơn vị",
+        "Công trình, sự kiện lớn của thành phô (Lễ hội, Tết)",
+        "1,5 tỷ đồng"
+      ],
+      "relations": [
+        {
+          "subject": "Các đơn vị",
+          "predicate": "TAI_TRO",
+          "object": "Công trình, sự kiện lớn của thành phô (Lễ hội, Tết) với giá trị từ 1,5 tỷ đồng trở lên"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Tập thể, cá nhân người Việt Nam định cư ở nước ngoài có nhiều đóng góp cho sự nghiệp xây dựng và phát triển thành phố Cần Thơ.",
+    "response": {
+      "Entity": [
+        "Tập thể, cá nhân người Việt Nam định cư ở nước ngoài",
+        "Sự nghiệp xây dựng và phát triển thành phố Cần Thơ"
+      ],
+      "relations": [
+        {
+          "subject": "Tập thể, cá nhân người Việt Nam định cư ở nước ngoài",
+          "predicate": "DONG_GOP",
+          "object": "Sự nghiệp xây dựng và phát triển thành phố Cần Thơ"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Cá nhân, tập thể người nước ngoài có nhiều đóng góp cho sự nghiệp xây dựng và phát triển thành phố Cần Thơ.",
+    "response": {
+      "Entity": [
+        "Cá nhân, tập thể người nước ngoài",
+        "Sự nghiệp xây dựng và phát triển thành phố Cần Thơ"
+      ],
+      "relations": [
+        {
+          "subject": "Cá nhân, tập thể người nước ngoài",
+          "predicate": "DONG_GOP",
+          "object": "Sự nghiệp xây dựng và phát triển thành phố Cần Thơ"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Trước khi trình khen thưởng phải lấy ý kiến Công an thành phó.",
+    "response": {
+      "Entity": [
+        "Công an thành phó",
+        "Khen thưởng"
+      ],
+      "relations": [
+        {
+          "subject": "Công an thành phó",
+          "predicate": "DUOC_LAY_Y_KIEN",
+          "object": "Trước khi trình khen thưởng"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Trước khi trình khen thưởng phải lấy ý kiến Sở Ngoại vụ.",
+    "response": {
+      "Entity": [
+        "Sở Ngoại vụ",
+        "Khen thưởng"
+      ],
+      "relations": [
+        {
+          "subject": "Sở Ngoại vụ",
+          "predicate": "DUOC_LAY_Y_KIEN",
+          "object": "Trước khi trình khen thưởng"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Trước khi trình khen thưởng phải lấy ý kiến các cơ quan quản lý nhà nước có liên quan đến lĩnh vực hoạt động của tập thể, cá nhân đề nghị khen thưởng.",
+    "response": {
+      "Entity": [
+        "Các cơ quan quản lý nhà nước có liên quan",
+        "Tập thể, cá nhân đề nghị khen thưởng"
+      ],
+      "relations": [
+        {
+          "subject": "Các cơ quan quản lý nhà nước có liên quan",
+          "predicate": "DUOC_LAY_Y_KIEN",
+          "object": "Trước khi trình khen thưởng"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Giấy khen để tặng hoặc truy tặng cho cá nhân.",
+    "response": {
+      "Entity": [
+        "Giấy khen",
+        "Cá nhân"
+      ],
+      "relations": [
+        {
+          "subject": "Giấy khen",
+          "predicate": "TANG_HOAC_TRUY_TANG",
+          "object": "Cá nhân"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Giấy khen để xét tặng cho tập thể.",
+    "response": {
+      "Entity": [
+        "Giấy khen",
+        "Tập thể"
+      ],
+      "relations": [
+        {
+          "subject": "Giấy khen",
+          "predicate": "XET_TANG",
+          "object": "Tập thể"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Cá nhân, tập thể gương mẫu chấp hành tốt chủ trương của Đảng.",
+    "response": {
+      "Entity": [
+        "Cá nhân, tập thể",
+        "Chủ trương của Đảng"
+      ],
+      "relations": [
+        {
+          "subject": "Cá nhân, tập thể",
+          "predicate": "CHAP_HANH",
+          "object": "Tốt chủ trương của Đảng"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Cá nhân, tập thể gương mẫu chấp hành chính sách pháp luật của Nhà nước.",
+    "response": {
+      "Entity": [
+        "Cá nhân, tập thể",
+        "Chính sách pháp luật của Nhà nước"
+      ],
+      "relations": [
+        {
+          "subject": "Cá nhân, tập thể",
+          "predicate": "CHAP_HANH",
+          "object": "Chính sách pháp luật của Nhà nước"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Cá nhân, tập thể hoàn thành tốt nhiệm vụ hằng năm trở lên.",
+    "response": {
+      "Entity": [
+        "Cá nhân, tập thể",
+        "Nhiệm vụ hằng năm"
+      ],
+      "relations": [
+        {
+          "subject": "Cá nhân, tập thể",
+          "predicate": "HOAN_THANH",
+          "object": "Tốt nhiệm vụ hằng năm trở lên"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Cá nhân, tập thể có thành tích xuất sắc được bình xét trong các phong trào thi đua, chuyên đề.",
+    "response": {
+      "Entity": [
+        "Cá nhân, tập thể",
+        "Thành tích xuất sắc",
+        "Phong trào thi đua, chuyên đề"
+      ],
+      "relations": [
+        {
+          "subject": "Cá nhân, tập thể",
+          "predicate": "CO_THANH_TICH",
+          "object": "Thành tích xuất sắc được bình xét trong các phong trào thi đua, chuyên đề"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Các phong trào thi đua, chuyên đề do cơ quan cấp thành phó, Ủy ban nhân dân cấp huyện, Ủy ban nhân dân cấp xã, doanh nghiệp và tổ chức kinh tế khác phát động.",
+    "response": {
+      "Entity": [
+        "Các phong trào thi đua, chuyên đề",
+        "Cơ quan cấp thành phó, Ủy ban nhân dân cấp huyện, Ủy ban nhân dân cấp xã, doanh nghiệp và tổ chức kinh tế khác"
+      ],
+      "relations": [
+        {
+          "subject": "Cơ quan cấp thành phó, Ủy ban nhân dân cấp huyện, Ủy ban nhân dân cấp xã, doanh nghiệp và tổ chức kinh tế khác",
+          "predicate": "PHAT_DONG",
+          "object": "Các phong trào thi đua, chuyên đề"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Cá nhân, tập thể lập được thành tích đột xuất có ảnh hưởng ở một trong các lĩnh vựợ thuộc phạm vi quản lý của cơ quan cấp thành phố, Ủy ban nhân dân cấp huyệi, Ủy ban nhân dân cấp xã, doanh nghiệp và tổ chức kinh tế khác.",
+    "response": {
+      "Entity": [
+        "Cá nhân, tập thể",
+        "Thành tích đột xuất",
+        "Cơ quan cấp thành phố, Ủy ban nhân dân cấp huyệi, Ủy ban nhân dân cấp xã, doanh nghiệp và tổ chức kinh tế khác"
+      ],
+      "relations": [
+        {
+          "subject": "Cá nhân, tập thể",
+          "predicate": "LAP_THANH_TICH",
+          "object": "Thành tích đột xuất có ảnh hưởng trong phạm vi quản lý của các cơ quan nêu trong câu"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Cá nhân, tập thể có đóng góp vào sự nghiệp xây dựng và phát triển kinh tế - xã hội, (ng, S dụng tiến bộ khoa học kỹ thuật, công tác an sinh xã hội, từ thiện nhân đạo của bế quan, đơn vị, địa phương.",
+    "response": {
+      "Entity": [
+        "Cá nhân, tập thể",
+        "Sự nghiệp xây dựng và phát triển kinh tế - xã hội",
+        "Tiến bộ khoa học kỹ thuật",
+        "Công tác an sinh xã hội, từ thiện nhân đạo"
+      ],
+      "relations": [
+        {
+          "subject": "Cá nhân, tập thể",
+          "predicate": "DONG_GOP",
+          "object": "Sự nghiệp xây dựng và phát triển kinh tế - xã hội, tiến bộ khoa học kỹ thuật, công tác an sinh xã hội, từ thiện nhân đạo"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Giấy khen để tặng hoặc truy tặng cho cá nhân đạt giải tại các hội thi.",
+    "response": {
+      "Entity": [
+        "Giấy khen",
+        "Cá nhân",
+        "Giải tại các hội thi"
+      ],
+      "relations": [
+        {
+          "subject": "Giấy khen",
+          "predicate": "TANG_HOAC_TRUY_TANG",
+          "object": "Cá nhân đạt giải tại các hội thi"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Giấy khen để xét tặng cho tập thê đạt giải tại các hội thi.",
+    "response": {
+      "Entity": [
+        "Giấy khen",
+        "Tập thê",
+        "Giải tại các hội thi"
+      ],
+      "relations": [
+        {
+          "subject": "Giấy khen",
+          "predicate": "XET_TANG",
+          "object": "Tập thê đạt giải tại các hội thi"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Các trường hợp được quy định tại điểm e khoản 3 Điều 9 của Quyết định này được loại trừ.",
+    "response": {
+      "Entity": [
+        "Các trường hợp",
+        "Điểm e khoản 3 Điều 9 của Quyết định này"
+      ],
+      "relations": [
+        {
+          "subject": "Các trường hợp",
+          "predicate": "DUOC_LOAI_TRU",
+          "object": "Điểm e khoản 3 Điều 9 của Quyết định này"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Tiền thưởng được thực hiện theo quy định tại các Điều 53, Điều 54 và Điều 58 của Nghị định số 98/2023/NĐ-CP hoặc các văn bản quy định chuyên ngành.",
+    "response": {
+      "Entity": [
+        "Tiền thưởng",
+        "Điều 53, Điều 54 và Điều 58 của Nghị định số 98/2023/NĐ-CP",
+        "Các văn bản quy định chuyên ngành"
+      ],
+      "relations": [
+        {
+          "subject": "Tiền thưởng",
+          "predicate": "THUC_HIEN_THEO",
+          "object": "Quy định tại các Điều 53, Điều 54 và Điều 58 của Nghị định số 98/2023/NĐ-CP hoặc các văn bản quy định chuyên ngành"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Tập thể, cá nhân, gia đình được khen thưởng cấp thành phố về thành tích đóng góp kinh phí, đất đai, tài sản cho địa phương, xã hội được tặng biêu trưng của Ủy ban nhân dân thành phó thay cho tiền thưởng.",
+    "response": {
+      "Entity": [
+        "Tập thể, cá nhân, gia đình",
+        "Ủy ban nhân dân thành phó",
+        "Biêu trưng",
+        "Tiền thưởng"
+      ],
+      "relations": [
+        {
+          "subject": "Ủy ban nhân dân thành phó",
+          "predicate": "TANG_BIEU_TRUNG",
+          "object": "Biêu trưng thay cho tiền thưởng cho tập thể, cá nhân, gia đình"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Hồ sơ đề nghị xét tặng danh hiệu thi đua, hình thức khen thưởng được thực hiện theo quy định tại khoản 1, khoản 2 Điều 84 của Luật Thi đua, khen thưởng.",
+    "response": {
+      "Entity": [
+        "Hồ sơ đề nghị xét tặng danh hiệu thi đua, hình thức khen thưởng",
+        "Khoản 1, khoản 2 Điều 84 của Luật Thi đua, khen thưởng"
+      ],
+      "relations": [
+        {
+          "subject": "Hồ sơ đề nghị xét tặng danh hiệu thi đua, hình thức khen thưởng",
+          "predicate": "THUC_HIEN_THEO",
+          "object": "Khoản 1, khoản 2 Điều 84 của Luật Thi đua, khen thưởng"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Hồ sơ đề nghị xét tặng danh hiệu thi đua, hình thức khen thưởng được thực hiện theo quy định tại Điều 40, Điều 43 của Nghị định số 98/2023/NĐ-CP.",
+    "response": {
+      "Entity": [
+        "Hồ sơ đề nghị xét tặng danh hiệu thi đua, hình thức khen thưởng",
+        "Điều 40, Điều 43 của Nghị định số 98/2023/NĐ-CP"
+      ],
+      "relations": [
+        {
+          "subject": "Hồ sơ đề nghị xét tặng danh hiệu thi đua, hình thức khen thưởng",
+          "predicate": "THUC_HIEN_THEO",
+          "object": "Điều 40, Điều 43 của Nghị định số 98/2023/NĐ-CP"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Số lượng hồ sơ là 01 bộ (bản chính).",
+    "response": {
+      "Entity": [
+        "Số lượng hồ sơ",
+        "01 bộ (bản chính)"
+      ],
+      "relations": [
+        {
+          "subject": "Số lượng hồ sơ",
+          "predicate": "CO_SO_LUONG",
+          "object": "01 bộ (bản chính)"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Chánh Văn phòng Ủy ban nhân dân thành phố chịu trách nhiệm thi hành Quyết định này.",
+    "response": {
+      "Entity": [
+        "Chánh Văn phòng Ủy ban nhân dân thành phố",
+        "Quyết định này"
+      ],
+      "relations": [
+        {
+          "subject": "Chánh Văn phòng Ủy ban nhân dân thành phố",
+          "predicate": "CHIU_TRACH_NHIEM_THI_HANH",
+          "object": "Quyết định này"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Giám đốc Sở chịu trách nhiệm thi hành Quyết định này.",
+    "response": {
+      "Entity": [
+        "Giám đốc Sở",
+        "Quyết định này"
+      ],
+      "relations": [
+        {
+          "subject": "Giám đốc Sở",
+          "predicate": "CHIU_TRACH_NHIEM_THI_HANH",
+          "object": "Quyết định này"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Thủ trưởng cơ quan, ban ngành thành phó chịu trách nhiệm thi hành Quyết định này.",
+    "response": {
+      "Entity": [
+        "Thủ trưởng cơ quan, ban ngành thành phó",
+        "Quyết định này"
+      ],
+      "relations": [
+        {
+          "subject": "Thủ trưởng cơ quan, ban ngành thành phó",
+          "predicate": "CHIU_TRACH_NHIEM_THI_HANH",
+          "object": "Quyết định này"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Chủ tịch Ủy ban nhân dân quận, huyện chịu trách nhiệm thi hành Quyết định này.",
+    "response": {
+      "Entity": [
+        "Chủ tịch Ủy ban nhân dân quận, huyện",
+        "Quyết định này"
+      ],
+      "relations": [
+        {
+          "subject": "Chủ tịch Ủy ban nhân dân quận, huyện",
+          "predicate": "CHIU_TRACH_NHIEM_THI_HANH",
+          "object": "Quyết định này"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Chủ tịch Ủy ban nhân dân xã, phường, thị trấn chịu trách nhiệm thi hành Quyết định này.",
+    "response": {
+      "Entity": [
+        "Chủ tịch Ủy ban nhân dân xã, phường, thị trấn",
+        "Quyết định này"
+      ],
+      "relations": [
+        {
+          "subject": "Chủ tịch Ủy ban nhân dân xã, phường, thị trấn",
+          "predicate": "CHIU_TRACH_NHIEM_THI_HANH",
+          "object": "Quyết định này"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành Quyết định này.",
+    "response": {
+      "Entity": [
+        "Tổ chức, cá nhân có liên quan",
+        "Quyết định này"
+      ],
+      "relations": [
+        {
+          "subject": "Tổ chức, cá nhân có liên quan",
+          "predicate": "CHIU_TRACH_NHIEM_THI_HANH",
+          "object": "Quyết định này"
+        }
+      ]
+    }
+  }
+]

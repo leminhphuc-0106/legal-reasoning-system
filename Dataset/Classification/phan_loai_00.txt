@@ -1,0 +1,167 @@
+
+__label__keep Quyết định này áp dụng đối với tập thể có thành tích trong tham gia các phong trào thi đua hoặc có đóng góp cho sự nghiệp xây dựng và phát triển Trường Đại học Kỹ thuật - Công nghệ Cần Thơ và thành phố Cần Thơ.
+__label__keep Quyết định này áp dụng đối với cá nhân viên chức có thành tích trong tham gia các phong trào thi đua hoặc có đóng góp cho sự nghiệp xây dựng và phát triển Trường Đại học Kỹ thuật - Công nghệ Cần Thơ và thành phố Cần Thơ.
+__label__keep Quyết định này áp dụng đối với người lao động có thành tích trong tham gia các phong trào thi đua hoặc có đóng góp cho sự nghiệp xây dựng và phát triển Trường Đại học Kỹ thuật - Công nghệ Cần Thơ và thành phố Cần Thơ.
+__label__keep Viên chức được tặng hằng năm danh hiệu “Lao động tiên tiến” khi gương mẫu chấp hành tốt chủ trương, đường lối của Đảng, chính sách, pháp luật của Nhà nước và nội quy của Nhà trường.
+__label__keep Người lao động được tặng hằng năm danh hiệu “Lao động tiên tiến” khi gương mẫu chấp hành tốt chủ trương, đường lối của Đảng, chính sách, pháp luật của Nhà nước và nội quy của Nhà trường.
+
+__label__keep Viên chức được tặng hằng năm danh hiệu “Lao động tiên tiến” khi hoàn thành tốt nhiệm vụ trở lên.
+__label__keep Người lao động được tặng hằng năm danh hiệu “Lao động tiên tiến” khi hoàn thành tốt nhiệm vụ trở lên.
+
+__label__keep Viên chức được tặng hằng năm danh hiệu “Lao động tiên tiến” khi có tinh thần tự lực, tự cường, đoàn kết, tương trợ và tích cực tham gia phong trào thi đua.
+__label__keep Người lao động được tặng hằng năm danh hiệu “Lao động tiên tiến” khi có tinh thần tự lực, tự cường, đoàn kết, tương trợ và tích cực tham gia phong trào thi đua.
+
+__label__keep Viên chức tiêu biểu được lựa chọn trong số những cá nhân đạt các tiêu chuẩn để tặng hằng năm danh hiệu “Chiến sĩ thi đua cơ sở” khi gương mẫu chấp hành tốt chủ trương, đường lối của Đảng, chính sách, pháp luật của Nhà nước và nội quy của Nhà trường.
+__label__keep Người lao động tiêu biểu được lựa chọn trong số những cá nhân đạt các tiêu chuẩn để tặng hằng năm danh hiệu “Chiến sĩ thi đua cơ sở” khi gương mẫu chấp hành tốt chủ trương, đường lối của Đảng, chính sách, pháp luật của Nhà nước và nội quy của Nhà trường.
+__label__keep Viên chức tiêu biểu được lựa chọn trong số những cá nhân đạt các tiêu chuẩn để tặng hằng năm danh hiệu “Chiến sĩ thi đua cơ sở” khi đạt tiêu chuẩn danh hiệu “Lao động tiên tiến”.
+__label__keep Người lao động tiêu biểu được lựa chọn trong số những cá nhân đạt các tiêu chuẩn để tặng hằng năm danh hiệu “Chiến sĩ thi đua cơ sở” khi đạt tiêu chuẩn danh hiệu “Lao động tiên tiến”.
+
+__label__keep Viên chức tiêu biểu được lựa chọn trong số những cá nhân đạt các tiêu chuẩn để tặng hằng năm danh hiệu “Chiến sĩ thi đua cơ sở” khi hoàn thành xuất sắc nhiệm vụ.
+__label__keep Viên chức tiêu biểu được lựa chọn trong số những cá nhân đạt các tiêu chuẩn để tặng hằng năm danh hiệu “Chiến sĩ thi đua cơ sở” khi có sáng kiến được Hiệu trưởng công nhận.
+__label__keep Viên chức tiêu biểu được lựa chọn trong số những cá nhân đạt các tiêu chuẩn để tặng hằng năm danh hiệu “Chiến sĩ thi đua cơ sở” khi có đề tài khoa học, đề án khoa học, công trình khoa học và công nghệ đã được nghiệm thu.
+__label__keep Người lao động tiêu biểu được lựa chọn trong số những cá nhân đạt các tiêu chuẩn để tặng hằng năm danh hiệu “Chiến sĩ thi đua cơ sở” khi hoàn thành xuất sắc nhiệm vụ.
+__label__keep Người lao động tiêu biểu được lựa chọn trong số những cá nhân đạt các tiêu chuẩn để tặng hằng năm danh hiệu “Chiến sĩ thi đua cơ sở” khi có sáng kiến được Hiệu trưởng công nhận.
+__label__keep Người lao động tiêu biểu được lựa chọn trong số những cá nhân đạt các tiêu chuẩn để tặng hằng năm danh hiệu “Chiến sĩ thi đua cơ sở” khi có đề tài khoa học, đề án khoa học, công trình khoa học và công nghệ đã được nghiệm thu.
+
+__label__keep Viên chức được tặng danh hiệu “Chiến sĩ thi đua thành phố” khi gương mẫu chấp hành tốt chủ trương, đường lối của Đảng, chính sách, pháp luật của Nhà nước và nội quy của Nhà trường.
+__label__keep Người lao động được tặng danh hiệu “Chiến sĩ thi đua thành phố” khi gương mẫu chấp hành tốt chủ trương, đường lối của Đảng, chính sách, pháp luật của Nhà nước và nội quy của Nhà trường.
+
+__label__keep Viên chức được tặng danh hiệu “Chiến sĩ thi đua thành phố” khi có thành tích xuất sắc tiêu biểu và được lựa chọn trong số những cá nhân có 03 lần liên tục được tặng danh hiệu “Chiến sĩ thi đua cơ sở”.
+__label__keep Người lao động được tặng danh hiệu “Chiến sĩ thi đua thành phố” khi có thành tích xuất sắc tiêu biểu và được lựa chọn trong số những cá nhân có 03 lần liên tục được tặng danh hiệu “Chiến sĩ thi đua cơ sở”.
+
+__label__keep Viên chức được tặng danh hiệu “Chiến sĩ thi đua thành phố” khi có sáng kiến đã được áp dụng hiệu quả và có khả năng nhân rộng trong thành phố.
+__label__keep Viên chức được tặng danh hiệu “Chiến sĩ thi đua thành phố” khi có đề tài khoa học, đề án khoa học, công trình khoa học và công nghệ đã được nghiệm thu, áp dụng hiệu quả và có phạm vi ảnh hưởng trong thành phố.
+__label__keep Người lao động được tặng danh hiệu “Chiến sĩ thi đua thành phố” khi có sáng kiến đã được áp dụng hiệu quả và có khả năng nhân rộng trong thành phố.
+__label__keep Người lao động được tặng danh hiệu “Chiến sĩ thi đua thành phố” khi có đề tài khoa học, đề án khoa học, công trình khoa học và công nghệ đã được nghiệm thu, áp dụng hiệu quả và có phạm vi ảnh hưởng trong thành phố.
+
+__label__keep Danh hiệu “Tập thể lao động xuất sắc” được tặng hằng năm cho các phòng thuộc Trường.
+__label__keep Danh hiệu “Tập thể lao động xuất sắc” được tặng hằng năm cho các khoa thuộc Trường.
+__label__keep Danh hiệu “Tập thể lao động xuất sắc” được tặng hằng năm cho các trung tâm thuộc Trường.
+
+__label__keep Tập thể được tặng danh hiệu “Tập thể lao động xuất sắc” khi hoàn thành xuất sắc nhiệm vụ được giao.
+
+__label__keep Tập thể được tặng danh hiệu “Tập thể lao động xuất sắc” khi tích cực tham gia phong trào thi đua thường xuyên.
+__label__keep Tập thể được tặng danh hiệu “Tập thể lao động xuất sắc” khi tích cực tham gia phong trào thi đua thiết thực.
+__label__keep Tập thể được tặng danh hiệu “Tập thể lao động xuất sắc” khi tích cực tham gia phong trào thi đua hiệu quả.
+__label__keep Tập thể được tặng danh hiệu “Tập thể lao động xuất sắc” khi 100% cá nhân trong tập thể hoàn thành nhiệm vụ được giao.
+__label__keep Tập thể được tặng danh hiệu “Tập thể lao động xuất sắc” khi có ít nhất 70% cá nhân trong tập thể đạt danh hiệu “Lao động tiên tiến”.
+
+__label__keep Tập thể được tặng danh hiệu “Tập thể lao động xuất sắc” khi có cá nhân đạt danh hiệu “Chiến sĩ thi đua cơ sở”.
+
+__label__keep Tập thể được tặng danh hiệu “Tập thể lao động xuất sắc” khi nội bộ đoàn kết.
+__label__keep Tập thể được tặng danh hiệu “Tập thể lao động xuất sắc” khi gương mẫu chấp hành tốt chủ trương của Đảng.
+__label__keep Tập thể được tặng danh hiệu “Tập thể lao động xuất sắc” khi gương mẫu chấp hành tốt chính sách, pháp luật của Nhà nước.
+__label__keep Tỷ lệ tập thể được đề nghị xét tặng danh hiệu “Tập thể lao động xuất sắc” không quá 60% tổng số tập thể đạt danh hiệu “Lao động tiên tiến” của đơn vị.
+
+__label__keep Tập thể được tặng hằng năm danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố” khi gương mẫu chấp hành tốt chủ trương của Đảng.
+__label__keep Tập thể được tặng hằng năm danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố” khi gương mẫu chấp hành tốt chính sách, pháp luật của Nhà nước.
+__label__drop Tập thể được tặng hằng năm danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố” khi đạt các tiêu chuẩn theo quy định tại khoản 1 Điều 26 Luật Thi đua, khen thưởng.
+__label__keep Tập thể được tặng hằng năm danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố” khi hoàn thành vượt các chỉ tiêu thi đua trong năm.
+__label__keep Tập thể được tặng hằng năm danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố” khi hoàn thành vượt nhiệm vụ được giao trong năm.
+__label__keep Tập thể được tặng hằng năm danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố” khi có thành tích nổi bật dẫn đầu được bình xét, suy tôn thông qua khối thi đua.
+__label__keep Tập thể được tặng hằng năm danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố” khi tổ chức đảng, đoàn thể của tập thể, nếu có, được đánh giá, xếp loại hoàn thành tốt nhiệm vụ trở lên.
+
+
+__label__keep Tập thể được tặng hằng năm danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố” khi gương mẫu chấp hành tốt chủ trương của Đảng.
+__label__keep Tập thể được tặng hằng năm danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố” khi gương mẫu chấp hành tốt chính sách, pháp luật của Nhà nước.
+__label__drop Tập thể được tặng hằng năm danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố” khi đạt các tiêu chuẩn theo quy định tại khoản 1 Điều 26 Luật Thi đua, khen thưởng.
+__label__keep Tập thể được tặng hằng năm danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố” khi nội bộ đoàn kết.
+__label__keep Tập thể được tặng hằng năm danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố” khi tích cực thực hành tiết kiệm.
+__label__keep Tập thể được tặng hằng năm danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố” khi tích cực chống lãng phí.
+__label__keep Tập thể được tặng hằng năm danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố” khi tích cực phòng, chống tham nhũng, tiêu cực.
+__label__keep Tập thể được tặng hằng năm danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố” khi tích cực phòng, chống các tệ nạn xã hội khác.
+
+__label__keep Tập thể được tặng hằng năm danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố” khi được đánh giá, xếp loại là đơn vị hoàn thành xuất sắc nhiệm vụ.
+__label__drop Tập thể được tặng hằng năm danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố” khi đạt các tiêu chuẩn theo quy định tại khoản 1 Điều 26 Luật Thi đua, khen thưởng.
+
+__label__keep Tập thể được tặng Giấy khen của Hiệu trưởng khi gương mẫu chấp hành tốt chủ trương của Đảng.
+__label__keep Tập thể được tặng Giấy khen của Hiệu trưởng khi gương mẫu chấp hành tốt chính sách, pháp luật của Nhà nước.
+__label__keep Tập thể được tặng Giấy khen của Hiệu trưởng khi hoàn thành tốt nhiệm vụ hằng năm trở lên.
+__label__keep Cá nhân được tặng Giấy khen của Hiệu trưởng khi gương mẫu chấp hành tốt chủ trương của Đảng.
+__label__keep Cá nhân được tặng Giấy khen của Hiệu trưởng khi gương mẫu chấp hành tốt chính sách, pháp luật của Nhà nước.
+__label__keep Cá nhân được tặng Giấy khen của Hiệu trưởng khi hoàn thành tốt nhiệm vụ hằng năm trở lên.
+
+__label__keep Tập thể được tặng Giấy khen của Hiệu trưởng khi gương mẫu chấp hành tốt chủ trương của Đảng.
+__label__keep Tập thể được tặng Giấy khen của Hiệu trưởng khi gương mẫu chấp hành tốt chính sách, pháp luật của Nhà nước.
+__label__keep Tập thể được tặng Giấy khen của Hiệu trưởng khi có đóng góp tích cực và hiệu quả vào sự nghiệp xây dựng và phát triển kinh tế - xã hội của Nhà trường.
+__label__keep Tập thể được tặng Giấy khen của Hiệu trưởng khi có đóng góp tích cực và hiệu quả vào việc ứng dụng tiến bộ khoa học kỹ thuật của Nhà trường.
+__label__keep Tập thể được tặng Giấy khen của Hiệu trưởng khi có đóng góp tích cực và hiệu quả vào công tác an sinh xã hội của Nhà trường.
+__label__keep Tập thể được tặng Giấy khen của Hiệu trưởng khi có đóng góp tích cực và hiệu quả vào công tác từ thiện nhân đạo của Nhà trường.
+__label__keep Cá nhân được tặng Giấy khen của Hiệu trưởng khi gương mẫu chấp hành tốt chủ trương của Đảng.
+__label__keep Cá nhân được tặng Giấy khen của Hiệu trưởng khi gương mẫu chấp hành tốt chính sách, pháp luật của Nhà nước.
+__label__keep Cá nhân được tặng Giấy khen của Hiệu trưởng khi có đóng góp tích cực và hiệu quả vào sự nghiệp xây dựng và phát triển kinh tế - xã hội của Nhà trường.
+__label__keep Cá nhân được tặng Giấy khen của Hiệu trưởng khi có đóng góp tích cực và hiệu quả vào việc ứng dụng tiến bộ khoa học kỹ thuật của Nhà trường.
+__label__keep Cá nhân được tặng Giấy khen của Hiệu trưởng khi có đóng góp tích cực và hiệu quả vào công tác an sinh xã hội của Nhà trường.
+__label__keep Cá nhân được tặng Giấy khen của Hiệu trưởng khi có đóng góp tích cực và hiệu quả vào công tác từ thiện nhân đạo của Nhà trường.
+__label__keep Số lượng cá nhân được khen thưởng không quá 70% số cá nhân đạt mức hoàn thành tốt nhiệm vụ.
+
+__label__keep Tập thể được khen thưởng đột xuất bằng Giấy khen của Hiệu trưởng khi đạt giải đặc biệt hoặc tương đương tại hội thi cấp khu vực hoặc cấp quốc gia.
+__label__keep Tập thể được khen thưởng đột xuất bằng Giấy khen của Hiệu trưởng khi đạt giải nhất hoặc tương đương tại hội thi cấp khu vực hoặc cấp quốc gia.
+__label__keep Tập thể được khen thưởng đột xuất bằng Giấy khen của Hiệu trưởng khi đạt giải nhì hoặc tương đương tại hội thi cấp khu vực hoặc cấp quốc gia.
+__label__keep Tập thể được khen thưởng đột xuất bằng Giấy khen của Hiệu trưởng khi đạt giải ba hoặc tương đương tại hội thi cấp khu vực hoặc cấp quốc gia.
+__label__keep Tập thể được khen thưởng đột xuất bằng Giấy khen của Hiệu trưởng khi đạt giải nhất hoặc tương đương tại hội thi cấp thành phố.
+__label__keep Cá nhân được khen thưởng đột xuất bằng Giấy khen của Hiệu trưởng khi đạt giải đặc biệt hoặc tương đương tại hội thi cấp khu vực hoặc cấp quốc gia.
+__label__keep Cá nhân được khen thưởng đột xuất bằng Giấy khen của Hiệu trưởng khi đạt giải nhất hoặc tương đương tại hội thi cấp khu vực hoặc cấp quốc gia.
+__label__keep Cá nhân được khen thưởng đột xuất bằng Giấy khen của Hiệu trưởng khi đạt giải nhì hoặc tương đương tại hội thi cấp khu vực hoặc cấp quốc gia.
+__label__keep Cá nhân được khen thưởng đột xuất bằng Giấy khen của Hiệu trưởng khi đạt giải ba hoặc tương đương tại hội thi cấp khu vực hoặc cấp quốc gia.
+__label__keep Cá nhân được khen thưởng đột xuất bằng Giấy khen của Hiệu trưởng khi đạt giải nhất hoặc tương đương tại hội thi cấp thành phố.
+
+__label__keep Cá nhân được khen thưởng đột xuất bằng Giấy khen của Hiệu trưởng khi trực tiếp bồi dưỡng thí sinh đạt giải nhất hoặc tương đương tại hội thi cấp thành phố, cấp khu vực hoặc cấp quốc gia.
+__label__keep Cá nhân được khen thưởng đột xuất bằng Giấy khen của Hiệu trưởng khi trực tiếp huấn luyện thí sinh đạt giải nhất hoặc tương đương tại hội thi cấp thành phố, cấp khu vực hoặc cấp quốc gia.
+__label__keep Cá nhân được khen thưởng đột xuất bằng Giấy khen của Hiệu trưởng khi trực tiếp bồi dưỡng vận động viên đạt giải nhất hoặc tương đương tại hội thi cấp thành phố, cấp khu vực hoặc cấp quốc gia.
+__label__keep Cá nhân được khen thưởng đột xuất bằng Giấy khen của Hiệu trưởng khi trực tiếp huấn luyện vận động viên đạt giải nhất hoặc tương đương tại hội thi cấp thành phố, cấp khu vực hoặc cấp quốc gia.
+__label__keep Tổ chức đảng của tập thể, nếu có, được đánh giá, xếp loại hoàn thành tốt nhiệm vụ trở lên.
+__label__keep Đoàn thể của tập thể, nếu có, được đánh giá, xếp loại hoàn thành tốt nhiệm vụ trở lên.
+
+__label__keep Tập thể được tặng hằng năm danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố” khi đạt các tiêu chuẩn theo quy định tại khoản 1 Điều 26 Luật Thi đua, khen thưởng.
+
+
+
+
+
+__label__drop Thi đua là hoạt động có tổ chức.
+__label__drop Thi đua do người có thẩm quyền phát động.
+__label__drop Thi đua có sự tham gia tự nguyện của cá nhân.
+__label__drop Thi đua có sự tham gia tự nguyện của tập thể.
+__label__drop Quyết định này quy định về nguyên tắc thi đua, khen thưởng trong tổ chức thực hiện công tác thi đua, khen thưởng của Trường Đại học Kỹ thuật - Công nghệ Cần Thơ.
+__label__drop Quyết định này quy định về đối tượng xét danh hiệu thi đua trong tổ chức thực hiện công tác thi đua, khen thưởng của Trường Đại học Kỹ thuật - Công nghệ Cần Thơ.
+__label__drop Quyết định này quy định về tiêu chuẩn xét danh hiệu thi đua trong tổ chức thực hiện công tác thi đua, khen thưởng của Trường Đại học Kỹ thuật - Công nghệ Cần Thơ.
+__label__drop Quyết định này quy định về hình thức khen thưởng trong tổ chức thực hiện công tác thi đua, khen thưởng của Trường Đại học Kỹ thuật - Công nghệ Cần Thơ.
+__label__drop Quyết định này quy định về thủ tục đề nghị khen thưởng trong tổ chức thực hiện công tác thi đua, khen thưởng của Trường Đại học Kỹ thuật - Công nghệ Cần Thơ.
+__label__drop Quyết định này quy định về hồ sơ đề nghị khen thưởng trong tổ chức thực hiện công tác thi đua, khen thưởng của Trường Đại học Kỹ thuật - Công nghệ Cần Thơ.
+__label__drop Quyết định này quy định về quỹ thi đua, khen thưởng trong tổ chức thực hiện công tác thi đua, khen thưởng của Trường Đại học Kỹ thuật - Công nghệ Cần Thơ.
+__label__drop Danh hiệu thi đua là hình thức ghi nhận đối với cá nhân, tập thể có thành tích trong thi đua.
+__label__drop Danh hiệu thi đua là hình thức biểu dương đối với cá nhân, tập thể có thành tích trong thi đua.
+__label__drop Danh hiệu thi đua là hình thức tôn vinh đối với cá nhân, tập thể có thành tích trong thi đua.
+__label__drop Danh hiệu thi đua là hình thức khuyến khích bằng lợi ích vật chất đối với cá nhân, tập thể có thành tích trong thi đua.
+__label__drop Khen thưởng là việc ghi nhận đối với cá nhân, tập thể có thành tích trong xây dựng và bảo vệ Tổ quốc.
+__label__drop Khen thưởng là việc ghi nhận đối với cá nhân, tập thể có thành tích trong xây dựng và phát triển Trường Đại học Kỹ thuật - Công nghệ Cần Thơ và thành phố Cần Thơ.
+__label__drop Khen thưởng là việc biểu dương đối với cá nhân, tập thể có thành tích trong xây dựng và bảo vệ Tổ quốc.
+__label__drop Khen thưởng là việc biểu dương đối với cá nhân, tập thể có thành tích trong xây dựng và phát triển Trường Đại học Kỹ thuật - Công nghệ Cần Thơ và thành phố Cần Thơ.
+__label__drop Khen thưởng là việc tôn vinh đối với cá nhân, tập thể có thành tích trong xây dựng và bảo vệ Tổ quốc.
+__label__drop Khen thưởng là việc tôn vinh đối với cá nhân, tập thể có thành tích trong xây dựng và phát triển Trường Đại học Kỹ thuật - Công nghệ Cần Thơ và thành phố Cần Thơ.
+__label__drop Khen thưởng là việc khuyến khích bằng lợi ích vật chất đối với cá nhân, tập thể có thành tích trong xây dựng và bảo vệ Tổ quốc.
+__label__drop Khen thưởng là việc khuyến khích bằng lợi ích vật chất đối với cá nhân, tập thể có thành tích trong xây dựng và phát triển Trường Đại học Kỹ thuật - Công nghệ Cần Thơ và thành phố Cần Thơ.
+__label__drop Sáng kiến là giải pháp có tính mới về kỹ thuật.
+__label__drop Sáng kiến là giải pháp có tính mới về quản lý.
+__label__drop Sáng kiến là giải pháp có tính mới về tác nghiệp.
+__label__drop Sáng kiến là giải pháp có tính mới về ứng dụng tiến bộ kỹ thuật.
+__label__drop Sáng kiến mang lại hiệu quả.
+__label__drop Sáng kiến mang lại lợi ích thiết thực.
+__label__drop Sáng kiến đã được áp dụng tại Nhà trường.
+__label__drop Sáng kiến có khả năng nhân rộng.
+__label__drop Sáng kiến được cấp có thẩm quyền công nhận.
+
+__label__drop Huân chương là hình thức khen thưởng cấp Nhà nước.
+__label__drop Danh hiệu vinh dự nhà nước là hình thức khen thưởng cấp Nhà nước.
+__label__drop Bằng khen của Thủ tướng Chính phủ là hình thức khen thưởng cấp Nhà nước.
+
+__label__drop Cờ thi đua của Chính phủ là danh hiệu thi đua cấp Nhà nước.
+__label__drop Chiến sĩ thi đua toàn quốc là danh hiệu thi đua cấp Nhà nước.
+
+__label__drop Công tác thi đua, khen thưởng phải được thực hiện theo quy định tại Điều 5 của Luật Thi đua, khen thưởng.
+__label__drop Công tác thi đua, khen thưởng phải được thực hiện theo quy định tại Điều 4 của Nghị định số 98/2023/NĐ-CP ngày 31 tháng 12 năm 2023 của Chính phủ quy định chi tiết thi hành một số điều của Luật Thi đua, khen thưởng.
+__label__drop Công tác thi đua, khen thưởng phải được thực hiện theo quy định tại Điều 1 của Thông tư số 01/2024/TT-BNV ngày 24 tháng 02 năm 2024 của Bộ trưởng Bộ Nội vụ quy định biện pháp thi hành Luật Thi đua, khen thưởng.
+__label__drop Công tác thi đua, khen thưởng phải được thực hiện theo quy định tại khoản 2 Điều 5 của Thông tư số 01/2024/TT-BNV ngày 24 tháng 02 năm 2024 của Bộ trưởng Bộ Nội vụ quy định biện pháp thi hành Luật Thi đua, khen thưởng.
+__label__drop Công tác thi đua, khen thưởng phải được thực hiện theo quy định tại Nghị định số 08/2023/NĐ-CP ngày 31 tháng 12 năm 2023 của Chính phủ quy định chi tiết thi hành một số điều của Luật Thi đua, khen thưởng.
+

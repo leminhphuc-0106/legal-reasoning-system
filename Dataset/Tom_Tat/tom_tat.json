@@ -1,0 +1,686 @@
+[
+  {
+    "input": "Điều 7: Tiêu chuẩn tặng danh hiệu “Chiến sĩ thi đua cơ sở” Danh hiệu “Chiến sĩ thi đua cơ sở” được xét tặng hằng năm cho cá nhân tiêu biểu:\nKhoản 1: Cá nhân gương mẫu chấp hành tốt chủ trương, đường lối của Đảng, chính sách, pháp luật của Nhà nước.",
+    "output": "Cá nhân được tặng hằng năm danh hiệu “Chiến sĩ thi đua cơ sở” khi gương mẫu chấp hành tốt chủ trương, đường lối của Đảng, chính sách, pháp luật của Nhà nước."
+  },
+  {
+    "input": "Điều 7: Tiêu chuẩn tặng danh hiệu “Chiến sĩ thi đua cơ sở”\nKhoản 2: Cá nhân hoàn thành xuất sắc nhiệm vụ được giao và có sáng kiến được công nhận.",
+    "output": "Cá nhân được tặng danh hiệu “Chiến sĩ thi đua cơ sở” khi hoàn thành xuất sắc nhiệm vụ được giao và có sáng kiến được công nhận."
+  },
+  {
+    "input": "Điều 7: Tiêu chuẩn tặng danh hiệu “Chiến sĩ thi đua cơ sở”\nKhoản 3: Có thành tích nổi bật trong phong trào thi đua và được tập thể bình xét, lựa chọn.",
+    "output": "Cá nhân được tặng danh hiệu “Chiến sĩ thi đua cơ sở” khi có thành tích nổi bật trong phong trào thi đua và được tập thể bình xét, lựa chọn."
+  },
+  {
+    "input": "Điều 8: Tiêu chuẩn tặng danh hiệu “Tập thể lao động tiên tiến”\nKhoản 1: Danh hiệu “Tập thể lao động tiên tiến” để tặng cho tập thể hoàn thành tốt nhiệm vụ được giao.",
+    "output": "Tập thể được tặng danh hiệu “Tập thể lao động tiên tiến” khi hoàn thành tốt nhiệm vụ được giao."
+  },
+  {
+    "input": "Điều 8: Tiêu chuẩn tặng danh hiệu “Tập thể lao động tiên tiến”\nKhoản 2: Tập thể thực hiện tốt các quy định của Nhà nước, của cơ quan và đoàn kết nội bộ.",
+    "output": "Tập thể được tặng danh hiệu “Tập thể lao động tiên tiến” khi thực hiện tốt các quy định của Nhà nước, của cơ quan và đoàn kết nội bộ."
+  },
+  {
+    "input": "Điều 8: Tiêu chuẩn tặng danh hiệu “Tập thể lao động tiên tiến”\nKhoản 3: Có ít nhất 70% cá nhân trong tập thể hoàn thành tốt nhiệm vụ trở lên.",
+    "output": "Tập thể được tặng danh hiệu “Tập thể lao động tiên tiến” khi có ít nhất 70% cá nhân trong tập thể hoàn thành tốt nhiệm vụ trở lên."
+  },
+  {
+    "input": "Điều 9: Tiêu chuẩn tặng danh hiệu “Tập thể lao động xuất sắc”\nKhoản 1: Tập thể tiêu biểu, hoàn thành xuất sắc nhiệm vụ được giao trong năm.",
+    "output": "Tập thể được tặng danh hiệu “Tập thể lao động xuất sắc” khi là tập thể tiêu biểu và hoàn thành xuất sắc nhiệm vụ được giao trong năm."
+  },
+  {
+    "input": "Điều 9: Tiêu chuẩn tặng danh hiệu “Tập thể lao động xuất sắc”\nKhoản 2: Nội bộ đoàn kết, thực hiện tốt quy chế dân chủ và tích cực tham gia các phong trào thi đua.",
+    "output": "Tập thể được tặng danh hiệu “Tập thể lao động xuất sắc” khi nội bộ đoàn kết, thực hiện tốt quy chế dân chủ và tích cực tham gia các phong trào thi đua."
+  },
+  {
+    "input": "Điều 10: Tiêu chuẩn tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố\nKhoản 1: Bằng khen của Chủ tịch Ủy ban nhân dân thành phố được tặng cho cá nhân có thành tích xuất sắc trong thực hiện nhiệm vụ.",
+    "output": "Cá nhân có thành tích xuất sắc trong thực hiện nhiệm vụ được tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố."
+  },
+  {
+    "input": "Điều 10: Tiêu chuẩn tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố\nKhoản 2: Cá nhân có nhiều thành tích trong phong trào thi đua, gương mẫu chấp hành tốt chủ trương của Đảng và chính sách, pháp luật của Nhà nước.",
+    "output": "Cá nhân có nhiều thành tích trong phong trào thi đua, gương mẫu chấp hành tốt chủ trương của Đảng và chính sách, pháp luật của Nhà nước được tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố."
+  },
+  {
+    "input": "Điều 10: Tiêu chuẩn tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố\nKhoản 3: Tập thể hoàn thành xuất sắc nhiệm vụ, có thành tích nổi bật trong phong trào thi đua và được cấp có thẩm quyền công nhận.",
+    "output": "Tập thể được tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố khi hoàn thành xuất sắc nhiệm vụ, có thành tích nổi bật trong phong trào thi đua và được cấp có thẩm quyền công nhận."
+  },
+  {
+    "input": "Điều 11: Đối tượng và tiêu chuẩn xét tặng Giấy khen\nKhoản 1: Giấy khen được tặng cho cá nhân có thành tích tốt trong công tác, học tập hoặc lao động.",
+    "output": "Cá nhân có thành tích tốt trong công tác, học tập hoặc lao động được tặng Giấy khen."
+  },
+  {
+    "input": "Điều 11: Đối tượng và tiêu chuẩn xét tặng Giấy khen\nKhoản 2: Tập thể hoàn thành tốt nhiệm vụ, chấp hành nghiêm các quy định và có tinh thần đoàn kết.",
+    "output": "Tập thể được tặng Giấy khen khi hoàn thành tốt nhiệm vụ, chấp hành nghiêm các quy định và có tinh thần đoàn kết."
+  },
+  {
+    "input": "Điều 12: Tiêu chuẩn xét khen thưởng đột xuất\nKhoản 1: Cá nhân có hành động dũng cảm, thành tích đặc biệt xuất sắc trong tình huống đột xuất được xem xét khen thưởng.",
+    "output": "Cá nhân có hành động dũng cảm và thành tích đặc biệt xuất sắc trong tình huống đột xuất được xem xét khen thưởng."
+  },
+  {
+    "input": "Điều 12: Tiêu chuẩn xét khen thưởng đột xuất\nKhoản 2: Tập thể có thành tích đột xuất, góp phần bảo vệ tài sản, tính mạng của Nhà nước và nhân dân.",
+    "output": "Tập thể có thành tích đột xuất, góp phần bảo vệ tài sản, tính mạng của Nhà nước và nhân dân được xem xét khen thưởng."
+  },
+  {
+    "input": "Điều 13: Danh hiệu thi đua cấp Nhà nước\nKhoản 1: Các danh hiệu thi đua cấp Nhà nước gồm “Cờ thi đua của Chính phủ” và “Chiến sĩ thi đua toàn quốc”.",
+    "output": "“Cờ thi đua của Chính phủ” là danh hiệu thi đua cấp Nhà nước.\n“Chiến sĩ thi đua toàn quốc” là danh hiệu thi đua cấp Nhà nước."
+  },
+  {
+    "input": "Điều 13: Hình thức khen thưởng cấp Nhà nước\nKhoản 1: Huân chương là hình thức khen thưởng cấp Nhà nước dành cho cá nhân, tập thể có thành tích theo quy định.",
+    "output": "Huân chương là hình thức khen thưởng cấp Nhà nước.\nCá nhân có thành tích theo quy định được xem xét tặng Huân chương.\nTập thể có thành tích theo quy định được xem xét tặng Huân chương."
+  },
+  {
+    "input": "Điều 14: Các hình thức khen thưởng\nKhoản 1: Nhà nước thực hiện khen thưởng bằng các hình thức như Huân chương, Huy chương, Bằng khen và Giấy khen.",
+    "output": "Huân chương là hình thức khen thưởng.\nHuy chương là hình thức khen thưởng.\nBằng khen là hình thức khen thưởng.\nGiấy khen là hình thức khen thưởng."
+  },
+  {
+    "input": "Điều 15: Tiêu chuẩn xét tặng danh hiệu “Lao động tiên tiến”\nKhoản 1: Người lao động hoàn thành tốt nhiệm vụ, có ý thức tổ chức kỷ luật và tích cực tham gia phong trào thi đua.",
+    "output": "Người lao động được tặng danh hiệu “Lao động tiên tiến” khi hoàn thành tốt nhiệm vụ, có ý thức tổ chức kỷ luật và tích cực tham gia phong trào thi đua."
+  },
+  {
+    "input": "Điều 15: Tiêu chuẩn xét tặng danh hiệu “Lao động tiên tiến”\nKhoản 2: Viên chức có tinh thần trách nhiệm cao, hoàn thành nhiệm vụ đúng tiến độ và chấp hành tốt nội quy của đơn vị.",
+    "output": "Viên chức được tặng danh hiệu “Lao động tiên tiến” khi có tinh thần trách nhiệm cao, hoàn thành nhiệm vụ đúng tiến độ và chấp hành tốt nội quy của đơn vị."
+  },
+  {
+    "input": "Điều 16: Tiêu chuẩn xét tặng danh hiệu “Chiến sĩ thi đua cơ sở”\nKhoản 1: Viên chức hoàn thành xuất sắc nhiệm vụ, có sáng kiến hoặc giải pháp mang lại hiệu quả thiết thực.",
+    "output": "Viên chức được tặng danh hiệu “Chiến sĩ thi đua cơ sở” khi hoàn thành xuất sắc nhiệm vụ và có sáng kiến hoặc giải pháp mang lại hiệu quả thiết thực."
+  },
+  {
+    "input": "Điều 16: Tiêu chuẩn xét tặng danh hiệu “Chiến sĩ thi đua cơ sở”\nKhoản 2: Người lao động tiêu biểu được lựa chọn từ những cá nhân hoàn thành xuất sắc nhiệm vụ và có thành tích nổi bật.",
+    "output": "Người lao động tiêu biểu được tặng danh hiệu “Chiến sĩ thi đua cơ sở” khi được lựa chọn từ những cá nhân hoàn thành xuất sắc nhiệm vụ và có thành tích nổi bật."
+  },
+  {
+    "input": "Điều 17: Tiêu chuẩn tặng Cờ thi đua\nKhoản 1: Cờ thi đua được tặng cho tập thể dẫn đầu phong trào thi đua của cơ quan, đơn vị.",
+    "output": "Tập thể dẫn đầu phong trào thi đua của cơ quan, đơn vị được tặng Cờ thi đua."
+  },
+  {
+    "input": "Điều 17: Tiêu chuẩn tặng Cờ thi đua\nKhoản 2: Đơn vị hoàn thành xuất sắc nhiệm vụ, có thành tích nổi bật và được bình xét, lựa chọn là đơn vị dẫn đầu.",
+    "output": "Đơn vị được tặng Cờ thi đua khi hoàn thành xuất sắc nhiệm vụ, có thành tích nổi bật và được bình xét, lựa chọn là đơn vị dẫn đầu."
+  },
+  {
+    "input": "Điều 18: Tiêu chuẩn khen thưởng tập thể\nKhoản 1: Tập thể có thành tích xuất sắc trong thực hiện nhiệm vụ và duy trì tốt phong trào thi đua.",
+    "output": "Tập thể được xem xét khen thưởng khi có thành tích xuất sắc trong thực hiện nhiệm vụ và duy trì tốt phong trào thi đua."
+  },
+  {
+    "input": "Điều 18: Tiêu chuẩn khen thưởng tập thể\nKhoản 2: Tập thể chấp hành tốt pháp luật, quy định của cơ quan và không có cá nhân vi phạm kỷ luật nghiêm trọng.",
+    "output": "Tập thể được xem xét khen thưởng khi chấp hành tốt pháp luật, quy định của cơ quan và không có cá nhân vi phạm kỷ luật nghiêm trọng."
+  },
+  {
+    "input": "Điều 19: Tiêu chuẩn khen thưởng cá nhân\nKhoản 1: Cá nhân có thành tích nổi bật trong năm và được tập thể ghi nhận.",
+    "output": "Cá nhân được xem xét khen thưởng khi có thành tích nổi bật trong năm và được tập thể ghi nhận."
+  },
+  {
+    "input": "Điều 19: Tiêu chuẩn khen thưởng cá nhân\nKhoản 2: Cá nhân hoàn thành xuất sắc nhiệm vụ trong hai năm liên tục và có nhiều đóng góp cho đơn vị.",
+    "output": "Cá nhân được xem xét khen thưởng khi hoàn thành xuất sắc nhiệm vụ trong hai năm liên tục và có nhiều đóng góp cho đơn vị."
+  },
+  {
+    "input": "Điều 20: Nguyên tắc xét khen thưởng\nKhoản 1: Việc xét khen thưởng phải căn cứ vào thành tích đạt được, mức độ đóng góp và phạm vi ảnh hưởng của thành tích.",
+    "output": "Việc xét khen thưởng phải căn cứ vào thành tích đạt được.\nViệc xét khen thưởng phải căn cứ vào mức độ đóng góp.\nViệc xét khen thưởng phải căn cứ vào phạm vi ảnh hưởng của thành tích."
+  },
+  {
+    "input": "Điều 20: Nguyên tắc xét khen thưởng\nKhoản 2: Thành tích đến đâu khen thưởng đến đó; không nhất thiết phải theo trình tự từ hình thức khen thưởng thấp đến hình thức khen thưởng cao.",
+    "output": "Việc khen thưởng phải căn cứ vào mức độ thành tích đạt được.\nViệc khen thưởng không nhất thiết phải theo trình tự từ hình thức khen thưởng thấp đến hình thức khen thưởng cao."
+  },
+  {
+    "input": "Điều 21: Xét tặng danh hiệu thi đua\nKhoản 1: Danh hiệu thi đua được xét tặng hằng năm cho cá nhân, tập thể đạt đủ các tiêu chuẩn theo quy định.",
+    "output": "Cá nhân được xét tặng danh hiệu thi đua hằng năm khi đạt đủ các tiêu chuẩn theo quy định.\nTập thể được xét tặng danh hiệu thi đua hằng năm khi đạt đủ các tiêu chuẩn theo quy định."
+  },
+
+  {
+    "input": "Điều 8: Tiêu chuẩn tặng danh hiệu “Lao động tiên tiến”\nKhoản 1: Danh hiệu “Lao động tiên tiến” được xét tặng hằng năm cho viên chức, người lao động hoàn thành tốt nhiệm vụ được giao.",
+    "output": "Danh hiệu “Lao động tiên tiến” được xét tặng hằng năm cho viên chức khi hoàn thành tốt nhiệm vụ được giao.\nDanh hiệu “Lao động tiên tiến” được xét tặng hằng năm cho người lao động khi hoàn thành tốt nhiệm vụ được giao."
+  },
+  {
+    "input": "Điều 8: Tiêu chuẩn tặng danh hiệu “Lao động tiên tiến”\nKhoản 2: Cá nhân được xét tặng danh hiệu “Lao động tiên tiến” khi chấp hành tốt chủ trương, đường lối của Đảng, chính sách, pháp luật của Nhà nước và quy định của Nhà trường.",
+    "output": "Cá nhân được xét tặng danh hiệu “Lao động tiên tiến” khi chấp hành tốt chủ trương, đường lối của Đảng, chính sách, pháp luật của Nhà nước và quy định của Nhà trường."
+  },
+  {
+    "input": "Điều 8: Tiêu chuẩn tặng danh hiệu “Lao động tiên tiến”\nKhoản 3: Cá nhân được xét tặng danh hiệu “Lao động tiên tiến” khi có tinh thần đoàn kết, tương trợ đồng nghiệp và tích cực tham gia các phong trào thi đua.",
+    "output": "Cá nhân được xét tặng danh hiệu “Lao động tiên tiến” khi có tinh thần đoàn kết, tương trợ đồng nghiệp.\nCá nhân được xét tặng danh hiệu “Lao động tiên tiến” khi tích cực tham gia các phong trào thi đua."
+  },
+  {
+    "input": "Điều 9: Tiêu chuẩn tặng danh hiệu “Chiến sĩ thi đua cơ sở”\nKhoản 1: Danh hiệu “Chiến sĩ thi đua cơ sở” được tặng cho cá nhân đạt danh hiệu “Lao động tiên tiến” và có thành tích tiêu biểu trong công tác.",
+    "output": "Cá nhân được tặng danh hiệu “Chiến sĩ thi đua cơ sở” khi đạt danh hiệu “Lao động tiên tiến”.\nCá nhân được tặng danh hiệu “Chiến sĩ thi đua cơ sở” khi có thành tích tiêu biểu trong công tác."
+  },
+  {
+    "input": "Điều 9: Tiêu chuẩn tặng danh hiệu “Chiến sĩ thi đua cơ sở”\nKhoản 2: Cá nhân được lựa chọn tặng danh hiệu “Chiến sĩ thi đua cơ sở” khi hoàn thành xuất sắc nhiệm vụ hoặc có sáng kiến được công nhận và áp dụng hiệu quả.",
+    "output": "Cá nhân được lựa chọn tặng danh hiệu “Chiến sĩ thi đua cơ sở” khi hoàn thành xuất sắc nhiệm vụ.\nCá nhân được lựa chọn tặng danh hiệu “Chiến sĩ thi đua cơ sở” khi có sáng kiến được công nhận và áp dụng hiệu quả."
+  },
+  {
+    "input": "Điều 9: Tiêu chuẩn tặng danh hiệu “Chiến sĩ thi đua cơ sở”\nKhoản 3: Cá nhân có đề tài khoa học được nghiệm thu đạt yêu cầu hoặc có công trình khoa học và công nghệ được áp dụng hiệu quả thì được xem xét tặng danh hiệu “Chiến sĩ thi đua cơ sở”.",
+    "output": "Cá nhân được xem xét tặng danh hiệu “Chiến sĩ thi đua cơ sở” khi có đề tài khoa học được nghiệm thu đạt yêu cầu.\nCá nhân được xem xét tặng danh hiệu “Chiến sĩ thi đua cơ sở” khi có công trình khoa học và công nghệ được áp dụng hiệu quả."
+  },
+  {
+    "input": "Điều 11: Tiêu chuẩn tặng danh hiệu “Chiến sĩ thi đua thành phố”\nKhoản 1: Danh hiệu “Chiến sĩ thi đua thành phố” được tặng cho cá nhân có thành tích xuất sắc, tiêu biểu trong số những cá nhân có nhiều năm liên tục đạt danh hiệu “Chiến sĩ thi đua cơ sở”.",
+    "output": "Cá nhân được tặng danh hiệu “Chiến sĩ thi đua thành phố” khi có thành tích xuất sắc, tiêu biểu.\nCá nhân được tặng danh hiệu “Chiến sĩ thi đua thành phố” khi thuộc số những cá nhân có nhiều năm liên tục đạt danh hiệu “Chiến sĩ thi đua cơ sở”."
+  },
+  {
+    "input": "Điều 11: Tiêu chuẩn tặng danh hiệu “Chiến sĩ thi đua thành phố”\nKhoản 2: Viên chức được xét tặng danh hiệu “Chiến sĩ thi đua thành phố” khi có sáng kiến được áp dụng hiệu quả, có khả năng nhân rộng trong phạm vi thành phố.",
+    "output": "Viên chức được xét tặng danh hiệu “Chiến sĩ thi đua thành phố” khi có sáng kiến được áp dụng hiệu quả và có khả năng nhân rộng trong phạm vi thành phố."
+  },
+  {
+    "input": "Điều 11: Tiêu chuẩn tặng danh hiệu “Chiến sĩ thi đua thành phố”\nKhoản 3: Người lao động được xét tặng danh hiệu “Chiến sĩ thi đua thành phố” khi có đề tài khoa học, đề án khoa học hoặc công trình khoa học và công nghệ đã được nghiệm thu.",
+    "output": "Người lao động được xét tặng danh hiệu “Chiến sĩ thi đua thành phố” khi có đề tài khoa học đã được nghiệm thu.\nNgười lao động được xét tặng danh hiệu “Chiến sĩ thi đua thành phố” khi có đề án khoa học đã được nghiệm thu.\nNgười lao động được xét tặng danh hiệu “Chiến sĩ thi đua thành phố” khi có công trình khoa học và công nghệ đã được nghiệm thu."
+  },
+  {
+    "input": "Điều 12: Tiêu chuẩn tặng danh hiệu “Tập thể lao động tiên tiến”\nKhoản 1: Danh hiệu “Tập thể lao động tiên tiến” được tặng cho phòng, khoa, trung tâm hoàn thành tốt nhiệm vụ được giao.",
+    "output": "Danh hiệu “Tập thể lao động tiên tiến” được tặng cho phòng khi hoàn thành tốt nhiệm vụ được giao.\nDanh hiệu “Tập thể lao động tiên tiến” được tặng cho khoa khi hoàn thành tốt nhiệm vụ được giao.\nDanh hiệu “Tập thể lao động tiên tiến” được tặng cho trung tâm khi hoàn thành tốt nhiệm vụ được giao."
+  },
+  {
+    "input": "Điều 12: Tiêu chuẩn tặng danh hiệu “Tập thể lao động tiên tiến”\nKhoản 2: Tập thể được xét tặng danh hiệu “Tập thể lao động tiên tiến” khi các thành viên trong tập thể đoàn kết, chấp hành tốt quy định của Nhà trường.",
+    "output": "Tập thể được xét tặng danh hiệu “Tập thể lao động tiên tiến” khi các thành viên trong tập thể đoàn kết.\nTập thể được xét tặng danh hiệu “Tập thể lao động tiên tiến” khi các thành viên trong tập thể chấp hành tốt quy định của Nhà trường."
+  },
+  {
+    "input": "Điều 13: Tiêu chuẩn tặng danh hiệu “Tập thể lao động xuất sắc”\nKhoản 1: Tập thể được tặng danh hiệu “Tập thể lao động xuất sắc” khi hoàn thành xuất sắc nhiệm vụ, thực hiện tốt quy chế dân chủ và tích cực tham gia phong trào thi đua.",
+    "output": "Tập thể được tặng danh hiệu “Tập thể lao động xuất sắc” khi hoàn thành xuất sắc nhiệm vụ.\nTập thể được tặng danh hiệu “Tập thể lao động xuất sắc” khi thực hiện tốt quy chế dân chủ.\nTập thể được tặng danh hiệu “Tập thể lao động xuất sắc” khi tích cực tham gia phong trào thi đua."
+  },
+  {
+    "input": "Điều 13: Tiêu chuẩn tặng danh hiệu “Tập thể lao động xuất sắc”\nKhoản 2: Tập thể được xét tặng danh hiệu “Tập thể lao động xuất sắc” nếu không có cá nhân vi phạm pháp luật, quy định của Nhà trường và có ít nhất 70% cá nhân đạt danh hiệu “Lao động tiên tiến”.",
+    "output": "Tập thể được xét tặng danh hiệu “Tập thể lao động xuất sắc” khi không có cá nhân vi phạm pháp luật.\nTập thể được xét tặng danh hiệu “Tập thể lao động xuất sắc” khi không có cá nhân vi phạm quy định của Nhà trường.\nTập thể được xét tặng danh hiệu “Tập thể lao động xuất sắc” khi có ít nhất 70% cá nhân đạt danh hiệu “Lao động tiên tiến”."
+  },
+  {
+    "input": "Điều 14: Tiêu chuẩn tặng “Bằng khen của Chủ tịch Ủy ban nhân dân thành phố”\nKhoản 1: Bằng khen được tặng cho cá nhân gương mẫu chấp hành tốt chủ trương của Đảng, chính sách, pháp luật của Nhà nước và có thành tích xuất sắc trong công tác.",
+    "output": "Cá nhân được tặng “Bằng khen của Chủ tịch Ủy ban nhân dân thành phố” khi gương mẫu chấp hành tốt chủ trương của Đảng.\nCá nhân được tặng “Bằng khen của Chủ tịch Ủy ban nhân dân thành phố” khi gương mẫu chấp hành tốt chính sách, pháp luật của Nhà nước.\nCá nhân được tặng “Bằng khen của Chủ tịch Ủy ban nhân dân thành phố” khi có thành tích xuất sắc trong công tác."
+  },
+  {
+    "input": "Điều 14: Tiêu chuẩn tặng “Bằng khen của Chủ tịch Ủy ban nhân dân thành phố”\nKhoản 2: Cá nhân có thành tích xuất sắc trong phong trào thi đua hoặc có đóng góp tích cực cho hoạt động của đơn vị được xem xét tặng Bằng khen.",
+    "output": "Cá nhân được xem xét tặng “Bằng khen của Chủ tịch Ủy ban nhân dân thành phố” khi có thành tích xuất sắc trong phong trào thi đua.\nCá nhân được xem xét tặng “Bằng khen của Chủ tịch Ủy ban nhân dân thành phố” khi có đóng góp tích cực cho hoạt động của đơn vị."
+  },
+  {
+    "input": "Điều 15: Tiêu chuẩn tặng “Giấy khen của Hiệu trưởng”\nKhoản 1: Giấy khen của Hiệu trưởng được tặng cho cá nhân hoàn thành tốt nhiệm vụ, có ý thức trách nhiệm cao và tích cực tham gia các hoạt động của Nhà trường.",
+    "output": "Cá nhân được tặng “Giấy khen của Hiệu trưởng” khi hoàn thành tốt nhiệm vụ.\nCá nhân được tặng “Giấy khen của Hiệu trưởng” khi có ý thức trách nhiệm cao.\nCá nhân được tặng “Giấy khen của Hiệu trưởng” khi tích cực tham gia các hoạt động của Nhà trường."
+  },
+  {
+    "input": "Điều 15: Tiêu chuẩn tặng “Giấy khen của Hiệu trưởng”\nKhoản 2: Tập thể được tặng “Giấy khen của Hiệu trưởng” khi hoàn thành xuất sắc nhiệm vụ hoặc có thành tích nổi bật trong phong trào thi đua.",
+    "output": "Tập thể được tặng “Giấy khen của Hiệu trưởng” khi hoàn thành xuất sắc nhiệm vụ.\nTập thể được tặng “Giấy khen của Hiệu trưởng” khi có thành tích nổi bật trong phong trào thi đua."
+  },
+  {
+    "input": "Điều 16: Tiêu chuẩn tặng danh hiệu “Cờ thi đua của thành phố”\nKhoản 1: Cờ thi đua của thành phố được xét tặng cho tập thể dẫn đầu phong trào thi đua, hoàn thành vượt mức các chỉ tiêu và có thành tích tiêu biểu xuất sắc.",
+    "output": "Cờ thi đua của thành phố được xét tặng cho tập thể dẫn đầu phong trào thi đua.\nCờ thi đua của thành phố được xét tặng cho tập thể hoàn thành vượt mức các chỉ tiêu.\nCờ thi đua của thành phố được xét tặng cho tập thể có thành tích tiêu biểu xuất sắc."
+  },
+  {
+    "input": "Điều 16: Tiêu chuẩn tặng danh hiệu “Cờ thi đua của thành phố”\nKhoản 2: Tập thể được đề nghị xét tặng Cờ thi đua của thành phố khi đoàn kết, chấp hành tốt chủ trương, chính sách của Đảng và pháp luật của Nhà nước.",
+    "output": "Tập thể được đề nghị xét tặng “Cờ thi đua của thành phố” khi đoàn kết.\nTập thể được đề nghị xét tặng “Cờ thi đua của thành phố” khi chấp hành tốt chủ trương, chính sách của Đảng.\nTập thể được đề nghị xét tặng “Cờ thi đua của thành phố” khi chấp hành tốt pháp luật của Nhà nước."
+  },
+
+  {
+    "input": "Điều 7. Quy định chức danh tương đương để xét khen thưởng\nChức danh Vụ trưởng và tương đương gồm: Vụ trưởng, Cục trưởng, Viện trưởng và tương đương thuộc các bộ, cơ quan ngang bộ; Chánh Văn phòng, Chánh Thanh tra thuộc bộ; Giám đốc các đơn vị sự nghiệp công lập trực thuộc bộ.",
+    "output": "Chức danh Vụ trưởng và tương đương gồm Vụ trưởng, Cục trưởng, Viện trưởng và tương đương thuộc các bộ, cơ quan ngang bộ; Chánh Văn phòng, Chánh Thanh tra thuộc bộ; Giám đốc các đơn vị sự nghiệp công lập trực thuộc bộ."
+  },
+  {
+    "input": "Điều 7. Quy định chức danh tương đương để xét khen thưởng\nChức danh Vụ trưởng và tương đương gồm: Trưởng ban thuộc cơ quan trung ương; Giám đốc sở và tương đương cấp tỉnh; Chánh Văn phòng Hội đồng nhân dân, Ủy ban nhân dân cấp tỉnh.",
+    "output": "Chức danh Vụ trưởng và tương đương gồm Trưởng ban thuộc cơ quan trung ương; Giám đốc sở và tương đương cấp tỉnh; Chánh Văn phòng Hội đồng nhân dân, Ủy ban nhân dân cấp tỉnh."
+  },
+  {
+    "input": "Điều 7. Quy định chức danh tương đương để xét khen thưởng\nChức danh Phó Vụ trưởng và tương đương gồm: Phó Vụ trưởng, Phó Cục trưởng, Phó Viện trưởng thuộc các bộ, cơ quan ngang bộ; Phó Chánh Văn phòng, Phó Chánh Thanh tra thuộc bộ; Phó Giám đốc các đơn vị sự nghiệp công lập trực thuộc bộ.",
+    "output": "Chức danh Phó Vụ trưởng và tương đương gồm Phó Vụ trưởng, Phó Cục trưởng, Phó Viện trưởng thuộc các bộ, cơ quan ngang bộ; Phó Chánh Văn phòng, Phó Chánh Thanh tra thuộc bộ; Phó Giám đốc các đơn vị sự nghiệp công lập trực thuộc bộ."
+  },
+  {
+    "input": "Điều 7. Quy định chức danh tương đương để xét khen thưởng\nChức danh Phó Vụ trưởng và tương đương gồm: Phó Giám đốc sở; Phó Chánh Văn phòng Hội đồng nhân dân và Ủy ban nhân dân cấp tỉnh; Phó Trưởng ban thuộc cơ quan chuyên môn cấp tỉnh.",
+    "output": "Chức danh Phó Vụ trưởng và tương đương gồm Phó Giám đốc sở; Phó Chánh Văn phòng Hội đồng nhân dân và Ủy ban nhân dân cấp tỉnh; Phó Trưởng ban thuộc cơ quan chuyên môn cấp tỉnh."
+  },
+  {
+    "input": "Điều 7. Quy định chức danh tương đương để xét khen thưởng\nChức danh tương đương cấp huyện gồm: Trưởng phòng thuộc Ủy ban nhân dân cấp huyện; Chánh Văn phòng Hội đồng nhân dân và Ủy ban nhân dân cấp huyện; Trưởng các cơ quan chuyên môn thuộc Ủy ban nhân dân cấp huyện.",
+    "output": "Chức danh tương đương cấp huyện gồm Trưởng phòng thuộc Ủy ban nhân dân cấp huyện; Chánh Văn phòng Hội đồng nhân dân và Ủy ban nhân dân cấp huyện; Trưởng các cơ quan chuyên môn thuộc Ủy ban nhân dân cấp huyện."
+  },
+  {
+    "input": "Điều 7. Quy định chức danh tương đương để xét khen thưởng\nChức danh Phó Trưởng phòng và tương đương cấp huyện gồm: Phó Trưởng phòng thuộc Ủy ban nhân dân cấp huyện; Phó Chánh Văn phòng Hội đồng nhân dân và Ủy ban nhân dân cấp huyện; Phó Trưởng các cơ quan chuyên môn thuộc Ủy ban nhân dân cấp huyện.",
+    "output": "Chức danh Phó Trưởng phòng và tương đương cấp huyện gồm Phó Trưởng phòng thuộc Ủy ban nhân dân cấp huyện; Phó Chánh Văn phòng Hội đồng nhân dân và Ủy ban nhân dân cấp huyện; Phó Trưởng các cơ quan chuyên môn thuộc Ủy ban nhân dân cấp huyện."
+  },
+  {
+    "input": "Điều 7. Quy định chức danh tương đương để xét khen thưởng\nCác chức danh tương đương cấp tỉnh được xác định theo quy định của cấp ủy, tổ chức đảng và cơ quan có thẩm quyền về phân cấp quản lý cán bộ.",
+    "output": "Các chức danh tương đương cấp tỉnh được xác định theo quy định của cấp ủy, tổ chức đảng và cơ quan có thẩm quyền về phân cấp quản lý cán bộ."
+  },
+  {
+    "input": "Điều 7. Quy định chức danh tương đương để xét khen thưởng\nCác chức danh tương đương cấp huyện được xác định theo quy định của cấp ủy, tổ chức đảng và cơ quan có thẩm quyền.",
+    "output": "Các chức danh tương đương cấp huyện được xác định theo quy định của cấp ủy, tổ chức đảng và cơ quan có thẩm quyền."
+  },
+  {
+    "input": "Điều 8. “Huân chương Sao vàng”\n“Huân chương Sao vàng” được tặng cho cá nhân có nhiều công lao to lớn, đặc biệt xuất sắc trong sự nghiệp cách mạng của Đảng và của dân tộc; có phẩm chất đạo đức tốt và không phạm khuyết điểm lớn.",
+    "output": "“Huân chương Sao vàng” được tặng cho cá nhân có nhiều công lao to lớn, đặc biệt xuất sắc trong sự nghiệp cách mạng của Đảng và của dân tộc.\n“Huân chương Sao vàng” được tặng cho cá nhân có phẩm chất đạo đức tốt.\n“Huân chương Sao vàng” được tặng cho cá nhân không phạm khuyết điểm lớn."
+  },
+  {
+    "input": "Điều 8. “Huân chương Sao vàng”\n“Huân chương Sao vàng” để tặng hoặc truy tặng cho cá nhân có thành tích đặc biệt xuất sắc và có đóng góp quan trọng đối với sự nghiệp xây dựng và bảo vệ Tổ quốc.",
+    "output": "“Huân chương Sao vàng” được tặng cho cá nhân có thành tích đặc biệt xuất sắc.\n“Huân chương Sao vàng” được tặng cho cá nhân có đóng góp quan trọng đối với sự nghiệp xây dựng và bảo vệ Tổ quốc.\n“Huân chương Sao vàng” được truy tặng cho cá nhân có thành tích đặc biệt xuất sắc.\n“Huân chương Sao vàng” được truy tặng cho cá nhân có đóng góp quan trọng đối với sự nghiệp xây dựng và bảo vệ Tổ quốc."
+  },
+  {
+    "input": "Điều 9. “Huân chương Hồ Chí Minh”\n“Huân chương Hồ Chí Minh” được tặng hoặc truy tặng cho cá nhân có quá trình cống hiến lâu dài, có nhiều thành tích đặc biệt xuất sắc và có đóng góp lớn cho sự nghiệp cách mạng.",
+    "output": "“Huân chương Hồ Chí Minh” được tặng cho cá nhân có quá trình cống hiến lâu dài.\n“Huân chương Hồ Chí Minh” được tặng cho cá nhân có nhiều thành tích đặc biệt xuất sắc.\n“Huân chương Hồ Chí Minh” được tặng cho cá nhân có đóng góp lớn cho sự nghiệp cách mạng.\n“Huân chương Hồ Chí Minh” được truy tặng cho cá nhân có quá trình cống hiến lâu dài.\n“Huân chương Hồ Chí Minh” được truy tặng cho cá nhân có nhiều thành tích đặc biệt xuất sắc.\n“Huân chương Hồ Chí Minh” được truy tặng cho cá nhân có đóng góp lớn cho sự nghiệp cách mạng."
+  },
+  {
+    "input": "Điều 9. “Huân chương Hồ Chí Minh”\nKhoản 2: Huân chương được xét tặng cho cá nhân đạt thành tích xuất sắc trong công tác, có phạm vi ảnh hưởng rộng và được tập thể ghi nhận.",
+    "output": "“Huân chương Hồ Chí Minh” được xét tặng cho cá nhân đạt thành tích xuất sắc trong công tác.\n“Huân chương Hồ Chí Minh” được xét tặng cho cá nhân có thành tích có phạm vi ảnh hưởng rộng.\n“Huân chương Hồ Chí Minh” được xét tặng cho cá nhân được tập thể ghi nhận."
+  },
+  {
+    "input": "Điều 10. “Huân chương Độc lập”\n“Huân chương Độc lập” được tặng cho cá nhân có thành tích đặc biệt xuất sắc trong công tác, có nhiều đóng góp cho sự phát triển của đất nước hoặc có quá trình cống hiến lâu dài.",
+    "output": "“Huân chương Độc lập” được tặng cho cá nhân có thành tích đặc biệt xuất sắc trong công tác.\n“Huân chương Độc lập” được tặng cho cá nhân có nhiều đóng góp cho sự phát triển của đất nước.\n“Huân chương Độc lập” được tặng cho cá nhân có quá trình cống hiến lâu dài."
+  },
+  {
+    "input": "Điều 10. “Huân chương Độc lập”\nKhoản 2: Tập thể có thành tích đặc biệt xuất sắc, đoàn kết, hoàn thành xuất sắc nhiệm vụ và có nhiều đóng góp cho sự nghiệp xây dựng và bảo vệ Tổ quốc được xem xét tặng Huân chương Độc lập.",
+    "output": "Tập thể được xem xét tặng “Huân chương Độc lập” khi có thành tích đặc biệt xuất sắc.\nTập thể được xem xét tặng “Huân chương Độc lập” khi đoàn kết.\nTập thể được xem xét tặng “Huân chương Độc lập” khi hoàn thành xuất sắc nhiệm vụ.\nTập thể được xem xét tặng “Huân chương Độc lập” khi có nhiều đóng góp cho sự nghiệp xây dựng và bảo vệ Tổ quốc."
+  },
+  {
+    "input": "Điều 11. “Huân chương Lao động”\n“Huân chương Lao động” được tặng cho cá nhân có thành tích xuất sắc trong lao động, sản xuất, công tác, học tập hoặc nghiên cứu khoa học.",
+    "output": "“Huân chương Lao động” được tặng cho cá nhân có thành tích xuất sắc trong lao động.\n“Huân chương Lao động” được tặng cho cá nhân có thành tích xuất sắc trong sản xuất.\n“Huân chương Lao động” được tặng cho cá nhân có thành tích xuất sắc trong công tác.\n“Huân chương Lao động” được tặng cho cá nhân có thành tích xuất sắc trong học tập.\n“Huân chương Lao động” được tặng cho cá nhân có thành tích xuất sắc trong nghiên cứu khoa học."
+  },
+  {
+    "input": "Điều 11. “Huân chương Lao động”\nKhoản 2: Cá nhân có sáng kiến, giải pháp kỹ thuật được áp dụng hiệu quả hoặc có công trình nghiên cứu khoa học có giá trị được xem xét tặng Huân chương Lao động.",
+    "output": "Cá nhân được xem xét tặng “Huân chương Lao động” khi có sáng kiến được áp dụng hiệu quả.\nCá nhân được xem xét tặng “Huân chương Lao động” khi có giải pháp kỹ thuật được áp dụng hiệu quả.\nCá nhân được xem xét tặng “Huân chương Lao động” khi có công trình nghiên cứu khoa học có giá trị."
+  },
+  {
+    "input": "Điều 12. “Bằng khen của Thủ tướng Chính phủ”\nBằng khen của Thủ tướng Chính phủ được tặng cho cá nhân có thành tích xuất sắc tiêu biểu, có nhiều đóng góp trong phong trào thi đua hoặc đạt thành tích nổi bật trong thực hiện nhiệm vụ.",
+    "output": "“Bằng khen của Thủ tướng Chính phủ” được tặng cho cá nhân có thành tích xuất sắc tiêu biểu.\n“Bằng khen của Thủ tướng Chính phủ” được tặng cho cá nhân có nhiều đóng góp trong phong trào thi đua.\n“Bằng khen của Thủ tướng Chính phủ” được tặng cho cá nhân đạt thành tích nổi bật trong thực hiện nhiệm vụ."
+  },
+  {
+    "input": "Điều 12. “Bằng khen của Thủ tướng Chính phủ”\nTập thể có thành tích xuất sắc, hoàn thành vượt mức nhiệm vụ được giao và có nhiều đóng góp cho cộng đồng được xem xét tặng Bằng khen của Thủ tướng Chính phủ.",
+    "output": "Tập thể được xem xét tặng “Bằng khen của Thủ tướng Chính phủ” khi có thành tích xuất sắc.\nTập thể được xem xét tặng “Bằng khen của Thủ tướng Chính phủ” khi hoàn thành vượt mức nhiệm vụ được giao.\nTập thể được xem xét tặng “Bằng khen của Thủ tướng Chính phủ” khi có nhiều đóng góp cho cộng đồng."
+  },
+  {
+    "input": "Điều 13. “Cờ thi đua của Chính phủ”\nCờ thi đua của Chính phủ được xét tặng cho tập thể dẫn đầu phong trào thi đua, hoàn thành xuất sắc và toàn diện nhiệm vụ được giao, có nhân tố mới, mô hình mới để các đơn vị khác học tập.",
+    "output": "“Cờ thi đua của Chính phủ” được xét tặng cho tập thể dẫn đầu phong trào thi đua.\n“Cờ thi đua của Chính phủ” được xét tặng cho tập thể hoàn thành xuất sắc và toàn diện nhiệm vụ được giao.\n“Cờ thi đua của Chính phủ” được xét tặng cho tập thể có nhân tố mới để các đơn vị khác học tập.\n“Cờ thi đua của Chính phủ” được xét tặng cho tập thể có mô hình mới để các đơn vị khác học tập."
+  },
+  {
+    "input": "Điều 14. “Bằng khen của Bộ trưởng”\nBằng khen của Bộ trưởng được tặng cho cá nhân có thành tích xuất sắc trong thực hiện nhiệm vụ, có sáng kiến được áp dụng hiệu quả hoặc có đóng góp tích cực cho hoạt động của ngành.",
+    "output": "“Bằng khen của Bộ trưởng” được tặng cho cá nhân có thành tích xuất sắc trong thực hiện nhiệm vụ.\n“Bằng khen của Bộ trưởng” được tặng cho cá nhân có sáng kiến được áp dụng hiệu quả.\n“Bằng khen của Bộ trưởng” được tặng cho cá nhân có đóng góp tích cực cho hoạt động của ngành."
+  },
+  {
+    "input": "Điều 14. “Bằng khen của Bộ trưởng”\nKhoản 2: Tập thể được tặng Bằng khen của Bộ trưởng khi hoàn thành xuất sắc nhiệm vụ, có thành tích nổi bật trong phong trào thi đua hoặc có mô hình mới mang lại hiệu quả.",
+    "output": "Tập thể được tặng “Bằng khen của Bộ trưởng” khi hoàn thành xuất sắc nhiệm vụ.\nTập thể được tặng “Bằng khen của Bộ trưởng” khi có thành tích nổi bật trong phong trào thi đua.\nTập thể được tặng “Bằng khen của Bộ trưởng” khi có mô hình mới mang lại hiệu quả."
+  },
+  {
+    "input": "Điều 15. “Giấy khen”\nGiấy khen được tặng cho cá nhân có thành tích tốt trong công tác, tích cực tham gia phong trào thi đua hoặc có sáng kiến được đơn vị công nhận.",
+    "output": "“Giấy khen” được tặng cho cá nhân có thành tích tốt trong công tác.\n“Giấy khen” được tặng cho cá nhân tích cực tham gia phong trào thi đua.\n“Giấy khen” được tặng cho cá nhân có sáng kiến được đơn vị công nhận."
+  },
+
+  {
+    "input": "Điều 7. Quy định chức danh tương đương để xét khen thưởng\nChức danh Vụ trưởng và tương đương gồm: Vụ trưởng, Cục trưởng, Viện trưởng và tương đương thuộc các bộ, cơ quan ngang bộ; Chánh Văn phòng, Chánh Thanh tra thuộc bộ; Giám đốc các đơn vị sự nghiệp công lập trực thuộc bộ.",
+    "output": "Chức danh Vụ trưởng và tương đương gồm Vụ trưởng, Cục trưởng, Viện trưởng và tương đương thuộc các bộ, cơ quan ngang bộ; Chánh Văn phòng, Chánh Thanh tra thuộc bộ; Giám đốc các đơn vị sự nghiệp công lập trực thuộc bộ."
+  },
+  {
+    "input": "Điều 7. Quy định chức danh tương đương để xét khen thưởng\nChức danh Vụ trưởng và tương đương gồm: Trưởng ban thuộc cơ quan trung ương; Giám đốc sở và tương đương cấp tỉnh; Chánh Văn phòng Hội đồng nhân dân, Ủy ban nhân dân cấp tỉnh.",
+    "output": "Chức danh Vụ trưởng và tương đương gồm Trưởng ban thuộc cơ quan trung ương; Giám đốc sở và tương đương cấp tỉnh; Chánh Văn phòng Hội đồng nhân dân, Ủy ban nhân dân cấp tỉnh."
+  },
+  {
+    "input": "Điều 7. Quy định chức danh tương đương để xét khen thưởng\nChức danh Phó Vụ trưởng và tương đương gồm: Phó Vụ trưởng, Phó Cục trưởng, Phó Viện trưởng thuộc các bộ, cơ quan ngang bộ; Phó Chánh Văn phòng, Phó Chánh Thanh tra thuộc bộ; Phó Giám đốc các đơn vị sự nghiệp công lập trực thuộc bộ.",
+    "output": "Chức danh Phó Vụ trưởng và tương đương gồm Phó Vụ trưởng, Phó Cục trưởng, Phó Viện trưởng thuộc các bộ, cơ quan ngang bộ; Phó Chánh Văn phòng, Phó Chánh Thanh tra thuộc bộ; Phó Giám đốc các đơn vị sự nghiệp công lập trực thuộc bộ."
+  },
+  {
+    "input": "Điều 7. Quy định chức danh tương đương để xét khen thưởng\nChức danh Phó Vụ trưởng và tương đương gồm: Phó Giám đốc sở; Phó Chánh Văn phòng Hội đồng nhân dân và Ủy ban nhân dân cấp tỉnh; Phó Trưởng ban thuộc cơ quan chuyên môn cấp tỉnh.",
+    "output": "Chức danh Phó Vụ trưởng và tương đương gồm Phó Giám đốc sở; Phó Chánh Văn phòng Hội đồng nhân dân và Ủy ban nhân dân cấp tỉnh; Phó Trưởng ban thuộc cơ quan chuyên môn cấp tỉnh."
+  },
+  {
+    "input": "Điều 7. Quy định chức danh tương đương để xét khen thưởng\nChức danh tương đương cấp huyện gồm: Trưởng phòng thuộc Ủy ban nhân dân cấp huyện; Chánh Văn phòng Hội đồng nhân dân và Ủy ban nhân dân cấp huyện; Trưởng các cơ quan chuyên môn thuộc Ủy ban nhân dân cấp huyện.",
+    "output": "Chức danh tương đương cấp huyện gồm Trưởng phòng thuộc Ủy ban nhân dân cấp huyện; Chánh Văn phòng Hội đồng nhân dân và Ủy ban nhân dân cấp huyện; Trưởng các cơ quan chuyên môn thuộc Ủy ban nhân dân cấp huyện."
+  },
+  {
+    "input": "Điều 7. Quy định chức danh tương đương để xét khen thưởng\nChức danh Phó Trưởng phòng và tương đương cấp huyện gồm: Phó Trưởng phòng thuộc Ủy ban nhân dân cấp huyện; Phó Chánh Văn phòng Hội đồng nhân dân và Ủy ban nhân dân cấp huyện; Phó Trưởng các cơ quan chuyên môn thuộc Ủy ban nhân dân cấp huyện.",
+    "output": "Chức danh Phó Trưởng phòng và tương đương cấp huyện gồm Phó Trưởng phòng thuộc Ủy ban nhân dân cấp huyện; Phó Chánh Văn phòng Hội đồng nhân dân và Ủy ban nhân dân cấp huyện; Phó Trưởng các cơ quan chuyên môn thuộc Ủy ban nhân dân cấp huyện."
+  },
+  {
+    "input": "Điều 7. Quy định chức danh tương đương để xét khen thưởng\nCác chức danh tương đương cấp tỉnh được xác định theo quy định của cấp ủy, tổ chức đảng và cơ quan có thẩm quyền về phân cấp quản lý cán bộ.",
+    "output": "Các chức danh tương đương cấp tỉnh được xác định theo quy định của cấp ủy, tổ chức đảng và cơ quan có thẩm quyền về phân cấp quản lý cán bộ."
+  },
+  {
+    "input": "Điều 7. Quy định chức danh tương đương để xét khen thưởng\nCác chức danh tương đương cấp huyện được xác định theo quy định của cấp ủy, tổ chức đảng và cơ quan có thẩm quyền.",
+    "output": "Các chức danh tương đương cấp huyện được xác định theo quy định của cấp ủy, tổ chức đảng và cơ quan có thẩm quyền."
+  },
+  {
+    "input": "Điều 8. “Huân chương Sao vàng”\n“Huân chương Sao vàng” được tặng cho cá nhân có nhiều công lao to lớn, đặc biệt xuất sắc trong sự nghiệp cách mạng của Đảng và của dân tộc; có phẩm chất đạo đức tốt và không phạm khuyết điểm lớn.",
+    "output": "“Huân chương Sao vàng” được tặng cho cá nhân có nhiều công lao to lớn, đặc biệt xuất sắc trong sự nghiệp cách mạng của Đảng và của dân tộc.\n“Huân chương Sao vàng” được tặng cho cá nhân có phẩm chất đạo đức tốt.\n“Huân chương Sao vàng” được tặng cho cá nhân không phạm khuyết điểm lớn."
+  },
+  {
+    "input": "Điều 8. “Huân chương Sao vàng”\n“Huân chương Sao vàng” để tặng hoặc truy tặng cho cá nhân có thành tích đặc biệt xuất sắc và có đóng góp quan trọng đối với sự nghiệp xây dựng và bảo vệ Tổ quốc.",
+    "output": "“Huân chương Sao vàng” được tặng cho cá nhân có thành tích đặc biệt xuất sắc.\n“Huân chương Sao vàng” được tặng cho cá nhân có đóng góp quan trọng đối với sự nghiệp xây dựng và bảo vệ Tổ quốc.\n“Huân chương Sao vàng” được truy tặng cho cá nhân có thành tích đặc biệt xuất sắc.\n“Huân chương Sao vàng” được truy tặng cho cá nhân có đóng góp quan trọng đối với sự nghiệp xây dựng và bảo vệ Tổ quốc."
+  },
+  {
+    "input": "Điều 9. “Huân chương Hồ Chí Minh”\n“Huân chương Hồ Chí Minh” được tặng hoặc truy tặng cho cá nhân có quá trình cống hiến lâu dài, có nhiều thành tích đặc biệt xuất sắc và có đóng góp lớn cho sự nghiệp cách mạng.",
+    "output": "“Huân chương Hồ Chí Minh” được tặng cho cá nhân có quá trình cống hiến lâu dài.\n“Huân chương Hồ Chí Minh” được tặng cho cá nhân có nhiều thành tích đặc biệt xuất sắc.\n“Huân chương Hồ Chí Minh” được tặng cho cá nhân có đóng góp lớn cho sự nghiệp cách mạng.\n“Huân chương Hồ Chí Minh” được truy tặng cho cá nhân có quá trình cống hiến lâu dài.\n“Huân chương Hồ Chí Minh” được truy tặng cho cá nhân có nhiều thành tích đặc biệt xuất sắc.\n“Huân chương Hồ Chí Minh” được truy tặng cho cá nhân có đóng góp lớn cho sự nghiệp cách mạng."
+  },
+  {
+    "input": "Điều 9. “Huân chương Hồ Chí Minh”\nKhoản 2: Huân chương được xét tặng cho cá nhân đạt thành tích xuất sắc trong công tác, có phạm vi ảnh hưởng rộng và được tập thể ghi nhận.",
+    "output": "“Huân chương Hồ Chí Minh” được xét tặng cho cá nhân đạt thành tích xuất sắc trong công tác.\n“Huân chương Hồ Chí Minh” được xét tặng cho cá nhân có thành tích có phạm vi ảnh hưởng rộng.\n“Huân chương Hồ Chí Minh” được xét tặng cho cá nhân được tập thể ghi nhận."
+  },
+  {
+    "input": "Điều 10. “Huân chương Độc lập”\n“Huân chương Độc lập” được tặng cho cá nhân có thành tích đặc biệt xuất sắc trong công tác, có nhiều đóng góp cho sự phát triển của đất nước hoặc có quá trình cống hiến lâu dài.",
+    "output": "“Huân chương Độc lập” được tặng cho cá nhân có thành tích đặc biệt xuất sắc trong công tác.\n“Huân chương Độc lập” được tặng cho cá nhân có nhiều đóng góp cho sự phát triển của đất nước.\n“Huân chương Độc lập” được tặng cho cá nhân có quá trình cống hiến lâu dài."
+  },
+  {
+    "input": "Điều 10. “Huân chương Độc lập”\nKhoản 2: Tập thể có thành tích đặc biệt xuất sắc, đoàn kết, hoàn thành xuất sắc nhiệm vụ và có nhiều đóng góp cho sự nghiệp xây dựng và bảo vệ Tổ quốc được xem xét tặng Huân chương Độc lập.",
+    "output": "Tập thể được xem xét tặng “Huân chương Độc lập” khi có thành tích đặc biệt xuất sắc.\nTập thể được xem xét tặng “Huân chương Độc lập” khi đoàn kết.\nTập thể được xem xét tặng “Huân chương Độc lập” khi hoàn thành xuất sắc nhiệm vụ.\nTập thể được xem xét tặng “Huân chương Độc lập” khi có nhiều đóng góp cho sự nghiệp xây dựng và bảo vệ Tổ quốc."
+  },
+  {
+    "input": "Điều 11. “Huân chương Lao động”\n“Huân chương Lao động” được tặng cho cá nhân có thành tích xuất sắc trong lao động, sản xuất, công tác, học tập hoặc nghiên cứu khoa học.",
+    "output": "“Huân chương Lao động” được tặng cho cá nhân có thành tích xuất sắc trong lao động.\n“Huân chương Lao động” được tặng cho cá nhân có thành tích xuất sắc trong sản xuất.\n“Huân chương Lao động” được tặng cho cá nhân có thành tích xuất sắc trong công tác.\n“Huân chương Lao động” được tặng cho cá nhân có thành tích xuất sắc trong học tập.\n“Huân chương Lao động” được tặng cho cá nhân có thành tích xuất sắc trong nghiên cứu khoa học."
+  },
+  {
+    "input": "Điều 11. “Huân chương Lao động”\nKhoản 2: Cá nhân có sáng kiến, giải pháp kỹ thuật được áp dụng hiệu quả hoặc có công trình nghiên cứu khoa học có giá trị được xem xét tặng Huân chương Lao động.",
+    "output": "Cá nhân được xem xét tặng “Huân chương Lao động” khi có sáng kiến được áp dụng hiệu quả.\nCá nhân được xem xét tặng “Huân chương Lao động” khi có giải pháp kỹ thuật được áp dụng hiệu quả.\nCá nhân được xem xét tặng “Huân chương Lao động” khi có công trình nghiên cứu khoa học có giá trị."
+  },
+  {
+    "input": "Điều 12. “Bằng khen của Thủ tướng Chính phủ”\nBằng khen của Thủ tướng Chính phủ được tặng cho cá nhân có thành tích xuất sắc tiêu biểu, có nhiều đóng góp trong phong trào thi đua hoặc đạt thành tích nổi bật trong thực hiện nhiệm vụ.",
+    "output": "“Bằng khen của Thủ tướng Chính phủ” được tặng cho cá nhân có thành tích xuất sắc tiêu biểu.\n“Bằng khen của Thủ tướng Chính phủ” được tặng cho cá nhân có nhiều đóng góp trong phong trào thi đua.\n“Bằng khen của Thủ tướng Chính phủ” được tặng cho cá nhân đạt thành tích nổi bật trong thực hiện nhiệm vụ."
+  },
+  {
+    "input": "Điều 12. “Bằng khen của Thủ tướng Chính phủ”\nTập thể có thành tích xuất sắc, hoàn thành vượt mức nhiệm vụ được giao và có nhiều đóng góp cho cộng đồng được xem xét tặng Bằng khen của Thủ tướng Chính phủ.",
+    "output": "Tập thể được xem xét tặng “Bằng khen của Thủ tướng Chính phủ” khi có thành tích xuất sắc.\nTập thể được xem xét tặng “Bằng khen của Thủ tướng Chính phủ” khi hoàn thành vượt mức nhiệm vụ được giao.\nTập thể được xem xét tặng “Bằng khen của Thủ tướng Chính phủ” khi có nhiều đóng góp cho cộng đồng."
+  },
+  {
+    "input": "Điều 13. “Cờ thi đua của Chính phủ”\nCờ thi đua của Chính phủ được xét tặng cho tập thể dẫn đầu phong trào thi đua, hoàn thành xuất sắc và toàn diện nhiệm vụ được giao, có nhân tố mới, mô hình mới để các đơn vị khác học tập.",
+    "output": "“Cờ thi đua của Chính phủ” được xét tặng cho tập thể dẫn đầu phong trào thi đua.\n“Cờ thi đua của Chính phủ” được xét tặng cho tập thể hoàn thành xuất sắc và toàn diện nhiệm vụ được giao.\n“Cờ thi đua của Chính phủ” được xét tặng cho tập thể có nhân tố mới để các đơn vị khác học tập.\n“Cờ thi đua của Chính phủ” được xét tặng cho tập thể có mô hình mới để các đơn vị khác học tập."
+  },
+  {
+    "input": "Điều 14. “Bằng khen của Bộ trưởng”\nBằng khen của Bộ trưởng được tặng cho cá nhân có thành tích xuất sắc trong thực hiện nhiệm vụ, có sáng kiến được áp dụng hiệu quả hoặc có đóng góp tích cực cho hoạt động của ngành.",
+    "output": "“Bằng khen của Bộ trưởng” được tặng cho cá nhân có thành tích xuất sắc trong thực hiện nhiệm vụ.\n“Bằng khen của Bộ trưởng” được tặng cho cá nhân có sáng kiến được áp dụng hiệu quả.\n“Bằng khen của Bộ trưởng” được tặng cho cá nhân có đóng góp tích cực cho hoạt động của ngành."
+  },
+  {
+    "input": "Điều 14. “Bằng khen của Bộ trưởng”\nKhoản 2: Tập thể được tặng Bằng khen của Bộ trưởng khi hoàn thành xuất sắc nhiệm vụ, có thành tích nổi bật trong phong trào thi đua hoặc có mô hình mới mang lại hiệu quả.",
+    "output": "Tập thể được tặng “Bằng khen của Bộ trưởng” khi hoàn thành xuất sắc nhiệm vụ.\nTập thể được tặng “Bằng khen của Bộ trưởng” khi có thành tích nổi bật trong phong trào thi đua.\nTập thể được tặng “Bằng khen của Bộ trưởng” khi có mô hình mới mang lại hiệu quả."
+  },
+  {
+    "input": "Điều 15. “Giấy khen”\nGiấy khen được tặng cho cá nhân có thành tích tốt trong công tác, tích cực tham gia phong trào thi đua hoặc có sáng kiến được đơn vị công nhận.",
+    "output": "“Giấy khen” được tặng cho cá nhân có thành tích tốt trong công tác.\n“Giấy khen” được tặng cho cá nhân tích cực tham gia phong trào thi đua.\n“Giấy khen” được tặng cho cá nhân có sáng kiến được đơn vị công nhận."
+  },
+
+  {
+    "input": "Điều 10. “Huân chương Độc lập” hạng Nhất\nĐược công nhận là cán bộ tiền khởi nghĩa, đã tham gia hoạt động cách mạng liên tục và giữ một trong các chức vụ lãnh đạo chủ chốt ở trung ương.",
+    "output": "Cá nhân được công nhận là cán bộ tiền khởi nghĩa, đã tham gia hoạt động cách mạng liên tục và giữ một trong các chức vụ lãnh đạo chủ chốt ở trung ương."
+  },
+  {
+    "input": "Điều 10. “Huân chương Độc lập” hạng Nhất\nTham gia hoạt động cách mạng trước tháng 8 năm 1945 và đã đảm nhiệm chức vụ Bộ trưởng hoặc tương đương trong thời gian từ 13 đến 15 năm.",
+    "output": "Cá nhân tham gia hoạt động cách mạng trước tháng 8 năm 1945 và đã đảm nhiệm chức vụ Bộ trưởng hoặc tương đương trong thời gian từ 13 đến 15 năm."
+  },
+  {
+    "input": "Điều 10. “Huân chương Độc lập” hạng Nhất\nTham gia hoạt động liên tục trong thời kỳ kháng chiến chống thực dân Pháp và chống đế quốc Mỹ, đã giữ chức vụ Bí thư tỉnh ủy, thành ủy trực thuộc trung ương trong nhiều năm.",
+    "output": "Cá nhân tham gia hoạt động liên tục trong thời kỳ kháng chiến chống thực dân Pháp và chống đế quốc Mỹ, đã giữ chức vụ Bí thư tỉnh ủy hoặc thành ủy trực thuộc trung ương trong nhiều năm."
+  },
+  {
+    "input": "Điều 10. “Huân chương Độc lập” hạng Nhất\nCá nhân tham gia hoạt động cách mạng trước năm 1945, có quá trình cống hiến lâu dài và đã đảm nhiệm một trong các chức vụ: Trưởng ban của Đảng ở trung ương; Bộ trưởng; Thứ trưởng hoặc chức vụ tương đương.",
+    "output": "Cá nhân tham gia hoạt động cách mạng trước năm 1945, có quá trình cống hiến lâu dài và đã đảm nhiệm một trong các chức vụ Trưởng ban của Đảng ở trung ương, Bộ trưởng, Thứ trưởng hoặc chức vụ tương đương."
+  },
+  {
+    "input": "Điều 10. “Huân chương Độc lập” hạng Nhất\nĐã đảm nhiệm chức vụ Ủy viên Bộ Chính trị, Ủy viên Ban Bí thư, Thường trực Ban Bí thư hoặc chức vụ tương đương trong thời gian theo quy định.",
+    "output": "Cá nhân đã đảm nhiệm một trong các chức vụ Ủy viên Bộ Chính trị, Ủy viên Ban Bí thư, Thường trực Ban Bí thư hoặc chức vụ tương đương trong thời gian theo quy định."
+  },
+  {
+    "input": "Điều 10. “Huân chương Độc lập” hạng Nhất\nĐã giữ chức vụ Chủ tịch Ủy ban Trung ương Mặt trận Tổ quốc Việt Nam; Chánh án Tòa án nhân dân tối cao; Viện trưởng Viện kiểm sát nhân dân tối cao.",
+    "output": "Cá nhân đã giữ một trong các chức vụ Chủ tịch Ủy ban Trung ương Mặt trận Tổ quốc Việt Nam, Chánh án Tòa án nhân dân tối cao hoặc Viện trưởng Viện kiểm sát nhân dân tối cao."
+  },
+  {
+    "input": "Điều 10. “Huân chương Độc lập” hạng Nhất\n. Phó Chủ tịch nước, Phó Thủ tướng Chính phủ, Phó Chủ tịch Quốc hội 01 nhiệm kỳ từ 03 đến 05 năm.",
+    "output": "Cá nhân đã đảm nhiệm chức vụ Phó Chủ tịch nước, Phó Thủ tướng Chính phủ hoặc Phó Chủ tịch Quốc hội trong 01 nhiệm kỳ từ 03 đến 05 năm."
+  },
+  {
+    "input": "Điều 10. “Huân chương Độc lập” hạng Nhất\nĐại tướng lực lượng vũ trang nhân dân; hoặc Thượng tướng lực lượng vũ trang nhân dân từ 10 năm trở lên.",
+    "output": "Cá nhân được phong quân hàm Đại tướng lực lượng vũ trang nhân dân hoặc Thượng tướng lực lượng vũ trang nhân dân từ 10 năm trở lên."
+  },
+  {
+    "input": "Điều 10. “Huân chương Độc lập” hạng Nhất\nGiữ chức vụ Bộ trưởng và tương đương từ 13 đến 15 năm; Thứ trưởng và tương đương từ 13 đến 15 năm.",
+    "output": "Cá nhân giữ chức vụ Bộ trưởng và tương đương từ 13 đến 15 năm hoặc Thứ trưởng và tương đương từ 13 đến 15 năm."
+  },
+  {
+    "input": "Điều 10. “Huân chương Độc lập” hạng Nhất\nĐã tham gia 02 cuộc kháng chiến chống thực dân Pháp và chống đế quốc Mỹ, sau đó tiếp tục có nhiều năm công tác trong thời kỳ xây dựng và bảo vệ Tổ quốc.",
+    "output": "Cá nhân đã tham gia 02 cuộc kháng chiến chống thực dân Pháp và chống đế quốc Mỹ, sau đó tiếp tục có nhiều năm công tác trong thời kỳ xây dựng và bảo vệ Tổ quốc."
+  },
+  {
+    "input": "Điều 10. “Huân chương Độc lập” hạng Nhất\nHuân chương Độc lập hạng Nhất để tặng hoặc truy tặng cho cá nhân có quá trình cống hiến lâu dài trong cơ quan, tổ chức, đơn vị và đạt tiêu chuẩn theo quy định.",
+    "output": "“Huân chương Độc lập” hạng Nhất được tặng hoặc truy tặng cho cá nhân có quá trình cống hiến lâu dài trong cơ quan, tổ chức, đơn vị và đạt tiêu chuẩn theo quy định."
+  },
+  {
+    "input": "Điều 10. “Huân chương Độc lập” hạng Nhất\nCá nhân đã từ trần nhưng khi còn sống có quá trình cống hiến lâu dài và đáp ứng một trong các tiêu chuẩn về chức vụ, thời gian công tác theo quy định.",
+    "output": "Cá nhân đã từ trần có quá trình cống hiến lâu dài khi còn sống và đáp ứng một trong các tiêu chuẩn về chức vụ, thời gian công tác theo quy định được xem xét truy tặng “Huân chương Độc lập” hạng Nhất."
+  },
+
+  {
+    "input": "Điều 11. “Huân chương Độc lập” hạng Nhì\nĐược công nhận là cán bộ tiền khởi nghĩa, đã có quá trình công tác lâu dài và đảm nhiệm chức vụ Thứ trưởng hoặc tương đương.",
+    "output": "Cá nhân được công nhận là cán bộ tiền khởi nghĩa, có quá trình công tác lâu dài và đã đảm nhiệm chức vụ Thứ trưởng hoặc tương đương."
+  },
+  {
+    "input": "Điều 11. “Huân chương Độc lập” hạng Nhì\nTham gia hoạt động cách mạng trước năm 1945 và đã đảm nhiệm một trong các chức vụ Phó Trưởng ban của Đảng ở trung ương, Thứ trưởng hoặc chức vụ tương đương.",
+    "output": "Cá nhân tham gia hoạt động cách mạng trước năm 1945 và đã đảm nhiệm một trong các chức vụ Phó Trưởng ban của Đảng ở trung ương, Thứ trưởng hoặc chức vụ tương đương."
+  },
+  {
+    "input": "Điều 11. “Huân chương Độc lập” hạng Nhì\nĐã giữ chức vụ Phó Bí thư tỉnh ủy, thành ủy, đảng ủy trực thuộc trung ương trong 01 nhiệm kỳ từ 03 đến 05 năm.",
+    "output": "Cá nhân đã giữ chức vụ Phó Bí thư tỉnh ủy, thành ủy hoặc đảng ủy trực thuộc trung ương trong 01 nhiệm kỳ từ 03 đến 05 năm."
+  },
+  {
+    "input": "Điều 11. “Huân chương Độc lập” hạng Nhì\nChủ tịch Hội đồng nhân dân hoặc Chủ tịch Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương 01 nhiệm kỳ từ 03 đến 05 năm.",
+    "output": "Cá nhân đã giữ chức vụ Chủ tịch Hội đồng nhân dân hoặc Chủ tịch Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương trong 01 nhiệm kỳ từ 03 đến 05 năm."
+  },
+  {
+    "input": "Điều 11. “Huân chương Độc lập” hạng Nhì\nPhó Chủ tịch Ủy ban trung ương Mặt trận Tổ quốc Việt Nam hoặc Phó Trưởng các tổ chức chính trị - xã hội ở trung ương 01 nhiệm kỳ.",
+    "output": "Cá nhân đã giữ chức vụ Phó Chủ tịch Ủy ban trung ương Mặt trận Tổ quốc Việt Nam hoặc Phó Trưởng các tổ chức chính trị - xã hội ở trung ương trong 01 nhiệm kỳ."
+  },
+  {
+    "input": "Điều 11. “Huân chương Độc lập” hạng Nhì\nTham gia hoạt động liên tục trong 02 cuộc kháng chiến chống thực dân Pháp, chống đế quốc Mỹ và giữ chức vụ Bí thư tỉnh ủy hoặc thành ủy trực thuộc trung ương.",
+    "output": "Cá nhân tham gia hoạt động liên tục trong 02 cuộc kháng chiến chống thực dân Pháp và chống đế quốc Mỹ, đồng thời giữ chức vụ Bí thư tỉnh ủy hoặc thành ủy trực thuộc trung ương."
+  },
+  {
+    "input": "Điều 11. “Huân chương Độc lập” hạng Nhì\nĐã đảm nhiệm chức vụ Trưởng ban của Đảng ở trung ương, Bộ trưởng hoặc chức vụ tương đương trong 01 nhiệm kỳ từ 03 đến 05 năm.",
+    "output": "Cá nhân đã đảm nhiệm chức vụ Trưởng ban của Đảng ở trung ương, Bộ trưởng hoặc chức vụ tương đương trong 01 nhiệm kỳ từ 03 đến 05 năm."
+  },
+  {
+    "input": "Điều 11. “Huân chương Độc lập” hạng Nhì\nỦy viên Ủy ban Thường vụ Quốc hội, Trưởng các tổ chức chính trị - xã hội ở trung ương 01 nhiệm kỳ từ 03 đến 05 năm.",
+    "output": "Cá nhân đã đảm nhiệm chức vụ Ủy viên Ủy ban Thường vụ Quốc hội hoặc Trưởng các tổ chức chính trị - xã hội ở trung ương trong 01 nhiệm kỳ từ 03 đến 05 năm."
+  },
+  {
+    "input": "Điều 11. “Huân chương Độc lập” hạng Nhì\nTham gia hoạt động liên tục trong kháng chiến chống đế quốc Mỹ hoặc trong xây dựng và bảo vệ Tổ quốc, đã giữ chức vụ Thứ trưởng và tương đương từ 13 đến 15 năm.",
+    "output": "Cá nhân tham gia hoạt động liên tục trong kháng chiến chống đế quốc Mỹ hoặc trong thời kỳ xây dựng và bảo vệ Tổ quốc, đã giữ chức vụ Thứ trưởng và tương đương từ 13 đến 15 năm."
+  },
+  {
+    "input": "Điều 11. “Huân chương Độc lập” hạng Nhì\nThượng tướng lực lượng vũ trang nhân dân từ 05 năm trở lên; Bộ trưởng và tương đương từ 02 nhiệm kỳ từ 08 đến 10 năm.",
+    "output": "Cá nhân là Thượng tướng lực lượng vũ trang nhân dân từ 05 năm trở lên hoặc đã giữ chức vụ Bộ trưởng và tương đương trong 02 nhiệm kỳ từ 08 đến 10 năm."
+  },
+  {
+    "input": "Điều 11. “Huân chương Độc lập” hạng Nhì\nĐã đảm nhiệm chức vụ Bộ trưởng và tương đương từ 02 nhiệm kỳ, tổng thời gian từ 08 đến 10 năm.",
+    "output": "Cá nhân đã đảm nhiệm chức vụ Bộ trưởng và tương đương trong 02 nhiệm kỳ, với tổng thời gian từ 08 đến 10 năm."
+  },
+  {
+    "input": "Điều 11. “Huân chương Độc lập” hạng Nhì\nCá nhân có quá trình cống hiến lâu dài trong cơ quan nhà nước, tổ chức chính trị - xã hội hoặc lực lượng vũ trang nhân dân và đạt một trong các tiêu chuẩn theo quy định.",
+    "output": "Cá nhân có quá trình cống hiến lâu dài trong cơ quan nhà nước, tổ chức chính trị - xã hội hoặc lực lượng vũ trang nhân dân và đạt một trong các tiêu chuẩn quy định để được xem xét tặng “Huân chương Độc lập” hạng Nhì."
+  },
+  {
+    "input": "Điều 11. “Huân chương Độc lập” hạng Nhì\nHuân chương Độc lập hạng Nhì được tặng hoặc truy tặng cho cá nhân có quá trình cống hiến lâu dài và đáp ứng điều kiện theo điểm a khoản 1 Điều 37 Luật Thi đua, khen thưởng.",
+    "output": "“Huân chương Độc lập” hạng Nhì được tặng hoặc truy tặng cho cá nhân có quá trình cống hiến lâu dài và đáp ứng điều kiện theo điểm a khoản 1 Điều 37 Luật Thi đua, khen thưởng."
+  },
+
+  {
+    "input": "Điều 12. “Huân chương Độc lập” hạng Ba\n“Huân chương Độc lập” hạng Ba để tặng hoặc truy tặng cho cá nhân có quá trình cống hiến lâu dài trong cơ quan, tổ chức, đơn vị hoặc lực lượng vũ trang nhân dân và đạt một trong các tiêu chuẩn sau:",
+    "output": "“Huân chương Độc lập” hạng Ba được tặng hoặc truy tặng cho cá nhân có quá trình cống hiến lâu dài trong cơ quan, tổ chức, đơn vị hoặc lực lượng vũ trang nhân dân và đạt một trong các tiêu chuẩn quy định."
+  },
+  {
+    "input": "Điều 12. “Huân chương Độc lập” hạng Ba\nTham gia hoạt động cách mạng trước năm 1945 và đã đảm nhiệm chức vụ lãnh đạo, quản lý theo quy định.",
+    "output": "Cá nhân tham gia hoạt động cách mạng trước năm 1945 và đã đảm nhiệm chức vụ lãnh đạo, quản lý theo quy định."
+  },
+  {
+    "input": "Điều 12. “Huân chương Độc lập” hạng Ba\nĐược công nhận là cán bộ tiền khởi nghĩa, có quá trình công tác liên tục và giữ chức vụ lãnh đạo tại cơ quan, tổ chức, đơn vị.",
+    "output": "Cá nhân được công nhận là cán bộ tiền khởi nghĩa, có quá trình công tác liên tục và giữ chức vụ lãnh đạo tại cơ quan, tổ chức, đơn vị."
+  },
+  {
+    "input": "Điều 12. “Huân chương Độc lập” hạng Ba\nTham gia hoạt động liên tục trong kháng chiến chống thực dân Pháp và chống đế quốc Mỹ, đã đảm nhiệm một trong các chức vụ lãnh đạo theo quy định.",
+    "output": "Cá nhân tham gia hoạt động liên tục trong kháng chiến chống thực dân Pháp và chống đế quốc Mỹ, đã đảm nhiệm một trong các chức vụ lãnh đạo theo quy định."
+  },
+  {
+    "input": "Điều 12. “Huân chương Độc lập” hạng Ba\nĐã giữ chức vụ Phó Bí thư tỉnh ủy, thành ủy, đảng ủy trực thuộc trung ương trong thời gian theo quy định của pháp luật.",
+    "output": "Cá nhân đã giữ chức vụ Phó Bí thư tỉnh ủy, thành ủy hoặc đảng ủy trực thuộc trung ương trong thời gian theo quy định của pháp luật."
+  },
+  {
+    "input": "Điều 12. “Huân chương Độc lập” hạng Ba\nĐảm nhiệm chức vụ Chủ tịch Hội đồng nhân dân hoặc Chủ tịch Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương trong thời gian quy định.",
+    "output": "Cá nhân đã đảm nhiệm chức vụ Chủ tịch Hội đồng nhân dân hoặc Chủ tịch Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương trong thời gian quy định."
+  },
+  {
+    "input": "Điều 12. “Huân chương Độc lập” hạng Ba\nThứ trưởng hoặc chức vụ tương đương từ 10 năm trở lên; hoặc giữ chức vụ lãnh đạo khác theo thời gian quy định.",
+    "output": "Cá nhân giữ chức vụ Thứ trưởng hoặc chức vụ tương đương từ 10 năm trở lên hoặc giữ chức vụ lãnh đạo khác theo thời gian quy định."
+  },
+  {
+    "input": "Điều 12. “Huân chương Độc lập” hạng Ba\nTham gia xây dựng và bảo vệ Tổ quốc liên tục, có nhiều đóng góp cho cơ quan, tổ chức, đơn vị và đáp ứng tiêu chuẩn về chức vụ.",
+    "output": "Cá nhân tham gia liên tục trong thời kỳ xây dựng và bảo vệ Tổ quốc, có nhiều đóng góp cho cơ quan, tổ chức, đơn vị và đáp ứng tiêu chuẩn về chức vụ."
+  },
+  {
+    "input": "Điều 12. “Huân chương Độc lập” hạng Ba\nThượng tướng lực lượng vũ trang nhân dân; Thiếu tướng, Trung tướng hoặc quân hàm tương đương theo thời gian quy định.",
+    "output": "Cá nhân được phong quân hàm Thượng tướng lực lượng vũ trang nhân dân hoặc quân hàm Thiếu tướng, Trung tướng theo thời gian quy định."
+  },
+  {
+    "input": "Điều 12. “Huân chương Độc lập” hạng Ba\nCá nhân đã từ trần, khi còn sống có quá trình cống hiến lâu dài và đủ điều kiện theo quy định thì được xem xét truy tặng.",
+    "output": "Cá nhân đã từ trần, khi còn sống có quá trình cống hiến lâu dài và đủ điều kiện theo quy định được xem xét truy tặng “Huân chương Độc lập” hạng Ba."
+  },
+  {
+    "input": "Điều 12. “Huân chương Độc lập” hạng Ba\nHuân chương Độc lập hạng Ba đề tặng cho cá nhân có thành tích, cống hiến lâu dài trong lực lượng vũ trang nhân dân và đạt tiêu chuẩn theo quy định.",
+    "output": "“Huân chương Độc lập” hạng Ba được tặng cho cá nhân có thành tích, cống hiến lâu dài trong lực lượng vũ trang nhân dân và đạt tiêu chuẩn theo quy định."
+  },
+
+  {
+    "input": "Điều 10. “Huân chương Độc lập” hạng Nhất\nTham gia hoạt động liên tục trong 02 cuộc kháng chiến chống thực dân Pháp, chống đế quốc Mỹ; sau đó giữ chức vụ Bộ trưởng hoặc tương đương trong thời gian từ 08 đến 10 năm.",
+    "output": "Cá nhân tham gia hoạt động liên tục trong 02 cuộc kháng chiến chống thực dân Pháp và chống đế quốc Mỹ, sau đó giữ chức vụ Bộ trưởng hoặc tương đương trong thời gian từ 08 đến 10 năm."
+  },
+  {
+    "input": "Điều 11. “Huân chương Độc lập” hạng Nhì\nTham gia hoạt động trong thời kỳ xây dựng và bảo vệ Tổ quốc, giữ chức vụ Thượng tướng lực lượng vũ trang nhân dân từ 05 năm trở lên.",
+    "output": "Cá nhân tham gia hoạt động trong thời kỳ xây dựng và bảo vệ Tổ quốc, giữ quân hàm Thượng tướng lực lượng vũ trang nhân dân từ 05 năm trở lên."
+  },
+  {
+    "input": "Điều 10. “Huân chương Độc lập” hạng Nhất\nTham gia hoạt động cách mạng trước năm 1945, hoạt động liên tực và đã đảm nhiệm chức vụ Phó Trưởng ban của Đảng ở trung ương hoặc chức vụ tương đương.",
+    "output": "Cá nhân tham gia hoạt động cách mạng trước năm 1945, hoạt động liên tục và đã đảm nhiệm chức vụ Phó Trưởng ban của Đảng ở trung ương hoặc chức vụ tương đương."
+  },
+  {
+    "input": "Điều 11. “Huân chương Độc lập” hạng Nhì\nTham gia hoạt động liên tục trong kháng chiến chống đế quốc Mỹ hoặc xây dựng, bảo vệ Tổ quốc; đã đảm nhiệm chức vụ Bộ trưởng và tương đương trong thời gian quy định.",
+    "output": "Cá nhân tham gia hoạt động liên tục trong kháng chiến chống đế quốc Mỹ hoặc trong thời kỳ xây dựng và bảo vệ Tổ quốc, đã đảm nhiệm chức vụ Bộ trưởng và tương đương trong thời gian quy định."
+  },
+  {
+    "input": "Điều 12. “Huân chương Độc lập” hạng Ba\nĐã đảm nhiệm một trong các chức vụ lãnh đạo ở trung ương hoặc địa phương, có quá trình cống hiến lâu dài trong cơ quan, tổ chức, đơn vị.",
+    "output": "Cá nhân đã đảm nhiệm một trong các chức vụ lãnh đạo ở trung ương hoặc địa phương và có quá trình cống hiến lâu dài trong cơ quan, tổ chức, đơn vị."
+  },
+  {
+    "input": "Điều 10. “Huân chương Độc lập” hạng Nhất\n. Đã đảm nhiệm chức vụ Thường trực Ban Bí thư; Ủy viên Bộ Chính trị; Chủ tịch Ủy ban Trung ương Mặt trận Tổ quốc Việt Nam hoặc chức vụ tương đương.",
+    "output": "Cá nhân đã đảm nhiệm chức vụ Thường trực Ban Bí thư, Ủy viên Bộ Chính trị, Chủ tịch Ủy ban Trung ương Mặt trận Tổ quốc Việt Nam hoặc chức vụ tương đương."
+  },
+  {
+    "input": "Điều 11. “Huân chương Độc lập” hạng Nhì\nĐã đảm nhiệm một trong các chức vụ: Trưởng ban của Đảng ở trung ương; Bộ trưởng; Bí thư tỉnh ủy, thành ủy trực thuộc trung ương trong 01 nhiệm kỳ.",
+    "output": "Cá nhân đã đảm nhiệm một trong các chức vụ Trưởng ban của Đảng ở trung ương, Bộ trưởng hoặc Bí thư tỉnh ủy, thành ủy trực thuộc trung ương trong 01 nhiệm kỳ."
+  },
+  
+  {
+    "input": "Điều 12. “Huân chương Độc lập” hạng Ba\n“Huân chương Độc lập” hạng Ba để tặng hoặc truy tặng cho cá nhân theo quy định tại điểm a khoản 1 Điều 38 của Luật Thi đua, khen thưởng, có quá trình cống hiến lâu dài trong cơ quan, tổ chức, đơn vị và đạt một trong các tiêu chuẩn sau đây:\nĐiểm a) Tham gia cách mạng trước năm 1945, hoạt động liên tục và đã đảm nhiệm chức vụ Vụ trưởng hoặc tương đương.",
+    "output": "“Huân chương Độc lập” hạng Ba được tặng hoặc truy tặng cho cá nhân theo điểm a khoản 1 Điều 38 của Luật Thi đua, khen thưởng, có quá trình cống hiến lâu dài trong cơ quan, tổ chức, đơn vị và tham gia cách mạng trước năm 1945, hoạt động liên tục, đồng thời đã đảm nhiệm chức vụ Vụ trưởng hoặc tương đương."
+  },
+  {
+    "input": "Điều 12. “Huân chương Độc lập” hạng Ba\nĐiểm b) Được công nhận là cán bộ tiền khởi nghĩa và đã đảm nhiệm một trong các chức vụ: Cục trưởng, Vụ trưởng, Tỉnh ủy viên, Thành ủy viên, Trưởng ban, ngành cấp tỉnh hoặc chức vụ tương đương.",
+    "output": "Cá nhân được công nhận là cán bộ tiền khởi nghĩa và đã đảm nhiệm một trong các chức vụ: Cục trưởng, Vụ trưởng, Tỉnh ủy viên, Thành ủy viên, Trưởng ban, ngành cấp tỉnh hoặc chức vụ tương đương."
+  },
+  {
+    "input": "Điều 12. “Huân chương Độc lập” hạng Ba\nĐiểm c) Tham gia hoạt động liên tục ít nhất 10 năm ở chiến trường miền Nam và đã đảm nhiệm chức vụ Huyện ủy viên hoặc chức vụ tương đương trước ngày 30 tháng 4 năm 1975.",
+    "output": "Cá nhân tham gia hoạt động liên tục ít nhất 10 năm ở chiến trường miền Nam và đã đảm nhiệm chức vụ Huyện ủy viên hoặc chức vụ tương đương trước ngày 30 tháng 4 năm 1975."
+  },
+  {
+    "input": "Điều 12. “Huân chương Độc lập” hạng Ba\nĐiểm d) Tham gia hoạt động liên tục trong 02 cuộc kháng chiến chống thực dân Pháp, chống đế quốc Mỹ và đã đảm nhiệm chức vụ Thứ trưởng hoặc tương đương trong 01 nhiệm kỳ từ 03 đến 05 năm.",
+    "output": "Cá nhân tham gia hoạt động liên tục trong 02 cuộc kháng chiến chống thực dân Pháp và chống đế quốc Mỹ, đồng thời đã đảm nhiệm chức vụ Thứ trưởng hoặc tương đương trong 01 nhiệm kỳ từ 03 đến 05 năm."
+  },
+  {
+    "input": "Điều 12. “Huân chương Độc lập” hạng Ba\nĐiểm đ) Tham gia hoạt động liên tục trong kháng chiến chống đế quốc Mỹ hoặc trong xây dựng và bảo vệ Tổ quốc, đã đảm nhiệm chức vụ Bộ trưởng và tương đương trong 01 nhiệm kỳ từ 03 đến 05 năm.",
+    "output": "Cá nhân tham gia hoạt động liên tục trong kháng chiến chống đế quốc Mỹ hoặc trong xây dựng và bảo vệ Tổ quốc, đồng thời đã đảm nhiệm chức vụ Bộ trưởng và tương đương trong 01 nhiệm kỳ từ 03 đến 05 năm."
+  },
+  {
+    "input": "Điều 13. “Huân chương Quân công” hạng Nhất\n“Huân chương Quân công” hạng Nhất để tặng hoặc truy tặng cho cá nhân theo quy định tại điểm a khoản 1 Điều 39 của Luật Thi đua, khen thưởng, có quá trình công tác từ 35 năm trở lên trong lực lượng vũ trang nhân dân và đạt một trong các tiêu chuẩn sau đây:",
+    "output": "“Huân chương Quân công” hạng Nhất được tặng hoặc truy tặng cho cá nhân theo điểm a khoản 1 Điều 39 của Luật Thi đua, khen thưởng, có quá trình công tác từ 35 năm trở lên trong lực lượng vũ trang nhân dân và đạt một trong các tiêu chuẩn quy định."
+  },
+  {
+    "input": "Điều 13. “Huân chương Quân công” hạng Nhất\nĐiểm a) Đã đảm nhiệm một trong các chức vụ: Bộ trưởng, Thứ trưởng, Tổng Tham mưu trưởng, Chủ nhiệm Tổng cục Chính trị hoặc chức danh tương đương.",
+    "output": "Cá nhân đã đảm nhiệm một trong các chức vụ: Bộ trưởng, Thứ trưởng, Tổng Tham mưu trưởng, Chủ nhiệm Tổng cục Chính trị hoặc chức danh tương đương."
+  },
+  {
+    "input": "Điều 13. “Huân chương Quân công” hạng Nhất\nĐiểm b) Là Đại tướng hoặc Thượng tướng lực lượng vũ trang nhân dân từ 05 năm trở lên.",
+    "output": "Cá nhân là Đại tướng hoặc Thượng tướng lực lượng vũ trang nhân dân từ 05 năm trở lên."
+  },
+  {
+    "input": "Điều 13. “Huân chương Quân công” hạng Nhất\nĐiểm c) Có quá trình công tác từ 35 năm trở lên trong lực lượng vũ trang nhân dân và đã đảm nhiệm chức danh tương đương với Tổng Tham mưu trưởng.",
+    "output": "Cá nhân có quá trình công tác từ 35 năm trở lên trong lực lượng vũ trang nhân dân và đã đảm nhiệm chức danh tương đương với Tổng Tham mưu trưởng."
+  },
+  {
+    "input": "Điều 14. “Huân chương Quân công” hạng Nhì\n“Huân chương Quân công” hạng Nhì để tặng hoặc truy tặng cho cá nhân theo quy định tại điểm a khoản 1 Điều 40 của Luật Thi đua, khen thưởng, có quá trình công tác từ 35 năm trở lên trong lực lượng vũ trang nhân dân và đạt một trong các tiêu chuẩn sau đây:",
+    "output": "“Huân chương Quân công” hạng Nhì được tặng hoặc truy tặng cho cá nhân theo điểm a khoản 1 Điều 40 của Luật Thi đua, khen thưởng, có quá trình công tác từ 35 năm trở lên trong lực lượng vũ trang nhân dân và đạt một trong các tiêu chuẩn quy định."
+  },
+  {
+    "input": "Điều 14. “Huân chương Quân công” hạng Nhì\nĐiểm a) Đã đảm nhiệm chức vụ Tư lệnh Quân khu hoặc chức danh tương đương từ 05 năm trở lên.",
+    "output": "Cá nhân đã đảm nhiệm chức vụ Tư lệnh Quân khu hoặc chức danh tương đương từ 05 năm trở lên."
+  },
+  {
+    "input": "Điều 14. “Huân chương Quân công” hạng Nhì\nĐiểm b) Đã đảm nhiệm chức vụ Phó Tư lệnh Quân khu hoặc chức danh tương đương trong thời gian từ 05 năm trở lên.",
+    "output": "Cá nhân đã đảm nhiệm chức vụ Phó Tư lệnh Quân khu hoặc chức danh tương đương trong thời gian từ 05 năm trở lên."
+  },
+  {
+    "input": "Điều 14. “Huân chương Quân công” hạng Nhì\nĐiểm c) Có nhiều thành tích xuất sắc trong xây dựng lực lượng, huấn luyện, sẵn sàng chiến đấu và bảo vệ Tổ quốc.",
+    "output": "Cá nhân có nhiều thành tích xuất sắc trong xây dựng lực lượng, huấn luyện, sẵn sàng chiến đấu và bảo vệ Tổ quốc."
+  },
+  {
+    "input": "Điều 15. “Huân chương Quân công” hạng Ba\n“Huân chương Quân công” hạng Ba để tặng hoặc truy tặng cho cá nhân theo quy định tại điểm a khoản 1 Điều 41 của Luật Thi đua, khen thưởng, có quá trình công tác từ 35 năm trở lên trong lực lượng vũ trang nhân dân và đạt một trong các tiêu chuẩn sau đây:",
+    "output": "“Huân chương Quân công” hạng Ba được tặng hoặc truy tặng cho cá nhân theo điểm a khoản 1 Điều 41 của Luật Thi đua, khen thưởng, có quá trình công tác từ 35 năm trở lên trong lực lượng vũ trang nhân dân và đạt một trong các tiêu chuẩn quy định."
+  },
+  {
+    "input": "Điều 15. “Huân chương Quân công” hạng Ba\nĐiểm a) Đã đảm nhiệm chức vụ Tư lệnh Quân đoàn hoặc chức danh tương đương từ 05 năm trở lên.",
+    "output": "Cá nhân đã đảm nhiệm chức vụ Tư lệnh Quân đoàn hoặc chức danh tương đương từ 05 năm trở lên."
+  },
+  {
+    "input": "Điều 15. “Huân chương Quân công” hạng Ba\nĐiểm b) Đã đảm nhiệm chức vụ Phó Tư lệnh Quân đoàn hoặc chức danh tương đương từ 05 năm trở lên.",
+    "output": "Cá nhân đã đảm nhiệm chức vụ Phó Tư lệnh Quân đoàn hoặc chức danh tương đương từ 05 năm trở lên."
+  },
+  {
+    "input": "Điều 16. “Huân chương Lao động” hạng Nhất\nKhoản 1: “Huân chương Lao động” hạng Nhất để tặng hoặc truy tặng cho cá nhân theo quy định tại điểm e khoản 1 Điều 42 của Luật Thi đua, khen thưởng, có quá trình cống hiến lâu dài trong các cơ quan, tổ chức, đơn vị và đạt một trong các tiêu chuẩn sau đây:\nĐiểm a) Được công nhận là cán bộ tiền khởi nghĩa và đã đảm nhiệm chức vụ Phó Cục trưởng, Phó Vụ trưởng, Phó Trưởng ban, ngành cấp tỉnh hoặc chức vụ tương đương.",
+    "output": "“Huân chương Lao động” hạng Nhất được tặng hoặc truy tặng cho cá nhân theo điểm e khoản 1 Điều 42 của Luật Thi đua, khen thưởng, có quá trình cống hiến lâu dài trong cơ quan, tổ chức, đơn vị và được công nhận là cán bộ tiền khởi nghĩa, đồng thời đã đảm nhiệm chức vụ Phó Cục trưởng, Phó Vụ trưởng, Phó Trưởng ban, ngành cấp tỉnh hoặc chức vụ tương đương."
+  },
+  {
+    "input": "Điều 16. “Huân chương Lao động” hạng Nhất\nĐiểm b) Tham gia hoạt động liên tục trong 02 cuộc kháng chiến chống thực dân Pháp, chống đế quốc Mỹ và đã đảm nhiệm một trong các chức vụ: Phó Trưởng ban của Đảng ở trung ương, Thứ trưởng hoặc chức vụ tương đương, Phó Bí thư tỉnh ủy, thành ủy trực thuộc trung ương.",
+    "output": "Cá nhân tham gia hoạt động liên tục trong 02 cuộc kháng chiến chống thực dân Pháp và chống đế quốc Mỹ, đồng thời đã đảm nhiệm một trong các chức vụ: Phó Trưởng ban của Đảng ở trung ương, Thứ trưởng hoặc chức vụ tương đương, Phó Bí thư tỉnh ủy, thành ủy trực thuộc trung ương."
+  },
+  {
+    "input": "Điều 16. “Huân chương Lao động” hạng Nhất\nĐiểm c) Đã giữ chức vụ Vụ trưởng, Thường vụ tỉnh ủy, thành ủy, Phó Chủ tịch Hội đồng nhân dân, Ủy ban nhân dân, Chủ tịch Ủy ban Mặt trận Tổ quốc tỉnh, thành phố trực thuộc trung ương từ 10 năm trở lên.",
+    "output": "Cá nhân đã giữ chức vụ Vụ trưởng, Thường vụ tỉnh ủy, thành ủy, Phó Chủ tịch Hội đồng nhân dân, Ủy ban nhân dân, Chủ tịch Ủy ban Mặt trận Tổ quốc tỉnh, thành phố trực thuộc trung ương từ 10 năm trở lên."
+  },
+  {
+    "input": "Điều 17. “Huân chương Lao động” hạng Nhì\n“Huân chương Lao động” hạng Nhì để tặng hoặc truy tặng cho cá nhân có quá trình cống hiến lâu dài trong cơ quan, tổ chức, đơn vị và đạt một trong các tiêu chuẩn sau đây:",
+    "output": "“Huân chương Lao động” hạng Nhì được tặng hoặc truy tặng cho cá nhân có quá trình cống hiến lâu dài trong cơ quan, tổ chức, đơn vị và đạt một trong các tiêu chuẩn quy định."
+  },
+  {
+    "input": "Điều 17. “Huân chương Lao động” hạng Nhì\nĐiểm a) Đã đảm nhiệm chức vụ Cục trưởng, Vụ trưởng, Trưởng ban, ngành cấp tỉnh hoặc chức vụ tương đương trong thời gian từ 05 năm trở lên.",
+    "output": "Cá nhân đã đảm nhiệm chức vụ Cục trưởng, Vụ trưởng, Trưởng ban, ngành cấp tỉnh hoặc chức vụ tương đương trong thời gian từ 05 năm trở lên."
+  },
+  {
+    "input": "Điều 17. “Huân chương Lao động” hạng Nhì\nĐiểm b) Có thành tích đặc biệt xuất sắc trong lao động, sản xuất, công tác, học tập hoặc nghiên cứu khoa học.",
+    "output": "Cá nhân có thành tích đặc biệt xuất sắc trong lao động, sản xuất, công tác, học tập hoặc nghiên cứu khoa học."
+  },
+  {
+    "input": "Điều 17. “Huân chương Lao động” hạng Nhì\nĐiểm c) Có nhiều sáng kiến, giải pháp kỹ thuật được áp dụng hiệu quả và mang lại giá trị thiết thực cho cơ quan, đơn vị.",
+    "output": "Cá nhân có nhiều sáng kiến, giải pháp kỹ thuật được áp dụng hiệu quả và mang lại giá trị thiết thực cho cơ quan, đơn vị."
+  },
+  {
+    "input": "Điều 18. “Huân chương Lao động” hạng Ba\n“Huân chương Lao động” hạng Ba để tặng hoặc truy tặng cho cá nhân có thành tích xuất sắc trong công tác, lao động, sản xuất hoặc nghiên cứu khoa học.",
+    "output": "“Huân chương Lao động” hạng Ba được tặng hoặc truy tặng cho cá nhân có thành tích xuất sắc trong công tác, lao động, sản xuất hoặc nghiên cứu khoa học."
+  },
+  {
+    "input": "Điều 18. “Huân chương Lao động” hạng Ba\nKhoản 2: Cá nhân có sáng kiến được áp dụng hiệu quả hoặc có công trình nghiên cứu khoa học được nghiệm thu đạt yêu cầu được xem xét tặng Huân chương Lao động hạng Ba.",
+    "output": "Cá nhân được xem xét tặng “Huân chương Lao động” hạng Ba khi có sáng kiến được áp dụng hiệu quả.\nCá nhân được xem xét tặng “Huân chương Lao động” hạng Ba khi có công trình nghiên cứu khoa học được nghiệm thu đạt yêu cầu."
+  },
+  {
+    "input": "Điều 19. “Huân chương Bảo vệ Tổ quốc” hạng Nhất\n“Huân chương Bảo vệ Tổ quốc” hạng Nhất để tặng hoặc truy tặng cho cá nhân có thành tích đặc biệt xuất sắc trong xây dựng lực lượng vũ trang nhân dân, huấn luyện, sẵn sàng chiến đấu và chiến đấu.",
+    "output": "“Huân chương Bảo vệ Tổ quốc” hạng Nhất được tặng hoặc truy tặng cho cá nhân có thành tích đặc biệt xuất sắc trong xây dựng lực lượng vũ trang nhân dân, huấn luyện, sẵn sàng chiến đấu và chiến đấu."
+  },
+  {
+    "input": "Điều 19. “Huân chương Bảo vệ Tổ quốc” hạng Nhì\nHuân chương Bảo vệ Tổ quốc hạng Nhì được tặng cho cá nhân có thành tích xuất sắc trong xây dựng quân đội, công an, bảo vệ an ninh quốc gia, giữ gìn trật tự, an toàn xã hội.",
+    "output": "“Huân chương Bảo vệ Tổ quốc” hạng Nhì được tặng cho cá nhân có thành tích xuất sắc trong xây dựng quân đội, công an, bảo vệ an ninh quốc gia, giữ gìn trật tự, an toàn xã hội."
+  },
+  {
+    "input": "Điều 20. “Huân chương Bảo vệ Tổ quốc” hạng Ba\nHuân chương Bảo vệ Tổ quốc hạng Ba được tặng cho cá nhân có thành tích xuất sắc trong công tác quốc phòng, an ninh hoặc có đóng góp tích cực cho sự nghiệp bảo vệ Tổ quốc.",
+    "output": "“Huân chương Bảo vệ Tổ quốc” hạng Ba được tặng cho cá nhân có thành tích xuất sắc trong công tác quốc phòng, an ninh.\n“Huân chương Bảo vệ Tổ quốc” hạng Ba được tặng cho cá nhân có đóng góp tích cực cho sự nghiệp bảo vệ Tổ quốc."
+  },
+  {
+    "input": "Điều 21. “Huy chương Chiến sĩ vẻ vang”\nHuy chương Chiến sĩ vẻ vang được tặng cho cá nhân có quá trình công tác trong lực lượng vũ trang nhân dân và có thành tích hoàn thành tốt nhiệm vụ được giao.",
+    "output": "“Huy chương Chiến sĩ vẻ vang” được tặng cho cá nhân có quá trình công tác trong lực lượng vũ trang nhân dân.\n“ Huy chương Chiến sĩ vẻ vang” được tặng cho cá nhân có thành tích hoàn thành tốt nhiệm vụ được giao."
+  },
+  {
+    "input": "Điều 22. “Bằng khen của Thủ tướng Chính phủ”\nBằng khen của Thủ tướng Chính phủ được tặng cho cá nhân có thành tích xuất sắc tiêu biểu trong số những cá nhân có nhiều thành tích trong phong trào thi đua.",
+    "output": "“Bằng khen của Thủ tướng Chính phủ” được tặng cho cá nhân có thành tích xuất sắc tiêu biểu trong số những cá nhân có nhiều thành tích trong phong trào thi đua."
+  },
+  {
+    "input": "Điều 22. “Bằng khen của Thủ tướng Chính phủ”\nCá nhân có sáng kiến, giải pháp hoặc công trình khoa học được áp dụng hiệu quả, có phạm vi ảnh hưởng rộng được xem xét tặng Bằng khen của Thủ tướng Chính phủ.",
+    "output": "Cá nhân được xem xét tặng “Bằng khen của Thủ tướng Chính phủ” khi có sáng kiến được áp dụng hiệu quả và có phạm vi ảnh hưởng rộng.\nCá nhân được xem xét tặng “Bằng khen của Thủ tướng Chính phủ” khi có giải pháp được áp dụng hiệu quả và có phạm vi ảnh hưởng rộng.\nCá nhân được xem xét tặng “Bằng khen của Thủ tướng Chính phủ” khi có công trình khoa học được áp dụng hiệu quả và có phạm vi ảnh hưởng rộng."
+  },
+  {
+    "input": "Điều 23. “Cờ thi đua của Chính phủ”\nCờ thi đua của Chính phủ được xét tặng cho tập thể dẫn đầu phong trào thi đua, hoàn thành xuất sắc nhiệm vụ, có nội bộ đoàn kết và thực hiện tốt quy chế dân chủ ở cơ sở.",
+    "output": "“Cờ thi đua của Chính phủ” được xét tặng cho tập thể dẫn đầu phong trào thi đua, hoàn thành xuất sắc nhiệm vụ, có nội bộ đoàn kết và thực hiện tốt quy chế dân chủ ở cơ sở."
+  }
+]

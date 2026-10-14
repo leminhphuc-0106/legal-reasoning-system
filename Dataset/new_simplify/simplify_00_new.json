@@ -1,0 +1,704 @@
+[
+  {
+    "instruction": "Điều 3: Giải thích từ ngữ Trong Quyết định này, các từ ngữ dưới đây được hiểu như sau:\nKhoản 5: Các hình thức khen thưởng cấp Nhà nước gồm: Huân chương, Danh hiệu vinh dự nhà nước, Bằng khen của Thủ tướng Chính phủ.",
+    "response": [
+      "Huân chương là hình thức khen thưởng cấp Nhà nước.",
+      "Danh hiệu vinh dự nhà nước là hình thức khen thưởng cấp Nhà nước.",
+      "Bằng khen của Thủ tướng Chính phủ là hình thức khen thưởng cấp Nhà nước."
+    ]
+  },
+  {
+    "instruction": "Điều 3: Giải thích từ ngữ Trong Quyết định này, các từ ngữ dưới đây được hiểu như sau:\nKhoản 6: Các danh hiệu thi đua cấp Nhà nước gồm: Cờ thi đua của Chính phủ, Chiến sĩ thi đua toàn quốc.",
+    "response": [
+      "Cờ thi đua của Chính phủ là danh hiệu thi đua cấp Nhà nước.",
+      "Chiến sĩ thi đua toàn quốc là danh hiệu thi đua cấp Nhà nước."
+    ]
+  },
+  {
+    "instruction": "Điều 4: Nguyên tắc thi đua, khen thưởng Trong công tác thi đua, khen thưởng cần phải đảm bảo thực hiện theo quy định tại Điều 5 của Luật Thi đua, khen thưởng, Điều 4 của Nghị định số 98/2023/NĐ-CP ngày 31 tháng 12 năm 2023 của Chính phủ quy định chi tiết thi hành một số điều của Luật Thi đua, khen thưởng, Điều 1, khoản 2 Điều 5 của Thông tư số 01/2024/TT-BNV ngày 24 tháng 02 năm 2024 của Bộ trưởng Bộ Nội vụ quy định biện pháp thi hành Luật Thi đua, khen thưởng và Nghị định số 08/2023/NĐ-CP ngày 31 tháng 12 năm 2023 của Chính phủ quy định chi tiết thi hành một số điều của Luật Thi đua, khen thưởng.",
+    "response": [
+      "Công tác thi đua, khen thưởng phải được thực hiện theo quy định tại Điều 5 của Luật Thi đua, khen thưởng.",
+      "Công tác thi đua, khen thưởng phải được thực hiện theo quy định tại Điều 4 của Nghị định số 98/2023/NĐ-CP ngày 31 tháng 12 năm 2023 của Chính phủ quy định chi tiết thi hành một số điều của Luật Thi đua, khen thưởng.",
+      "Công tác thi đua, khen thưởng phải được thực hiện theo quy định tại Điều 1 của Thông tư số 01/2024/TT-BNV ngày 24 tháng 02 năm 2024 của Bộ trưởng Bộ Nội vụ quy định biện pháp thi hành Luật Thi đua, khen thưởng.",
+      "Công tác thi đua, khen thưởng phải được thực hiện theo quy định tại khoản 2 Điều 5 của Thông tư số 01/2024/TT-BNV ngày 24 tháng 02 năm 2024 của Bộ trưởng Bộ Nội vụ quy định biện pháp thi hành Luật Thi đua, khen thưởng.",
+      "Công tác thi đua, khen thưởng phải được thực hiện theo quy định tại Nghị định số 08/2023/NĐ-CP ngày 31 tháng 12 năm 2023 của Chính phủ quy định chi tiết thi hành một số điều của Luật Thi đua, khen thưởng."
+    ]
+  },
+  {
+    "instruction": "Điều 5: Tiêu chuẩn tặng danh hiệu “Lao động tiên tiến” Danh hiệu “Lao động tiên tiến” để tặng hằng năm cho viên chức, người lao động đạt các tiêu chuẩn sau đây:\nKhoản 1: Gương mẫu chấp hành tốt chủ trương, đường lối của Đảng, chính sách, pháp luật của Nhà nước và nội quy của Nhà trường;",
+    "response": [
+      "Viên chức được tặng hằng năm danh hiệu “Lao động tiên tiến” khi gương mẫu chấp hành tốt chủ trương, đường lối của Đảng, chính sách, pháp luật của Nhà nước và nội quy của Nhà trường.",
+      "Người lao động được tặng hằng năm danh hiệu “Lao động tiên tiến” khi gương mẫu chấp hành tốt chủ trương, đường lối của Đảng, chính sách, pháp luật của Nhà nước và nội quy của Nhà trường."
+    ]
+  },
+  {
+    "instruction": "Điều 5: Tiêu chuẩn tặng danh hiệu “Lao động tiên tiến” Danh hiệu “Lao động tiên tiến” để tặng hằng năm cho viên chức, người lao động đạt các tiêu chuẩn sau đây:\nKhoản 2: Hoàn thành tốt nhiệm vụ trở lên;",
+    "response": [
+      "Viên chức được tặng hằng năm danh hiệu “Lao động tiên tiến” khi hoàn thành tốt nhiệm vụ trở lên.",
+      "Người lao động được tặng hằng năm danh hiệu “Lao động tiên tiến” khi hoàn thành tốt nhiệm vụ trở lên."
+    ]
+  },
+  {
+    "instruction": "Điều 5: Tiêu chuẩn tặng danh hiệu “Lao động tiên tiến” Danh hiệu “Lao động tiên tiến” để tặng hằng năm cho viên chức, người lao động đạt các tiêu chuẩn sau đây:\nKhoản 3: Có tỉnh thần tự lực, tự cường, đoàn kết, tương trợ, tích cực tham gia phong trào thi đua.",
+    "response": [
+      "Viên chức được tặng hằng năm danh hiệu “Lao động tiên tiến” khi có tinh thần tự lực, tự cường, đoàn kết, tương trợ và tích cực tham gia phong trào thi đua.",
+      "Người lao động được tặng hằng năm danh hiệu “Lao động tiên tiến” khi có tinh thần tự lực, tự cường, đoàn kết, tương trợ và tích cực tham gia phong trào thi đua."
+    ]
+  },
+  {
+    "instruction": "Điều 6: Tiêu chuẩn tặng danh hiệu “Chiến sĩ thi đua cơ sở” Danh hiệu \"Chiến sĩ thi đua cơ sở\" để tặng hằng năm cho viên chức, người lao động tiêu biểu được lựa chọn trong số những cá nhân đạt các tiêu chuân sau đây:\nKhoản 1: Gương mẫu chấp hành tốt chủ trương, đường lỗi của Đảng, chính sách, pháp luật của Nhà nước và nội quy của Nhà trường;",
+    "response": [
+      "Viên chức tiêu biểu được lựa chọn trong số những cá nhân đạt các tiêu chuẩn để tặng hằng năm danh hiệu “Chiến sĩ thi đua cơ sở” khi gương mẫu chấp hành tốt chủ trương, đường lối của Đảng, chính sách, pháp luật của Nhà nước và nội quy của Nhà trường.",
+      "Người lao động tiêu biểu được lựa chọn trong số những cá nhân đạt các tiêu chuẩn để tặng hằng năm danh hiệu “Chiến sĩ thi đua cơ sở” khi gương mẫu chấp hành tốt chủ trương, đường lối của Đảng, chính sách, pháp luật của Nhà nước và nội quy của Nhà trường."
+    ]
+  },
+  
+  {
+    "instruction": "Điều 6: Tiêu chuẩn tặng danh hiệu “Chiến sĩ thi đua cơ sở” Danh hiệu \"Chiến sĩ thi đua cơ sở\" để tặng hằng năm cho viên chức, người lao động tiêu biểu được lựa chọn trong số những cá nhân đạt các tiêu chuân sau đây:\nKhoản 2: Đạt tiêu chuẩn danh hiệu \"Lao động tiên tiến\";",
+    "response": [
+      "Viên chức tiêu biểu được lựa chọn trong số những cá nhân đạt các tiêu chuẩn để tặng hằng năm danh hiệu “Chiến sĩ thi đua cơ sở” khi đạt tiêu chuẩn danh hiệu “Lao động tiên tiến”.",
+      "Người lao động tiêu biểu được lựa chọn trong số những cá nhân đạt các tiêu chuẩn để tặng hằng năm danh hiệu “Chiến sĩ thi đua cơ sở” khi đạt tiêu chuẩn danh hiệu “Lao động tiên tiến”."
+    ]
+  },
+  {
+    "instruction": "Điều 6: Tiêu chuẩn tặng danh hiệu “Chiến sĩ thi đua cơ sở” Danh hiệu \"Chiến sĩ thi đua cơ sở\" để tặng hằng năm cho viên chức, người lao động tiêu biểu được lựa chọn trong số những cá nhân đạt các tiêu chuân sau đây:\nKhoản 3: Hoàn thành xuất sắc nhiệm vụ hoặc có sáng kiến được Hiệu trưởng công nhận hoặc có đề tài khoa học, đề án khoa học, công trình khoa học và công nghệ đã được nghiệm thu. Á»",
+    "response": [
+      "Viên chức tiêu biểu được lựa chọn trong số những cá nhân đạt các tiêu chuẩn để tặng hằng năm danh hiệu “Chiến sĩ thi đua cơ sở” khi hoàn thành xuất sắc nhiệm vụ.",
+      "Viên chức tiêu biểu được lựa chọn trong số những cá nhân đạt các tiêu chuẩn để tặng hằng năm danh hiệu “Chiến sĩ thi đua cơ sở” khi có sáng kiến được Hiệu trưởng công nhận.",
+      "Viên chức tiêu biểu được lựa chọn trong số những cá nhân đạt các tiêu chuẩn để tặng hằng năm danh hiệu “Chiến sĩ thi đua cơ sở” khi có đề tài khoa học, đề án khoa học, công trình khoa học và công nghệ đã được nghiệm thu.",
+      "Người lao động tiêu biểu được lựa chọn trong số những cá nhân đạt các tiêu chuẩn để tặng hằng năm danh hiệu “Chiến sĩ thi đua cơ sở” khi hoàn thành xuất sắc nhiệm vụ.",
+      "Người lao động tiêu biểu được lựa chọn trong số những cá nhân đạt các tiêu chuẩn để tặng hằng năm danh hiệu “Chiến sĩ thi đua cơ sở” khi có sáng kiến được Hiệu trưởng công nhận.",
+      "Người lao động tiêu biểu được lựa chọn trong số những cá nhân đạt các tiêu chuẩn để tặng hằng năm danh hiệu “Chiến sĩ thi đua cơ sở” khi có đề tài khoa học, đề án khoa học, công trình khoa học và công nghệ đã được nghiệm thu."
+    ]
+  },
+  {
+    "instruction": "Điều 7: Tiêu chuẩn tặng danh hiệu “Chiến sĩ thi đua thành phố Danh hiệu \"Chiến sĩ thi đua thành phó\" để tặng cho viên chức, người lao động đạt các tiêu chuẩn sau đây:\nKhoản 1: Gương mẫu chấp hành tốt chủ trương, đường lối của Đảng, chính sách, pháp luật của Nhà nước và nội quy của Nhà trường;",
+    "response": [
+      "Viên chức được tặng danh hiệu “Chiến sĩ thi đua thành phố” khi gương mẫu chấp hành tốt chủ trương, đường lối của Đảng, chính sách, pháp luật của Nhà nước và nội quy của Nhà trường.",
+      "Người lao động được tặng danh hiệu “Chiến sĩ thi đua thành phố” khi gương mẫu chấp hành tốt chủ trương, đường lối của Đảng, chính sách, pháp luật của Nhà nước và nội quy của Nhà trường."
+    ]
+  },
+  {
+    "instruction": "Điều 7: Tiêu chuẩn tặng danh hiệu “Chiến sĩ thi đua thành phố Danh hiệu \"Chiến sĩ thi đua thành phó\" để tặng cho viên chức, người lao động đạt các tiêu chuẩn sau đây:\nKhoản 2: Có thành tích xuất sắc tiêu biểu được lựa chọn trong số những cá nhân có 03 lần liên tục được tặng danh hiệu \"Chiến sĩ thi đua cơ sở\";",
+    "response": [
+      "Viên chức được tặng danh hiệu “Chiến sĩ thi đua thành phố” khi có thành tích xuất sắc tiêu biểu và được lựa chọn trong số những cá nhân có 03 lần liên tục được tặng danh hiệu “Chiến sĩ thi đua cơ sở”.",
+      "Người lao động được tặng danh hiệu “Chiến sĩ thi đua thành phố” khi có thành tích xuất sắc tiêu biểu và được lựa chọn trong số những cá nhân có 03 lần liên tục được tặng danh hiệu “Chiến sĩ thi đua cơ sở”."
+    ]
+  },
+  {
+    "instruction": "Điều 7: Tiêu chuẩn tặng danh hiệu “Chiến sĩ thi đua thành phố Danh hiệu \"Chiến sĩ thi đua thành phó\" để tặng cho viên chức, người lao động đạt các tiêu chuẩn sau đây:\nKhoản 3: Có sáng kiến đã được áp dụng hiệu quả và có khả năng nhân rộng trong thành phố hoặc có đề tài khoa học, đề án khoa học, công trình khoa học và công nghệ đã được nghiệm thu và áp dụng hiệu quả, có phạm vi ảnh hưởng trong thành phô.",
+    "response": [
+      "Viên chức được tặng danh hiệu “Chiến sĩ thi đua thành phố” khi có sáng kiến đã được áp dụng hiệu quả và có khả năng nhân rộng trong thành phố.",
+      "Viên chức được tặng danh hiệu “Chiến sĩ thi đua thành phố” khi có đề tài khoa học, đề án khoa học, công trình khoa học và công nghệ đã được nghiệm thu, áp dụng hiệu quả và có phạm vi ảnh hưởng trong thành phố.",
+      "Người lao động được tặng danh hiệu “Chiến sĩ thi đua thành phố” khi có sáng kiến đã được áp dụng hiệu quả và có khả năng nhân rộng trong thành phố.",
+      "Người lao động được tặng danh hiệu “Chiến sĩ thi đua thành phố” khi có đề tài khoa học, đề án khoa học, công trình khoa học và công nghệ đã được nghiệm thu, áp dụng hiệu quả và có phạm vi ảnh hưởng trong thành phố."
+    ]
+  },
+  {
+    "instruction": "Điều 10: Tiêu chuẩn tặng danh hiệu “Tập thể lao động xuất sắc”\nKhoản 1: Danh hiệu “Tập thể lao động xuất sắc” để tặng hằng năm cho các phòng, khoa, trung tâm thuộc Trường.",
+    "response": [
+      "Danh hiệu “Tập thể lao động xuất sắc” được tặng hằng năm cho các phòng thuộc Trường.",
+      "Danh hiệu “Tập thể lao động xuất sắc” được tặng hằng năm cho các khoa thuộc Trường.",
+      "Danh hiệu “Tập thể lao động xuất sắc” được tặng hằng năm cho các trung tâm thuộc Trường."
+    ]
+  },
+  {
+    "instruction": "Điều 10: Tiêu chuẩn tặng danh hiệu “Tập thể lao động xuất sắc”\nKhoản 2: Danh hiệu “Tập thể lao động xuất sắc” để tặng cho tập thể đủ tiêu chuẩn theo quy định, cụ thể:\nĐiểm a) Hoàn thành xuất sắc nhiệm vụ được giao",
+    "response": [
+      "Tập thể được tặng danh hiệu “Tập thể lao động xuất sắc” khi hoàn thành xuất sắc nhiệm vụ được giao."
+    ]
+  },
+  {
+    "instruction": "Điều 10: Tiêu chuẩn tặng danh hiệu “Tập thể lao động xuất sắc”\nKhoản 2: Danh hiệu “Tập thể lao động xuất sắc” để tặng cho tập thể đủ tiêu chuẩn theo quy định, cụ thể:\nĐiểm b) Tích cực tham gia phong trào thi đua thường xuyên, thiết thực, hiệu quả",
+    "response": [
+      "Tập thể được tặng danh hiệu “Tập thể lao động xuất sắc” khi tích cực tham gia phong trào thi đua thường xuyên.",
+      "Tập thể được tặng danh hiệu “Tập thể lao động xuất sắc” khi tích cực tham gia phong trào thi đua thiết thực.",
+      "Tập thể được tặng danh hiệu “Tập thể lao động xuất sắc” khi tích cực tham gia phong trào thi đua hiệu quả."
+    ]
+  },
+{
+"instruction": "Điều 13: Tiêu chuẩn tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố\nKhoản 1: Cá nhân\nĐiểm a) Gương mẫu chấp hành tốt chủ trương của Đảng, chính sách, pháp luật của Nhà nước và quy định của Nhà trường;",
+"response": [
+"Cá nhân được tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố khi gương mẫu chấp hành tốt chủ trương của Đảng.",
+"Cá nhân được tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố khi gương mẫu chấp hành tốt chính sách, pháp luật của Nhà nước.",
+"Cá nhân được tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố khi gương mẫu chấp hành tốt quy định của Nhà trường."
+]
+},
+{
+"instruction": "Điều 13: Tiêu chuẩn tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố\nKhoản 1: Cá nhân\nĐiểm b) Có 02 lần liên tục được tặng danh hiệu \"Chiến sĩ thi đua cơ sở\" hoặc có liên tục từ 02 năm trở lên được công nhận hoàn thành xuất sắc nhiệm vụ, trong thời gian đó có 02 sáng kiến được công nhận và áp dụng có hiệu quả trong phạm vi cơ sở hoặc có 02 đề tài khoa học, đề án khoa học, công trình khoa học và công nghệ đã được nghiệm thu và áp dụng hiệu quả trong phạm vi cơ sở.",
+"response": [
+"Cá nhân được tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố khi có 02 lần liên tục được tặng danh hiệu \"Chiến sĩ thi đua cơ sở\".",
+"Cá nhân được tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố khi có liên tục từ 02 năm trở lên được công nhận hoàn thành xuất sắc nhiệm vụ.",
+"Trong thời gian được công nhận hoàn thành xuất sắc nhiệm vụ liên tục từ 02 năm trở lên, cá nhân có 02 sáng kiến được công nhận và áp dụng có hiệu quả trong phạm vi cơ sở.",
+"Trong thời gian được công nhận hoàn thành xuất sắc nhiệm vụ liên tục từ 02 năm trở lên, cá nhân có 02 đề tài khoa học, đề án khoa học, công trình khoa học và công nghệ được nghiệm thu và áp dụng hiệu quả trong phạm vi cơ sở."
+]
+},
+{
+"instruction": "Điều 13: Tiêu chuẩn tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố\nKhoản 2: Tập thể\nĐiểm a) Gương mẫu chấp hành tốt chủ trương của Đảng, chính sách, pháp luật của Nhà nước, nội quy của Nhà trường, nội bộ đoàn kết;",
+"response": [
+"Tập thể được tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố khi gương mẫu chấp hành tốt chủ trương của Đảng.",
+"Tập thể được tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố khi gương mẫu chấp hành tốt chính sách, pháp luật của Nhà nước.",
+"Tập thể được tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố khi chấp hành tốt nội quy của Nhà trường.",
+"Tập thể được tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố khi có nội bộ đoàn kết."
+]
+},
+{
+"instruction": "Điều 13: Tiêu chuẩn tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố\nKhoản 2: Tập thể\nĐiểm b) Có 02 năm liên tục được công nhận hoàn thành xuất sắc nhiệm vụ hoặc đạt danh hiệu \"Tập thể lao động xuất sắc\", thực hiện tốt dân chủ ở cơ sở, tổ chức tốt các phong trào thi đua; chăm lo đời sống vật chất, tinh thần trong tập thể; thực hành tiết kiệm, chống lãng phí; phòng, chống tham nhũng, tiêu cực.",
+"response": [
+"Tập thể được tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố khi có 02 năm liên tục được công nhận hoàn thành xuất sắc nhiệm vụ hoặc đạt danh hiệu \"Tập thể lao động xuất sắc\".",
+"Tập thể được tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố khi thực hiện tốt dân chủ ở cơ sở.",
+"Tập thể được tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố khi tổ chức tốt các phong trào thi đua.",
+"Tập thể được tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố khi chăm lo đời sống vật chất, tinh thần trong tập thể.",
+"Tập thể được tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố khi thực hành tiết kiệm và chống lãng phí.",
+"Tập thể được tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố khi thực hiện công tác phòng, chống tham nhũng, tiêu cực."
+]
+},
+{
+"instruction": "Điều 14: Tiêu chuẩn tặng \"Bằng khen của Thủ tướng Chính phủ\"\nKhoản 1: Cá nhân\nĐiểm a) Gương mẫu chấp hành tốt chủ trương của Đảng, chính sách, pháp luật của Nhà nước và quy định của Nhà trường;",
+"response": [
+"Cá nhân được tặng \"Bằng khen của Thủ tướng Chính phủ\" khi gương mẫu chấp hành tốt chủ trương của Đảng.",
+"Cá nhân được tặng \"Bằng khen của Thủ tướng Chính phủ\" khi gương mẫu chấp hành tốt chính sách, pháp luật của Nhà nước.",
+"Cá nhân được tặng \"Bằng khen của Thủ tướng Chính phủ\" khi gương mẫu chấp hành tốt quy định của Nhà trường."
+]
+},
+{
+"instruction": "Mục tiêu của khen thưởng là nhằm khuyến khích, động viên cá nhân, tập thể, hộ gia đình hăng hái thi đua; ghi nhận công lao, thành tích của cá nhân, tập thể, hộ gia đình trong xây dựng và bảo vệ Tổ quốc.",
+"response": [
+"Mục tiêu của khen thưởng là nhằm khuyến khích cá nhân, tập thể, hộ gia đình hăng hái thi đua.",
+"Mục tiêu của khen thưởng là nhằm động viên cá nhân, tập thể, hộ gia đình hăng hái thi đua.",
+"Mục tiêu của khen thưởng là nhằm ghi nhận công lao, thành tích của cá nhân, tập thể, hộ gia đình trong xây dựng và bảo vệ Tổ quốc."
+]
+},
+{
+"instruction": "Công tác thi đua, khen thưởng phải bảo đảm nguyên tắc công khai, minh bạch, công bằng và kịp thời.",
+"response": [
+"Công tác thi đua, khen thưởng phải bảo đảm công khai.",
+"Công tác thi đua, khen thưởng phải bảo đảm minh bạch.",
+"Công tác thi đua, khen thưởng phải bảo đảm công bằng.",
+"Công tác thi đua, khen thưởng phải bảo đảm kịp thời."
+]
+},
+{
+"instruction": "Việc khen thưởng phải căn cứ vào điều kiện, tiêu chuẩn và thành tích đạt được của cá nhân, tập thể.",
+"response": [
+"Việc khen thưởng phải căn cứ vào điều kiện khen thưởng của cá nhân, tập thể.",
+"Việc khen thưởng phải căn cứ vào tiêu chuẩn khen thưởng của cá nhân, tập thể.",
+"Việc khen thưởng phải căn cứ vào thành tích đạt được của cá nhân, tập thể."
+]
+},
+{
+"instruction": "Cá nhân có thành tích xuất sắc trong công tác, lao động, học tập và nghiên cứu khoa học được xem xét khen thưởng theo quy định.",
+"response": [
+"Cá nhân có thành tích xuất sắc trong công tác được xem xét khen thưởng theo quy định.",
+"Cá nhân có thành tích xuất sắc trong lao động được xem xét khen thưởng theo quy định.",
+"Cá nhân có thành tích xuất sắc trong học tập được xem xét khen thưởng theo quy định.",
+"Cá nhân có thành tích xuất sắc trong nghiên cứu khoa học được xem xét khen thưởng theo quy định."
+]
+},
+{
+"instruction": "Tập thể được xem xét khen thưởng khi hoàn thành tốt nhiệm vụ được giao, có tinh thần đoàn kết và tích cực tham gia các phong trào thi đua.",
+"response": [
+"Tập thể được xem xét khen thưởng khi hoàn thành tốt nhiệm vụ được giao.",
+"Tập thể được xem xét khen thưởng khi có tinh thần đoàn kết.",
+"Tập thể được xem xét khen thưởng khi tích cực tham gia các phong trào thi đua."
+]
+},
+{
+"instruction": "Danh hiệu \"Lao động tiên tiến\" được xét tặng cho cá nhân hoàn thành tốt nhiệm vụ trở lên, có tinh thần tự lực, tự cường, đoàn kết và tích cực tham gia phong trào thi đua.",
+"response": [
+"Cá nhân được xét tặng danh hiệu \"Lao động tiên tiến\" khi hoàn thành tốt nhiệm vụ trở lên.",
+"Cá nhân được xét tặng danh hiệu \"Lao động tiên tiến\" khi có tinh thần tự lực, tự cường.",
+"Cá nhân được xét tặng danh hiệu \"Lao động tiên tiến\" khi có tinh thần đoàn kết.",
+"Cá nhân được xét tặng danh hiệu \"Lao động tiên tiến\" khi tích cực tham gia phong trào thi đua."
+]
+},
+{
+"instruction": "Danh hiệu \"Chiến sĩ thi đua cơ sở\" được xét tặng cho cá nhân đạt tiêu chuẩn danh hiệu \"Lao động tiên tiến\" và có sáng kiến được cơ sở công nhận hoặc có đề tài khoa học, đề án khoa học, công trình khoa học và công nghệ đã được nghiệm thu.",
+"response": [
+"Cá nhân được xét tặng danh hiệu \"Chiến sĩ thi đua cơ sở\" khi đạt tiêu chuẩn danh hiệu \"Lao động tiên tiến\".",
+"Cá nhân được xét tặng danh hiệu \"Chiến sĩ thi đua cơ sở\" khi có sáng kiến được cơ sở công nhận.",
+"Cá nhân được xét tặng danh hiệu \"Chiến sĩ thi đua cơ sở\" khi có đề tài khoa học, đề án khoa học, công trình khoa học và công nghệ đã được nghiệm thu."
+]
+},
+{
+"instruction": "Tập thể được xem xét công nhận danh hiệu \"Tập thể lao động xuất sắc\" khi hoàn thành xuất sắc nhiệm vụ, tích cực tham gia phong trào thi đua, có 100% cá nhân hoàn thành nhiệm vụ được giao và có cá nhân đạt danh hiệu \"Chiến sĩ thi đua cơ sở\".",
+"response": [
+"Tập thể được xem xét công nhận danh hiệu \"Tập thể lao động xuất sắc\" khi hoàn thành xuất sắc nhiệm vụ.",
+"Tập thể được xem xét công nhận danh hiệu \"Tập thể lao động xuất sắc\" khi tích cực tham gia phong trào thi đua.",
+"Tập thể được xem xét công nhận danh hiệu \"Tập thể lao động xuất sắc\" khi có 100% cá nhân hoàn thành nhiệm vụ được giao.",
+"Tập thể được xem xét công nhận danh hiệu \"Tập thể lao động xuất sắc\" khi có cá nhân đạt danh hiệu \"Chiến sĩ thi đua cơ sở\"."
+]
+},
+{
+"instruction": "Cá nhân được đề nghị khen thưởng phải có phẩm chất đạo đức tốt, chấp hành nghiêm chủ trương của Đảng, chính sách, pháp luật của Nhà nước và hoàn thành nhiệm vụ được giao.",
+"response": [
+"Cá nhân được đề nghị khen thưởng phải có phẩm chất đạo đức tốt.",
+"Cá nhân được đề nghị khen thưởng phải chấp hành nghiêm chủ trương của Đảng.",
+"Cá nhân được đề nghị khen thưởng phải chấp hành nghiêm chính sách, pháp luật của Nhà nước.",
+"Cá nhân được đề nghị khen thưởng phải hoàn thành nhiệm vụ được giao."
+]
+},
+{
+"instruction": "Hồ sơ đề nghị khen thưởng gồm tờ trình, báo cáo thành tích của đối tượng được đề nghị và các tài liệu có liên quan theo quy định.",
+"response": [
+"Hồ sơ đề nghị khen thưởng gồm tờ trình.",
+"Hồ sơ đề nghị khen thưởng gồm báo cáo thành tích của đối tượng được đề nghị.",
+"Hồ sơ đề nghị khen thưởng gồm các tài liệu có liên quan theo quy định."
+]
+},
+{
+"instruction": "Việc bình xét thi đua phải được thực hiện dân chủ, khách quan, đúng đối tượng và đúng tiêu chuẩn.",
+"response": [
+"Việc bình xét thi đua phải được thực hiện dân chủ.",
+"Việc bình xét thi đua phải được thực hiện khách quan.",
+"Việc bình xét thi đua phải đúng đối tượng.",
+"Việc bình xét thi đua phải đúng tiêu chuẩn."
+]
+},
+{
+"instruction": "Người đứng đầu đơn vị có trách nhiệm tổ chức phong trào thi đua, phát hiện điển hình tiên tiến và đề xuất khen thưởng đối với cá nhân, tập thể có thành tích.",
+"response": [
+"Người đứng đầu đơn vị có trách nhiệm tổ chức phong trào thi đua.",
+"Người đứng đầu đơn vị có trách nhiệm phát hiện điển hình tiên tiến.",
+"Người đứng đầu đơn vị có trách nhiệm đề xuất khen thưởng đối với cá nhân, tập thể có thành tích."
+]
+},
+{
+"instruction": "Kết quả khen thưởng phải gắn với thành tích thực tế, mức độ đóng góp và phạm vi ảnh hưởng của thành tích.",
+"response": [
+"Kết quả khen thưởng phải gắn với thành tích thực tế.",
+"Kết quả khen thưởng phải gắn với mức độ đóng góp.",
+"Kết quả khen thưởng phải gắn với phạm vi ảnh hưởng của thành tích."
+]
+},
+{
+"instruction": "Cá nhân được xem xét khen thưởng đột xuất khi lập được thành tích xuất sắc, tiêu biểu trong thực hiện nhiệm vụ hoặc có hành động dũng cảm cứu người, cứu tài sản.",
+"response": [
+"Cá nhân được xem xét khen thưởng đột xuất khi lập được thành tích xuất sắc, tiêu biểu trong thực hiện nhiệm vụ.",
+"Cá nhân được xem xét khen thưởng đột xuất khi có hành động dũng cảm cứu người.",
+"Cá nhân được xem xét khen thưởng đột xuất khi có hành động dũng cảm cứu tài sản."
+]
+},
+{
+"instruction": "Tập thể có thành tích xuất sắc trong tổ chức phong trào thi đua, thực hiện tốt nhiệm vụ chính trị và xây dựng môi trường làm việc đoàn kết được xem xét khen thưởng theo quy định.",
+"response": [
+"Tập thể có thành tích xuất sắc trong tổ chức phong trào thi đua được xem xét khen thưởng theo quy định.",
+"Tập thể thực hiện tốt nhiệm vụ chính trị được xem xét khen thưởng theo quy định.",
+"Tập thể xây dựng môi trường làm việc đoàn kết được xem xét khen thưởng theo quy định."
+]
+},
+{
+"instruction": "Việc xét tặng danh hiệu thi đua phải bảo đảm đúng trình tự, thủ tục, thẩm quyền và hồ sơ theo quy định.",
+"response": [
+"Việc xét tặng danh hiệu thi đua phải bảo đảm đúng trình tự theo quy định.",
+"Việc xét tặng danh hiệu thi đua phải bảo đảm đúng thủ tục theo quy định.",
+"Việc xét tặng danh hiệu thi đua phải bảo đảm đúng thẩm quyền theo quy định.",
+"Việc xét tặng danh hiệu thi đua phải bảo đảm đúng hồ sơ theo quy định."
+]
+},
+{
+"instruction": "Cá nhân được đề nghị khen thưởng phải có thành tích rõ ràng, có tài liệu chứng minh và được tập thể hoặc cấp có thẩm quyền đánh giá.",
+"response": [
+"Cá nhân được đề nghị khen thưởng phải có thành tích rõ ràng.",
+"Cá nhân được đề nghị khen thưởng phải có tài liệu chứng minh thành tích.",
+"Cá nhân được đề nghị khen thưởng phải được tập thể hoặc cấp có thẩm quyền đánh giá."
+]
+},
+{
+"instruction": "Phong trào thi đua nhằm phát huy tinh thần sáng tạo, nâng cao năng suất lao động và góp phần hoàn thành nhiệm vụ của cơ quan, đơn vị.",
+"response": [
+"Phong trào thi đua nhằm phát huy tinh thần sáng tạo.",
+"Phong trào thi đua nhằm nâng cao năng suất lao động.",
+"Phong trào thi đua góp phần hoàn thành nhiệm vụ của cơ quan, đơn vị."
+]
+},
+{
+"instruction": "Công tác khen thưởng phải bảo đảm không khen thưởng nhiều lần, nhiều hình thức cho một thành tích, trừ trường hợp pháp luật có quy định khác.",
+"response": [
+"Công tác khen thưởng phải bảo đảm không khen thưởng nhiều lần cho một thành tích, trừ trường hợp pháp luật có quy định khác.",
+"Công tác khen thưởng phải bảo đảm không khen thưởng nhiều hình thức cho một thành tích, trừ trường hợp pháp luật có quy định khác."
+]
+},
+{
+"instruction": "Cá nhân có sáng kiến mang lại hiệu quả thiết thực trong công tác, được công nhận và áp dụng trong phạm vi cơ quan, đơn vị, có thể được xem xét khen thưởng theo tiêu chuẩn tương ứng.",
+"response": [
+"Cá nhân có sáng kiến mang lại hiệu quả thiết thực trong công tác có thể được xem xét khen thưởng theo tiêu chuẩn tương ứng.",
+"Sáng kiến của cá nhân phải được công nhận để làm căn cứ xem xét khen thưởng theo tiêu chuẩn tương ứng.",
+"Sáng kiến của cá nhân phải được áp dụng trong phạm vi cơ quan, đơn vị để làm căn cứ xem xét khen thưởng theo tiêu chuẩn tương ứng."
+]
+},
+{
+"instruction": "Tập thể được xem xét khen thưởng khi thực hiện tốt quy chế dân chủ, duy trì kỷ luật, kỷ cương và xây dựng môi trường làm việc an toàn, lành mạnh.",
+"response": [
+"Tập thể được xem xét khen thưởng khi thực hiện tốt quy chế dân chủ.",
+"Tập thể được xem xét khen thưởng khi duy trì kỷ luật, kỷ cương.",
+"Tập thể được xem xét khen thưởng khi xây dựng môi trường làm việc an toàn, lành mạnh."
+]
+},
+{
+"instruction": "Việc đánh giá thành tích phải xem xét kết quả thực hiện nhiệm vụ, chất lượng công việc và hiệu quả đóng góp của đối tượng được đề nghị khen thưởng.",
+"response": [
+"Việc đánh giá thành tích phải xem xét kết quả thực hiện nhiệm vụ.",
+"Việc đánh giá thành tích phải xem xét chất lượng công việc.",
+"Việc đánh giá thành tích phải xem xét hiệu quả đóng góp của đối tượng được đề nghị khen thưởng."
+]
+},
+{
+"instruction": "Cơ quan, đơn vị tổ chức sơ kết, tổng kết phong trào thi đua để đánh giá kết quả thực hiện, biểu dương các điển hình tiên tiến và rút kinh nghiệm.",
+"response": [
+"Cơ quan, đơn vị tổ chức sơ kết, tổng kết phong trào thi đua để đánh giá kết quả thực hiện.",
+"Cơ quan, đơn vị tổ chức sơ kết, tổng kết phong trào thi đua để biểu dương các điển hình tiên tiến.",
+"Cơ quan, đơn vị tổ chức sơ kết, tổng kết phong trào thi đua để rút kinh nghiệm."
+]
+},
+{
+"instruction": "Cá nhân, tập thể được khen thưởng có trách nhiệm tiếp tục phát huy thành tích, chia sẻ kinh nghiệm và góp phần lan tỏa phong trào thi đua.",
+"response": [
+"Cá nhân, tập thể được khen thưởng có trách nhiệm tiếp tục phát huy thành tích.",
+"Cá nhân, tập thể được khen thưởng có trách nhiệm chia sẻ kinh nghiệm.",
+"Cá nhân, tập thể được khen thưởng có trách nhiệm góp phần lan tỏa phong trào thi đua."
+]
+},
+{
+"instruction": "Việc đề nghị khen thưởng phải được thực hiện đúng thời hạn, đúng cấp có thẩm quyền và bảo đảm đầy đủ thành phần hồ sơ.",
+"response": [
+"Việc đề nghị khen thưởng phải được thực hiện đúng thời hạn.",
+"Việc đề nghị khen thưởng phải được thực hiện đúng cấp có thẩm quyền.",
+"Việc đề nghị khen thưởng phải bảo đảm đầy đủ thành phần hồ sơ."
+]
+},
+{
+"instruction": "Danh hiệu thi đua và hình thức khen thưởng được lựa chọn căn cứ vào đối tượng, thành tích và tiêu chuẩn áp dụng.",
+"response": [
+"Việc lựa chọn danh hiệu thi đua và hình thức khen thưởng căn cứ vào đối tượng.",
+"Việc lựa chọn danh hiệu thi đua và hình thức khen thưởng căn cứ vào thành tích.",
+"Việc lựa chọn danh hiệu thi đua và hình thức khen thưởng căn cứ vào tiêu chuẩn áp dụng."
+]
+},
+{
+"instruction": "Tập thể có trách nhiệm tổ chức cho viên chức, người lao động đăng ký thi đua, theo dõi kết quả thực hiện và bình xét thành tích vào cuối kỳ.",
+"response": [
+"Tập thể có trách nhiệm tổ chức cho viên chức, người lao động đăng ký thi đua.",
+"Tập thể có trách nhiệm theo dõi kết quả thực hiện phong trào thi đua.",
+"Tập thể có trách nhiệm bình xét thành tích vào cuối kỳ."
+]
+},
+{
+"instruction": "Cá nhân được đề nghị tặng bằng khen phải đạt thành tích nổi bật, có phạm vi ảnh hưởng phù hợp và đáp ứng đầy đủ tiêu chuẩn của hình thức khen thưởng.",
+"response": [
+"Cá nhân được đề nghị tặng bằng khen phải đạt thành tích nổi bật.",
+"Cá nhân được đề nghị tặng bằng khen phải có phạm vi ảnh hưởng phù hợp.",
+"Cá nhân được đề nghị tặng bằng khen phải đáp ứng đầy đủ tiêu chuẩn của hình thức khen thưởng."
+]
+},
+{
+"instruction": "Việc khen thưởng phải ưu tiên cá nhân trực tiếp lao động, học tập, công tác và có thành tích tiêu biểu trong thực hiện nhiệm vụ.",
+"response": [
+"Việc khen thưởng phải ưu tiên cá nhân trực tiếp lao động và có thành tích tiêu biểu trong thực hiện nhiệm vụ.",
+"Việc khen thưởng phải ưu tiên cá nhân trực tiếp học tập và có thành tích tiêu biểu trong thực hiện nhiệm vụ.",
+"Việc khen thưởng phải ưu tiên cá nhân trực tiếp công tác và có thành tích tiêu biểu trong thực hiện nhiệm vụ."
+]
+},
+{
+"instruction": "Hội đồng thi đua, khen thưởng có trách nhiệm xem xét thành tích, đánh giá mức độ đáp ứng tiêu chuẩn và đề xuất hình thức khen thưởng theo thẩm quyền.",
+"response": [
+"Hội đồng thi đua, khen thưởng có trách nhiệm xem xét thành tích.",
+"Hội đồng thi đua, khen thưởng có trách nhiệm đánh giá mức độ đáp ứng tiêu chuẩn khen thưởng.",
+"Hội đồng thi đua, khen thưởng có trách nhiệm đề xuất hình thức khen thưởng theo thẩm quyền."
+]
+},
+{
+"instruction": "Các sáng kiến được sử dụng làm căn cứ xét khen thưởng phải có nội dung cụ thể, được đánh giá về hiệu quả và đáp ứng yêu cầu công nhận theo quy định.",
+"response": [
+"Các sáng kiến được sử dụng làm căn cứ xét khen thưởng phải có nội dung cụ thể.",
+"Các sáng kiến được sử dụng làm căn cứ xét khen thưởng phải được đánh giá về hiệu quả.",
+"Các sáng kiến được sử dụng làm căn cứ xét khen thưởng phải đáp ứng yêu cầu công nhận theo quy định."
+]
+},
+{
+"instruction": "Tổ chức, cá nhân có trách nhiệm kê khai trung thực thành tích và chịu trách nhiệm về tính chính xác của hồ sơ đề nghị khen thưởng.",
+"response": [
+"Tổ chức, cá nhân có trách nhiệm kê khai trung thực thành tích.",
+"Tổ chức, cá nhân có trách nhiệm về tính chính xác của hồ sơ đề nghị khen thưởng."
+]
+},
+
+  {
+    "instruction": "Điều 15: Tiêu chuẩn tặng “Huân chương lao động hạng II” a) Gương mẫu chấp hành tốt chủ trương của Đảng, chính sách, pháp luật của Nhà nước và quy định của Nhà trường; b) Đã được tặng “Bằng khen của Thủ tướng Chính phủ” và sau đó có liên tục từ 05 năm trở lên đến thời điểm đề nghị được công nhận hoàn thành tốt nhiệm vụ trở lên, trong thời gian đó có từ 01 năm trở lên được công nhận hoàn thành xuất sắc nhiệm vụ và có 03 lần được tặng danh hiệu “Chiến sĩ thi đua cơ sở”.",
+    "response": [
+      "Cá nhân được tặng “Huân chương Lao động hạng II” khi gương mẫu chấp hành tốt chủ trương của Đảng.",
+      "Cá nhân được tặng “Huân chương Lao động hạng II” khi gương mẫu chấp hành tốt chính sách, pháp luật của Nhà nước.",
+      "Cá nhân được tặng “Huân chương Lao động hạng II” khi gương mẫu chấp hành tốt quy định của Nhà trường.",
+      "Cá nhân được tặng “Huân chương Lao động hạng II” khi đã được tặng “Bằng khen của Thủ tướng Chính phủ”.",
+      "Sau khi được tặng “Bằng khen của Thủ tướng Chính phủ”, cá nhân phải có liên tục từ 05 năm trở lên được công nhận hoàn thành tốt nhiệm vụ trở lên tính đến thời điểm đề nghị.",
+      "Trong thời gian liên tục từ 05 năm trở lên được công nhận hoàn thành tốt nhiệm vụ trở lên, cá nhân phải có ít nhất 01 năm được công nhận hoàn thành xuất sắc nhiệm vụ.",
+      "Trong thời gian liên tục từ 05 năm trở lên được công nhận hoàn thành tốt nhiệm vụ trở lên, cá nhân phải có 03 lần được tặng danh hiệu “Chiến sĩ thi đua cơ sở”."
+    ]
+  },
+  {
+    "instruction": "Điều 16: Tiêu chuẩn tặng “Huân chương lao động hạng II” a) Gương mẫu chấp hành tốt chủ trương của Đảng, chính sách, pháp luật của Nhà nước và quy định của Nhà trường; b) Đã được tặng “Huân chương Lao động” hạng Ba và sau đó có liên tục từ 05 năm trở lên được công nhận hoàn thành tốt nhiệm vụ trở lên, trong thời gian đó có từ 02 năm trở lên được công nhận hoàn thành xuất sắc nhiệm vụ và có 01 lần được tặng danh hiệu chiến sĩ thi đua thành phó.",
+    "response": [
+      "Cá nhân được tặng “Huân chương Lao động hạng II” khi gương mẫu chấp hành tốt chủ trương của Đảng.",
+      "Cá nhân được tặng “Huân chương Lao động hạng II” khi gương mẫu chấp hành tốt chính sách, pháp luật của Nhà nước.",
+      "Cá nhân được tặng “Huân chương Lao động hạng II” khi gương mẫu chấp hành tốt quy định của Nhà trường.",
+      "Cá nhân được tặng “Huân chương Lao động hạng II” khi đã được tặng “Huân chương Lao động” hạng Ba.",
+      "Sau khi được tặng “Huân chương Lao động” hạng Ba, cá nhân phải có liên tục từ 05 năm trở lên được công nhận hoàn thành tốt nhiệm vụ trở lên.",
+      "Trong thời gian liên tục từ 05 năm trở lên được công nhận hoàn thành tốt nhiệm vụ trở lên, cá nhân phải có ít nhất 02 năm được công nhận hoàn thành xuất sắc nhiệm vụ.",
+      "Trong thời gian liên tục từ 05 năm trở lên được công nhận hoàn thành tốt nhiệm vụ trở lên, cá nhân phải có 01 lần được tặng danh hiệu “Chiến sĩ thi đua thành phố”."
+    ]
+  },
+  {
+    "instruction": "Điều 17: Tiêu chuẩn tặng “Huân chương lao động hạng I° a) Gương mẫu chấp hành tốt chủ trương của Đảng, chính sách, pháp luật của Nhà nước và quy định của Nhà trường; b) Đã được tặng “Huân chương Lao động” hạng Nhì và sau đó có liên tục từ 05 năm trở lên đến thời điểm đề nghị được công nhận hoàn thành tốt nhiệm vụ trở' lên, trong thời gian đó có từ 03 năm trở lên được công nhận hoàn thành xuất sắc nhiệm vụ và có 02 lần được tặng danh hiệu chiến sĩ thi đua thành phó.",
+    "response": [
+      "Cá nhân được tặng “Huân chương Lao động hạng I” khi gương mẫu chấp hành tốt chủ trương của Đảng.",
+      "Cá nhân được tặng “Huân chương Lao động hạng I” khi gương mẫu chấp hành tốt chính sách, pháp luật của Nhà nước.",
+      "Cá nhân được tặng “Huân chương Lao động hạng I” khi gương mẫu chấp hành tốt quy định của Nhà trường.",
+      "Cá nhân được tặng “Huân chương Lao động hạng I” khi đã được tặng “Huân chương Lao động” hạng Nhì.",
+      "Sau khi được tặng “Huân chương Lao động” hạng Nhì, cá nhân phải có liên tục từ 05 năm trở lên được công nhận hoàn thành tốt nhiệm vụ trở lên tính đến thời điểm đề nghị.",
+      "Trong thời gian liên tục từ 05 năm trở lên được công nhận hoàn thành tốt nhiệm vụ trở lên, cá nhân phải có ít nhất 03 năm được công nhận hoàn thành xuất sắc nhiệm vụ.",
+      "Trong thời gian liên tục từ 05 năm trở lên được công nhận hoàn thành tốt nhiệm vụ trở lên, cá nhân phải có 02 lần được tặng danh hiệu “Chiến sĩ thi đua thành phố”."
+    ]
+  },
+  {
+    "instruction": "Điều 18: Về công nhận hiệu quả áp dụng, khả năng nhân rộng của sáng kiến; hiệu quả áp dụng, phạm vi ảnh hưởng của đề tài khoa học, đề án khoa học, công trình khoa học và công nghệ để làm căn cứ xét tặng danh hiệu thi đua, hình thức khen thưởng\nKhoản 1: Hiệu trưởng xem xét, công nhận hiệu quả áp dụng, khả năng nhân rộng, phạm vi ảnh hưởng của sáng kiến, đề tài khoa học, đề án khoa học, công trình khoa ===== TRANG 7 ===== học và công nghệ để làm căn cứ xét tặng danh hiệu thỉ đua, hình thức khen thưởng câp trường.",
+    "response": [
+      "Hiệu trưởng xem xét hiệu quả áp dụng của sáng kiến để làm căn cứ xét tặng danh hiệu thi đua và hình thức khen thưởng cấp trường.",
+      "Hiệu trưởng công nhận hiệu quả áp dụng của sáng kiến để làm căn cứ xét tặng danh hiệu thi đua và hình thức khen thưởng cấp trường.",
+      "Hiệu trưởng xem xét khả năng nhân rộng của sáng kiến để làm căn cứ xét tặng danh hiệu thi đua và hình thức khen thưởng cấp trường.",
+      "Hiệu trưởng công nhận khả năng nhân rộng của sáng kiến để làm căn cứ xét tặng danh hiệu thi đua và hình thức khen thưởng cấp trường.",
+      "Hiệu trưởng xem xét hiệu quả áp dụng của đề tài khoa học để làm căn cứ xét tặng danh hiệu thi đua và hình thức khen thưởng cấp trường.",
+      "Hiệu trưởng công nhận hiệu quả áp dụng của đề tài khoa học để làm căn cứ xét tặng danh hiệu thi đua và hình thức khen thưởng cấp trường.",
+      "Hiệu trưởng xem xét phạm vi ảnh hưởng của đề tài khoa học để làm căn cứ xét tặng danh hiệu thi đua và hình thức khen thưởng cấp trường.",
+      "Hiệu trưởng công nhận phạm vi ảnh hưởng của đề tài khoa học để làm căn cứ xét tặng danh hiệu thi đua và hình thức khen thưởng cấp trường.",
+      "Hiệu trưởng xem xét hiệu quả áp dụng của đề án khoa học để làm căn cứ xét tặng danh hiệu thi đua và hình thức khen thưởng cấp trường.",
+      "Hiệu trưởng công nhận hiệu quả áp dụng của đề án khoa học để làm căn cứ xét tặng danh hiệu thi đua và hình thức khen thưởng cấp trường.",
+      "Hiệu trưởng xem xét phạm vi ảnh hưởng của đề án khoa học để làm căn cứ xét tặng danh hiệu thi đua và hình thức khen thưởng cấp trường.",
+      "Hiệu trưởng công nhận phạm vi ảnh hưởng của đề án khoa học để làm căn cứ xét tặng danh hiệu thi đua và hình thức khen thưởng cấp trường.",
+      "Hiệu trưởng xem xét hiệu quả áp dụng của công trình khoa học và công nghệ để làm căn cứ xét tặng danh hiệu thi đua và hình thức khen thưởng cấp trường.",
+      "Hiệu trưởng công nhận hiệu quả áp dụng của công trình khoa học và công nghệ để làm căn cứ xét tặng danh hiệu thi đua và hình thức khen thưởng cấp trường.",
+      "Hiệu trưởng xem xét phạm vi ảnh hưởng của công trình khoa học và công nghệ để làm căn cứ xét tặng danh hiệu thi đua và hình thức khen thưởng cấp trường.",
+      "Hiệu trưởng công nhận phạm vi ảnh hưởng của công trình khoa học và công nghệ để làm căn cứ xét tặng danh hiệu thi đua và hình thức khen thưởng cấp trường."
+    ]
+  },
+  {
+    "instruction": "Điều 18: Về công nhận hiệu quả áp dụng, khả năng nhân rộng của sáng kiến; hiệu quả áp dụng, phạm vi ảnh hưởng của đề tài khoa học, đề án khoa học, công trình khoa học và công nghệ để làm căn cứ xét tặng danh hiệu thi đua, hình thức khen thưởng\nKhoản 2: Đối tượng được công nhận có đề tài khoa học, đề án khoa học, công trình khoa học và công nghệ để làm căn cứ xét danh hiệu thi đua và các hình thức khen thưởng là Chủ nhiệm đề tài khoa học, để án khoa học, công trình khoa học và công nghệ và người trực tiếp tham gia nghiên cứu đề tài khoa học, đề án khoa học, công trình khoa học và công nghệ. Người trực tiếp tham gia nghiên cứu đề tài khoa học, đề án khoa học, công trình khoa học và công nghệ là thư ký, người được phân công viết ít nhất 01 nội dung của đề tài khoa học, đề án khoa học, công trình khoa học và công nghệ.",
+    "response": [
+      "Chủ nhiệm đề tài khoa học là đối tượng được công nhận có đề tài khoa học để làm căn cứ xét danh hiệu thi đua và các hình thức khen thưởng.",
+      "Chủ nhiệm đề án khoa học là đối tượng được công nhận có đề án khoa học để làm căn cứ xét danh hiệu thi đua và các hình thức khen thưởng.",
+      "Chủ nhiệm công trình khoa học và công nghệ là đối tượng được công nhận có công trình khoa học và công nghệ để làm căn cứ xét danh hiệu thi đua và các hình thức khen thưởng.",
+      "Người trực tiếp tham gia nghiên cứu đề tài khoa học, đề án khoa học, công trình khoa học và công nghệ là đối tượng được công nhận để làm căn cứ xét danh hiệu thi đua và các hình thức khen thưởng.",
+      "Thư ký là người trực tiếp tham gia nghiên cứu đề tài khoa học, đề án khoa học, công trình khoa học và công nghệ.",
+      "Người được phân công viết ít nhất 01 nội dung của đề tài khoa học là người trực tiếp tham gia nghiên cứu đề tài khoa học.",
+      "Người được phân công viết ít nhất 01 nội dung của đề án khoa học là người trực tiếp tham gia nghiên cứu đề án khoa học.",
+      "Người được phân công viết ít nhất 01 nội dung của công trình khoa học và công nghệ là người trực tiếp tham gia nghiên cứu công trình khoa học và công nghệ."
+    ]
+  },
+  {
+    "instruction": "Điều 19: Tiền thưởng và hồ sơ đề nghị xét tặng danh hiệu thi đua, hình thức khen thưởng\nKhoản 1: Tiền thưởng được thực hiện theo quy định tại các Điều 53, Điều 54, Điều 55, Điều 56 và Điều 58 của Nghị định số 98/2023/NĐ-CP hoặc các văn bản quy định của ngành giáo dục.",
+    "response": [
+      "Tiền thưởng được thực hiện theo quy định tại Điều 53 của Nghị định số 98/2023/NĐ-CP.",
+      "Tiền thưởng được thực hiện theo quy định tại Điều 54 của Nghị định số 98/2023/NĐ-CP.",
+      "Tiền thưởng được thực hiện theo quy định tại Điều 55 của Nghị định số 98/2023/NĐ-CP.",
+      "Tiền thưởng được thực hiện theo quy định tại Điều 56 của Nghị định số 98/2023/NĐ-CP.",
+      "Tiền thưởng được thực hiện theo quy định tại Điều 58 của Nghị định số 98/2023/NĐ-CP.",
+      "Tiền thưởng được thực hiện theo các văn bản quy định của ngành giáo dục."
+    ]
+  },
+  {
+    "instruction": "Điều 19: Tiền thưởng và hồ sơ đề nghị xét tặng danh hiệu thi đua, hình thức khen thưởng\nKhoản 2: Hồ sơ đề nghị xét tặng danh hiệu thi đua, hình thức khen thưởng được thực hiện theo quy định tại khoản 1, khoản 2 Điều 84 của Luật Thi đua, khen thưởng và Điều 43 của Nghị định số 98/2023/NĐ-CP. Số lượng hồ sơ: 02 bộ.",
+    "response": [
+      "Hồ sơ đề nghị xét tặng danh hiệu thi đua được thực hiện theo quy định tại khoản 1 Điều 84 của Luật Thi đua, khen thưởng.",
+      "Hồ sơ đề nghị xét tặng danh hiệu thi đua được thực hiện theo quy định tại khoản 2 Điều 84 của Luật Thi đua, khen thưởng.",
+      "Hồ sơ đề nghị xét tặng hình thức khen thưởng được thực hiện theo quy định tại khoản 1 Điều 84 của Luật Thi đua, khen thưởng.",
+      "Hồ sơ đề nghị xét tặng hình thức khen thưởng được thực hiện theo quy định tại khoản 2 Điều 84 của Luật Thi đua, khen thưởng.",
+      "Hồ sơ đề nghị xét tặng danh hiệu thi đua được thực hiện theo quy định tại Điều 43 của Nghị định số 98/2023/NĐ-CP.",
+      "Hồ sơ đề nghị xét tặng hình thức khen thưởng được thực hiện theo quy định tại Điều 43 của Nghị định số 98/2023/NĐ-CP.",
+      "Số lượng hồ sơ đề nghị xét tặng danh hiệu thi đua và hình thức khen thưởng là 02 bộ."
+    ]
+  },
+  {
+    "instruction": "Điều 20: Điều khoản thi hành\nKhoản 1: Quyết định này có hiệu lực thi hành kể từ ngày 01 tháng 7 năm 2024.",
+    "response": [
+      "Quyết định này có hiệu lực thi hành kể từ ngày 01 tháng 7 năm 2024."
+    ]
+  },
+  {
+    "instruction": "Điều 20: Điều khoản thi hành\nKhoản 2: Trưởng phòng Tổ chức - Hành chính, Trưởng các đơn vị và cá nhân có liên quan chịu trách nhiệm thi hành Quyết định nàyJu J⁄ Ệ Nơi nhận: = - UBND TPCT; - BGH; HĐT; - HĐ TĐKT trường; - Các đơn vị; ~ Các đoàn thể, hội; - Cổng TTĐT CTUT; - Lưu: VT, TC. Huỳnh Thanh Nhã",
+    "response": [
+      "Trưởng phòng Tổ chức - Hành chính chịu trách nhiệm thi hành Quyết định này.",
+      "Trưởng các đơn vị chịu trách nhiệm thi hành Quyết định này.",
+      "Cá nhân có liên quan chịu trách nhiệm thi hành Quyết định này."
+    ]
+  },
+
+  {
+    "instruction": "Điều 4. Nguyên tắc xét danh hiệu thi đua và hình thức khen thưởng.\nKết quả khen thưởng thành tích đột xuất, thi đua theo chuyên đề không dùng làm căn cứ để đề nghị cấp trên khen thưởng công trạng.",
+    "response": [
+      "Kết quả khen thưởng thành tích đột xuất không được dùng làm căn cứ để đề nghị cấp trên khen thưởng công trạng.",
+      "Kết quả thi đua theo chuyên đề không được dùng làm căn cứ để đề nghị cấp trên khen thưởng công trạng."
+    ]
+  },
+  {
+    "instruction": "Điều 4. Nguyên tắc xét danh hiệu thi đua và hình thức khen thưởng.\nChưa khen thưởng hoặc đề nghị cấp trên khen thưởng cho cá nhân, tập thể trong thời gian cơ quan có thâm quyền đang xem xét thi hành kỷ luật hoặc. điều tra, thanh tra, kiểm tra khi có dấu hiệu vi phạm hoặc có đơn thư khiếu nại, tố cáo, có vấn đề tham nhũng, tiêu cực được:báo chí nêu đang được xác minh làm rõ",
+    "response": [
+      "Chưa khen thưởng cá nhân, tập thể trong thời gian cơ quan có thẩm quyền đang xem xét thi hành kỷ luật.",
+      "Chưa đề nghị cấp trên khen thưởng cá nhân, tập thể trong thời gian cơ quan có thẩm quyền đang xem xét thi hành kỷ luật.",
+      "Chưa khen thưởng cá nhân, tập thể trong thời gian cơ quan có thẩm quyền đang điều tra, thanh tra hoặc kiểm tra khi có dấu hiệu vi phạm.",
+      "Chưa đề nghị cấp trên khen thưởng cá nhân, tập thể trong thời gian cơ quan có thẩm quyền đang điều tra, thanh tra hoặc kiểm tra khi có dấu hiệu vi phạm.",
+      "Chưa khen thưởng cá nhân, tập thể khi có đơn thư khiếu nại, tố cáo đang được xác minh, làm rõ.",
+      "Chưa đề nghị cấp trên khen thưởng cá nhân, tập thể khi có đơn thư khiếu nại, tố cáo đang được xác minh, làm rõ.",
+      "Chưa khen thưởng cá nhân, tập thể khi có vấn đề tham nhũng, tiêu cực được báo chí nêu đang được xác minh, làm rõ.",
+      "Chưa đề nghị cấp trên khen thưởng cá nhân, tập thể khi có vấn đề tham nhũng, tiêu cực được báo chí nêu đang được xác minh, làm rõ."
+    ]
+  },
+  {
+    "instruction": "Điều 4. Nguyên tắc xét danh hiệu thi đua và hình thức khen thưởng.\nTrường hợp cá nhân, tập thể bị kỷ luật, sau khi chấp hành xong thời gian kỷ luật, cá nhân, tập thể lập được thành tích thì thành tích khen thưởng được tính từ thời điểm chấp hành xong thời gian thi hành kỷ luật.",
+    "response": [
+      "Cá nhân, tập thể bị kỷ luật được tính thành tích khen thưởng từ thời điểm chấp hành xong thời gian thi hành kỷ luật nếu sau đó lập được thành tích."
+    ]
+  },
+  {
+    "instruction": "Điều 4. Nguyên tắc xét danh hiệu thi đua và hình thức khen thưởng.\nThời gian nghỉ thai sản đối với cá nhân theo quy định được tính để xét tặng danh hiệu thi đua, hình thức khen thưởng.",
+    "response": [
+      "Thời gian nghỉ thai sản của cá nhân theo quy định được tính để xét tặng danh hiệu thi đua.",
+      "Thời gian nghỉ thai sản của cá nhân theo quy định được tính để xét tặng hình thức khen thưởng."
+    ]
+  },
+  {
+    "instruction": "Điều 4. Nguyên tắc xét danh hiệu thi đua và hình thức khen thưởng.\nKhi có nhiều cá nhân, tập thể cùng đủ điều kiện, tiêu chuẩn thì lựa chọn cá nhân nữ hoặc tập thể có tỷ lệ nữ từ 70% trở lên để xét khen thưởng.",
+    "response": [
+      "Khi có nhiều cá nhân cùng đủ điều kiện, tiêu chuẩn, cá nhân nữ được lựa chọn để xét khen thưởng.",
+      "Khi có nhiều tập thể cùng đủ điều kiện, tiêu chuẩn, tập thể có tỷ lệ nữ từ 70% trở lên được lựa chọn để xét khen thưởng."
+    ]
+  },
+  {
+    "instruction": "Điều 4. Nguyên tắc xét danh hiệu thi đua và hình thức khen thưởng.\nThời gian giữ chức vụ để xét khen thưởng quá trình cống hiến đối với cá nhân là nữ lãnh đạo, quản lý được giảm 1/3 thời gian so với quy định chung. Trường hợp cá nhân nữ lãnh đạo, quản lý thuộc đối tượng được quy định tuổi nghỉ hưu cao hơn thì thời gian để xét khen thưởng quá trình cống hiến thực hiện theo quy định chung.",
+    "response": [
+      "Thời gian giữ chức vụ để xét khen thưởng quá trình cống hiến đối với cá nhân nữ lãnh đạo, quản lý được giảm 1/3 so với thời gian theo quy định chung.",
+      "Thời gian xét khen thưởng quá trình cống hiến đối với cá nhân nữ lãnh đạo, quản lý thuộc đối tượng có tuổi nghỉ hưu cao hơn được thực hiện theo quy định chung."
+    ]
+  },
+  {
+    "instruction": "Điều 5. “Cờ thi đua của Chính phủ”\nDanh hiệu “Cờ thi đua của Chính phủ” được xét tặng cho tập thể đạt tiêu chuẩn quy định tại khoản 1 Điều 25 của Luật Thi đua, khen thưởng, được cụm, khối thi đua do bộ, ban, ngành, tỉnh tổ chức bình xét, đánh giá, so sánh, lấy phiếu tín nhiệm của các thành viên trong cụm, khối thi đua đạt mức tiêu biểu xuất sắc trong số các thành viên của cụm, khối thi đua.",
+    "response": [
+      "Danh hiệu “Cờ thi đua của Chính phủ” được xét tặng cho tập thể đạt tiêu chuẩn quy định tại khoản 1 Điều 25 của Luật Thi đua, khen thưởng.",
+      "Cụm, khối thi đua do bộ, ban, ngành, tỉnh tổ chức bình xét tập thể.",
+      "Cụm, khối thi đua do bộ, ban, ngành, tỉnh tổ chức đánh giá tập thể.",
+      "Cụm, khối thi đua do bộ, ban, ngành, tỉnh tổ chức so sánh tập thể.",
+      "Cụm, khối thi đua do bộ, ban, ngành, tỉnh tổ chức lấy phiếu tín nhiệm của các thành viên trong cụm, khối thi đua.",
+      "Tập thể được xét tặng danh hiệu “Cờ thi đua của Chính phủ” phải đạt mức tiêu biểu xuất sắc trong số các thành viên của cụm, khối thi đua."
+    ]
+  },
+  {
+    "instruction": "Điều 5. “Cờ thi đua của Chính phủ”\nSố lượng tập thể được xét, đề nghị tặng “Cờ thi đua của Chính phủ” theo quy định tại khoản 1 Điều này không quá 20% tổng số tập thể dẫn đầu cụm, khối thi đua và đạt tiêu chuẩn tặng cờ thi đua của bộ, ban, ngành, tỉnh.",
+    "response": [
+      "Số lượng tập thể được xét, đề nghị tặng “Cờ thi đua của Chính phủ” theo khoản 1 Điều 5 không quá 20% tổng số tập thể dẫn đầu cụm, khối thi đua.",
+      "Tập thể được xét, đề nghị tặng “Cờ thi đua của Chính phủ” phải đạt tiêu chuẩn tặng cờ thi đua của bộ, ban, ngành, tỉnh."
+    ]
+  },
+  {
+    "instruction": "Điều 5. “Cờ thi đua của Chính phủ”\nKhoản 2. Tập thể được xét tặng danh hiệu “Cờ thi đua của Chính phủ” theo quy định tại khoản 2 Điều 25 của Luật Thi đua, khen thưởng đạt các tiêu chuẩn:\nĐiểm a) Có thành tích xuất sắc trong phát triển kinh tế - xã hội, đảm bảo quốc phòng an ninh.",
+    "response": [
+      "Tập thể được xét tặng danh hiệu “Cờ thi đua của Chính phủ” theo khoản 2 Điều 25 của Luật Thi đua, khen thưởng phải có thành tích xuất sắc trong phát triển kinh tế - xã hội.",
+      "Tập thể được xét tặng danh hiệu “Cờ thi đua của Chính phủ” theo khoản 2 Điều 25 của Luật Thi đua, khen thưởng phải bảo đảm quốc phòng, an ninh."
+    ]
+  },
+  {
+    "instruction": "Điều 5. “Cờ thi đua của Chính phủ”\nKhoản 2. Tập thể được xét tặng danh hiệu “Cờ thi đua của Chính phủ” theo quy định tại khoản 2 Điều 25 của Luật Thi đua, khen thưởng đạt các tiêu chuẩn:\nĐiểm b) Thực hiện tốt chủ trương của Đảng, chính sách, pháp luật của Nhà nước xây dựng hệ thống chính trị trong sạch, vững mạnh.",
+    "response": [
+      "Tập thể được xét tặng danh hiệu “Cờ thi đua của Chính phủ” theo khoản 2 Điều 25 của Luật Thi đua, khen thưởng phải thực hiện tốt chủ trương của Đảng.",
+      "Tập thể được xét tặng danh hiệu “Cờ thi đua của Chính phủ” theo khoản 2 Điều 25 của Luật Thi đua, khen thưởng phải thực hiện tốt chính sách, pháp luật của Nhà nước.",
+      "Tập thể được xét tặng danh hiệu “Cờ thi đua của Chính phủ” theo khoản 2 Điều 25 của Luật Thi đua, khen thưởng phải xây dựng hệ thống chính trị trong sạch, vững mạnh."
+    ]
+  },
+  {
+    "instruction": "Điều 5. “Cờ thi đua của Chính phủ”\nKhoản 2. Tập thể được xét tặng danh hiệu “Cờ thi đua của Chính phủ” theo quy định tại khoản 2 Điều 25 của Luật Thi đua, khen thưởng đạt các tiêu chuẩn:\nĐiểm e) Thực hiện tốt các nhiệm vụ công tác thi đua, khen thưởng. Tập thể quy định tại khoản 2 Điều này được cụm, khối thi đua do Hội đồng Thi đua - Khen thưởng Trung ương tổ chức đánh giá, so sánh, bình xét, lấy phiếu tín nhiệm của các thành viên trong cụm, khối thi đua suy tôn là tập thể dẫn đầu cụm, khối thi đua.",
+    "response": [
+      "Tập thể được xét tặng danh hiệu “Cờ thi đua của Chính phủ” phải thực hiện tốt các nhiệm vụ công tác thi đua, khen thưởng.",
+      "Cụm, khối thi đua do Hội đồng Thi đua - Khen thưởng Trung ương tổ chức đánh giá tập thể.",
+      "Cụm, khối thi đua do Hội đồng Thi đua - Khen thưởng Trung ương tổ chức so sánh tập thể.",
+      "Cụm, khối thi đua do Hội đồng Thi đua - Khen thưởng Trung ương tổ chức bình xét tập thể.",
+      "Cụm, khối thi đua do Hội đồng Thi đua - Khen thưởng Trung ương tổ chức lấy phiếu tín nhiệm của các thành viên trong cụm, khối thi đua.",
+      "Tập thể được xét tặng danh hiệu “Cờ thi đua của Chính phủ” phải được suy tôn là tập thể dẫn đầu cụm, khối thi đua."
+    ]
+  },
+  {
+    "instruction": "[MẪU TỔNG HỢP 01] Điều 4. Nguyên tắc xét danh hiệu thi đua và hình thức khen thưởng. Một thành tích đã được sử dụng để xét tặng một hình thức khen thưởng thì không tiếp tục sử dụng thành tích đó để đề nghị một hình thức khen thưởng khác cho cùng một nội dung thành tích.",
+    "response": [
+      "Một thành tích đã được sử dụng để xét tặng một hình thức khen thưởng thì không được tiếp tục sử dụng để đề nghị hình thức khen thưởng khác cho cùng nội dung thành tích."
+    ]
+  },
+  {
+    "instruction": "[MẪU TỔNG HỢP 02] Điều 4. Nguyên tắc xét danh hiệu thi đua và hình thức khen thưởng. Việc xét tặng danh hiệu thi đua phải căn cứ vào kết quả thực hiện nhiệm vụ và thành tích đạt được của cá nhân, tập thể.",
+    "response": [
+      "Việc xét tặng danh hiệu thi đua phải căn cứ vào kết quả thực hiện nhiệm vụ của cá nhân.",
+      "Việc xét tặng danh hiệu thi đua phải căn cứ vào thành tích đạt được của cá nhân.",
+      "Việc xét tặng danh hiệu thi đua phải căn cứ vào kết quả thực hiện nhiệm vụ của tập thể.",
+      "Việc xét tặng danh hiệu thi đua phải căn cứ vào thành tích đạt được của tập thể."
+    ]
+  },
+  {
+    "instruction": "[MẪU TỔNG HỢP 03] Điều 4. Nguyên tắc xét danh hiệu thi đua và hình thức khen thưởng. Cá nhân, tập thể được đề nghị khen thưởng phải đáp ứng đầy đủ các điều kiện và tiêu chuẩn áp dụng đối với hình thức khen thưởng tương ứng.",
+    "response": [
+      "Cá nhân được đề nghị khen thưởng phải đáp ứng đầy đủ các điều kiện áp dụng đối với hình thức khen thưởng tương ứng.",
+      "Cá nhân được đề nghị khen thưởng phải đáp ứng đầy đủ các tiêu chuẩn áp dụng đối với hình thức khen thưởng tương ứng.",
+      "Tập thể được đề nghị khen thưởng phải đáp ứng đầy đủ các điều kiện áp dụng đối với hình thức khen thưởng tương ứng.",
+      "Tập thể được đề nghị khen thưởng phải đáp ứng đầy đủ các tiêu chuẩn áp dụng đối với hình thức khen thưởng tương ứng."
+    ]
+  },
+  {
+    "instruction": "[MẪU TỔNG HỢP 04] Điều 4. Nguyên tắc xét danh hiệu thi đua và hình thức khen thưởng. Thành tích được dùng làm căn cứ xét khen thưởng phải được xác định trên cơ sở hồ sơ và tài liệu có liên quan.",
+    "response": [
+      "Thành tích được dùng làm căn cứ xét khen thưởng phải được xác định trên cơ sở hồ sơ có liên quan.",
+      "Thành tích được dùng làm căn cứ xét khen thưởng phải được xác định trên cơ sở tài liệu có liên quan."
+    ]
+  },
+  {
+    "instruction": "[MẪU TỔNG HỢP 05] Điều 4. Nguyên tắc xét danh hiệu thi đua và hình thức khen thưởng. Khi xét khen thưởng tập thể, kết quả thực hiện nhiệm vụ chung của tập thể được xem xét cùng với việc chấp hành chủ trương, chính sách và pháp luật.",
+    "response": [
+      "Khi xét khen thưởng tập thể, kết quả thực hiện nhiệm vụ chung của tập thể được xem xét.",
+      "Khi xét khen thưởng tập thể, việc chấp hành chủ trương được xem xét.",
+      "Khi xét khen thưởng tập thể, việc chấp hành chính sách được xem xét.",
+      "Khi xét khen thưởng tập thể, việc chấp hành pháp luật được xem xét."
+    ]
+  },
+  {
+    "instruction": "[MẪU TỔNG HỢP 06] Điều 5. Cờ thi đua. Tập thể được đề nghị xét tặng cờ thi đua phải có kết quả thực hiện nhiệm vụ nổi bật và đáp ứng các tiêu chuẩn của danh hiệu cờ thi đua được đề nghị.",
+    "response": [
+      "Tập thể được đề nghị xét tặng cờ thi đua phải có kết quả thực hiện nhiệm vụ nổi bật.",
+      "Tập thể được đề nghị xét tặng cờ thi đua phải đáp ứng các tiêu chuẩn của danh hiệu cờ thi đua được đề nghị."
+    ]
+  },
+  {
+    "instruction": "[MẪU TỔNG HỢP 07] Điều 5. Cờ thi đua. Việc bình xét tập thể dẫn đầu cụm, khối thi đua phải dựa trên kết quả đánh giá và so sánh thành tích giữa các thành viên trong cụm, khối.",
+    "response": [
+      "Việc bình xét tập thể dẫn đầu cụm, khối thi đua phải dựa trên kết quả đánh giá thành tích giữa các thành viên trong cụm, khối.",
+      "Việc bình xét tập thể dẫn đầu cụm, khối thi đua phải dựa trên kết quả so sánh thành tích giữa các thành viên trong cụm, khối."
+    ]
+  },
+  {
+    "instruction": "[MẪU TỔNG HỢP 08] Điều 5. Cờ thi đua. Cụm, khối thi đua tổ chức bình xét và đề xuất tập thể có thành tích tiêu biểu để cấp có thẩm quyền xem xét tặng cờ thi đua.",
+    "response": [
+      "Cụm, khối thi đua tổ chức bình xét tập thể có thành tích tiêu biểu.",
+      "Cụm, khối thi đua đề xuất tập thể có thành tích tiêu biểu.",
+      "Cấp có thẩm quyền xem xét tặng cờ thi đua cho tập thể được đề xuất."
+    ]
+  },
+  {
+    "instruction": "[MẪU TỔNG HỢP 09] Điều 4. Nguyên tắc xét danh hiệu thi đua và hình thức khen thưởng. Hồ sơ đề nghị khen thưởng phải thể hiện thành tích, đối tượng được đề nghị và hình thức khen thưởng tương ứng.",
+    "response": [
+      "Hồ sơ đề nghị khen thưởng phải thể hiện thành tích của đối tượng được đề nghị.",
+      "Hồ sơ đề nghị khen thưởng phải thể hiện đối tượng được đề nghị khen thưởng.",
+      "Hồ sơ đề nghị khen thưởng phải thể hiện hình thức khen thưởng tương ứng."
+    ]
+  },
+  {
+    "instruction": "[MẪU TỔNG HỢP 10] Điều 4. Nguyên tắc xét danh hiệu thi đua và hình thức khen thưởng. Việc đề nghị cấp trên khen thưởng phải bảo đảm đúng đối tượng, đúng thành tích và đúng trình tự, thủ tục theo quy định áp dụng.",
+    "response": [
+      "Việc đề nghị cấp trên khen thưởng phải bảo đảm đúng đối tượng.",
+      "Việc đề nghị cấp trên khen thưởng phải bảo đảm đúng thành tích.",
+      "Việc đề nghị cấp trên khen thưởng phải bảo đảm đúng trình tự theo quy định áp dụng.",
+      "Việc đề nghị cấp trên khen thưởng phải bảo đảm đúng thủ tục theo quy định áp dụng."
+    ]
+  }
+]

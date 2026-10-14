@@ -1,0 +1,1480 @@
+[
+  {
+    "instruction": "Thành tích đột xuất là thành tích đạt được ngoài chương trình, kế hoạch, nhiệm vụ mà cá nhân, tập thể phải đảm nhiệm hoặc được giao.",
+    "response": [
+      "Thành tích đột xuất là thành tích đạt được ngoài chương trình, kế hoạch, nhiệm vụ mà cá nhân phải đảm nhiệm hoặc được giao.",
+      "Thành tích đột xuất là thành tích đạt được ngoài chương trình, kế hoạch, nhiệm vụ mà tập thể phải đảm nhiệm hoặc được giao."
+    ]
+  },
+  {
+    "instruction": "Trường hợp cá nhân, tập thể bị kỷ luật, sau khi chấp hành xong thời gian kỷ luật, cá nhân, tập thể lập được thành tích thì thành tích khen thưởng được tính từ thời điểm chấp hành xong thời gian thi hành kỷ luật.",
+    "response": [
+      "Cá nhân bị kỷ luật thì sau khi chấp hành xong thời gian kỷ luật, cá nhân lập được thành tích.",
+      "Thành tích khen thưởng của cá nhân được tính từ thời điểm cá nhân chấp hành xong thời gian thi hành kỷ luật.",
+      "Tập thể bị kỷ luật thì sau khi chấp hành xong thời gian kỷ luật, tập thể lập được thành tích.",
+      "Thành tích khen thưởng của tập thể được tính từ thời điểm tập thể chấp hành xong thời gian thi hành kỷ luật."
+    ]
+  },
+  {
+    "instruction": "Thời gian nghỉ thai sản đối với cá nhân theo quy định được tính để xét tặng danh hiệu thi đua, hình thức khen thưởng.",
+    "response": [
+      "Cá nhân nghỉ thai sản theo quy định.",
+      "Thời gian nghỉ thai sản của cá nhân được tính để xét tặng danh hiệu thi đua.",
+      "Thời gian nghỉ thai sản của cá nhân được tính để xét tặng hình thức khen thưởng."
+    ]
+  },
+  {
+    "instruction": "Khi có nhiều cá nhân, tập thể cùng đủ điều kiện, tiêu chuẩn thì lựa chọn cá nhân nữ hoặc tập thể có tỷ lệ nữ từ 70% trở lên để xét khen thưởng.",
+    "response": [
+      "Nhiều cá nhân cùng đủ điều kiện và tiêu chuẩn xét khen thưởng.",
+      "Nhiều tập thể cùng đủ điều kiện và tiêu chuẩn xét khen thưởng.",
+      "Cá nhân nữ được lựa chọn để xét khen thưởng.",
+      "Tập thể có tỷ lệ nữ từ 70% trở lên được lựa chọn để xét khen thưởng."
+    ]
+  },
+  {
+    "instruction": "Thời gian giữ chức vụ để xét khen thưởng quá trình cống hiến đối với cá nhân là nữ lãnh đạo, quản lý được giảm 1/3 thời gian so với quy định chung.",
+    "response": [
+      "Cá nhân là nữ lãnh đạo, quản lý được xét khen thưởng quá trình cống hiến.",
+      "Thời gian giữ chức vụ để xét khen thưởng quá trình cống hiến đối với cá nhân là nữ lãnh đạo, quản lý được giảm 1/3 so với thời gian theo quy định chung."
+    ]
+  },
+  {
+    "instruction": "Trường hợp cá nhân nữ lãnh đạo, quản lý thuộc đối tượng được quy định tuổi nghỉ hưu cao hơn thì thời gian để xét khen thưởng quá trình cống hiến thực hiện theo quy định chung.",
+    "response": [
+      "Cá nhân nữ lãnh đạo, quản lý thuộc đối tượng được quy định tuổi nghỉ hưu cao hơn.",
+      "Thời gian để xét khen thưởng quá trình cống hiến đối với cá nhân nữ lãnh đạo, quản lý thuộc đối tượng được quy định tuổi nghỉ hưu cao hơn được thực hiện theo quy định chung."
+    ]
+  },
+  {
+    "instruction": "Cán bộ tham gia hoạt động cách mạng trước năm 1945 là những người tham gia cách mạng trước ngày 01 tháng 01 năm 1945, người được kết nạp vào Đảng Cộng sản Đông Dương hoặc được kết nạp lại trước ngày 19 tháng 8 năm 1945, được cơ quan có thẩm quyền công nhận.",
+    "response": [
+      "Cán bộ tham gia hoạt động cách mạng trước năm 1945 là người tham gia cách mạng trước ngày 01 tháng 01 năm 1945.",
+      "Cán bộ tham gia hoạt động cách mạng trước năm 1945 là người được kết nạp vào Đảng Cộng sản Đông Dương trước ngày 19 tháng 8 năm 1945.",
+      "Cán bộ tham gia hoạt động cách mạng trước năm 1945 là người được kết nạp lại vào Đảng Cộng sản Đông Dương trước ngày 19 tháng 8 năm 1945.",
+      "Cơ quan có thẩm quyền công nhận cán bộ tham gia hoạt động cách mạng trước năm 1945."
+    ]
+  },
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "instruction": "Cán bộ tiền khởi nghĩa là người tham gia cách mạng từ ngày 01 tháng 01 năm 1945 đến ngày khởi nghĩa tháng Tám năm 1945, được cơ quan có thẩm quyền công nhận.",
+    "response": [
+      "Cán bộ tiền khởi nghĩa là người tham gia cách mạng từ ngày 01 tháng 01 năm 1945 đến ngày khởi nghĩa tháng Tám năm 1945.",
+      "Cơ quan có thẩm quyền công nhận cán bộ tiền khởi nghĩa."
+    ]
+  },
+  {
+    "instruction": "Cán bộ hoạt động liên tục trong 02 cuộc kháng chiến chống thực dân Pháp và chống đế quốc Mỹ là người có thời gian tham gia công tác liên tục từ sau ngày khởi nghĩa tháng Tám năm 1945 đến ngày 30 tháng 4 năm 1975.",
+    "response": [
+      "Cán bộ hoạt động liên tục trong 02 cuộc kháng chiến chống thực dân Pháp và chống đế quốc Mỹ là người có thời gian tham gia công tác liên tục từ sau ngày khởi nghĩa tháng Tám năm 1945 đến ngày 30 tháng 4 năm 1975."
+    ]
+  },
+  {
+    "instruction": "Cán bộ hoạt động thời kỳ kháng chiến chống thực dân Pháp là người có thời gian tham gia công tác liên tục trong thời gian từ sau ngày khởi nghĩa tháng Tám năm 1945 đến ngày 20 tháng 7 năm 1954.",
+    "response": [
+      "Cán bộ hoạt động thời kỳ kháng chiến chống thực dân Pháp là người có thời gian tham gia công tác liên tục từ sau ngày khởi nghĩa tháng Tám năm 1945 đến ngày 20 tháng 7 năm 1954."
+    ]
+  },
+  {
+    "instruction": "Cán bộ hoạt động thời kỳ kháng chiến chống đế quốc Mỹ là người tham gia công tác liên tục trong khoảng thời gian sau ngày 20 tháng 7 năm 1954 đến ngày 30 tháng 4 năm 1975.",
+    "response": [
+      "Cán bộ hoạt động thời kỳ kháng chiến chống đế quốc Mỹ là người tham gia công tác liên tục từ sau ngày 20 tháng 7 năm 1954 đến ngày 30 tháng 4 năm 1975."
+    ]
+  },
+  {
+    "instruction": "Người hoạt động liên tục ở chiến trường miền Nam là người hoạt động liên tục ít nhất 10 năm ở chiến trường miền Nam, Lào, Campuchia. Trường hợp hoạt động liên tục ở chiến trường từ trước năm 1960 thì thời gian hoạt động liên tục tính đến tháng 01 năm 1973. Trường hợp vào chiến trường từ năm 1964 thì thời gian hoạt động liên tục tính đến ngày 30 tháng 4 năm 1975.",
+    "response": [
+      "Người hoạt động liên tục ở chiến trường miền Nam là người hoạt động liên tục ít nhất 10 năm ở chiến trường miền Nam, Lào hoặc Campuchia.",
+      "Người hoạt động liên tục ở chiến trường từ trước năm 1960 được tính thời gian hoạt động liên tục đến tháng 01 năm 1973.",
+      "Người vào chiến trường từ năm 1964 được tính thời gian hoạt động liên tục đến ngày 30 tháng 4 năm 1975."
+    ]
+  },
+  {
+    "instruction": "Cán bộ công tác trong thời kỳ xây dựng và bảo vệ Tổ quốc là người tham gia công tác từ sau ngày 30 tháng 4 năm 1975.",
+    "response": [
+      "Cán bộ công tác trong thời kỳ xây dựng và bảo vệ Tổ quốc là người tham gia công tác từ sau ngày 30 tháng 4 năm 1975."
+    ]
+  },
+  {
+    "instruction": "Bộ, ban, ngành, tỉnh trình Thủ tướng Chính phủ xét, trình Chủ tịch nước khen thưởng quá trình cống hiến cho cá nhân có đủ điều kiện, tiêu chuẩn khi có thông báo nghỉ chế độ hưu trí hoặc có quyết định nghỉ hưu mà chưa được khen thưởng quá trình cống hiến, kể cả các trường hợp đã hy sinh, từ trần.",
+    "response": [
+      "Bộ, ban, ngành, tỉnh trình Thủ tướng Chính phủ xét khen thưởng quá trình cống hiến cho cá nhân có đủ điều kiện và tiêu chuẩn.",
+      "Bộ, ban, ngành, tỉnh trình Chủ tịch nước khen thưởng quá trình cống hiến cho cá nhân có đủ điều kiện và tiêu chuẩn.",
+      "Cá nhân có đủ điều kiện và tiêu chuẩn được xem xét khen thưởng quá trình cống hiến khi có thông báo nghỉ chế độ hưu trí.",
+      "Cá nhân có đủ điều kiện và tiêu chuẩn được xem xét khen thưởng quá trình cống hiến khi có quyết định nghỉ hưu.",
+      "Cá nhân đã hy sinh hoặc từ trần vẫn thuộc trường hợp được xem xét khen thưởng quá trình cống hiến nếu đủ điều kiện và tiêu chuẩn."
+    ]
+  },
+
+
+
+
+
+
+
+
+
+  
+  {
+    "instruction": "Trường hợp cá nhân đã được khen thưởng quá trình cống hiến, sau đó tiếp tục công tác và có thời gian giữ chức vụ lãnh đạo, quản lý thuộc đối tượng được khen thưởng quá trình cống hiến thì được tiếp tục xét, khen thưởng quá trình cống hiến đối với thời gian công tác, giữ chức vụ của giai đoạn công tác sau này và được đề nghị tặng các danh hiệu thi đua, hình thức khen thưởng khác theo quy định nếu đủ điều kiện, tiêu chuẩn.",
+    "response": [
+      "Cá nhân đã được khen thưởng quá trình cống hiến và sau đó tiếp tục công tác.",
+      "Cá nhân có thời gian giữ chức vụ lãnh đạo, quản lý thuộc đối tượng được khen thưởng quá trình cống hiến.",
+      "Cá nhân được tiếp tục xét khen thưởng quá trình cống hiến đối với thời gian công tác của giai đoạn công tác sau.",
+      "Cá nhân được tiếp tục xét khen thưởng quá trình cống hiến đối với thời gian giữ chức vụ của giai đoạn công tác sau.",
+      "Cá nhân được đề nghị tặng các danh hiệu thi đua khác nếu đủ điều kiện và tiêu chuẩn.",
+      "Cá nhân được đề nghị tặng các hình thức khen thưởng khác nếu đủ điều kiện và tiêu chuẩn."
+    ]
+  },
+  {
+    "instruction": "Cá nhân có thời gian giữ chức vụ nhưng không đủ thời gian để được tính khen theo tiêu chuẩn quy định đối với chức vụ đó thì được cộng với thời gian giữ chức vụ thấp hơn liền kề để tính tiêu chuẩn khen thưởng theo chức vụ thấp hơn liền kề nếu chức vụ liền kề đó thuộc tiêu chuẩn khen thưởng quá trình cống hiến.",
+    "response": [
+      "Cá nhân có thời gian giữ chức vụ nhưng không đủ thời gian để được tính khen theo tiêu chuẩn của chức vụ đó.",
+      "Cá nhân được cộng thời gian giữ chức vụ với thời gian giữ chức vụ thấp hơn liền kề để tính tiêu chuẩn khen thưởng theo chức vụ thấp hơn liền kề.",
+      "Chức vụ thấp hơn liền kề của cá nhân phải thuộc tiêu chuẩn khen thưởng quá trình cống hiến để thời gian được cộng vào."
+    ]
+  },
+  {
+    "instruction": "Cá nhân trong cùng một thời gian đảm nhiệm nhiều chức vụ khác nhau thì lấy chức vụ cao nhất để làm căn cứ áp dụng tiêu chuẩn khen thưởng.",
+    "response": [
+      "Cá nhân đảm nhiệm nhiều chức vụ khác nhau trong cùng một thời gian.",
+      "Chức vụ cao nhất của cá nhân được lấy làm căn cứ áp dụng tiêu chuẩn khen thưởng."
+    ]
+  },
+  {
+    "instruction": "Cá nhân thực hiện yêu cầu luân chuyển, điều động hoặc do sắp xếp tổ chức được cấp có thẩm quyền quyết định, giữ chức vụ thấp hơn trước khi luân chuyển, điều động, sắp xếp tổ chức khi xem xét khen thưởng được lấy chức vụ trước khi luân chuyển, điều động, sắp xếp tổ chức và được tính thời gian liên tục theo chức vụ đó để làm căn cứ xét khen thưởng.",
+    "response": [
+      "Cá nhân thực hiện yêu cầu luân chuyển do cấp có thẩm quyền quyết định.",
+      "Cá nhân thực hiện yêu cầu điều động do cấp có thẩm quyền quyết định.",
+      "Cá nhân giữ chức vụ thấp hơn sau khi luân chuyển, điều động hoặc sắp xếp tổ chức.",
+      "Chức vụ của cá nhân trước khi luân chuyển, điều động hoặc sắp xếp tổ chức được lấy làm căn cứ khi xem xét khen thưởng.",
+      "Thời gian giữ chức vụ của cá nhân trước khi luân chuyển, điều động hoặc sắp xếp tổ chức được tính liên tục để làm căn cứ xét khen thưởng."
+    ]
+  },
+  {
+    "instruction": "Không khen thưởng đối với cá nhân bị kỷ luật khai trừ khỏi Đảng, bị kỷ luật ở hình thức buộc thôi việc, bị tước danh hiệu quân nhân, công an nhân dân, quân hàm sĩ quan hoặc quân hàm chuyên nghiệp. Đối với cá nhân đã bị kỷ luật khai trừ Đảng, sau đó đã sửa chữa khuyết điểm, phấn đấu và được kết nạp lại vào Đảng, nếu đạt tiêu chuẩn theo quy định thì thời gian, chức vụ sau khi kết nạp Đảng lần sau được xét khen thưởng.",
+    "response": [
+      "Cá nhân bị kỷ luật khai trừ khỏi Đảng không được khen thưởng.",
+      "Cá nhân bị kỷ luật buộc thôi việc không được khen thưởng.",
+      "Cá nhân bị tước danh hiệu quân nhân không được khen thưởng.",
+      "Cá nhân bị tước danh hiệu công an nhân dân không được khen thưởng.",
+      "Cá nhân bị tước quân hàm sĩ quan không được khen thưởng.",
+      "Cá nhân bị tước quân hàm chuyên nghiệp không được khen thưởng.",
+      "Cá nhân bị kỷ luật khai trừ Đảng sau đó sửa chữa khuyết điểm và được kết nạp lại vào Đảng.",
+      "Cá nhân đã được kết nạp lại vào Đảng được xét khen thưởng đối với thời gian sau khi kết nạp Đảng lần sau nếu đạt tiêu chuẩn theo quy định.",
+      "Cá nhân đã được kết nạp lại vào Đảng được xét khen thưởng đối với chức vụ sau khi kết nạp Đảng lần sau nếu đạt tiêu chuẩn theo quy định."
+    ]
+  },
+  {
+    "instruction": "Hạ một mức khen đối với cá nhân đã bị kỷ luật khai trừ khỏi Đảng sau đó được kết nạp lại, cá nhân bị cách chức, giáng chức, giáng cấp bậc, quân hàm, hạ bậc lương, khiển trách, cảnh cáo. Hình thức kỷ luật chỉ xem xét một lần đối với một hình thức khen thưởng.",
+    "response": [
+      "Cá nhân đã bị kỷ luật khai trừ khỏi Đảng và sau đó được kết nạp lại thì bị hạ một mức khen.",
+      "Cá nhân bị cách chức thì bị hạ một mức khen.",
+      "Cá nhân bị giáng chức thì bị hạ một mức khen.",
+      "Cá nhân bị giáng cấp bậc thì bị hạ một mức khen.",
+      "Cá nhân bị giáng quân hàm thì bị hạ một mức khen.",
+      "Cá nhân bị hạ bậc lương thì bị hạ một mức khen.",
+      "Cá nhân bị khiển trách thì bị hạ một mức khen.",
+      "Cá nhân bị cảnh cáo thì bị hạ một mức khen.",
+      "Hình thức kỷ luật của cá nhân chỉ được xem xét một lần đối với một hình thức khen thưởng."
+    ]
+  },
+  {
+    "instruction": "Bộ Nội vụ xin ý kiến Ban Tổ chức Trung ương, Ủy ban Kiểm tra Trung ương đối với cán bộ do Bộ Chính trị, Ban Bí thư quản lý trước khi trình Thủ tướng Chính phủ xét, trình Chủ tịch nước khen thưởng.",
+    "response": [
+      "Bộ Nội vụ xin ý kiến Ban Tổ chức Trung ương đối với cán bộ do Bộ Chính trị quản lý trước khi trình Thủ tướng Chính phủ xét khen thưởng.",
+      "Bộ Nội vụ xin ý kiến Ủy ban Kiểm tra Trung ương đối với cán bộ do Bộ Chính trị quản lý trước khi trình Thủ tướng Chính phủ xét khen thưởng.",
+      "Bộ Nội vụ xin ý kiến Ban Tổ chức Trung ương đối với cán bộ do Ban Bí thư quản lý trước khi trình Thủ tướng Chính phủ xét khen thưởng.",
+      "Bộ Nội vụ xin ý kiến Ủy ban Kiểm tra Trung ương đối với cán bộ do Ban Bí thư quản lý trước khi trình Thủ tướng Chính phủ xét khen thưởng.",
+      "Bộ Nội vụ trình Thủ tướng Chính phủ xét khen thưởng đối với cán bộ do Bộ Chính trị hoặc Ban Bí thư quản lý.",
+      "Bộ Nội vụ trình Chủ tịch nước khen thưởng đối với cán bộ do Bộ Chính trị hoặc Ban Bí thư quản lý."
+    ]
+  },
+
+  {
+    "instruction": "“Huân chương Sao vàng” để tặng hoặc truy tặng cho cá nhân theo quy định tại điểm a khoản 2 Điều 34 của Luật Thi đua, khen thưởng, có nhiều công lao to lớn, đặc biệt xuất sắc trong sự nghiệp cách mạng của Đảng, của dân tộc, không phạm khuyết điểm lớn và đạt một trong các tiêu chuẩn sau đây:",
+    "response": [
+      "“Huân chương Sao vàng” được tặng hoặc truy tặng cho cá nhân theo quy định tại điểm a khoản 2 Điều 34 của Luật Thi đua, khen thưởng.",
+      "Cá nhân có nhiều công lao to lớn, đặc biệt xuất sắc trong sự nghiệp cách mạng của Đảng, của dân tộc.",
+      "Cá nhân không phạm khuyết điểm lớn."
+    ]
+  },
+  {
+    "instruction": "Tham gia cách mạng từ năm 1935 về trước, hoạt động liên tục, đã đảm nhiệm một trong các chức vụ: Tổng Bí thư Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam, Chủ tịch nước, Chủ tịch Quốc hội, Thủ tướng Chính phủ, Ủy viên Bộ Chính trị, Bí thư Trung ương Đảng, Phó Chủ tịch nước, Phó Chủ tịch Quốc hội, Phó Thủ tướng Chính phủ, Chủ tịch Ủy ban trung ương Mặt trận Tổ quốc Việt Nam, Phó Bí thư Trung ương Cục, Thường vụ Xứ ủy, Bí thư Khu ủy, Trưởng ban của Đảng ở trung ương, Bộ trưởng và các chức vụ tương đương hoặc được phong quân hàm Thượng tướng lực lượng vũ trang nhân dân.",
+    "response": [
+      "Cá nhân tham gia cách mạng từ năm 1935 về trước.",
+      "Cá nhân hoạt động liên tục.",
+      "Cá nhân đã đảm nhiệm một trong các chức vụ: Tổng Bí thư Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam, Chủ tịch nước, Chủ tịch Quốc hội, Thủ tướng Chính phủ, Ủy viên Bộ Chính trị, Bí thư Trung ương Đảng, Phó Chủ tịch nước, Phó Chủ tịch Quốc hội, Phó Thủ tướng Chính phủ, Chủ tịch Ủy ban trung ương Mặt trận Tổ quốc Việt Nam, Phó Bí thư Trung ương Cục, Thường vụ Xứ ủy, Bí thư Khu ủy, Trưởng ban của Đảng ở trung ương, Bộ trưởng và các chức vụ tương đương.",
+      "Cá nhân được phong quân hàm Thượng tướng lực lượng vũ trang nhân dân."
+    ]
+  },
+  {
+    "instruction": "Tham gia hoạt động cách mạng trước năm 1945, hoạt động liên tục, đã đảm nhiệm một trong các chức vụ: Tổng Bí thư Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam, Chủ tịch nước, Chủ tịch Quốc hội, Thủ tướng Chính phủ, Ủy viên Bộ Chính trị, Bí thư Trung ương Đảng, Phó Chủ tịch nước, Phó Chủ tịch Quốc hội, Phó Thủ tướng Chính phủ, Chủ tịch Ủy ban trung ương Mặt trận Tổ quốc Việt Nam hoặc được phong quân hàm Đại tướng lực lượng vũ trang nhân dân.",
+    "response": [
+      "Cá nhân tham gia hoạt động cách mạng trước năm 1945.",
+      "Cá nhân hoạt động liên tục.",
+      "Cá nhân đã đảm nhiệm một trong các chức vụ: Tổng Bí thư Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam, Chủ tịch nước, Chủ tịch Quốc hội, Thủ tướng Chính phủ, Ủy viên Bộ Chính trị, Bí thư Trung ương Đảng, Phó Chủ tịch nước, Phó Chủ tịch Quốc hội, Phó Thủ tướng Chính phủ, Chủ tịch Ủy ban trung ương Mặt trận Tổ quốc Việt Nam.",
+      "Cá nhân được phong quân hàm Đại tướng lực lượng vũ trang nhân dân."
+    ]
+  },
+  {
+    "instruction": "Có quá trình tham gia liên tục trong 02 cuộc kháng chiến chống thực dân Pháp và chống đế quốc Mỹ, đã đảm nhiệm một trong các chức vụ: Tổng Bí thư Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam, Chủ tịch nước, Chủ tịch Quốc hội, Thủ tướng Chính phủ hoặc được phong quân hàm Đại tướng lực lượng vũ trang nhân dân trước ngày 30 tháng 4 năm 1975.",
+    "response": [
+      "Cá nhân có quá trình tham gia liên tục trong 02 cuộc kháng chiến chống thực dân Pháp và chống đế quốc Mỹ.",
+      "Cá nhân đã đảm nhiệm một trong các chức vụ: Tổng Bí thư Ban Chấp hành Trung ương Đảng Cộng sản Việt Nam, Chủ tịch nước, Chủ tịch Quốc hội, Thủ tướng Chính phủ.",
+      "Cá nhân được phong quân hàm Đại tướng lực lượng vũ trang nhân dân trước ngày 30 tháng 4 năm 1975."
+    ]
+  },
+  {
+    "instruction": "Có quá trình công tác liên tục trong kháng chiến chống đế quốc Mỹ hoặc thời kỳ xây dựng và bảo vệ Tổ quốc, đã đảm nhiệm một trong các chức vụ: Tổng Bí thư; Chủ tịch nước; Thủ tướng Chính phủ; Chủ tịch Quốc hội, 02 nhiệm kỳ từ 08 đến 10 năm.",
+    "response": [
+      "Cá nhân có quá trình công tác liên tục trong kháng chiến chống đế quốc Mỹ hoặc thời kỳ xây dựng và bảo vệ Tổ quốc.",
+      "Cá nhân đã đảm nhiệm một trong các chức vụ: Tổng Bí thư, Chủ tịch nước, Thủ tướng Chính phủ.",
+      "Cá nhân đã đảm nhiệm chức vụ Chủ tịch Quốc hội trong 02 nhiệm kỳ từ 08 đến 10 năm."
+    ]
+  },
+  {
+    "instruction": "“Huân chương Hồ Chí Minh” để tặng hoặc truy tặng cho cá nhân theo quy định tại điểm a khoản 1 Điều 35 của Luật Thi đua, khen thưởng, có công lao to lớn, đặc biệt xuất sắc trong sự nghiệp cách mạng của Đảng, của dân tộc, không phạm khuyết điểm lớn và đạt một trong các tiêu chuẩn sau đây:",
+    "response": [
+      "“Huân chương Hồ Chí Minh” được tặng hoặc truy tặng cho cá nhân theo quy định tại điểm a khoản 1 Điều 35 của Luật Thi đua, khen thưởng.",
+      "Cá nhân có công lao to lớn, đặc biệt xuất sắc trong sự nghiệp cách mạng của Đảng, của dân tộc.",
+      "Cá nhân không phạm khuyết điểm lớn."
+    ]
+  },
+  {
+    "instruction": "Tham gia hoạt động cách mạng từ năm 1935 về trước, hoạt động liên tục, đã đảm nhiệm một trong các chức vụ: Bí thư, Phó Bí thư Tỉnh ủy, Phó Trưởng ban của Đảng ở trung ương, Thứ trưởng hoặc chức vụ tương đương hoặc được phong quân hàm Trung tướng lực lượng vũ trang nhân dân.",
+    "response": [
+      "Cá nhân tham gia hoạt động cách mạng từ năm 1935 về trước.",
+      "Cá nhân hoạt động liên tục.",
+      "Cá nhân đã đảm nhiệm một trong các chức vụ: Bí thư, Phó Bí thư Tỉnh ủy, Phó Trưởng ban của Đảng ở trung ương, Thứ trưởng hoặc chức vụ tương đương.",
+      "Cá nhân được phong quân hàm Trung tướng lực lượng vũ trang nhân dân."
+    ]
+  },
+  {
+    "instruction": "Tham gia hoạt động cách mạng trước năm 1945, hoạt động liên tục, đã đảm nhiệm một trong các chức vụ: Trưởng ban của Đảng ở trung ương, Xứ ủy viên, Khu ủy viên, Bộ trưởng hoặc chức vụ tương đương hoặc được phong quân hàm Thượng tướng lực lượng vũ trang nhân dân.",
+    "response": [
+      "Cá nhân tham gia hoạt động cách mạng trước năm 1945.",
+      "Cá nhân hoạt động liên tục.",
+      "Cá nhân đã đảm nhiệm một trong các chức vụ: Trưởng ban của Đảng ở trung ương, Xứ ủy viên, Khu ủy viên, Bộ trưởng hoặc chức vụ tương đương.",
+      "Cá nhân được phong quân hàm Thượng tướng lực lượng vũ trang nhân dân."
+    ]
+  },
+  {
+    "instruction": "Có quá trình tham gia liên tục trong 02 cuộc kháng chiến chống thực dân Pháp và chống đế quốc Mỹ, đã đảm nhiệm một trong các chức vụ: Ủy viên Bộ Chính trị, Bí thư Trung ương Đảng, Phó Chủ tịch nước, Phó Chủ tịch Quốc hội, Phó Thủ tướng Chính phủ, Chủ tịch Ủy ban trung ương Mặt trận Tổ quốc Việt Nam hoặc chức vụ tương đương 01 nhiệm kỳ từ 03 đến 05 năm hoặc được phong quân hàm Đại tướng lực lượng vũ trang nhân dân.",
+    "response": [
+      "Cá nhân có quá trình tham gia liên tục trong 02 cuộc kháng chiến chống thực dân Pháp và chống đế quốc Mỹ.",
+      "Cá nhân đã đảm nhiệm một trong các chức vụ: Ủy viên Bộ Chính trị, Bí thư Trung ương Đảng, Phó Chủ tịch nước, Phó Chủ tịch Quốc hội, Phó Thủ tướng Chính phủ, Chủ tịch Ủy ban trung ương Mặt trận Tổ quốc Việt Nam hoặc chức vụ tương đương trong 01 nhiệm kỳ từ 03 đến 05 năm.",
+      "Cá nhân được phong quân hàm Đại tướng lực lượng vũ trang nhân dân."
+    ]
+  },
+  {
+    "instruction": "Có quá trình công tác liên tục trong kháng chiến chống đế quốc Mỹ hoặc thời kỳ xây dựng và bảo vệ Tổ quốc, đã đảm nhiệm một trong các chức vụ: Tổng Bí thư; Chủ tịch nước; Thủ tướng Chính phủ; Chủ tịch Quốc hội, 01 nhiệm kỳ từ 03 đến 05 năm; Thường trực Ban Bí thư; Ủy viên Bộ Chính trị; Ủy viên Ban Bí thư; Chủ tịch Ủy ban trung ương Mặt trận Tổ quốc Việt Nam; Chánh án Tòa án nhân dân tối cao; Viện trưởng Viện kiểm sát nhân dân tối cao; Phó Chủ tịch nước; Phó Thủ tướng Chính phủ; Phó Chủ tịch Quốc hội liên tục 02 nhiệm kỳ từ 08 đến 10 năm hoặc được phong quân hàm Đại tướng lực lượng vũ trang nhân dân từ 10 năm trở lên.",
+    "response": [
+      "Cá nhân có quá trình công tác liên tục trong kháng chiến chống đế quốc Mỹ hoặc thời kỳ xây dựng và bảo vệ Tổ quốc.",
+      "Cá nhân đã đảm nhiệm một trong các chức vụ: Tổng Bí thư, Chủ tịch nước, Thủ tướng Chính phủ.",
+      "Cá nhân đã đảm nhiệm chức vụ Chủ tịch Quốc hội trong 01 nhiệm kỳ từ 03 đến 05 năm.",
+      "Cá nhân đã đảm nhiệm một trong các chức vụ: Thường trực Ban Bí thư, Ủy viên Bộ Chính trị, Ủy viên Ban Bí thư, Chủ tịch Ủy ban trung ương Mặt trận Tổ quốc Việt Nam, Chánh án Tòa án nhân dân tối cao, Viện trưởng Viện kiểm sát nhân dân tối cao, Phó Chủ tịch nước, Phó Thủ tướng Chính phủ.",
+      "Cá nhân đã đảm nhiệm chức vụ Phó Chủ tịch Quốc hội liên tục 02 nhiệm kỳ từ 08 đến 10 năm.",
+      "Cá nhân được phong quân hàm Đại tướng lực lượng vũ trang nhân dân từ 10 năm trở lên."
+    ]
+  },
+  {
+    "instruction": "“Huân chương Độc lập” hạng Nhất để tặng hoặc truy tặng cho cá nhân theo quy định tại điểm a khoản 1 Điều 36 của Luật Thi đua, khen thưởng, có quá trình cống hiến lâu dài trong cơ quan, tổ chức, đơn vị hoặc trong lực lượng vũ trang nhân dân và đạt được một trong các tiêu chuẩn sau đây:",
+    "response": [
+      "“Huân chương Độc lập” hạng Nhất được tặng hoặc truy tặng cho cá nhân theo quy định tại điểm a khoản 1 Điều 36 của Luật Thi đua, khen thưởng.",
+      "Cá nhân có quá trình cống hiến lâu dài trong cơ quan, tổ chức, đơn vị hoặc trong lực lượng vũ trang nhân dân."
+    ]
+  },
+  {
+    "instruction": "Tham gia hoạt động cách mạng trước năm 1945, hoạt động liên tục và đã đảm nhiệm một trong các chức vụ: Phó Trưởng ban của Đảng ở trung ương, Bí thư tỉnh ủy, thành ủy trực thuộc trung ương, Thứ trưởng hoặc chức vụ tương đương; Trung tướng lực lượng vũ trang nhân dân.",
+    "response": [
+      "Cá nhân tham gia hoạt động cách mạng trước năm 1945.",
+      "Cá nhân hoạt động liên tục.",
+      "Cá nhân đã đảm nhiệm một trong các chức vụ: Phó Trưởng ban của Đảng ở trung ương, Bí thư tỉnh ủy, thành ủy trực thuộc trung ương, Thứ trưởng hoặc chức vụ tương đương.",
+      "Cá nhân được phong quân hàm Trung tướng lực lượng vũ trang nhân dân."
+    ]
+  },
+  {
+    "instruction": "Tham gia hoạt động liên tục trong 02 cuộc kháng chiến chống thực dân Pháp, chống đế quốc Mỹ và đã đảm nhiệm một trong các chức vụ: Trưởng ban của Đảng ở trung ương, Bộ trưởng hoặc chức vụ tương đương; Khu ủy viên, Bí thư tỉnh ủy, thành ủy, đảng ủy trực thuộc trung ương, Ủy viên Ủy ban Thường vụ Quốc hội, Trưởng các tổ chức chính trị - xã hội ở trung ương 02 nhiệm kỳ từ 08 đến 10 năm; Thượng tướng lực lượng vũ trang nhân dân.",
+    "response": [
+      "Cá nhân tham gia hoạt động liên tục trong 02 cuộc kháng chiến chống thực dân Pháp, chống đế quốc Mỹ.",
+      "Cá nhân đã đảm nhiệm một trong các chức vụ: Trưởng ban của Đảng ở trung ương, Bộ trưởng hoặc chức vụ tương đương.",
+      "Cá nhân đã đảm nhiệm một trong các chức vụ: Khu ủy viên, Bí thư tỉnh ủy, thành ủy, đảng ủy trực thuộc trung ương, Ủy viên Ủy ban Thường vụ Quốc hội, Trưởng các tổ chức chính trị - xã hội ở trung ương trong 02 nhiệm kỳ từ 08 đến 10 năm.",
+      "Cá nhân được phong quân hàm Thượng tướng lực lượng vũ trang nhân dân."
+    ]
+  },
+  {
+    "instruction": "Tham gia hoạt động liên tục trong kháng chiến chống đế quốc Mỹ hoặc trong xây dựng và bảo vệ Tổ quốc, đã đảm nhiệm một trong các chức vụ: Thường trực Ban Bí thư; Ủy viên Bộ Chính trị, Ủy viên Ban Bí thư; Chủ tịch Ủy ban trung ương Mặt trận Tổ quốc Việt Nam; Chánh án Tòa án nhân dân tối cao; Viện trưởng Viện kiểm sát nhân dân tối cao; Phó Chủ tịch nước; Phó Thủ tướng Chính phủ; Phó Chủ tịch Quốc hội 01 nhiệm kỳ từ 03 đến 05 năm; Đại tướng lực lượng vũ trang nhân dân; Bộ trưởng và tương đương từ 13 đến 15 năm; Thượng tướng lực lượng vũ trang nhân dân từ 10 năm trở lên.",
+    "response": [
+      "Cá nhân tham gia hoạt động liên tục trong kháng chiến chống đế quốc Mỹ hoặc trong xây dựng và bảo vệ Tổ quốc.",
+      "Cá nhân đã đảm nhiệm một trong các chức vụ: Thường trực Ban Bí thư, Ủy viên Bộ Chính trị, Ủy viên Ban Bí thư, Chủ tịch Ủy ban trung ương Mặt trận Tổ quốc Việt Nam, Chánh án Tòa án nhân dân tối cao, Viện trưởng Viện kiểm sát nhân dân tối cao, Phó Chủ tịch nước, Phó Thủ tướng Chính phủ.",
+      "Cá nhân đã đảm nhiệm chức vụ Phó Chủ tịch Quốc hội trong 01 nhiệm kỳ từ 03 đến 05 năm.",
+      "Cá nhân được phong quân hàm Đại tướng lực lượng vũ trang nhân dân.",
+      "Cá nhân đã đảm nhiệm chức vụ Bộ trưởng và tương đương từ 13 đến 15 năm.",
+      "Cá nhân được phong quân hàm Thượng tướng lực lượng vũ trang nhân dân từ 10 năm trở lên."
+    ]
+  },
+  {
+    "instruction": "“Huân chương Độc lập” hạng Nhì để tặng hoặc truy tặng cho cá nhân theo quy định tại điểm a khoản 1 Điều 37 của Luật Thi đua, khen thưởng, có quá trình cống hiến lâu dài trong cơ quan, tổ chức, đơn vị hoặc trong lực lượng vũ trang nhân dân và đạt được một trong các tiêu chuẩn sau đây:",
+    "response": [
+      "“Huân chương Độc lập” hạng Nhì được tặng hoặc truy tặng cho cá nhân theo quy định tại điểm a khoản 1 Điều 37 của Luật Thi đua, khen thưởng.",
+      "Cá nhân có quá trình cống hiến lâu dài trong cơ quan, tổ chức, đơn vị hoặc trong lực lượng vũ trang nhân dân."
+    ]
+  },
+  {
+    "instruction": "Được công nhận là cán bộ tiền khởi nghĩa và đã đảm nhiệm một trong các chức vụ: Phó Trưởng ban của Đảng ở trung ương, Thứ trưởng hoặc chức vụ tương đương, Phó Bí thư tỉnh ủy, thành ủy, đảng ủy trực thuộc trung ương, Chủ tịch Hội đồng nhân dân, Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương, Phó Chủ tịch Ủy ban trung ương Mặt trận Tổ quốc Việt Nam, Phó Trưởng các tổ chức chính trị - xã hội ở trung ương 01 nhiệm kỳ từ 03 đến 05 năm.",
+    "response": [
+      "Cá nhân được công nhận là cán bộ tiền khởi nghĩa.",
+      "Cá nhân đã đảm nhiệm một trong các chức vụ: Phó Trưởng ban của Đảng ở trung ương, Thứ trưởng hoặc chức vụ tương đương, Phó Bí thư tỉnh ủy, thành ủy, đảng ủy trực thuộc trung ương, Chủ tịch Hội đồng nhân dân, Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương, Phó Chủ tịch Ủy ban trung ương Mặt trận Tổ quốc Việt Nam, Phó Trưởng các tổ chức chính trị - xã hội ở trung ương trong 01 nhiệm kỳ từ 03 đến 05 năm."
+    ]
+  },
+  {
+    "instruction": "Tham gia hoạt động liên tục trong 02 cuộc kháng chiến chống thực dân Pháp, chống đế quốc Mỹ và đã đảm nhiệm một trong các chức vụ: Trưởng ban của Đảng ở trung ương, Bộ trưởng hoặc chức vụ tương đương, Bí thư tỉnh ủy, thành ủy trực thuộc trung ương, Ủy viên Ủy ban Thường vụ Quốc hội, Trưởng các tổ chức chính trị - xã hội ở trung ương 01 nhiệm kỳ từ 03 đến 05 năm; Phó Trưởng ban của Đảng ở trung ương, Thứ trưởng hoặc chức vụ tương đương, Phó Bí thư tỉnh ủy, thành ủy, đảng ủy trực thuộc trung ương, Chủ tịch Hội đồng nhân dân, Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương, Phó Chủ tịch Ủy ban trung ương Mặt trận Tổ quốc Việt Nam, Phó Trưởng các tổ chức chính trị - xã hội ở trung ương 02 nhiệm kỳ từ 08 đến 10 năm.",
+    "response": [
+      "Cá nhân tham gia hoạt động liên tục trong 02 cuộc kháng chiến chống thực dân Pháp, chống đế quốc Mỹ.",
+      "Cá nhân đã đảm nhiệm một trong các chức vụ: Trưởng ban của Đảng ở trung ương, Bộ trưởng hoặc chức vụ tương đương, Bí thư tỉnh ủy, thành ủy trực thuộc trung ương, Ủy viên Ủy ban Thường vụ Quốc hội, Trưởng các tổ chức chính trị - xã hội ở trung ương trong 01 nhiệm kỳ từ 03 đến 05 năm.",
+      "Cá nhân đã đảm nhiệm một trong các chức vụ: Phó Trưởng ban của Đảng ở trung ương, Thứ trưởng hoặc chức vụ tương đương, Phó Bí thư tỉnh ủy, thành ủy, đảng ủy trực thuộc trung ương, Chủ tịch Hội đồng nhân dân, Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương, Phó Chủ tịch Ủy ban trung ương Mặt trận Tổ quốc Việt Nam, Phó Trưởng các tổ chức chính trị - xã hội ở trung ương trong 02 nhiệm kỳ từ 08 đến 10 năm."
+    ]
+  },
+  {
+    "instruction": "Tham gia hoạt động liên tục trong kháng chiến chống đế quốc Mỹ hoặc trong xây dựng và bảo vệ Tổ quốc, đã đảm nhiệm một trong các chức vụ: Bộ trưởng và tương đương từ 02 nhiệm kỳ từ 08 đến 10 năm; Thượng tướng lực lượng vũ trang nhân dân từ 05 năm trở lên; Thứ trưởng và tương đương từ 13 đến 15 năm.",
+    "response": [
+      "Cá nhân tham gia hoạt động liên tục trong kháng chiến chống đế quốc Mỹ hoặc trong xây dựng và bảo vệ Tổ quốc.",
+      "Cá nhân đã đảm nhiệm chức vụ Bộ trưởng và tương đương trong 02 nhiệm kỳ từ 08 đến 10 năm.",
+      "Cá nhân được phong quân hàm Thượng tướng lực lượng vũ trang nhân dân từ 05 năm trở lên.",
+      "Cá nhân đã đảm nhiệm chức vụ Thứ trưởng và tương đương từ 13 đến 15 năm."
+    ]
+  },
+  {
+    "instruction": "“Huân chương Độc lập” hạng Ba để tặng hoặc truy tặng cho cá nhân theo quy định tại điểm a khoản 1 Điều 38 của Luật Thi đua, khen thưởng, có quá trình cống hiến lâu dài trong cơ quan, tổ chức, đơn vị hoặc trong lực lượng vũ trang nhân dân và đạt được một trong các tiêu chuẩn sau đây:",
+    "response": [
+      "“Huân chương Độc lập” hạng Ba được tặng hoặc truy tặng cho cá nhân theo quy định tại điểm a khoản 1 Điều 38 của Luật Thi đua, khen thưởng.",
+      "Cá nhân có quá trình cống hiến lâu dài trong cơ quan, tổ chức, đơn vị hoặc trong lực lượng vũ trang nhân dân."
+    ]
+  },
+  {
+    "instruction": "Tham gia cách mạng trước năm 1945, hoạt động liên tục và đã đảm nhiệm một trong các chức vụ: Cục trưởng, Vụ trưởng, Tỉnh ủy viên, Thành ủy viên, Trưởng ban, ngành cấp tỉnh hoặc chức vụ tương đương.",
+    "response": [
+      "Cá nhân tham gia cách mạng trước năm 1945.",
+      "Cá nhân hoạt động liên tục.",
+      "Cá nhân đã đảm nhiệm một trong các chức vụ: Cục trưởng, Vụ trưởng, Tỉnh ủy viên, Thành ủy viên, Trưởng ban, ngành cấp tỉnh hoặc chức vụ tương đương."
+    ]
+  },
+  {
+    "instruction": "Được công nhận là cán bộ tiền khởi nghĩa và đã giữ một trong các chức vụ: Cục trưởng, Vụ trưởng, Tỉnh ủy viên, Thành ủy viên, Trưởng ban, ngành cấp tỉnh hoặc chức vụ tương đương hoặc người hoạt động liên tục ít nhất 10 năm ở chiến trường miền Nam, đã đảm nhiệm chức vụ Huyện ủy viên hoặc chức vụ tương đương trước ngày 30 tháng 4 năm 1975.",
+    "response": [
+      "Cá nhân được công nhận là cán bộ tiền khởi nghĩa.",
+      "Cá nhân đã giữ một trong các chức vụ: Cục trưởng, Vụ trưởng, Tỉnh ủy viên, Thành ủy viên, Trưởng ban, ngành cấp tỉnh hoặc chức vụ tương đương.",
+      "Cá nhân hoạt động liên tục ít nhất 10 năm ở chiến trường miền Nam.",
+      "Cá nhân đã đảm nhiệm chức vụ Huyện ủy viên hoặc chức vụ tương đương trước ngày 30 tháng 4 năm 1975."
+    ]
+  },
+  {
+    "instruction": "Tham gia hoạt động liên tục trong 02 cuộc kháng chiến chống thực dân Pháp, chống đế quốc Mỹ và đã đảm nhiệm một trong các chức vụ: Phó Trưởng ban của Đảng ở trung ương, Thứ trưởng hoặc chức vụ tương đương, Phó Bí thư tỉnh ủy, thành ủy, Chủ tịch Hội đồng nhân dân, Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương, Phó Chủ tịch Ủy ban trung ương Mặt trận Tổ quốc Việt Nam, Phó Trưởng các tổ chức chính trị - xã hội ở trung ương 01 nhiệm kỳ từ 03 đến 05 năm.",
+    "response": [
+      "Cá nhân tham gia hoạt động liên tục trong 02 cuộc kháng chiến chống thực dân Pháp, chống đế quốc Mỹ.",
+      "Cá nhân đã đảm nhiệm một trong các chức vụ: Phó Trưởng ban của Đảng ở trung ương, Thứ trưởng hoặc chức vụ tương đương, Phó Bí thư tỉnh ủy, thành ủy, Chủ tịch Hội đồng nhân dân, Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương, Phó Chủ tịch Ủy ban trung ương Mặt trận Tổ quốc Việt Nam, Phó Trưởng các tổ chức chính trị - xã hội ở trung ương trong 01 nhiệm kỳ từ 03 đến 05 năm."
+    ]
+  },
+  {
+    "instruction": "Tham gia hoạt động liên tục trong kháng chiến chống đế quốc Mỹ hoặc trong xây dựng và bảo vệ Tổ quốc, đã đảm nhiệm một trong các chức vụ: Bộ trưởng và tương đương 01 nhiệm kỳ từ 03 đến 05 năm; Thượng tướng lực lượng vũ trang nhân dân; Thứ trưởng và tương đương 02 nhiệm kỳ từ 08 đến 10 năm.",
+    "response": [
+      "Cá nhân tham gia hoạt động liên tục trong kháng chiến chống đế quốc Mỹ hoặc trong xây dựng và bảo vệ Tổ quốc.",
+      "Cá nhân đã đảm nhiệm chức vụ Bộ trưởng và tương đương trong 01 nhiệm kỳ từ 03 đến 05 năm.",
+      "Cá nhân được phong quân hàm Thượng tướng lực lượng vũ trang nhân dân.",
+      "Cá nhân đã đảm nhiệm chức vụ Thứ trưởng và tương đương trong 02 nhiệm kỳ từ 08 đến 10 năm."
+    ]
+  },
+  {
+    "instruction": "“Huân chương Quân công” hạng Nhất để tặng hoặc truy tặng cho cá nhân theo quy định tại điểm a khoản 1 Điều 39 của Luật Thi đua, khen thưởng, có quá trình công tác từ 35 năm trở lên trong lực lượng vũ trang nhân dân, đã đảm nhiệm một trong các chức vụ: Bộ trưởng, Thứ trưởng, Tổng tham mưu trưởng, Chủ nhiệm Tổng cục Chính trị hoặc chức danh tương đương; Đại tướng, Thượng tướng lực lượng vũ trang nhân dân từ 05 năm trở lên.",
+    "response": [
+      "“Huân chương Quân công” hạng Nhất được tặng hoặc truy tặng cho cá nhân theo quy định tại điểm a khoản 1 Điều 39 của Luật Thi đua, khen thưởng.",
+      "Cá nhân có quá trình công tác từ 35 năm trở lên trong lực lượng vũ trang nhân dân.",
+      "Cá nhân đã đảm nhiệm một trong các chức vụ: Bộ trưởng, Thứ trưởng, Tổng tham mưu trưởng, Chủ nhiệm Tổng cục Chính trị hoặc chức danh tương đương.",
+      "Cá nhân được phong quân hàm Đại tướng hoặc Thượng tướng lực lượng vũ trang nhân dân từ 05 năm trở lên."
+    ]
+  },
+  {
+    "instruction": "“Huân chương Quân công” hạng Nhì để tặng hoặc truy tặng cho cá nhân theo quy định tại điểm a khoản 1 Điều 40 của Luật Thi đua, khen thưởng, có quá trình công tác 35 năm trở lên trong lực lượng vũ trang nhân dân, đã đảm nhiệm một trong các chức vụ: Tư lệnh Quân khu hoặc chức danh tương đương từ 05 năm trở lên.",
+    "response": [
+      "“Huân chương Quân công” hạng Nhì được tặng hoặc truy tặng cho cá nhân theo quy định tại điểm a khoản 1 Điều 40 của Luật Thi đua, khen thưởng.",
+      "Cá nhân có quá trình công tác từ 35 năm trở lên trong lực lượng vũ trang nhân dân.",
+      "Cá nhân đã đảm nhiệm chức vụ Tư lệnh Quân khu hoặc chức danh tương đương từ 05 năm trở lên."
+    ]
+  },
+  {
+    "instruction": "“Huân chương Quân công” hạng Ba để tặng hoặc truy tặng cho cá nhân theo quy định tại điểm a khoản 1 Điều 41 của Luật Thi đua, khen thưởng, có quá trình công tác 35 năm trong lực lượng vũ trang nhân dân, đã đảm nhiệm một trong các chức vụ: Tư lệnh Quân đoàn hoặc chức danh tương đương từ 05 năm trở lên.",
+    "response": [
+      "“Huân chương Quân công” hạng Ba được tặng hoặc truy tặng cho cá nhân theo quy định tại điểm a khoản 1 Điều 41 của Luật Thi đua, khen thưởng.",
+      "Cá nhân có quá trình công tác 35 năm trong lực lượng vũ trang nhân dân.",
+      "Cá nhân đã đảm nhiệm chức vụ Tư lệnh Quân đoàn hoặc chức danh tương đương từ 05 năm trở lên."
+    ]
+  },
+  {
+    "instruction": "“Huân chương Lao động” hạng Nhất để tặng hoặc truy tặng cho cá nhân theo quy định tại điểm e khoản 1 Điều 42 của Luật Thi đua, khen thưởng, có quá trình cống hiến lâu dài trong các cơ quan, tổ chức, đơn vị và đạt một trong các tiêu chuẩn sau đây:",
+    "response": [
+      "“Huân chương Lao động” hạng Nhất được tặng hoặc truy tặng cho cá nhân theo quy định tại điểm e khoản 1 Điều 42 của Luật Thi đua, khen thưởng.",
+      "Cá nhân có quá trình cống hiến lâu dài trong các cơ quan, tổ chức, đơn vị."
+    ]
+  },
+  {
+    "instruction": "Được công nhận là cán bộ tiền khởi nghĩa và đã đảm nhiệm một trong các chức vụ: Phó Cục trưởng, Phó Vụ trưởng, Phó Trưởng ban, ngành cấp tỉnh hoặc chức vụ tương đương; Vụ trưởng, Thường vụ tỉnh ủy, thành ủy, Phó Chủ tịch Hội đồng nhân dân, Ủy ban nhân dân, Chủ tịch Ủy ban Mặt trận Tổ quốc tỉnh, thành phố trực thuộc trung ương từ 10 năm trở lên.",
+    "response": [
+      "Cá nhân được công nhận là cán bộ tiền khởi nghĩa.",
+      "Cá nhân đã đảm nhiệm một trong các chức vụ: Phó Cục trưởng, Phó Vụ trưởng, Phó Trưởng ban, ngành cấp tỉnh hoặc chức vụ tương đương.",
+      "Cá nhân đã đảm nhiệm một trong các chức vụ: Vụ trưởng, Thường vụ tỉnh ủy, thành ủy, Phó Chủ tịch Hội đồng nhân dân, Ủy ban nhân dân, Chủ tịch Ủy ban Mặt trận Tổ quốc tỉnh, thành phố trực thuộc trung ương từ 10 năm trở lên."
+    ]
+  },
+  {
+    "instruction": "Tham gia hoạt động liên tục trong 02 cuộc kháng chiến chống thực dân Pháp, chống đế quốc Mỹ và đã đảm nhiệm một trong các chức vụ: Phó Trưởng ban của Đảng ở trung ương, Thứ trưởng hoặc chức vụ tương đương, Phó Bí thư tỉnh ủy, thành ủy trực thuộc trung ương, Chủ tịch Hội đồng nhân dân, Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương, Phó Chủ tịch Ủy ban trung ương Mặt trận Tổ quốc Việt Nam, Phó Trưởng các tổ chức chính trị - xã hội ở trung ương; Vụ trưởng, Thường vụ tỉnh ủy, thành ủy, Phó Chủ tịch Hội đồng nhân dân, Ủy ban nhân dân, Chủ tịch Ủy ban Mặt trận Tổ quốc tỉnh, thành phố trực thuộc trung ương từ 10 năm trở lên.",
+    "response": [
+      "Cá nhân tham gia hoạt động liên tục trong 02 cuộc kháng chiến chống thực dân Pháp, chống đế quốc Mỹ.",
+      "Cá nhân đã đảm nhiệm một trong các chức vụ: Phó Trưởng ban của Đảng ở trung ương, Thứ trưởng hoặc chức vụ tương đương, Phó Bí thư tỉnh ủy, thành ủy trực thuộc trung ương, Chủ tịch Hội đồng nhân dân, Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương, Phó Chủ tịch Ủy ban trung ương Mặt trận Tổ quốc Việt Nam, Phó Trưởng các tổ chức chính trị - xã hội ở trung ương.",
+      "Cá nhân đã đảm nhiệm một trong các chức vụ: Vụ trưởng, Thường vụ tỉnh ủy, thành ủy, Phó Chủ tịch Hội đồng nhân dân, Ủy ban nhân dân, Chủ tịch Ủy ban Mặt trận Tổ quốc tỉnh, thành phố trực thuộc trung ương từ 10 năm trở lên."
+    ]
+  },
+  {
+    "instruction": "Tham gia hoạt động liên tục trong kháng chiến chống đế quốc Mỹ hoặc trong xây dựng và bảo vệ Tổ quốc, đã đảm nhiệm một trong các chức vụ: Bộ trưởng và tương đương; Thứ trưởng và tương đương từ 05 năm trở lên; Tổng cục trưởng và tương đương từ 8 đến dưới 10 năm; Phó tổng cục trưởng và tương đương từ 10 năm đến dưới 15 năm; Vụ trưởng và tương đương từ 15 năm trở lên.",
+    "response": [
+      "Cá nhân tham gia hoạt động liên tục trong kháng chiến chống đế quốc Mỹ hoặc trong xây dựng và bảo vệ Tổ quốc.",
+      "Cá nhân đã đảm nhiệm chức vụ Bộ trưởng và tương đương.",
+      "Cá nhân đã đảm nhiệm chức vụ Thứ trưởng và tương đương từ 05 năm trở lên.",
+      "Cá nhân đã đảm nhiệm chức vụ Tổng cục trưởng và tương đương từ 08 đến dưới 10 năm.",
+      "Cá nhân đã đảm nhiệm chức vụ Phó Tổng cục trưởng và tương đương từ 10 năm đến dưới 15 năm.",
+      "Cá nhân đã đảm nhiệm chức vụ Vụ trưởng và tương đương từ 15 năm trở lên."
+    ]
+  },
+  {
+    "instruction": "“Huân chương Lao động” hạng Nhất để tặng hoặc truy tặng cho cá nhân chấp hành tốt chủ trương của Đảng, chính sách, pháp luật của Nhà nước được cơ quan có thẩm quyền cử tham gia các hoạt động văn hóa, thể thao, du lịch, giáo dục và đào tạo, khoa học và công nghệ hoặc lĩnh vực khác, đạt được thành tích giải Nhất thế giới hoặc Huy chương Vàng của thế giới.",
+    "response": [
+      "“Huân chương Lao động” hạng Nhất được tặng hoặc truy tặng cho cá nhân.",
+      "Cá nhân chấp hành tốt chủ trương của Đảng, chính sách, pháp luật của Nhà nước.",
+      "Cá nhân được cơ quan có thẩm quyền cử tham gia các hoạt động văn hóa, thể thao, du lịch, giáo dục và đào tạo, khoa học và công nghệ hoặc lĩnh vực khác.",
+      "Cá nhân đạt được thành tích giải Nhất thế giới hoặc Huy chương Vàng của thế giới."
+    ]
+  },
+  {
+    "instruction": "“Huân chương Lao động” hạng Nhì để tặng hoặc truy tặng cho cá nhân theo quy định tại điểm e khoản 1 Điều 43 của Luật Thi đua, khen thưởng, có quá trình cống hiến lâu dài trong các cơ quan, tổ chức, đơn vị và đạt một trong các tiêu chuẩn sau đây:",
+    "response": [
+      "“Huân chương Lao động” hạng Nhì được tặng hoặc truy tặng cho cá nhân theo quy định tại điểm e khoản 1 Điều 43 của Luật Thi đua, khen thưởng.",
+      "Cá nhân có quá trình cống hiến lâu dài trong các cơ quan, tổ chức, đơn vị."
+    ]
+  },
+  {
+    "instruction": "Tham gia hoạt động liên tục trong 02 cuộc kháng chiến chống thực dân Pháp, chống đế quốc Mỹ và đã đảm nhiệm một trong các chức vụ: Vụ trưởng, Thường vụ tỉnh ủy, thành ủy trực thuộc trung ương, Phó Trưởng Đoàn đại biểu Quốc hội chuyên trách, Phó Chủ tịch Hội đồng nhân dân, Ủy ban nhân dân, Chủ tịch Ủy ban Mặt trận Tổ quốc tỉnh, thành phố trực thuộc trung ương từ 06 năm đến dưới 10 năm; Giám đốc sở, Trưởng ban, ngành, Phó Chủ tịch Ủy ban Mặt trận Tổ quốc cấp tỉnh, Bí thư, Chủ tịch Hội đồng nhân dân, Ủy ban nhân dân quận, huyện, thị xã, thành phố thuộc tỉnh, thành phố thuộc thành phố trực thuộc trung ương, Phó Vụ trưởng hoặc chức vụ tương đương từ 10 năm trở lên.",
+    "response": [
+      "Cá nhân tham gia hoạt động liên tục trong 02 cuộc kháng chiến chống thực dân Pháp, chống đế quốc Mỹ.",
+      "Cá nhân đã đảm nhiệm một trong các chức vụ: Vụ trưởng, Thường vụ tỉnh ủy, thành ủy trực thuộc trung ương, Phó Trưởng Đoàn đại biểu Quốc hội chuyên trách, Phó Chủ tịch Hội đồng nhân dân, Ủy ban nhân dân, Chủ tịch Ủy ban Mặt trận Tổ quốc tỉnh, thành phố trực thuộc trung ương từ 06 năm đến dưới 10 năm.",
+      "Cá nhân đã đảm nhiệm một trong các chức vụ: Giám đốc sở, Trưởng ban, ngành, Phó Chủ tịch Ủy ban Mặt trận Tổ quốc cấp tỉnh, Bí thư, Chủ tịch Hội đồng nhân dân, Ủy ban nhân dân quận, huyện, thị xã, thành phố thuộc tỉnh, thành phố thuộc thành phố trực thuộc trung ương, Phó Vụ trưởng hoặc chức vụ tương đương từ 10 năm trở lên."
+    ]
+  },
+  {
+    "instruction": "Tham gia hoạt động liên tục trong kháng chiến chống đế quốc Mỹ hoặc trong xây dựng và bảo vệ Tổ quốc, đã đảm nhiệm một trong các chức vụ: Thứ trưởng và tương đương từ 03 đến dưới 05 năm; Tổng cục trưởng và tương đương từ 05 năm trở lên; Phó tổng cục trưởng và tương đương từ 08 năm đến dưới 10 năm; Vụ trưởng và tương đương từ 10 năm đến dưới 15 năm; Phó vụ trưởng và tương đương từ 15 năm trở lên.",
+    "response": [
+      "Cá nhân tham gia hoạt động liên tục trong kháng chiến chống đế quốc Mỹ hoặc trong xây dựng và bảo vệ Tổ quốc.",
+      "Cá nhân đã đảm nhiệm chức vụ Thứ trưởng và tương đương từ 03 đến dưới 05 năm.",
+      "Cá nhân đã đảm nhiệm chức vụ Tổng cục trưởng và tương đương từ 05 năm trở lên.",
+      "Cá nhân đã đảm nhiệm chức vụ Phó Tổng cục trưởng và tương đương từ 08 năm đến dưới 10 năm.",
+      "Cá nhân đã đảm nhiệm chức vụ Vụ trưởng và tương đương từ 10 năm đến dưới 15 năm.",
+      "Cá nhân đã đảm nhiệm chức vụ Phó Vụ trưởng và tương đương từ 15 năm trở lên."
+    ]
+  },
+  {
+    "instruction": "“Huân chương Lao động” hạng Nhì để tặng hoặc truy tặng cho cá nhân được cơ quan có thẩm quyền cử tham gia các hoạt động văn hóa, thể thao, du lịch, giáo dục và đào tạo, khoa học và công nghệ hoặc lĩnh vực khác, đạt được thành tích Huy chương Bạc thế giới hoặc tương đương, Huy chương Vàng cấp châu lục hoặc tương đương.",
+    "response": [
+      "“Huân chương Lao động” hạng Nhì được tặng hoặc truy tặng cho cá nhân.",
+      "Cá nhân được cơ quan có thẩm quyền cử tham gia các hoạt động văn hóa, thể thao, du lịch, giáo dục và đào tạo, khoa học và công nghệ hoặc lĩnh vực khác.",
+      "Cá nhân đạt được thành tích Huy chương Bạc thế giới hoặc tương đương.",
+      "Cá nhân đạt được thành tích Huy chương Vàng cấp châu lục hoặc tương đương."
+    ]
+  },
+  {
+    "instruction": "“Huân chương Lao động” hạng Ba để tặng hoặc truy tặng cho cá nhân theo quy định tại điểm g khoản 1 Điều 44 của Luật Thi đua, khen thưởng, có quá trình cống hiến lâu dài trong các cơ quan, tổ chức, đơn vị và đạt một trong các tiêu chuẩn sau đây:",
+    "response": [
+      "“Huân chương Lao động” hạng Ba được tặng hoặc truy tặng cho cá nhân theo quy định tại điểm g khoản 1 Điều 44 của Luật Thi đua, khen thưởng.",
+      "Cá nhân có quá trình cống hiến lâu dài trong các cơ quan, tổ chức, đơn vị."
+    ]
+  },
+  {
+    "instruction": "Tham gia hoạt động liên tục trong 02 cuộc kháng chiến chống thực dân Pháp, chống đế quốc Mỹ, đã đảm nhiệm một trong các chức vụ: Vụ trưởng, Thường vụ tỉnh ủy, thành ủy trực thuộc trung ương, Phó Chủ tịch Hội đồng nhân dân, Ủy ban nhân dân, Chủ tịch Ủy ban Mặt trận Tổ quốc tỉnh, thành phố trực thuộc trung ương 05 năm; Giám đốc sở, Trưởng ban, ngành, Phó Chủ tịch Ủy ban Mặt trận Tổ quốc và Trưởng các tổ chức chính trị - xã hội cấp tỉnh, Bí thư, Chủ tịch Hội đồng nhân dân, Ủy ban nhân dân quận, huyện, thị xã, thành phố thuộc tỉnh, thành phố thuộc thành phố trực thuộc trung ương, Phó Vụ trưởng hoặc chức vụ tương đương từ 06 năm đến dưới 10 năm.",
+    "response": [
+      "Cá nhân tham gia hoạt động liên tục trong 02 cuộc kháng chiến chống thực dân Pháp, chống đế quốc Mỹ.",
+      "Cá nhân đã đảm nhiệm một trong các chức vụ: Vụ trưởng, Thường vụ tỉnh ủy, thành ủy trực thuộc trung ương, Phó Chủ tịch Hội đồng nhân dân, Ủy ban nhân dân, Chủ tịch Ủy ban Mặt trận Tổ quốc tỉnh, thành phố trực thuộc trung ương trong 05 năm.",
+      "Cá nhân đã đảm nhiệm một trong các chức vụ: Giám đốc sở, Trưởng ban, ngành, Phó Chủ tịch Ủy ban Mặt trận Tổ quốc và Trưởng các tổ chức chính trị - xã hội cấp tỉnh, Bí thư, Chủ tịch Hội đồng nhân dân, Ủy ban nhân dân quận, huyện, thị xã, thành phố thuộc tỉnh, thành phố thuộc thành phố trực thuộc trung ương, Phó Vụ trưởng hoặc chức vụ tương đương từ 06 năm đến dưới 10 năm."
+    ]
+  },
+  {
+    "instruction": "Tham gia hoạt động liên tục trong kháng chiến chống đế quốc Mỹ hoặc trong xây dựng và bảo vệ Tổ quốc, đã đảm nhiệm một trong các chức vụ: Tổng cục trưởng và tương đương từ 03 năm đến dưới 05 năm; Phó Tổng cục trưởng và tương đương từ 05 năm đến dưới 08 năm; Vụ trưởng và tương đương từ 06 năm đến dưới 10 năm; Phó Vụ trưởng và tương đương từ 10 năm đến dưới 15 năm.",
+    "response": [
+      "Cá nhân tham gia hoạt động liên tục trong kháng chiến chống đế quốc Mỹ hoặc trong xây dựng và bảo vệ Tổ quốc.",
+      "Cá nhân đã đảm nhiệm chức vụ Tổng cục trưởng và tương đương từ 03 năm đến dưới 05 năm.",
+      "Cá nhân đã đảm nhiệm chức vụ Phó Tổng cục trưởng và tương đương từ 05 năm đến dưới 08 năm.",
+      "Cá nhân đã đảm nhiệm chức vụ Vụ trưởng và tương đương từ 06 năm đến dưới 10 năm.",
+      "Cá nhân đã đảm nhiệm chức vụ Phó Vụ trưởng và tương đương từ 10 năm đến dưới 15 năm."
+    ]
+  },
+  {
+    "instruction": "“Huân chương Lao động” hạng Ba để tặng hoặc truy tặng cho cá nhân được cơ quan có thẩm quyền cử tham gia các hoạt động văn hóa, thể thao, du lịch, giáo dục và đào tạo, khoa học và công nghệ hoặc lĩnh vực khác, đạt được thành tích Huy chương Đồng thế giới hoặc tương đương, Huy chương Bạc cấp châu lục hoặc tương đương.",
+    "response": [
+      "“Huân chương Lao động” hạng Ba được tặng hoặc truy tặng cho cá nhân.",
+      "Cá nhân được cơ quan có thẩm quyền cử tham gia các hoạt động văn hóa, thể thao, du lịch, giáo dục và đào tạo, khoa học và công nghệ hoặc lĩnh vực khác.",
+      "Cá nhân đạt được thành tích Huy chương Đồng thế giới hoặc tương đương.",
+      "Cá nhân đạt được thành tích Huy chương Bạc cấp châu lục hoặc tương đương."
+    ]
+  },
+  {
+    "instruction": "“Huân chương Bảo vệ Tổ quốc” hạng Nhất để tặng hoặc truy tặng cho cá nhân theo quy định tại điểm d khoản 1 Điều 45 của Luật Thi đua, khen thưởng, có quá trình công tác từ 35 năm trở lên trong lực lượng vũ trang nhân dân, đã đảm nhiệm một trong các chức vụ: Phó Tư lệnh Quân đoàn, Sư đoàn trưởng, Giám đốc Công an tỉnh, thành phố trực thuộc trung ương hoặc chức danh tương đương từ 10 năm trở lên.",
+    "response": [
+      "“Huân chương Bảo vệ Tổ quốc” hạng Nhất được tặng hoặc truy tặng cho cá nhân theo quy định tại điểm d khoản 1 Điều 45 của Luật Thi đua, khen thưởng.",
+      "Cá nhân có quá trình công tác từ 35 năm trở lên trong lực lượng vũ trang nhân dân.",
+      "Cá nhân đã đảm nhiệm một trong các chức vụ: Phó Tư lệnh Quân đoàn, Sư đoàn trưởng, Giám đốc Công an tỉnh, thành phố trực thuộc trung ương hoặc chức danh tương đương từ 10 năm trở lên."
+    ]
+  },
+  {
+    "instruction": "“Huân chương Bảo vệ Tổ quốc” hạng Nhì để tặng hoặc truy tặng cho cá nhân theo quy định tại điểm d khoản 1 Điều 46 của Luật Thi đua, khen thưởng, có quá trình công tác từ 35 năm trở lên trong lực lượng vũ trang nhân dân, đã đảm nhiệm một trong các chức vụ: Phó Sư đoàn trưởng, Lữ đoàn trưởng, Phó Giám đốc Công an tỉnh, thành phố trực thuộc trung ương hoặc chức danh tương đương từ 10 năm trở lên.",
+    "response": [
+      "“Huân chương Bảo vệ Tổ quốc” hạng Nhì được tặng hoặc truy tặng cho cá nhân theo quy định tại điểm d khoản 1 Điều 46 của Luật Thi đua, khen thưởng.",
+      "Cá nhân có quá trình công tác từ 35 năm trở lên trong lực lượng vũ trang nhân dân.",
+      "Cá nhân đã đảm nhiệm một trong các chức vụ: Phó Sư đoàn trưởng, Lữ đoàn trưởng, Phó Giám đốc Công an tỉnh, thành phố trực thuộc trung ương hoặc chức danh tương đương từ 10 năm trở lên."
+    ]
+  },
+  {
+    "instruction": "“Huân chương Bảo vệ Tổ quốc” hạng Ba để tặng hoặc truy tặng cho cá nhân theo quy định tại điểm đ khoản 1 Điều 47 của Luật Thi đua, khen thưởng, có quá trình công tác từ 30 năm trở lên trong lực lượng vũ trang nhân dân, đã đảm nhiệm một trong các chức vụ: Trung đoàn trưởng, Phó trung đoàn hoặc chức danh tương đương từ 10 năm trở lên.",
+    "response": [
+      "“Huân chương Bảo vệ Tổ quốc” hạng Ba được tặng hoặc truy tặng cho cá nhân theo quy định tại điểm đ khoản 1 Điều 47 của Luật Thi đua, khen thưởng.",
+      "Cá nhân có quá trình công tác từ 30 năm trở lên trong lực lượng vũ trang nhân dân.",
+      "Cá nhân đã đảm nhiệm một trong các chức vụ: Trung đoàn trưởng, Phó trung đoàn hoặc chức danh tương đương từ 10 năm trở lên."
+    ]
+  },
+  {
+    "instruction": "“Huân chương Đại đoàn kết dân tộc” để tặng hoặc truy tặng cho cá nhân chấp hành tốt chủ trương của Đảng, chính sách, pháp luật của Nhà nước và đạt một trong các tiêu chuẩn sau đây:",
+    "response": [
+      "“Huân chương Đại đoàn kết dân tộc” được tặng hoặc truy tặng cho cá nhân.",
+      "Cá nhân chấp hành tốt chủ trương của Đảng, chính sách, pháp luật của Nhà nước."
+    ]
+  },
+  {
+    "instruction": "Cá nhân đạt tiêu chuẩn theo quy định tại khoản 1 Điều 51 Luật Thi đua, khen thưởng.",
+    "response": [
+      "Cá nhân đạt tiêu chuẩn theo quy định tại khoản 1 Điều 51 Luật Thi đua, khen thưởng."
+    ]
+  },
+  {
+    "instruction": "Đã đảm nhiệm 01 trong các chức vụ: Chủ tịch Ủy ban trung ương Mặt trận Tổ quốc Việt Nam từ 05 năm đến dưới 10 năm, Phó Chủ tịch Ủy ban trung ương Mặt trận Tổ quốc Việt Nam 10 năm trở lên hoặc có ít nhất 15 năm liên tục đảm nhiệm chức vụ cấp trưởng của các tổ chức thành viên trong hệ thống Mặt trận Tổ quốc Việt Nam từ cấp tỉnh trở lên.",
+    "response": [
+      "Cá nhân đã đảm nhiệm chức vụ Chủ tịch Ủy ban trung ương Mặt trận Tổ quốc Việt Nam từ 05 năm đến dưới 10 năm.",
+      "Cá nhân đã đảm nhiệm chức vụ Phó Chủ tịch Ủy ban trung ương Mặt trận Tổ quốc Việt Nam từ 10 năm trở lên.",
+      "Cá nhân có ít nhất 15 năm liên tục đảm nhiệm chức vụ cấp trưởng của các tổ chức thành viên trong hệ thống Mặt trận Tổ quốc Việt Nam từ cấp tỉnh trở lên."
+    ]
+  },
+
+
+  {
+    "instruction": "Các đối tượng quy định tại khoản 1 Điều này nếu đã được tặng hoặc truy tặng Huân chương các loại theo quy định tại Điều 8, 9, 10, 11, 12, 13, 14, 15; 19, 20, 21; khoản 1 các Điều 16, 17, 18 của Nghị định này thì không xét tặng hoặc truy tặng “Huân chương Đại đoàn kết dân tộc”.",
+    "response": [
+      "Các đối tượng quy định tại khoản 1 Điều này nếu đã được tặng Huân chương các loại theo quy định tại Điều 8, 9, 10, 11, 12, 13, 14, 15; 19, 20, 21; khoản 1 các Điều 16, 17, 18 của Nghị định này thì không được xét tặng “Huân chương Đại đoàn kết dân tộc”.",
+      "Các đối tượng quy định tại khoản 1 Điều này nếu đã được truy tặng Huân chương các loại theo quy định tại Điều 8, 9, 10, 11, 12, 13, 14, 15; 19, 20, 21; khoản 1 các Điều 16, 17, 18 của Nghị định này thì không được xét truy tặng “Huân chương Đại đoàn kết dân tộc”."
+    ]
+  },
+  {
+    "instruction": "Tiêu chuẩn khen thưởng “Huân chương Hữu nghị” được thực hiện theo quy định tại khoản 1 Điều 53 Luật Thi đua, khen thưởng.",
+    "response": [
+      "Tiêu chuẩn khen thưởng “Huân chương Hữu nghị” được thực hiện theo quy định tại khoản 1 Điều 53 Luật Thi đua, khen thưởng."
+    ]
+  },
+  {
+    "instruction": "Cơ quan, tổ chức thuộc Nhà nước, Chính phủ nước ngoài tương đương cấp bộ, tỉnh, thành phố là đối tượng khen thưởng “Huân chương Hữu nghị”.",
+    "response": [
+      "Cơ quan, tổ chức thuộc Nhà nước, Chính phủ nước ngoài tương đương cấp bộ, tỉnh, thành phố là đối tượng khen thưởng “Huân chương Hữu nghị”."
+    ]
+  },
+  {
+    "instruction": "Tổ chức nước ngoài mà Việt Nam là thành viên hoặc có quan hệ đối tác là đối tượng khen thưởng “Huân chương Hữu nghị”.",
+    "response": [
+      "Tổ chức nước ngoài mà Việt Nam là thành viên là đối tượng khen thưởng “Huân chương Hữu nghị”.",
+      "Tổ chức nước ngoài có quan hệ đối tác với Việt Nam là đối tượng khen thưởng “Huân chương Hữu nghị”."
+    ]
+  },
+  {
+    "instruction": "Hội Hữu nghị với Việt Nam của các nước là đối tượng khen thưởng “Huân chương Hữu nghị”.",
+    "response": [
+      "Hội Hữu nghị với Việt Nam của các nước là đối tượng khen thưởng “Huân chương Hữu nghị”."
+    ]
+  },
+  {
+    "instruction": "Hội Hữu nghị với Việt Nam cấp tỉnh, bang, thành phố của các nước có quan hệ đối tác đặc biệt, đối tác chiến lược hoặc đối tác toàn diện với Việt Nam là đối tượng khen thưởng “Huân chương Hữu nghị”.",
+    "response": [
+      "Hội Hữu nghị với Việt Nam cấp tỉnh, bang, thành phố của các nước có quan hệ đối tác đặc biệt với Việt Nam là đối tượng khen thưởng “Huân chương Hữu nghị”.",
+      "Hội Hữu nghị với Việt Nam cấp tỉnh, bang, thành phố của các nước có quan hệ đối tác chiến lược với Việt Nam là đối tượng khen thưởng “Huân chương Hữu nghị”.",
+      "Hội Hữu nghị với Việt Nam cấp tỉnh, bang, thành phố của các nước có quan hệ đối tác toàn diện với Việt Nam là đối tượng khen thưởng “Huân chương Hữu nghị”."
+    ]
+  },
+  {
+    "instruction": "Cơ quan đại diện ngoại giao của nước ngoài tại Việt Nam là đối tượng khen thưởng “Huân chương Hữu nghị”.",
+    "response": [
+      "Cơ quan đại diện ngoại giao của nước ngoài tại Việt Nam là đối tượng khen thưởng “Huân chương Hữu nghị”."
+    ]
+  },
+  {
+    "instruction": "Văn phòng, Cơ quan đại diện thường trú của các tổ chức quốc tế, tổ chức thuộc hệ thống Liên hợp quốc tại Việt Nam; tổ chức phi chính phủ nước ngoài có hoạt động tại Việt Nam là đối tượng khen thưởng “Huân chương Hữu nghị”.",
+    "response": [
+      "Văn phòng của các tổ chức quốc tế, tổ chức thuộc hệ thống Liên hợp quốc tại Việt Nam là đối tượng khen thưởng “Huân chương Hữu nghị”.",
+      "Cơ quan đại diện thường trú của các tổ chức quốc tế, tổ chức thuộc hệ thống Liên hợp quốc tại Việt Nam là đối tượng khen thưởng “Huân chương Hữu nghị”.",
+      "Tổ chức phi chính phủ nước ngoài có hoạt động tại Việt Nam là đối tượng khen thưởng “Huân chương Hữu nghị”."
+    ]
+  },
+  {
+    "instruction": "Tổ chức nước ngoài khác không thuộc các đối tượng trên nhưng có thành tích đặc biệt xuất sắc và đủ tiêu chuẩn quy định tại khoản 1 Điều 53 Luật Thi đua, khen thưởng được bộ, ban, ngành, tỉnh công nhận và đề nghị là đối tượng khen thưởng “Huân chương Hữu nghị”.",
+    "response": [
+      "Tổ chức nước ngoài khác không thuộc các đối tượng trên có thành tích đặc biệt xuất sắc.",
+      "Tổ chức nước ngoài khác không thuộc các đối tượng trên đủ tiêu chuẩn quy định tại khoản 1 Điều 53 Luật Thi đua, khen thưởng.",
+      "Bộ, ban, ngành, tỉnh công nhận và đề nghị khen thưởng đối với tổ chức nước ngoài khác đủ các tiêu chuẩn nêu trên.",
+      "Tổ chức nước ngoài khác đủ các tiêu chuẩn nêu trên là đối tượng khen thưởng “Huân chương Hữu nghị”."
+    ]
+  },
+  {
+    "instruction": "Cá nhân nước ngoài là người đứng đầu cơ quan, tổ chức quy định tại điểm a khoản 2 Điều này có thời gian đảm nhiệm chức vụ từ 05 năm liên tục trở lên hoặc có thời gian công tác tại Việt Nam ít nhất một nhiệm kỳ 03 năm là đối tượng khen thưởng “Huân chương Hữu nghị”.",
+    "response": [
+      "Cá nhân nước ngoài là người đứng đầu cơ quan, tổ chức quy định tại điểm a khoản 2 Điều này.",
+      "Cá nhân nước ngoài này có thời gian đảm nhiệm chức vụ từ 05 năm liên tục trở lên.",
+      "Cá nhân nước ngoài này có thời gian công tác tại Việt Nam ít nhất một nhiệm kỳ 03 năm.",
+      "Cá nhân nước ngoài này là đối tượng khen thưởng “Huân chương Hữu nghị” khi đáp ứng một trong các điều kiện về thời gian nêu trên."
+    ]
+  },
+  {
+    "instruction": "Trưởng các Cơ quan đại diện nước ngoài tại Việt Nam của các nước có quan hệ đối tác đặc biệt, đối tác chiến lược hoặc đối tác toàn diện với Việt Nam có thời gian công tác tại Việt Nam ít nhất một nhiệm kỳ 03 năm là đối tượng khen thưởng “Huân chương Hữu nghị”.",
+    "response": [
+      "Trưởng các Cơ quan đại diện nước ngoài tại Việt Nam của các nước có quan hệ đối tác đặc biệt với Việt Nam là đối tượng thuộc tiêu chí này.",
+      "Trưởng các Cơ quan đại diện nước ngoài tại Việt Nam của các nước có quan hệ đối tác chiến lược với Việt Nam là đối tượng thuộc tiêu chí này.",
+      "Trưởng các Cơ quan đại diện nước ngoài tại Việt Nam của các nước có quan hệ đối tác toàn diện với Việt Nam là đối tượng thuộc tiêu chí này.",
+      "Trưởng các Cơ quan đại diện nước ngoài tại Việt Nam thuộc các trường hợp trên phải có thời gian công tác tại Việt Nam ít nhất một nhiệm kỳ 03 năm."
+    ]
+  },
+  {
+    "instruction": "Cá nhân nước ngoài đã được tặng “Huy chương Hữu nghị” và 05 năm tiếp theo tiếp tục có những đóng góp tích cực vào việc xây dựng, củng cố và phát triển mối quan hệ hữu nghị, hợp tác tốt đẹp và toàn diện với Việt Nam là đối tượng khen thưởng “Huân chương Hữu nghị”.",
+    "response": [
+      "Cá nhân nước ngoài đã được tặng “Huy chương Hữu nghị”.",
+      "Cá nhân nước ngoài này trong 05 năm tiếp theo tiếp tục có những đóng góp tích cực vào việc xây dựng mối quan hệ hữu nghị với Việt Nam.",
+      "Cá nhân nước ngoài này trong 05 năm tiếp theo tiếp tục có những đóng góp tích cực vào việc củng cố quan hệ hợp tác tốt đẹp với Việt Nam.",
+      "Cá nhân nước ngoài này trong 05 năm tiếp theo tiếp tục có những đóng góp tích cực vào việc phát triển quan hệ hợp tác toàn diện với Việt Nam.",
+      "Cá nhân nước ngoài này là đối tượng khen thưởng “Huân chương Hữu nghị”."
+    ]
+  },
+  {
+    "instruction": "Cá nhân nước ngoài không thuộc các đối tượng trên đạt tiêu chuẩn quy định tại điểm b khoản 1 Điều 53 của Luật Thi đua, khen thưởng được bộ, ban, ngành, tỉnh công nhận và đề nghị là đối tượng khen thưởng “Huân chương Hữu nghị”.",
+    "response": [
+      "Cá nhân nước ngoài không thuộc các đối tượng trên.",
+      "Cá nhân nước ngoài này đạt tiêu chuẩn quy định tại điểm b khoản 1 Điều 53 của Luật Thi đua, khen thưởng.",
+      "Bộ, ban, ngành, tỉnh công nhận và đề nghị khen thưởng đối với cá nhân nước ngoài này.",
+      "Cá nhân nước ngoài này là đối tượng khen thưởng “Huân chương Hữu nghị”."
+    ]
+  },
+  {
+    "instruction": "Đối với cá nhân thuộc trung ương quản lý, khi đề nghị các hình thức khen thưởng cấp Nhà nước và danh hiệu “Chiến sĩ thi đua toàn quốc”, Ban Tổ chức Trung ương, Ủy ban Kiểm tra Trung ương, Ban của Đảng ở trung ương quản lý về lĩnh vực đó cho ý kiến về các nội dung quản lý cán bộ: Quá trình công tác, chức vụ, thời gian đảm nhận chức vụ, các hình thức khen thưởng và vi phạm kỷ luật (nếu có).",
+    "response": [
+      "Đối với cá nhân thuộc trung ương quản lý, quá trình công tác được xem xét khi đề nghị các hình thức khen thưởng cấp Nhà nước và danh hiệu “Chiến sĩ thi đua toàn quốc”.",
+      "Đối với cá nhân thuộc trung ương quản lý, chức vụ được xem xét khi đề nghị các hình thức khen thưởng cấp Nhà nước và danh hiệu “Chiến sĩ thi đua toàn quốc”.",
+      "Đối với cá nhân thuộc trung ương quản lý, thời gian đảm nhận chức vụ được xem xét khi đề nghị các hình thức khen thưởng cấp Nhà nước và danh hiệu “Chiến sĩ thi đua toàn quốc”.",
+      "Đối với cá nhân thuộc trung ương quản lý, các hình thức khen thưởng đã được nhận được xem xét khi đề nghị các hình thức khen thưởng cấp Nhà nước và danh hiệu “Chiến sĩ thi đua toàn quốc”.",
+      "Đối với cá nhân thuộc trung ương quản lý, vi phạm kỷ luật nếu có được xem xét khi đề nghị các hình thức khen thưởng cấp Nhà nước và danh hiệu “Chiến sĩ thi đua toàn quốc”.",
+      "Ban Tổ chức Trung ương, Ủy ban Kiểm tra Trung ương và Ban của Đảng ở trung ương quản lý về lĩnh vực đó cho ý kiến về các nội dung quản lý cán bộ."
+    ]
+  },
+  {
+    "instruction": "Đối với cá nhân, tập thể được đề nghị khen thưởng danh hiệu “Anh hùng Lực lượng vũ trang nhân dân”, “Anh hùng Lao động”, “Chiến sĩ thi đua toàn quốc”, Chiến sĩ thi đua bộ, ban, ngành, tỉnh, phải có tỷ lệ phiếu đồng ý của Hội đồng Thi đua - Khen thưởng bộ, ban, ngành, tỉnh từ 90% trở lên tính trên tổng số thành viên của Hội đồng; nếu thành viên Hội đồng vắng mặt thì lấy ý kiến bằng văn bản.",
+    "response": [
+      "Cá nhân được đề nghị khen thưởng danh hiệu “Anh hùng Lực lượng vũ trang nhân dân” phải có tỷ lệ phiếu đồng ý từ Hội đồng Thi đua - Khen thưởng bộ, ban, ngành, tỉnh từ 90% trở lên tính trên tổng số thành viên của Hội đồng.",
+      "Cá nhân được đề nghị khen thưởng danh hiệu “Anh hùng Lao động” phải có tỷ lệ phiếu đồng ý từ Hội đồng Thi đua - Khen thưởng bộ, ban, ngành, tỉnh từ 90% trở lên tính trên tổng số thành viên của Hội đồng.",
+      "Cá nhân được đề nghị khen thưởng danh hiệu “Chiến sĩ thi đua toàn quốc” phải có tỷ lệ phiếu đồng ý từ Hội đồng Thi đua - Khen thưởng bộ, ban, ngành, tỉnh từ 90% trở lên tính trên tổng số thành viên của Hội đồng.",
+      "Cá nhân được đề nghị khen thưởng danh hiệu “Chiến sĩ thi đua” bộ, ban, ngành, tỉnh phải có tỷ lệ phiếu đồng ý từ Hội đồng Thi đua - Khen thưởng bộ, ban, ngành, tỉnh từ 90% trở lên tính trên tổng số thành viên của Hội đồng.",
+      "Nếu thành viên Hội đồng Thi đua - Khen thưởng bộ, ban, ngành, tỉnh vắng mặt thì lấy ý kiến bằng văn bản."
+    ]
+  },
+  {
+    "instruction": "Báo cáo thành tích của cá nhân, tập thể, hộ gia đình được đề nghị khen thưởng phải phù hợp với hình thức khen thưởng theo quy định.",
+    "response": [
+      "Báo cáo thành tích của cá nhân được đề nghị khen thưởng phải phù hợp với hình thức khen thưởng theo quy định.",
+      "Báo cáo thành tích của tập thể được đề nghị khen thưởng phải phù hợp với hình thức khen thưởng theo quy định.",
+      "Báo cáo thành tích của hộ gia đình được đề nghị khen thưởng phải phù hợp với hình thức khen thưởng theo quy định."
+    ]
+  },
+  {
+    "instruction": "Trong báo cáo phải ghi cụ thể số quyết định, ngày, tháng, năm hoặc văn bản xác nhận hoàn thành xuất sắc nhiệm vụ hoặc hoàn thành tốt nhiệm vụ của cấp có thẩm quyền trong thời gian tính thành tích khen thưởng của cá nhân, tập thể đề nghị khen thưởng đối với các trường hợp đề nghị khen thưởng theo tiêu chuẩn hoàn thành xuất sắc nhiệm vụ, hoàn thành tốt nhiệm vụ.",
+    "response": [
+      "Báo cáo thành tích của cá nhân đề nghị khen thưởng phải ghi cụ thể số quyết định, ngày, tháng, năm trong thời gian tính thành tích khen thưởng.",
+      "Báo cáo thành tích của tập thể đề nghị khen thưởng phải ghi cụ thể số quyết định, ngày, tháng, năm trong thời gian tính thành tích khen thưởng.",
+      "Báo cáo thành tích phải ghi văn bản xác nhận hoàn thành xuất sắc nhiệm vụ của cấp có thẩm quyền đối với trường hợp đề nghị khen thưởng theo tiêu chuẩn hoàn thành xuất sắc nhiệm vụ.",
+      "Báo cáo thành tích phải ghi văn bản xác nhận hoàn thành tốt nhiệm vụ của cấp có thẩm quyền đối với trường hợp đề nghị khen thưởng theo tiêu chuẩn hoàn thành tốt nhiệm vụ."
+    ]
+  },
+  {
+    "instruction": "Báo cáo thành tích đề nghị khen thưởng của cá nhân, tập thể, hộ gia đình ngoài việc thể hiện thành tích đáp ứng theo tiêu chuẩn quy định còn phải thể hiện chấp hành tốt chủ trương của Đảng, chính sách, pháp luật của Nhà nước theo mẫu tại Phụ lục I kèm theo Nghị định này.",
+    "response": [
+      "Báo cáo thành tích đề nghị khen thưởng của cá nhân phải thể hiện thành tích đáp ứng theo tiêu chuẩn quy định.",
+      "Báo cáo thành tích đề nghị khen thưởng của cá nhân phải thể hiện việc chấp hành tốt chủ trương của Đảng.",
+      "Báo cáo thành tích đề nghị khen thưởng của cá nhân phải thể hiện việc chấp hành tốt chính sách, pháp luật của Nhà nước.",
+      "Báo cáo thành tích đề nghị khen thưởng của tập thể phải thể hiện thành tích đáp ứng theo tiêu chuẩn quy định.",
+      "Báo cáo thành tích đề nghị khen thưởng của tập thể phải thể hiện việc chấp hành tốt chủ trương của Đảng.",
+      "Báo cáo thành tích đề nghị khen thưởng của tập thể phải thể hiện việc chấp hành tốt chính sách, pháp luật của Nhà nước.",
+      "Báo cáo thành tích đề nghị khen thưởng của hộ gia đình phải thể hiện thành tích đáp ứng theo tiêu chuẩn quy định.",
+      "Báo cáo thành tích đề nghị khen thưởng của hộ gia đình phải thể hiện việc chấp hành tốt chủ trương của Đảng.",
+      "Báo cáo thành tích đề nghị khen thưởng của hộ gia đình phải thể hiện việc chấp hành tốt chính sách, pháp luật của Nhà nước."
+    ]
+  },
+  {
+    "instruction": "Đối với cá nhân, tập thể thuộc doanh nghiệp hoặc tổ chức kinh tế khác không thuộc quyền quản lý nhưng có thành tích đóng góp cho địa phương ngoài nơi doanh nghiệp đặt trụ sở chính, việc khen thưởng và trình cấp trên khen thưởng được thực hiện sau khi lấy ý kiến thống nhất của Ủy ban nhân dân cấp tỉnh nơi doanh nghiệp đặt trụ sở chính và bộ, ngành quản lý về ngành, lĩnh vực của doanh nghiệp, tổ chức kinh tế khác đó.",
+    "response": [
+      "Doanh nghiệp hoặc tổ chức kinh tế khác không thuộc quyền quản lý có thể được xem xét khen thưởng khi có thành tích đóng góp cho địa phương ngoài nơi doanh nghiệp đặt trụ sở chính.",
+      "Tập thể thuộc doanh nghiệp hoặc tổ chức kinh tế khác không thuộc quyền quản lý có thể được xem xét khen thưởng khi có thành tích đóng góp cho địa phương ngoài nơi doanh nghiệp đặt trụ sở chính.",
+      "Cá nhân thuộc doanh nghiệp hoặc tổ chức kinh tế khác không thuộc quyền quản lý có thể được xem xét khen thưởng khi có thành tích đóng góp cho địa phương ngoài nơi doanh nghiệp đặt trụ sở chính.",
+      "Việc khen thưởng các đối tượng nêu trên được thực hiện sau khi lấy ý kiến thống nhất của Ủy ban nhân dân cấp tỉnh nơi doanh nghiệp đặt trụ sở chính.",
+      "Việc khen thưởng các đối tượng nêu trên được thực hiện sau khi lấy ý kiến thống nhất của bộ, ngành quản lý về ngành, lĩnh vực của doanh nghiệp hoặc tổ chức kinh tế khác đó."
+    ]
+  },
+  {
+    "instruction": "Đối với doanh nghiệp, tập thể, cá nhân thuộc doanh nghiệp FDI, doanh nghiệp, tập thể, cá nhân thuộc doanh nghiệp hoạt động tại địa phương nơi đặt trụ sở giao dịch do người đứng đầu doanh nghiệp khen thưởng hoặc đề nghị Chủ tịch Ủy ban nhân dân cấp xã, cấp huyện hoặc Chủ tịch Ủy ban nhân dân cấp tỉnh nơi đặt trụ sở giao dịch khen thưởng hoặc đề nghị cấp trên khen thưởng.",
+    "response": [
+      "Người đứng đầu doanh nghiệp khen thưởng doanh nghiệp thuộc doanh nghiệp FDI theo thẩm quyền.",
+      "Người đứng đầu doanh nghiệp khen thưởng tập thể thuộc doanh nghiệp FDI theo thẩm quyền.",
+      "Người đứng đầu doanh nghiệp khen thưởng cá nhân thuộc doanh nghiệp FDI theo thẩm quyền.",
+      "Người đứng đầu doanh nghiệp có thể đề nghị Chủ tịch Ủy ban nhân dân cấp xã khen thưởng doanh nghiệp, tập thể, cá nhân thuộc doanh nghiệp hoạt động tại địa phương nơi đặt trụ sở giao dịch.",
+      "Người đứng đầu doanh nghiệp có thể đề nghị Chủ tịch Ủy ban nhân dân cấp huyện khen thưởng doanh nghiệp, tập thể, cá nhân thuộc doanh nghiệp hoạt động tại địa phương nơi đặt trụ sở giao dịch.",
+      "Người đứng đầu doanh nghiệp có thể đề nghị Chủ tịch Ủy ban nhân dân cấp tỉnh nơi đặt trụ sở giao dịch khen thưởng doanh nghiệp, tập thể, cá nhân thuộc doanh nghiệp hoạt động tại địa phương.",
+      "Người đứng đầu doanh nghiệp có thể đề nghị cấp trên khen thưởng doanh nghiệp, tập thể, cá nhân thuộc doanh nghiệp."
+    ]
+  },
+  {
+    "instruction": "Đối với cá nhân, tập thể có thành tích tiêu biểu xuất sắc trong lao động, sản xuất, công tác; cán bộ năng động, sáng tạo, dám nghĩ, dám làm, dám đột phá vì lợi ích chung do người đứng đầu cơ quan, tổ chức, đơn vị phát hiện để khen thưởng theo thẩm quyền hoặc đề nghị cấp trên khen thưởng.",
+    "response": [
+      "Cá nhân có thành tích tiêu biểu xuất sắc trong lao động, sản xuất, công tác.",
+      "Tập thể có thành tích tiêu biểu xuất sắc trong lao động, sản xuất, công tác.",
+      "Cán bộ năng động, sáng tạo, dám nghĩ, dám làm, dám đột phá vì lợi ích chung.",
+      "Người đứng đầu cơ quan, tổ chức, đơn vị phát hiện cá nhân có thành tích tiêu biểu xuất sắc để khen thưởng theo thẩm quyền.",
+      "Người đứng đầu cơ quan, tổ chức, đơn vị phát hiện tập thể có thành tích tiêu biểu xuất sắc để khen thưởng theo thẩm quyền.",
+      "Người đứng đầu cơ quan, tổ chức, đơn vị phát hiện cán bộ năng động, sáng tạo, dám nghĩ, dám làm, dám đột phá vì lợi ích chung để khen thưởng theo thẩm quyền hoặc đề nghị cấp trên khen thưởng."
+    ]
+  },
+  {
+    "instruction": "Khen thưởng đối với cơ quan, tổ chức, đơn vị và người đứng đầu cơ quan, tổ chức, đơn vị trung ương có tư cách pháp nhân thuộc cấp quản lý trực tiếp của bộ, ban, ngành, đoàn thể trung ương đóng trên địa bàn địa phương phải lấy ý kiến của Ủy ban nhân dân cấp tỉnh về việc chấp hành chủ trương của Đảng, chính sách, pháp luật của Nhà nước và kết quả hoạt động của tổ chức đảng, đoàn thể nếu tổ chức đảng, đoàn thể sinh hoạt tại địa phương.",
+    "response": [
+      "Cơ quan, tổ chức, đơn vị trung ương đóng trên địa bàn địa phương phải được xem xét việc chấp hành chủ trương của Đảng khi đề nghị khen thưởng.",
+      "Cơ quan, tổ chức, đơn vị trung ương đóng trên địa bàn địa phương phải được xem xét việc chấp hành chính sách, pháp luật của Nhà nước khi đề nghị khen thưởng.",
+      "Kết quả hoạt động của tổ chức đảng, đoàn thể được xem xét khi tổ chức đảng, đoàn thể sinh hoạt tại địa phương.",
+      "Ủy ban nhân dân cấp tỉnh cho ý kiến về các nội dung nêu trên khi cơ quan, tổ chức, đơn vị thuộc trường hợp này được đề nghị khen thưởng."
+    ]
+  },
+  {
+    "instruction": "Khen thưởng đối với cơ quan, tổ chức trực thuộc Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương và cá nhân là cấp trưởng của đơn vị cùng cấp phải lấy ý kiến của bộ, ban, ngành, đoàn thể trung ương có chức năng quản lý ngành, lĩnh vực về kết quả tham mưu thực hiện nhiệm vụ chính trị được giao đối với tập thể và kết quả lãnh đạo, chỉ đạo cơ quan, đơn vị thực hiện nhiệm vụ chính trị được giao đối với cá nhân trong thời gian tính thành tích đề nghị khen thưởng.",
+    "response": [
+      "Cơ quan, tổ chức trực thuộc Ủy ban nhân dân tỉnh, thành phố trực thuộc trung ương được xem xét kết quả tham mưu thực hiện nhiệm vụ chính trị được giao.",
+      "Cá nhân là cấp trưởng của đơn vị cùng cấp được xem xét kết quả lãnh đạo, chỉ đạo cơ quan, đơn vị thực hiện nhiệm vụ chính trị được giao.",
+      "Kết quả tham mưu thực hiện nhiệm vụ chính trị được giao đối với tập thể được xem xét trong thời gian tính thành tích đề nghị khen thưởng.",
+      "Kết quả lãnh đạo, chỉ đạo cơ quan, đơn vị thực hiện nhiệm vụ chính trị được giao đối với cá nhân được xem xét trong thời gian tính thành tích đề nghị khen thưởng.",
+      "Bộ, ban, ngành, đoàn thể trung ương có chức năng quản lý ngành, lĩnh vực cho ý kiến về các nội dung nêu trên."
+    ]
+  },
+  {
+    "instruction": "Bộ Nội vụ thực hiện việc xin ý kiến của Ủy ban Kiểm tra Trung ương và Thanh tra Chính phủ để khen thưởng đối với tập thể là bộ, ban, ngành, tỉnh; xin ý kiến Bộ Công an, Thanh tra Chính phủ về chấp hành chủ trương của Đảng, chính sách pháp luật của Nhà nước để khen thưởng đối với tổ chức kinh tế, cá nhân là người đại diện pháp luật của tổ chức kinh tế.",
+    "response": [
+      "Bộ Nội vụ xin ý kiến của Ủy ban Kiểm tra Trung ương và Thanh tra Chính phủ để khen thưởng đối với tập thể là bộ, ban, ngành, tỉnh.",
+      "Bộ Nội vụ xin ý kiến Bộ Công an và Thanh tra Chính phủ về việc chấp hành chủ trương của Đảng để khen thưởng đối với tổ chức kinh tế.",
+      "Bộ Nội vụ xin ý kiến Bộ Công an và Thanh tra Chính phủ về việc chấp hành chính sách, pháp luật của Nhà nước để khen thưởng đối với tổ chức kinh tế.",
+      "Bộ Nội vụ xin ý kiến Bộ Công an và Thanh tra Chính phủ về việc chấp hành chủ trương của Đảng để khen thưởng đối với cá nhân là người đại diện pháp luật của tổ chức kinh tế.",
+      "Bộ Nội vụ xin ý kiến Bộ Công an và Thanh tra Chính phủ về việc chấp hành chính sách, pháp luật của Nhà nước để khen thưởng đối với cá nhân là người đại diện pháp luật của tổ chức kinh tế."
+    ]
+  },
+
+  {
+    "instruction": "Trường hợp cá nhân, tập thể được đề nghị khen thưởng Bằng khen của bộ, ban, ngành, tỉnh do lập được thành tích đột xuất hoặc xuất sắc đột xuất, có phạm vi ảnh hưởng trong lĩnh vực thuộc phạm vi quản lý của bộ, ban, ngành, tỉnh hoặc có đóng góp vào sự phát triển kinh tế - xã hội của đất nước, ứng dụng tiến bộ khoa học, kỹ thuật, công tác xã hội, từ thiện, nhân đạo thì phải có chứng nhận hoặc xác nhận của cơ quan, tổ chức có thẩm quyền về thành tích đề nghị khen thưởng.",
+    "response": [
+      "Cá nhân được đề nghị khen thưởng Bằng khen của bộ, ban, ngành, tỉnh do lập được thành tích đột xuất hoặc xuất sắc đột xuất.",
+      "Tập thể được đề nghị khen thưởng Bằng khen của bộ, ban, ngành, tỉnh do lập được thành tích đột xuất hoặc xuất sắc đột xuất.",
+      "Thành tích đột xuất hoặc xuất sắc đột xuất có phạm vi ảnh hưởng trong lĩnh vực thuộc phạm vi quản lý của bộ, ban, ngành, tỉnh.",
+      "Cá nhân, tập thể có đóng góp vào sự phát triển kinh tế - xã hội của đất nước.",
+      "Cá nhân, tập thể có thành tích ứng dụng tiến bộ khoa học, kỹ thuật.",
+      "Cá nhân, tập thể có thành tích trong công tác xã hội, từ thiện, nhân đạo.",
+      "Cá nhân, tập thể thuộc các trường hợp nêu trên phải có chứng nhận hoặc xác nhận của cơ quan, tổ chức có thẩm quyền về thành tích đề nghị khen thưởng."
+    ]
+  },
+  {
+    "instruction": "Việc công nhận mức độ hoàn thành nhiệm vụ đối với cá nhân thực hiện theo quy định của Luật Cán bộ, công chức, Luật Viên chức và các quy định có liên quan.",
+    "response": [
+      "Việc công nhận mức độ hoàn thành nhiệm vụ đối với cá nhân được thực hiện theo quy định của Luật Cán bộ, công chức.",
+      "Việc công nhận mức độ hoàn thành nhiệm vụ đối với cá nhân được thực hiện theo quy định của Luật Viên chức.",
+      "Việc công nhận mức độ hoàn thành nhiệm vụ đối với cá nhân được thực hiện theo các quy định có liên quan."
+    ]
+  },
+  {
+    "instruction": "Việc công nhận mức độ hoàn thành xuất sắc nhiệm vụ đối với tập thể được thực hiện theo quy định của Đảng về kiểm điểm và đánh giá xếp loại chất lượng hàng năm đối với tập thể, cá nhân trong hệ thống chính trị và quy định của bộ, ban, ngành, tỉnh.",
+    "response": [
+      "Việc công nhận mức độ hoàn thành xuất sắc nhiệm vụ đối với tập thể được thực hiện theo quy định của Đảng về kiểm điểm và đánh giá xếp loại chất lượng hàng năm.",
+      "Việc công nhận mức độ hoàn thành xuất sắc nhiệm vụ đối với tập thể được thực hiện theo quy định của bộ, ban, ngành, tỉnh."
+    ]
+  },
+  {
+    "instruction": "Bộ Nội vụ lấy ý kiến Nhân dân trên Cổng Thông tin điện tử của Ban Thi đua - Khen thưởng Trung ương, Cổng Thông tin điện tử của Bộ Nội vụ đối với danh hiệu “Chiến sĩ thi đua toàn quốc”; lấy ý kiến Nhân dân trên Cổng Thông tin điện tử của Ban Thi đua - Khen thưởng Trung ương, Cổng Thông tin điện tử của Bộ Nội vụ, Cổng Thông tin điện tử của Chính phủ, Báo Nhân Dân, Báo Lao động đối với danh hiệu “Anh hùng Lực lượng vũ trang nhân dân”, “Anh hùng Lao động” trong thời hạn 10 ngày làm việc, trừ trường hợp khen thưởng thành tích đặc biệt xuất sắc đột xuất.",
+    "response": [
+      "Bộ Nội vụ lấy ý kiến Nhân dân đối với danh hiệu “Chiến sĩ thi đua toàn quốc” trên Cổng Thông tin điện tử của Ban Thi đua - Khen thưởng Trung ương.",
+      "Bộ Nội vụ lấy ý kiến Nhân dân đối với danh hiệu “Chiến sĩ thi đua toàn quốc” trên Cổng Thông tin điện tử của Bộ Nội vụ.",
+      "Bộ Nội vụ lấy ý kiến Nhân dân đối với danh hiệu “Anh hùng Lực lượng vũ trang nhân dân” trên Cổng Thông tin điện tử của Ban Thi đua - Khen thưởng Trung ương, Cổng Thông tin điện tử của Bộ Nội vụ, Cổng Thông tin điện tử của Chính phủ, Báo Nhân Dân và Báo Lao động.",
+      "Bộ Nội vụ lấy ý kiến Nhân dân đối với danh hiệu “Anh hùng Lao động” trên Cổng Thông tin điện tử của Ban Thi đua - Khen thưởng Trung ương, Cổng Thông tin điện tử của Bộ Nội vụ, Cổng Thông tin điện tử của Chính phủ, Báo Nhân Dân và Báo Lao động.",
+      "Việc lấy ý kiến Nhân dân đối với danh hiệu “Anh hùng Lực lượng vũ trang nhân dân” và “Anh hùng Lao động” được thực hiện trong thời hạn 10 ngày làm việc.",
+      "Trường hợp khen thưởng thành tích đặc biệt xuất sắc đột xuất được loại trừ khỏi thời hạn lấy ý kiến nêu trên."
+    ]
+  },
+  {
+    "instruction": "Người có thẩm quyền đề nghị xét tặng hình thức khen thưởng huân chương và danh hiệu vinh dự nhà nước quy định tại khoản 5 Điều 84 của Luật Thi đua, khen thưởng có trách nhiệm công khai danh sách cá nhân, tập thể trên các phương tiện truyền thông thuộc bộ, ban, ngành, tỉnh ít nhất 10 ngày làm việc trước khi họp Hội đồng Thi đua - Khen thưởng bộ, ban, ngành, tỉnh, trừ trường hợp đề nghị khen thưởng theo thủ tục đơn giản.",
+    "response": [
+      "Người có thẩm quyền đề nghị xét tặng hình thức khen thưởng huân chương và danh hiệu vinh dự nhà nước có trách nhiệm công khai danh sách cá nhân trên các phương tiện truyền thông thuộc bộ, ban, ngành, tỉnh.",
+      "Người có thẩm quyền đề nghị xét tặng hình thức khen thưởng huân chương và danh hiệu vinh dự nhà nước có trách nhiệm công khai danh sách tập thể trên các phương tiện truyền thông thuộc bộ, ban, ngành, tỉnh.",
+      "Danh sách cá nhân, tập thể được công khai ít nhất 10 ngày làm việc trước khi họp Hội đồng Thi đua - Khen thưởng bộ, ban, ngành, tỉnh.",
+      "Trường hợp đề nghị khen thưởng theo thủ tục đơn giản được loại trừ khỏi yêu cầu công khai danh sách này."
+    ]
+  },
+  {
+    "instruction": "Việc lấy ý kiến của Nhân dân trên phương tiện thông tin truyền thông và kết quả xử lý thông tin, kể cả đơn thư khiếu nại, tố cáo nếu có, phải báo cáo bằng văn bản với Hội đồng Thi đua - Khen thưởng cấp bộ, ban, ngành, tỉnh trước khi trình cấp trên khen thưởng và được nêu trong Biên bản xét khen thưởng của bộ, ban, ngành, tỉnh.",
+    "response": [
+      "Việc lấy ý kiến của Nhân dân trên phương tiện thông tin truyền thông phải được báo cáo bằng văn bản với Hội đồng Thi đua - Khen thưởng cấp bộ, ban, ngành, tỉnh.",
+      "Kết quả xử lý thông tin lấy ý kiến của Nhân dân phải được báo cáo bằng văn bản với Hội đồng Thi đua - Khen thưởng cấp bộ, ban, ngành, tỉnh.",
+      "Kết quả xử lý đơn thư khiếu nại, tố cáo nếu có phải được báo cáo bằng văn bản với Hội đồng Thi đua - Khen thưởng cấp bộ, ban, ngành, tỉnh.",
+      "Các nội dung nêu trên phải được báo cáo trước khi trình cấp trên khen thưởng.",
+      "Các nội dung nêu trên phải được nêu trong Biên bản xét khen thưởng của bộ, ban, ngành, tỉnh."
+    ]
+  },
+  {
+    "instruction": "Hội đồng Thi đua - Khen thưởng Trung ương là cơ quan tham mưu, tư vấn cho Đảng và Nhà nước về công tác thi đua, khen thưởng, có nhiệm vụ, quyền hạn theo quy định tại khoản 3 Điều 90 của Luật Thi đua, khen thưởng.",
+    "response": [
+      "Hội đồng Thi đua - Khen thưởng Trung ương là cơ quan tham mưu cho Đảng và Nhà nước về công tác thi đua, khen thưởng.",
+      "Hội đồng Thi đua - Khen thưởng Trung ương là cơ quan tư vấn cho Đảng và Nhà nước về công tác thi đua, khen thưởng.",
+      "Hội đồng Thi đua - Khen thưởng Trung ương có nhiệm vụ, quyền hạn theo quy định tại khoản 3 Điều 90 của Luật Thi đua, khen thưởng."
+    ]
+  },
+  {
+    "instruction": "Hội đồng hoạt động theo nguyên tắc tập trung, dân chủ, biểu quyết theo đa số; các ý kiến khác nhau của các Ủy viên Hội đồng về việc đề xuất các chủ trương, chính sách về thi đua, khen thưởng đều được báo cáo với Thủ tướng Chính phủ, Chủ tịch Hội đồng để xem xét, quyết định.",
+    "response": [
+      "Hội đồng hoạt động theo nguyên tắc tập trung.",
+      "Hội đồng hoạt động theo nguyên tắc dân chủ.",
+      "Hội đồng biểu quyết theo đa số.",
+      "Các ý kiến khác nhau của các Ủy viên Hội đồng về việc đề xuất các chủ trương, chính sách về thi đua, khen thưởng được báo cáo với Thủ tướng Chính phủ.",
+      "Các ý kiến khác nhau của các Ủy viên Hội đồng về việc đề xuất các chủ trương, chính sách về thi đua, khen thưởng được báo cáo với Chủ tịch Hội đồng."
+    ]
+  },
+  {
+    "instruction": "Hội đồng họp định kỳ 06 tháng một lần để đánh giá công tác của Hội đồng, tổng hợp tình hình phong trào thi đua và công tác khen thưởng của cả nước, triển khai nhiệm vụ 06 tháng tiếp theo và cho ý kiến giải quyết những vấn đề cần thiết khác. Hội đồng có thể họp bất thường do Chủ tịch Hội đồng triệu tập. Chủ tịch Hội đồng chủ trì hoặc ủy quyền cho Phó Chủ tịch thứ nhất Hội đồng chủ trì phiên họp. Hội đồng họp khi có ít nhất 2/3 tổng số Ủy viên tham dự.",
+    "response": [
+      "Hội đồng họp định kỳ 06 tháng một lần để đánh giá công tác của Hội đồng.",
+      "Hội đồng họp định kỳ 06 tháng một lần để tổng hợp tình hình phong trào thi đua và công tác khen thưởng của cả nước.",
+      "Hội đồng họp định kỳ 06 tháng một lần để triển khai nhiệm vụ 06 tháng tiếp theo.",
+      "Hội đồng họp định kỳ 06 tháng một lần để cho ý kiến giải quyết những vấn đề cần thiết khác.",
+      "Hội đồng có thể họp bất thường do Chủ tịch Hội đồng triệu tập.",
+      "Chủ tịch Hội đồng chủ trì phiên họp.",
+      "Chủ tịch Hội đồng có thể ủy quyền cho Phó Chủ tịch thứ nhất Hội đồng chủ trì phiên họp.",
+      "Hội đồng họp khi có ít nhất 2/3 tổng số Ủy viên tham dự."
+    ]
+  },
+  {
+    "instruction": "Đối với phiên họp có nội dung xem xét đề nghị tặng, truy tặng danh hiệu Anh hùng phải có ít nhất 90% tổng số Ủy viên Hội đồng tham dự. Các trường hợp được đề nghị tặng danh hiệu Anh hùng phải đạt từ 90% trở lên số phiếu đồng ý của các Ủy viên Hội đồng, nếu Ủy viên Hội đồng vắng mặt thì lấy ý kiến bằng văn bản.",
+    "response": [
+      "Phiên họp có nội dung xem xét đề nghị tặng danh hiệu Anh hùng phải có ít nhất 90% tổng số Ủy viên Hội đồng tham dự.",
+      "Phiên họp có nội dung xem xét đề nghị truy tặng danh hiệu Anh hùng phải có ít nhất 90% tổng số Ủy viên Hội đồng tham dự.",
+      "Trường hợp được đề nghị tặng danh hiệu Anh hùng phải đạt từ 90% trở lên số phiếu đồng ý của các Ủy viên Hội đồng.",
+      "Nếu Ủy viên Hội đồng vắng mặt thì lấy ý kiến bằng văn bản."
+    ]
+  },
+  {
+    "instruction": "Phó Chủ tịch thứ nhất và Phó Chủ tịch thường trực Hội đồng thường xuyên xem xét, kiểm tra tiến độ việc thực hiện các nhiệm vụ của Hội đồng; Thường trực Hội đồng có trách nhiệm tham mưu, cho ý kiến về việc tặng danh hiệu “Chiến sĩ thi đua toàn quốc” theo đề nghị của cơ quan thường trực giúp việc Hội đồng. Các trường hợp được đề nghị tặng danh hiệu “Chiến sĩ thi đua toàn quốc” phải đạt từ 90% trở lên số phiếu đồng ý của các thành viên Thường trực Hội đồng, nếu thành viên Thường trực Hội đồng vắng mặt thì lấy ý kiến bằng văn bản.",
+    "response": [
+      "Phó Chủ tịch thứ nhất Hội đồng thường xuyên xem xét tiến độ thực hiện các nhiệm vụ của Hội đồng.",
+      "Phó Chủ tịch thứ nhất Hội đồng thường xuyên kiểm tra tiến độ thực hiện các nhiệm vụ của Hội đồng.",
+      "Phó Chủ tịch thường trực Hội đồng thường xuyên xem xét tiến độ thực hiện các nhiệm vụ của Hội đồng.",
+      "Phó Chủ tịch thường trực Hội đồng thường xuyên kiểm tra tiến độ thực hiện các nhiệm vụ của Hội đồng.",
+      "Thường trực Hội đồng có trách nhiệm tham mưu về việc tặng danh hiệu “Chiến sĩ thi đua toàn quốc” theo đề nghị của cơ quan thường trực giúp việc Hội đồng.",
+      "Thường trực Hội đồng có trách nhiệm cho ý kiến về việc tặng danh hiệu “Chiến sĩ thi đua toàn quốc” theo đề nghị của cơ quan thường trực giúp việc Hội đồng.",
+      "Các trường hợp được đề nghị tặng danh hiệu “Chiến sĩ thi đua toàn quốc” phải đạt từ 90% trở lên số phiếu đồng ý của các thành viên Thường trực Hội đồng.",
+      "Nếu thành viên Thường trực Hội đồng vắng mặt thì lấy ý kiến bằng văn bản."
+    ]
+  },
+  {
+    "instruction": "Hội đồng theo dõi, đôn đốc, giám sát việc thực hiện công tác thi đua, khen thưởng và các phong trào thi đua ở các bộ, ban, ngành, tỉnh.",
+    "response": [
+      "Hội đồng theo dõi việc thực hiện công tác thi đua, khen thưởng ở các bộ, ban, ngành, tỉnh.",
+      "Hội đồng đôn đốc việc thực hiện công tác thi đua, khen thưởng ở các bộ, ban, ngành, tỉnh.",
+      "Hội đồng giám sát việc thực hiện công tác thi đua, khen thưởng ở các bộ, ban, ngành, tỉnh.",
+      "Hội đồng theo dõi các phong trào thi đua ở các bộ, ban, ngành, tỉnh.",
+      "Hội đồng đôn đốc các phong trào thi đua ở các bộ, ban, ngành, tỉnh.",
+      "Hội đồng giám sát các phong trào thi đua ở các bộ, ban, ngành, tỉnh."
+    ]
+  },
+  {
+    "instruction": "Quan hệ làm việc giữa Hội đồng Thi đua - Khen thưởng Trung ương với Hội đồng Thi đua - Khen thưởng các bộ, ban, ngành, tỉnh là quan hệ chỉ đạo, phối hợp. Căn cứ chức năng, nhiệm vụ của Hội đồng Thi đua - Khen thưởng Trung ương, Hội đồng Thi đua - Khen thưởng các cấp, các ngành có trách nhiệm phối hợp thực hiện.",
+    "response": [
+      "Quan hệ làm việc giữa Hội đồng Thi đua - Khen thưởng Trung ương với Hội đồng Thi đua - Khen thưởng các bộ, ban, ngành, tỉnh là quan hệ chỉ đạo.",
+      "Quan hệ làm việc giữa Hội đồng Thi đua - Khen thưởng Trung ương với Hội đồng Thi đua - Khen thưởng các bộ, ban, ngành, tỉnh là quan hệ phối hợp.",
+      "Hội đồng Thi đua - Khen thưởng các cấp có trách nhiệm phối hợp thực hiện theo chức năng, nhiệm vụ của Hội đồng Thi đua - Khen thưởng Trung ương.",
+      "Hội đồng Thi đua - Khen thưởng các ngành có trách nhiệm phối hợp thực hiện theo chức năng, nhiệm vụ của Hội đồng Thi đua - Khen thưởng Trung ương."
+    ]
+  },
+  {
+    "instruction": "Hội đồng Thi đua - Khen thưởng cấp bộ là cơ quan do người đứng đầu bộ, ban, ngành, đoàn thể trung ương thành lập, có trách nhiệm tham mưu, tư vấn cho Bộ trưởng, Thủ trưởng cơ quan ngang bộ, cơ quan thuộc Chính phủ, người đứng đầu ban, ngành, đoàn thể trung ương về công tác thi đua, khen thưởng.",
+    "response": [
+      "Người đứng đầu bộ, ban, ngành, đoàn thể trung ương thành lập Hội đồng Thi đua - Khen thưởng cấp bộ.",
+      "Hội đồng Thi đua - Khen thưởng cấp bộ có trách nhiệm tham mưu cho Bộ trưởng, Thủ trưởng cơ quan ngang bộ, cơ quan thuộc Chính phủ và người đứng đầu ban, ngành, đoàn thể trung ương về công tác thi đua, khen thưởng.",
+      "Hội đồng Thi đua - Khen thưởng cấp bộ có trách nhiệm tư vấn cho Bộ trưởng, Thủ trưởng cơ quan ngang bộ, cơ quan thuộc Chính phủ và người đứng đầu ban, ngành, đoàn thể trung ương về công tác thi đua, khen thưởng."
+    ]
+  },
+  {
+    "instruction": "Hội đồng Thi đua - Khen thưởng cấp bộ tham mưu cho Bộ trưởng, Thủ trưởng cơ quan ngang bộ, cơ quan thuộc Chính phủ, người đứng đầu ban, ngành, đoàn thể trung ương phát động các phong trào thi đua theo thẩm quyền.",
+    "response": [
+      "Hội đồng Thi đua - Khen thưởng cấp bộ tham mưu cho Bộ trưởng phát động các phong trào thi đua theo thẩm quyền.",
+      "Hội đồng Thi đua - Khen thưởng cấp bộ tham mưu cho Thủ trưởng cơ quan ngang bộ, cơ quan thuộc Chính phủ phát động các phong trào thi đua theo thẩm quyền.",
+      "Hội đồng Thi đua - Khen thưởng cấp bộ tham mưu cho người đứng đầu ban, ngành, đoàn thể trung ương phát động các phong trào thi đua theo thẩm quyền."
+    ]
+  },
+  {
+    "instruction": "Hội đồng Thi đua - Khen thưởng cấp bộ định kỳ đánh giá kết quả phong trào thi đua và công tác khen thưởng; tham mưu việc sơ kết, tổng kết công tác thi đua, khen thưởng; kiến nghị, đề xuất các chủ trương, biện pháp đẩy mạnh phong trào thi đua yêu nước trong từng năm và từng giai đoạn; tổ chức thi đua theo quy định của pháp luật về thi đua, khen thưởng.",
+    "response": [
+      "Hội đồng Thi đua - Khen thưởng cấp bộ định kỳ đánh giá kết quả phong trào thi đua.",
+      "Hội đồng Thi đua - Khen thưởng cấp bộ định kỳ đánh giá công tác khen thưởng.",
+      "Hội đồng Thi đua - Khen thưởng cấp bộ tham mưu việc sơ kết công tác thi đua, khen thưởng.",
+      "Hội đồng Thi đua - Khen thưởng cấp bộ tham mưu việc tổng kết công tác thi đua, khen thưởng.",
+      "Hội đồng Thi đua - Khen thưởng cấp bộ kiến nghị các chủ trương, biện pháp đẩy mạnh phong trào thi đua yêu nước trong từng năm và từng giai đoạn.",
+      "Hội đồng Thi đua - Khen thưởng cấp bộ đề xuất các chủ trương, biện pháp đẩy mạnh phong trào thi đua yêu nước trong từng năm và từng giai đoạn.",
+      "Hội đồng Thi đua - Khen thưởng cấp bộ tổ chức thi đua theo quy định của pháp luật về thi đua, khen thưởng."
+    ]
+  },
+  {
+    "instruction": "Hội đồng Thi đua - Khen thưởng cấp bộ tham mưu cho Bộ trưởng, Thủ trưởng cơ quan ngang bộ, cơ quan thuộc Chính phủ, người đứng đầu ban, ngành, đoàn thể trung ương kiểm tra các phong trào thi đua và thực hiện các chủ trương, chính sách pháp luật về thi đua, khen thưởng.",
+    "response": [
+      "Hội đồng Thi đua - Khen thưởng cấp bộ tham mưu cho Bộ trưởng kiểm tra các phong trào thi đua.",
+      "Hội đồng Thi đua - Khen thưởng cấp bộ tham mưu cho Thủ trưởng cơ quan ngang bộ, cơ quan thuộc Chính phủ kiểm tra các phong trào thi đua.",
+      "Hội đồng Thi đua - Khen thưởng cấp bộ tham mưu cho người đứng đầu ban, ngành, đoàn thể trung ương kiểm tra các phong trào thi đua.",
+      "Hội đồng Thi đua - Khen thưởng cấp bộ tham mưu cho các chủ thể có thẩm quyền thực hiện các chủ trương, chính sách, pháp luật về thi đua, khen thưởng."
+    ]
+  },
+  {
+    "instruction": "Hội đồng Thi đua - Khen thưởng cấp bộ tham mưu, tư vấn cho Bộ trưởng, Thủ trưởng cơ quan ngang bộ, cơ quan thuộc Chính phủ, người đứng đầu ban, ngành, đoàn thể trung ương quyết định khen thưởng danh hiệu thi đua và hình thức khen thưởng thuộc thẩm quyền hoặc trình cấp có thẩm quyền khen thưởng.",
+    "response": [
+      "Hội đồng Thi đua - Khen thưởng cấp bộ tham mưu cho Bộ trưởng, Thủ trưởng cơ quan ngang bộ, cơ quan thuộc Chính phủ và người đứng đầu ban, ngành, đoàn thể trung ương quyết định khen thưởng danh hiệu thi đua thuộc thẩm quyền.",
+      "Hội đồng Thi đua - Khen thưởng cấp bộ tư vấn cho Bộ trưởng, Thủ trưởng cơ quan ngang bộ, cơ quan thuộc Chính phủ và người đứng đầu ban, ngành, đoàn thể trung ương quyết định khen thưởng danh hiệu thi đua thuộc thẩm quyền.",
+      "Hội đồng Thi đua - Khen thưởng cấp bộ tham mưu cho Bộ trưởng, Thủ trưởng cơ quan ngang bộ, cơ quan thuộc Chính phủ và người đứng đầu ban, ngành, đoàn thể trung ương quyết định khen thưởng hình thức khen thưởng thuộc thẩm quyền.",
+      "Hội đồng Thi đua - Khen thưởng cấp bộ tư vấn cho Bộ trưởng, Thủ trưởng cơ quan ngang bộ, cơ quan thuộc Chính phủ và người đứng đầu ban, ngành, đoàn thể trung ương quyết định khen thưởng hình thức khen thưởng thuộc thẩm quyền.",
+      "Hội đồng Thi đua - Khen thưởng cấp bộ trình cấp có thẩm quyền khen thưởng."
+    ]
+  },
+  {
+    "instruction": "Người đứng đầu cơ quan, tổ chức, đơn vị có tư cách pháp nhân thuộc cấp Bộ có trách nhiệm thành lập, quy định chức năng, nhiệm vụ, quyền hạn, thành phần, tổ chức và hoạt động của Hội đồng Thi đua - Khen thưởng của cơ quan, tổ chức, đơn vị mình để tham mưu, tư vấn về công tác thi đua, khen thưởng thuộc phạm vi quản lý.",
+    "response": [
+      "Người đứng đầu cơ quan, tổ chức, đơn vị có tư cách pháp nhân thuộc cấp Bộ có trách nhiệm thành lập Hội đồng Thi đua - Khen thưởng của cơ quan, tổ chức, đơn vị mình.",
+      "Người đứng đầu cơ quan, tổ chức, đơn vị có tư cách pháp nhân thuộc cấp Bộ có trách nhiệm quy định chức năng, nhiệm vụ, quyền hạn, thành phần, tổ chức và hoạt động của Hội đồng Thi đua - Khen thưởng của cơ quan, tổ chức, đơn vị mình.",
+      "Hội đồng Thi đua - Khen thưởng của cơ quan, tổ chức, đơn vị có trách nhiệm tham mưu về công tác thi đua, khen thưởng thuộc phạm vi quản lý.",
+      "Hội đồng Thi đua - Khen thưởng của cơ quan, tổ chức, đơn vị có trách nhiệm tư vấn về công tác thi đua, khen thưởng thuộc phạm vi quản lý."
+    ]
+  },
+  {
+    "instruction": "Hội đồng Thi đua - Khen thưởng cấp tỉnh là cơ quan do Chủ tịch Ủy ban nhân dân cấp tỉnh thành lập, có trách nhiệm tham mưu, tư vấn cho cấp ủy, chính quyền về công tác thi đua, khen thưởng của địa phương.",
+    "response": [
+      "Chủ tịch Ủy ban nhân dân cấp tỉnh thành lập Hội đồng Thi đua - Khen thưởng cấp tỉnh.",
+      "Hội đồng Thi đua - Khen thưởng cấp tỉnh có trách nhiệm tham mưu cho cấp ủy về công tác thi đua, khen thưởng của địa phương.",
+      "Hội đồng Thi đua - Khen thưởng cấp tỉnh có trách nhiệm tư vấn cho chính quyền về công tác thi đua, khen thưởng của địa phương."
+    ]
+  },
+  {
+    "instruction": "Hội đồng Thi đua - Khen thưởng cấp tỉnh tham mưu cho Chủ tịch Ủy ban nhân dân cấp tỉnh phát động các phong trào thi đua theo thẩm quyền.",
+    "response": [
+      "Hội đồng Thi đua - Khen thưởng cấp tỉnh tham mưu cho Chủ tịch Ủy ban nhân dân cấp tỉnh phát động các phong trào thi đua theo thẩm quyền."
+    ]
+  },
+  {
+    "instruction": "Hội đồng Thi đua - Khen thưởng cấp tỉnh định kỳ đánh giá kết quả phong trào thi đua và công tác khen thưởng; tham mưu việc sơ kết, tổng kết công tác thi đua, khen thưởng; kiến nghị, đề xuất các chủ trương, biện pháp đẩy mạnh phong trào thi đua yêu nước trong từng năm và từng giai đoạn; tổ chức thi đua theo quy định của pháp luật về thi đua, khen thưởng.",
+    "response": [
+      "Hội đồng Thi đua - Khen thưởng cấp tỉnh định kỳ đánh giá kết quả phong trào thi đua.",
+      "Hội đồng Thi đua - Khen thưởng cấp tỉnh định kỳ đánh giá công tác khen thưởng.",
+      "Hội đồng Thi đua - Khen thưởng cấp tỉnh tham mưu việc sơ kết công tác thi đua, khen thưởng.",
+      "Hội đồng Thi đua - Khen thưởng cấp tỉnh tham mưu việc tổng kết công tác thi đua, khen thưởng.",
+      "Hội đồng Thi đua - Khen thưởng cấp tỉnh kiến nghị các chủ trương, biện pháp đẩy mạnh phong trào thi đua yêu nước trong từng năm và từng giai đoạn.",
+      "Hội đồng Thi đua - Khen thưởng cấp tỉnh đề xuất các chủ trương, biện pháp đẩy mạnh phong trào thi đua yêu nước trong từng năm và từng giai đoạn.",
+      "Hội đồng Thi đua - Khen thưởng cấp tỉnh tổ chức thi đua theo quy định của pháp luật về thi đua, khen thưởng."
+    ]
+  },
+  {
+    "instruction": "Hội đồng Thi đua - Khen thưởng cấp tỉnh tham mưu cho Chủ tịch Ủy ban nhân dân cấp tỉnh kiểm tra các phong trào thi đua và thực hiện các chủ trương, chính sách, pháp luật về thi đua, khen thưởng.",
+    "response": [
+      "Hội đồng Thi đua - Khen thưởng cấp tỉnh tham mưu cho Chủ tịch Ủy ban nhân dân cấp tỉnh kiểm tra các phong trào thi đua.",
+      "Hội đồng Thi đua - Khen thưởng cấp tỉnh tham mưu cho Chủ tịch Ủy ban nhân dân cấp tỉnh thực hiện các chủ trương, chính sách, pháp luật về thi đua, khen thưởng."
+    ]
+  },
+  {
+    "instruction": "Hội đồng Thi đua - Khen thưởng cấp tỉnh tham mưu, tư vấn cho Chủ tịch Ủy ban nhân dân cấp tỉnh quyết định tặng thưởng danh hiệu thi đua và các hình thức khen thưởng thuộc thẩm quyền hoặc trình cấp có thẩm quyền khen thưởng.",
+    "response": [
+      "Hội đồng Thi đua - Khen thưởng cấp tỉnh tham mưu cho Chủ tịch Ủy ban nhân dân cấp tỉnh quyết định tặng thưởng danh hiệu thi đua thuộc thẩm quyền.",
+      "Hội đồng Thi đua - Khen thưởng cấp tỉnh tư vấn cho Chủ tịch Ủy ban nhân dân cấp tỉnh quyết định tặng thưởng danh hiệu thi đua thuộc thẩm quyền.",
+      "Hội đồng Thi đua - Khen thưởng cấp tỉnh tham mưu cho Chủ tịch Ủy ban nhân dân cấp tỉnh quyết định các hình thức khen thưởng thuộc thẩm quyền.",
+      "Hội đồng Thi đua - Khen thưởng cấp tỉnh tư vấn cho Chủ tịch Ủy ban nhân dân cấp tỉnh quyết định các hình thức khen thưởng thuộc thẩm quyền.",
+      "Hội đồng Thi đua - Khen thưởng cấp tỉnh trình cấp có thẩm quyền khen thưởng."
+    ]
+  },
+  {
+    "instruction": "Người đứng đầu Ủy ban nhân dân cấp huyện, sở, ban, ngành thuộc tỉnh và các đơn vị có tư cách pháp nhân trực thuộc tỉnh; người đứng đầu Ủy ban nhân dân cấp xã, Thủ trưởng các cơ quan, tổ chức, đơn vị, người đại diện pháp luật của doanh nghiệp, tổ chức kinh tế khác có trách nhiệm thành lập, quy định chức năng, nhiệm vụ, quyền hạn, thành phần, tổ chức và hoạt động của Hội đồng Thi đua - Khen thưởng của cấp mình để tham mưu, tư vấn về thực hiện công tác thi đua, khen thưởng thuộc phạm vi quản lý.",
+    "response": [
+      "Người đứng đầu Ủy ban nhân dân cấp huyện có trách nhiệm thành lập Hội đồng Thi đua - Khen thưởng của cấp mình.",
+      "Người đứng đầu sở, ban, ngành thuộc tỉnh có trách nhiệm thành lập Hội đồng Thi đua - Khen thưởng của cấp mình.",
+      "Người đứng đầu các đơn vị có tư cách pháp nhân trực thuộc tỉnh có trách nhiệm thành lập Hội đồng Thi đua - Khen thưởng của cấp mình.",
+      "Người đứng đầu Ủy ban nhân dân cấp xã có trách nhiệm thành lập Hội đồng Thi đua - Khen thưởng của cấp mình.",
+      "Thủ trưởng các cơ quan, tổ chức, đơn vị có trách nhiệm thành lập Hội đồng Thi đua - Khen thưởng của cấp mình.",
+      "Người đại diện pháp luật của doanh nghiệp, tổ chức kinh tế khác có trách nhiệm thành lập Hội đồng Thi đua - Khen thưởng của cấp mình.",
+      "Hội đồng Thi đua - Khen thưởng của cấp mình thực hiện chức năng tham mưu về công tác thi đua, khen thưởng thuộc phạm vi quản lý.",
+      "Hội đồng Thi đua - Khen thưởng của cấp mình thực hiện chức năng tư vấn về công tác thi đua, khen thưởng thuộc phạm vi quản lý."
+    ]
+  },
+  
+  {
+    "instruction": "Điều 86. Mẫu “Huân chương Bảo vệ Tổ quốc” hạng Nhất, hạng Nhì, Khoản 2. Dải Huân chương: Hình chữ A cách điệu, cốt bằng inox mạ vàng hợp kim Ni-Co, bọc vải dệt bằng sợi polyester hoặc chất liệu tương đương, đảm bảo chắc chắn, bền đẹp có hai màu: 1/2 bên trái màu xanh lá cây, 1/2 bên phải màu đỏ cờ, gắn sao theo hạng Huân chương; kích thước 28 mm x 51 mm x 41 mm x 5 mm.",
+    "response": [
+      "Dải Huân chương có hình chữ A cách điệu.",
+      "Dải Huân chương có cốt bằng inox mạ vàng hợp kim Ni-Co.",
+      "Dải Huân chương được bọc vải dệt bằng sợi polyester hoặc chất liệu tương đương.",
+      "Dải Huân chương được đảm bảo chắc chắn và bền đẹp.",
+      "Dải Huân chương có hai màu.",
+      "1/2 bên trái của Dải Huân chương có màu xanh lá cây.",
+      "1/2 bên phải của Dải Huân chương có màu đỏ cờ.",
+      "Dải Huân chương được gắn sao theo hạng Huân chương.",
+      "Dải Huân chương có kích thước 28 mm x 51 mm x 41 mm x 5 mm."
+    ]
+  },
+  {
+    "instruction": "Điều 86. Mẫu “Huân chương Bảo vệ Tổ quốc” hạng Nhất, hạng Nhì, Khoản 3. Thân Huân chương: Hình sao mười cánh cách điệu, đường kính đường tròn ngoại tiếp mười đỉnh sao bằng 40 mm, chính giữa có biểu tượng khẩu súng và thanh gươm đặt chéo nhau, phía trên có ngôi sao vàng năm cánh nổi trên nền đỏ, xung quanh có dòng chữ “Huân chương Bảo vệ Tổ quốc” “Việt Nam” màu đỏ trên nền vàng; chất liệu bằng đồng đỏ mạ vàng hợp kim Ni-Co.",
+    "response": [
+      "Thân Huân chương có hình sao mười cánh cách điệu.",
+      "Đường kính đường tròn ngoại tiếp mười đỉnh sao của Thân Huân chương bằng 40 mm.",
+      "Chính giữa Thân Huân chương có biểu tượng khẩu súng và thanh gươm đặt chéo nhau.",
+      "Phía trên Thân Huân chương có ngôi sao vàng năm cánh nổi trên nền đỏ.",
+      "Xung quanh Thân Huân chương có dòng chữ “Huân chương Bảo vệ Tổ quốc” và “Việt Nam” màu đỏ trên nền vàng.",
+      "Thân Huân chương có chất liệu bằng đồng đỏ mạ vàng hợp kim Ni-Co."
+    ]
+  },
+  {
+    "instruction": "Điều 87. Mẫu “Huân chương Dũng cảm” Khoản 1. Cuống Huân chương: Cốt bằng đồng đỏ mạ vàng hợp kim Ni-Co; kích thước 28 mm x 14 mm; viền ngoài màu vàng, trong bọc vải dệt bằng sợi polyester hoặc chất liệu tương đương, đảm bảo chắc chắn, bền đẹp màu đỏ cờ, có hai vạch màu xanh dương đậm.",
+    "response": [
+      "Cuống Huân chương có cốt bằng đồng đỏ mạ vàng hợp kim Ni-Co.",
+      "Cuống Huân chương có kích thước 28 mm x 14 mm.",
+      "Viền ngoài của Cuống Huân chương có màu vàng.",
+      "Cuống Huân chương được bọc vải dệt bằng sợi polyester hoặc chất liệu tương đương.",
+      "Cuống Huân chương được đảm bảo chắc chắn và bền đẹp.",
+      "Cuống Huân chương có màu đỏ cờ.",
+      "Cuống Huân chương có hai vạch màu xanh dương đậm."
+    ]
+  },
+  {
+    "instruction": "Điều 87. Mẫu “Huân chương Dũng cảm” Khoản 2. Dải Huân chương: Hình chữ A cách điệu, cốt bằng inox đỏ mạ vàng hợp kim Ni-Co, bọc vải dệt bằng sợi polyester hoặc chất liệu tương đương, đảm bảo chắc chắn, bền đẹp màu đỏ cờ, có hai vạch màu xanh dương đậm; kích thước 28 mm x 51 mm x 41 mm x 51 mm.",
+    "response": [
+      "Dải Huân chương có hình chữ A cách điệu.",
+      "Dải Huân chương có cốt bằng inox đỏ mạ vàng hợp kim Ni-Co.",
+      "Dải Huân chương được bọc vải dệt bằng sợi polyester hoặc chất liệu tương đương.",
+      "Dải Huân chương được đảm bảo chắc chắn và bền đẹp.",
+      "Dải Huân chương có màu đỏ cờ.",
+      "Dải Huân chương có hai vạch màu xanh dương đậm.",
+      "Dải Huân chương có kích thước 28 mm x 51 mm x 41 mm x 51 mm."
+    ]
+  },
+  {
+    "instruction": "Điều 87. Mẫu “Huân chương Dũng cảm” Khoản 3. Thân Huân chương: Hình sao tám cánh cách điệu, đường kính đường tròn ngoại tiếp tám đỉnh sao bằng 40 mm, hai bên là cành tùng, chính giữa là sao vàng năm cánh nổi trên nền đỏ, xung quanh là dòng chữ “Huân chương Dũng cảm”, “Việt Nam” màu đỏ trên nền vàng; chất liệu bằng đồng đỏ mạ vàng hợp kim Ni-Co.",
+    "response": [
+      "Thân Huân chương có hình sao tám cánh cách điệu.",
+      "Đường kính đường tròn ngoại tiếp tám đỉnh sao của Thân Huân chương bằng 40 mm.",
+      "Hai bên Thân Huân chương có cành tùng.",
+      "Chính giữa Thân Huân chương có sao vàng năm cánh nổi trên nền đỏ.",
+      "Xung quanh Thân Huân chương có dòng chữ “Huân chương Dũng cảm” và “Việt Nam” màu đỏ trên nền vàng.",
+      "Thân Huân chương có chất liệu bằng đồng đỏ mạ vàng hợp kim Ni-Co."
+    ]
+  },
+  {
+    "instruction": "Điều 88. Mẫu “Huân chương Đại đoàn kết dân tộc” Khoản 1. Cuống Huân chương: Cốt bằng đồng đỏ mạ vàng hợp kim Ni-Co; kích thước 28 mm x 14 mm; viền ngoài màu vàng, trong bọc vải dệt bằng sợi polyester hoặc chất liệu tương đương, đảm bảo chắc chắn, bền đẹp có hai màu: 1/2 bên trái màu xanh dương đậm, 1/2 bên phải màu đỏ cờ.",
+    "response": [
+      "Cuống Huân chương có cốt bằng đồng đỏ mạ vàng hợp kim Ni-Co.",
+      "Cuống Huân chương có kích thước 28 mm x 14 mm.",
+      "Viền ngoài của Cuống Huân chương có màu vàng.",
+      "Cuống Huân chương được bọc vải dệt bằng sợi polyester hoặc chất liệu tương đương.",
+      "Cuống Huân chương được đảm bảo chắc chắn và bền đẹp.",
+      "Cuống Huân chương có hai màu.",
+      "1/2 bên trái của Cuống Huân chương có màu xanh dương đậm.",
+      "1/2 bên phải của Cuống Huân chương có màu đỏ cờ."
+    ]
+  },
+  {
+    "instruction": "Điều 88. Mẫu “Huân chương Đại đoàn kết dân tộc” Khoản 3. Thân Huân chương: Hình sao vàng cách điệu, có đường kính đường tròn ngoại tiếp các đỉnh sao bằng 40 mm, chính giữa là chân dung Chủ tịch Hồ Chí Minh đặt nghiêng trên đài sen tỏa sáng, hai bên là cành tùng, phía trên là dòng chữ “Huân chương Đại đoàn kết dân tộc” màu đỏ, phía dưới là dải lụa đỏ mang dòng chữ “Việt Nam” màu vàng; chất liệu bằng đồng đỏ mạ vàng hợp kim Ni-Co.",
+    "response": [
+      "Thân Huân chương có hình sao vàng cách điệu.",
+      "Đường kính đường tròn ngoại tiếp các đỉnh sao của Thân Huân chương bằng 40 mm.",
+      "Chính giữa Thân Huân chương có chân dung Chủ tịch Hồ Chí Minh đặt nghiêng trên đài sen tỏa sáng.",
+      "Hai bên Thân Huân chương có cành tùng.",
+      "Phía trên Thân Huân chương có dòng chữ “Huân chương Đại đoàn kết dân tộc” màu đỏ.",
+      "Phía dưới Thân Huân chương có dải lụa đỏ mang dòng chữ “Việt Nam” màu vàng.",
+      "Thân Huân chương có chất liệu bằng đồng đỏ mạ vàng hợp kim Ni-Co."
+    ]
+  },
+  {
+    "instruction": "Điều 89. Mẫu “Huân chương Hữu nghị” Khoản 3. Thân Huân chương: Hình sao vàng năm cánh cách điệu, đường kính ngoại tiếp năm đỉnh sao bằng 48 mm, có cành tùng hai bên, chính giữa là hai bàn tay bắt tay nhau trên hình quả địa cầu nền màu xanh hòa bình, xung quanh có dòng chữ “Huân chương Hữu nghị” màu đỏ, chữ “Việt Nam” màu vàng trên dải lụa đỏ; chất liệu bằng đồng đỏ mạ vàng hợp kim Ni-Co.",
+    "response": [
+      "Thân Huân chương có hình sao vàng năm cánh cách điệu.",
+      "Đường kính ngoại tiếp năm đỉnh sao của Thân Huân chương bằng 48 mm.",
+      "Thân Huân chương có cành tùng ở hai bên.",
+      "Chính giữa Thân Huân chương có hai bàn tay bắt tay nhau trên hình quả địa cầu nền màu xanh hòa bình.",
+      "Xung quanh Thân Huân chương có dòng chữ “Huân chương Hữu nghị” màu đỏ.",
+      "Thân Huân chương có chữ “Việt Nam” màu vàng trên dải lụa đỏ.",
+      "Thân Huân chương có chất liệu bằng đồng đỏ mạ vàng hợp kim Ni-Co."
+    ]
+  },
+  {
+    "instruction": "Điều 90. Mẫu “Huy chương Quân kỳ quyết thắng” Khoản 3. Thân Huy chương: Hình sao vàng năm cánh dập nổi, đường kính đường tròn ngoại tiếp năm đỉnh sao bằng 48 mm, có cành tùng hai bên, ở giữa có lá cờ quyết thắng trên nền vàng, phía trên có dòng chữ “Huy chương Quân kỳ quyết thắng” màu đỏ trên nền vàng, phía dưới là dải lụa vàng mang dòng chữ “Việt Nam” màu đỏ; chất liệu bằng đồng đỏ mạ vàng hợp kim Ni-Co.",
+    "response": [
+      "Thân Huy chương có hình sao vàng năm cánh dập nổi.",
+      "Đường kính đường tròn ngoại tiếp năm đỉnh sao của Thân Huy chương bằng 48 mm.",
+      "Thân Huy chương có cành tùng ở hai bên.",
+      "Ở giữa Thân Huy chương có lá cờ quyết thắng trên nền vàng.",
+      "Phía trên Thân Huy chương có dòng chữ “Huy chương Quân kỳ quyết thắng” màu đỏ trên nền vàng.",
+      "Phía dưới Thân Huy chương có dải lụa vàng mang dòng chữ “Việt Nam” màu đỏ.",
+      "Thân Huy chương có chất liệu bằng đồng đỏ mạ vàng hợp kim Ni-Co."
+    ]
+  },
+  {
+    "instruction": "Điều 91. Mẫu “Huy chương Vì an ninh Tổ quốc” Khoản 3. Thân Huy chương: Hình ngôi sao năm cánh cách điệu dập nổi, đường kính đường tròn ngoại tiếp năm đỉnh sao bằng 48 mm, chính giữa có ngôi sao vàng năm cánh dập nổi và thanh gươm đặt trên lá chắn màu đỏ trên nền màu xanh lá cây, xung quanh là dòng chữ “Huy chương Vì an ninh Tổ quốc” màu vàng và hai cành tùng hai bên, phía dưới là dải lụa đỏ mang dòng chữ “Việt Nam” màu vàng; chất liệu bằng đồng đỏ mạ vàng hợp kim Ni-Co.",
+    "response": [
+      "Thân Huy chương có hình ngôi sao năm cánh cách điệu dập nổi.",
+      "Đường kính đường tròn ngoại tiếp năm đỉnh sao của Thân Huy chương bằng 48 mm.",
+      "Chính giữa Thân Huy chương có ngôi sao vàng năm cánh dập nổi.",
+      "Chính giữa Thân Huy chương có thanh gươm đặt trên lá chắn màu đỏ trên nền màu xanh lá cây.",
+      "Xung quanh Thân Huy chương có dòng chữ “Huy chương Vì an ninh Tổ quốc” màu vàng.",
+      "Thân Huy chương có hai cành tùng ở hai bên.",
+      "Phía dưới Thân Huy chương có dải lụa đỏ mang dòng chữ “Việt Nam” màu vàng.",
+      "Thân Huy chương có chất liệu bằng đồng đỏ mạ vàng hợp kim Ni-Co."
+    ]
+  },
+  {
+    "instruction": "Điều 93. Mẫu “Huy chương Hữu nghị” Khoản 3. Thân Huy chương: Hình tròn đường kính bằng 40 mm, phía trong là sao vàng năm cánh cách điệu dập nổi, có cành tùng hai bên, chính giữa là hai bàn tay bắt tay nhau trên hình quả địa cầu nền màu xanh hòa bình, phía trên có dòng chữ “Huy chương Hữu nghị” màu đỏ, phía dưới là dải lụa đỏ mang dòng chữ “Việt Nam” màu vàng; chất liệu bằng đồng đỏ mạ vàng hợp kim Ni-Co.",
+    "response": [
+      "Thân Huy chương có hình tròn.",
+      "Thân Huy chương có đường kính bằng 40 mm.",
+      "Phía trong Thân Huy chương có sao vàng năm cánh cách điệu dập nổi.",
+      "Thân Huy chương có cành tùng ở hai bên.",
+      "Chính giữa Thân Huy chương có hai bàn tay bắt tay nhau trên hình quả địa cầu nền màu xanh hòa bình.",
+      "Phía trên Thân Huy chương có dòng chữ “Huy chương Hữu nghị” màu đỏ.",
+      "Phía dưới Thân Huy chương có dải lụa đỏ mang dòng chữ “Việt Nam” màu vàng.",
+      "Thân Huy chương có chất liệu bằng đồng đỏ mạ vàng hợp kim Ni-Co."
+    ]
+  },
+  {
+    "instruction": "Điều 94. Mẫu huy hiệu “Bà mẹ Việt Nam anh hùng” Khoản 2. Thân huy hiệu: Hình sao vàng năm cánh dập nổi, đường kính đường tròn ngoại tiếp năm đỉnh sao bằng 50 mm, bên trong là hình ảnh chân dung Mẹ Việt Nam anh hùng, phía dưới là dòng chữ “Bà mẹ Việt Nam anh hùng” màu đỏ; chất liệu bằng đồng đỏ mạ vàng hợp kim Ni-Co.",
+    "response": [
+      "Thân huy hiệu có hình sao vàng năm cánh dập nổi.",
+      "Đường kính đường tròn ngoại tiếp năm đỉnh sao của Thân huy hiệu bằng 50 mm.",
+      "Bên trong Thân huy hiệu có hình ảnh chân dung Mẹ Việt Nam anh hùng.",
+      "Phía dưới Thân huy hiệu có dòng chữ “Bà mẹ Việt Nam anh hùng” màu đỏ.",
+      "Thân huy hiệu có chất liệu bằng đồng đỏ mạ vàng hợp kim Ni-Co."
+    ]
+  },
+  {
+    "instruction": "Điều 95. Mẫu huy hiệu “Anh hùng Lực lượng vũ trang nhân dân” Khoản 2. Thân huy hiệu: Hình sao vàng năm cánh cách điệu dập nổi, đường kính đường tròn ngoại tiếp năm đỉnh sao bằng 50 mm, phía trong có lá cờ quyết thắng màu đỏ, phía dưới là hai cành tùng, xung quanh có dòng chữ “Anh hùng Lực lượng vũ trang nhân dân”, “Việt Nam” màu đỏ; chất liệu bằng đồng đỏ mạ vàng hợp kim Ni-Co.",
+    "response": [
+      "Thân huy hiệu có hình sao vàng năm cánh cách điệu dập nổi.",
+      "Đường kính đường tròn ngoại tiếp năm đỉnh sao của Thân huy hiệu bằng 50 mm.",
+      "Phía trong Thân huy hiệu có lá cờ quyết thắng màu đỏ.",
+      "Phía dưới Thân huy hiệu có hai cành tùng.",
+      "Xung quanh Thân huy hiệu có dòng chữ “Anh hùng Lực lượng vũ trang nhân dân” và “Việt Nam” màu đỏ.",
+      "Thân huy hiệu có chất liệu bằng đồng đỏ mạ vàng hợp kim Ni-Co."
+    ]
+  },
+  {
+    "instruction": "Điều 96. Mẫu huy hiệu “Anh hùng Lao động”; “Tỉnh Anh hùng”, “Thành phố Anh hùng” Khoản 2. Thân huy hiệu: Hình sao vàng năm cánh cách điệu dập nổi, đường kính đường tròn ngoại tiếp năm đỉnh sao bằng 50 mm, có cành tùng hai bên, bên trong là bánh xe lịch sử và vòng tròn khoa học đặt trên quyển sách, xung quanh có dòng chữ “Anh hùng Lao động” hoặc “Tỉnh Anh hùng” hoặc “Thành phố Anh hùng” màu đỏ, dưới là dải lụa vàng mang dòng chữ “Việt Nam” màu đỏ; chất liệu bằng đồng đỏ mạ vàng hợp kim Ni-Co.",
+    "response": [
+      "Thân huy hiệu có hình sao vàng năm cánh cách điệu dập nổi.",
+      "Đường kính đường tròn ngoại tiếp năm đỉnh sao của Thân huy hiệu bằng 50 mm.",
+      "Thân huy hiệu có cành tùng ở hai bên.",
+      "Bên trong Thân huy hiệu có bánh xe lịch sử và vòng tròn khoa học đặt trên quyển sách.",
+      "Xung quanh Thân huy hiệu có dòng chữ “Anh hùng Lao động” hoặc “Tỉnh Anh hùng” hoặc “Thành phố Anh hùng” màu đỏ.",
+      "Phía dưới Thân huy hiệu có dải lụa vàng mang dòng chữ “Việt Nam” màu đỏ.",
+      "Thân huy hiệu có chất liệu bằng đồng đỏ mạ vàng hợp kim Ni-Co."
+    ]
+  },
+  {
+    "instruction": "Điều 97. Mẫu huy hiệu “Nhà giáo nhân dân”; “Nhà giáo ưu tú” Khoản 1. Cuống huy hiệu: Chất liệu bằng đồng đỏ mạ vàng hợp kim Ni-Co, kích thước 28 mm x 15 mm; sơn màu đỏ cờ đối với huy hiệu “Nhà giáo nhân dân”, màu vàng đối với huy hiệu “Nhà giáo ưu tú”, viền ngoài màu vàng.",
+    "response": [
+      "Cuống huy hiệu có chất liệu bằng đồng đỏ mạ vàng hợp kim Ni-Co.",
+      "Cuống huy hiệu có kích thước 28 mm x 15 mm.",
+      "Cuống huy hiệu được sơn màu đỏ cờ đối với huy hiệu “Nhà giáo nhân dân”.",
+      "Cuống huy hiệu được sơn màu vàng đối với huy hiệu “Nhà giáo ưu tú”.",
+      "Viền ngoài của Cuống huy hiệu có màu vàng."
+    ]
+  },
+  {
+    "instruction": "Điều 97. Mẫu huy hiệu “Nhà giáo nhân dân”; “Nhà giáo ưu tú” Khoản 2. Thân huy hiệu: Hình tròn đường kính bằng 35 mm, ở giữa là cây bút và quyển vở trên nền màu xanh lá cây, hai bên có bông lúa vàng, phía trên có dòng chữ “Nhà giáo nhân dân” hoặc “Nhà giáo ưu tú” màu đỏ, phía dưới là dải lụa đỏ mang dòng chữ “Việt Nam” màu vàng; chất liệu bằng đồng đỏ mạ vàng hợp kim Ni-Co.",
+    "response": [
+      "Thân huy hiệu có hình tròn.",
+      "Thân huy hiệu có đường kính bằng 35 mm.",
+      "Ở giữa Thân huy hiệu có cây bút và quyển vở trên nền màu xanh lá cây.",
+      "Hai bên Thân huy hiệu có bông lúa vàng.",
+      "Phía trên Thân huy hiệu có dòng chữ “Nhà giáo nhân dân” hoặc “Nhà giáo ưu tú” màu đỏ.",
+      "Phía dưới Thân huy hiệu có dải lụa đỏ mang dòng chữ “Việt Nam” màu vàng.",
+      "Thân huy hiệu có chất liệu bằng đồng đỏ mạ vàng hợp kim Ni-Co."
+    ]
+  },
+  {
+    "instruction": "Điều 98. Mẫu huy hiệu “Thầy thuốc nhân dân”, “Thầy thuốc ưu tú” Khoản 2. Thân huy hiệu: Hình hoa hướng dương, đường kính bằng 35 mm; ở giữa là biểu tượng ngành y và ngôi sao màu đỏ, hai bên là cành nguyệt quế, phía trên là dòng chữ “Thầy thuốc nhân dân” hoặc “Thầy thuốc ưu tú” màu đỏ, phía dưới là dải lụa đỏ mang dòng chữ “Việt Nam” màu vàng; chất liệu bằng đồng đỏ mạ vàng hợp kim Ni-Co.",
+    "response": [
+      "Thân huy hiệu có hình hoa hướng dương.",
+      "Thân huy hiệu có đường kính bằng 35 mm.",
+      "Ở giữa Thân huy hiệu có biểu tượng ngành y và ngôi sao màu đỏ.",
+      "Hai bên Thân huy hiệu có cành nguyệt quế.",
+      "Phía trên Thân huy hiệu có dòng chữ “Thầy thuốc nhân dân” hoặc “Thầy thuốc ưu tú” màu đỏ.",
+      "Phía dưới Thân huy hiệu có dải lụa đỏ mang dòng chữ “Việt Nam” màu vàng.",
+      "Thân huy hiệu có chất liệu bằng đồng đỏ mạ vàng hợp kim Ni-Co."
+    ]
+  },
+  {
+    "instruction": "Điều 99. Mẫu huy hiệu “Nghệ sĩ nhân dân”, “Nghệ sĩ ưu tú” Khoản 2. Thân huy hiệu: Hình sao tám cánh cách điệu, đường kính bằng 35 mm, ở giữa là hình mặt nạ và hoa sen cách điệu, phía trên có dòng chữ “Nghệ sĩ nhân dân” hoặc “Nghệ sĩ ưu tú” màu đỏ, phía dưới là dải lụa đỏ mang dòng chữ “Việt Nam” màu vàng; chất liệu bằng đồng đỏ mạ vàng hợp kim Ni-Co.",
+    "response": [
+      "Thân huy hiệu có hình sao tám cánh cách điệu.",
+      "Thân huy hiệu có đường kính bằng 35 mm.",
+      "Ở giữa Thân huy hiệu có hình mặt nạ và hoa sen cách điệu.",
+      "Phía trên Thân huy hiệu có dòng chữ “Nghệ sĩ nhân dân” hoặc “Nghệ sĩ ưu tú” màu đỏ.",
+      "Phía dưới Thân huy hiệu có dải lụa đỏ mang dòng chữ “Việt Nam” màu vàng.",
+      "Thân huy hiệu có chất liệu bằng đồng đỏ mạ vàng hợp kim Ni-Co."
+    ]
+  },
+  {
+    "instruction": "Điều 100. Mẫu huy hiệu “Nghệ nhân nhân dân”, “Nghệ nhân ưu tú” Khoản 2. Thân huy hiệu: Hình cánh hoa cách điệu, đường kính bằng 35 mm, ở giữa là hai bàn tay nâng bản đồ Việt Nam trên nền đỏ, xung quanh có bánh xe lịch sử, phía trên là dòng chữ “Nghệ nhân nhân dân” hoặc “Nghệ nhân ưu tú” màu đỏ, phía dưới là dải lụa đỏ mang dòng chữ “Việt Nam” màu vàng; chất liệu bằng đồng đỏ mạ vàng hợp kim Ni-Co.",
+    "response": [
+      "Thân huy hiệu có hình cánh hoa cách điệu.",
+      "Thân huy hiệu có đường kính bằng 35 mm.",
+      "Ở giữa Thân huy hiệu có hai bàn tay nâng bản đồ Việt Nam trên nền đỏ.",
+      "Xung quanh Thân huy hiệu có bánh xe lịch sử.",
+      "Phía trên Thân huy hiệu có dòng chữ “Nghệ nhân nhân dân” hoặc “Nghệ nhân ưu tú” màu đỏ.",
+      "Phía dưới Thân huy hiệu có dải lụa đỏ mang dòng chữ “Việt Nam” màu vàng.",
+      "Thân huy hiệu có chất liệu bằng đồng đỏ mạ vàng hợp kim Ni-Co."
+    ]
+  },
+  {
+    "instruction": "Điều 101. Mẫu huy hiệu “Chiến sĩ thi đua toàn quốc” Khoản 2. Thân huy hiệu: Hình sao vàng năm cánh cách điệu dập nổi, đường kính đường tròn ngoại tiếp năm đỉnh sao bằng 42 mm, phía trong có hai bông lúa vàng, trang sách và bánh xe lịch sử, xung quanh có dòng chữ “Chiến sĩ thi đua toàn quốc” màu đỏ; chất liệu bằng đồng đỏ mạ vàng hợp kim Ni-Co.",
+    "response": [
+      "Thân huy hiệu có hình sao vàng năm cánh cách điệu dập nổi.",
+      "Đường kính đường tròn ngoại tiếp năm đỉnh sao của Thân huy hiệu bằng 42 mm.",
+      "Phía trong Thân huy hiệu có hai bông lúa vàng.",
+      "Phía trong Thân huy hiệu có trang sách.",
+      "Phía trong Thân huy hiệu có bánh xe lịch sử.",
+      "Xung quanh Thân huy hiệu có dòng chữ “Chiến sĩ thi đua toàn quốc” màu đỏ.",
+      "Thân huy hiệu có chất liệu bằng đồng đỏ mạ vàng hợp kim Ni-Co."
+    ]
+  },
+  {
+    "instruction": "Điều 102. Mẫu bằng của các hình thức khen thưởng và danh hiệu thi đua thuộc thẩm quyền quyết định của Chủ tịch nước, Chính phủ, Thủ tướng Chính phủ. Khoản 1. Hình thức: Điểm c) Hình nền: Bằng “Huân chương Sao vàng” sử dụng họa tiết trống đồng và hình ngôi sao ở giữa. Bằng “Huân chương Hồ Chí Minh” sử dụng họa tiết hoa sen. Bằng “Huân chương Quân công”, “Huân chương Chiến công”, “Huy chương Chiến sĩ vẻ vang”, “Huy chương Vì an ninh Tổ quốc”, “Huy chương Quân kỳ quyết thắng”, “Anh hùng Lực lượng vũ trang nhân dân” sử dụng hình ngôi sao có ánh hào quang tỏa sáng. Bằng “Huân chương Bảo vệ Tổ quốc” sử dụng họa tiết trống đồng và bản đồ Việt Nam ở giữa.",
+    "response": [
+      "Bằng “Huân chương Sao vàng” sử dụng họa tiết trống đồng.",
+      "Bằng “Huân chương Sao vàng” sử dụng hình ngôi sao ở giữa.",
+      "Bằng “Huân chương Hồ Chí Minh” sử dụng họa tiết hoa sen.",
+      "Bằng “Huân chương Quân công” sử dụng hình ngôi sao có ánh hào quang tỏa sáng.",
+      "Bằng “Huân chương Chiến công” sử dụng hình ngôi sao có ánh hào quang tỏa sáng.",
+      "Bằng “Huy chương Chiến sĩ vẻ vang” sử dụng hình ngôi sao có ánh hào quang tỏa sáng.",
+      "Bằng “Huy chương Vì an ninh Tổ quốc” sử dụng hình ngôi sao có ánh hào quang tỏa sáng.",
+      "Bằng “Huy chương Quân kỳ quyết thắng” sử dụng hình ngôi sao có ánh hào quang tỏa sáng.",
+      "Bằng “Anh hùng Lực lượng vũ trang nhân dân” sử dụng hình ngôi sao có ánh hào quang tỏa sáng.",
+      "Bằng “Huân chương Bảo vệ Tổ quốc” sử dụng họa tiết trống đồng.",
+      "Bằng “Huân chương Bảo vệ Tổ quốc” sử dụng bản đồ Việt Nam ở giữa."
+    ]
+  },
+  {
+    "instruction": "Điều 102. Mẫu bằng của các hình thức khen thưởng và danh hiệu thi đua thuộc thẩm quyền quyết định của Chủ tịch nước, Chính phủ, Thủ tướng Chính phủ. Khoản 2. Nội dung: Điểm a) Quốc hiệu: “CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM” được trình bày bằng chữ in hoa, phông chữ “Times New Roman”, cỡ chữ 15, kiểu chữ đứng, đậm, màu đen.",
+    "response": [
+      "Quốc hiệu “CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM” được trình bày bằng chữ in hoa.",
+      "Quốc hiệu được trình bày bằng phông chữ “Times New Roman”.",
+      "Quốc hiệu được trình bày với cỡ chữ 15.",
+      "Quốc hiệu được trình bày theo kiểu chữ đứng.",
+      "Quốc hiệu được trình bày theo kiểu chữ đậm.",
+      "Quốc hiệu được trình bày bằng màu đen."
+    ]
+  },
+  {
+    "instruction": "Điều 102. Mẫu bằng của các hình thức khen thưởng và danh hiệu thi đua thuộc thẩm quyền quyết định của Chủ tịch nước, Chính phủ, Thủ tướng Chính phủ. Khoản 2. Nội dung: Điểm b) Tiêu ngữ: “Độc lập - Tự do - Hạnh phúc” được trình bày bằng chữ in thường, phông chữ “Times New Roman”, cỡ chữ 16, kiểu chữ đứng, đậm, màu đen và ở liền phía dưới Quốc hiệu; chữ cái đầu của các cụm từ được viết hoa, giữa các cụm từ có gạch nối, có cách chữ; phía dưới có đường kẻ ngang, nét liền, có độ dài bằng độ dài của dòng chữ.",
+    "response": [
+      "Tiêu ngữ “Độc lập - Tự do - Hạnh phúc” được trình bày bằng chữ in thường.",
+      "Tiêu ngữ được trình bày bằng phông chữ “Times New Roman”.",
+      "Tiêu ngữ được trình bày với cỡ chữ 16.",
+      "Tiêu ngữ được trình bày theo kiểu chữ đứng.",
+      "Tiêu ngữ được trình bày theo kiểu chữ đậm.",
+      "Tiêu ngữ được trình bày bằng màu đen.",
+      "Tiêu ngữ được đặt liền phía dưới Quốc hiệu.",
+      "Chữ cái đầu của các cụm từ trong Tiêu ngữ được viết hoa.",
+      "Giữa các cụm từ trong Tiêu ngữ có gạch nối.",
+      "Giữa các cụm từ trong Tiêu ngữ có cách chữ.",
+      "Phía dưới Tiêu ngữ có đường kẻ ngang.",
+      "Đường kẻ ngang phía dưới Tiêu ngữ có nét liền.",
+      "Đường kẻ ngang phía dưới Tiêu ngữ có độ dài bằng độ dài của dòng chữ."
+    ]
+  },
+  {
+    "instruction": "Điều 102. Mẫu bằng của các hình thức khen thưởng và danh hiệu thi đua thuộc thẩm quyền quyết định của Chủ tịch nước, Chính phủ, Thủ tướng Chính phủ. Khoản 2. Nội dung: Điểm d) Tính chất tặng thưởng: Ghi là “TẶNG” hoặc “TRUY TẶNG” đối với các bằng: Huân chương, huy chương, “Giải thưởng Hồ Chí Minh”, “Giải thưởng Nhà nước”, “Bằng khen của Thủ tướng Chính phủ”; “TẶNG DANH HIỆU” hoặc “TRUY TẶNG DANH HIỆU” đối với các bằng danh hiệu vinh dự nhà nước và “TẶNG DANH HIỆU” đối với bằng “Chiến sĩ thi đua toàn quốc”; chữ in hoa, phông chữ “Times New Roman”, cỡ chữ 24, kiểu chữ đứng, đậm, màu đen.",
+    "response": [
+      "Tính chất tặng thưởng đối với bằng Huân chương được ghi là “TẶNG” hoặc “TRUY TẶNG”.",
+      "Tính chất tặng thưởng đối với bằng huy chương được ghi là “TẶNG” hoặc “TRUY TẶNG”.",
+      "Tính chất tặng thưởng đối với “Giải thưởng Hồ Chí Minh” được ghi là “TẶNG” hoặc “TRUY TẶNG”.",
+      "Tính chất tặng thưởng đối với “Giải thưởng Nhà nước” được ghi là “TẶNG” hoặc “TRUY TẶNG”.",
+      "Tính chất tặng thưởng đối với “Bằng khen của Thủ tướng Chính phủ” được ghi là “TẶNG” hoặc “TRUY TẶNG”.",
+      "Tính chất tặng thưởng đối với các bằng danh hiệu vinh dự nhà nước được ghi là “TẶNG DANH HIỆU” hoặc “TRUY TẶNG DANH HIỆU”.",
+      "Tính chất tặng thưởng đối với bằng “Chiến sĩ thi đua toàn quốc” được ghi là “TẶNG DANH HIỆU”.",
+      "Tính chất tặng thưởng được trình bày bằng chữ in hoa.",
+      "Tính chất tặng thưởng được trình bày bằng phông chữ “Times New Roman”.",
+      "Tính chất tặng thưởng được trình bày với cỡ chữ 24.",
+      "Tính chất tặng thưởng được trình bày theo kiểu chữ đứng.",
+      "Tính chất tặng thưởng được trình bày theo kiểu chữ đậm.",
+      "Tính chất tặng thưởng được trình bày bằng màu đen."
+    ]
+  },
+  {
+    "instruction": "Điều 102. Mẫu bằng của các hình thức khen thưởng và danh hiệu thi đua thuộc thẩm quyền quyết định của Chủ tịch nước, Chính phủ, Thủ tướng Chính phủ. Khoản 2. Nội dung: Điểm e) Hạng của các hình thức khen thưởng (nếu có), tên của đơn vị, cá nhân được khen thưởng: Chữ in hoa kiểu chữ đứng, đậm, màu đen; địa chỉ (hoặc chức vụ, đơn vị công tác đối với cá nhân đang công tác ở các cơ quan đơn vị hoặc cơ quan chủ quản đối với tập thể), thành tích của tập thể, cá nhân được khen thưởng; chữ in thường, phông chữ “Times New Roman”, cỡ chữ căn chỉnh cho phù hợp, kiểu chữ nghiêng, đậm, màu đen.",
+    "response": [
+      "Hạng của hình thức khen thưởng được trình bày bằng chữ in hoa nếu có.",
+      "Tên của đơn vị được khen thưởng được trình bày bằng chữ in hoa.",
+      "Tên của cá nhân được khen thưởng được trình bày bằng chữ in hoa.",
+      "Hạng của hình thức khen thưởng được trình bày theo kiểu chữ đứng và đậm.",
+      "Tên của đơn vị được khen thưởng được trình bày theo kiểu chữ đứng và đậm.",
+      "Tên của cá nhân được khen thưởng được trình bày theo kiểu chữ đứng và đậm.",
+      "Địa chỉ của đối tượng được khen thưởng được ghi trên Bằng.",
+      "Chức vụ và đơn vị công tác của cá nhân đang công tác tại các cơ quan, đơn vị được ghi trên Bằng.",
+      "Cơ quan chủ quản của tập thể được ghi trên Bằng.",
+      "Thành tích của tập thể được khen thưởng được ghi trên Bằng.",
+      "Thành tích của cá nhân được khen thưởng được ghi trên Bằng.",
+      "Các thông tin này được trình bày bằng chữ in thường.",
+      "Các thông tin này được trình bày bằng phông chữ “Times New Roman”.",
+      "Các thông tin này được trình bày với cỡ chữ được căn chỉnh cho phù hợp.",
+      "Các thông tin này được trình bày theo kiểu chữ nghiêng và đậm.",
+      "Các thông tin này được trình bày bằng màu đen."
+    ]
+  },
+  {
+    "instruction": "Điều 103. Mẫu bằng khen của bộ, ban, ngành, tỉnh, bằng khen của tổ chức chính trị, tổ chức chính trị - xã hội ở cấp tỉnh. Khoản 2. Nội dung: Điểm e) Dòng thứ tư: Ghi tính chất tặng thưởng. Ghi là “TẶNG” đối với bằng khen hoặc “TẶNG DANH HIỆU” đối với bằng chứng nhận chiến sĩ thi đua; chữ in hoa, kiểu chữ đứng, đậm, màu đen.",
+    "response": [
+      "Dòng thứ tư ghi tính chất tặng thưởng.",
+      "Tính chất tặng thưởng đối với bằng khen được ghi là “TẶNG”.",
+      "Tính chất tặng thưởng đối với bằng chứng nhận chiến sĩ thi đua được ghi là “TẶNG DANH HIỆU”.",
+      "Tính chất tặng thưởng được trình bày bằng chữ in hoa.",
+      "Tính chất tặng thưởng được trình bày theo kiểu chữ đứng và đậm.",
+      "Tính chất tặng thưởng được trình bày bằng màu đen."
+    ]
+  },
+  {
+    "instruction": "Điều 103. Mẫu bằng khen của bộ, ban, ngành, tỉnh, bằng khen của tổ chức chính trị, tổ chức chính trị - xã hội ở cấp tỉnh. Khoản 2. Nội dung: Điểm đ) Các dòng tiếp theo: Dùng để ghi tên của tập thể, cá nhân, hộ gia đình được khen thưởng; địa chỉ hoặc chức danh đơn vị công tác đối với cá nhân đang công tác ở các cơ quan đơn vị hoặc cơ quan chủ quản đối với tập thể, thành tích của tập thể, cá nhân, hộ gia đình được khen thưởng; chữ màu đen.",
+    "response": [
+      "Các dòng tiếp theo dùng để ghi tên của tập thể được khen thưởng.",
+      "Các dòng tiếp theo dùng để ghi tên của cá nhân được khen thưởng.",
+      "Các dòng tiếp theo dùng để ghi tên của hộ gia đình được khen thưởng.",
+      "Các dòng tiếp theo dùng để ghi địa chỉ của đối tượng được khen thưởng.",
+      "Các dòng tiếp theo dùng để ghi chức danh và đơn vị công tác đối với cá nhân đang công tác tại các cơ quan, đơn vị.",
+      "Các dòng tiếp theo dùng để ghi cơ quan chủ quản đối với tập thể.",
+      "Các dòng tiếp theo dùng để ghi thành tích của tập thể được khen thưởng.",
+      "Các dòng tiếp theo dùng để ghi thành tích của cá nhân được khen thưởng.",
+      "Các dòng tiếp theo dùng để ghi thành tích của hộ gia đình được khen thưởng.",
+      "Các nội dung này được trình bày bằng màu đen."
+    ]
+  },
+  {
+    "instruction": "Điều 104. Mẫu giấy khen, bằng “Chiến sĩ thi đua cơ sở” Khoản 1. Hình thức: Điểm a) Kích thước: Bằng được in trên khổ giấy A4, kích thước là 297 mm x 210 mm.",
+    "response": [
+      "Bằng được in trên khổ giấy A4.",
+      "Khổ giấy A4 có kích thước 297 mm x 210 mm."
+    ]
+  },
+  {
+    "instruction": "Điều 104. Mẫu giấy khen, bằng “Chiến sĩ thi đua cơ sở” Khoản 1. Hình thức: Điểm b) Họa tiết hoa văn trang trí xung quanh: Đường diềm được trang trí bằng các họa tiết hoa văn nhưng không được giống hoặc tương tự với hoa văn trên các bằng khen cấp Nhà nước.",
+    "response": [
+      "Đường diềm được trang trí bằng các họa tiết hoa văn.",
+      "Các họa tiết hoa văn trên đường diềm không được giống hoặc tương tự với hoa văn trên các bằng khen cấp Nhà nước."
+    ]
+  },
+  {
+    "instruction": "Điều 104. Mẫu giấy khen, bằng “Chiến sĩ thi đua cơ sở” Khoản 1. Hình thức: Điểm c) Hình nền bằng để trắng.",
+    "response": [
+      "Hình nền của Bằng để trắng."
+    ]
+  },
+  {
+    "instruction": "Điều 104. Mẫu giấy khen, bằng “Chiến sĩ thi đua cơ sở” Khoản 2. Nội dung: Điểm b) Dòng thứ ba: Ghi “chức vụ của người có thẩm quyền quyết định khen thưởng”; chữ in hoa, kiểu chữ đứng, đậm, màu đỏ.",
+    "response": [
+      "Dòng thứ ba ghi chức vụ của người có thẩm quyền quyết định khen thưởng.",
+      "Chức vụ của người có thẩm quyền quyết định khen thưởng được trình bày bằng chữ in hoa.",
+      "Chức vụ của người có thẩm quyền quyết định khen thưởng được trình bày theo kiểu chữ đứng và đậm.",
+      "Chức vụ của người có thẩm quyền quyết định khen thưởng được trình bày bằng màu đỏ."
+    ]
+  },
+  {
+    "instruction": "Điều 104. Mẫu giấy khen, bằng “Chiến sĩ thi đua cơ sở” Khoản 2. Nội dung: Điểm h) Khoảng trống để ký tên, đóng dấu, ghi họ và tên người có thẩm quyền quyết định khen thưởng.",
+    "response": [
+      "Bằng có khoảng trống để ký tên.",
+      "Bằng có khoảng trống để đóng dấu.",
+      "Bằng có khoảng trống để ghi họ và tên người có thẩm quyền quyết định khen thưởng."
+    ]
+  },
+  {
+    "instruction": "Điều 105. Mẫu Bằng kỷ niệm chương của Ủy ban Thường vụ Quốc hội, Kỷ niệm chương của bộ, ban, ngành, tỉnh; bằng chứng nhận “Gia đình văn hóa”. Kích thước được in trên khổ giấy A5, kích thước 210 mm x 148 mm. Nội dung, họa tiết hoa văn trang trí trên bằng do Ủy ban Thường vụ Quốc hội, bộ, ban, ngành, tỉnh quy định.",
+    "response": [
+      "Bằng được in trên khổ giấy A5.",
+      "Khổ giấy A5 có kích thước 210 mm x 148 mm.",
+      "Nội dung trên Bằng do Ủy ban Thường vụ Quốc hội, bộ, ban, ngành, tỉnh quy định.",
+      "Họa tiết hoa văn trang trí trên Bằng do Ủy ban Thường vụ Quốc hội, bộ, ban, ngành, tỉnh quy định."
+    ]
+  },
+  {
+    "instruction": "Điều 105. Mẫu Bằng kỷ niệm chương của Ủy ban Thường vụ Quốc hội. Khoản 1. Hình thức: Điểm b) Họa tiết hoa văn trang trí xung quanh: Đường diềm được trang trí bằng các họa tiết hoa văn không được giống hoặc tương tự với các bằng khen cấp nhà nước.",
+    "response": [
+      "Đường diềm được trang trí bằng các họa tiết hoa văn.",
+      "Các họa tiết hoa văn trên đường diềm không được giống hoặc tương tự với các bằng khen cấp nhà nước."
+    ]
+  },
+  {
+    "instruction": "Điều 105. Mẫu Bằng kỷ niệm chương của Ủy ban Thường vụ Quốc hội. Khoản 1. Hình thức: Điểm c) Hình nền bằng để trắng. Nội dung do các cơ quan, đơn vị có thẩm quyền khen thưởng quy định, bố cục, phông chữ, cỡ chữ đảm bảo tính thẩm mỹ và có các nội dung chủ yếu sau.",
+    "response": [
+      "Hình nền của Bằng để trắng.",
+      "Nội dung của Bằng do các cơ quan, đơn vị có thẩm quyền khen thưởng quy định.",
+      "Bố cục của Bằng do các cơ quan, đơn vị có thẩm quyền khen thưởng quy định.",
+      "Phông chữ của Bằng do các cơ quan, đơn vị có thẩm quyền khen thưởng quy định.",
+      "Cỡ chữ của Bằng do các cơ quan, đơn vị có thẩm quyền khen thưởng quy định.",
+      "Bố cục, phông chữ và cỡ chữ của Bằng được đảm bảo tính thẩm mỹ."
+    ]
+  },
+  {
+    "instruction": "Điều 105. Mẫu Bằng kỷ niệm chương của Ủy ban Thường vụ Quốc hội. Khoản 1. Hình thức: Điểm c) Dòng thứ tư: Ghi tính chất tặng thưởng: Ghi là “TẶNG DANH HIỆU” chữ in hoa, kiểu chữ đứng, đậm, màu đen.",
+    "response": [
+      "Dòng thứ tư ghi tính chất tặng thưởng.",
+      "Tính chất tặng thưởng được ghi là “TẶNG DANH HIỆU”.",
+      "Tính chất tặng thưởng được trình bày bằng chữ in hoa.",
+      "Tính chất tặng thưởng được trình bày theo kiểu chữ đứng và đậm.",
+      "Tính chất tặng thưởng được trình bày bằng màu đen."
+    ]
+  },
+  {
+    "instruction": "Điều 105. Mẫu Bằng kỷ niệm chương của Ủy ban Thường vụ Quốc hội. Khoản 1. Hình thức: Điểm đ) Dòng thứ năm: Ghi tên danh hiệu thi đua; chữ in hoa, kiểu chữ đứng, đậm, màu đỏ.",
+    "response": [
+      "Dòng thứ năm ghi tên danh hiệu thi đua.",
+      "Tên danh hiệu thi đua được trình bày bằng chữ in hoa.",
+      "Tên danh hiệu thi đua được trình bày theo kiểu chữ đứng và đậm.",
+      "Tên danh hiệu thi đua được trình bày bằng màu đỏ."
+    ]
+  },
+  {
+    "instruction": "Điều 105. Mẫu Bằng kỷ niệm chương của Ủy ban Thường vụ Quốc hội. Khoản 1. Hình thức: Điểm h) Khoảng trống để ký tên, đóng dấu, ghi họ và tên người có thẩm quyền quyết định khen thưởng.",
+    "response": [
+      "Bằng có khoảng trống để ký tên.",
+      "Bằng có khoảng trống để đóng dấu.",
+      "Bằng có khoảng trống để ghi họ và tên người có thẩm quyền quyết định khen thưởng."
+    ]
+  }
+]

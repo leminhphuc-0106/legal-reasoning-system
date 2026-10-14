@@ -1,0 +1,264 @@
+train_data = [
+    # ==================== CÂU 19 ====================
+    {
+        "tokenized_text": [
+            "Điều", "5", ":", "Tiêu", "chuẩn", "tặng", "danh", "hiệu",
+            "“", "Lao", "động", "tiên", "tiến", "”"
+        ],
+        "ner": [
+            [9, 12, "KHEN_THUONG"]
+        ]
+    },
+
+    # ==================== CÂU 20 ====================
+    {
+        "tokenized_text": [
+            "Khoản", "2", ":", "Danh", "hiệu", "“",
+            "Lao", "động", "tiên", "tiến", "”",
+            "để", "tặng", "hằng", "năm", "cho",
+            "công", "nhân", ",", "nông", "dân", ",",
+            "người", "lao", "động", "không", "thuộc", "đối",
+            "tượng", "quy", "định", "tại", "khoản", "1",
+            "Điều", "này", "đạt", "các", "tiêu", "chuẩn",
+            "theo", "quy", "định", "tại", "khoản", "3",
+            "Điều", "24", "Luật", "Thi", "đua", ",",
+            "khen", "thưởng", "."
+        ],
+        "ner": [
+            [6, 9, "KHEN_THUONG"],
+            [16, 24, "DOI_TUONG"],
+            [36, 40, "DIEU_KIEN"],
+            [45, 48, "CAN_CU"],
+            [49, 54, "VAN_BAN"]
+        ]
+    },
+
+    # ==================== CÂU 21 ====================
+    {
+        "tokenized_text": [
+            "Điều", "6", ":", "Đối", "tượng", ",", "tiêu", "chuẩn",
+            "tặng", "danh", "hiệu", "“",
+            "Cờ", "thi", "đua", "của", "Ủy", "ban", "nhân", "dân",
+            "thành", "phố", "”"
+        ],
+        "ner": [
+            [12, 21, "KHEN_THUONG"]
+        ]
+    },
+
+    # ==================== CÂU 22 ====================
+    {
+        "tokenized_text": [
+            "Khoản", "1", ":", "Danh", "hiệu", "“",
+            "Cờ", "thi", "đua", "của", "Ủy", "ban", "nhân", "dân",
+            "thành", "phố", "”",
+            "để", "tặng", "hằng", "năm", "cho", "các", "đối",
+            "tượng", "sau", ":"
+        ],
+        "ner": [
+            [6, 15, "KHEN_THUONG"],
+            [22, 25, "DOI_TUONG"]
+        ]
+    },
+
+    # ==================== CÂU 23 ====================
+    {
+        "tokenized_text": [
+            "Điểm", "a)", "Đơn", "vị", "dẫn", "đầu", "cụm", ",",
+            "khối", "thi", "đua", "do", "thành", "phố", "tổ", "chức"
+        ],
+        "ner": [
+            [2, 3, "DOI_TUONG"],
+            [4, 15, "DIEU_KIEN"]
+        ]
+    },
+
+    # ==================== CÂU 24 ====================
+    {
+        "tokenized_text": [
+            "Điều", "6", ":", "Đối", "tượng", ",", "tiêu", "chuẩn",
+            "tặng", "danh", "hiệu", "“",
+            "Cờ", "thi", "đua", "của", "Ủy", "ban", "nhân", "dân",
+            "thành", "phố", "”"
+        ],
+        "ner": [
+            [12, 21, "KHEN_THUONG"]
+        ]
+    },
+
+    # ==================== CÂU 25 ====================
+    {
+        "tokenized_text": [
+            "Khoản", "1", ":", "Danh", "hiệu", "“",
+            "Cờ", "thi", "đua", "của", "Ủy", "ban", "nhân", "dân",
+            "thành", "phố", "”",
+            "để", "tặng", "hằng", "năm", "cho", "các", "đối",
+            "tượng", "sau", ":"
+        ],
+        "ner": [
+            [6, 15, "KHEN_THUONG"],
+            [22, 25, "DOI_TUONG"]
+        ]
+    },
+
+    # ==================== CÂU 26 ====================
+    {
+        "tokenized_text": [
+            "Điểm", "b)", "Đơn", "vị", "dẫn", "đầu", "phong", "trào",
+            "thi", "đua", "theo", "chuyên", "đề", "do", "Chủ", "tịch",
+            "Ủy", "ban", "nhân", "dân", "thành", "phố", "phát", "động", "."
+        ],
+        "ner": [
+            [2, 3, "DOI_TUONG"],
+            [4, 23, "DIEU_KIEN"]
+        ]
+    },
+
+    # ==================== CÂU 27 ====================
+    {
+        "tokenized_text": [
+            "Điều", "6", ":", "Đối", "tượng", ",", "tiêu", "chuẩn",
+            "tặng", "danh", "hiệu", "“",
+            "Cờ", "thi", "đua", "của", "Ủy", "ban", "nhân", "dân",
+            "thành", "phố", "”"
+        ],
+        "ner": [
+            [12, 21, "KHEN_THUONG"]
+        ]
+    },
+
+    # ==================== CÂU 28 ====================
+    {
+        "tokenized_text": [
+            "Khoản", "2", ":", "Danh", "hiệu", "“",
+            "Cờ", "thi", "đua", "của", "Ủy", "ban", "nhân", "dân",
+            "thành", "phố", "”",
+            "để", "tặng", "hằng", "năm", "cho",
+            "tập", "thể", "gương", "mẫu", "chấp", "hành", "tốt",
+            "chủ", "trương", "của", "Đảng", ",", "chính", "sách", ",",
+            "pháp", "luật", "của", "Nhà", "nước",
+            "đạt", "các", "tiêu", "chuẩn",
+            "theo", "quy", "định", "tại", "khoản", "1", "Điều", "26",
+            "Luật", "Thi", "đua", ",", "khen", "thưởng",
+            "và", "các", "tiêu", "chuẩn", "sau", ":"
+        ],
+        "ner": [
+            [6, 15, "KHEN_THUONG"],
+            [22, 23, "DOI_TUONG"],
+            [24, 48, "DIEU_KIEN"],
+            [50, 53, "CAN_CU"],
+            [54, 59, "VAN_BAN"]
+        ]
+    },
+
+    # ==================== CÂU 29 ====================
+    {
+        "tokenized_text": [
+            "Điểm", "a)", "Có", "thành", "tích", "nổi", "bật",
+            "dẫn", "đầu", "được", "bình", "xét", ",", "suy", "tôn",
+            "thông", "qua", "cụm", ",", "khối", "thi", "đua", ";"
+        ],
+        "ner": [
+            [2, 21, "DIEU_KIEN"]
+        ]
+    },
+
+    # ==================== CÂU 30 ====================
+    {
+        "tokenized_text": [
+            "Điều", "6", ":", "Đối", "tượng", ",", "tiêu", "chuẩn",
+            "tặng", "danh", "hiệu", "“",
+            "Cờ", "thi", "đua", "của", "Ủy", "ban", "nhân", "dân",
+            "thành", "phố", "”"
+        ],
+        "ner": [
+            [12, 21, "KHEN_THUONG"]
+        ]
+    },
+
+    # ==================== CÂU 31 ====================
+    {
+        "tokenized_text": [
+            "Khoản", "2", ":", "Danh", "hiệu", "“",
+            "Cờ", "thi", "đua", "của", "Ủy", "ban", "nhân", "dân",
+            "thành", "phố", "”",
+            "để", "tặng", "hằng", "năm", "cho",
+            "tập", "thể", "gương", "mẫu", "chấp", "hành", "tốt",
+            "chủ", "trương", "của", "Đảng", ",", "chính", "sách", ",",
+            "pháp", "luật", "của", "Nhà", "nước",
+            "đạt", "các", "tiêu", "chuẩn",
+            "theo", "quy", "định", "tại", "khoản", "1", "Điều", "26",
+            "Luật", "Thi", "đua", ",", "khen", "thưởng",
+            "và", "các", "tiêu", "chuẩn", "sau", ":"
+        ],
+        "ner": [
+            [6, 15, "KHEN_THUONG"],
+            [22, 23, "DOI_TUONG"],
+            [24, 48, "DIEU_KIEN"],
+            [50, 53, "CAN_CU"],
+            [54, 59, "VAN_BAN"]
+        ]
+    },
+
+    # ==================== CÂU 32 ====================
+    {
+        "tokenized_text": [
+            "Điểm", "b)", "Tổ", "chức", "đảng", ",", "đoàn", "thể",
+            "(", "nếu", "có", ")", "được", "đánh", "giá", ",", "xếp",
+            "loại", "hoàn", "thành", "tốt", "nhiệm", "vụ", "trở", "lên", ";"
+        ],
+        "ner": [
+            [2, 7, "DOI_TUONG"],
+            [12, 24, "DIEU_KIEN"]
+        ]
+    },
+
+    # ==================== CÂU 33 ====================
+    {
+        "tokenized_text": [
+            "Điều", "6", ":", "Đối", "tượng", ",", "tiêu", "chuẩn",
+            "tặng", "danh", "hiệu", "“",
+            "Cờ", "thi", "đua", "của", "Ủy", "ban", "nhân", "dân",
+            "thành", "phố", "”"
+        ],
+        "ner": [
+            [12, 21, "KHEN_THUONG"]
+        ]
+    },
+
+    # ==================== CÂU 34 ====================
+    {
+        "tokenized_text": [
+            "Khoản", "2", ":", "Danh", "hiệu", "“",
+            "Cờ", "thi", "đua", "của", "Ủy", "ban", "nhân", "dân",
+            "thành", "phố", "”",
+            "để", "tặng", "hằng", "năm", "cho",
+            "tập", "thể", "gương", "mẫu", "chấp", "hành", "tốt",
+            "chủ", "trương", "của", "Đảng", ",", "chính", "sách", ",",
+            "pháp", "luật", "của", "Nhà", "nước",
+            "đạt", "các", "tiêu", "chuẩn",
+            "theo", "quy", "định", "tại", "khoản", "1", "Điều", "26",
+            "Luật", "Thi", "đua", ",", "khen", "thưởng",
+            "và", "các", "tiêu", "chuẩn", "sau", ":"
+        ],
+        "ner": [
+            [6, 15, "KHEN_THUONG"],
+            [22, 23, "DOI_TUONG"],
+            [24, 48, "DIEU_KIEN"],
+            [50, 53, "CAN_CU"],
+            [54, 59, "VAN_BAN"]
+        ]
+    },
+
+    # ==================== CÂU 35 ====================
+    {
+        "tokenized_text": [
+            "Điểm", "c)", "Được", "cấp", "có", "thẩm", "quyền", "đánh",
+            "giá", ",", "xếp", "loại", "cơ", "quan", ",", "đơn", "vị",
+            "hoàn", "thành", "xuất", "sắc", "nhiệm", "vụ", ";"
+        ],
+        "ner": [
+            [2, 23, "DIEU_KIEN"]
+        ]
+    }
+]

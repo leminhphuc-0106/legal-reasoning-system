@@ -1,0 +1,1280 @@
+
+
+__label__KEEP Tiêu chuẩn tặng danh hiệu “Lao động tiên tiến” Danh hiệu “Lao động tiên tiến” để tặng hằng năm cho viên chức, người lao động đạt các tiêu chuẩn sau đây:
+__label__KEEP Tiêu chuẩn tặng danh hiệu “Chiến sĩ thi đua cơ sở” Danh hiệu "Chiến sĩ thi đua cơ sở" để tặng hằng năm cho viên chức, người lao động tiêu biểu được lựa chọn trong số những cá nhân đạt các tiêu chuân sau đây:
+__label__KEEP Tiêu chuẩn tặng danh hiệu “Chiến sĩ thi đua thành phố Danh hiệu "Chiến sĩ thi đua thành phó" để tặng cho viên chức, người lao động đạt các tiêu chuẩn sau đây:
+__label__KEEP Tiêu chuẩn tặng danh hiệu “Chiến sĩ thi đua toàn quốc” Danh hiệu "Chiến sĩ thi đua toàn quốc" để tặng cho viên chức, người lao động đạt các tiêu chuẩn sau đây:
+__label__KEEP Tiêu chuẩn tặng danh hiệu “Tập thể lao động xuất sắc”
+__label__KEEP Tiêu chuẩn tặng danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố” Danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố” để tặng hằng năm cho tập thể gương mẫu chấp hành tốt chủ trương của Đảng, chính sách, pháp luật của Nhà nước đạt các tiêu chuẩn theo quy định tại khoản 1 Điều 26 Luật Thi đua, khen thưởng và các tiêu chuẩn sau:
+__label__KEEP Tiêu chuẩn tặng Giấy khen của Hiệu trưởng
+__label__KEEP Tiêu chuẩn tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố
+__label__KEEP Tiêu chuẩn tặng “Bằng khen của Thủ tướng Chính phủ”
+__label__KEEP Tiêu chuẩn tặng “Huân chương lao động hạng II” 
+__label__KEEP Tiêu chuẩn tặng “Huân chương lao động hạng II” 
+__label__KEEP Tiêu chuẩn tặng “Huân chương lao động hạng I° 
+__label__KEEP Về công nhận hiệu quả áp dụng, khả năng nhân rộng của sáng kiến; hiệu quả áp dụng, phạm vi ảnh hưởng của đề tài khoa học, đề án khoa học, công trình khoa học và công nghệ để làm căn cứ xét tặng danh hiệu thi đua, hình thức khen thưởng
+
+__label__KEEP Quy định chung về khen thưởng quá trình cống hiến
+
+__label__KEEP Quy định chức danh tương đương để xét khen thưởng quá trình cống hiến
+
+__label__KEEP Danh hiệu xã, phường, đặc khu tiêu biểu Danh hiệu xã, phường, đặc khu tiêu biểu được xét tặng hằng năm cho xã, phường, đặc khu tiêu biểu dẫn đầu phong trào thi đua cấp tỉnh và đạt các tiêu chuẩn tại khoản 1 Điều 29 của Luật Thi đua, khen thưởng.
+__label__KEEP “Cờ thi đua của Chính phủ”
+__label__KEEP ĐỐI TƯỢNG, TIÊU CHUẨN KHEN THƯỞNG QUÁ TRÌNH CỐNG HIẾN VÀ KHEN THƯỞNG THÀNH TÍCH CAO
+
+
+
+__label__DROP Phạm vi điều chỉnh Quyết định này quy định về nguyên tắc, đối tượng, tiêu chuẩn xét danh hiệu thi đua, hình thức khen thưởng; thủ tục, hồ sơ đề nghị khen thưởng; quỹ thi đua, khen thưởng trong tô chức thực hiện công tác thi đua, khen thưởng của Trường Đại học Kỹ thuật - Công nghệ Cần Thơ.
+
+__label__DROP Đối tượng áp dụng Quyết định này áp dụng đối với tập thể, cá nhân viên chức, người lao động có thành tích trong tham gia các phong trào thi đua hoặc có đóng góp cho sự nghiệp xây dựng và phát triển Trường Đại học Kỹ thuật - Công nghệ Cần Thơ và thành phố Cần Thơ.
+
+__label__DROP Giải thích từ ngữ Trong Quyết định này, các từ ngữ dưới đây được hiểu như sau:
+
+__label__DROP Nguyên tắc thi đua, khen thưởng Trong công tác thi đua, khen thưởng cần phải đảm bảo thực hiện theo quy định tại Điều 5 của Luật Thi đua, khen thưởng, Điều 4 của Nghị định số 98/2023/NĐ- CP ngày 31 tháng 12 năm 2023 của Chính phủ quy định chỉ tiết thi hành một số điều của Luật Thi đua, khen thưởng, Điều 1, khoản 2 Điều 5 của Thông tư số 01/2024/TT- BNV ngày 24 tháng 02 năm 2024 của Bộ trưởng Bộ Nội vụ quy định biện pháp thi hành Luật Thi đua, khen thưởng và Nghị định số 08/2023/NĐ-CP ngày 31 tháng 12 năm 2023 của Chính phủ quy định chỉ tiết thi hành một số điều của Luật Thi đua, khen thưởng.
+__label__DROP Tiền thưởng và hồ sơ đề nghị xét tặng danh hiệu thi đua, hình thức khen thưởng
+
+__label__DROP Điều khoản thi hành
+
+
+__label__DROP Điều 1: Phạm vi điều chỉnh Nghị định này quy định các nội dụng phân quyền theo quy định tại khoản 2 Điều 12, khoản 2 Điều 14, khoản 3 Điều 81, khoản 7 Điều 83, khoản 2 Điều 85, khoản 3 Điều 96 của Luật Thi đua, khen thưởng; quy định các nội dung phân cấp theo quy định tại khoản 2 Điều 12, khoản 7 Điều 84, khoản 5 Điều 90, khoản 9 Điều 93 của Luật Thi đua, khen thưởng; quy định chỉ tiết và hướng dẫn thi hành khoản 5 Điều 11; khoản 4 Điều 25; khoản 1 Điều 29; khoản 7 Điều 34; khoản 6 Điều 35; khoản 5 Điều 36; khoản 5 Điều 37; khoản 5 Điều 38; khoản 4 Điều 39; khoản 4 Điều 40; khoản 4 Điều 41; khoản 7 Điều 42; khoản 7 Điều 43; khoản 7 Điều 44; khoản 3 Điều 45; khoản 3 Điều 46; khoản 3 Điều 47; khoản 2 Điều 51; khoản 2 Điều 53; điểm c và điểm d khoản 2 Điều 73; khoản 5 Điều 79; khoản 3 Điều 82; khoản 7 Điều 84; khoản 5 Điều 90; khoản 9 Điều 93 của Luật Thị đua, khen thưởng (sau đây gọi chung là Nghị định).
+__label__DROP Điều 2: Đối tượng áp dụng Nghị định này áp dụng đối với cá nhân người Việt Nam, các cơ quan nhà nước, tô chức chính trị, tô chức chính trị - xã hội, tổ chức chính trị - xã hội - nghề nghiệp, tô chức xã hội, tổ chức xã hội - nghề nghiệp, doanh nghiệp, tổ chức kinh tế khác, đơn vị lực lượng vũ trang nhân dân, hộ gia đình; cá nhân, tập thê người Việt Nam định cư ở nước ngoài; cá nhân, tập thể người nước ngoài; cơ quan, tổ chức nước ngoài và các tổ chức quốc tế ở Việt Nam.
+__label__DROP Giải thích từ ngữ Trong Nghị định này, các từ ngữ dưới đây được hiệu như sau:-
+__label__DROP Nguyên tắc xét danh hiệu thi đua và hình thức khen thưởng
+__label__DROP Nguyên tắc phân cấp, phân quyền
+__label__DROP Phân cấp, phân quyền cụ thể nhiệm vụ, quyền hạn quản lý nhà nước về thi đua, khen thưởng
+
+
+
+__label__DROP Phạm vi điều chỉnh Luật này quy định về đối tượng, phạm vi, nguyên tác, hình thức, tiêu chuẩn, thâm quyên, trình tự và thủ tục thi đua, khen thưởng.
+__label__DROP Đối tượng áp dụng Luật này áp dụng đối với cá nhân, tập thể, hộ gia đình người Việt Nam; cá nhân, tập thê người Việt Nam định cư ở nước ngoài; cá nhân, tập thê người nước ngoài.
+__label__DROP Giải thích từ ngữ Trong Luật này, các từ ngữ dưới đây được hiểu như sau:
+__label__DROP Mục tiêu của thi đua, khen thưởng
+__label__DROP Nguyên tắc thi đua, khen thưởng
+__label__KEEP Danh hiệu thi đua
+__label__KEEP Căn cứ xét tặng danh hiệu thi đua
+__label__KEEP Các loại hình khen thưởng
+__label__KEEP Hình thức khen thưởng. Huân chương. Huy chương. Danh hiệu vinh dự nhà nước. “Giải thưởng Hồ Chí Minh”, “Giải thưởng Nhà nước”. Kỷ niệm chương. Bằng khen. Giấy khen.
+__label__KEEP Căn cứ xét khen thưởng
+__label__DROP Quỹ thi đua, khen thưởng
+__label__DROP Hiện vật khen thưởng
+__label__DROP Trách nhiệm của cơ quan, tổ chức, đơn vị trong công tác thi đua, khen thưởng
+__label__DROP Trách nhiệm của cá nhân, tổ chức Việt Nam khi nhận hình thức khen thưởng của cá nhân, tổ chức nước ngoài
+
+
+__label__DROP Hành vi bị nghiêm cấm trong thi đua, khen thưởng
+__label__DROP Hình thức, phạm vi tổ chức thi đua
+__label__DROP Nội dung tổ chức phong trào thi đua
+__label__DROP Thẩm quyền phát động, chỉ đạo phong trào thi đua
+__label__KEEP Danh hiệu thi đua đối với cá nhân
+__label__KEEP Danh hiệu thi đua đối với tập thể, hộ gia đình
+__label__KEEP Danh hiệu “Chiến sĩ thi đua toàn quốc”
+__label__KEEP Danh hiệu chiến sĩ thi đua Bộ, ban, ngành, tỉnh
+__label__KEEP Danh hiệu “Chiến sĩ thi đua cơ sở” Danh hiệu “Chiến sĩ thi đua cơ sở” để tặng cho cá nhân đạt các tiêu chuẩn sau đây:
+__label__KEEP Danh hiệu “Lao động tiên tiến”, “Chiến sĩ tiên tiến”
+__label__KEEP Danh hiệu “Cờ thi đua của Chính phủ” quy định tại khoản 3 Điều này.
+__label__KEEP Danh hiệu cờ thi đua của Bộ, ban, ngành, tỉnh
+__label__KEEP Danh hiệu “Tập thể lao động xuất sắc”, “Đơn vị quyết thắng”
+__label__KEEP Danh hiệu “Tập thể lao động tiên tiến”, “Đơn vị tiên tiến”
+__label__KEEP Danh hiệu xã, phường, thị trấn tiêu biểu
+
+
+__label__KEEP Danh hiệu thôn, tổ dân phố văn hóa
+__label__KEEP Danh hiệu “Gia đình văn hóa”
+__label__KEEP Các danh hiệu thi đua khác
+__label__KEEP Huân chương
+__label__KEEP “Huân chương Sao vàng”
+__label__KEEP “Huân chương Hồ Chí Minh”
+__label__KEEP “Huân chương Độc lập” hạng Nhất An*”
+__label__KEEP “Huân chương Độc lập” hạng Nhì An”
+__label__KEEP “Huân chương Độc lập” hạng Ba An”?
+__label__KEEP “Huân chương Quân công” hạng Nhất
+__label__KEEP “Huân chương Quân công” hạng Nhì
+__label__KEEP “Huân chương Quân công” hạng Ba
+__label__KEEP “Huân chương Lao động” hạng Nhất
+__label__KEEP “Huân chương Lao động” hạng Nhì 1.“Huân chương Lao động” hạng Nhì để tặng hoặc truy tặng cho cá nhân chấp hành tốt chủ trương của Đảng, chính sách, pháp luật của Nhà nước và đạt một trong các tiêu chuẩn sau đây: a) Lập được thành tích xuất sắc đột xuất trong lao động, công tác, sản xuất, kinh doanh, học tập và nghiên cứu khoa học hoặc lĩnh vực khác, có phạm vi ảnh hưởng và nêu gương trong Bộ, ban, ngành, tỉnh; b) Được giải thưởng quốc tế cao nhất của khu vực; c) Có phát minh, sáng chế được ứng dụng mang lại hiệu quả cao, có phạm vi ảnh hưởng và nêu gương trong Bộ, ban, ngành, tỉnh hoặc có công trình khoa học và công nghệ hoặc tác phẩm xuất sắc tiêu biểu cấp Bộ, ban, ngành, tỉnh; đ) Có đóng góp lớn vào sự phát triển kinh tế - xã hội của đất nước, bảo đảm an sinh xã hội, từ thiện nhân đạo, ứng dụng tiễn bộ khoa học, kỹ thuật; đ) Đã được tặng “Huân chương Lao động” hạng Ba và sau đó có liên tục từ 05 năm trở lên được công nhận hoàn thành tốt nhiệm vụ trở lên, trong thời gian đó có từ 02 năm trở lên được công nhận hoàn thành xuất sắc nhiệm vụ và có 01 lần được tặng danh hiệu chiến sĩ thi đua Bộ, ban, ngành, tỉnh; e) Có quá trình cống hiến lâu dài trong cơ quan, tổ chức, đơn vị.
+__label__KEEP “Huân chương Lao động” hạng Ba
+__label__KEEP “Huân chương Bảo vệ Tổ quốc” hạng Nhất
+
+
+__label__KEEP “Huân chương Bảo vệ Tổ quốc” hạng Nhì
+__label__KEEP “Huân chương Bảo vệ Tổ quốc” hạng Ba
+__label__KEEP “Huân chương Chiến công” hạng Nhất
+__label__KEEP “Huân chương Chiến công” hạng Nhì
+__label__KEEP “Huân chương Chiến công” hạng Ba
+__label__KEEP “Huân chương Đại đoàn kết dân tộc”
+__label__KEEP “Huân chương Dũng cảm” “Huân chương Dũng cảm” để tặng hoặc truy tặng cho cá nhân có hành động dũng cảm khi cứu người, cứu tài sản của Nhà nước, của Nhân dân trong thảm họa, thiên tai, dịch bệnh, tai nạn, cháy, nổ, đấu tranh phòng, chống tội phạm hoặc dũng cảm xung phong vào nơi nguy hiểm nhằm bảo vệ tính mạng của người dân và thành tích đạt được có tác dụng động viên, giáo dục, nêu gương trong phạm vi quản lý của Bộ, ban, ngành, tỉnh hoặc toàn quốc.
+__label__KEEP “Huân chương Hữu nghị”
+__label__KEEP Huy chương
+__label__KEEP “Huy chương Quân kỳ quyết thắng” “Huy chương Quân kỳ quyết thắng” để tặng hoặc truy tặng cho quân nhân, công nhân, công chức, viên chức quốc phòng thuộc Quân đội nhân dân có quá trình công tác liên tục từ 25 năm trở lên, hoàn thành tốt nhiệm vụ được giao.
+__label__KEEP “Huy chương Vì an ninh Tổ quốc” “Huy chương Vì an ninh Tổ quốc” để tặng hoặc truy tặng cho sĩ quan, hạ sĩ quan, chiến sĩ, công nhân làm việc trong cơ quan, đơn vị thuộc Công an nhân dân có quá trình công tác liên tục từ 25 năm trở lên, hoàn thành tốt nhiệm vụ được giao.
+__label__KEEP “Huy chương Chiến sĩ vẻ vang”
+
+
+__label__KEEP Huy chương Hữu nghị
+__label__KEEP Danh hiệu vinh dự nhà nước
+__label__KEEP Danh hiệu “Tỉnh Anh hùng”, “Thành phố Anh hùng” Danh hiệu “Tỉnh Anh hùng”, “Thành phố Anh hùng” để tặng cho tỉnh, thành phố trực thuộc Trung ương đạt các tiêu chuẩn sau đây:
+__label__KEEP Danh hiệu “Bà mẹ Việt Nam anh hùng”
+__label__KEEP Danh hiệu “Anh hùng Lực lượng vũ trang nhân dân”
+__label__KEEP Danh hiệu “Anh hùng Lao động”
+__label__KEEP Danh hiệu “Nhà giáo nhân dân”, “Nhà giáo ưu tú”
+__label__KEEP Danh hiệu “Thầy thuốc nhân dân”, “Thầy thuốc ưu tú”
+__label__KEEP Danh hiệu “Nghệ sĩ nhân dân”, “Nghệ sĩ ưu tú”
+__label__KEEP Danh hiệu “Nghệ nhân nhân dân”, “Nghệ nhân ưu tú”
+__label__KEEP “Giải thưởng Hồ Chí Minh”, “Giải thưởng Nhà nước” “Giải thưởng Hồ Chí Minh”, “Giải thưởng Nhà nước” để tặng hoặc truy tặng cho cá nhân trung thành với Tổ quốc, chấp hành tốt chủ trương của Đảng, chính sách, pháp luật của Nhà nước, là tác giả hoặc đồng tác giả của một hoặc nhiều công trình, tác phẩm đáp ứng tiêu chuẩn quy định tại Điều 69 và Điều 70 của Luật này và đã được công bố, sử dụng kể từ ngày 02 tháng 9 năm 1945, bao gồm: a) Công trình khoa học và công nghệ, giáo dục; b) Tác phẩm văn học, nghệ thuật, công trình nghiên cứu lý luận phê bình dưới các hình thức xuất bản, kiến trúc, triển lãm, sân khấu, điện ảnh, phát thanh, truyền hình, giảng dạy, đĩa hát hoặc các hình thức khác.
+__label__KEEP “Giải thưởng Hồ Chí Minh”
+__label__KEEP “Giải thưởng Nhà nước”
+__label__KEEP Kỷ niệm chương
+__label__KEEP Bằng khen
+__label__KEEP “Bằng khen của Thủ tướng Chính phủ”
+__label__KEEP Bằng khen của Bộ, ban, ngành, tỉnh
+__label__KEEP Giấy khen
+__label__KEEP Hình thức bằng khen, giấy khen khác
+
+
+__label__DROP Thẩm quyền của Chủ tịch nước Chủ tịch nước quyết định tặng huân chương, huy chương, “Giải thưởng Hồ Chí Minh”, “Giải thưởng Nhà nước”, danh hiệu vinh dự nhà nước.
+__label__DROP Thẩm quyền của Chính phủ, Thủ tướng Chính phủ
+__label__DROP Thẩm quyền của Ủy ban Thường vụ Quốc hội, Bộ trưởng, Thủ trưởng các Bộ, ban, ngành, Chủ tịch Ủy ban nhân dân cấp tỉnh
+__label__DROP Thẩm quyền của Thủ trưởng, người đứng đầu cơ quan, tổ chức, đơn vị có tư cách pháp nhân thuộc Bộ, ban, ngành, tỉnh, Ủy ban nhân dân cấp huyện, Ủy ban nhân dân cấp xã và các cơ quan, tổ chức, đơn vị khác
+__label__DROP Thẩm quyền của cơ quan, tổ chức, cá nhân đối với các hình thức khen thưởng khác
+__label__DROP Thẩm quyền trao tặng
+__label__DROP Thẩm quyền đề nghị xét tặng danh hiệu thi đua, hình thức khen thưởng
+__label__DROP Hồ sơ đề nghị xét tặng danh hiệu thi đua và hình thức khen thưởng
+__label__DROP Khen thưởng theo thủ tục đơn giản
+__label__DROP Quyền của cá nhân, tập thể, hộ gia đình
+__label__DROP Nghĩa vụ của cá nhân, tập thể, hộ gia đình
+__label__DROP Trách nhiệm của Ủy ban Thường vụ Quốc hội Ủy ban Thường vụ Quốc hội quy định việc thi đua, khen thưởng đối với đại biểu Quốc hội, các cơ quan của Quốc hội, các cơ quan thuộc Ủy ban Thường vụ Quốc hội và cán bộ, công chức thuộc thẩm quyền quản lý của Ủy ban Thường vụ Quốc hội.
+__label__DROP Quản lý nhà nước về thi đua, khen thưởng
+__label__DROP Hội đồng Thi đua - Khen thưởng
+__label__DROP Trách nhiệm của Tòa án nhân dân tối cao, Viện kiểm sát nhân dân tối cao, Kiểm toán nhà nước Tòa án nhân dân tối cao, Viện kiểm sát nhân dân tối cao, Kiểm toán nhà nước căn cứ vào quy định của Luật này và các quy định khác của pháp luật có liên quan thực hiện quản lý công tác thi đua, khen thưởng trong phạm vi ngành.
+__label__DROP Trách nhiệm của tổ chức chính trị, tổ chức chính trị - xã hội, tổ chức chính trị xã hội - nghề nghiệp, tổ chức xã hội, tổ chức xã hội - nghề nghiệp Tổ chức chính trị, tổ chức chính trị - xã hội, tổ chức chính trị xã hội - nghề nghiệp, tổ chức xã hội, tổ chức xã hội - nghề nghiệp căn cứ vào quy định của Luật này và các quy định khác của pháp luật có liên quan thực hiện quản lý công tác thi đua, khen thưởng trong phạm vi tổ chức.
+__label__DROP Xử lý vi phạm về thi đua, khen thưởng
+
+__label__DROP Hiệu lực thi hành
+__label__DROP Điều khoản chuyển tiếp Nhà nước tiếp tục công nhận và bảo hộ danh hiệu thi đua, hình thức khen thưởng đã được tặng hoặc truy tặng trước ngày Luật này có hiệu lực thi hành; các chế độ, quyền lợi kèm theo danh hiệu thi đua, hình thức khen thưởng được tiếp tục thực hiện theo quy định của pháp luật.
+__label__KEEP Khen thưởng tổng kết thành tích kháng chiến Kể từ ngày Luật này có hiệu lực thi hành, việc khen thưởng tổng kết thành tích kháng chiến được thực hiện như sau:
+
+
+__label__DROP Phạm vi điều chỉnh Quyết định này quy định chỉ tiết khoản 4 và khoản 6 Điều 24, khoản 3 Điêu 26, khoản 3 Điều 27, khoản 3 Điêu 28, khoản 6 Điêu 74, khoản 2 Điêu 75 và khoản 6 Điêu 84 của Luật sô 06/2022/QH15 ngày 15 tháng 6 năm 2022 của Quôc hội vê Thi đua, khen thưởng.
+__label__DROP Đối tượng áp dụng Quyết định này áp dụng đối với cá nhân, tập thể, hộ gia đình người Việt Nam; cá nhân, tập thể người Việt Nam định cư ở nước ngoài; cá nhân, tập thể người nước ngoài có thành tích trong tham gia phong trào thi đua của thành phố hoặc có đóng góp cho sự nghiệp xây dựng và phát triển kinh tế, xã hội, quốc phòng, an ninh trên địa bàn thành phố Cần Thơ.
+__label__DROP Giải thích từ ngữ Trong Quyết định này, các từ ngữ dưới đây được hiểu như sau:
+__label__DROP Quy định chung về thi đua, khen thưởng Trong công tác thi đua, khen thưởng cần phải đảm bảo thực hiện theo quy định tại Điều 5 của Luật Thi đua, khen thưởng, Điều 4 của Nghị định số 98/2023/NĐ-CP ngày 31 tháng 12 năm 2023 của Chính phủ quy định chi tiết thi hành một số điều của Luật Thi đua, khen thưởng, Điều 1, khoản 2 Điều 5 của Thông tư số 01/2024/TT-BNV ngày 24 tháng 02 năm 2024 của Bộ trưởng Bộ Nội vụ quy định biện pháp thi hành Luật Thi đua, khen thưởng và Nghị định số 98/2023/NĐ-CP ngày 31 tháng 12 năm 2023 của Chính phủ quy định chi tiết thi hành một số điều của Luật Thi đua, khen thưởng và các nguyên tắc sau: 1. Không xem xét khen thưởng hoặc không đề nghị cấp trên khen thưởng đối với tập thể, cá nhân đạt giải cao tại các hội thi từ cấp khu vực trở lên nhưng chưa được cơ quan có thẩm quyền thống nhất bằng văn bản cho tham gia hội thi.
+__label__KEEP Tiêu chuẩn tặng danh hiệu “Lao động tiên tiến”
+__label__KEEP Đối tượng, tiêu chuẩn tặng danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố”
+__label__KEEP Đối tượng, tiêu chuẩn tặng danh hiệu “Tập thể lao động xuất sắc”
+__label__KEEP Đối tượng, tiêu chuẩn tặng danh hiệu “Tập thể lao động tiên tiến”
+__label__KEEP Tiêu chuẩn tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố Bằng khen của Chủ tịch Ủy ban nhân dân thành phố để tặng hoặc truy tặng cho cá nhân, xét tặng cho tập thể, hộ gia đình gương mẫu chấp hành tốt chủ trương của Đảng, chính sách, pháp luật của Nhà nước và đạt một trong các tiêu chuẩn sau:
+__label__KEEP Tiêu chuẩn tặng Giấy khen 1; Giấy khen để tặng hoặc truy tặng cho cá nhân, xét tặng cho tập thể gương mẫu chấp hành tốt chủ trương của Đảng, chính sách pháp luật của Nhà nước và đạt một trong các tiêu chuẩn sau: a) Hoàn thành tốt nhiệm vụ hằng năm trở lên; b) Có thành tích xuất sắc được bình xét trong các phong trào thi đua, chuyên đề do cơ quan cấp thành phố, Ủy ban nhân dân cấp huyện, Ủy ban nhân dân cấp xã, doanh nghiệp và tổ chức kinh tế khác phát động; c) Lập được thành tích đột xuất có ảnh hưởng ở một trong các lĩnh vực thuộc phạm vi quản lý của cơ quan cấp thành phố, Ủy ban nhân dân cấp huyện, Ủy ban nhân dân cấp xã, doanh nghiệp và tổ chức kinh tế khác; d) Có đóng góp vào sự nghiệp xây dựng và phát triển kinh tế - xã hội, ứng dụng tiến bộ khoa học kỹ thuật, công tác an sinh xã hội, từ thiện nhân đạo của cơ quan, đơn vị, địa phương.
+__label__DROP Tiền thưởng và hồ sơ đề nghị xét tặng danh hiệu thi đua, hình thức khen thưởng
+__label__DROP Điều khoản thi hành
+
+
+__label__KEEP Tiêu chuẩn xét tặng danh hiệu “Chiến sĩ thi đua cơ sở”
+__label__KEEP Đối tượng và tiêu chuẩn xét tặng danh hiệu “Chiến sĩ thi đua toàn quốc”
+__label__KEEP Tiêu chuẩn xét tặng danh hiệu “Anh hùng Lao động”
+__label__KEEP Đối tượng và tiêu chuẩn xét tặng danh hiệu “Anh hùng Lực lượng vũ trang nhân dân”
+__label__KEEP Tiêu chuẩn xét tặng Bằng khen của Thủ tướng Chính phủ
+__label__KEEP Tiêu chuẩn xét tặng Huân chương Lao động
+__label__KEEP Tiêu chuẩn khen thưởng đối với cá nhân có thành tích xuất sắc trong phong trào thi đua
+__label__KEEP Tiêu chuẩn khen thưởng đối với tập thể có thành tích xuất sắc trong thực hiện nhiệm vụ
+__label__KEEP Điều kiện xét tặng danh hiệu thi đua đối với cá nhân
+__label__KEEP Điều kiện xét tặng danh hiệu thi đua đối với tập thể
+
+__label__DROP Nguyên tắc tổ chức phong trào thi đua và xét khen thưởng
+__label__DROP Đối tượng áp dụng trong công tác thi đua, khen thưởng
+__label__DROP Trách nhiệm của cơ quan, đơn vị trong công tác thi đua, khen thưởng
+__label__DROP Thẩm quyền quyết định và trao tặng các danh hiệu thi đua, hình thức khen thưởng
+__label__DROP Quy trình lập hồ sơ đề nghị xét tặng danh hiệu thi đua
+__label__DROP Thành phần hồ sơ đề nghị xét tặng các hình thức khen thưởng
+__label__DROP Thời gian và trình tự tổ chức xét duyệt hồ sơ khen thưởng
+__label__DROP Kinh phí phục vụ công tác thi đua, khen thưởng
+__label__DROP Chế độ báo cáo và lưu trữ hồ sơ thi đua, khen thưởng
+__label__DROP Tổ chức thực hiện và điều khoản chuyển tiếp trong công tác thi đua, khen thưởng
+
+
+__label__KEEP Tiêu chuẩn xét tặng danh hiệu “Chiến sĩ thi đua cơ sở”
+__label__KEEP Đối tượng và tiêu chuẩn xét tặng danh hiệu “Chiến sĩ thi đua cấp tỉnh”
+__label__KEEP Tiêu chuẩn xét tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố
+__label__KEEP Điều kiện xét tặng danh hiệu “Lao động tiên tiến”
+__label__KEEP Tiêu chuẩn xét khen thưởng đối với cá nhân có thành tích xuất sắc trong phong trào thi đua
+__label__KEEP Tiêu chuẩn xét khen thưởng đối với tập thể có thành tích xuất sắc
+__label__KEEP Đối tượng và tiêu chuẩn xét tặng Giấy khen
+__label__KEEP Tiêu chuẩn xét tặng danh hiệu “Tập thể lao động xuất sắc”
+__label__KEEP Xét tặng danh hiệu thi đua và hình thức khen thưởng đối với cá nhân
+__label__KEEP Xét khen thưởng đối với tập thể có thành tích trong thực hiện nhiệm vụ
+
+__label__DROP Nguyên tắc tổ chức và hoạt động của Hội đồng Thi đua - Khen thưởng
+__label__DROP Quy định về trách nhiệm của cơ quan, đơn vị trong công tác thi đua, khen thưởng
+__label__DROP Thẩm quyền của các cơ quan, tổ chức trong quản lý nhà nước về thi đua, khen thưởng
+__label__DROP Quy định về tổ chức phong trào thi đua trên địa bàn thành phố
+__label__DROP Quy định chung về công tác thi đua, khen thưởng
+__label__DROP Trách nhiệm của người đứng đầu cơ quan, đơn vị trong công tác thi đua
+__label__DROP Quy định về việc phát động và tổ chức phong trào thi đua
+__label__DROP Kinh phí tổ chức các hoạt động thi đua, khen thưởng
+__label__DROP Quy định về chế độ làm việc của Hội đồng Thi đua - Khen thưởng
+__label__DROP Điều khoản chuyển tiếp trong thực hiện công tác thi đua, khen thưởng
+
+
+
+
+__label__KEEP Danh hiệu “Chiến sĩ thi đua toàn quốc” Danh hiệu “Chiến sĩ thi đua toàn quốc” được xét tặng cho cá nhân có thành tích tiêu biểu xuất sắc trong số những cá nhân có hai lần liên tục đạt danh hiệu “Chiến sĩ thi đua cấp bộ, ban, ngành, tỉnh”
+__label__KEEP Danh hiệu “Chiến sĩ thi đua cấp bộ, ban, ngành, tỉnh”
+__label__KEEP Danh hiệu “Chiến sĩ thi đua cơ sở” Danh hiệu “Chiến sĩ thi đua cơ sở” được xét tặng hằng năm cho cá nhân đạt các tiêu chuẩn theo quy định
+__label__KEEP Danh hiệu “Lao động tiên tiến”, “Chiến sĩ tiên tiến”
+__label__KEEP Danh hiệu “Tập thể lao động tiên tiến”, “Đơn vị tiên tiến”
+__label__KEEP Danh hiệu “Tập thể lao động xuất sắc”, “Đơn vị quyết thắng”
+__label__KEEP Danh hiệu “Cờ thi đua của Chính phủ” Cờ thi đua của Chính phủ được xét tặng cho tập thể dẫn đầu phong trào thi đua trong từng lĩnh vực, đáp ứng các tiêu chuẩn theo quy định
+__label__KEEP Cờ thi đua của bộ, ban, ngành, tỉnh
+__label__KEEP Danh hiệu vinh dự nhà nước
+__label__KEEP Huân chương và huy chương Huân chương, huy chương được trao tặng cho cá nhân, tập thể có thành tích, công lao hoặc quá trình cống hiến đáp ứng tiêu chuẩn theo quy định của pháp luật
+
+__label__DROP Trình tự, thủ tục trình cấp có thẩm quyền quyết định tặng danh hiệu vinh dự nhà nước
+__label__DROP Hồ sơ đề nghị xét tặng danh hiệu vinh dự nhà nước
+__label__DROP Quy trình xét duyệt hồ sơ đề nghị tặng huân chương, huy chương
+__label__DROP Thẩm quyền quyết định tặng “Chiến sĩ thi đua toàn quốc”
+__label__DROP Trình tự trao tặng và đón nhận các danh hiệu thi đua, hình thức khen thưởng
+__label__DROP Quy định về việc công bố quyết định tặng huân chương, huy chương và danh hiệu vinh dự nhà nước
+__label__DROP Tuyến trình khen thưởng đối với các danh hiệu thi đua và hình thức khen thưởng
+__label__DROP Quy định về tiếp nhận và thẩm định hồ sơ đề nghị khen thưởng
+__label__DROP Hội đồng xét tặng danh hiệu thi đua và hình thức khen thưởng
+__label__DROP Lưu trữ hồ sơ, tài liệu liên quan đến việc xét tặng danh hiệu thi đua và hình thức khen thưởng
+
+__label__KEEP Điều kiện công nhận danh hiệu “Chiến sĩ thi đua cơ sở” Danh hiệu được trao hằng năm cho cá nhân hoàn thành tốt nhiệm vụ và đáp ứng các yêu cầu về thành tích theo quy định.
+
+__label__KEEP Tiêu chuẩn đạt danh hiệu “Chiến sĩ thi đua cấp bộ, ngành, tỉnh” Cá nhân được xem xét công nhận khi có thành tích nổi bật và đáp ứng đầy đủ các tiêu chuẩn theo quy định.
+
+__label__KEEP Tiêu chí xét danh hiệu “Lao động tiên tiến” Danh hiệu dành cho cá nhân hoàn thành nhiệm vụ được giao, có ý thức chấp hành tốt các quy định và đạt điều kiện theo quy định.
+
+__label__KEEP Đối tượng được xét tặng danh hiệu “Tập thể lao động xuất sắc” Danh hiệu được xem xét đối với tập thể có thành tích nổi bật trong thực hiện nhiệm vụ và đáp ứng các tiêu chuẩn hiện hành.
+
+__label__KEEP Điều kiện để tập thể được công nhận danh hiệu “Tập thể lao động tiên tiến”
+
+__label__KEEP Tiêu chuẩn xét tặng danh hiệu “Đơn vị quyết thắng” đối với tập thể có thành tích xuất sắc trong phong trào thi đua.
+
+__label__KEEP Tiêu chí công nhận “Cờ thi đua của Chính phủ” đối với tập thể dẫn đầu phong trào thi đua trong phạm vi toàn quốc.
+
+__label__KEEP Đối tượng và điều kiện được tặng “Cờ thi đua cấp bộ, ban, ngành, tỉnh”
+
+__label__KEEP Tiêu chuẩn khen thưởng bằng hình thức “Bằng khen của Thủ tướng Chính phủ” đối với cá nhân có thành tích đặc biệt xuất sắc.
+
+__label__KEEP Điều kiện tặng Huân chương Lao động cho cá nhân, tập thể có thành tích nổi bật trong lao động và công tác.
+
+__label__DROP Trình tự tiếp nhận và xử lý đề nghị xét danh hiệu “Chiến sĩ thi đua cơ sở”
+
+__label__DROP Thành phần tài liệu trong hồ sơ đề nghị công nhận danh hiệu “Lao động tiên tiến”
+__label__DROP Cơ quan có trách nhiệm thẩm định và trình hồ sơ xét tặng danh hiệu thi đua
+__label__DROP Quy trình xem xét, bỏ phiếu và hoàn thiện hồ sơ khen thưởng tại đơn vị
+__label__DROP Thẩm quyền ký quyết định công nhận danh hiệu “Chiến sĩ thi đua cấp bộ, ngành, tỉnh”
+__label__DROP Trình tự tổ chức lễ trao tặng các danh hiệu thi đua và hình thức khen thưởng
+__label__DROP Việc thông báo kết quả xét duyệt hồ sơ đề nghị khen thưởng
+__label__DROP Thành phần và hoạt động của Hội đồng Thi đua - Khen thưởng trong quá trình xét danh hiệu
+__label__DROP Quy định về thời hạn gửi hồ sơ đề nghị xét tặng các danh hiệu thi đua
+__label__DROP Chế độ quản lý, bảo quản và lưu trữ hồ sơ xét tặng danh hiệu thi đua, hình thức khen thưởng
+
+__label__DROP Phạm vi điều chỉnh Thông tư này quy định biện pháp để tổ chức, hướng dẫn thi hành Luật Thi đua, khen thưởng và Nghị định số 152/2025/NĐ-CP ngày 14 tháng 6 năm 2025 của Chính phủ quy định về phân cấp, phân quyền trong lĩnh vực thi đua, khen thưởng; quy định chi tiết và hướng dẫn thi hành một số điều của Luật Thi đua, khen thưởng.
+
+__label__DROP Quy định chung về thi đua, khen thưởng
+
+__label__DROP Hình thức tổ chức thi đua
+
+__label__DROP Nội dung tổ chức phong trào thi đua Người đứng đầu cơ quan, tổ chức, đơn vị có trách nhiệm triển khai tổ chức phong trào thi đua trong phạm vi quản lý theo một số nội dung sau:
+
+__label__DROP Triển khai tổ chức phong trào thi đua
+
+__label__KEEP Việc tặng cờ thi đua, Bằng khen của Bộ, ban, ngành, tỉnh đối với các tập thể tham gia cụm thi đua, khối thi đua
+
+__label__KEEP Khen thưởng cá nhân, tập thể thuộc cơ quan đảng, đoàn thể; Hội đồng nhân dân các cấp; các tổ chức tôn giáo
+
+__label__DROP Trách nhiệm khen thưởng và đề nghị khen thưởng; thời gian tính thành tích khen thưởng đối với cơ quan, tổ chức, đơn vị sau khi sắp xếp tổ chức bộ máy trong hệ thống chính trị
+
+__label__KEEP Về công nhận hiệu quả áp dụng, khả năng nhân rộng của sáng kiến; hiệu quả áp dụng, phạm vi ảnh hưởng của đề tài khoa học, đề án khoa học, công trình khoa học và công nghệ để làm căn cứ xét tặng danh hiệu thi đua, hình thức khen thưởng
+
+__label__DROP Trách nhiệm tiếp nhận hồ sơ đề nghị khen thưởng; cấp phát, cấp đổi, cấp lại hiện vật khen thưởng; chuẩn bị hiện vật khen thưởng và nhiệm vụ thi đua, khen thưởng khác
+
+__label__DROP Hiệu lực thi hành và điều khoản chuyển tiếp
+
+__label__DROP Điều khoản thi hành
+
+
+__label__KEEP Khen thưởng đối với tập thể có thành tích nổi bật trong phong trào thi đua
+
+__label__KEEP Xét tặng Bằng khen của Bộ trưởng, Thủ trưởng cơ quan ngang Bộ đối với cá nhân có thành tích xuất sắc
+
+__label__KEEP Điều kiện xét tặng Cờ thi đua của Bộ, ban, ngành, tỉnh đối với các tập thể dẫn đầu phong trào thi đua
+
+__label__KEEP Khen thưởng đối với cá nhân có thành tích xuất sắc trong thực hiện nhiệm vụ khoa học và công nghệ
+
+__label__KEEP Tiêu chuẩn xét tặng danh hiệu thi đua đối với tập thể thuộc các cơ quan, đơn vị
+
+__label__DROP Quy định về thời hạn gửi hồ sơ đề nghị xét tặng danh hiệu thi đua và hình thức khen thưởng
+
+__label__DROP Trách nhiệm của cơ quan, đơn vị trong việc lập hồ sơ đề nghị khen thưởng
+
+__label__DROP Trình tự thẩm định hồ sơ đề nghị tặng Bằng khen của Bộ trưởng
+
+__label__DROP Quy định về quản lý, cấp phát và sử dụng hiện vật khen thưởng
+
+__label__DROP Chế độ báo cáo và thống kê số liệu về công tác thi đua, khen thưởng
+
+
+__label__KEEP Tiêu chí xét công nhận danh hiệu “Sinh viên 5 tốt” Danh hiệu được trao cho sinh viên có thành tích nổi bật trong học tập, đạo đức, thể lực, tình nguyện và hội nhập.
+
+__label__KEEP Điều kiện đạt danh hiệu “Sinh viên 5 tốt” cấp trường
+
+__label__KEEP Tiêu chuẩn xét tặng danh hiệu “Giảng viên ưu tú” đối với giảng viên có thành tích xuất sắc trong giảng dạy và nghiên cứu khoa học.
+
+__label__KEEP Đối tượng và tiêu chuẩn công nhận danh hiệu “Nhà giáo tiêu biểu” trong năm học
+
+__label__KEEP Tiêu chuẩn khen thưởng đối với sinh viên có thành tích xuất sắc trong học tập và nghiên cứu khoa học
+
+__label__KEEP Điều kiện xét tặng Giấy khen của Hiệu trưởng cho cá nhân có thành tích nổi bật trong năm học
+
+__label__KEEP Tiêu chuẩn trao Bằng khen của Chủ tịch Ủy ban nhân dân thành phố đối với cá nhân có thành tích đặc biệt xuất sắc.
+
+__label__KEEP Tiêu chí công nhận tập thể đạt danh hiệu “Tập thể lao động xuất sắc” trong năm
+
+__label__KEEP Điều kiện để cá nhân được xét danh hiệu “Chiến sĩ thi đua cơ sở” hằng năm
+
+__label__KEEP Tiêu chuẩn xét công nhận “Cờ thi đua của Ủy ban nhân dân thành phố” cho tập thể dẫn đầu phong trào thi đua
+
+__label__KEEP Đối tượng và tiêu chuẩn tặng danh hiệu “Lao động tiên tiến” đối với viên chức, người lao động
+
+__label__KEEP Tiêu chuẩn xét thưởng đối với cá nhân có sáng kiến mang lại hiệu quả thiết thực cho đơn vị
+
+__label__KEEP Điều kiện khen thưởng đối với tập thể có thành tích nổi bật trong phong trào thi đua chuyên đề
+
+__label__KEEP Tiêu chuẩn xét tặng danh hiệu “Sinh viên xuất sắc” đối với sinh viên có kết quả học tập và rèn luyện nổi bật
+
+__label__KEEP Tiêu chuẩn khen thưởng thành tích cao đối với cá nhân đạt giải tại các cuộc thi cấp quốc gia và quốc tế
+
+__label__DROP Phạm vi và đối tượng điều chỉnh của quy định về công tác thi đua, khen thưởng
+
+__label__DROP Nguyên tắc tổ chức phong trào thi đua và thực hiện công tác khen thưởng trong đơn vị
+
+__label__DROP Giải thích các thuật ngữ được sử dụng trong quy định về danh hiệu thi đua và hình thức khen thưởng
+
+__label__DROP Trình tự xét chọn sinh viên đủ điều kiện đề nghị công nhận danh hiệu “Sinh viên 5 tốt”
+
+__label__DROP Hồ sơ đề nghị xét tặng danh hiệu “Sinh viên 5 tốt” cấp trường
+
+__label__DROP Thẩm quyền quyết định công nhận danh hiệu “Giảng viên ưu tú”
+
+__label__DROP Quy trình tiếp nhận và thẩm định hồ sơ đề nghị khen thưởng đối với giảng viên
+
+__label__DROP Thành phần hồ sơ xét tặng Giấy khen của Hiệu trưởng
+
+__label__DROP Trình tự bình xét danh hiệu “Lao động tiên tiến” tại các đơn vị trực thuộc
+
+__label__DROP Thời hạn gửi danh sách cá nhân, tập thể đề nghị xét tặng danh hiệu thi đua
+
+__label__DROP Hội đồng Thi đua - Khen thưởng và trách nhiệm của các thành viên trong Hội đồng
+
+__label__DROP Quy định về việc công bố quyết định và tổ chức trao tặng các danh hiệu thi đua
+
+__label__DROP Thủ tục trình cấp có thẩm quyền quyết định tặng Bằng khen cho cá nhân, tập thể
+
+__label__DROP Quản lý, lưu trữ và bảo quản hồ sơ liên quan đến công tác thi đua, khen thưởng
+
+__label__DROP Kinh phí, tiền thưởng và chế độ chi trả đối với các danh hiệu thi đua và hình thức khen thưởng
+
+
+__label__KEEP Danh hiệu thi đua dành cho cá nhân có thành tích nổi bật trong công tác
+
+__label__KEEP Tiêu chuẩn xét công nhận danh hiệu “Chiến sĩ thi đua cơ sở”
+
+__label__KEEP Điều kiện đạt danh hiệu “Lao động tiên tiến” hằng năm
+
+__label__KEEP Danh hiệu “Chiến sĩ thi đua cấp bộ, ban, ngành, tỉnh”
+
+__label__KEEP Tiêu chí tặng danh hiệu “Chiến sĩ thi đua toàn quốc”
+
+__label__KEEP Danh hiệu “Tập thể lao động xuất sắc” dành cho các đơn vị có thành tích nổi bật
+
+__label__KEEP Điều kiện xét danh hiệu “Tập thể lao động tiên tiến”
+
+__label__KEEP Tiêu chuẩn công nhận “Cờ thi đua của Chính phủ” đối với tập thể
+
+__label__KEEP Danh hiệu “Cờ thi đua của bộ, ban, ngành, tỉnh” và tiêu chuẩn xét tặng
+
+__label__KEEP Danh hiệu “Đơn vị quyết thắng” đối với tập thể đạt thành tích cao trong phong trào thi đua
+
+__label__KEEP Danh hiệu “Đơn vị tiên tiến” dành cho tập thể hoàn thành tốt nhiệm vụ
+
+__label__KEEP Tiêu chuẩn xét tặng danh hiệu “Sinh viên 5 tốt” đối với sinh viên
+
+__label__KEEP Điều kiện công nhận danh hiệu “Học sinh 3 tốt”
+
+__label__KEEP Tiêu chí xét danh hiệu “Học sinh 3 rèn luyện” dành cho học sinh
+
+__label__KEEP Danh hiệu “Nhà giáo ưu tú” và các tiêu chuẩn để được xét tặng
+
+__label__KEEP Tiêu chuẩn xét tặng danh hiệu “Nhà giáo nhân dân”
+
+__label__KEEP Điều kiện công nhận danh hiệu “Giảng viên tiêu biểu” đối với nhà giáo
+
+__label__KEEP Danh hiệu “Thầy thuốc ưu tú” dành cho cá nhân có thành tích nổi bật trong lĩnh vực y tế
+
+__label__KEEP Tiêu chuẩn xét tặng danh hiệu “Thầy thuốc nhân dân”
+
+__label__KEEP Danh hiệu “Nghệ sĩ ưu tú” và điều kiện xét tặng đối với văn nghệ sĩ
+
+__label__KEEP Tiêu chuẩn công nhận danh hiệu “Nghệ sĩ nhân dân”
+
+__label__KEEP Danh hiệu “Anh hùng Lao động” dành cho cá nhân, tập thể có thành tích đặc biệt xuất sắc
+
+__label__KEEP Điều kiện xét tặng danh hiệu “Anh hùng Lực lượng vũ trang nhân dân”
+
+__label__KEEP Danh hiệu “Gia đình văn hóa” và các tiêu chí để được công nhận
+
+__label__KEEP Tiêu chuẩn xét công nhận danh hiệu “Xã, phường, đặc khu tiêu biểu”
+
+__label__DROP Mục đích và yêu cầu của công tác thi đua, khen thưởng trong cơ quan, đơn vị
+
+__label__DROP Nguyên tắc tổ chức và triển khai các phong trào thi đua
+
+__label__DROP Những hành vi không được thực hiện trong hoạt động thi đua, khen thưởng
+
+__label__DROP Đối tượng và phạm vi áp dụng của quy định về thi đua, khen thưởng
+
+__label__DROP Trách nhiệm của người đứng đầu cơ quan trong công tác thi đua, khen thưởng
+
+__label__DROP Nhiệm vụ của Hội đồng Thi đua - Khen thưởng trong quá trình xét duyệt
+
+__label__DROP Thẩm quyền phát động phong trào thi đua tại các cơ quan, đơn vị
+
+__label__DROP Quy trình tổ chức và triển khai phong trào thi đua theo từng giai đoạn
+
+__label__DROP Hình thức tổ chức các đợt thi đua thường xuyên và thi đua theo chuyên đề
+
+__label__DROP Trình tự đăng ký danh hiệu thi đua của cá nhân và tập thể
+
+__label__DROP Hồ sơ đề nghị xét công nhận danh hiệu “Chiến sĩ thi đua cơ sở”
+
+__label__DROP Thành phần hồ sơ đề nghị tặng danh hiệu “Sinh viên 5 tốt”
+
+__label__DROP Thủ tục xét duyệt danh sách sinh viên đề nghị công nhận danh hiệu thi đua
+
+__label__DROP Quy trình đề nghị xét tặng danh hiệu “Nhà giáo ưu tú”
+
+__label__DROP Thẩm quyền quyết định công nhận danh hiệu “Nhà giáo nhân dân”
+
+__label__DROP Trình tự xét chọn cá nhân đủ điều kiện đề nghị tặng danh hiệu “Thầy thuốc ưu tú”
+
+__label__DROP Hồ sơ và thủ tục đề nghị xét tặng danh hiệu “Nghệ sĩ nhân dân”
+
+__label__DROP Các bước thẩm định hồ sơ đề nghị phong tặng danh hiệu “Anh hùng Lao động”
+
+__label__DROP Quy định về thời gian tiếp nhận hồ sơ xét tặng các danh hiệu thi đua
+
+__label__DROP Trình tự họp và biểu quyết của Hội đồng Thi đua - Khen thưởng
+
+__label__DROP Công bố quyết định và tổ chức lễ trao các danh hiệu thi đua, hình thức khen thưởng
+
+__label__DROP Chế độ quản lý và lưu trữ hồ sơ về thi đua, khen thưởng
+
+__label__DROP Quỹ thi đua, khen thưởng và nguồn kinh phí thực hiện công tác khen thưởng
+
+__label__DROP Trách nhiệm của cá nhân, tập thể khi được cơ quan có thẩm quyền trao tặng phần thưởng
+
+__label__DROP Quy định về việc tiếp nhận và xử lý đề nghị khen thưởng từ các đơn vị trực thuộc
+
+__label__DROP Trình tự trình cấp có thẩm quyền xem xét quyết định tặng danh hiệu thi đua
+
+__label__KEEP Tiêu chuẩn xét tặng danh hiệu “Cờ thi đua của Chính phủ” Cờ thi đua của Chính phủ được xét tặng hằng năm cho tập thể dẫn đầu phong trào thi đua của bộ, ban, ngành, tỉnh và đạt các tiêu chuẩn theo quy định.
+
+__label__KEEP Điều kiện tặng danh hiệu “Chiến sĩ thi đua toàn quốc” Danh hiệu “Chiến sĩ thi đua toàn quốc” được xét tặng cho cá nhân có thành tích đặc biệt xuất sắc, tiêu biểu trong số những cá nhân đạt danh hiệu “Chiến sĩ thi đua cấp bộ, ban, ngành, tỉnh”.
+
+__label__KEEP Tiêu chuẩn công nhận danh hiệu “Chiến sĩ thi đua cấp bộ, ban, ngành, tỉnh”
+
+__label__KEEP Tiêu chuẩn xét tặng danh hiệu “Chiến sĩ thi đua cơ sở” cho cá nhân có thành tích xuất sắc trong công tác.
+
+__label__KEEP Điều kiện đạt danh hiệu “Lao động tiên tiến” đối với viên chức, người lao động
+
+__label__KEEP Tiêu chuẩn xét công nhận danh hiệu “Tập thể lao động xuất sắc” đối với các đơn vị thuộc cơ quan, tổ chức.
+
+__label__KEEP Đối tượng và tiêu chuẩn xét tặng danh hiệu “Tập thể lao động tiên tiến”
+
+__label__KEEP Tiêu chuẩn xét tặng “Bằng khen của Thủ tướng Chính phủ” đối với cá nhân có thành tích xuất sắc.
+
+__label__KEEP Điều kiện xét tặng Bằng khen của Chủ tịch Ủy ban nhân dân tỉnh đối với tập thể có thành tích tiêu biểu.
+
+__label__KEEP Tiêu chuẩn khen thưởng bằng Giấy khen đối với cá nhân hoàn thành xuất sắc nhiệm vụ.
+
+__label__KEEP Tiêu chuẩn tặng Huân chương Lao động hạng Nhất cho cá nhân, tập thể có thành tích và quá trình cống hiến theo quy định.
+
+__label__KEEP Điều kiện xét tặng Huân chương Lao động hạng Nhì đối với cá nhân có thành tích xuất sắc trong lao động, sản xuất và công tác.
+
+__label__KEEP Tiêu chuẩn xét tặng Huân chương Lao động hạng Ba đối với tập thể có nhiều thành tích nổi bật.
+
+__label__KEEP Đối tượng và tiêu chuẩn xét tặng danh hiệu “Anh hùng Lao động”
+
+__label__KEEP Tiêu chuẩn xét tặng danh hiệu “Nhà giáo Nhân dân”, “Nhà giáo Ưu tú”
+
+__label__KEEP Điều kiện xét tặng danh hiệu “Thầy thuốc Nhân dân”, “Thầy thuốc Ưu tú”
+
+__label__KEEP Tiêu chuẩn công nhận danh hiệu “Nghệ sĩ Nhân dân”, “Nghệ sĩ Ưu tú” đối với cá nhân hoạt động trong lĩnh vực nghệ thuật.
+
+__label__KEEP Tiêu chuẩn xét tặng danh hiệu “Nghệ nhân Nhân dân”, “Nghệ nhân Ưu tú”
+
+__label__KEEP Điều kiện xét trao danh hiệu “Sinh viên 5 tốt” cho sinh viên đạt thành tích nổi bật trong học tập, rèn luyện và hoạt động phong trào.
+
+__label__KEEP Tiêu chí công nhận danh hiệu “Sinh viên 5 tốt” cấp trường đối với sinh viên có thành tích toàn diện.
+
+__label__KEEP Tiêu chuẩn xét tặng danh hiệu “Giảng viên ưu tú” đối với giảng viên có thành tích nổi bật trong giảng dạy và nghiên cứu khoa học.
+
+__label__KEEP Điều kiện xét khen thưởng “Nhà khoa học trẻ tiêu biểu” đối với cá nhân có thành tích xuất sắc trong nghiên cứu khoa học.
+
+__label__KEEP Tiêu chuẩn xét tặng danh hiệu “Cán bộ trẻ tiêu biểu” cho cá nhân có thành tích nổi bật trong công tác.
+
+__label__KEEP Tiêu chuẩn khen thưởng đối với tập thể đạt thành tích xuất sắc trong phong trào thi đua chuyên đề.
+
+__label__KEEP Điều kiện xét thưởng đối với cá nhân có sáng kiến được công nhận và có hiệu quả áp dụng, khả năng nhân rộng.
+
+__label__DROP Phạm vi áp dụng quy định về thi đua, khen thưởng trong các cơ quan, đơn vị và tổ chức thuộc phạm vi quản lý.
+
+__label__DROP Đối tượng thực hiện công tác thi đua, khen thưởng tại các cơ quan, đơn vị.
+
+__label__DROP Giải thích các thuật ngữ được sử dụng trong quy định về thi đua, khen thưởng.
+
+__label__DROP Nguyên tắc tổ chức phong trào thi đua và thực hiện công tác khen thưởng.
+
+__label__DROP Hình thức và phương thức tổ chức các phong trào thi đua trong cơ quan, đơn vị.
+
+__label__DROP Nội dung phát động phong trào thi đua hằng năm trong các cơ quan, tổ chức.
+
+__label__DROP Trách nhiệm của người đứng đầu đơn vị trong việc tổ chức phong trào thi đua.
+
+__label__DROP Trách nhiệm của Hội đồng Thi đua - Khen thưởng trong quá trình tổ chức thực hiện.
+
+__label__DROP Thẩm quyền quyết định tặng danh hiệu thi đua và các hình thức khen thưởng.
+
+__label__DROP Quy trình trình cấp có thẩm quyền quyết định tặng Bằng khen và danh hiệu thi đua.
+
+__label__DROP Hồ sơ đề nghị xét tặng danh hiệu thi đua và hình thức khen thưởng.
+
+__label__DROP Thành phần hồ sơ đề nghị khen thưởng đối với cá nhân và tập thể.
+
+__label__DROP Trình tự tiếp nhận và thẩm định hồ sơ đề nghị khen thưởng.
+
+__label__DROP Thời hạn gửi hồ sơ đề nghị xét tặng các danh hiệu thi đua và hình thức khen thưởng.
+
+__label__DROP Quy định về việc công bố quyết định tặng danh hiệu thi đua và hình thức khen thưởng.
+
+__label__DROP Tổ chức lễ trao tặng và đón nhận các danh hiệu thi đua, hình thức khen thưởng.
+
+__label__DROP Quy định về quản lý, cấp phát và sử dụng hiện vật khen thưởng.
+
+__label__DROP Quy định về cấp lại bằng, giấy chứng nhận và hiện vật khen thưởng.
+
+__label__DROP Chế độ báo cáo, thống kê về công tác thi đua, khen thưởng.
+
+__label__DROP Kinh phí tổ chức phong trào thi đua và thực hiện công tác khen thưởng.
+
+__label__DROP Quản lý và sử dụng quỹ thi đua, khen thưởng của cơ quan, đơn vị.
+
+__label__DROP Quy định về thời gian tính thành tích phục vụ xét khen thưởng.
+
+__label__DROP Trách nhiệm của cá nhân, tập thể trong việc kê khai thành tích đề nghị khen thưởng.
+
+__label__DROP Quy định về kiểm tra, giám sát công tác thi đua, khen thưởng tại các đơn vị.
+
+__label__DROP Điều khoản chuyển tiếp trong thực hiện quy định về thi đua, khen thưởng.
+
+
+__label__KEEP Danh hiệu “Chiến sĩ thi đua toàn quốc” và tiêu chuẩn xét tặng đối với cá nhân có thành tích đặc biệt nổi bật
+__label__KEEP Điều kiện công nhận danh hiệu “Chiến sĩ thi đua cấp bộ, ban, ngành, tỉnh”
+__label__KEEP Tiêu chuẩn đạt danh hiệu “Chiến sĩ thi đua cơ sở” trong năm công tác
+__label__KEEP Danh hiệu “Lao động tiên tiến” dành cho cá nhân hoàn thành tốt nhiệm vụ
+__label__KEEP Tiêu chí xét danh hiệu “Chiến sĩ tiên tiến” đối với cá nhân có thành tích trong công tác
+__label__KEEP Điều kiện để tập thể được công nhận “Tập thể lao động tiên tiến”
+__label__KEEP Tiêu chuẩn tặng danh hiệu “Tập thể lao động xuất sắc” cho đơn vị có thành tích cao
+__label__KEEP Danh hiệu “Đơn vị tiên tiến” và các tiêu chuẩn để được công nhận
+__label__KEEP Điều kiện xét tặng danh hiệu “Đơn vị quyết thắng” đối với tập thể
+__label__KEEP Tiêu chuẩn công nhận “Cờ thi đua của Chính phủ” dành cho tập thể dẫn đầu phong trào
+__label__KEEP Danh hiệu “Cờ thi đua của bộ, ban, ngành, tỉnh” và căn cứ xét tặng
+__label__KEEP Tiêu chuẩn để tập thể được đề nghị tặng Cờ thi đua cấp tỉnh
+__label__KEEP Danh hiệu vinh dự nhà nước dành cho cá nhân có thành tích và cống hiến đặc biệt
+__label__KEEP Điều kiện xét tặng các danh hiệu vinh dự nhà nước
+__label__KEEP Huân chương và huy chương dành cho cá nhân, tập thể có thành tích hoặc quá trình cống hiến
+__label__KEEP Tiêu chuẩn tặng Huân chương Lao động cho cá nhân có thành tích xuất sắc
+__label__KEEP Điều kiện xét Huân chương Lao động đối với tập thể có nhiều thành tích trong công tác
+__label__KEEP Tiêu chuẩn tặng Huân chương Độc lập đối với cá nhân có quá trình cống hiến lâu dài
+__label__KEEP Điều kiện xét tặng Huy chương cho cá nhân có quá trình đóng góp theo quy định
+__label__KEEP Tiêu chuẩn tặng Bằng khen cho cá nhân có thành tích xuất sắc trong phong trào thi đua
+__label__KEEP Đối tượng và tiêu chuẩn nhận Bằng khen của Chủ tịch Ủy ban nhân dân thành phố
+__label__KEEP Điều kiện xét tặng Bằng khen của Thủ tướng Chính phủ
+__label__KEEP Tiêu chuẩn trao Giấy khen cho cá nhân hoàn thành xuất sắc nhiệm vụ
+__label__KEEP Danh hiệu “Sinh viên 5 tốt” và các tiêu chí để sinh viên được công nhận
+__label__KEEP Điều kiện đạt danh hiệu “Sinh viên 5 tốt” cấp trường
+__label__KEEP Tiêu chuẩn xét công nhận “Sinh viên 5 tốt” cấp tỉnh
+__label__KEEP Danh hiệu “Học sinh 3 tốt” dành cho học sinh có thành tích nổi bật
+__label__KEEP Điều kiện công nhận danh hiệu “Học sinh 3 rèn luyện”
+__label__KEEP Tiêu chuẩn xét danh hiệu “Nhà giáo ưu tú” đối với nhà giáo có nhiều đóng góp
+__label__KEEP Điều kiện phong tặng danh hiệu “Nhà giáo nhân dân”
+__label__KEEP Tiêu chuẩn công nhận danh hiệu “Giảng viên tiêu biểu” trong cơ sở giáo dục
+__label__KEEP Danh hiệu “Thầy thuốc ưu tú” và tiêu chuẩn xét tặng
+__label__KEEP Điều kiện xét phong tặng danh hiệu “Thầy thuốc nhân dân”
+__label__KEEP Tiêu chuẩn xét tặng danh hiệu “Nghệ sĩ ưu tú” đối với nghệ sĩ có thành tích nổi bật
+__label__KEEP Điều kiện phong tặng danh hiệu “Nghệ sĩ nhân dân”
+__label__KEEP Danh hiệu “Anh hùng Lao động” dành cho cá nhân, tập thể có thành tích đặc biệt xuất sắc
+__label__KEEP Tiêu chuẩn xét tặng danh hiệu “Anh hùng Lực lượng vũ trang nhân dân”
+__label__KEEP Điều kiện công nhận danh hiệu “Gia đình văn hóa”
+__label__KEEP Tiêu chuẩn xét danh hiệu “Xã, phường, đặc khu tiêu biểu”
+__label__KEEP Danh hiệu “Doanh nghiệp xuất sắc” dành cho tổ chức có thành tích nổi bật trong sản xuất, kinh doanh
+__label__KEEP Tiêu chuẩn xét khen thưởng đối với doanh nghiệp có đóng góp tích cực cho cộng đồng
+__label__KEEP Điều kiện tặng danh hiệu “Tập thể xuất sắc” cho đơn vị hoàn thành vượt mức nhiệm vụ
+__label__KEEP Tiêu chí xét thưởng đối với cá nhân có sáng kiến mang lại hiệu quả cao
+__label__KEEP Căn cứ xét khen thưởng đối với cá nhân đạt thành tích nổi bật trong phong trào thi đua
+__label__KEEP Căn cứ công nhận danh hiệu thi đua đối với tập thể có thành tích dẫn đầu
+__label__KEEP Tiêu chuẩn khen thưởng thành tích cao đối với cá nhân đạt giải trong các cuộc thi
+__label__KEEP Điều kiện xét khen thưởng đối với vận động viên đạt thành tích xuất sắc tại các giải đấu
+__label__KEEP Tiêu chuẩn trao tặng danh hiệu “Vận động viên xuất sắc” cho cá nhân có thành tích thi đấu nổi bật
+__label__KEEP Điều kiện xét danh hiệu “Thanh niên tiên tiến làm theo lời Bác”
+__label__KEEP Tiêu chuẩn công nhận danh hiệu “Tập thể sinh viên xuất sắc”
+__label__KEEP Điều kiện xét tặng danh hiệu “Cán bộ công đoàn xuất sắc”
+__label__KEEP Tiêu chuẩn khen thưởng đối với cá nhân có thành tích xuất sắc trong công tác đoàn thể
+
+__label__DROP Trình tự lập danh sách cá nhân đề nghị xét tặng danh hiệu “Chiến sĩ thi đua toàn quốc”
+__label__DROP Hồ sơ đề nghị công nhận danh hiệu “Chiến sĩ thi đua cấp bộ, ban, ngành, tỉnh”
+__label__DROP Quy trình xét duyệt danh hiệu “Chiến sĩ thi đua cơ sở” tại đơn vị
+__label__DROP Thủ tục đăng ký danh hiệu “Lao động tiên tiến” hằng năm
+__label__DROP Thẩm quyền quyết định công nhận danh hiệu “Chiến sĩ tiên tiến”
+__label__DROP Trình tự bình xét danh hiệu “Tập thể lao động tiên tiến”
+__label__DROP Hồ sơ đề nghị tặng danh hiệu “Tập thể lao động xuất sắc”
+__label__DROP Quy trình thẩm định hồ sơ xét công nhận “Đơn vị tiên tiến”
+__label__DROP Thẩm quyền xét và quyết định tặng danh hiệu “Đơn vị quyết thắng”
+__label__DROP Trình tự đề nghị cấp có thẩm quyền tặng Cờ thi đua của Chính phủ
+__label__DROP Hồ sơ đề nghị xét tặng Cờ thi đua của bộ, ban, ngành, tỉnh
+__label__DROP Quy trình tiếp nhận và kiểm tra hồ sơ đề nghị tặng Cờ thi đua
+__label__DROP Thẩm quyền quyết định phong tặng danh hiệu vinh dự nhà nước
+__label__DROP Trình tự trình hồ sơ đề nghị tặng danh hiệu vinh dự nhà nước
+__label__DROP Hồ sơ đề nghị xét tặng Huân chương và Huy chương
+__label__DROP Quy trình thẩm định hồ sơ đề nghị tặng Huân chương Lao động
+__label__DROP Thẩm quyền ký quyết định tặng Huân chương Lao động
+__label__DROP Trình tự đề nghị xét tặng Huân chương Độc lập
+__label__DROP Hồ sơ và thủ tục đề nghị tặng Huy chương
+__label__DROP Quy trình xét duyệt hồ sơ đề nghị Bằng khen của Chủ tịch Ủy ban nhân dân thành phố
+__label__DROP Thẩm quyền quyết định tặng Bằng khen của Thủ tướng Chính phủ
+__label__DROP Thành phần hồ sơ đề nghị xét tặng Giấy khen
+__label__DROP Trình tự tiếp nhận và xử lý đề nghị khen thưởng cá nhân
+__label__DROP Hồ sơ xét công nhận danh hiệu “Sinh viên 5 tốt” cấp trường
+__label__DROP Quy trình bình xét sinh viên đề nghị công nhận “Sinh viên 5 tốt”
+__label__DROP Thời hạn gửi hồ sơ đề nghị danh hiệu “Sinh viên 5 tốt”
+__label__DROP Trình tự xét duyệt danh hiệu “Học sinh 3 tốt” tại cơ sở giáo dục
+__label__DROP Hồ sơ đề nghị công nhận danh hiệu “Học sinh 3 rèn luyện”
+__label__DROP Thẩm quyền công nhận danh hiệu “Nhà giáo ưu tú”
+__label__DROP Trình tự lập hồ sơ đề nghị phong tặng danh hiệu “Nhà giáo nhân dân”
+__label__DROP Quy trình xét chọn và trình hồ sơ danh hiệu “Giảng viên tiêu biểu”
+__label__DROP Hồ sơ đề nghị xét tặng danh hiệu “Thầy thuốc ưu tú”
+__label__DROP Thẩm quyền quyết định phong tặng danh hiệu “Thầy thuốc nhân dân”
+__label__DROP Trình tự xét duyệt hồ sơ danh hiệu “Nghệ sĩ ưu tú”
+__label__DROP Thành phần hồ sơ đề nghị phong tặng danh hiệu “Nghệ sĩ nhân dân”
+__label__DROP Quy trình thẩm định danh sách cá nhân đề nghị danh hiệu “Anh hùng Lao động”
+__label__DROP Trình tự trình cấp có thẩm quyền xét tặng danh hiệu “Anh hùng Lực lượng vũ trang nhân dân”
+__label__DROP Hồ sơ đề nghị công nhận danh hiệu “Gia đình văn hóa”
+__label__DROP Quy trình bình xét danh hiệu “Xã, phường, đặc khu tiêu biểu”
+__label__DROP Thẩm quyền quyết định công nhận danh hiệu “Doanh nghiệp xuất sắc”
+__label__DROP Trình tự tiếp nhận hồ sơ khen thưởng đối với doanh nghiệp có thành tích nổi bật
+__label__DROP Hồ sơ đề nghị công nhận danh hiệu “Tập thể xuất sắc”
+__label__DROP Quy trình xét duyệt sáng kiến làm căn cứ đề nghị khen thưởng
+__label__DROP Thẩm định hồ sơ đề nghị khen thưởng thành tích cao
+__label__DROP Trình tự xác minh thành tích của cá nhân đề nghị khen thưởng
+__label__DROP Hội đồng xét tặng danh hiệu thi đua và hình thức khen thưởng
+__label__DROP Quy định về thời gian họp Hội đồng Thi đua - Khen thưởng
+__label__DROP Công bố quyết định và tổ chức trao tặng các danh hiệu thi đua
+__label__DROP Trình tự tổ chức lễ trao Huân chương, Huy chương và Bằng khen
+__label__DROP Tiếp nhận, quản lý và lưu trữ hồ sơ xét tặng danh hiệu thi đua
+__label__DROP Chế độ báo cáo kết quả xét tặng danh hiệu và hình thức khen thưởng
+__label__KEEP Danh hiệu “Bà mẹ Việt Nam anh hùng” và điều kiện xét tặng
+__label__KEEP Tiêu chuẩn xét tặng danh hiệu “Anh hùng Lực lượng vũ trang nhân dân”
+__label__KEEP Điều kiện công nhận danh hiệu “Anh hùng Lao động”
+__label__KEEP Đối tượng được xét tặng danh hiệu “Nhà giáo Nhân dân”
+__label__KEEP Tiêu chuẩn xét tặng danh hiệu “Nhà giáo Ưu tú”
+__label__KEEP Điều kiện xét tặng danh hiệu “Thầy thuốc Nhân dân”
+__label__KEEP Đối tượng và tiêu chuẩn danh hiệu “Thầy thuốc Ưu tú”
+__label__KEEP Tiêu chuẩn công nhận danh hiệu “Nghệ sĩ Nhân dân”
+__label__KEEP Điều kiện xét tặng danh hiệu “Nghệ sĩ Ưu tú”
+__label__KEEP Tiêu chuẩn xét tặng danh hiệu “Nghệ nhân Nhân dân”
+__label__KEEP Đối tượng xét tặng danh hiệu “Nghệ nhân Ưu tú”
+__label__KEEP Điều kiện để được xét trao “Giải thưởng Hồ Chí Minh”
+__label__KEEP Tiêu chuẩn xét trao “Giải thưởng Nhà nước”
+__label__KEEP Đối tượng được xét tặng “Giải thưởng Hồ Chí Minh”
+__label__KEEP Đối tượng được xét tặng “Giải thưởng Nhà nước”
+__label__KEEP Tiêu chuẩn xét tặng Kỷ niệm chương cho cá nhân có quá trình cống hiến
+__label__KEEP Điều kiện tặng Bằng khen của Thủ tướng Chính phủ
+__label__KEEP Tiêu chuẩn xét tặng Bằng khen của Bộ trưởng
+__label__KEEP Đối tượng và tiêu chuẩn tặng Bằng khen của Chủ tịch Ủy ban nhân dân cấp tỉnh
+__label__KEEP Điều kiện xét tặng Giấy khen cho cá nhân có thành tích xuất sắc
+__label__KEEP Tiêu chuẩn xét tặng Giấy khen đối với tập thể có thành tích nổi bật
+__label__KEEP Danh hiệu “Chiến sĩ thi đua toàn quốc” và tiêu chuẩn xét tặng
+__label__KEEP Tiêu chuẩn công nhận danh hiệu “Chiến sĩ thi đua cấp bộ, ban, ngành, tỉnh”
+__label__KEEP Điều kiện đạt danh hiệu “Chiến sĩ thi đua cơ sở”
+__label__KEEP Tiêu chuẩn xét tặng danh hiệu “Lao động tiên tiến”
+__label__KEEP Đối tượng được công nhận danh hiệu “Tập thể lao động xuất sắc”
+__label__KEEP Điều kiện xét tặng danh hiệu “Tập thể lao động tiên tiến”
+__label__KEEP Tiêu chuẩn tặng “Cờ thi đua của Chính phủ”
+__label__KEEP Điều kiện xét tặng Cờ thi đua của Bộ, ban, ngành, tỉnh
+__label__KEEP Tiêu chuẩn xét tặng Cờ thi đua của Ủy ban nhân dân cấp tỉnh
+__label__KEEP Đối tượng và tiêu chuẩn xét tặng Huân chương Độc lập
+__label__KEEP Tiêu chuẩn khen thưởng bằng Huân chương Lao động hạng Nhất
+__label__KEEP Điều kiện xét tặng Huân chương Lao động hạng Nhì
+__label__KEEP Tiêu chuẩn xét tặng Huân chương Lao động hạng Ba
+__label__KEEP Đối tượng được xét tặng Huân chương Quân công
+__label__KEEP Tiêu chuẩn khen thưởng Huân chương Bảo vệ Tổ quốc
+__label__KEEP Điều kiện xét tặng Huy chương Chiến sĩ vẻ vang
+__label__KEEP Tiêu chuẩn tặng Huy chương Quân kỳ quyết thắng
+__label__KEEP Đối tượng xét tặng Huy chương Vì an ninh Tổ quốc
+__label__KEEP Điều kiện xét tặng Huy chương Hữu nghị
+__label__KEEP Tiêu chuẩn khen thưởng đối với cá nhân có thành tích đặc biệt xuất sắc
+__label__KEEP Tiêu chuẩn khen thưởng đối với tập thể có thành tích tiêu biểu
+__label__KEEP Điều kiện xét khen thưởng thành tích đột xuất
+__label__KEEP Tiêu chuẩn xét khen thưởng thành tích trong phong trào thi đua
+__label__KEEP Đối tượng và tiêu chuẩn khen thưởng quá trình cống hiến
+__label__KEEP Điều kiện xét khen thưởng đối với người có nhiều đóng góp cho sự nghiệp xây dựng đất nước
+__label__KEEP Tiêu chuẩn xét tặng danh hiệu cho cá nhân có thành tích lâu dài trong công tác
+__label__KEEP Điều kiện xét trao danh hiệu “Sinh viên 5 tốt”
+__label__KEEP Tiêu chí công nhận danh hiệu “Sinh viên 5 tốt” cấp trường
+__label__KEEP Tiêu chuẩn xét tặng danh hiệu “Giảng viên ưu tú”
+
+__label__DROP Thẩm quyền quyết định tặng danh hiệu “Bà mẹ Việt Nam anh hùng”
+__label__DROP Thẩm quyền quyết định tặng danh hiệu “Anh hùng Lực lượng vũ trang nhân dân”
+__label__DROP Thẩm quyền xét và trình tặng danh hiệu “Anh hùng Lao động”
+__label__DROP Thẩm quyền của cơ quan có trách nhiệm đề nghị tặng danh hiệu “Nhà giáo Nhân dân”
+__label__DROP Thẩm quyền xét tặng danh hiệu “Nhà giáo Ưu tú”
+__label__DROP Trình tự đề nghị xét tặng danh hiệu “Thầy thuốc Nhân dân”
+__label__DROP Hồ sơ đề nghị xét tặng danh hiệu “Thầy thuốc Ưu tú”
+__label__DROP Quy trình xét chọn danh hiệu “Nghệ sĩ Nhân dân”
+__label__DROP Thủ tục đề nghị công nhận danh hiệu “Nghệ sĩ Ưu tú”
+__label__DROP Hồ sơ xét tặng danh hiệu “Nghệ nhân Nhân dân”
+__label__DROP Thẩm quyền đề nghị xét tặng danh hiệu “Nghệ nhân Ưu tú”
+__label__DROP Trình tự xét trao “Giải thưởng Hồ Chí Minh”
+__label__DROP Hồ sơ đề nghị xét trao “Giải thưởng Nhà nước”
+__label__DROP Thẩm quyền quyết định tặng “Giải thưởng Hồ Chí Minh”
+__label__DROP Trình tự trình hồ sơ xét tặng “Giải thưởng Nhà nước”
+__label__DROP Thủ tục cấp Kỷ niệm chương cho cá nhân
+__label__DROP Thẩm quyền quyết định tặng Bằng khen của Thủ tướng Chính phủ
+__label__DROP Hồ sơ đề nghị tặng Bằng khen của Bộ trưởng
+__label__DROP Quy trình xét hồ sơ Bằng khen của Chủ tịch Ủy ban nhân dân cấp tỉnh
+__label__DROP Thẩm quyền trao tặng Giấy khen cho cá nhân
+__label__DROP Hồ sơ đề nghị xét tặng Giấy khen đối với tập thể
+__label__DROP Trình tự xét công nhận danh hiệu “Chiến sĩ thi đua toàn quốc”
+__label__DROP Thẩm quyền quyết định danh hiệu “Chiến sĩ thi đua cấp bộ, ban, ngành, tỉnh”
+__label__DROP Hồ sơ đề nghị công nhận danh hiệu “Chiến sĩ thi đua cơ sở”
+__label__DROP Trình tự bình xét danh hiệu “Lao động tiên tiến”
+__label__DROP Thủ tục xét công nhận “Tập thể lao động xuất sắc”
+__label__DROP Hồ sơ đề nghị công nhận “Tập thể lao động tiên tiến”
+__label__DROP Thẩm quyền quyết định tặng “Cờ thi đua của Chính phủ”
+__label__DROP Trình tự đề nghị tặng Cờ thi đua của Bộ, ban, ngành, tỉnh
+__label__DROP Hồ sơ xét tặng Cờ thi đua của Ủy ban nhân dân cấp tỉnh
+__label__DROP Thẩm quyền quyết định tặng Huân chương Độc lập
+__label__DROP Hồ sơ đề nghị xét tặng Huân chương Lao động hạng Nhất
+__label__DROP Quy trình trình xét tặng Huân chương Lao động hạng Nhì
+__label__DROP Thẩm quyền tặng Huân chương Lao động hạng Ba
+__label__DROP Trình tự đề nghị tặng Huân chương Quân công
+__label__DROP Hồ sơ xét tặng Huân chương Bảo vệ Tổ quốc
+__label__DROP Thẩm quyền quyết định tặng Huy chương Chiến sĩ vẻ vang
+__label__DROP Trình tự xét tặng Huy chương Quân kỳ quyết thắng
+__label__DROP Hồ sơ đề nghị tặng Huy chương Vì an ninh Tổ quốc
+__label__DROP Thủ tục xét tặng Huy chương Hữu nghị
+__label__DROP Trách nhiệm của cá nhân trong việc kê khai thành tích đề nghị khen thưởng
+__label__DROP Trách nhiệm của tập thể trong việc lập hồ sơ đề nghị khen thưởng
+__label__DROP Quyền của cá nhân được đề nghị xét tặng danh hiệu và hình thức khen thưởng
+__label__DROP Nghĩa vụ của tập thể trong quá trình xét khen thưởng
+__label__DROP Quy định về thời hạn gửi hồ sơ đề nghị khen thưởng
+__label__DROP Quy định về thành phần hồ sơ xét tặng danh hiệu thi đua
+__label__DROP Quy định về việc cấp phát hiện vật khen thưởng
+__label__DROP Quy định về lưu trữ hồ sơ khen thưởng
+__label__DROP Quy định về công bố quyết định tặng danh hiệu và hình thức khen thưởng
+__label__DROP Quy định về tổ chức lễ trao tặng danh hiệu thi đua và hình thức khen thưởng
+
+__label__KEEP Phạm vi điều chỉnh Nghị định này quy định chi tiết thi hành khoản 5 Điều 11; khoản 2 Điều 12; khoản 2 Điều 14; khoản 4 Điều 25; khoản 7 Điều 34; khoản 6 Điều 35; khoản 5 Điều 36; khoản 5 Điều 37; khoản 5 Điều 38; khoản 4 Điều 39; khoản 4 Điều 40; khoản 4 Điều 41; khoản 7 Điều 42; khoản 7 Điều 43; khoản 7 Điều 44; khoản 3 Điều 45; khoản 3 Điều 46; khoản 3 Điều 47; khoản 2 Điều 51; khoản 2 Điều 53; khoản 5 Điều 79; khoản 3 Điều 81; khoản 3 Điều 82; khoản 7 Điều 83; khoản 7 Điều 84; khoản 2 Điều 85; khoản 5 Điều 90; khoản 9 Điều 93 của Luật Thi đua, khen thưởng.
+
+__label__KEEP Đối tượng áp dụng Nghị định này áp dụng đối với cá nhân người Việt Nam, các cơ quan nhà nước, tổ chức chính trị, tổ chức chính trị - xã hội, tổ chức chính trị - xã hội - nghề nghiệp, tổ chức xã hội, tổ chức xã hội - nghề nghiệp, doanh nghiệp, tổ chức kinh tế khác, đơn vị lực lượng vũ trang nhân dân, hộ gia đình; cá nhân, tập thể người Việt Nam định cư ở nước ngoài, cá nhân, tập thể người nước ngoài; cơ quan, tổ chức nước ngoài và các tổ chức quốc tế ở Việt Nam.
+
+__label__KEEP Giải thích từ ngữ Trong Nghị định này, các từ ngữ dưới đây được hiểu như sau.
+
+__label__KEEP Nguyên tắc xét danh hiệu thi đua và hình thức khen thưởng.
+
+__label__KEEP Cờ thi đua của Chính phủ.
+
+__label__KEEP Quy định chung về khen thưởng quá trình cống hiến.
+
+__label__KEEP Quy định chức danh tương đương để xét khen thưởng quá trình cống hiến.
+
+__label__KEEP Huân chương Sao vàng để tặng hoặc truy tặng cho cá nhân theo quy định tại điểm a khoản 2 Điều 34 của Luật Thi đua, khen thưởng, có nhiều công lao to lớn, đặc biệt xuất sắc trong sự nghiệp cách mạng của Đảng, của dân tộc, không phạm khuyết điểm lớn và đạt một trong các tiêu chuẩn sau đây.
+
+__label__KEEP Huân chương Hồ Chí Minh để tặng hoặc truy tặng cho cá nhân theo quy định tại điểm a khoản 1 Điều 35 của Luật Thi đua, khen thưởng, có công lao to lớn, đặc biệt xuất sắc trong sự nghiệp cách mạng của Đảng, của dân tộc, không phạm khuyết điểm lớn và đạt một trong các tiêu chuẩn sau đây.
+
+__label__KEEP Huân chương Độc lập hạng Nhất để tặng hoặc truy tặng cho cá nhân theo quy định tại điểm a khoản 1 Điều 36 của Luật Thi đua, khen thưởng, có quá trình cống hiến lâu dài trong cơ quan, tổ chức, đơn vị hoặc trong lực lượng vũ trang nhân dân và đạt được một trong các tiêu chuẩn sau đây.
+
+__label__KEEP Huân chương Độc lập hạng Nhì để tặng hoặc truy tặng cho cá nhân theo quy định tại điểm a khoản 1 Điều 37 của Luật Thi đua, khen thưởng, có quá trình cống hiến lâu dài trong cơ quan, tổ chức, đơn vị hoặc trong lực lượng vũ trang nhân dân và đạt được một trong các tiêu chuẩn sau đây.
+
+__label__KEEP Huân chương Độc lập hạng Ba để tặng hoặc truy tặng cho cá nhân theo quy định tại điểm a khoản 1 Điều 38 của Luật Thi đua, khen thưởng, có quá trình cống hiến lâu dài trong cơ quan, tổ chức, đơn vị hoặc trong lực lượng vũ trang nhân dân và đạt được một trong các tiêu chuẩn sau đây.
+
+__label__KEEP Huân chương Quân công hạng Nhất để tặng hoặc truy tặng cho cá nhân theo quy định tại điểm a khoản 1 Điều 39 của Luật Thi đua, khen thưởng, có quá trình công tác từ 35 năm trở lên trong lực lượng vũ trang nhân dân, đã đảm nhiệm một trong các chức vụ: Bộ trưởng, Thứ trưởng, Tổng tham mưu trưởng, Chủ nhiệm Tổng cục Chính trị hoặc chức danh tương đương; Đại tướng, Thượng tướng lực lượng vũ trang nhân dân từ 05 năm trở lên.
+
+__label__KEEP Huân chương Quân công hạng Nhì để tặng hoặc truy tặng cho cá nhân theo quy định tại điểm a khoản 1 Điều 40 của Luật Thi đua, khen thưởng, có quá trình công tác 35 năm trở lên trong lực lượng vũ trang nhân dân, đã đảm nhiệm một trong các chức vụ: Tư lệnh Quân khu hoặc chức danh tương đương từ 05 năm trở lên.
+
+__label__KEEP Huân chương Quân công hạng Ba để tặng hoặc truy tặng cho cá nhân theo quy định tại điểm a khoản 1 Điều 41 của Luật Thi đua, khen thưởng, có quá trình công tác 35 năm trong lực lượng vũ trang nhân dân, đã đảm nhiệm một trong các chức vụ: Tư lệnh Quân đoàn hoặc chức danh tương đương từ 05 năm trở lên.
+
+__label__KEEP Huân chương Lao động hạng Nhất.
+
+__label__KEEP Huân chương Lao động hạng Nhì.
+
+__label__KEEP Huân chương Lao động hạng Ba.
+
+__label__KEEP Cá nhân có thành tích đặc biệt xuất sắc trong công tác và có nhiều đóng góp cho sự nghiệp xây dựng và bảo vệ Tổ quốc được xem xét tặng thưởng Huân chương theo quy định của pháp luật về thi đua, khen thưởng.
+
+__label__KEEP Tập thể có thành tích xuất sắc, hoàn thành vượt mức các chỉ tiêu được giao và có thành tích nổi bật trong phong trào thi đua được xem xét tặng Cờ thi đua của Chính phủ.
+
+__label__KEEP Cá nhân có quá trình công tác lâu dài, có nhiều đóng góp và giữ chức vụ thuộc diện quy định được xét khen thưởng quá trình cống hiến.
+
+__label__KEEP Huân chương Lao động hạng Nhất được xét tặng cho cá nhân có thành tích đặc biệt xuất sắc trong lao động, sáng tạo và có đóng góp quan trọng đối với sự phát triển của đất nước.
+
+__label__KEEP Huân chương Lao động hạng Nhì được tặng cho cá nhân có thành tích xuất sắc, có nhiều sáng kiến và đóng góp tích cực trong quá trình công tác.
+
+__label__KEEP Huân chương Lao động hạng Ba được xét tặng cho cá nhân có thành tích xuất sắc trong lao động, sản xuất, công tác hoặc nghiên cứu khoa học.
+
+__label__KEEP Đối tượng được xét tặng danh hiệu thi đua bao gồm cá nhân, tập thể và các đối tượng khác theo quy định của Luật Thi đua, khen thưởng.
+
+__label__KEEP Danh hiệu Chiến sĩ thi đua cơ sở được xét tặng cho cá nhân đạt các tiêu chuẩn về thành tích công tác, mức độ hoàn thành nhiệm vụ và sáng kiến theo quy định.
+
+__label__KEEP Danh hiệu Lao động tiên tiến được xét tặng cho cá nhân đạt tiêu chuẩn về hoàn thành nhiệm vụ, chấp hành tốt chủ trương, chính sách và có tinh thần đoàn kết trong đơn vị.
+
+__label__KEEP Tập thể lao động xuất sắc được xét tặng cho tập thể hoàn thành xuất sắc nhiệm vụ được giao và đạt các tiêu chuẩn theo quy định của pháp luật.
+
+__label__KEEP Bằng khen của Chủ tịch Ủy ban nhân dân cấp tỉnh được xét tặng cho cá nhân có thành tích xuất sắc trong phong trào thi đua hoặc có thành tích đột xuất theo quy định.
+
+__label__KEEP Giấy khen được tặng cho cá nhân, tập thể có thành tích được cơ quan, đơn vị hoặc người có thẩm quyền ghi nhận theo quy định.
+
+__label__KEEP Cá nhân được xét tặng danh hiệu thi đua phải đáp ứng đầy đủ các tiêu chuẩn về kết quả thực hiện nhiệm vụ và thành tích thi đua trong thời gian xét.
+
+__label__KEEP Tập thể đạt thành tích xuất sắc trong phong trào thi đua và hoàn thành đầy đủ các nhiệm vụ được giao có thể được xem xét khen thưởng theo quy định.
+
+__label__KEEP Việc xét tặng Huân chương phải căn cứ vào thành tích, công trạng và tiêu chuẩn cụ thể của từng loại Huân chương được quy định trong Luật Thi đua, khen thưởng.
+
+__label__KEEP Người đứng đầu cơ quan, tổ chức có trách nhiệm xem xét, đề nghị cấp có thẩm quyền khen thưởng đối với cá nhân, tập thể có thành tích tiêu biểu.
+
+__label__KEEP Cá nhân có nhiều năm hoàn thành xuất sắc nhiệm vụ và có quá trình cống hiến lâu dài trong cơ quan, tổ chức có thể thuộc diện xem xét khen thưởng quá trình cống hiến.
+
+__label__KEEP Việc tặng hoặc truy tặng Huân chương cho cá nhân phải được thực hiện theo đúng đối tượng, tiêu chuẩn và thẩm quyền quy định.
+
+__label__KEEP Các hình thức khen thưởng bao gồm Huân chương, Huy chương, danh hiệu vinh dự nhà nước, Giải thưởng Hồ Chí Minh, Giải thưởng Nhà nước, Cờ thi đua, Bằng khen và Giấy khen.
+
+__label__KEEP Thành tích của cá nhân và tập thể là căn cứ quan trọng để cơ quan có thẩm quyền xem xét việc tặng danh hiệu thi đua và hình thức khen thưởng.
+
+__label__KEEP “Huân chương Bảo vệ Tổ quốc” hạng Nhất để tặng hoặc truy tặng cho cá nhân theo quy định tại điểm d khoản 1 Điều 45 của Luật Thi đua, khen thưởng, có quá trình công tác từ 35 năm trở lên trong lực lượng vũ trang nhân dân, đã đảm nhiệm một trong các chức vụ: Phó Tư lệnh Quân đoàn, Sư đoàn trưởng, Giám đốc Công an tỉnh, thành phố trực thuộc trung ương hoặc chức danh tương đương từ 10 năm trở lên.
+
+__label__KEEP “Huân chương Bảo vệ Tổ quốc” hạng Nhì để tặng hoặc truy tặng cho cá nhân theo quy định tại điểm d khoản 1 Điều 46 của Luật Thi đua, khen thưởng, có quá trình công tác từ 35 năm trở lên trong lực lượng vũ trang nhân dân, đã đảm nhiệm một trong các chức vụ: Phó Sư đoàn trưởng, Lữ đoàn trưởng, Phó Giám đốc Công an tỉnh, thành phố trực thuộc trung ương hoặc chức danh tương đương từ 10 năm trở lên.
+
+__label__KEEP “Huân chương Bảo vệ Tổ quốc” hạng Ba để tặng hoặc truy tặng cho cá nhân theo quy định tại điểm đ khoản 1 Điều 47 của Luật Thi đua, khen thưởng, có quá trình công tác từ 30 năm trở lên trong lực lượng vũ trang nhân dân, đã đảm nhiệm một trong các chức vụ: Trung đoàn trưởng, Phó trung đoàn hoặc chức danh tương đương từ 10 năm trở lên.
+
+__label__DROP Mục 3 HUÂN CHƯƠNG ĐẠI ĐOÀN KẾT DÂN TỘC, HUÂN CHƯƠNG HỮU NGHỊ
+
+__label__DROP “Huân chương Đại đoàn kết dân tộc”
+
+__label__DROP “Huân chương Hữu nghị”
+
+__label__DROP Trao tặng danh hiệu thi đua, hình thức khen thưởng
+
+__label__DROP Các danh hiệu thi đua, hình thức khen thưởng quy định tại Luật Thi đua, khen thưởng được công bố, trao tặng và đón nhận theo quy định tại Nghị định này gồm:
+
+__label__DROP TRANG 17
+
+__label__DROP a) Huân chương: “Huân chương Sao vàng”, “Huân chương Hồ Chí Minh”, “Huân chương Độc lập”, “Huân chương Quân công”, “Huân chương Lao động”, “Huân chương Bảo vệ Tổ quốc”, “Huân chương Chiến công”, “Huân chương Đại đoàn kết dân tộc”, “Huân chương Dũng cảm”, “Huân chương Hữu nghị”;
+
+__label__DROP b) Danh hiệu vinh dự nhà nước: “Tỉnh Anh hùng”, “Thành phố Anh hùng”, “Bà mẹ Việt Nam anh hùng”, “Anh hùng Lực lượng vũ trang nhân dân”, “Anh hùng Lao động”, “Nhà giáo nhân dân”, “Nhà giáo ưu tú”, “Thầy thuốc nhân dân”, “Thầy thuốc ưu tú”, “Nghệ sĩ nhân dân”, “Nghệ sĩ ưu tú”, “Nghệ nhân nhân dân”, “Nghệ nhân ưu tú”;
+
+__label__DROP c) “Giải thưởng Hồ Chí Minh”, “Giải thưởng Nhà nước”;
+
+__label__DROP d) Huy chương: “Huy chương Quân kỳ quyết thắng”, “Huy chương Vì an ninh Tổ quốc”, “Huy chương Chiến sĩ vẻ vang”, “Huy chương Hữu nghị”, “Huy chương Thanh niên xung phong vẻ vang”;
+
+__label__DROP đ) “Bằng khen của Thủ tướng Chính phủ”;
+
+__label__DROP e) “Cờ thi đua của Chính phủ”;
+
+__label__DROP g) “Chiến sĩ thi đua toàn quốc”.
+
+__label__DROP Yêu cầu của việc trao tặng, đón nhận danh hiệu thi đua, hình thức khen thưởng
+
+__label__DROP Nghi thức công bố, trao tặng và đón nhận danh hiệu thi đua, hình thức khen thưởng
+
+__label__DROP Trao tặng các hình thức khen thưởng cá nhân, tập thể người Việt Nam định cư ở nước ngoài; cá nhân, tập thể người nước ngoài; cơ quan, tổ chức nước ngoài và các tổ chức quốc tế ở Việt Nam
+
+__label__DROP Việc tổ chức trao tặng các hình thức khen thưởng cho cá nhân, tập thể người Việt Nam định cư ở nước ngoài; cá nhân, tập thể người nước ngoài; cơ quan, tổ chức nước ngoài và các tổ chức quốc tế ở Việt Nam được thực hiện theo quy định tại Điều 26 của Nghị định này và các quy định sau:
+
+__label__DROP Thẩm quyền quyết định tặng danh hiệu “Đơn vị quyết thắng”, “Tập thể lao động xuất sắc” trong Quân đội nhân dân, Công an nhân dân
+
+__label__DROP Thẩm quyền khen thưởng, trình khen thưởng đối với doanh nghiệp, tổ chức kinh tế khác
+
+__label__DROP Quy định chung về hồ sơ, thủ tục khen thưởng
+
+__label__DROP Quy định về lấy ý kiến để khen thưởng
+
+__label__DROP Quy định thời gian nhận hồ sơ, thẩm định và thông báo kết quả thẩm định, kết quả khen thưởng
+
+__label__DROP Hồ sơ, thủ tục xét tặng danh hiệu “Chiến sĩ thi đua toàn quốc”
+
+__label__DROP Hồ sơ đề nghị xét tặng danh hiệu “Chiến sĩ thi đua bộ, ban, ngành, tỉnh”; “Chiến sĩ thi đua cơ sở” và danh hiệu thi đua khác
+
+__label__DROP Hồ sơ, thủ tục xét tặng “Cờ thi đua của Chính phủ”
+
+__label__DROP Hồ sơ, thủ tục xét tặng hoặc truy tặng Huân chương các loại (trừ Huân chương Hữu nghị)
+
+__label__DROP Hồ sơ, thủ tục xét tặng hoặc truy tặng Huy chương các loại (trừ Huy chương Hữu nghị)
+
+__label__DROP Hồ sơ xét tặng Kỷ niệm chương của Ủy ban Thường vụ Quốc hội; Kỷ niệm chương của bộ, ban, ngành, tỉnh, tổ chức chính trị, tổ chức chính trị - xã hội, tổ chức chính trị - xã hội - nghề nghiệp, tổ chức xã hội, tổ chức xã hội - nghề nghiệp có tổ chức đảng đoàn hoặc có tổ chức đảng thuộc Đảng bộ khối các cơ quan trung ương
+
+__label__DROP Hồ sơ đề nghị xét tặng Kỷ niệm chương gồm:
+
+__label__DROP Khen thưởng theo thủ tục đơn giản
+
+__label__DROP Các trường hợp xét khen thưởng theo thủ tục đơn giản được thực hiện theo quy định tại Điều 85 của Luật Thi đua, khen thưởng.
+
+__label__KEEP “Huân chương Lao động” hạng Nhất được tặng cho cá nhân có thành tích đặc biệt xuất sắc trong lao động, sáng tạo, có nhiều đóng góp cho sự nghiệp xây dựng và bảo vệ Tổ quốc.
+
+__label__KEEP “Huân chương Lao động” hạng Nhì được tặng cho cá nhân có thành tích xuất sắc trong lao động, sáng tạo và có nhiều đóng góp cho sự nghiệp xây dựng và bảo vệ Tổ quốc.
+
+__label__KEEP “Huân chương Lao động” hạng Ba được tặng cho cá nhân có thành tích xuất sắc trong lao động, sản xuất, công tác hoặc có nhiều đóng góp cho sự phát triển của cơ quan, đơn vị.
+
+__label__KEEP Danh hiệu “Chiến sĩ thi đua toàn quốc” được xét tặng cho cá nhân có thành tích tiêu biểu xuất sắc được lựa chọn trong số những cá nhân có hai lần liên tục đạt danh hiệu “Chiến sĩ thi đua bộ, ban, ngành, tỉnh”.
+
+__label__KEEP Danh hiệu “Chiến sĩ thi đua cơ sở” được xét tặng cho cá nhân đạt các tiêu chuẩn theo quy định và có thành tích nổi bật trong thực hiện nhiệm vụ được giao.
+
+__label__KEEP “Bằng khen của Thủ tướng Chính phủ” được tặng cho cá nhân có thành tích xuất sắc tiêu biểu trong số những cá nhân đã được tặng bằng khen của bộ, ban, ngành, tỉnh.
+
+__label__KEEP “Cờ thi đua của Chính phủ” được xét tặng cho tập thể tiêu biểu xuất sắc dẫn đầu trong phong trào thi đua theo từng lĩnh vực, ngành nghề hoặc địa phương.
+
+__label__KEEP Tập thể được tặng danh hiệu “Tập thể lao động xuất sắc” khi hoàn thành xuất sắc nhiệm vụ được giao và có các cá nhân trong tập thể đạt thành tích theo tiêu chuẩn quy định.
+
+__label__KEEP Cá nhân được tặng danh hiệu “Lao động tiên tiến” khi hoàn thành tốt nhiệm vụ được giao, có tinh thần tự giác học tập và tích cực tham gia các phong trào thi đua.
+
+__label__KEEP Tập thể được xét tặng “Cờ thi đua của Chính phủ” phải là tập thể tiêu biểu xuất sắc trong phong trào thi đua và dẫn đầu trong số các tập thể đạt tiêu chuẩn.
+
+__label__KEEP Cá nhân được truy tặng Huân chương khi có thành tích đặc biệt xuất sắc và đáp ứng các tiêu chuẩn về đối tượng, thời gian công tác theo quy định của Luật Thi đua, khen thưởng.
+
+__label__KEEP Danh hiệu “Anh hùng Lực lượng vũ trang nhân dân” được xét tặng cho tập thể, cá nhân có thành tích đặc biệt xuất sắc trong chiến đấu, phục vụ chiến đấu hoặc trong sự nghiệp xây dựng lực lượng vũ trang nhân dân.
+
+__label__KEEP “Huân chương Chiến công” được tặng cho cá nhân có thành tích xuất sắc trong chiến đấu, phục vụ chiến đấu hoặc có công lao lớn trong việc xây dựng lực lượng vũ trang nhân dân.
+
+__label__KEEP Cá nhân có thành tích xuất sắc đột xuất trong thực hiện nhiệm vụ và có phạm vi ảnh hưởng trong toàn ngành có thể được xem xét tặng bằng khen theo quy định.
+
+__label__KEEP Tập thể hoàn thành xuất sắc nhiệm vụ, nội bộ đoàn kết và thực hiện tốt các phong trào thi đua có thể được xem xét công nhận danh hiệu thi đua theo quy định.
+
+__label__DROP Mục 1. QUY ĐỊNH CHUNG VỀ DANH HIỆU THI ĐUA VÀ HÌNH THỨC KHEN THƯỞNG
+
+__label__DROP Danh hiệu “Chiến sĩ thi đua toàn quốc”
+
+__label__DROP Hình thức khen thưởng đối với cá nhân có thành tích xuất sắc
+
+__label__DROP Nguyên tắc xét tặng danh hiệu thi đua và hình thức khen thưởng
+
+__label__DROP Trình tự, thủ tục xét tặng các danh hiệu thi đua
+
+__label__DROP Thẩm quyền quyết định tặng các danh hiệu thi đua
+
+__label__DROP Việc công bố quyết định khen thưởng được thực hiện theo quy định của pháp luật.
+
+__label__DROP Các danh hiệu thi đua và hình thức khen thưởng được quy định trong Luật Thi đua, khen thưởng và các văn bản hướng dẫn thi hành.
+
+__label__DROP Hồ sơ đề nghị xét tặng danh hiệu thi đua phải được lập theo đúng quy định.
+
+__label__DROP Cơ quan có thẩm quyền thực hiện việc tiếp nhận, thẩm định và trình hồ sơ khen thưởng.
+
+__label__DROP Việc tổ chức trao tặng danh hiệu thi đua, hình thức khen thưởng được thực hiện theo quy định tại Nghị định này.
+
+__label__DROP Quyết định khen thưởng được công bố và trao tặng trong các dịp phù hợp theo quy định.
+
+__label__DROP Chương IV. THẨM QUYỀN, HỒ SƠ VÀ THỦ TỤC KHEN THƯỞNG
+
+__label__DROP Điều 25. Hồ sơ đề nghị xét tặng danh hiệu thi đua.
+
+__label__DROP Điều 26. Trình tự xét tặng danh hiệu thi đua và hình thức khen thưởng.
+
+__label__DROP Việc lấy ý kiến của các cơ quan, tổ chức có liên quan được thực hiện trước khi quyết định khen thưởng.
+
+__label__DROP Danh sách các cá nhân, tập thể được đề nghị khen thưởng được tổng hợp theo quy định.
+
+__label__DROP Hồ sơ, thủ tục xét tặng hoặc truy tặng danh hiệu “Tỉnh Anh hùng”, “Thành phố Anh hùng”, danh hiệu “Anh hùng Lực lượng vũ trang nhân dân”, “Anh hùng Lao động”
+
+__label__DROP Hồ sơ, thủ tục xét tặng hoặc truy tặng “Bằng khen của Thủ tướng Chính phủ”
+
+__label__DROP Hồ sơ, thủ tục xét tặng hoặc truy tặng Bằng khen của bộ, ban, ngành, tỉnh; tặng Giấy khen
+
+__label__DROP Thủ tục đề nghị tặng Huân chương, Huy chương, danh hiệu, giải thưởng của Việt Nam đối với cá nhân, tập thể người Việt Nam định cư ở nước ngoài; cá nhân, tập thể người nước ngoài; hồ sơ, thủ tục, trách nhiệm của cá nhân, tổ chức Việt Nam khi nhận Huân chương, Huy chương, danh hiệu, giải thưởng do nước ngoài và tổ chức quốc tế trao tặng
+
+__label__DROP Việc công nhận mức độ hoàn thành nhiệm vụ của cá nhân, tập thể
+
+__label__DROP Công khai cá nhân, tập thể được đề nghị khen thưởng
+
+__label__KEEP Hội đồng Thi đua - Khen thưởng Trung ương là cơ quan tham mưu, tư vấn cho Đảng và Nhà nước về công tác thi đua, khen thưởng, có nhiệm vụ, quyền hạn theo quy định tại khoản 3 Điều 90 của Luật Thi đua, khen thưởng.
+
+__label__DROP Hội đồng Thi đua - Khen thưởng cấp bộ
+
+__label__KEEP Hội đồng Thi đua - Khen thưởng cấp tỉnh là cơ quan do Chủ tịch Ủy ban nhân dân cấp tỉnh thành lập, có trách nhiệm tham mưu, tư vấn cho cấp ủy, chính quyền về công tác thi đua, khen thưởng của địa phương.
+
+__label__DROP Thành lập quỹ thi đua, khen thưởng
+
+__label__DROP Quản lý quỹ thi đua, khen thưởng
+
+__label__DROP Sử dụng quỹ thi đua, khen thưởng
+
+__label__KEEP Tiền thưởng cho cá nhân, tập thể, hộ gia đình được khen thưởng được tính trên cơ sở mức lương cơ sở do Chính phủ quy định đang có hiệu lực vào thời điểm ban hành quyết định công nhận danh hiệu thi đua, quyết định hình thức khen thưởng.
+
+__label__DROP Mức tiền thưởng danh hiệu thi đua
+
+__label__DROP Mức tiền thưởng Huân chương các loại
+
+__label__DROP Mức tiền thưởng danh hiệu vinh dự nhà nước
+
+__label__DROP Mức tiền thưởng “Giải thưởng Hồ Chí Minh” và “Giải thưởng Nhà nước”
+
+__label__DROP Mức tiền thưởng Bằng khen, Giấy khen, Kỷ niệm chương
+
+__label__KEEP Cá nhân được tặng hoặc truy tặng Huy chương được quy định tại khoản 2 Điều 54 của Luật Thi đua, khen thưởng được tặng Bằng, khung, Huy chương, Hộp đựng Huy chương và được thưởng 1,5 lần mức lương cơ sở.
+
+__label__DROP TRANG 48
+
+__label__DROP Chương VII XÉT TÔN VINH VÀ TRAO TẶNG DANH HIỆU, GIẢI THƯỞNG CHO DOANH NHÂN, DOANH NGHIỆP VÀ TỔ CHỨC KINH TẾ KHÁC
+
+__label__DROP Mục 1 ĐỐI TƯỢNG, NGUYÊN TẮC, PHẠM VI, THỜI GIAN, THẨM QUYỀN XÉT TÔN VINH VÀ TRAO TẶNG DANH HIỆU, GIẢI THƯỞNG CHO DOANH NHÂN, DOANH NGHIỆP VÀ TỔ CHỨC KINH TẾ KHÁC
+
+__label__DROP Đối tượng xét tôn vinh và trao tặng danh hiệu, giải thưởng
+
+__label__DROP Nguyên tắc tổ chức xét tôn vinh và trao tặng danh hiệu, giải thưởng
+
+__label__DROP Phạm vi và thời gian tổ chức
+
+__label__DROP Thẩm quyền quyết định việc tổ chức xét tôn vinh và trao tặng danh hiệu, giải thưởng
+
+__label__KEEP Quyền lợi và trách nhiệm của doanh nhân, doanh nghiệp và tổ chức kinh tế khác được trao tặng danh hiệu, giải thưởng
+
+__label__DROP Kinh phí tổ chức
+
+__label__KEEP Hội đồng Thi đua - Khen thưởng cấp bộ có trách nhiệm tham mưu cho Bộ trưởng về công tác thi đua, khen thưởng trong phạm vi quản lý của bộ, ngành.
+
+__label__KEEP Hội đồng Thi đua - Khen thưởng cấp tỉnh có trách nhiệm xem xét, cho ý kiến đối với các trường hợp đề nghị tặng danh hiệu thi đua và hình thức khen thưởng thuộc thẩm quyền.
+
+__label__KEEP Cá nhân được khen thưởng có quyền được nhận tiền thưởng, hiện vật kèm theo danh hiệu thi đua hoặc hình thức khen thưởng theo quy định.
+
+__label__KEEP Doanh nghiệp được trao tặng danh hiệu, giải thưởng có trách nhiệm duy trì các thành tích, tiêu chuẩn đã được công nhận trong thời gian theo quy định.
+
+__label__KEEP Doanh nhân được trao tặng danh hiệu có trách nhiệm chấp hành các quy định của pháp luật và bảo vệ uy tín của danh hiệu được trao tặng.
+
+__label__KEEP Doanh nghiệp được xét tôn vinh phải có thành tích nổi bật trong hoạt động sản xuất, kinh doanh và có đóng góp tích cực cho sự phát triển kinh tế - xã hội.
+
+__label__KEEP Tổ chức kinh tế được xét trao tặng giải thưởng phải đáp ứng các tiêu chí về hiệu quả hoạt động, trách nhiệm xã hội và đóng góp cho cộng đồng theo quy định.
+
+__label__KEEP Cá nhân, tập thể được đề nghị khen thưởng phải bảo đảm thành tích được xác định trong thời gian và phạm vi phù hợp với tiêu chuẩn của danh hiệu hoặc hình thức khen thưởng.
+
+__label__KEEP Việc xét tôn vinh doanh nhân, doanh nghiệp được thực hiện trên cơ sở thành tích, mức độ đóng góp và kết quả hoạt động thực tế của đối tượng được xét.
+
+__label__KEEP Doanh nghiệp được trao tặng danh hiệu, giải thưởng có quyền sử dụng danh hiệu trong hoạt động giới thiệu, quảng bá theo quy định của pháp luật.
+
+__label__KEEP Kinh phí trao tặng danh hiệu, giải thưởng được sử dụng đúng mục đích và phải bảo đảm tiết kiệm, hiệu quả theo quy định.
+
+__label__KEEP Cá nhân được tặng Huy chương được nhận hiện vật kèm theo và tiền thưởng theo mức do pháp luật quy định tại thời điểm quyết định khen thưởng.
+
+__label__KEEP Tiền thưởng đối với cá nhân, tập thể được khen thưởng được xác định căn cứ vào mức lương cơ sở có hiệu lực tại thời điểm ban hành quyết định khen thưởng.
+
+__label__KEEP Tập thể được xét tặng danh hiệu thi đua phải hoàn thành nhiệm vụ được giao và đáp ứng các tiêu chuẩn cụ thể của danh hiệu theo quy định.
+
+__label__KEEP Cá nhân được xét tặng danh hiệu thi đua phải có thành tích phù hợp với tiêu chuẩn và được cấp có thẩm quyền xem xét, quyết định.
+
+__label__DROP Hội đồng Thi đua - Khen thưởng cấp bộ.
+
+__label__DROP Hội đồng Thi đua - Khen thưởng cấp tỉnh.
+
+__label__DROP Quy định về Hội đồng Thi đua - Khen thưởng các cấp.
+
+__label__DROP Nguyên tắc hoạt động của Hội đồng Thi đua - Khen thưởng.
+
+__label__DROP Thành phần Hội đồng Thi đua - Khen thưởng.
+
+__label__DROP Chế độ làm việc của Hội đồng Thi đua - Khen thưởng.
+
+__label__DROP Kinh phí hoạt động của Hội đồng Thi đua - Khen thưởng.
+
+__label__DROP Quy định về quản lý và sử dụng quỹ thi đua, khen thưởng.
+
+__label__DROP Mức tiền thưởng đối với các danh hiệu thi đua.
+
+__label__DROP Mức tiền thưởng đối với các hình thức khen thưởng.
+
+__label__DROP Hồ sơ đề nghị xét tặng danh hiệu và hình thức khen thưởng.
+
+__label__DROP Trình tự, thủ tục xét tặng danh hiệu thi đua và hình thức khen thưởng.
+
+__label__DROP Thẩm quyền quyết định tặng danh hiệu, giải thưởng cho doanh nhân, doanh nghiệp.
+
+__label__DROP Đối tượng và phạm vi xét tôn vinh, trao tặng danh hiệu, giải thưởng.
+
+__label__DROP Thời gian tổ chức xét tôn vinh và trao tặng danh hiệu, giải thưởng.
+
+
+__label__DROP Điều kiện tham dự của doanh nhân
+
+__label__DROP Điều kiện tham dự của doanh nghiệp và tổ chức kinh tế khác
+
+__label__DROP Hồ sơ, thủ tục tổ chức phạm vi toàn quốc
+
+__label__DROP Hồ sơ, thủ tục tổ chức phạm vi cấp tỉnh
+
+__label__DROP Tổ chức xét tôn vinh và trao tặng danh hiệu, giải thưởng
+
+__label__DROP Đình chỉ việc tổ chức xét tôn vinh và trao tặng danh hiệu, giải thưởng
+
+__label__DROP Hủy bỏ kết quả xét tôn vinh và trao tặng danh hiệu, giải thưởng
+
+__label__DROP Trách nhiệm của bộ, ban, ngành, tỉnh, cơ quan, tổ chức liên quan trong việc xét tôn vinh và trao tặng danh hiệu, giải thưởng cho doanh nhân, doanh nghiệp, tổ chức kinh tế khác
+
+__label__DROP Hồ sơ, thủ tục hủy bỏ quyết định tặng danh hiệu thi đua, hình thức khen thưởng
+
+__label__DROP Hồ sơ, thủ tục tước, phục hồi và trao lại danh hiệu vinh dự nhà nước
+
+__label__DROP Thu hồi hiện vật khen thưởng và tiền thưởng
+
+__label__DROP Mẫu Huân chương
+
+__label__DROP Mẫu Huy chương
+
+__label__DROP Mẫu huy hiệu của danh hiệu Chiến sĩ thi đua toàn quốc, Chiến sĩ thi đua bộ, ban, ngành, tỉnh và danh hiệu vinh dự nhà nước; mẫu kỷ niệm chương
+
+__label__DROP Mẫu “Huân chương Sao vàng”
+
+__label__DROP Mẫu “Huân chương Hồ Chí Minh”
+
+__label__DROP Mẫu “Huân chương Độc lập” hạng Nhất, hạng Nhì, hạng Ba
+
+__label__DROP Mẫu “Huân chương Quân công” hạng Nhất, hạng Nhì, hạng Ba
+
+__label__DROP Mẫu “Huân chương Lao động” hạng Nhất, hạng Nhì, hạng Ba
+
+__label__DROP Mẫu “Huân chương Chiến công” hạng Nhất, hạng Nhì, hạng Ba
+
+__label__DROP Mẫu “Huân chương Bảo vệ Tổ quốc” hạng Nhất, hạng Nhì, hạng Ba
+
+__label__DROP Mẫu “Huân chương Dũng cảm”
+
+__label__DROP Mẫu “Huân chương Đại đoàn kết dân tộc”
+
+__label__DROP Mẫu “Huân chương Hữu nghị”
+
+__label__DROP Mẫu “Huy chương Quân kỳ quyết thắng”
+
+__label__DROP Mẫu “Huy chương Vì an ninh Tổ quốc”
+
+__label__DROP Mẫu “Huy chương Hữu nghị”
+
+__label__DROP Mẫu huy hiệu “Bà mẹ Việt Nam anh hùng”
+
+__label__DROP Mẫu huy hiệu “Anh hùng Lực lượng vũ trang nhân dân”
+
+__label__DROP Mẫu huy hiệu “Anh hùng Lao động”; “Tỉnh Anh hùng”, “Thành phố Anh hùng”
+
+__label__DROP Mẫu huy hiệu “Nhà giáo nhân dân”; “Nhà giáo ưu tú”
+
+__label__DROP Mẫu huy hiệu “Thầy thuốc nhân dân”, “Thầy thuốc ưu tú”
+
+__label__DROP Mẫu huy hiệu “Nghệ sĩ nhân dân”, “Nghệ sĩ ưu tú”
+
+__label__DROP Mẫu huy hiệu “Nghệ nhân nhân dân”, “Nghệ nhân ưu tú”
+
+__label__DROP Mẫu huy hiệu “Chiến sĩ thi đua toàn quốc”
+
+__label__DROP Mẫu bằng của các hình thức khen thưởng và danh hiệu thi đua thuộc thẩm quyền quyết định của Chủ tịch nước, Chính phủ, Thủ tướng Chính phủ
+
+__label__KEEP Mẫu bằng khen của bộ, ban, ngành, tỉnh, bằng khen của tổ chức chính trị, tổ chức chính trị - xã hội ở cấp tỉnh; bằng khen cấp quân khu, quân chủng, quân đoàn, binh chủng, tổng cục và tương đương thuộc Bộ Quốc phòng, bằng khen của Ban Cơ yếu Chính phủ; bằng khen của Đại học Quốc gia; bằng chứng nhận chiến sĩ thi đua bộ, ban, ngành, tỉnh có kích thước 360 mm x 237 mm và được in trên khổ giấy có kích thước tương ứng.
+
+__label__KEEP Đường diềm trang trí trên bằng khen không được giống hoặc tương tự với các bằng khen cấp nhà nước.
+
+__label__KEEP Chính giữa phía trên của bằng khen là Quốc huy nước Cộng hòa xã hội chủ nghĩa Việt Nam hoặc biểu tượng của cơ quan, tổ chức theo từng trường hợp được quy định.
+
+__label__KEEP Hình nền bằng do cơ quan có thẩm quyền ban hành quyết định quy định nhưng không được giống với hình nền các bằng do Chủ tịch nước và Thủ tướng Chính phủ tặng hoặc truy tặng.
+
+__label__DROP Mẫu giấy khen, bằng “Chiến sĩ thi đua cơ sở”
+
+__label__KEEP Mẫu Bằng kỷ niệm chương của Ủy ban Thường vụ Quốc hội, Kỷ niệm chương của bộ, ban, ngành, tỉnh; bằng chứng nhận “Gia đình văn hóa” được in trên khổ giấy A5, kích thước 210 mm x 148 mm.
+
+__label__KEEP Nội dung, họa tiết hoa văn trang trí trên bằng kỷ niệm chương do Ủy ban Thường vụ Quốc hội, bộ, ban, ngành, tỉnh quy định.
+
+__label__DROP Điều 106. Mẫu Bằng danh hiệu “Tập thể lao động xuất sắc”, “Đơn vị quyết thắng”; xã, phường, thị trấn tiêu biểu; thôn, tổ dân phố văn hóa
+
+__label__KEEP Cờ có kích thước 850 mm x 650 mm và được làm bằng vải sa tanh hai lớp màu đỏ cờ.
+
+__label__DROP Mẫu “Cờ thi đua của Chính phủ”
+
+__label__DROP Mẫu Cờ thi đua của bộ, ban, ngành, tỉnh
+
+__label__KEEP Nội dung thêu trên cờ thi đua của quân khu, quân chủng, quân đoàn, binh chủng, tổng cục và tương đương thuộc Bộ Quốc phòng, cờ thi đua của Ban Cơ yếu Chính phủ, cờ thi đua của Đại học Quốc gia do Bộ Quốc phòng, Bộ Giáo dục và Đào tạo quy định.
+
+__label__DROP Mẫu khung Bằng danh hiệu thi đua, hình thức khen thưởng
+
+__label__DROP Hộp đựng huân chương, huy chương, huy hiệu danh hiệu vinh dự nhà nước, huy hiệu “Chiến sĩ thi đua toàn quốc”, Kỷ niệm chương; Hộp đựng khung bằng của các danh hiệu thi đua và hình thức khen thưởng thuộc thẩm quyền quyết định của Chủ tịch nước, Chính phủ, Thủ tướng Chính phủ
+
+__label__KEEP Bộ Nội vụ có trách nhiệm mua sắm, bảo quản và cấp phát hiện vật khen thưởng cấp Nhà nước cho các bộ, ban, ngành, tỉnh có cá nhân, tập thể, hộ gia đình được khen thưởng; quản lý, hướng dẫn, kiểm tra việc cấp phát hiện vật khen thưởng cấp Nhà nước.
+
+__label__DROP Cấp đổi hiện vật khen thưởng
+
+__label__DROP Cấp lại hiện vật khen thưởng
+
+__label__DROP Hiệu lực thi hành.
+
+__label__KEEP Cá nhân, tập thể được khen thưởng có trách nhiệm bảo quản hiện vật khen thưởng được cấp theo quy định.
+
+__label__KEEP Bộ Nội vụ có trách nhiệm hướng dẫn các bộ, ban, ngành, tỉnh thực hiện việc quản lý và cấp phát hiện vật khen thưởng cấp Nhà nước.
+
+__label__KEEP Hiện vật khen thưởng bị hư hỏng do lỗi kỹ thuật được xem xét cấp đổi theo quy định.
+
+__label__KEEP Trường hợp hiện vật khen thưởng bị mất do nguyên nhân khách quan, cơ quan có thẩm quyền xem xét việc cấp lại theo quy định.
+
+__label__KEEP Việc cấp đổi hiện vật khen thưởng phải căn cứ vào hồ sơ và nguyên nhân hư hỏng của hiện vật.
+
+__label__KEEP Khung bằng của danh hiệu thi đua và hình thức khen thưởng được cấp cùng với bằng theo quy định.
+
+__label__KEEP Cờ thi đua phải được làm bằng chất liệu phù hợp, bảo đảm kích thước và màu sắc theo mẫu quy định.
+
+__label__KEEP Huy hiệu danh hiệu vinh dự nhà nước phải được chế tác theo đúng mẫu do cơ quan có thẩm quyền quy định.
+
+__label__KEEP Bằng khen phải thể hiện đầy đủ tên danh hiệu hoặc hình thức khen thưởng, tên cá nhân hoặc tập thể được khen thưởng và quyết định khen thưởng.
+
+__label__KEEP Hiện vật khen thưởng cấp Nhà nước được cấp cho cá nhân, tập thể, hộ gia đình cùng với quyết định khen thưởng theo quy định.
+
+__label__KEEP Việc sử dụng biểu tượng của cơ quan, tổ chức trên bằng khen phải bảo đảm đúng đối tượng và thẩm quyền theo quy định.
+
+__label__KEEP Nội dung và hình thức của bằng chứng nhận chiến sĩ thi đua phải phù hợp với mẫu được cơ quan có thẩm quyền ban hành.
+
+__label__KEEP Doanh nghiệp tham dự xét tôn vinh phải đáp ứng các điều kiện về thời gian hoạt động, kết quả sản xuất kinh doanh và việc chấp hành pháp luật theo quy định.
+
+__label__KEEP Doanh nhân tham dự xét tôn vinh phải có thành tích nổi bật và có đóng góp tích cực cho cộng đồng, xã hội.
+
+__label__KEEP Trường hợp kết quả xét tôn vinh được xác định là không đúng quy định thì cơ quan có thẩm quyền xem xét hủy bỏ kết quả đã công nhận.
+
+__label__DROP Mẫu Huân chương và Huy chương các loại.
+
+__label__DROP Mẫu huy hiệu các danh hiệu vinh dự nhà nước.
+
+__label__DROP Mẫu bằng các danh hiệu thi đua.
+
+__label__DROP Mẫu cờ các danh hiệu và hình thức khen thưởng.
+
+__label__DROP Mẫu khung bằng các danh hiệu thi đua và hình thức khen thưởng.
+
+__label__DROP Mẫu hộp đựng Huân chương, Huy chương và huy hiệu.
+
+__label__DROP Quy định về hình thức và kích thước của Huân chương.
+
+__label__DROP Quy định về hình thức và kích thước của Huy chương.
+
+__label__DROP Quy định về mẫu bằng khen của các cấp.
+
+__label__DROP Quy định về mẫu giấy khen và bằng chứng nhận.
+
+__label__DROP Quy định về mẫu cờ thi đua của các bộ, ban, ngành, tỉnh.
+
+__label__DROP Quy định về mẫu huy hiệu danh hiệu vinh dự nhà nước.
+
+__label__DROP Quy định về cấp đổi hiện vật khen thưởng.
+
+__label__DROP Quy định về cấp lại hiện vật khen thưởng.
+
+__label__DROP Quy định về quản lý, cấp phát hiện vật khen thưởng.

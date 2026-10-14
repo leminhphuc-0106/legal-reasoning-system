@@ -1,0 +1,875 @@
+[
+  {
+    "document_id": "UNKNOWN",
+    "chunk_id": "05.01",
+    "id": "05",
+    "parent_id": null,
+    "level": "article",
+    "tokenized_text": [
+      "Điều", "5", ":", "Tiêu", "chuẩn", "tặng", "danh", "hiệu",
+      "“", "Lao", "động", "tiên", "tiến", "”"
+    ],
+    "ner": [
+      [9, 12, "KHEN_THUONG"]
+    ],
+    "relations": []
+  },
+  {
+    "document_id": "UNKNOWN",
+    "chunk_id": "05.01",
+    "id": "05.01",
+    "parent_id": "05",
+    "level": "clause",
+    "tokenized_text": [
+      "Khoản", "1", ":", "Danh", "hiệu", "“",
+      "Lao", "động", "tiên", "tiến", "”",
+      "để", "tặng", "hằng", ".", "năm", "cho",
+      "cán", "bộ", ",", "công", "chức", ",", "viên", "chức", ",",
+      "người", "lao", "động", "gương", "mẫu", "chấp", "hành", "tốt",
+      "chủ", "trương", ",", "đường", "lối", "của", "Đảng", ",",
+      "chính", "sách", ",", "pháp", "luật", "của", "Nhà", "nước",
+      "đủ", "tiêu", "chuẩn", "theo", "quy", "định", "tại", "khoản",
+      "1", "Điều", "24", "Luật", "Thi", "đua", ",", "khen", "thưởng", "."
+    ],
+    "ner": [
+      [6, 9, "KHEN_THUONG"],
+      [17, 28, "DOI_TUONG"],
+      [29, 50, "DIEU_KIEN"],
+      [52, 57, "CAN_CU"],
+      [58, 63, "VAN_BAN"]
+    ],
+    "relations": [
+      {
+        "head": {
+          "mention": "cán bộ , công chức , viên chức , người lao động",
+          "position": [17, 28],
+          "type": "DOI_TUONG"
+        },
+        "tail": {
+          "mention": "Lao động tiên tiến",
+          "position": [6, 9],
+          "type": "KHEN_THUONG"
+        },
+        "relation_text": "DUOC_TANG"
+      },
+      {
+        "head": {
+          "mention": "Lao động tiên tiến",
+          "position": [6, 9],
+          "type": "KHEN_THUONG"
+        },
+        "tail": {
+          "mention": "gương mẫu chấp hành tốt chủ trương , đường lối của Đảng , chính sách , pháp luật của Nhà nước",
+          "position": [29, 50],
+          "type": "DIEU_KIEN"
+        },
+        "relation_text": "CO_DIEU_KIEN"
+      }
+    ]
+  },
+  {
+    "document_id": "UNKNOWN",
+    "chunk_id": "05.02",
+    "id": "05.02",
+    "parent_id": "05",
+    "level": "clause",
+    "tokenized_text": [
+      "Khoản", "2", ":", "Danh", "hiệu", "“",
+      "Lao", "động", "tiên", "tiến", "”",
+      "để", "tặng", "hằng", "năm", "cho",
+      "công", "nhân", ",", "nông", "dân", ",",
+      "người", "lao", "động", "không", "thuộc", "đối",
+      "tượng", "quy", "định", "tại", "khoản", "Ì",
+      "Điều", "này", "đạt", "các", "tiêu", "chuẩn",
+      "theo", "quy", "định", "tại", "khoản", "3",
+      "Điều", "24", "Luật", "Thi", "đua", ",",
+      "khen", "thưởng", "."
+    ],
+    "ner": [
+      [6, 9, "KHEN_THUONG"],
+      [16, 24, "DOI_TUONG"],
+      [36, 40, "DIEU_KIEN"],
+      [45, 48, "CAN_CU"],
+      [49, 54, "VAN_BAN"]
+    ],
+    "relations": [
+      {
+        "head": {
+          "mention": "công nhân , nông dân , người lao động",
+          "position": [16, 24],
+          "type": "DOI_TUONG"
+        },
+        "tail": {
+          "mention": "Lao động tiên tiến",
+          "position": [6, 9],
+          "type": "KHEN_THUONG"
+        },
+        "relation_text": "DUOC_TANG"
+      },
+      {
+        "head": {
+          "mention": "Lao động tiên tiến",
+          "position": [6, 9],
+          "type": "KHEN_THUONG"
+        },
+        "tail": {
+          "mention": "đạt các tiêu chuẩn",
+          "position": [36, 40],
+          "type": "DIEU_KIEN"
+        },
+        "relation_text": "CO_DIEU_KIEN"
+      }
+    ]
+  },
+
+  {
+    "document_id": "UNKNOWN",
+    "chunk_id": "06.01",
+    "id": "06",
+    "parent_id": null,
+    "level": "article",
+    "tokenized_text": [
+      "Điều", "6", ":", "Đối", "tượng", ",", "tiêu", "chuẩn",
+      "tặng", "danh", "hiệu", "“", "Cò", "thi", "đua", "của",
+      "Ủy", "ban", "nhân", "dân", "thành", "phố", "”"
+    ],
+    "ner": [
+      [12, 21, "KHEN_THUONG"]
+    ],
+    "relations": []
+  },
+  {
+    "document_id": "UNKNOWN",
+    "chunk_id": "06.01",
+    "id": "06.01",
+    "parent_id": "06",
+    "level": "clause",
+    "tokenized_text": [
+      "Khoản", "1", ":", "Danh", "hiệu", "“", "Cò", "thi", "đua",
+      "của", "Ủy", "ban", "nhân", "dân", "thành", "phô", "năm",
+      "cho", "các", "đối", "tượng", "sau", ":", "ấ", "”", "đề",
+      "tặng", "hăng"
+    ],
+    "ner": [
+      [6, 15, "KHEN_THUONG"],
+      [18, 21, "DOI_TUONG"]
+    ],
+    "relations": [
+      {
+        "head": {
+          "mention": "các đối tượng sau",
+          "position": [18, 21],
+          "type": "DOI_TUONG"
+        },
+        "tail": {
+          "mention": "Cò thi đua của Ủy ban nhân dân thành phô",
+          "position": [6, 15],
+          "type": "KHEN_THUONG"
+        },
+        "relation_text": "DUOC_TANG"
+      }
+    ]
+  },
+  {
+    "document_id": "UNKNOWN",
+    "chunk_id": "06.01",
+    "id": "06.01.a",
+    "parent_id": "06.01",
+    "level": "point",
+    "tokenized_text": [
+      "Điểm", "a)", "Đơn", "vị", "dẫn", "đầu", "cụm", ",",
+      "khối", "thi", "đua", "do", "thành", "phó", "tổ", "chức"
+    ],
+    "ner": [
+      [2, 3, "DOI_TUONG"],
+      [4, 15, "DIEU_KIEN"]
+    ],
+    "relations": [
+      {
+        "head": {
+          "mention": "Đơn vị",
+          "position": [2, 3],
+          "type": "DOI_TUONG"
+        },
+        "tail": {
+          "mention": "dẫn đầu cụm , khối thi đua do thành phó tổ chức",
+          "position": [4, 15],
+          "type": "DIEU_KIEN"
+        },
+        "relation_text": "DAP_UNG_DIEU_KIEN"
+      }
+    ]
+  },
+
+  {
+    "document_id": "UNKNOWN",
+    "chunk_id": "06.01",
+    "id": "06",
+    "parent_id": null,
+    "level": "article",
+    "tokenized_text": [
+      "Điều", "6", ":", "Đối", "tượng", ",", "tiêu", "chuẩn",
+      "tặng", "danh", "hiệu", "“", "Cò", "thi", "đua", "của",
+      "Ủy", "ban", "nhân", "dân", "thành", "phố", "”"
+    ],
+    "ner": [
+      [12, 21, "KHEN_THUONG"]
+    ],
+    "relations": []
+  },
+  {
+    "document_id": "UNKNOWN",
+    "chunk_id": "06.01",
+    "id": "06.01",
+    "parent_id": "06",
+    "level": "clause",
+    "tokenized_text": [
+      "Khoản", "1", ":", "Danh", "hiệu", "“", "Cò", "thi", "đua",
+      "của", "Ủy", "ban", "nhân", "dân", "thành", "phô", "năm",
+      "cho", "các", "đối", "tượng", "sau", ":", "ấ", "”", "đề",
+      "tặng", "hăng"
+    ],
+    "ner": [
+      [6, 15, "KHEN_THUONG"],
+      [18, 21, "DOI_TUONG"]
+    ],
+    "relations": [
+      {
+        "head": {
+          "mention": "các đối tượng sau",
+          "position": [18, 21],
+          "type": "DOI_TUONG"
+        },
+        "tail": {
+          "mention": "Cò thi đua của Ủy ban nhân dân thành phô",
+          "position": [6, 15],
+          "type": "KHEN_THUONG"
+        },
+        "relation_text": "DUOC_TANG"
+      }
+    ]
+  },
+  {
+    "document_id": "UNKNOWN",
+    "chunk_id": "06.01",
+    "id": "06.01.b",
+    "parent_id": "06.01",
+    "level": "point",
+    "tokenized_text": [
+      "Điểm", "b)", "Đơn", "vị", "dẫn", "đầu", "phong", "trào",
+      "thi", "đua", "theo", "chuyên", "đề", "do", "Chủ", "tịch",
+      "Ủy", "ban", "nhân", "dân", "thành", "phố", "phát", "động", "."
+    ],
+    "ner": [
+      [2, 3, "DOI_TUONG"],
+      [4, 23, "DIEU_KIEN"]
+    ],
+    "relations": [
+      {
+        "head": {
+          "mention": "Đơn vị",
+          "position": [2, 3],
+          "type": "DOI_TUONG"
+        },
+        "tail": {
+          "mention": "dẫn đầu phong trào thi đua theo chuyên đề do Chủ tịch Ủy ban nhân dân thành phố phát động",
+          "position": [4, 23],
+          "type": "DIEU_KIEN"
+        },
+        "relation_text": "DAP_UNG_DIEU_KIEN"
+      }
+    ]
+  },
+
+  {
+    "document_id": "UNKNOWN",
+    "chunk_id": "06.02",
+    "id": "06.02.a",
+    "parent_id": "06.02",
+    "level": "point",
+    "tokenized_text": [
+      "Điểm", "a)", "Có", "thành", "tích", "nổi", "bật", "dẫn", "đầu",
+      "được", "bình", "xét", "suy", "tôn", "thông", "qua", "cụm", "khối",
+      "thi", "đua", "."
+    ],
+    "ner": [
+      [2, 21, "DIEU_KIEN"]
+    ],
+    "relations": []
+  },
+  {
+    "document_id": "UNKNOWN",
+    "chunk_id": "06.02",
+    "id": "06.02.b",
+    "parent_id": "06.02",
+    "level": "point",
+    "tokenized_text": [
+      "Điểm", "b)", "Tổ", "chức", "đảng", "đoàn", "thể", "(nếu", "có)",
+      "được", "đánh", "giá", "xếp", "loại", "hoàn", "thành", "tốt",
+      "nhiệm", "vụ", "trở", "lên", ";"
+    ],
+    "ner": [
+      [2, 9, "DOI_TUONG"],
+      [10, 21, "DIEU_KIEN"]
+    ],
+    "relations": [
+      {
+        "head": {
+          "mention": "Tổ chức đảng, đoàn thể (nếu có)",
+          "position": [2, 9],
+          "type": "DOI_TUONG"
+        },
+        "tail": {
+          "mention": "được đánh giá, xếp loại hoàn thành tốt nhiệm vụ trở lên",
+          "position": [10, 21],
+          "type": "DIEU_KIEN"
+        },
+        "relation_text": "DAP_UNG_DIEU_KIEN"
+      }
+    ]
+  },
+  {
+    "document_id": "UNKNOWN",
+    "chunk_id": "06.02",
+    "id": "06.02.c",
+    "parent_id": "06.02",
+    "level": "point",
+    "tokenized_text": [
+      "Điểm", "c)", "Được", "cấp", "có", "thẩm", "quyền", "đánh", "giá",
+      "xếp", "loại", "cơ", "quan", "đơn", "vị", "hoàn", "thành", "xuất",
+      "sắc", "nhiệm", "vụ", ";"
+    ],
+    "ner": [
+      [2, 21, "DIEU_KIEN"]
+    ],
+    "relations": []
+  },
+  {
+    "document_id": "UNKNOWN",
+    "chunk_id": "06.02",
+    "id": "06.02.d",
+    "parent_id": "06.02",
+    "level": "point",
+    "tokenized_text": [
+      "Điểm", "d)", "Có", "100", "%", "phòng", "ban", "đơn", "vị",
+      "trực", "thuộc", "được", "đánh", "giá", "xếp", "loại", "hoàn",
+      "thành", "tốt", "nhiệm", "vụ", "trở", "lên", "."
+    ],
+    "ner": [
+      [2, 23, "DIEU_KIEN"]
+    ],
+    "relations": []
+  },
+  {
+    "document_id": "UNKNOWN",
+    "chunk_id": "06.03",
+    "id": "06.03",
+    "parent_id": "06.03",
+    "level": "clause",
+    "tokenized_text": [
+      "Khoản", "3)", "Danh", "hiệu", "“Cờ", "thi", "đua", "của", "Ủy",
+      "ban", "nhân", "dân", "thành", "phố”", "để", "tặng", "cho", "tập",
+      "thể", "gương", "mẫu", "chấp", "hành", "tốt", "chủ", "trương",
+      "của", "Đảng", "chính", "sách", "pháp", "luật", "của", "Nhà",
+      "nước", "có", "thành", "tích", "xuất", "sắc", "tiêu", "biểu",
+      "dẫn", "đầu", "phong", "trào", "thi", "đua", "theo", "chuyên",
+      "đề", "do", "Chủ", "tịch", "Ủy", "ban", "nhân", "dân", "thành",
+      "phố", "phát", "động", "có", "thời", "gian", "thực", "hiện",
+      "từ", "03", "năm", "trở", "lên", "khi", "tổng", "kết", "phong",
+      "trào", "."
+    ],
+    "ner": [
+      [2, 14, "REWARD"],
+      [17, 19, "DOI_TUONG"],
+      [20, 77, "DIEU_KIEN"]
+    ],
+    "relations": [
+      {
+        "head": {
+          "mention": "tập thể",
+          "position": [17, 19],
+          "type": "DOI_TUONG"
+        },
+        "tail": {
+          "mention": "gương mẫu chấp hành tốt chủ trương của Đảng, chính sách, pháp luật của Nhà nước, có thành tích xuất sắc, tiêu biểu dẫn đầu phong trào thi đua theo chuyên đề do Chủ tịch Ủy ban nhân dân thành phố phát động có thời gian thực hiện từ 03 năm trở lên khi tổng kết phong trào",
+          "position": [20, 77],
+          "type": "DIEU_KIEN"
+        },
+        "relation_text": "DAP_UNG_DIEU_KIEN"
+      }
+    ]
+  },
+  {
+    "document_id": "UNKNOWN",
+    "chunk_id": "07.01",
+    "id": "07.01.a",
+    "parent_id": "07.01",
+    "level": "point",
+    "tokenized_text": [
+      "Điểm", "a)", "Các", "phòng", "ban", "và", "tương", "đương",
+      "đơn", "vị", "trực", "thuộc", "các", "cơ", "quan", "cấp",
+      "thành", "phố", ";"
+    ],
+    "ner": [
+      [2, 18, "DOI_TUONG"]
+    ],
+    "relations": []
+  },
+  {
+    "document_id": "UNKNOWN",
+    "chunk_id": "07.01",
+    "id": "07.01.b",
+    "parent_id": "07.01",
+    "level": "point",
+    "tokenized_text": [
+      "Điểm", "b)", "Các", "phòng", "ban", "và", "tương", "đương",
+      "đơn", "vị", "trực", "thuộc", "cấp", "huyện", "Ủy", "ban",
+      "nhân", "dân", "cấp", "xã", ";"
+    ],
+    "ner": [
+      [2, 20, "DOI_TUONG"]
+    ],
+    "relations": []
+  },
+  {
+    "document_id": "UNKNOWN",
+    "chunk_id": "07.01",
+    "id": "07.01.c",
+    "parent_id": "07.01",
+    "level": "point",
+    "tokenized_text": [
+      "Điểm", "c)", "Trường", "học", "theo", "phân", "cấp", "quản",
+      "lý", "trên", "địa", "bàn", "thành", "phố", "(trừ", "đối",
+      "tượng", "quy", "định", "tại", "điểm", "a", "điểm", "b",
+      "khoản", "1", "Điều", "này)", "các", "khoa", "phòng", "và",
+      "tương", "đương", "thuộc", "các", "trường", "Đại", "học",
+      "Cao", "đẳng", "bệnh", "viện", "tuyến", "thành", "phố",
+      "trung", "tâm", "y", "tế", "tuyến", "huyện", ";"
+    ],
+    "ner": [
+      [2, 54, "DOI_TUONG"]
+    ],
+    "relations": []
+  },
+  {
+    "document_id": "UNKNOWN",
+    "chunk_id": "07.01",
+    "id": "07.01.d",
+    "parent_id": "07.01",
+    "level": "point",
+    "tokenized_text": [
+      "Điểm", "d)", "Doanh", "nghiệp", "và", "tổ", "chức", "kinh",
+      "tế", "khác", "(trừ", "các", "tập", "đoàn", "kinh", "tế",
+      "tổng", "công", "ty)", "các", "đơn", "vị", "trực", "thuộc",
+      "như", "chi", "nhánh", "văn", "phòng", "đại", "diện", "xí",
+      "nghiệp", "phòng", "ban", "phân", "xưởng", "và", "tương",
+      "đương", "."
+    ],
+    "ner": [
+      [2, 19, "DOI_TUONG"],
+      [20, 42, "DOI_TUONG"]
+    ],
+    "relations": []
+  },
+  {
+    "document_id": "UNKNOWN",
+    "chunk_id": "07.02",
+    "id": "07.02",
+    "parent_id": "07.02",
+    "level": "clause",
+    "tokenized_text": [
+      "Khoản", "2)", "Danh", "hiệu", "“Tập", "thể", "lao", "động",
+      "xuất", "sắc”", "để", "tặng", "cho", "tập", "thể", "đủ",
+      "tiêu", "chuẩn", "theo", "quy", "định", "tại", "khoản", "1",
+      "Điều", "27", "của", "Luật", "Thi", "đua", "khen", "thưởng",
+      "."
+    ],
+    "ner": [
+      [2, 10, "REWARD"],
+      [13, 15, "DOI_TUONG"],
+      [16, 31, "DIEU_KIEN"]
+    ],
+    "relations": [
+      {
+        "head": {
+          "mention": "tập thể",
+          "position": [13, 15],
+          "type": "DOI_TUONG"
+        },
+        "tail": {
+          "mention": "đủ tiêu chuẩn theo quy định tại khoản 1 Điều 27 của Luật Thi đua, khen thưởng",
+          "position": [16, 31],
+          "type": "DIEU_KIEN"
+        },
+        "relation_text": "DAP_UNG_DIEU_KIEN"
+      }
+    ]
+  },
+  
+  {
+    "document_id": "UNKNOWN",
+    "chunk_id": "06.01",
+    "id": "06.01.a",
+    "parent_id": "06.01",
+    "level": "clause",
+    "tokenized_text": [
+      "Điều", "8", ":", "Đối", "tượng", ",", "tiêu", "chuẩn", "tặng",
+      "danh", "hiệu", "“", "Tập", "thể", "lao", "động", "tiên", "tiến", "”",
+      "Khoản", "1", ":", "Danh", "hiệu", "“", "Tập", "thể", "lao", "động",
+      "tiên", "tiến", "”", "để", "tặng", "hằng", "năm", "cho", "các",
+      "đối", "tượng", "theo", "quy", "định", "tại", "điểm", "a", ",",
+      "điểm", "b", ",", "điêm", "e", "khoản", "1", "Điêu", "7", "của",
+      "Quyêt", "định", "này", ";", "các", "đơn", "vị", "trực", "thuộc",
+      "doanh", "nghiệp", ",", "tô", "chức", "kinh", "tê", "khác", "như",
+      "chi", "nhánh", ",", "văn", "phòng", "đại", "diện", ",", "xí",
+      "nghiệp", ",", "phòng", ",", "ban", ",", "phân", "xưởng", "và",
+      "tương", "đương", "."
+    ],
+    "ner": [
+      [39, 41, "DOI_TUONG"],
+      [64, 102, "DOI_TUONG"]
+    ],
+    "relations": [
+      {
+        "head": {
+          "mention": "các đối tượng",
+          "position": [39, 41],
+          "type": "DOI_TUONG"
+        },
+        "tail": {
+          "mention": "theo quy định tại điểm a, điểm b, điêm e khoản 1 Điêu 7 của Quyêt định này",
+          "position": [42, 63],
+          "type": "DIEU_KIEN"
+        },
+        "relation_text": "DAP_UNG_DIEU_KIEN"
+      },
+      {
+        "head": {
+          "mention": "các đơn vị trực thuộc doanh nghiệp, tô chức kinh tê khác như chi nhánh, văn phòng đại diện, xí nghiệp, phòng, ban, phân xưởng và tương đương",
+          "position": [64, 102],
+          "type": "DOI_TUONG"
+        },
+        "tail": {
+          "mention": "để tặng hằng năm",
+          "position": [34, 38],
+          "type": "DIEU_KIEN"
+        },
+        "relation_text": "DAP_UNG_DIEU_KIEN"
+      }
+    ]
+  },
+  {
+    "document_id": "UNKNOWN",
+    "chunk_id": "06.02",
+    "id": "06.02.a",
+    "parent_id": "06.02",
+    "level": "clause",
+    "tokenized_text": [
+      "Điều", "8", ":", "Đối", "tượng", ",", "tiêu", "chuẩn", "tặng",
+      "danh", "hiệu", "“", "Tập", "thể", "lao", "động", "tiên", "tiến", "”",
+      "Khoản", "2", ":", "Danh", "hiệu", "“", "Tập", "thể", "lao", "động",
+      "tiên", "tiến", "”", "để", "tặng", "cho", "tập", "thể", "đủ", "tiêu",
+      "chuẩn", "theo", "quy", "định", "tại", "khoản", "I", "Điêu", "28",
+      "Luật", "Thị", "đua", ",", "khen", "thưởng", "."
+    ],
+    "ner": [
+      [36, 38, "DOI_TUONG"],
+      [38, 52, "DIEU_KIEN"]
+    ],
+    "relations": [
+      {
+        "head": {
+          "mention": "tập thể",
+          "position": [36, 38],
+          "type": "DOI_TUONG"
+        },
+        "tail": {
+          "mention": "đủ tiêu chuẩn theo quy định tại khoản I Điêu 28 Luật Thị đua, khen thưởng",
+          "position": [38, 52],
+          "type": "DIEU_KIEN"
+        },
+        "relation_text": "DAP_UNG_DIEU_KIEN"
+      }
+    ]
+  },
+  {
+    "document_id": "UNKNOWN",
+    "chunk_id": "06.03",
+    "id": "06.03.a",
+    "parent_id": "06.03",
+    "level": "point",
+    "tokenized_text": [
+      "Điều", "9", ":", "Tiêu", "chuẩn", "tặng", "Bằng", "khen", "của",
+      "Chủ", "tịch", "Ủy", "ban", "nhân", "dân", "thành", "phố",
+      "Khoản", "1", ":", "Khen", "thưởng", "công", "trạng", ":", "Điểm",
+      "a", ")", "Cá", "nhân", "đạt", "tiêu", "chuẩn", "theo", "quy",
+      "định", "tại", "điểm", "d", "khoản", "1", "Điều", "74", "của",
+      "Luật", "Thi", "đua", ",", "khen", "thưởng", "."
+    ],
+    "ner": [
+      [27, 29, "DOI_TUONG"],
+      [29, 46, "DIEU_KIEN"]
+    ],
+    "relations": [
+      {
+        "head": {
+          "mention": "Cá nhân",
+          "position": [27, 29],
+          "type": "DOI_TUONG"
+        },
+        "tail": {
+          "mention": "đạt tiêu chuẩn theo quy định tại điểm d khoản 1 Điều 74 của Luật Thi đua, khen thưởng",
+          "position": [29, 46],
+          "type": "DIEU_KIEN"
+        },
+        "relation_text": "DAP_UNG_DIEU_KIEN"
+      }
+    ]
+  },
+  {
+    "document_id": "UNKNOWN",
+    "chunk_id": "06.04",
+    "id": "06.04.b",
+    "parent_id": "06.04",
+    "level": "point",
+    "tokenized_text": [
+      "Điều", "9", ":", "Tiêu", "chuẩn", "tặng", "Bằng", "khen", "của",
+      "Chủ", "tịch", "Ủy", "ban", "nhân", "dân", "thành", "phố",
+      "Khoản", "1", ":", "Khen", "thưởng", "công", "trạng", ":", "Điểm",
+      "b", ")", "Tập", "thể", "đạt", "tiêu", "chuẩn", "theo", "quy",
+      "định", "tại", "điểm", "d", "khoản", "3", "Điều", "74", "của",
+      "Luật", "Thi", "đua", ",", "khen", "thưởng", "."
+    ],
+    "ner": [
+      [27, 29, "DOI_TUONG"],
+      [29, 46, "DIEU_KIEN"]
+    ],
+    "relations": [
+      {
+        "head": {
+          "mention": "Tập thể",
+          "position": [27, 29],
+          "type": "DOI_TUONG"
+        },
+        "tail": {
+          "mention": "đạt tiêu chuẩn theo quy định tại điểm d khoản 3 Điều 74 của Luật Thi đua, khen thưởng",
+          "position": [29, 46],
+          "type": "DIEU_KIEN"
+        },
+        "relation_text": "DAP_UNG_DIEU_KIEN"
+      }
+    ]
+  },
+  {
+    "document_id": "UNKNOWN",
+    "chunk_id": "06.05",
+    "id": "06.05.c",
+    "parent_id": "06.05",
+    "level": "point",
+    "tokenized_text": [
+      "Điều", "9", ":", "Tiêu", "chuẩn", "tặng", "Bằng", "khen", "của",
+      "Chủ", "tịch", "Ủy", "ban", "nhân", "dân", "thành", "phố",
+      "Khoản", "1", ":", "Khen", "thưởng", "công", "trạng", ":", "Điểm",
+      "c", ")", "Đối", "với", "tập", "thể", "thuộc", "cụm", ",", "khối",
+      "thi", "đua", "các", "đơn", "vị", "thuộc", "thành", "phố", ":",
+      "hoàn", "thành", "100", "%", "các", "chỉ", "tiêu", "thi", "đua",
+      "và", "nhiệm", "vụ", "được", "giao", "trong", "năm", ";", "cơ",
+      "quan", ",", "đơn", "vị", ",", "tô", "chức", "đảng", ",", "đoàn",
+      "thể", "(", "nếu", "có", ")", "được", "cấp", "có", "thầm", "quyền",
+      "đánh", "giá", ",", "xếp", "loại", "hoàn", "thành", "tốt", "nhiệm",
+      "vụ", "trở", "lên", ";", "tích", "cực", "tham", "gia", "phong",
+      "trào", "thi", "đua", "thường", "xuyên", ",", "thiết", "thực",
+      ",", "hiệu", "quả", ";", "thực", "hiện", "nghiêm", "các", "quy",
+      "định", "của", "cụm", ",", "khối", "thi", "đua", ";", "được",
+      "bình", "xét", ",", "suy", "tôn", "thông", "qua", "cụm", ",",
+      "khối", "thi", "đua", "."
+    ],
+    "ner": [
+      [27, 34, "DOI_TUONG"],
+      [46, 145, "DIEU_KIEN"]
+    ],
+    "relations": [
+      {
+        "head": {
+          "mention": "Đối với tập thể thuộc cụm, khối thi đua các đơn vị thuộc thành phố",
+          "position": [27, 44],
+          "type": "DOI_TUONG"
+        },
+        "tail": {
+          "mention": "hoàn thành 100% các chỉ tiêu thi đua và nhiệm vụ được giao trong năm; cơ quan, đơn vị, tô chức đảng, đoàn thể (nếu có) được cấp có thầm quyền đánh giá, xếp loại hoàn thành tốt nhiệm vụ trở lên; tích cực tham gia phong trào thi đua thường xuyên, thiết thực, hiệu quả; thực hiện nghiêm các quy định của cụm, khối thi đua; được bình xét, suy tôn thông qua cụm, khối thi đua",
+          "position": [46, 145],
+          "type": "DIEU_KIEN"
+        },
+        "relation_text": "DAP_UNG_DIEU_KIEN"
+      }
+    ]
+  },
+  {
+    "document_id": "UNKNOWN",
+    "chunk_id": "06.06",
+    "id": "06.06.a",
+    "parent_id": "06.06",
+    "level": "point",
+    "tokenized_text": [
+      "Điều", "9", ":", "Tiêu", "chuẩn", "tặng", "Bằng", "khen", "của",
+      "Chủ", "tịch", "Ủy", "ban", "nhân", "dân", "thành", "phố",
+      "Khoản", "2", ":", "Khen", "thưởng", "phong", "trào", "thi", "đua",
+      "(", "chuyên", "đề", ")", ":", "Điểm", "a", ")", "Đạt", "thành",
+      "tích", "xuất", "sắc", "được", "bình", "xét", "trong", "các",
+      "phong", "trào", "thi", "đua", "do", "Chủ", "tịch", "Ủy", "ban",
+      "nhân", "dân", "thành", "phố", "phát", "động", ".", "Số", "lượng",
+      "đề", "nghị", "khen", "thưởng", "theo", "tỷ", "lệ", "không", "quá",
+      "10", "%", "tập", "thể", ",", "5", "%", "cá", "nhân", "(",
+      "đối", "tượng", "trực", "tiếp", "tham", "gia", "phong", "trào", ")",
+      ";"
+    ],
+    "ner": [
+      [80, 82, "DOI_TUONG"],
+      [34, 80, "DIEU_KIEN"]
+    ],
+    "relations": [
+      {
+        "head": {
+          "mention": "tập thể, cá nhân (đối tượng trực tiếp tham gia phong trào)",
+          "position": [74, 82],
+          "type": "DOI_TUONG"
+        },
+        "tail": {
+          "mention": "Đạt thành tích xuất sắc được bình xét trong các phong trào thi đua do Chủ tịch Ủy ban nhân dân thành phố phát động. Số lượng đề nghị khen thưởng theo tỷ lệ không quá 10% tập thể, 5% cá nhân",
+          "position": [34, 79],
+          "type": "DIEU_KIEN"
+        },
+        "relation_text": "DAP_UNG_DIEU_KIEN"
+      }
+    ]
+  },
+  {
+    "document_id": "UNKNOWN",
+    "chunk_id": "06.07",
+    "id": "06.07.b",
+    "parent_id": "06.07",
+    "level": "point",
+    "tokenized_text": [
+      "Điều", "9", ":", "Tiêu", "chuẩn", "tặng", "Bằng", "khen", "của",
+      "Chủ", "tịch", "Ủy", "ban", "nhân", "dân", "thành", "phố",
+      "Khoản", "2", ":", "Khen", "thưởng", "phong", "trào", "thi", "đua",
+      "(", "chuyên", "đề", ")", ":", "Điểm", "b", ")", "Tham", "gia",
+      "các", "phong", "trào", "thi", "đua", "chuyên", "đề", "theo", "Kế",
+      "hoạch", "và", "Hướng", "dẫn", "sơ", "kết", ",", "tổng", "kết",
+      "khen", "thưởng", "của", "Bộ", ",", "ban", "ngành", ",", "đoàn",
+      "thể", "Trung", "ương", ".", "Số", "lượng", "và", "tiêu", "chuẩn",
+      "khen", "thưởng", "căn", "cứ", "vào", "quy", "định", "của", "Bộ",
+      ",", "ban", "ngành", ",", "đoàn", "thể", "Trung", "ương", ".", "Trường",
+      "hợp", "không", "quy", "định", "số", "lượng", "thì", "được", "tính",
+      "theo", "tỷ", "lệ", "50", "%", "quy", "định", "điểm", "a", "khoản",
+      "này", ";"
+    ],
+    "ner": [
+      [34, 112, "DIEU_KIEN"]
+    ],
+    "relations": []
+  },
+  {
+    "document_id": "UNKNOWN",
+    "chunk_id": "06.08",
+    "id": "06.08.c",
+    "parent_id": "06.08",
+    "level": "point",
+    "tokenized_text": [
+      "Điều", "9", ":", "Tiêu", "chuẩn", "tặng", "Bằng", "khen", "của",
+      "Chủ", "tịch", "Ủy", "ban", "nhân", "dân", "thành", "phố",
+      "Khoản", "2", ":", "Khen", "thưởng", "phong", "trào", "thi", "đua",
+      "(", "chuyên", "đề", ")", ":", "Điểm", "c", ")", "Đạt", "thành",
+      "tích", "xuất", "sắc", "được", "bình", "xét", "khi", "sơ", "kết",
+      ",", "tổng", "kết", "các", "Nghị", "quyết", ",", "Quyết", "định",
+      ",", "Chương", "trình", ",", "Đề", "án", "của", "thành", "phố",
+      "hoặc", "Trung", "ương", ".", "Số", "lượng", "đề", "nghị", "khen",
+      "thưởng", "theo", "quy", "định", "tại", "điểm", "a", ",", "điểm",
+      "b", "khoản", "2", "Điều", "này", ".", "Tập", "thể", ",", "cá",
+      "nhân", "đề", "nghị", "khen", "thưởng", "phải", "có", "ít", "nhất",
+      "2", "/", "3", "thời", "gian", "trực", "tiếp", "tham", "gia", "triển",
+      "khai", "thực", "hiện", "Nghị", "quyết", ",", "Quyết", "định", ",",
+      "Chương", "trình", ",", "Đề", "án", ";"
+    ],
+    "ner": [
+      [92, 95, "DOI_TUONG"],
+      [34, 92, "DIEU_KIEN"],
+      [95, 124, "DIEU_KIEN"]
+    ],
+    "relations": [
+      {
+        "head": {
+          "mention": "Tập thể, cá nhân",
+          "position": [92, 95],
+          "type": "DOI_TUONG"
+        },
+        "tail": {
+          "mention": "Đạt thành tích xuất sắc được bình xét khi sơ kết, tổng kết các Nghị quyết, Quyết định, Chương trình, Đề án của thành phố hoặc Trung ương. Số lượng đề nghị khen thưởng theo quy định tại điểm a, điểm b khoản 2 Điều này",
+          "position": [34, 92],
+          "type": "DIEU_KIEN"
+        },
+        "relation_text": "DAP_UNG_DIEU_KIEN"
+      },
+      {
+        "head": {
+          "mention": "Tập thể, cá nhân",
+          "position": [92, 95],
+          "type": "DOI_TUONG"
+        },
+        "tail": {
+          "mention": "đề nghị khen thưởng phải có ít nhất 2/3 thời gian trực tiếp tham gia triển khai thực hiện Nghị quyết, Quyết định, Chương trình, Đề án",
+          "position": [95, 124],
+          "type": "DIEU_KIEN"
+        },
+        "relation_text": "DAP_UNG_DIEU_KIEN"
+      }
+    ]
+  },
+  {
+    "document_id": "UNKNOWN",
+    "chunk_id": "06.09",
+    "id": "06.09.d",
+    "parent_id": "06.09",
+    "level": "point",
+    "tokenized_text": [
+      "Điều", "9", ":", "Tiêu", "chuẩn", "tặng", "Bằng", "khen", "của",
+      "Chủ", "tịch", "Ủy", "ban", "nhân", "dân", "thành", "phố",
+      "Khoản", "2", ":", "Khen", "thưởng", "phong", "trào", "thi", "đua",
+      "(", "chuyên", "đề", ")", ":", "Điểm", "d", ")", "Tập", "thể", ",",
+      "cá", "nhân", "có", "nhiều", "đóng", "góp", "cho", "quá", "trình",
+      "xây", "dựng", "và", "phát", "triển", "của", "cơ", "quan", "cấp",
+      "thành", "phó", ",", "các", "cơ", "quan", "Trung", "ương", "đóng",
+      "trên", "địa", "bàn", "thành", "phố", ",", "các", "quận", ",",
+      "huyện", ",", "doanh", "nghiệp", "và", "các", "tô", "chức", "kinh",
+      "tê", "tham", "gia", "thi", "dua", "tại", "thành", "phố", ",",
+      "góp", "phần", "vào", "sự", "nghiệp", "xây", "dựng", "và", "phát",
+      "triển", "thành", "phó", ",", "nhân", "dịp", "kỷ", "niệm", "ngày",
+      "thành", "lập", "đơn", "vị", ",", "địa", "phương", "từ", "10", "năm",
+      "trở", "lên", "vào", "các", "năm", "tròn", "(", "số", "năm", "kỷ",
+      "niệm", "có", "chữ", "số", "cuối", "cùng", "là", "“", "0", "”", ")",
+      ".", "Riêng", "đối", "với", "cá", "nhân", "phải", "có", "thời",
+      "gian", "công", "tác", "tại", "đơn", "vị", ",", "địa", "phương",
+      "từ", "10", "năm", "trở", "lên", "tính", "đến", "thời", "điểm",
+      "đề", "nghị", "khen", "thưởng", ";"
+    ],
+    "ner": [
+      [34, 37, "DOI_TUONG"],
+      [37, 159, "DIEU_KIEN"]
+    ],
+    "relations": [
+      {
+        "head": {
+          "mention": "Tập thể, cá nhân",
+          "position": [34, 37],
+          "type": "DOI_TUONG"
+        },
+        "tail": {
+          "mention": "có nhiều đóng góp cho quá trình xây dựng và phát triển của cơ quan cấp thành phó, các cơ quan Trung ương đóng trên địa bàn thành phố, các quận, huyện, doanh nghiệp và các tô chức kinh tê tham gia thi dua tại thành phố, góp phần vào sự nghiệp xây dựng và phát triển thành phó, nhân dịp kỷ niệm ngày thành lập đơn vị, địa phương từ 10 năm trở lên vào các năm tròn (số năm kỷ niệm có chữ số cuối cùng là “0”). Riêng đối với cá nhân phải có thời gian công tác tại đơn vị, địa phương từ 10 năm trở lên tính đến thời điểm đề nghị khen thưởng",
+          "position": [37, 159],
+          "type": "DIEU_KIEN"
+        },
+        "relation_text": "DAP_UNG_DIEU_KIEN"
+      }
+    ]
+  }
+]

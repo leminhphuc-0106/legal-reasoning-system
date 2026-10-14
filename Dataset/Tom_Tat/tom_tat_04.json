@@ -1,0 +1,254 @@
+[
+  {
+    "input": "Điều 1. Phạm vi điều chỉnh\nQuyết định này quy định chỉ tiết khoản 4 và khoản 6 Điều 24, khoản 3 Điêu 26, khoản 3 Điều 27, khoản 3 Điêu 28, khoản 6 Điêu 74, khoản 2 Điêu 75 và khoản 6 Điêu 84 của Luật sô 06/2022/QH15 ngày 15 tháng 6 năm 2022 của Quôc hội vê Thi đua, khen thưởng.",
+    "output": "Quyết định này quy định chi tiết các khoản 4, 6 Điều 24; khoản 3 Điều 26, 27, 28; khoản 6 Điều 74; khoản 2 Điều 75 và khoản 6 Điều 84 của Luật số 06/2022/QH15 về Thi đua, khen thưởng."
+  },
+  {
+    "input": "Điều 2. Đối tượng áp dụng\nQuyết định này áp dụng đối với cá nhân, tập thể, hộ gia đình người Việt Nam; cá nhân, tập thể người Việt Nam định cư ở nước ngoài; cá nhân, tập thể người nước ngoài có thành tích trong tham gia phong trào thi đua của thành phố hoặc có đóng góp cho sự nghiệp xây dựng và phát triển kinh tế, xã hội, quốc phòng, an ninh trên địa bàn thành phố Cần Thơ.",
+    "output": "Quyết định này áp dụng đối với cá nhân, tập thể, hộ gia đình người Việt Nam; cá nhân, tập thể người Việt Nam định cư ở nước ngoài; và cá nhân, tập thể người nước ngoài có thành tích trong phong trào thi đua hoặc đóng góp cho sự nghiệp xây dựng, phát triển kinh tế, xã hội, quốc phòng, an ninh tại thành phố Cần Thơ."
+  },
+  {
+    "input": "Điều 3. Giải thích từ ngữ\nTrong Quyết định này, các từ ngữ dưới đây được hiểu như sau:",
+    "output": "Quyết định này quy định các từ ngữ được hiểu như sau."
+  },
+  {
+    "input": "Điều 3. Giải thích từ ngữ\nCơ quan cấp thành phố bao gồm: sở, ban, ngành, cơ quan đảng cấp thành phố; Ủy ban Mặt trận Tổ quốc Việt Nam, tô chức chính trị - xã hội cấp thành phó, hội cấp thành phó; đơn vị sự nghiệp cấp thành phó. 0)",
+    "output": "Cơ quan cấp thành phố bao gồm sở, ban, ngành, cơ quan đảng, Ủy ban Mặt trận Tổ quốc Việt Nam, tổ chức chính trị - xã hội, hội và đơn vị sự nghiệp cấp thành phố."
+  },
+  {
+    "input": "Điều 3. Giải thích từ ngữ\nThủ trưởng cơ quan. cấp thành phố là người đứng đầu của cơ quan cấp thành phô nêu tại khoản 1 Điều này.",
+    "output": "Thủ trưởng cơ quan cấp thành phố là người đứng đầu cơ quan cấp thành phố."
+  },
+  {
+    "input": "Điều 3. Giải thích từ ngữ\nĐơn vị trực thuộc là đơn vị có tư cách pháp nhân, có con dấu riêng, trực tiếp chịu sự quản lý điều hành của Cơ quan cấp thành phố, Ủy ban nhân dân cấp huyện, doanh nghiệp và tổ chức kinh tế khác.",
+    "output": "Đơn vị trực thuộc là đơn vị có tư cách pháp nhân, có con dấu riêng và trực tiếp chịu sự quản lý, điều hành của cơ quan cấp thành phố, Ủy ban nhân dân cấp huyện, doanh nghiệp hoặc tổ chức kinh tế khác."
+  },
+  {
+    "input": "Điều 3. Giải thích từ ngữ\nHội thi bao gồm: các cuộc thi, hội thi, hội diễn, liên hoan, giải thi đấu thê thao và tương đương.",
+    "output": "Hội thi bao gồm các cuộc thi, hội thi, hội diễn, liên hoan, giải thi đấu thể thao và tương đương."
+  },
+  {
+    "input": "Điều 3. Giải thích từ ngữ\nHội thi cấp thành phố là hội thi do các cơ quan cấp thành phố tổ chức theo Kế hoạch được cấp có thẩm quyền thống nhất chủ trương.",
+    "output": "Hội thi cấp thành phố là hội thi do cơ quan cấp thành phố tổ chức theo kế hoạch được cấp có thẩm quyền thống nhất chủ trương."
+  },
+  
+  {
+    "input": "Điều 4. Quy định chung về thi đua, khen thưởng\nTrong công tác thi đua, khen thưởng cần phải đảm bảo thực hiện theo quy định tại Điều 5 của Luật Thi đua, khen thưởng, Điều 4 của Nghị định số 98/2023/NĐ-CP ngày 31 tháng 12 năm 2023 của Chính phủ quy định chi tiết thi hành một số điều của Luật Thi đua, khen thưởng, Điều 1, khoản 2 Điều 5 của Thông tư số 01/2024/TT-BNV ngày 24 tháng 02 năm 2024 của Bộ trưởng Bộ Nội vụ quy định biện pháp thi hành Luật Thi đua",
+    "output": "Công tác thi đua, khen thưởng phải thực hiện theo Luật Thi đua, khen thưởng, Nghị định số 98/2023/NĐ-CP và Thông tư số 01/2024/TT-BNV."
+  },
+  {
+    "input": "Điều 4. Quy định chung về thi đua, khen thưởng\n, khen thưởng và Nghị định số 98/2023/NĐ-CP ngày 31 tháng 12 năm 2023 của Chính phủ quy định chi tiết thi hành một số điều của Luật Thi đua, khen thưởng và các nguyên tắc sau",
+    "output": "Công tác thi đua, khen thưởng phải thực hiện theo Nghị định số 98/2023/NĐ-CP và các nguyên tắc sau."
+  },
+  {
+    "input": "Điều 4. Quy định chung về thi đua, khen thưởng\n: , 1",
+    "output": ""
+  },
+  {
+    "input": "Điều 4. Quy định chung về thi đua, khen thưởng\n. Không xem xét khen thưởng hoặc không đề nghị cấp trên khen thưởng đối với tập thể, cá nhân đạt giải cao tại các hội thi từ cấp khu vực trở lên nhưng chưa được cơ quan có thẩm quyền thống nhất bằng văn bản cho tham gia hội thi.",
+    "output": "Không xét khen thưởng hoặc đề nghị cấp trên khen thưởng đối với tập thể, cá nhân đạt giải cao tại hội thi từ cấp khu vực trở lên khi chưa được cơ quan có thẩm quyền thống nhất bằng văn bản cho tham gia."
+  },
+  {
+    "input": "Điều 4. Quy định chung về thi đua, khen thưởng\nTrong một hội thi, nếu một tập thể hoặc một cá nhân tham dự và đạt giải cao ở nhiều nội dung thì chỉ xét tặng hình thức khen thưởng cho thành tích cao nhất.",
+    "output": "Trong một hội thi, tập thể hoặc cá nhân đạt giải ở nhiều nội dung chỉ được xét khen thưởng cho thành tích cao nhất."
+  },
+  {
+    "input": "Điều 4. Quy định chung về thi đua, khen thưởng\nViệc khen thưởng vào dịp sơ kết, tổng kết các phong trào thi đua do cơ quan Trung ương phát động, Đại hội nhiệm kỳ mới của các tổ chức chính trị - xã hội, các hội có tính chất đặc thù cấp thành phố phải được cấp có thẩm quyền thống nhất bằng văn bản.",
+    "output": "Việc khen thưởng tại sơ kết, tổng kết phong trào thi đua do cơ quan Trung ương phát động hoặc Đại hội nhiệm kỳ mới của tổ chức chính trị - xã hội, hội có tính chất đặc thù cấp thành phố phải được cấp có thẩm quyền thống nhất bằng văn bản."
+  },
+  {
+    "input": "Điều 5. Tiêu chuẩn tặng danh hiệu “Lao động tiên tiến”\nDanh hiệu “Lao động tiên tiến” để tặng hằng năm cho cán bộ, công chức, viên chức, người lao động gương mẫu chấp hành tốt chủ trương, đường lối của Đảng, chính sách, pháp luật của Nhà nước đủ tiêu chuẩn theo quy định tại khoản 1 Điều 24 Luật Thi đua, khen thưởng.",
+    "output": "Danh hiệu “Lao động tiên tiến” được tặng hằng năm cho cán bộ, công chức, viên chức, người lao động gương mẫu chấp hành chủ trương, đường lối của Đảng, chính sách, pháp luật của Nhà nước và đủ tiêu chuẩn theo khoản 1 Điều 24 Luật Thi đua, khen thưởng."
+  },
+  {
+    "input": "Điều 5. Tiêu chuẩn tặng danh hiệu “Lao động tiên tiến”\nDanh hiệu “Lao động tiên tiến” để tặng hằng năm cho công nhân, nông dân, người lao động không thuộc đối tượng quy định tại khoản 1 Điều này đạt các tiêu chuẩn theo quy định tại khoản 3 Điều 24 Luật Thi đua, khen thưởng.",
+    "output": "Danh hiệu “Lao động tiên tiến” được tặng hằng năm cho công nhân, nông dân, người lao động không thuộc đối tượng tại khoản 1 và đạt tiêu chuẩn theo khoản 3 Điều 24 Luật Thi đua, khen thưởng."
+  },
+  {
+    "input": "Điều 6. Đối tượng, tiêu chuẩn tặng danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố”",
+    "output": "Đối tượng và tiêu chuẩn tặng danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố”."
+  },
+  {
+    "input": "Điều 6. Đối tượng, tiêu chuẩn tặng danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố”\nKhoản 1. Danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố” để tặng hằng năm cho các đối tượng sau:\nĐiểm a) Đơn vị dẫn đầu cụm, khối thi đua do thành phố tổ chức",
+    "output": "Danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố” được tặng hằng năm cho đơn vị dẫn đầu cụm, khối thi đua do thành phố tổ chức."
+  },
+  {
+    "input": "Điều 6. Đối tượng, tiêu chuẩn tặng danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố”\nKhoản 1. Danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố” để tặng hằng năm cho các đối tượng sau:\nĐiểm b) Đơn vị dẫn đầu phong trào thi đua theo chuyên đề do Chủ tịch Ủy ban nhân dân thành phố phát động.",
+    "output": "Danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố” được tặng hằng năm cho đơn vị dẫn đầu phong trào thi đua theo chuyên đề do Chủ tịch Ủy ban nhân dân thành phố phát động."
+  },
+  {
+    "input": "Điều 6. Đối tượng, tiêu chuẩn tặng danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố”\nKhoản 2. Danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố” để tặng hằng năm cho tập thể gương mẫu chấp hành tốt chủ trương của Đảng, chính sách, pháp luật của Nhà nước đạt các tiêu chuẩn theo quy định tại khoản 1 Điều 26 Luật Thi đua, khen thưởng và các tiêu chuẩn sau:\nĐiểm a) Có thành tích nổi bật dẫn đầu được bình xét, suy tôn thông qua cụm, khối thi đua;",
+    "output": "Tập thể được tặng danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố” khi gương mẫu chấp hành chủ trương của Đảng, chính sách, pháp luật của Nhà nước, đạt tiêu chuẩn theo khoản 1 Điều 26 Luật Thi đua, khen thưởng và có thành tích nổi bật dẫn đầu được bình xét, suy tôn qua cụm, khối thi đua."
+  },
+  {
+    "input": "Điều 6. Đối tượng, tiêu chuẩn tặng danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố”\nKhoản 2. Danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố” để tặng hằng năm cho tập thể gương mẫu chấp hành tốt chủ trương của Đảng, chính sách, pháp luật của Nhà nước đạt các tiêu chuẩn theo quy định tại khoản 1 Điều 26 Luật Thi đua, khen thưởng và các tiêu chuẩn sau:\nĐiểm b) Tổ chức đảng, đoàn thể (nếu có) được đánh giá, xếp loại hoàn thành tốt nhiệm vụ trở lên;",
+    "output": "Tập thể được tặng danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố” khi tổ chức đảng, đoàn thể được đánh giá, xếp loại hoàn thành tốt nhiệm vụ trở lên."
+  },
+  {
+    "input": "Điều 6. Đối tượng, tiêu chuẩn tặng danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố”\nKhoản 2. Danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố” để tặng hằng năm cho tập thể gương mẫu chấp hành tốt chủ trương của Đảng, chính sách, pháp luật của Nhà nước đạt các tiêu chuẩn theo quy định tại khoản 1 Điều 26 Luật Thi đua, khen thưởng và các tiêu chuẩn sau:\nĐiểm c) Được cấp có thẩm quyền đánh giá, xếp loại cơ quan, đơn vị hoàn thành xuất sắc nhiệm vụ;",
+    "output": "Tập thể được tặng danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố” khi được cấp có thẩm quyền đánh giá, xếp loại cơ quan, đơn vị hoàn thành xuất sắc nhiệm vụ."
+  },
+  {
+    "input": "Điều 6. Đối tượng, tiêu chuẩn tặng danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố”\nKhoản 2. Danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố” để tặng hằng năm cho tập thể gương mẫu chấp hành tốt chủ trương của Đảng, chính sách, pháp luật của Nhà nước đạt các tiêu chuẩn theo quy định tại khoản 1 Điều 26 Luật Thi đua, khen thưởng và các tiêu chuẩn sau:\nĐiểm d) Có 100% phòng, ban, đơn vị trực thuộc được đánh giá, xếp loại hoàn thành tốt nhiệm vụ trở lên.",
+    "output": "Tập thể được tặng danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố” khi có 100% phòng, ban, đơn vị trực thuộc được đánh giá, xếp loại hoàn thành tốt nhiệm vụ trở lên."
+  },
+  {
+    "input": "Điều 6. Đối tượng, tiêu chuẩn tặng danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố”\nDanh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố” để tặng cho tập thể gương mẫu chấp hành tốt chủ trương của Đảng, chính sách, pháp luật của Nhà nước, có thành tích xuất sắc, tiêu biểu dẫn đầu phong trào thi đua theo chuyên đề do Chủ tịch Ủy ban nhân dân thành phố phát động có thời gian thực hiện từ 03 năm trở lên khi tổng kết phong trào.",
+    "output": "Danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố” được tặng cho tập thể gương mẫu chấp hành chủ trương của Đảng, chính sách, pháp luật của Nhà nước, có thành tích xuất sắc, tiêu biểu dẫn đầu phong trào thi đua theo chuyên đề do Chủ tịch Ủy ban nhân dân thành phố phát động từ 03 năm trở lên khi tổng kết."
+  },
+  {
+    "input": "Điều 7. Đối tượng, tiêu chuẩn tặng danh hiệu “Tập thể lao động xuất sắc”\nKhoản 1. Danh hiệu “Tập thể lao động xuất sắc” để tặng hằng năm cho các đối tượng sau:\nĐiểm a) Các phòng, ban và tương đương, đơn vị trực thuộc các cơ quan cấp thành phố;",
+    "output": "Danh hiệu “Tập thể lao động xuất sắc” được tặng hằng năm cho các phòng, ban và tương đương, đơn vị trực thuộc các cơ quan cấp thành phố."
+  },
+  {
+    "input": "Điều 7. Đối tượng, tiêu chuẩn tặng danh hiệu “Tập thể lao động xuất sắc”\nKhoản 1. Danh hiệu “Tập thể lao động xuất sắc” để tặng hằng năm cho các đối tượng sau:\nĐiểm b) Các phòng, ban và tương đương, đơn vị trực thuộc cấp huyện; Ủy ban nhân dân cấp xã;",
+    "output": "Danh hiệu “Tập thể lao động xuất sắc” được tặng hằng năm cho các phòng, ban và tương đương, đơn vị trực thuộc cấp huyện và Ủy ban nhân dân cấp xã."
+  },
+  {
+    "input": "Điều 7. Đối tượng, tiêu chuẩn tặng danh hiệu “Tập thể lao động xuất sắc”\nKhoản 1. Danh hiệu “Tập thể lao động xuất sắc” để tặng hằng năm cho các đối tượng sau:\nĐiểm c) Trường học theo phân cấp quản lý trên địa bàn thành phố (trừ đối tượng quy định tại điểm a, điểm b khoản 1 Điều này); các khoa, phòng và tương đương thuộc các trường Đại học, Cao đẳng, bệnh viện tuyến thành phố, trung tâm y tế tuyến huyện;",
+    "output": "Danh hiệu “Tập thể lao động xuất sắc” được tặng hằng năm cho trường học theo phân cấp quản lý trên địa bàn thành phố, trừ đối tượng tại điểm a, b khoản 1 Điều 7; các khoa, phòng và tương đương thuộc trường Đại học, Cao đẳng, bệnh viện tuyến thành phố và trung tâm y tế tuyến huyện."
+  },
+  {
+    "input": "Điều 7. Đối tượng, tiêu chuẩn tặng danh hiệu “Tập thể lao động xuất sắc”\nKhoản 1. Danh hiệu “Tập thể lao động xuất sắc” để tặng hằng năm cho các đối tượng sau:\nĐiểm d) Doanh nghiệp và tổ chức kinh tế khác (trừ các tập đoàn kinh tế, tổng công ty); các đơn vị trực thuộc như chi nhánh, văn phòng đại diện, xí nghiệp, phòng, ban, phân xưởng và tương đương.",
+    "output": "Danh hiệu “Tập thể lao động xuất sắc” được tặng hằng năm cho doanh nghiệp, tổ chức kinh tế khác, trừ tập đoàn kinh tế và tổng công ty, cùng các đơn vị trực thuộc như chi nhánh, văn phòng đại diện, xí nghiệp, phòng, ban, phân xưởng và tương đương."
+  },
+  {
+    "input": "Điều 7. Đối tượng, tiêu chuẩn tặng danh hiệu “Tập thể lao động xuất sắc”\nDanh hiệu “Tập thể lao động xuất sắc” để tặng cho tập thể đủ tiêu chuẩn theo quy định tại khoản 1 Điều 27 của Luật Thi đua, khen thưởng.",
+    "output": "Danh hiệu “Tập thể lao động xuất sắc” được tặng cho tập thể đủ tiêu chuẩn theo khoản 1 Điều 27 Luật Thi đua, khen thưởng."
+  },
+  {
+    "input": "Điều 8. Đối tượng, tiêu chuẩn tặng danh hiệu “Tập thể lao động tiên tiến”\nDanh hiệu “Tập thể lao động tiên tiến” để tặng hằng năm cho các đối tượng theo quy định tại điểm a, điểm b, điểm e khoản 1 Điều 7 của Quyết định này; các đơn vị trực thuộc doanh nghiệp, tổ chức kinh tế khác như chi nhánh, văn phòng đại diện, xí nghiệp, phòng, ban, phân xưởng và tương đương. 2. Danh hiệu “Tập thể lao động tiên tiến” để tặng cho tập thể đủ tiêu chuẩn theo quy định tại khoản 1 Điều 28 Luật Thi đua, khen thưởng.",
+    "output": "Danh hiệu “Tập thể lao động tiên tiến” được tặng hằng năm cho các đối tượng theo điểm a, b, e khoản 1 Điều 7 và các đơn vị trực thuộc doanh nghiệp, tổ chức kinh tế khác như chi nhánh, văn phòng đại diện, xí nghiệp, phòng, ban, phân xưởng và tương đương; tập thể phải đủ tiêu chuẩn theo khoản 1 Điều 28 Luật Thi đua, khen thưởng."
+  },
+  {
+    "input": "Điều 9. Tiêu chuẩn tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố\nBằng khen của Chủ tịch Ủy ban nhân dân thành phố để tặng hoặc truy tặng cho cá nhân, xét tặng cho tập thể, hộ gia đình gương mẫu chấp hành tốt chủ trương của Đảng, chính sách, pháp luật của Nhà nước và đạt một trong các tiêu chuẩn sau:",
+    "output": "Bằng khen của Chủ tịch Ủy ban nhân dân thành phố được tặng hoặc truy tặng cho cá nhân, xét tặng cho tập thể, hộ gia đình gương mẫu chấp hành chủ trương của Đảng, chính sách, pháp luật của Nhà nước và đạt một trong các tiêu chuẩn quy định."
+  },
+
+
+
+
+  
+  {
+    "input": "Điều 9. Tiêu chuẩn tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố\nKhoản 1. Khen thưởng công trạng:\nĐiểm a) Cá nhân đạt tiêu chuẩn theo quy định tại điểm d khoản 1 Điều 74 của Luật Thi đua, khen thưởng;",
+    "output": "Khen thưởng công trạng được áp dụng cho cá nhân đạt tiêu chuẩn theo điểm d khoản 1 Điều 74 Luật Thi đua, khen thưởng."
+  },
+  {
+    "input": "Điều 9. Tiêu chuẩn tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố\nKhoản 1. Khen thưởng công trạng:\nĐiểm b) Tập thể đạt tiêu chuẩn theo quy định tại điểm d khoản 3 Điều 74 của Luật Thi đua, khen thưởng;",
+    "output": "Khen thưởng công trạng được áp dụng cho tập thể đạt tiêu chuẩn theo điểm d khoản 3 Điều 74 Luật Thi đua, khen thưởng."
+  },
+
+  {
+    "input": "Điều 9. Tiêu chuẩn tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố\nKhoản 1. Khen thưởng công trạng:\nĐiểm c) Đối với tập thể thuộc cụm, khối thi đua các đơn vị thuộc thành phố: hoàn thành 100% các chỉ tiêu thi đua và nhiệm vụ được giao trong năm; cơ quan, đơn vị, tổ chức đảng, đoàn thể (nếu có) được cấp có thẩm quyền đánh giá, xếp loại hoàn thành tốt nhiệm vụ trở lên; tích cực tham gia phong trào thi đua thường xuyên, thiết thực, hiệu quả; thực hiện nghiêm các quy định của cụm, khối thi đua; được bình xét, suy tôn thông qua cụm, khối thi đua.",
+    "output": "Tập thể thuộc cụm, khối thi đua các đơn vị thuộc thành phố được xét khen thưởng công trạng khi hoàn thành 100% chỉ tiêu thi đua và nhiệm vụ được giao trong năm; cơ quan, đơn vị, tổ chức đảng, đoàn thể được đánh giá hoàn thành tốt nhiệm vụ trở lên; tích cực tham gia phong trào thi đua; thực hiện nghiêm quy định của cụm, khối thi đua và được bình xét, suy tôn thông qua cụm, khối thi đua."
+  },
+  {
+    "input": "Điều 9. Tiêu chuẩn tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố\nKhoản 2. Khen thưởng phong trào thi đua (chuyên đề):\nĐiểm a) Đạt thành tích xuất sắc được bình xét trong các phong trào thi đua do Chủ tịch Ủy ban nhân dân thành phố phát động. Số lượng đề nghị khen thưởng theo tỷ lệ không quá 10% tập thể, 5% cá nhân (đối tượng trực tiếp tham gia phong trào);",
+    "output": "Tập thể, cá nhân đạt thành tích xuất sắc trong phong trào thi đua do Chủ tịch Ủy ban nhân dân thành phố phát động được xét khen thưởng, với tỷ lệ đề nghị không quá 10% tập thể và 5% cá nhân trực tiếp tham gia phong trào."
+  },
+  {
+    "input": "Điều 9. Tiêu chuẩn tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố\nKhoản 2. Khen thưởng phong trào thi đua (chuyên đề):\nĐiểm b) Tham gia các phong trào thi đua chuyên đề theo Kế hoạch và Hướng dẫn sơ kết, tổng kết khen thưởng của Bộ, ban ngành, đoàn thể Trung ương. Số lượng và tiêu chuẩn khen thưởng căn cứ vào quy định của Bộ, ban ngành, đoàn thể Trung ương. Trường hợp không quy định số lượng thì được tính theo tỷ lệ 50% quy định điểm a khoản này;",
+    "output": "Tập thể, cá nhân tham gia phong trào thi đua chuyên đề theo kế hoạch và hướng dẫn của Bộ, ban ngành, đoàn thể Trung ương được xét khen thưởng theo quy định của các cơ quan này; nếu không quy định số lượng thì áp dụng 50% tỷ lệ tại điểm a khoản 2."
+  },
+  {
+    "input": "Điều 9. Tiêu chuẩn tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố\nKhoản 2. Khen thưởng phong trào thi đua (chuyên đề):\nĐiểm c) Đạt thành tích xuất sắc được bình xét khi sơ kết, tổng kết các Nghị quyết, Quyết định, Chương trình, Đề án của thành phố hoặc Trung ương. Số lượng đề nghị khen thưởng theo quy định tại điểm a, điểm b khoản 2 Điều này. Tập thể, cá nhân đề nghị khen thưởng phải có ít nhất 2/3 thời gian trực tiếp tham gia triển khai thực hiện Nghị quyết, Quyết định, Chương trình, Đề án;",
+    "output": "Tập thể, cá nhân đạt thành tích xuất sắc khi sơ kết, tổng kết Nghị quyết, Quyết định, Chương trình, Đề án của thành phố hoặc Trung ương được xét khen thưởng; phải trực tiếp tham gia triển khai ít nhất 2/3 thời gian thực hiện."
+  },
+  {
+    "input": "Điều 9. Tiêu chuẩn tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố\nKhoản 2. Khen thưởng phong trào thi đua (chuyên đề):\nĐiểm d) Tập thể, cá nhân có nhiều đóng góp cho quá trình xây dựng và phát triển của cơ quan cấp thành phố, các cơ quan Trung ương đóng trên địa bàn thành phố, các quận, huyện, doanh nghiệp và các tổ chức kinh tế tham gia thi đua tại thành phố, góp phần vào sự nghiệp xây dựng và phát triển thành phố, nhân dịp kỷ niệm ngày thành lập đơn vị, địa phương từ 10 năm trở lên vào các năm tròn (số năm kỷ niệm có chữ số cuối cùng là “0”)",
+    "output": "Tập thể, cá nhân có nhiều đóng góp cho cơ quan cấp thành phố, cơ quan Trung ương trên địa bàn, quận, huyện, doanh nghiệp hoặc tổ chức kinh tế, góp phần xây dựng và phát triển thành phố, được xét khen thưởng nhân dịp kỷ niệm thành lập đơn vị, địa phương từ 10 năm trở lên vào các năm tròn."
+  },
+  {
+    "input": "Điều 9. Tiêu chuẩn tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố\nKhoản 2. Khen thưởng phong trào thi đua (chuyên đề):\nRiêng đối với cá nhân phải có thời gian công tác tại đơn vị, địa phương từ 10 năm trở lên tính đến thời điểm đề nghị khen thưởng;",
+    "output": "Cá nhân phải có thời gian công tác tại đơn vị, địa phương từ 10 năm trở lên tính đến thời điểm đề nghị khen thưởng."
+  },
+
+  {
+    "input": "Điều 9. Tiêu chuẩn tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố\nKhoản 2. Khen thưởng phong trào thi đua (chuyên đề):\nĐiểm đ) Cá nhân có thành tích xuất sắc, tham gia đủ nhiệm kỳ và không tham gia ứng cử trong nhiệm kỳ mới của các tổ chức chính trị - xã hội, các hội quần chúng do Đảng, Nhà nước giao nhiệm vụ cấp thành phố hoặc tập thể, cá nhân là gương điển hình tiên tiến được lựa chọn báo cáo tham luận tại Đại hội nhiệm kỳ mới;",
+    "output": "Cá nhân được xét khen thưởng khi có thành tích xuất sắc, tham gia đủ nhiệm kỳ và không ứng cử nhiệm kỳ mới của tổ chức chính trị - xã hội, hội quần chúng được Đảng, Nhà nước giao nhiệm vụ cấp thành phố; hoặc tập thể, cá nhân là gương điển hình tiên tiến được lựa chọn báo cáo tham luận tại Đại hội nhiệm kỳ mới."
+  },
+  {
+    "input": "Điều 9. Tiêu chuẩn tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố\nKhoản 2. Khen thưởng phong trào thi đua (chuyên đề):\nĐiểm e) Công nhân, nông dân, người lao động đạt một trong các tiêu chuẩn sau: Công nhân, người lao động có sáng kiến mang lại lợi ích trị giá từ 100 triệu đồng trở lên cho doanh nghiệp và có đóng góp trong việc đào tạo, bồi dưỡng, giúp đỡ đồng nghiệp để nâng cao trình độ chuyên môn, tay nghề; Nông dân có mô hình sản xuất hiệu quả và ổn định từ 02 năm trở lên, giúp đỡ 05 lượt hộ nông dân giảm nghèo và tạo việc làm cho tối thiểu 10 lao động.",
+    "output": "Công nhân, người lao động được xét khen thưởng khi có sáng kiến mang lại lợi ích từ 100 triệu đồng trở lên cho doanh nghiệp và đóng góp vào đào tạo, bồi dưỡng, giúp đỡ đồng nghiệp nâng cao trình độ, tay nghề; nông dân được xét khi có mô hình sản xuất hiệu quả, ổn định từ 02 năm trở lên, giúp đỡ 05 lượt hộ giảm nghèo và tạo việc làm cho ít nhất 10 lao động."
+  },
+  {
+    "input": "Điều 9. Tiêu chuẩn tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố\nKhoản 2. Khen thưởng phong trào thi đua (chuyên đề):\nLập được thành tích trong lao động, sản xuất, công tác có phạm vi ảnh hưởng trên địa bàn xã, phường, thị trấn, cơ quan, đơn vị, tổ chức, doanh nghiệp, hợp tác xã và được Ủy ban nhân dân cấp huyện, cơ quan, đơn vị tặng Giấy khen 02 năm liên tục;",
+    "output": "Cá nhân, tập thể lập thành tích trong lao động, sản xuất, công tác có phạm vi ảnh hưởng tại địa phương, cơ quan, đơn vị, tổ chức, doanh nghiệp hoặc hợp tác xã và được tặng Giấy khen 02 năm liên tục được xét khen thưởng."
+  },
+  {
+    "input": "Điều 9. Tiêu chuẩn tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố\nKhoản 3. Khen thưởng đột xuất:\nĐiểm a) Tập thể, cá nhân mưu trí, dũng cảm, trực tiếp tham gia chiến đấu nhằm bảo vệ an ninh chính trị, trật tự an toàn xã hội, trong điều tra, truy tố, xét xử các vụ án đặc biệt nghiêm trọng;",
+    "output": "Tập thể, cá nhân mưu trí, dũng cảm, trực tiếp tham gia chiến đấu bảo vệ an ninh chính trị, trật tự an toàn xã hội hoặc điều tra, truy tố, xét xử vụ án đặc biệt nghiêm trọng được xét khen thưởng đột xuất."
+  },
+  {
+    "input": "Điều 9. Tiêu chuẩn tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố\nKhoản 3. Khen thưởng đột xuất:\nĐiểm b) Cá nhân đã tố cáo, tích cực cộng tác với cơ quan, tổ chức, cá nhân có thẩm quyền trong việc phát hiện, ngăn chặn, xử lý hành vi vi phạm pháp luật gây hậu quả nghiêm trọng;",
+    "output": "Cá nhân tố cáo hoặc tích cực cộng tác với cơ quan, tổ chức, cá nhân có thẩm quyền trong phát hiện, ngăn chặn, xử lý hành vi vi phạm pháp luật gây hậu quả nghiêm trọng được xét khen thưởng đột xuất."
+  },
+  {
+    "input": "Điều 9. Tiêu chuẩn tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố\nKhoản 3. Khen thưởng đột xuất:\nĐiểm c) Tập thể, cá nhân lập được nhiều thành tích trong công tác phòng chống thiên tai, hỏa hoạn, dịch bệnh, tìm kiếm cứu nạn;",
+    "output": "Tập thể, cá nhân có nhiều thành tích trong phòng chống thiên tai, hỏa hoạn, dịch bệnh hoặc tìm kiếm cứu nạn được xét khen thưởng đột xuất."
+  },
+  {
+    "input": "Điều 9. Tiêu chuẩn tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố\nKhoản 3. Khen thưởng đột xuất:\nĐiểm d) Cá nhân có hành động, nghĩa cử cao đẹp, cứu giúp người, bảo vệ tài sản của Nhà nước, của Nhân dân; gương người tốt việc tốt có phạm vi ảnh hưởng trên địa bàn thành phố;",
+    "output": "Cá nhân có hành động, nghĩa cử cao đẹp, cứu giúp người, bảo vệ tài sản của Nhà nước hoặc Nhân dân; hoặc là gương người tốt, việc tốt có phạm vi ảnh hưởng trên địa bàn thành phố được xét khen thưởng đột xuất."
+  },
+  {
+    "input": "Điều 9. Tiêu chuẩn tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố\nKhoản 3. Khen thưởng đột xuất:\nĐiểm đ) Tập thể, cá nhân hoàn thành xuất sắc nhiệm vụ chính trị đột xuất, ngoài kế hoạch do Trung ương hoặc thành phố giao;",
+    "output": "Tập thể, cá nhân hoàn thành xuất sắc nhiệm vụ chính trị đột xuất, ngoài kế hoạch do Trung ương hoặc thành phố giao được xét khen thưởng đột xuất."
+  },
+  {
+    "input": "Điều 9. Tiêu chuẩn tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố\nKhoản 3. Khen thưởng đột xuất:\nĐiểm e) Tập thể, cá nhân đạt giải đặc biệt, giải nhất, nhì, ba (hoặc tương đương) tại các hội thi cấp khu vực, quốc gia, quốc tế hoặc đạt giải nhất (hoặc tương đương) tại các hội thi cấp thành phố;",
+    "output": "Tập thể, cá nhân đạt giải đặc biệt, nhất, nhì, ba hoặc tương đương tại hội thi cấp khu vực, quốc gia, quốc tế hoặc đạt giải nhất hoặc tương đương tại hội thi cấp thành phố được xét khen thưởng đột xuất."
+  },
+  {
+    "input": "Điều 9. Tiêu chuẩn tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố\nKhoản 3. Khen thưởng đột xuất:\nĐiểm g) Cá nhân trực tiếp bồi dưỡng, huấn luyện thí sinh, vận động viên đạt giải nhất (hoặc tương đương) tại các hội thi quốc tế;",
+    "output": "Cá nhân trực tiếp bồi dưỡng, huấn luyện thí sinh, vận động viên đạt giải nhất hoặc tương đương tại hội thi quốc tế được xét khen thưởng đột xuất."
+  },
+
+
+  {
+    "input": "Điều 9. Tiêu chuẩn tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố\nKhoản 3. Khen thưởng đột xuất:\nĐiểm h) Tập thể, cá nhân, hộ gia đình có nhiều đóng góp về công sức, đất đai và tài sản cho địa phương, xã hội trị giá từ 350 triệu đồng trở lên đối với tập thể, 150 triệu đồng trở lên đối với cá nhân và gia đình. Riêng các đơn vị tham gia đóng góp tài trợ các công trình, sự kiện lớn của thành phố (Lễ hội, Tết) phải trị giá từ 1,5 tỷ đồng trở lên.",
+    "output": "Tập thể, cá nhân, hộ gia đình có nhiều đóng góp về công sức, đất đai, tài sản cho địa phương, xã hội từ 350 triệu đồng trở lên đối với tập thể và 150 triệu đồng trở lên đối với cá nhân, gia đình được xét khen thưởng; đơn vị tài trợ công trình, sự kiện lớn của thành phố phải đóng góp từ 1,5 tỷ đồng trở lên."
+  },
+  {
+    "input": "Điều 9. Tiêu chuẩn tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố\nKhen thưởng đối ngoại: Tập thể, cá nhân người Việt Nam định cư ở nước ngoài; cá nhân, tập thể người nước ngoài có nhiều đóng góp cho sự nghiệp xây dựng và phát triển thành phố Cần Thơ. Trước khi trình khen thưởng phải lấy ý kiến Công an thành phố, Sở Ngoại vụ và các cơ quan quản lý nhà nước có liên quan đến lĩnh vực hoạt động của tập thể, cá nhân đề nghị khen thưởng.",
+    "output": "Tập thể, cá nhân người Việt Nam định cư ở nước ngoài và cá nhân, tập thể người nước ngoài có nhiều đóng góp cho xây dựng, phát triển thành phố Cần Thơ được xét khen thưởng đối ngoại; trước khi trình phải lấy ý kiến Công an thành phố, Sở Ngoại vụ và cơ quan quản lý nhà nước liên quan."
+  },
+  {
+    "input": "Điều 10. Tiêu chuẩn tặng Giấy khen\nGiấy khen để tặng hoặc truy tặng cho cá nhân, xét tặng cho tập thể gương mẫu chấp hành tốt chủ trương của Đảng, chính sách pháp luật của Nhà nước và đạt một trong các tiêu chuẩn sau: a) Hoàn thành tốt nhiệm vụ hằng năm trở lên; b) Có thành tích xuất sắc được bình xét trong các phong trào thi đua, chuyên đề do cơ quan cấp thành phố, Ủy ban nhân dân cấp huyện, Ủy ban nhân dân cấp xã, doanh nghiệp và tổ chức kinh tế khác phát động",
+    "output": "Giấy khen được tặng hoặc truy tặng cho cá nhân, xét tặng cho tập thể gương mẫu chấp hành chủ trương của Đảng, chính sách, pháp luật của Nhà nước và đạt một trong các tiêu chuẩn: hoàn thành tốt nhiệm vụ hằng năm trở lên hoặc có thành tích xuất sắc trong phong trào thi đua, chuyên đề do cơ quan, địa phương, doanh nghiệp hoặc tổ chức kinh tế phát động."
+  },
+  {
+    "input": "Điều 10. Tiêu chuẩn tặng Giấy khen\nc) Lập được thành tích đột xuất có ảnh hưởng ở một trong các lĩnh vực thuộc phạm vi quản lý của cơ quan cấp thành phố, Ủy ban nhân dân cấp huyện, Ủy ban nhân dân cấp xã, doanh nghiệp và tổ chức kinh tế khác; d) Có đóng góp vào sự nghiệp xây dựng và phát triển kinh tế - xã hội, ứng dụng tiến bộ khoa học kỹ thuật, công tác an sinh xã hội, từ thiện nhân đạo của cơ quan, đơn vị, địa phương",
+    "output": "Giấy khen được xét tặng cho cá nhân, tập thể có thành tích đột xuất có ảnh hưởng trong lĩnh vực thuộc phạm vi quản lý của cơ quan, địa phương, doanh nghiệp hoặc tổ chức kinh tế; hoặc có đóng góp cho phát triển kinh tế - xã hội, ứng dụng tiến bộ khoa học kỹ thuật, an sinh xã hội, từ thiện nhân đạo của cơ quan, đơn vị, địa phương."
+  },
+  {
+    "input": "Điều 10. Tiêu chuẩn tặng Giấy khen\nGiấy khen để tặng hoặc truy tặng cho cá nhân, xét tặng cho tập thể đạt giải tại các hội thi (trừ các trường hợp được quy định tại điểm e khoản 3 Điều 9 của Quyết định này).",
+    "output": "Giấy khen được tặng hoặc truy tặng cho cá nhân, xét tặng cho tập thể đạt giải tại các hội thi, trừ trường hợp quy định tại điểm e khoản 3 Điều 9."
+  },
+  {
+    "input": "Điều 58. của Nghị định số 98/2023/NĐ-CP hoặc các văn bản quy định chuyên ngành. Đối với tập thể, cá nhân, gia đình được khen thưởng cấp thành phố về thành tích đóng góp kinh phí, đất đai, tài sản cho địa phương, xã hội thì được tặng biểu trưng của Ủy ban nhân dân thành phố thay cho tiền thưởng.",
+    "output": "Tập thể, cá nhân, gia đình được khen thưởng cấp thành phố vì đóng góp kinh phí, đất đai, tài sản cho địa phương, xã hội được tặng biểu trưng của Ủy ban nhân dân thành phố thay cho tiền thưởng."
+  },
+  {
+    "input": "Điều 58. của Nghị định số 98/2023/NĐ-CP hoặc các văn bản quy định chuyên ngành. Hồ sơ đề nghị xét tặng danh hiệu thi đua, hình thức khen thưởng được thực hiện theo quy định tại khoản 1, khoản 2 Điều 84 của Luật Thi đua, khen thưởng, Điều 40, Điều 43 của Nghị định số 98/2023/NĐ-CP. Số lượng hồ sơ: 01 bộ (bản chính).",
+    "output": "Hồ sơ đề nghị xét tặng danh hiệu thi đua, hình thức khen thưởng thực hiện theo khoản 1, khoản 2 Điều 84 Luật Thi đua, khen thưởng và Điều 40, Điều 43 Nghị định số 98/2023/NĐ-CP; số lượng hồ sơ là 01 bộ bản chính."
+  },
+  {
+    "input": "Điều 12. Điều khoản thi hành\nQuyết định này có hiệu lực thi hành kể từ ngày 01 tháng 7 năm 2024.",
+    "output": "Quyết định này có hiệu lực từ ngày 01 tháng 7 năm 2024."
+  },
+  {
+    "input": "Điều 12. Điều khoản thi hành\nQuyết định số 16/2018/QĐ-UBND ngày 08 tháng 8 năm 2018 của Ủy ban nhân dân thành phố Cần Thơ về công tác thi đua, khen thưởng hết hiệu lực kể từ ngày Quyết định này có hiệu lực thi hành.",
+    "output": "Quyết định số 16/2018/QĐ-UBND về công tác thi đua, khen thưởng hết hiệu lực từ ngày Quyết định này có hiệu lực."
+  },
+  
+  {
+    "input": "Điều 12. Điều khoản thi hành\nChánh Văn phòng Ủy ban nhân dân thành phố, Giám đốc Sở, Thủ trưởng cơ quan, ban ngành thành phố, Chủ tịch Ủy ban nhân dân quận, huyện, Chủ tịch Ủy ban nhân dân xã, phường, thị trấn và tổ chức, cá nhân có liên quan chịu trách nhiệm thi hành Quyết định này.",
+    "output": "Chánh Văn phòng UBND thành phố, Giám đốc Sở, Thủ trưởng cơ quan, ban ngành thành phố, Chủ tịch UBND quận, huyện, xã, phường, thị trấn và tổ chức, cá nhân liên quan chịu trách nhiệm thi hành Quyết định."
+  },
+  {
+    "input": "Nơi nhận: VP Chính phủ; Hội đồng TĐKT Trung ương; Bộ Nội vụ; Bộ Tư pháp; Ban TĐKT Trung ương; Thường trực Thành ủy; Thường trực HĐND thành phố; Chủ tịch, Phó Chủ tịch UBND thành phố; UBMTTQVN thành phố và các đoàn thể; Hội đồng TĐKT thành phố; Sở, ban ngành thành phố; UBND quận, huyện; Báo Cần Thơ; Đài Phát thanh và Truyền hình thành phố; UBND xã, phường, thị trấn; Công báo thành phố; Văn phòng UBND thành phố; Cổng Thông tin điện tử thành phố.",
+    "output": "Nơi nhận gồm các cơ quan Trung ương, Thành ủy, HĐND, UBND thành phố, UBMTTQVN và các đoàn thể, Hội đồng TĐKT thành phố, sở ban ngành, UBND quận huyện, cơ quan báo chí và các cơ quan liên quan."
+  }
+]
+
