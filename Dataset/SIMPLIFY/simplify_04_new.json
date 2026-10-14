@@ -75,8 +75,6 @@
     "output": "Danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố” được tặng hằng năm cho đơn vị dẫn đầu cụm thi đua do thành phố tổ chức.\nDanh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố” được tặng hằng năm cho đơn vị dẫn đầu khối thi đua do thành phố tổ chức."
   },
 
-
-
   {
     "input": "Điều 6. Đối tượng, tiêu chuẩn tặng danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố”\nKhoản 1. Danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố” để tặng hằng năm cho các đối tượng sau:\nĐiểm b) Đơn vị dẫn đầu phong trào thi đua theo chuyên đề do Chủ tịch Ủy ban nhân dân thành phố phát động.",
     "output": "Danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố” được tặng hằng năm cho đơn vị dẫn đầu phong trào thi đua theo chuyên đề do Chủ tịch Ủy ban nhân dân thành phố phát động."
@@ -85,6 +83,15 @@
     "input": "Điều 6. Đối tượng, tiêu chuẩn tặng danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố”\nKhoản 2. Danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố” để tặng hằng năm cho tập thể gương mẫu chấp hành tốt chủ trương của Đảng, chính sách, pháp luật của Nhà nước đạt các tiêu chuẩn theo quy định tại khoản 1 Điều 26 Luật Thi đua, khen thưởng và các tiêu chuẩn sau:\nĐiểm a) Có thành tích nổi bật dẫn đầu được bình xét, suy tôn thông qua cụm, khối thi đua;",
     "output": "Tập thể được tặng danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố” khi gương mẫu chấp hành tốt chủ trương của Đảng.\nTập thể được tặng danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố” khi gương mẫu chấp hành tốt chính sách, pháp luật của Nhà nước.\nTập thể được tặng danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố” khi đạt tiêu chuẩn theo khoản 1 Điều 26 Luật Thi đua, khen thưởng.\nTập thể được tặng danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố” khi có thành tích nổi bật dẫn đầu được bình xét, suy tôn thông qua cụm, khối thi đua."
   },
+
+
+
+
+
+
+
+
+  
   {
     "input": "Điều 6. Đối tượng, tiêu chuẩn tặng danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố”\nKhoản 2. Danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố” để tặng hằng năm cho tập thể gương mẫu chấp hành tốt chủ trương của Đảng, chính sách, pháp luật của Nhà nước đạt các tiêu chuẩn theo quy định tại khoản 1 Điều 26 Luật Thi đua, khen thưởng và các tiêu chuẩn sau:\nĐiểm b) Tổ chức đảng, đoàn thể (nếu có) được đánh giá, xếp loại hoàn thành tốt nhiệm vụ trở lên;",
     "output": "Tập thể được tặng danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố” khi tổ chức đảng được đánh giá, xếp loại hoàn thành tốt nhiệm vụ trở lên.\nTập thể được tặng danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố” khi đoàn thể được đánh giá, xếp loại hoàn thành tốt nhiệm vụ trở lên nếu có đoàn thể."
