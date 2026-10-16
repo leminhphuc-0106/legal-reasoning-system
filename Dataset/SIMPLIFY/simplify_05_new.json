@@ -32,11 +32,6 @@
     "output": "Cá nhân chuyển công tác đến cơ quan, tổ chức, đơn vị khác được cơ quan, tổ chức, đơn vị có thẩm quyền công nhận mức độ hoàn thành nhiệm vụ bình xét danh hiệu “Lao động tiên tiến”, “Chiến sĩ tiên tiến” nếu là cán bộ, công chức, viên chức.\nCá nhân được điều động đến cơ quan, tổ chức, đơn vị khác được cơ quan, tổ chức, đơn vị có thẩm quyền công nhận mức độ hoàn thành nhiệm vụ bình xét danh hiệu “Lao động tiên tiến”, “Chiến sĩ tiên tiến” nếu là cán bộ, công chức, viên chức.\nCá nhân được biệt phái đến cơ quan, tổ chức, đơn vị khác được cơ quan, tổ chức, đơn vị có thẩm quyền công nhận mức độ hoàn thành nhiệm vụ bình xét danh hiệu “Lao động tiên tiến”, “Chiến sĩ tiên tiến” nếu là cán bộ, công chức, viên chức.\nCá nhân chuyển công tác đến cơ quan, tổ chức, đơn vị khác được cơ quan, tổ chức, đơn vị mới bình xét danh hiệu “Lao động tiên tiến”, “Chiến sĩ tiên tiến” nếu không phải là cán bộ, công chức, viên chức.\nCá nhân được điều động đến cơ quan, tổ chức, đơn vị khác được cơ quan, tổ chức, đơn vị mới bình xét danh hiệu “Lao động tiên tiến”, “Chiến sĩ tiên tiến” nếu không phải là cán bộ, công chức, viên chức.\nCá nhân được biệt phái đến cơ quan, tổ chức, đơn vị khác được cơ quan, tổ chức, đơn vị mới bình xét danh hiệu “Lao động tiên tiến”, “Chiến sĩ tiên tiến” nếu không phải là cán bộ, công chức, viên chức.\nCá nhân có thời gian công tác tại cơ quan cũ từ 06 tháng trở lên phải có ý kiến nhận xét của cơ quan cũ khi bình xét danh hiệu “Lao động tiên tiến”, “Chiến sĩ tiên tiến”."
   },
 
-
-
-
-
-
   {
     "input": "Điều 2: Quy định chung về thi đua, khen thưởng\nKhoản 3: Việc bình xét danh hiệu “Lao động tiên tiến”, “Chiến sĩ tiên tiến” trong một số trường hợp cụ thê được thực hiện như sau:\nĐiểm d) Không xét tặng danh hiệu “Lao động tiên tiến”, “Chiến sĩ tiên tiến” đôi với các cá nhân mới tuyên dụng dưới 06 tháng.",
     "output": "Cá nhân mới tuyển dụng dưới 06 tháng không được xét tặng danh hiệu “Lao động tiên tiến”.\nCá nhân mới tuyển dụng dưới 06 tháng không được xét tặng danh hiệu “Chiến sĩ tiên tiến”."

@@ -461,6 +461,14 @@
     "input": "Điều 23. Danh hiệu “Chiến sĩ thi đua cơ sở”\nĐạt tiêu chuẩn đanh hiệu “Lao động tiên tiến” hoặc “Chiến sĩ tiên tiến”;",
     "output": "Cá nhân được xét tặng danh hiệu “Chiến sĩ thi đua cơ sở” phải đạt tiêu chuẩn danh hiệu “Lao động tiên tiến” hoặc danh hiệu “Chiến sĩ tiên tiến”."
   },
+
+
+
+
+
+
+
+  *******************************8888888
   {
     "input": "Điều 23. Danh hiệu “Chiến sĩ thi đua cơ sở”\nHoàn thành xuất sắc nhiệm vụ hoặc có sáng kiến được cơ sở công nhận hoặc có đề tài khoa học, đề án khoa học, công trình khoa học và công nghệ đã được nghiệm thu hoặc mưu trí, sắng tạo trong chiến đấu, phục vụ chiến đấu được đơn vị công nhận. 12 CÔNG BÁO/Số 571 + 572/Ngày 15-7-2022",
     "output": "Cá nhân được xét tặng danh hiệu “Chiến sĩ thi đua cơ sở” phải hoàn thành xuất sắc nhiệm vụ hoặc có sáng kiến được cơ sở công nhận hoặc có đề tài khoa học đã được nghiệm thu hoặc có đề án khoa học đã được nghiệm thu hoặc có công trình khoa học và công nghệ đã được nghiệm thu hoặc có thành tích mưu trí trong chiến đấu được đơn vị công nhận hoặc có thành tích sáng tạo trong chiến đấu được đơn vị công nhận hoặc có thành tích mưu trí trong phục vụ chiến đấu được đơn vị công nhận hoặc có thành tích sáng tạo trong phục vụ chiến đấu được đơn vị công nhận."
@@ -481,6 +489,18 @@
     "input": "Điều 24. Danh hiệu “Lao động tiên tiến”, “Chiến sĩ tiên tiến”\nKhoản 3. Danh hiệu “Lao động tiên tiến” để tặng cho công nhân, nông dân, người lao động không thuộc đối tượng quy định tại khoản I và khoản 2 Điều này và đạt các tiêu chuẩn sau đây:\nĐiểm a) Lao động, sản xuất có hiệu quả, tích cực tham gia phong trào thi đua và hoạt động xã hội;",
     "output": "Công nhân không thuộc đối tượng quy định tại khoản 1 và khoản 2 Điều 24 được xét tặng danh hiệu “Lao động tiên tiến” khi lao động, sản xuất có hiệu quả.\nNông dân không thuộc đối tượng quy định tại khoản 1 và khoản 2 Điều 24 được xét tặng danh hiệu “Lao động tiên tiến” khi lao động, sản xuất có hiệu quả.\nNgười lao động không thuộc đối tượng quy định tại khoản 1 và khoản 2 Điều 24 được xét tặng danh hiệu “Lao động tiên tiến” khi lao động, sản xuất có hiệu quả.\nCông nhân không thuộc đối tượng quy định tại khoản 1 và khoản 2 Điều 24 được xét tặng danh hiệu “Lao động tiên tiến” khi tích cực tham gia phong trào thi đua.\nNông dân không thuộc đối tượng quy định tại khoản 1 và khoản 2 Điều 24 được xét tặng danh hiệu “Lao động tiên tiến” khi tích cực tham gia phong trào thi đua.\nNgười lao động không thuộc đối tượng quy định tại khoản 1 và khoản 2 Điều 24 được xét tặng danh hiệu “Lao động tiên tiến” khi tích cực tham gia phong trào thi đua.\nCông nhân không thuộc đối tượng quy định tại khoản 1 và khoản 2 Điều 24 được xét tặng danh hiệu “Lao động tiên tiến” khi tích cực tham gia hoạt động xã hội.\nNông dân không thuộc đối tượng quy định tại khoản 1 và khoản 2 Điều 24 được xét tặng danh hiệu “Lao động tiên tiến” khi tích cực tham gia hoạt động xã hội.\nNgười lao động không thuộc đối tượng quy định tại khoản 1 và khoản 2 Điều 24 được xét tặng danh hiệu “Lao động tiên tiến” khi tích cực tham gia hoạt động xã hội."
   },
+
+
+
+
+
+
+
+
+
+
+
+
   {
     "input": "Điều 24. Danh hiệu “Lao động tiên tiến”, “Chiến sĩ tiên tiến”\nKhoản 3. Danh hiệu “Lao động tiên tiến” để tặng cho công nhân, nông dân, người lao động không thuộc đối tượng quy định tại khoản I và khoản 2 Điều này và đạt các tiêu chuẩn sau đây:\nĐiểm b) Gương mẫu chấp hành tốt chủ trương của Đảng, chính sách, pháp luật của Nhà nước; có đạo đức, lối sống lành mạnh, đoản kết, tương trợ, giúp đỡ mọi người trong cộng đồng.",
     "output": "Công nhân không thuộc đối tượng quy định tại khoản 1 và khoản 2 Điều 24 được xét tặng danh hiệu “Lao động tiên tiến” khi gương mẫu chấp hành chủ trương của Đảng.\nCông nhân không thuộc đối tượng quy định tại khoản 1 và khoản 2 Điều 24 được xét tặng danh hiệu “Lao động tiên tiến” khi gương mẫu chấp hành chính sách của Nhà nước.\nCông nhân không thuộc đối tượng quy định tại khoản 1 và khoản 2 Điều 24 được xét tặng danh hiệu “Lao động tiên tiến” khi gương mẫu chấp hành pháp luật của Nhà nước.\nCông nhân không thuộc đối tượng quy định tại khoản 1 và khoản 2 Điều 24 được xét tặng danh hiệu “Lao động tiên tiến” khi có đạo đức lành mạnh.\nCông nhân không thuộc đối tượng quy định tại khoản 1 và khoản 2 Điều 24 được xét tặng danh hiệu “Lao động tiên tiến” khi có lối sống lành mạnh.\nCông nhân không thuộc đối tượng quy định tại khoản 1 và khoản 2 Điều 24 được xét tặng danh hiệu “Lao động tiên tiến” khi có tinh thần đoàn kết.\nCông nhân không thuộc đối tượng quy định tại khoản 1 và khoản 2 Điều 24 được xét tặng danh hiệu “Lao động tiên tiến” khi có tinh thần tương trợ.\nCông nhân không thuộc đối tượng quy định tại khoản 1 và khoản 2 Điều 24 được xét tặng danh hiệu “Lao động tiên tiến” khi giúp đỡ mọi người trong cộng đồng.\nNông dân không thuộc đối tượng quy định tại khoản 1 và khoản 2 Điều 24 được xét tặng danh hiệu “Lao động tiên tiến” khi gương mẫu chấp hành chủ trương của Đảng.\nNông dân không thuộc đối tượng quy định tại khoản 1 và khoản 2 Điều 24 được xét tặng danh hiệu “Lao động tiên tiến” khi gương mẫu chấp hành chính sách của Nhà nước.\nNông dân không thuộc đối tượng quy định tại khoản 1 và khoản 2 Điều 24 được xét tặng danh hiệu “Lao động tiên tiến” khi gương mẫu chấp hành pháp luật của Nhà nước.\nNông dân không thuộc đối tượng quy định tại khoản 1 và khoản 2 Điều 24 được xét tặng danh hiệu “Lao động tiên tiến” khi có đạo đức lành mạnh.\nNông dân không thuộc đối tượng quy định tại khoản 1 và khoản 2 Điều 24 được xét tặng danh hiệu “Lao động tiên tiến” khi có lối sống lành mạnh.\nNông dân không thuộc đối tượng quy định tại khoản 1 và khoản 2 Điều 24 được xét tặng danh hiệu “Lao động tiên tiến” khi có tinh thần đoàn kết.\nNông dân không thuộc đối tượng quy định tại khoản 1 và khoản 2 Điều 24 được xét tặng danh hiệu “Lao động tiên tiến” khi có tinh thần tương trợ.\nNông dân không thuộc đối tượng quy định tại khoản 1 và khoản 2 Điều 24 được xét tặng danh hiệu “Lao động tiên tiến” khi giúp đỡ mọi người trong cộng đồng.\nNgười lao động không thuộc đối tượng quy định tại khoản 1 và khoản 2 Điều 24 được xét tặng danh hiệu “Lao động tiên tiến” khi gương mẫu chấp hành chủ trương của Đảng.\nNgười lao động không thuộc đối tượng quy định tại khoản 1 và khoản 2 Điều 24 được xét tặng danh hiệu “Lao động tiên tiến” khi gương mẫu chấp hành chính sách của Nhà nước.\nNgười lao động không thuộc đối tượng quy định tại khoản 1 và khoản 2 Điều 24 được xét tặng danh hiệu “Lao động tiên tiến” khi gương mẫu chấp hành pháp luật của Nhà nước.\nNgười lao động không thuộc đối tượng quy định tại khoản 1 và khoản 2 Điều 24 được xét tặng danh hiệu “Lao động tiên tiến” khi có đạo đức lành mạnh.\nNgười lao động không thuộc đối tượng quy định tại khoản 1 và khoản 2 Điều 24 được xét tặng danh hiệu “Lao động tiên tiến” khi có lối sống lành mạnh.\nNgười lao động không thuộc đối tượng quy định tại khoản 1 và khoản 2 Điều 24 được xét tặng danh hiệu “Lao động tiên tiến” khi có tinh thần đoàn kết.\nNgười lao động không thuộc đối tượng quy định tại khoản 1 và khoản 2 Điều 24 được xét tặng danh hiệu “Lao động tiên tiến” khi có tinh thần tương trợ.\nNgười lao động không thuộc đối tượng quy định tại khoản 1 và khoản 2 Điều 24 được xét tặng danh hiệu “Lao động tiên tiến” khi giúp đỡ mọi người trong cộng đồng."
@@ -502,6 +522,11 @@
     "input": "Điều 25. Danh hiệu “Cờ thi đua của Chính phủ”\nquy định tại khoản 3 Điều này.",
     "output": "Nội dung này được quy định tại khoản 3 Điều này."
   },
+
+
+
+
+  
   {
     "input": "Điều 25. Danh hiệu “Cờ thi đua của Chính phủ”\nKhoản 1. Danh hiệu “Cờ thi đua của Chính phủ” để tặng hằng năm cho tập thể tiêu biểu xuất sắc trong SỐ các tập thể dẫn đầu cụm, khối thi đua do Bộ, ban, ngành, tỉnh tổ chức và đạt các tiêu chuẩn sau đây: CÔNG BÁO/Số 571 + 572/Ngày 15-7-2022 13\nĐiểm a) Có thành tích xuất sắc, hoản thành vượt các chỉ tiêu thi đua và nhiệm vụ được giao trong năm;",
     "output": "Danh hiệu “Cờ thi đua của Chính phủ” được tặng hằng năm cho tập thể tiêu biểu xuất sắc trong số các tập thể dẫn đầu cụm, khối thi đua do Bộ, ban, ngành, tỉnh tổ chức.\nTập thể được tặng danh hiệu “Cờ thi đua của Chính phủ” phải có thành tích xuất sắc.\nTập thể được tặng danh hiệu “Cờ thi đua của Chính phủ” phải hoàn thành vượt các chỉ tiêu thi đua trong năm.\nTập thể được tặng danh hiệu “Cờ thi đua của Chính phủ” phải hoàn thành vượt nhiệm vụ được giao trong năm."
@@ -526,6 +551,13 @@
     "input": "Điều 26. Danh hiệu cờ thi đua của Bộ, ban, ngành, tỉnh\nKhoản 1. Danh hiệu cờ thi đua của Bộ, ban, ngành, tỉnh để tặng hằng năm cho tập thể dẫn đầu phong trào thi đua của cụm, khối thi đua do Bộ, ban, ngành, tỉnh tổ chức và đạt các tiêu chuẩn sau đây:\nĐiểm a) Hoàn thành vượt các chỉ tiêu thi đua và nhiệm vụ được giao trong năm; là tập thể tiêu biểu xuất sắc trong Bộ, ban, ngành, tỉnh;",
     "output": "Danh hiệu cờ thi đua của Bộ, ban, ngành, tỉnh được tặng hằng năm cho tập thể dẫn đầu phong trào thi đua của cụm, khối thi đua do Bộ, ban, ngành, tỉnh tổ chức.\nTập thể được tặng danh hiệu cờ thi đua của Bộ, ban, ngành, tỉnh phải hoàn thành vượt các chỉ tiêu thi đua trong năm.\nTập thể được tặng danh hiệu cờ thi đua của Bộ, ban, ngành, tỉnh phải hoàn thành vượt nhiệm vụ được giao trong năm.\nTập thể được tặng danh hiệu cờ thi đua của Bộ, ban, ngành, tỉnh phải là tập thể tiêu biểu xuất sắc trong Bộ, ban, ngành, tỉnh."
   },
+
+
+
+
+
+
+
   {
     "input": "Điều 26. Danh hiệu cờ thi đua của Bộ, ban, ngành, tỉnh\nKhoản 1. Danh hiệu cờ thi đua của Bộ, ban, ngành, tỉnh để tặng hằng năm cho tập thể dẫn đầu phong trào thi đua của cụm, khối thi đua do Bộ, ban, ngành, tỉnh tổ chức và đạt các tiêu chuẩn sau đây:\nĐiểm b) Nội bộ đoàn kết; tổ chức đảng, đoàn thể trong sạch, vững mạnh; tích cực thực hành tiết kiệm, chống lãng phí, phòng, chống tham nhũng, tiêu cực và các tệ nạn xã hội khác.",
     "output": "Tập thể được tặng danh hiệu cờ thi đua của Bộ, ban, ngành, tỉnh phải đoàn kết nội bộ.\nTập thể được tặng danh hiệu cờ thi đua của Bộ, ban, ngành, tỉnh phải có tổ chức đảng trong sạch, vững mạnh.\nTập thể được tặng danh hiệu cờ thi đua của Bộ, ban, ngành, tỉnh phải có tổ chức đoàn thể trong sạch, vững mạnh.\nTập thể được tặng danh hiệu cờ thi đua của Bộ, ban, ngành, tỉnh phải tích cực thực hành tiết kiệm.\nTập thể được tặng danh hiệu cờ thi đua của Bộ, ban, ngành, tỉnh phải tích cực chống lãng phí.\nTập thể được tặng danh hiệu cờ thi đua của Bộ, ban, ngành, tỉnh phải tích cực phòng, chống tham nhũng.\nTập thể được tặng danh hiệu cờ thi đua của Bộ, ban, ngành, tỉnh phải tích cực phòng, chống tiêu cực.\nTập thể được tặng danh hiệu cờ thi đua của Bộ, ban, ngành, tỉnh phải tích cực phòng, chống các tệ nạn xã hội khác."
@@ -551,6 +583,15 @@
     "output": "Tập thể được tặng danh hiệu “Tập thể lao động xuất sắc” phải có 100% cá nhân trong tập thể hoàn thành nhiệm vụ được giao.\nTập thể được tặng danh hiệu “Tập thể lao động xuất sắc” phải có ít nhất 70% cá nhân trong tập thể đạt danh hiệu “Lao động tiên tiến”."
   },
 
+
+
+
+
+
+
+
+
+
   {
     "input": "Điều 27. Danh hiệu “Tập thể lao động xuất sắc”, “Đơn vị quyết thắng”\nKhoản 1. Danh hiệu “Tập thể lao động xuất sắc” đề tặng hằng năm cho tập thê đạt các tiêu chuẩn sau đây:\nĐiểm đ) Có cá nhân đạt danh hiệu “Chiến sĩ thi đua cơ sở”",
     "output": "Tập thể được xét tặng danh hiệu “Tập thể lao động xuất sắc” phải có cá nhân đạt danh hiệu “Chiến sĩ thi đua cơ sở”."
@@ -575,6 +616,19 @@
     "input": "Điều 28. Danh hiệu “Tập thể lao động tiên tiến”, “Đơn vị tiên tiến”\nKhoản 1. Danh hiệu “Tập thể lao động tiên tiến” đề tặng hằng năm cho tập thể đạt các tiêu chuẩn sau đây:\nĐiểm b) Tham gia phong trào thi đua thường xuyên, thiết thực, hiệu quả",
     "output": "Tập thể được xét tặng danh hiệu “Tập thể lao động tiên tiến” phải tham gia phong trào thi đua thường xuyên.\nTập thể được xét tặng danh hiệu “Tập thể lao động tiên tiến” phải tham gia phong trào thi đua thiết thực.\nTập thể được xét tặng danh hiệu “Tập thể lao động tiên tiến” phải tham gia phong trào thi đua hiệu quả."
   },
+
+
+
+
+
+
+
+
+
+
+
+
+
   {
     "input": "Điều 28. Danh hiệu “Tập thể lao động tiên tiến”, “Đơn vị tiên tiến”\nKhoản 1. Danh hiệu “Tập thể lao động tiên tiến” đề tặng hằng năm cho tập thể đạt các tiêu chuẩn sau đây:\nĐiểm c) Có ít nhất là 70% cá nhân trong tập thể đạt danh hiệu “Lao động tiên tiến” và không có cá nhân bị kỷ luật từ hình thức cảnh cáo trở lên;",
     "output": "Tập thể được xét tặng danh hiệu “Tập thể lao động tiên tiến” phải có ít nhất 70% cá nhân trong tập thể đạt danh hiệu “Lao động tiên tiến”.\nTập thể được xét tặng danh hiệu “Tập thể lao động tiên tiến” không được có cá nhân bị kỷ luật từ hình thức cảnh cáo trở lên."
@@ -599,8 +653,6 @@
     "input": "Điều 29. Danh hiệu xã, phường, thị trấn tiêu biểu\nKhoản 1. Danh hiệu xã, phường, thị trấn tiêu biểu để tặng hằng năm cho xã, phường, thị trấn dẫn đầu phong trào thi đua cấp huyện và đạt các tiêu chuẩn sau đây: CÔNG BÁO/Số 571 + 572/Ngày 15-7-2022 15\nĐiểm b) Đời sống kinh tế ồn định và từng bước phát triển",
     "output": "Xã được xét tặng danh hiệu xã tiêu biểu phải có đời sống kinh tế ổn định.\nXã được xét tặng danh hiệu xã tiêu biểu phải có đời sống kinh tế từng bước phát triển.\nPhường được xét tặng danh hiệu phường tiêu biểu phải có đời sống kinh tế ổn định.\nPhường được xét tặng danh hiệu phường tiêu biểu phải có đời sống kinh tế từng bước phát triển.\nThị trấn được xét tặng danh hiệu thị trấn tiêu biểu phải có đời sống kinh tế ổn định.\nThị trấn được xét tặng danh hiệu thị trấn tiêu biểu phải có đời sống kinh tế từng bước phát triển."
   },
-
-
   {
     "input": "Điều 29. Danh hiệu xã, phường, thị trấn tiêu biểu\nKhoản 1. Danh hiệu xã, phường, thị trấn tiêu biểu để tặng hằng năm cho xã, phường, thị trấn dẫn đầu phong trào thi đua cấp huyện và đạt các tiêu chuẩn sau đây: CÔNG BÁO/Số 571 + 572/Ngày 15-7-2022 15\nĐiểm c) Đời sống văn hóa, tỉnh thần lành mạnh, phong phú",
     "output": "Xã, phường, thị trấn được tặng danh hiệu xã, phường, thị trấn tiêu biểu phải có đời sống văn hóa lành mạnh.\nXã, phường, thị trấn được tặng danh hiệu xã, phường, thị trấn tiêu biểu phải có đời sống tinh thần lành mạnh.\nXã, phường, thị trấn được tặng danh hiệu xã, phường, thị trấn tiêu biểu phải có đời sống văn hóa phong phú.\nXã, phường, thị trấn được tặng danh hiệu xã, phường, thị trấn tiêu biểu phải có đời sống tinh thần phong phú."
@@ -625,6 +677,13 @@
     "input": "Điều 30. Danh hiệu thôn, tổ dân phố văn hóa\nKhoản 1. Danh hiệu thôn, tổ dân phố văn hóa đề tặng hằng năm cho thôn, tổ dân phố trong phạm vi câp xã đạt các tiêu chuân sau đây:\nĐiểm b) Đời sống văn hóa, tinh thần lành mạnh, phong phú",
     "output": "Thôn, tổ dân phố được tặng danh hiệu thôn, tổ dân phố văn hóa phải có đời sống văn hóa lành mạnh.\nThôn, tổ dân phố được tặng danh hiệu thôn, tổ dân phố văn hóa phải có đời sống tinh thần lành mạnh.\nThôn, tổ dân phố được tặng danh hiệu thôn, tổ dân phố văn hóa phải có đời sống văn hóa phong phú.\nThôn, tổ dân phố được tặng danh hiệu thôn, tổ dân phố văn hóa phải có đời sống tinh thần phong phú."
   },
+
+
+
+
+
+
+
   {
     "input": "Điều 30. Danh hiệu thôn, tổ dân phố văn hóa\nKhoản 1. Danh hiệu thôn, tổ dân phố văn hóa đề tặng hằng năm cho thôn, tổ dân phố trong phạm vi câp xã đạt các tiêu chuân sau đây:\nĐiểm c) Môi trường an toàn, thân thiện, cảnh quan sạch đẹp",
     "output": "Thôn, tổ dân phố được tặng danh hiệu thôn, tổ dân phố văn hóa phải có môi trường an toàn.\nThôn, tổ dân phố được tặng danh hiệu thôn, tổ dân phố văn hóa phải có môi trường thân thiện.\nThôn, tổ dân phố được tặng danh hiệu thôn, tổ dân phố văn hóa phải có cảnh quan sạch đẹp."
@@ -658,6 +717,14 @@
     "input": "Điều 31. Danh hiệu “Gia đình văn hóa”\nỦy ban nhân dân cấp tỉnh quy định chỉ tiết tiêu chuẩn và việc xét tặng danh hiệu “Gia đình văn hóa” trên cơ sở khung tiêu chuân do Chính phủ quy định. l6 CÔNG BÁO/Số 571 + 572/Ngày 15-7-2022",
     "output": "Ủy ban nhân dân cấp tỉnh quy định chi tiết tiêu chuẩn danh hiệu “Gia đình văn hóa”.\nỦy ban nhân dân cấp tỉnh quy định chi tiết việc xét tặng danh hiệu “Gia đình văn hóa”.\nViệc quy định tiêu chuẩn danh hiệu “Gia đình văn hóa” của Ủy ban nhân dân cấp tỉnh được thực hiện trên cơ sở khung tiêu chuẩn do Chính phủ quy định.\nViệc quy định việc xét tặng danh hiệu “Gia đình văn hóa” của Ủy ban nhân dân cấp tỉnh được thực hiện trên cơ sở khung tiêu chuẩn do Chính phủ quy định."
   },
+
+
+
+
+
+
+
+  ****************** tới đây rồi p2
   {
     "input": "Điều 32. Các danh hiệu thi đua khác\nDanh hiệu thi đua, tiêu chuẩn danh hiệu thi đua của tô chức chính trị, tổ chức chính trị - xã hội, tổ chức chính trị xã hội - nghề nghiệp, tô chức xã hội, tổ chức xã hội - nghề nghiệp đo cơ quan trung ương của các tổ chức này quy định.",
     "output": "Cơ quan trung ương của tổ chức chính trị quy định danh hiệu thi đua của tổ chức chính trị.\nCơ quan trung ương của tổ chức chính trị quy định tiêu chuẩn danh hiệu thi đua của tổ chức chính trị.\nCơ quan trung ương của tổ chức chính trị - xã hội quy định danh hiệu thi đua của tổ chức chính trị - xã hội.\nCơ quan trung ương của tổ chức chính trị - xã hội quy định tiêu chuẩn danh hiệu thi đua của tổ chức chính trị - xã hội.\nCơ quan trung ương của tổ chức chính trị xã hội - nghề nghiệp quy định danh hiệu thi đua của tổ chức chính trị xã hội - nghề nghiệp.\nCơ quan trung ương của tổ chức chính trị xã hội - nghề nghiệp quy định tiêu chuẩn danh hiệu thi đua của tổ chức chính trị xã hội - nghề nghiệp.\nCơ quan trung ương của tổ chức xã hội quy định danh hiệu thi đua của tổ chức xã hội.\nCơ quan trung ương của tổ chức xã hội quy định tiêu chuẩn danh hiệu thi đua của tổ chức xã hội.\nCơ quan trung ương của tổ chức xã hội - nghề nghiệp quy định danh hiệu thi đua của tổ chức xã hội - nghề nghiệp.\nCơ quan trung ương của tổ chức xã hội - nghề nghiệp quy định tiêu chuẩn danh hiệu thi đua của tổ chức xã hội - nghề nghiệp."

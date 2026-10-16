@@ -1,4 +1,13 @@
-__pycache__/
-*.pyc
+# Environment variables
 .env
-.venv
+.env.*
+!.env.example
+
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Text files
+*.txt

@@ -99,6 +99,16 @@
     "input": "Danh hiệu “Tập thể lao động xuất sắc” được tặng hằng năm cho các phòng, ban và tương đương, đơn vị trực thuộc các cơ quan cấp thành phố.",
     "output": "Danh hiệu “Tập thể lao động xuất sắc” được tặng hằng năm cho các phòng, ban và tương đương\n Danh hiệu “Tập thể lao động xuất sắc” được tặng hằng năm cho các đơn vị trực thuộc các cơ quan cấp thành phố\n"
   },
+
+
+
+
+
+
+
+
+
+  
   {
     "input": "Danh hiệu “Tập thể lao động xuất sắc” được tặng hằng năm cho các phòng, ban và tương đương, đơn vị trực thuộc cấp huyện và Ủy ban nhân dân cấp xã.",
     "output": "Danh hiệu “Tập thể lao động xuất sắc” được tặng hằng năm cho các phòng, ban và tương đương trực thuộc cấp huyện\n Danh hiệu “Tập thể lao động xuất sắc” được tặng hằng năm cho các đơn vị trực thuộc cấp huyện\n Danh hiệu “Tập thể lao động xuất sắc” được tặng hằng năm cho Ủy ban nhân dân cấp xã\n"
@@ -131,6 +141,13 @@
     "input": "Khen thưởng công trạng được áp dụng cho tập thể đạt tiêu chuẩn theo điểm d khoản 3 Điều 74 Luật Thi đua, khen thưởng.",
     "output": "Khen thưởng công trạng được áp dụng cho tập thể\n Tập thể đạt tiêu chuẩn theo điểm d khoản 3 Điều 74 Luật Thi đua, khen thưởng\n"
   },
+
+
+
+
+
+
+
   {
     "input": "Tập thể thuộc cụm, khối thi đua các đơn vị thuộc thành phố được xét khen thưởng công trạng khi hoàn thành 100% chỉ tiêu thi đua và nhiệm vụ được giao trong năm; cơ quan, đơn vị, tổ chức đảng, đoàn thể được đánh giá hoàn thành tốt nhiệm vụ trở lên; tích cực tham gia phong trào thi đua; thực hiện nghiêm quy định của cụm, khối thi đua và được bình xét, suy tôn thông qua cụm, khối thi đua.",
     "output": "Tập thể thuộc cụm, khối thi đua các đơn vị thuộc thành phố được xét khen thưởng công trạng khi hoàn thành 100% chỉ tiêu thi đua và nhiệm vụ được giao trong năm\n Cơ quan, đơn vị, tổ chức đảng, đoàn thể của tập thể được đánh giá hoàn thành tốt nhiệm vụ trở lên\n Tập thể tích cực tham gia phong trào thi đua\n Tập thể thực hiện nghiêm quy định của cụm, khối thi đua\n Tập thể được bình xét, suy tôn thông qua cụm, khối thi đua\n"
@@ -159,6 +176,13 @@
     "input": "Cá nhân được xét khen thưởng khi có thành tích xuất sắc, tham gia đủ nhiệm kỳ và không ứng cử nhiệm kỳ mới của tổ chức chính trị - xã hội, hội quần chúng được Đảng, Nhà nước giao nhiệm vụ cấp thành phố; hoặc tập thể, cá nhân là gương điển hình tiên tiến được lựa chọn báo cáo tham luận tại Đại hội nhiệm kỳ mới.",
     "output": "Cá nhân có thành tích xuất sắc được xét khen thưởng khi tham gia đủ nhiệm kỳ và không ứng cử nhiệm kỳ mới của tổ chức chính trị - xã hội, hội quần chúng được Đảng, Nhà nước giao nhiệm vụ cấp thành phố\n Tập thể là gương điển hình tiên tiến được lựa chọn báo cáo tham luận tại Đại hội nhiệm kỳ mới được xét khen thưởng\n Cá nhân là gương điển hình tiên tiến được lựa chọn báo cáo tham luận tại Đại hội nhiệm kỳ mới được xét khen thưởng\n"
   },
+
+
+
+
+
+
+
   {
     "input": "Công nhân, người lao động được xét khen thưởng khi có sáng kiến mang lại lợi ích từ 100 triệu đồng trở lên cho doanh nghiệp và đóng góp vào đào tạo, bồi dưỡng, giúp đỡ đồng nghiệp nâng cao trình độ, tay nghề; nông dân được xét khi có mô hình sản xuất hiệu quả, ổn định từ 02 năm trở lên, giúp đỡ 05 lượt hộ giảm nghèo và tạo việc làm cho ít nhất 10 lao động.",
     "output": "Công nhân được xét khen thưởng khi có sáng kiến mang lại lợi ích từ 100 triệu đồng trở lên cho doanh nghiệp\n Công nhân được xét khen thưởng khi có đóng góp vào đào tạo, bồi dưỡng, giúp đỡ đồng nghiệp nâng cao trình độ, tay nghề\n Người lao động được xét khen thưởng khi có sáng kiến mang lại lợi ích từ 100 triệu đồng trở lên cho doanh nghiệp\n Người lao động được xét khen thưởng khi có đóng góp vào đào tạo, bồi dưỡng, giúp đỡ đồng nghiệp nâng cao trình độ, tay nghề\n Nông dân được xét khen thưởng khi có mô hình sản xuất hiệu quả, ổn định từ 02 năm trở lên\n Nông dân được xét khen thưởng khi giúp đỡ 05 lượt hộ giảm nghèo\n Nông dân được xét khen thưởng khi tạo việc làm cho ít nhất 10 lao động\n"
@@ -179,6 +203,11 @@
     "input": "Tập thể, cá nhân có nhiều thành tích trong phòng chống thiên tai, hỏa hoạn, dịch bệnh hoặc tìm kiếm cứu nạn được xét khen thưởng đột xuất.",
     "output": "Tập thể có nhiều thành tích trong phòng chống thiên tai, hỏa hoạn, dịch bệnh hoặc tìm kiếm cứu nạn được xét khen thưởng đột xuất\n Cá nhân có nhiều thành tích trong phòng chống thiên tai, hỏa hoạn, dịch bệnh hoặc tìm kiếm cứu nạn được xét khen thưởng đột xuất\n"
   },
+
+
+
+
+  
   {
     "input": "Cá nhân có hành động, nghĩa cử cao đẹp, cứu giúp người, bảo vệ tài sản của Nhà nước hoặc Nhân dân; hoặc là gương người tốt, việc tốt có phạm vi ảnh hưởng trên địa bàn thành phố được xét khen thưởng đột xuất.",
     "output": "Cá nhân có hành động, nghĩa cử cao đẹp được xét khen thưởng đột xuất\n Cá nhân cứu giúp người được xét khen thưởng đột xuất\n Cá nhân bảo vệ tài sản của Nhà nước được xét khen thưởng đột xuất\n Cá nhân bảo vệ tài sản của Nhân dân được xét khen thưởng đột xuất\n Cá nhân là gương người tốt, việc tốt có phạm vi ảnh hưởng trên địa bàn thành phố được xét khen thưởng đột xuất\n"

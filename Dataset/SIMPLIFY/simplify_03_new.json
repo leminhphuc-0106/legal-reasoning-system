@@ -32,6 +32,7 @@
 
 
 
+  
   {
     "input": "Điều 1. Quy định chung về thi đua, khen thưởng\nKhoản 5. Việc bình xét danh hiệu “Lao động tiên tiến”, “Chiến sĩ tiên tiến” trong một số trường hợp cụ thể được thực hiện như sau:\n. Ngoài các tiêu chuẩn, điều kiện theo quy định chung, trong thời gian tham gia đào tạo, bồi đưỡng, cá nhân phải chấp hành tốt quy định của cơ sở đảo tạo, hoản thành nhiệm vụ học tập, đạt kết quả học tập từ loại khá trở lên (đối với các khóa đào tạo, bồi đưỡng có xếp loại trung bình, khá, giỏi...);",
     "output": "Ngoài các tiêu chuẩn, điều kiện theo quy định chung, cá nhân tham gia đào tạo, bồi dưỡng phải chấp hành tốt quy định của cơ sở đào tạo, bồi dưỡng.\nNgoài các tiêu chuẩn, điều kiện theo quy định chung, cá nhân tham gia đào tạo, bồi dưỡng phải hoàn thành nhiệm vụ học tập.\nNgoài các tiêu chuẩn, điều kiện theo quy định chung, cá nhân tham gia đào tạo, bồi dưỡng phải đạt kết quả học tập từ loại khá trở lên đối với các khóa đào tạo, bồi dưỡng có xếp loại trung bình, khá, giỏi..."
