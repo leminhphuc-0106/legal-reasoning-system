@@ -11,3 +11,4 @@ ENV/
 
 # Text files
 *.txt
+*.pycache
