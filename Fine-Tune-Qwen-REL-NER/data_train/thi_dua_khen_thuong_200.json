@@ -1,0 +1,5427 @@
+[
+  {
+    "instruction": "Nguyễn Văn An đạt danh hiệu Lao động tiên tiến.",
+    "response": {
+      "entities": [
+        {
+          "text": "Nguyễn Văn An",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "Lao động tiên tiến",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Nguyễn Văn An",
+          "predicate": "DAT_DANH_HIEU",
+          "object": "Lao động tiên tiến"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu Lao động tiên tiến áp dụng cho Tập thể phòng Kế hoạch.",
+    "response": {
+      "entities": [
+        {
+          "text": "Lao động tiên tiến",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Tập thể phòng Kế hoạch",
+          "label": "TAP_THE"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Lao động tiên tiến",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Tập thể phòng Kế hoạch"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Nguyễn Văn An có thành tích hoàn thành xuất sắc nhiệm vụ được giao.",
+    "response": {
+      "entities": [
+        {
+          "text": "Nguyễn Văn An",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "hoàn thành xuất sắc nhiệm vụ được giao",
+          "label": "THANH_TICH"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Nguyễn Văn An",
+          "predicate": "CO_THANH_TICH",
+          "object": "hoàn thành xuất sắc nhiệm vụ được giao"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Thành tích hoàn thành xuất sắc nhiệm vụ được giao là căn cứ xét danh hiệu Lao động tiên tiến.",
+    "response": {
+      "entities": [
+        {
+          "text": "hoàn thành xuất sắc nhiệm vụ được giao",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "Lao động tiên tiến",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "hoàn thành xuất sắc nhiệm vụ được giao",
+          "predicate": "CAN_CU_XET_TANG",
+          "object": "Lao động tiên tiến"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu Lao động tiên tiến được quy định tại Luật Thi đua, khen thưởng.",
+    "response": {
+      "entities": [
+        {
+          "text": "Lao động tiên tiến",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Luật Thi đua, khen thưởng",
+          "label": "VAN_BAN_PHAP_LUAT"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Lao động tiên tiến",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "Luật Thi đua, khen thưởng"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Điều kiện xét danh hiệu Lao động tiên tiến được quy định tại Điều 9 của Luật Thi đua, khen thưởng.",
+    "response": {
+      "entities": [
+        {
+          "text": "Điều kiện xét danh hiệu Lao động tiên tiến",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "Điều 9",
+          "label": "DIEU_KHOAN_PHAP_LUAT"
+        },
+        {
+          "text": "Luật Thi đua, khen thưởng",
+          "label": "VAN_BAN_PHAP_LUAT"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Điều kiện xét danh hiệu Lao động tiên tiến",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "Điều 9"
+        },
+        {
+          "subject": "Điều 9",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "Luật Thi đua, khen thưởng"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Nguyễn Văn An đạt tiêu chuẩn xét danh hiệu Lao động tiên tiến.",
+    "response": {
+      "entities": [
+        {
+          "text": "Nguyễn Văn An",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "tiêu chuẩn xét danh hiệu Lao động tiên tiến",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "Lao động tiên tiến",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Nguyễn Văn An",
+          "predicate": "DAT_TIEU_CHUAN",
+          "object": "tiêu chuẩn xét danh hiệu Lao động tiên tiến"
+        },
+        {
+          "subject": "tiêu chuẩn xét danh hiệu Lao động tiên tiến",
+          "predicate": "CAN_CU_XET_TANG",
+          "object": "Lao động tiên tiến"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Công ty Minh Phát có sáng kiến được áp dụng hiệu quả trong năm 2024.",
+    "response": {
+      "entities": [
+        {
+          "text": "Công ty Minh Phát",
+          "label": "TO_CHUC"
+        },
+        {
+          "text": "sáng kiến được áp dụng hiệu quả",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "năm 2024",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Công ty Minh Phát",
+          "predicate": "CO_SANG_KIEN",
+          "object": "sáng kiến được áp dụng hiệu quả"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Công ty Minh Phát có công trình khoa học được nghiệm thu trong năm 2022.",
+    "response": {
+      "entities": [
+        {
+          "text": "Công ty Minh Phát",
+          "label": "TO_CHUC"
+        },
+        {
+          "text": "công trình khoa học được nghiệm thu",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "năm 2022",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Công ty Minh Phát",
+          "predicate": "CO_CONG_TRINH_KHOA_HOC",
+          "object": "công trình khoa học được nghiệm thu"
+        },
+        {
+          "subject": "Công ty Minh Phát",
+          "predicate": "DUOC_XET_TRONG_THOI_GIAN",
+          "object": "năm 2022"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Thủ tướng Chính phủ bình xét danh hiệu Lao động tiên tiến cho Tập thể phòng Kế hoạch trong năm 2022.",
+    "response": {
+      "entities": [
+        {
+          "text": "Thủ tướng Chính phủ",
+          "label": "CAP_KHEN_THUONG"
+        },
+        {
+          "text": "Lao động tiên tiến",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Tập thể phòng Kế hoạch",
+          "label": "TAP_THE"
+        },
+        {
+          "text": "năm 2022",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Thủ tướng Chính phủ",
+          "predicate": "DUOC_BINH_XET_THONG_QUA",
+          "object": "Lao động tiên tiến"
+        },
+        {
+          "subject": "Lao động tiên tiến",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Tập thể phòng Kế hoạch"
+        },
+        {
+          "subject": "Tập thể phòng Kế hoạch",
+          "predicate": "DUOC_XET_TRONG_THOI_GIAN",
+          "object": "năm 2022"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Trần Thị Bình đạt danh hiệu Chiến sĩ thi đua cơ sở.",
+    "response": {
+      "entities": [
+        {
+          "text": "Trần Thị Bình",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "Chiến sĩ thi đua cơ sở",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Trần Thị Bình",
+          "predicate": "DAT_DANH_HIEU",
+          "object": "Chiến sĩ thi đua cơ sở"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu Chiến sĩ thi đua cơ sở áp dụng cho Tập thể khoa Nội.",
+    "response": {
+      "entities": [
+        {
+          "text": "Chiến sĩ thi đua cơ sở",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Tập thể khoa Nội",
+          "label": "TAP_THE"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Chiến sĩ thi đua cơ sở",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Tập thể khoa Nội"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Trần Thị Bình có thành tích có thành tích xuất sắc trong công tác.",
+    "response": {
+      "entities": [
+        {
+          "text": "Trần Thị Bình",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "có thành tích xuất sắc trong công tác",
+          "label": "THANH_TICH"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Trần Thị Bình",
+          "predicate": "CO_THANH_TICH",
+          "object": "có thành tích xuất sắc trong công tác"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Thành tích có thành tích xuất sắc trong công tác là căn cứ xét danh hiệu Chiến sĩ thi đua cơ sở.",
+    "response": {
+      "entities": [
+        {
+          "text": "có thành tích xuất sắc trong công tác",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "Chiến sĩ thi đua cơ sở",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "có thành tích xuất sắc trong công tác",
+          "predicate": "CAN_CU_XET_TANG",
+          "object": "Chiến sĩ thi đua cơ sở"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu Chiến sĩ thi đua cơ sở được quy định tại Nghị định số 98/2023/NĐ-CP.",
+    "response": {
+      "entities": [
+        {
+          "text": "Chiến sĩ thi đua cơ sở",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Nghị định số 98/2023/NĐ-CP",
+          "label": "VAN_BAN_PHAP_LUAT"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Chiến sĩ thi đua cơ sở",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "Nghị định số 98/2023/NĐ-CP"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Điều kiện xét danh hiệu Chiến sĩ thi đua cơ sở được quy định tại Điều 10 của Nghị định số 98/2023/NĐ-CP.",
+    "response": {
+      "entities": [
+        {
+          "text": "Điều kiện xét danh hiệu Chiến sĩ thi đua cơ sở",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "Điều 10",
+          "label": "DIEU_KHOAN_PHAP_LUAT"
+        },
+        {
+          "text": "Nghị định số 98/2023/NĐ-CP",
+          "label": "VAN_BAN_PHAP_LUAT"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Điều kiện xét danh hiệu Chiến sĩ thi đua cơ sở",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "Điều 10"
+        },
+        {
+          "subject": "Điều 10",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "Nghị định số 98/2023/NĐ-CP"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Trần Thị Bình đạt tiêu chuẩn xét danh hiệu Chiến sĩ thi đua cơ sở.",
+    "response": {
+      "entities": [
+        {
+          "text": "Trần Thị Bình",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "tiêu chuẩn xét danh hiệu Chiến sĩ thi đua cơ sở",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "Chiến sĩ thi đua cơ sở",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Trần Thị Bình",
+          "predicate": "DAT_TIEU_CHUAN",
+          "object": "tiêu chuẩn xét danh hiệu Chiến sĩ thi đua cơ sở"
+        },
+        {
+          "subject": "tiêu chuẩn xét danh hiệu Chiến sĩ thi đua cơ sở",
+          "predicate": "CAN_CU_XET_TANG",
+          "object": "Chiến sĩ thi đua cơ sở"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Bộ trưởng Bộ Nội vụ thực hiện việc xét danh hiệu Chiến sĩ thi đua cơ sở trong thời hạn 30 ngày theo Nghị định số 98/2023/NĐ-CP.",
+    "response": {
+      "entities": [
+        {
+          "text": "Bộ trưởng Bộ Nội vụ",
+          "label": "CO_QUAN_NHA_NUOC"
+        },
+        {
+          "text": "Chiến sĩ thi đua cơ sở",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "trong thời hạn 30 ngày",
+          "label": "THOI_HAN"
+        },
+        {
+          "text": "Nghị định số 98/2023/NĐ-CP",
+          "label": "VAN_BAN_PHAP_LUAT"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Chiến sĩ thi đua cơ sở",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "Nghị định số 98/2023/NĐ-CP"
+        },
+        {
+          "subject": "Bộ trưởng Bộ Nội vụ",
+          "predicate": "DUOC_BINH_XET_THONG_QUA",
+          "object": "Chiến sĩ thi đua cơ sở"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Trường Trung học phổ thông Hòa Bình có công trình khoa học được nghiệm thu trong năm 2023.",
+    "response": {
+      "entities": [
+        {
+          "text": "Trường Trung học phổ thông Hòa Bình",
+          "label": "TO_CHUC"
+        },
+        {
+          "text": "công trình khoa học được nghiệm thu",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "năm 2023",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Trường Trung học phổ thông Hòa Bình",
+          "predicate": "CO_CONG_TRINH_KHOA_HOC",
+          "object": "công trình khoa học được nghiệm thu"
+        },
+        {
+          "subject": "Trường Trung học phổ thông Hòa Bình",
+          "predicate": "DUOC_XET_TRONG_THOI_GIAN",
+          "object": "năm 2023"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Bộ trưởng Bộ Nội vụ bình xét danh hiệu Chiến sĩ thi đua cơ sở cho Tập thể khoa Nội trong năm 2023.",
+    "response": {
+      "entities": [
+        {
+          "text": "Bộ trưởng Bộ Nội vụ",
+          "label": "CAP_KHEN_THUONG"
+        },
+        {
+          "text": "Chiến sĩ thi đua cơ sở",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Tập thể khoa Nội",
+          "label": "TAP_THE"
+        },
+        {
+          "text": "năm 2023",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Bộ trưởng Bộ Nội vụ",
+          "predicate": "DUOC_BINH_XET_THONG_QUA",
+          "object": "Chiến sĩ thi đua cơ sở"
+        },
+        {
+          "subject": "Chiến sĩ thi đua cơ sở",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Tập thể khoa Nội"
+        },
+        {
+          "subject": "Tập thể khoa Nội",
+          "predicate": "DUOC_XET_TRONG_THOI_GIAN",
+          "object": "năm 2023"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Lê Minh Khôi đạt danh hiệu Chiến sĩ thi đua toàn quốc.",
+    "response": {
+      "entities": [
+        {
+          "text": "Lê Minh Khôi",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "Chiến sĩ thi đua toàn quốc",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Lê Minh Khôi",
+          "predicate": "DAT_DANH_HIEU",
+          "object": "Chiến sĩ thi đua toàn quốc"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu Chiến sĩ thi đua toàn quốc áp dụng cho Tập thể tổ sản xuất số 1.",
+    "response": {
+      "entities": [
+        {
+          "text": "Chiến sĩ thi đua toàn quốc",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Tập thể tổ sản xuất số 1",
+          "label": "TAP_THE"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Chiến sĩ thi đua toàn quốc",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Tập thể tổ sản xuất số 1"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Lê Minh Khôi có thành tích đạt năng suất lao động cao.",
+    "response": {
+      "entities": [
+        {
+          "text": "Lê Minh Khôi",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "đạt năng suất lao động cao",
+          "label": "THANH_TICH"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Lê Minh Khôi",
+          "predicate": "CO_THANH_TICH",
+          "object": "đạt năng suất lao động cao"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Thành tích đạt năng suất lao động cao là căn cứ xét danh hiệu Chiến sĩ thi đua toàn quốc.",
+    "response": {
+      "entities": [
+        {
+          "text": "đạt năng suất lao động cao",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "Chiến sĩ thi đua toàn quốc",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "đạt năng suất lao động cao",
+          "predicate": "CAN_CU_XET_TANG",
+          "object": "Chiến sĩ thi đua toàn quốc"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu Chiến sĩ thi đua toàn quốc được quy định tại Nghị định số 152/2025/NĐ-CP.",
+    "response": {
+      "entities": [
+        {
+          "text": "Chiến sĩ thi đua toàn quốc",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Nghị định số 152/2025/NĐ-CP",
+          "label": "VAN_BAN_PHAP_LUAT"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Chiến sĩ thi đua toàn quốc",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "Nghị định số 152/2025/NĐ-CP"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Điều kiện xét danh hiệu Chiến sĩ thi đua toàn quốc được quy định tại khoản 1 Điều 9 của Nghị định số 152/2025/NĐ-CP.",
+    "response": {
+      "entities": [
+        {
+          "text": "Điều kiện xét danh hiệu Chiến sĩ thi đua toàn quốc",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "khoản 1 Điều 9",
+          "label": "DIEU_KHOAN_PHAP_LUAT"
+        },
+        {
+          "text": "Nghị định số 152/2025/NĐ-CP",
+          "label": "VAN_BAN_PHAP_LUAT"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Điều kiện xét danh hiệu Chiến sĩ thi đua toàn quốc",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "khoản 1 Điều 9"
+        },
+        {
+          "subject": "khoản 1 Điều 9",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "Nghị định số 152/2025/NĐ-CP"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Lê Minh Khôi đạt tiêu chuẩn xét danh hiệu Chiến sĩ thi đua toàn quốc.",
+    "response": {
+      "entities": [
+        {
+          "text": "Lê Minh Khôi",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "tiêu chuẩn xét danh hiệu Chiến sĩ thi đua toàn quốc",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "Chiến sĩ thi đua toàn quốc",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Lê Minh Khôi",
+          "predicate": "DAT_TIEU_CHUAN",
+          "object": "tiêu chuẩn xét danh hiệu Chiến sĩ thi đua toàn quốc"
+        },
+        {
+          "subject": "tiêu chuẩn xét danh hiệu Chiến sĩ thi đua toàn quốc",
+          "predicate": "CAN_CU_XET_TANG",
+          "object": "Chiến sĩ thi đua toàn quốc"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Bệnh viện Đa khoa An Bình có sáng kiến được áp dụng hiệu quả trong năm 2024.",
+    "response": {
+      "entities": [
+        {
+          "text": "Bệnh viện Đa khoa An Bình",
+          "label": "TO_CHUC"
+        },
+        {
+          "text": "sáng kiến được áp dụng hiệu quả",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "năm 2024",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Bệnh viện Đa khoa An Bình",
+          "predicate": "CO_SANG_KIEN",
+          "object": "sáng kiến được áp dụng hiệu quả"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Bệnh viện Đa khoa An Bình có công trình khoa học được nghiệm thu trong năm 2024.",
+    "response": {
+      "entities": [
+        {
+          "text": "Bệnh viện Đa khoa An Bình",
+          "label": "TO_CHUC"
+        },
+        {
+          "text": "công trình khoa học được nghiệm thu",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "năm 2024",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Bệnh viện Đa khoa An Bình",
+          "predicate": "CO_CONG_TRINH_KHOA_HOC",
+          "object": "công trình khoa học được nghiệm thu"
+        },
+        {
+          "subject": "Bệnh viện Đa khoa An Bình",
+          "predicate": "DUOC_XET_TRONG_THOI_GIAN",
+          "object": "năm 2024"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Bộ trưởng Bộ Quốc phòng bình xét danh hiệu Chiến sĩ thi đua toàn quốc cho Tập thể tổ sản xuất số 1 trong năm 2024.",
+    "response": {
+      "entities": [
+        {
+          "text": "Bộ trưởng Bộ Quốc phòng",
+          "label": "CAP_KHEN_THUONG"
+        },
+        {
+          "text": "Chiến sĩ thi đua toàn quốc",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Tập thể tổ sản xuất số 1",
+          "label": "TAP_THE"
+        },
+        {
+          "text": "năm 2024",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Bộ trưởng Bộ Quốc phòng",
+          "predicate": "DUOC_BINH_XET_THONG_QUA",
+          "object": "Chiến sĩ thi đua toàn quốc"
+        },
+        {
+          "subject": "Chiến sĩ thi đua toàn quốc",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Tập thể tổ sản xuất số 1"
+        },
+        {
+          "subject": "Tập thể tổ sản xuất số 1",
+          "predicate": "DUOC_XET_TRONG_THOI_GIAN",
+          "object": "năm 2024"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Phạm Thu Hà đạt danh hiệu Chiến sĩ thi đua cấp bộ.",
+    "response": {
+      "entities": [
+        {
+          "text": "Phạm Thu Hà",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "Chiến sĩ thi đua cấp bộ",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Phạm Thu Hà",
+          "predicate": "DAT_DANH_HIEU",
+          "object": "Chiến sĩ thi đua cấp bộ"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu Chiến sĩ thi đua cấp bộ áp dụng cho Tập thể giáo viên nhà trường.",
+    "response": {
+      "entities": [
+        {
+          "text": "Chiến sĩ thi đua cấp bộ",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Tập thể giáo viên nhà trường",
+          "label": "TAP_THE"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Chiến sĩ thi đua cấp bộ",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Tập thể giáo viên nhà trường"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Phạm Thu Hà có thành tích có sáng kiến được áp dụng hiệu quả.",
+    "response": {
+      "entities": [
+        {
+          "text": "Phạm Thu Hà",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "có sáng kiến được áp dụng hiệu quả",
+          "label": "THANH_TICH"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Phạm Thu Hà",
+          "predicate": "CO_THANH_TICH",
+          "object": "có sáng kiến được áp dụng hiệu quả"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Thành tích có sáng kiến được áp dụng hiệu quả là căn cứ xét danh hiệu Chiến sĩ thi đua cấp bộ.",
+    "response": {
+      "entities": [
+        {
+          "text": "có sáng kiến được áp dụng hiệu quả",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "Chiến sĩ thi đua cấp bộ",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "có sáng kiến được áp dụng hiệu quả",
+          "predicate": "CAN_CU_XET_TANG",
+          "object": "Chiến sĩ thi đua cấp bộ"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu Chiến sĩ thi đua cấp bộ được quy định tại Thông tư số 01/2024/TT-BNV.",
+    "response": {
+      "entities": [
+        {
+          "text": "Chiến sĩ thi đua cấp bộ",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Thông tư số 01/2024/TT-BNV",
+          "label": "VAN_BAN_PHAP_LUAT"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Chiến sĩ thi đua cấp bộ",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "Thông tư số 01/2024/TT-BNV"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Điều kiện xét danh hiệu Chiến sĩ thi đua cấp bộ được quy định tại khoản 2 Điều 10 của Thông tư số 01/2024/TT-BNV.",
+    "response": {
+      "entities": [
+        {
+          "text": "Điều kiện xét danh hiệu Chiến sĩ thi đua cấp bộ",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "khoản 2 Điều 10",
+          "label": "DIEU_KHOAN_PHAP_LUAT"
+        },
+        {
+          "text": "Thông tư số 01/2024/TT-BNV",
+          "label": "VAN_BAN_PHAP_LUAT"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Điều kiện xét danh hiệu Chiến sĩ thi đua cấp bộ",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "khoản 2 Điều 10"
+        },
+        {
+          "subject": "khoản 2 Điều 10",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "Thông tư số 01/2024/TT-BNV"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Phạm Thu Hà đạt tiêu chuẩn xét danh hiệu Chiến sĩ thi đua cấp bộ.",
+    "response": {
+      "entities": [
+        {
+          "text": "Phạm Thu Hà",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "tiêu chuẩn xét danh hiệu Chiến sĩ thi đua cấp bộ",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "Chiến sĩ thi đua cấp bộ",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Phạm Thu Hà",
+          "predicate": "DAT_TIEU_CHUAN",
+          "object": "tiêu chuẩn xét danh hiệu Chiến sĩ thi đua cấp bộ"
+        },
+        {
+          "subject": "tiêu chuẩn xét danh hiệu Chiến sĩ thi đua cấp bộ",
+          "predicate": "CAN_CU_XET_TANG",
+          "object": "Chiến sĩ thi đua cấp bộ"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Hợp tác xã Bình Minh có sáng kiến được áp dụng hiệu quả trong năm 2025.",
+    "response": {
+      "entities": [
+        {
+          "text": "Hợp tác xã Bình Minh",
+          "label": "TO_CHUC"
+        },
+        {
+          "text": "sáng kiến được áp dụng hiệu quả",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "năm 2025",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Hợp tác xã Bình Minh",
+          "predicate": "CO_SANG_KIEN",
+          "object": "sáng kiến được áp dụng hiệu quả"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Hợp tác xã Bình Minh có công trình khoa học được nghiệm thu trong năm 2025.",
+    "response": {
+      "entities": [
+        {
+          "text": "Hợp tác xã Bình Minh",
+          "label": "TO_CHUC"
+        },
+        {
+          "text": "công trình khoa học được nghiệm thu",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "năm 2025",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Hợp tác xã Bình Minh",
+          "predicate": "CO_CONG_TRINH_KHOA_HOC",
+          "object": "công trình khoa học được nghiệm thu"
+        },
+        {
+          "subject": "Hợp tác xã Bình Minh",
+          "predicate": "DUOC_XET_TRONG_THOI_GIAN",
+          "object": "năm 2025"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Chủ tịch Ủy ban nhân dân cấp tỉnh bình xét danh hiệu Chiến sĩ thi đua cấp bộ cho Tập thể giáo viên nhà trường trong năm 2025.",
+    "response": {
+      "entities": [
+        {
+          "text": "Chủ tịch Ủy ban nhân dân cấp tỉnh",
+          "label": "CAP_KHEN_THUONG"
+        },
+        {
+          "text": "Chiến sĩ thi đua cấp bộ",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Tập thể giáo viên nhà trường",
+          "label": "TAP_THE"
+        },
+        {
+          "text": "năm 2025",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Chủ tịch Ủy ban nhân dân cấp tỉnh",
+          "predicate": "DUOC_BINH_XET_THONG_QUA",
+          "object": "Chiến sĩ thi đua cấp bộ"
+        },
+        {
+          "subject": "Chiến sĩ thi đua cấp bộ",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Tập thể giáo viên nhà trường"
+        },
+        {
+          "subject": "Tập thể giáo viên nhà trường",
+          "predicate": "DUOC_XET_TRONG_THOI_GIAN",
+          "object": "năm 2025"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Hoàng Quốc Việt đạt danh hiệu Tập thể lao động tiên tiến.",
+    "response": {
+      "entities": [
+        {
+          "text": "Hoàng Quốc Việt",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "Tập thể lao động tiên tiến",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Hoàng Quốc Việt",
+          "predicate": "DAT_DANH_HIEU",
+          "object": "Tập thể lao động tiên tiến"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu Tập thể lao động tiên tiến áp dụng cho Tập thể đội công tác.",
+    "response": {
+      "entities": [
+        {
+          "text": "Tập thể lao động tiên tiến",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Tập thể đội công tác",
+          "label": "TAP_THE"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Tập thể lao động tiên tiến",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Tập thể đội công tác"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Hoàng Quốc Việt có thành tích thực hiện tốt nhiệm vụ quốc phòng.",
+    "response": {
+      "entities": [
+        {
+          "text": "Hoàng Quốc Việt",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "thực hiện tốt nhiệm vụ quốc phòng",
+          "label": "THANH_TICH"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Hoàng Quốc Việt",
+          "predicate": "CO_THANH_TICH",
+          "object": "thực hiện tốt nhiệm vụ quốc phòng"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Thành tích thực hiện tốt nhiệm vụ quốc phòng là căn cứ xét danh hiệu Tập thể lao động tiên tiến.",
+    "response": {
+      "entities": [
+        {
+          "text": "thực hiện tốt nhiệm vụ quốc phòng",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "Tập thể lao động tiên tiến",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "thực hiện tốt nhiệm vụ quốc phòng",
+          "predicate": "CAN_CU_XET_TANG",
+          "object": "Tập thể lao động tiên tiến"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu Tập thể lao động tiên tiến được quy định tại Thông tư số 15/2025/TT-BNV.",
+    "response": {
+      "entities": [
+        {
+          "text": "Tập thể lao động tiên tiến",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Thông tư số 15/2025/TT-BNV",
+          "label": "VAN_BAN_PHAP_LUAT"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Tập thể lao động tiên tiến",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "Thông tư số 15/2025/TT-BNV"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Điều kiện xét danh hiệu Tập thể lao động tiên tiến được quy định tại điểm a khoản 1 Điều 9 của Thông tư số 15/2025/TT-BNV.",
+    "response": {
+      "entities": [
+        {
+          "text": "Điều kiện xét danh hiệu Tập thể lao động tiên tiến",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "điểm a khoản 1 Điều 9",
+          "label": "DIEU_KHOAN_PHAP_LUAT"
+        },
+        {
+          "text": "Thông tư số 15/2025/TT-BNV",
+          "label": "VAN_BAN_PHAP_LUAT"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Điều kiện xét danh hiệu Tập thể lao động tiên tiến",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "điểm a khoản 1 Điều 9"
+        },
+        {
+          "subject": "điểm a khoản 1 Điều 9",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "Thông tư số 15/2025/TT-BNV"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Hoàng Quốc Việt đạt tiêu chuẩn xét danh hiệu Tập thể lao động tiên tiến.",
+    "response": {
+      "entities": [
+        {
+          "text": "Hoàng Quốc Việt",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "tiêu chuẩn xét danh hiệu Tập thể lao động tiên tiến",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "Tập thể lao động tiên tiến",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Hoàng Quốc Việt",
+          "predicate": "DAT_TIEU_CHUAN",
+          "object": "tiêu chuẩn xét danh hiệu Tập thể lao động tiên tiến"
+        },
+        {
+          "subject": "tiêu chuẩn xét danh hiệu Tập thể lao động tiên tiến",
+          "predicate": "CAN_CU_XET_TANG",
+          "object": "Tập thể lao động tiên tiến"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Trung tâm Y tế An Phú có sáng kiến được áp dụng hiệu quả trong năm 2024.",
+    "response": {
+      "entities": [
+        {
+          "text": "Trung tâm Y tế An Phú",
+          "label": "TO_CHUC"
+        },
+        {
+          "text": "sáng kiến được áp dụng hiệu quả",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "năm 2024",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Trung tâm Y tế An Phú",
+          "predicate": "CO_SANG_KIEN",
+          "object": "sáng kiến được áp dụng hiệu quả"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Trung tâm Y tế An Phú có công trình khoa học được nghiệm thu trong giai đoạn 2023–2024.",
+    "response": {
+      "entities": [
+        {
+          "text": "Trung tâm Y tế An Phú",
+          "label": "TO_CHUC"
+        },
+        {
+          "text": "công trình khoa học được nghiệm thu",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "giai đoạn 2023–2024",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Trung tâm Y tế An Phú",
+          "predicate": "CO_CONG_TRINH_KHOA_HOC",
+          "object": "công trình khoa học được nghiệm thu"
+        },
+        {
+          "subject": "Trung tâm Y tế An Phú",
+          "predicate": "DUOC_XET_TRONG_THOI_GIAN",
+          "object": "giai đoạn 2023–2024"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Chính phủ bình xét danh hiệu Tập thể lao động tiên tiến cho Tập thể đội công tác trong giai đoạn 2023–2024.",
+    "response": {
+      "entities": [
+        {
+          "text": "Chính phủ",
+          "label": "CAP_KHEN_THUONG"
+        },
+        {
+          "text": "Tập thể lao động tiên tiến",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Tập thể đội công tác",
+          "label": "TAP_THE"
+        },
+        {
+          "text": "giai đoạn 2023–2024",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Chính phủ",
+          "predicate": "DUOC_BINH_XET_THONG_QUA",
+          "object": "Tập thể lao động tiên tiến"
+        },
+        {
+          "subject": "Tập thể lao động tiên tiến",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Tập thể đội công tác"
+        },
+        {
+          "subject": "Tập thể đội công tác",
+          "predicate": "DUOC_XET_TRONG_THOI_GIAN",
+          "object": "giai đoạn 2023–2024"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Nguyễn Văn An đạt danh hiệu Tập thể lao động xuất sắc.",
+    "response": {
+      "entities": [
+        {
+          "text": "Nguyễn Văn An",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "Tập thể lao động xuất sắc",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Nguyễn Văn An",
+          "predicate": "DAT_DANH_HIEU",
+          "object": "Tập thể lao động xuất sắc"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu Tập thể lao động xuất sắc áp dụng cho Tập thể phòng Kế hoạch.",
+    "response": {
+      "entities": [
+        {
+          "text": "Tập thể lao động xuất sắc",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Tập thể phòng Kế hoạch",
+          "label": "TAP_THE"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Tập thể lao động xuất sắc",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Tập thể phòng Kế hoạch"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Nguyễn Văn An có thành tích có đóng góp nổi bật cho cộng đồng.",
+    "response": {
+      "entities": [
+        {
+          "text": "Nguyễn Văn An",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "có đóng góp nổi bật cho cộng đồng",
+          "label": "THANH_TICH"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Nguyễn Văn An",
+          "predicate": "CO_THANH_TICH",
+          "object": "có đóng góp nổi bật cho cộng đồng"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Thành tích có đóng góp nổi bật cho cộng đồng là căn cứ xét danh hiệu Tập thể lao động xuất sắc.",
+    "response": {
+      "entities": [
+        {
+          "text": "có đóng góp nổi bật cho cộng đồng",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "Tập thể lao động xuất sắc",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "có đóng góp nổi bật cho cộng đồng",
+          "predicate": "CAN_CU_XET_TANG",
+          "object": "Tập thể lao động xuất sắc"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu Tập thể lao động xuất sắc được quy định tại Luật Thi đua, khen thưởng.",
+    "response": {
+      "entities": [
+        {
+          "text": "Tập thể lao động xuất sắc",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Luật Thi đua, khen thưởng",
+          "label": "VAN_BAN_PHAP_LUAT"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Tập thể lao động xuất sắc",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "Luật Thi đua, khen thưởng"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Điều kiện xét danh hiệu Tập thể lao động xuất sắc được quy định tại Điều 9 của Luật Thi đua, khen thưởng.",
+    "response": {
+      "entities": [
+        {
+          "text": "Điều kiện xét danh hiệu Tập thể lao động xuất sắc",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "Điều 9",
+          "label": "DIEU_KHOAN_PHAP_LUAT"
+        },
+        {
+          "text": "Luật Thi đua, khen thưởng",
+          "label": "VAN_BAN_PHAP_LUAT"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Điều kiện xét danh hiệu Tập thể lao động xuất sắc",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "Điều 9"
+        },
+        {
+          "subject": "Điều 9",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "Luật Thi đua, khen thưởng"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Nguyễn Văn An đạt tiêu chuẩn xét danh hiệu Tập thể lao động xuất sắc.",
+    "response": {
+      "entities": [
+        {
+          "text": "Nguyễn Văn An",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "tiêu chuẩn xét danh hiệu Tập thể lao động xuất sắc",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "Tập thể lao động xuất sắc",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Nguyễn Văn An",
+          "predicate": "DAT_TIEU_CHUAN",
+          "object": "tiêu chuẩn xét danh hiệu Tập thể lao động xuất sắc"
+        },
+        {
+          "subject": "tiêu chuẩn xét danh hiệu Tập thể lao động xuất sắc",
+          "predicate": "CAN_CU_XET_TANG",
+          "object": "Tập thể lao động xuất sắc"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Thủ tướng Chính phủ thực hiện việc xét danh hiệu Tập thể lao động xuất sắc trước ngày 31 tháng 12 hằng năm theo Luật Thi đua, khen thưởng.",
+    "response": {
+      "entities": [
+        {
+          "text": "Thủ tướng Chính phủ",
+          "label": "CO_QUAN_NHA_NUOC"
+        },
+        {
+          "text": "Tập thể lao động xuất sắc",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "trước ngày 31 tháng 12 hằng năm",
+          "label": "THOI_HAN"
+        },
+        {
+          "text": "Luật Thi đua, khen thưởng",
+          "label": "VAN_BAN_PHAP_LUAT"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Tập thể lao động xuất sắc",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "Luật Thi đua, khen thưởng"
+        },
+        {
+          "subject": "Thủ tướng Chính phủ",
+          "predicate": "DUOC_BINH_XET_THONG_QUA",
+          "object": "Tập thể lao động xuất sắc"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Công ty Minh Phát có công trình khoa học được nghiệm thu trong năm 2022.",
+    "response": {
+      "entities": [
+        {
+          "text": "Công ty Minh Phát",
+          "label": "TO_CHUC"
+        },
+        {
+          "text": "công trình khoa học được nghiệm thu",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "năm 2022",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Công ty Minh Phát",
+          "predicate": "CO_CONG_TRINH_KHOA_HOC",
+          "object": "công trình khoa học được nghiệm thu"
+        },
+        {
+          "subject": "Công ty Minh Phát",
+          "predicate": "DUOC_XET_TRONG_THOI_GIAN",
+          "object": "năm 2022"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Thủ tướng Chính phủ bình xét danh hiệu Tập thể lao động xuất sắc cho Tập thể phòng Kế hoạch trong năm 2022.",
+    "response": {
+      "entities": [
+        {
+          "text": "Thủ tướng Chính phủ",
+          "label": "CAP_KHEN_THUONG"
+        },
+        {
+          "text": "Tập thể lao động xuất sắc",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Tập thể phòng Kế hoạch",
+          "label": "TAP_THE"
+        },
+        {
+          "text": "năm 2022",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Thủ tướng Chính phủ",
+          "predicate": "DUOC_BINH_XET_THONG_QUA",
+          "object": "Tập thể lao động xuất sắc"
+        },
+        {
+          "subject": "Tập thể lao động xuất sắc",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Tập thể phòng Kế hoạch"
+        },
+        {
+          "subject": "Tập thể phòng Kế hoạch",
+          "predicate": "DUOC_XET_TRONG_THOI_GIAN",
+          "object": "năm 2022"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Trần Thị Bình đạt danh hiệu Cờ thi đua của Chính phủ.",
+    "response": {
+      "entities": [
+        {
+          "text": "Trần Thị Bình",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "Cờ thi đua của Chính phủ",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Trần Thị Bình",
+          "predicate": "DAT_DANH_HIEU",
+          "object": "Cờ thi đua của Chính phủ"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu Cờ thi đua của Chính phủ áp dụng cho Tập thể khoa Nội.",
+    "response": {
+      "entities": [
+        {
+          "text": "Cờ thi đua của Chính phủ",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Tập thể khoa Nội",
+          "label": "TAP_THE"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Cờ thi đua của Chính phủ",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Tập thể khoa Nội"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Trần Thị Bình có thành tích hoàn thành tốt kế hoạch công tác.",
+    "response": {
+      "entities": [
+        {
+          "text": "Trần Thị Bình",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "hoàn thành tốt kế hoạch công tác",
+          "label": "THANH_TICH"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Trần Thị Bình",
+          "predicate": "CO_THANH_TICH",
+          "object": "hoàn thành tốt kế hoạch công tác"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Thành tích hoàn thành tốt kế hoạch công tác là căn cứ xét danh hiệu Cờ thi đua của Chính phủ.",
+    "response": {
+      "entities": [
+        {
+          "text": "hoàn thành tốt kế hoạch công tác",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "Cờ thi đua của Chính phủ",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "hoàn thành tốt kế hoạch công tác",
+          "predicate": "CAN_CU_XET_TANG",
+          "object": "Cờ thi đua của Chính phủ"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu Cờ thi đua của Chính phủ được quy định tại Nghị định số 98/2023/NĐ-CP.",
+    "response": {
+      "entities": [
+        {
+          "text": "Cờ thi đua của Chính phủ",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Nghị định số 98/2023/NĐ-CP",
+          "label": "VAN_BAN_PHAP_LUAT"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Cờ thi đua của Chính phủ",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "Nghị định số 98/2023/NĐ-CP"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Điều kiện xét danh hiệu Cờ thi đua của Chính phủ được quy định tại Điều 10 của Nghị định số 98/2023/NĐ-CP.",
+    "response": {
+      "entities": [
+        {
+          "text": "Điều kiện xét danh hiệu Cờ thi đua của Chính phủ",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "Điều 10",
+          "label": "DIEU_KHOAN_PHAP_LUAT"
+        },
+        {
+          "text": "Nghị định số 98/2023/NĐ-CP",
+          "label": "VAN_BAN_PHAP_LUAT"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Điều kiện xét danh hiệu Cờ thi đua của Chính phủ",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "Điều 10"
+        },
+        {
+          "subject": "Điều 10",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "Nghị định số 98/2023/NĐ-CP"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Trần Thị Bình đạt tiêu chuẩn xét danh hiệu Cờ thi đua của Chính phủ.",
+    "response": {
+      "entities": [
+        {
+          "text": "Trần Thị Bình",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "tiêu chuẩn xét danh hiệu Cờ thi đua của Chính phủ",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "Cờ thi đua của Chính phủ",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Trần Thị Bình",
+          "predicate": "DAT_TIEU_CHUAN",
+          "object": "tiêu chuẩn xét danh hiệu Cờ thi đua của Chính phủ"
+        },
+        {
+          "subject": "tiêu chuẩn xét danh hiệu Cờ thi đua của Chính phủ",
+          "predicate": "CAN_CU_XET_TANG",
+          "object": "Cờ thi đua của Chính phủ"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Trường Trung học phổ thông Hòa Bình có sáng kiến được áp dụng hiệu quả trong năm 2024.",
+    "response": {
+      "entities": [
+        {
+          "text": "Trường Trung học phổ thông Hòa Bình",
+          "label": "TO_CHUC"
+        },
+        {
+          "text": "sáng kiến được áp dụng hiệu quả",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "năm 2024",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Trường Trung học phổ thông Hòa Bình",
+          "predicate": "CO_SANG_KIEN",
+          "object": "sáng kiến được áp dụng hiệu quả"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Trường Trung học phổ thông Hòa Bình có công trình khoa học được nghiệm thu trong năm 2023.",
+    "response": {
+      "entities": [
+        {
+          "text": "Trường Trung học phổ thông Hòa Bình",
+          "label": "TO_CHUC"
+        },
+        {
+          "text": "công trình khoa học được nghiệm thu",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "năm 2023",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Trường Trung học phổ thông Hòa Bình",
+          "predicate": "CO_CONG_TRINH_KHOA_HOC",
+          "object": "công trình khoa học được nghiệm thu"
+        },
+        {
+          "subject": "Trường Trung học phổ thông Hòa Bình",
+          "predicate": "DUOC_XET_TRONG_THOI_GIAN",
+          "object": "năm 2023"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Bộ trưởng Bộ Nội vụ bình xét danh hiệu Cờ thi đua của Chính phủ cho Tập thể khoa Nội trong năm 2023.",
+    "response": {
+      "entities": [
+        {
+          "text": "Bộ trưởng Bộ Nội vụ",
+          "label": "CAP_KHEN_THUONG"
+        },
+        {
+          "text": "Cờ thi đua của Chính phủ",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Tập thể khoa Nội",
+          "label": "TAP_THE"
+        },
+        {
+          "text": "năm 2023",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Bộ trưởng Bộ Nội vụ",
+          "predicate": "DUOC_BINH_XET_THONG_QUA",
+          "object": "Cờ thi đua của Chính phủ"
+        },
+        {
+          "subject": "Cờ thi đua của Chính phủ",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Tập thể khoa Nội"
+        },
+        {
+          "subject": "Tập thể khoa Nội",
+          "predicate": "DUOC_XET_TRONG_THOI_GIAN",
+          "object": "năm 2023"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Lê Minh Khôi đạt danh hiệu Cờ thi đua cấp bộ.",
+    "response": {
+      "entities": [
+        {
+          "text": "Lê Minh Khôi",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "Cờ thi đua cấp bộ",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Lê Minh Khôi",
+          "predicate": "DAT_DANH_HIEU",
+          "object": "Cờ thi đua cấp bộ"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu Cờ thi đua cấp bộ áp dụng cho Tập thể tổ sản xuất số 1.",
+    "response": {
+      "entities": [
+        {
+          "text": "Cờ thi đua cấp bộ",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Tập thể tổ sản xuất số 1",
+          "label": "TAP_THE"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Cờ thi đua cấp bộ",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Tập thể tổ sản xuất số 1"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Lê Minh Khôi có thành tích có công trình khoa học được nghiệm thu.",
+    "response": {
+      "entities": [
+        {
+          "text": "Lê Minh Khôi",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "có công trình khoa học được nghiệm thu",
+          "label": "THANH_TICH"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Lê Minh Khôi",
+          "predicate": "CO_THANH_TICH",
+          "object": "có công trình khoa học được nghiệm thu"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Thành tích có công trình khoa học được nghiệm thu là căn cứ xét danh hiệu Cờ thi đua cấp bộ.",
+    "response": {
+      "entities": [
+        {
+          "text": "có công trình khoa học được nghiệm thu",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "Cờ thi đua cấp bộ",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "có công trình khoa học được nghiệm thu",
+          "predicate": "CAN_CU_XET_TANG",
+          "object": "Cờ thi đua cấp bộ"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu Cờ thi đua cấp bộ được quy định tại Nghị định số 152/2025/NĐ-CP.",
+    "response": {
+      "entities": [
+        {
+          "text": "Cờ thi đua cấp bộ",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Nghị định số 152/2025/NĐ-CP",
+          "label": "VAN_BAN_PHAP_LUAT"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Cờ thi đua cấp bộ",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "Nghị định số 152/2025/NĐ-CP"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Điều kiện xét danh hiệu Cờ thi đua cấp bộ được quy định tại khoản 1 Điều 9 của Nghị định số 152/2025/NĐ-CP.",
+    "response": {
+      "entities": [
+        {
+          "text": "Điều kiện xét danh hiệu Cờ thi đua cấp bộ",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "khoản 1 Điều 9",
+          "label": "DIEU_KHOAN_PHAP_LUAT"
+        },
+        {
+          "text": "Nghị định số 152/2025/NĐ-CP",
+          "label": "VAN_BAN_PHAP_LUAT"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Điều kiện xét danh hiệu Cờ thi đua cấp bộ",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "khoản 1 Điều 9"
+        },
+        {
+          "subject": "khoản 1 Điều 9",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "Nghị định số 152/2025/NĐ-CP"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Lê Minh Khôi đạt tiêu chuẩn xét danh hiệu Cờ thi đua cấp bộ.",
+    "response": {
+      "entities": [
+        {
+          "text": "Lê Minh Khôi",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "tiêu chuẩn xét danh hiệu Cờ thi đua cấp bộ",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "Cờ thi đua cấp bộ",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Lê Minh Khôi",
+          "predicate": "DAT_TIEU_CHUAN",
+          "object": "tiêu chuẩn xét danh hiệu Cờ thi đua cấp bộ"
+        },
+        {
+          "subject": "tiêu chuẩn xét danh hiệu Cờ thi đua cấp bộ",
+          "predicate": "CAN_CU_XET_TANG",
+          "object": "Cờ thi đua cấp bộ"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Bệnh viện Đa khoa An Bình có sáng kiến được áp dụng hiệu quả trong năm 2025.",
+    "response": {
+      "entities": [
+        {
+          "text": "Bệnh viện Đa khoa An Bình",
+          "label": "TO_CHUC"
+        },
+        {
+          "text": "sáng kiến được áp dụng hiệu quả",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "năm 2025",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Bệnh viện Đa khoa An Bình",
+          "predicate": "CO_SANG_KIEN",
+          "object": "sáng kiến được áp dụng hiệu quả"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Bệnh viện Đa khoa An Bình có công trình khoa học được nghiệm thu trong năm 2024.",
+    "response": {
+      "entities": [
+        {
+          "text": "Bệnh viện Đa khoa An Bình",
+          "label": "TO_CHUC"
+        },
+        {
+          "text": "công trình khoa học được nghiệm thu",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "năm 2024",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Bệnh viện Đa khoa An Bình",
+          "predicate": "CO_CONG_TRINH_KHOA_HOC",
+          "object": "công trình khoa học được nghiệm thu"
+        },
+        {
+          "subject": "Bệnh viện Đa khoa An Bình",
+          "predicate": "DUOC_XET_TRONG_THOI_GIAN",
+          "object": "năm 2024"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Bộ trưởng Bộ Quốc phòng bình xét danh hiệu Cờ thi đua cấp bộ cho Tập thể tổ sản xuất số 1 trong năm 2024.",
+    "response": {
+      "entities": [
+        {
+          "text": "Bộ trưởng Bộ Quốc phòng",
+          "label": "CAP_KHEN_THUONG"
+        },
+        {
+          "text": "Cờ thi đua cấp bộ",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Tập thể tổ sản xuất số 1",
+          "label": "TAP_THE"
+        },
+        {
+          "text": "năm 2024",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Bộ trưởng Bộ Quốc phòng",
+          "predicate": "DUOC_BINH_XET_THONG_QUA",
+          "object": "Cờ thi đua cấp bộ"
+        },
+        {
+          "subject": "Cờ thi đua cấp bộ",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Tập thể tổ sản xuất số 1"
+        },
+        {
+          "subject": "Tập thể tổ sản xuất số 1",
+          "predicate": "DUOC_XET_TRONG_THOI_GIAN",
+          "object": "năm 2024"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Phạm Thu Hà đạt danh hiệu Đơn vị tiên tiến.",
+    "response": {
+      "entities": [
+        {
+          "text": "Phạm Thu Hà",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "Đơn vị tiên tiến",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Phạm Thu Hà",
+          "predicate": "DAT_DANH_HIEU",
+          "object": "Đơn vị tiên tiến"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu Đơn vị tiên tiến áp dụng cho Tập thể giáo viên nhà trường.",
+    "response": {
+      "entities": [
+        {
+          "text": "Đơn vị tiên tiến",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Tập thể giáo viên nhà trường",
+          "label": "TAP_THE"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Đơn vị tiên tiến",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Tập thể giáo viên nhà trường"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Phạm Thu Hà có thành tích đạt thành tích tiêu biểu trong phong trào thi đua.",
+    "response": {
+      "entities": [
+        {
+          "text": "Phạm Thu Hà",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "đạt thành tích tiêu biểu trong phong trào thi đua",
+          "label": "THANH_TICH"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Phạm Thu Hà",
+          "predicate": "CO_THANH_TICH",
+          "object": "đạt thành tích tiêu biểu trong phong trào thi đua"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Thành tích đạt thành tích tiêu biểu trong phong trào thi đua là căn cứ xét danh hiệu Đơn vị tiên tiến.",
+    "response": {
+      "entities": [
+        {
+          "text": "đạt thành tích tiêu biểu trong phong trào thi đua",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "Đơn vị tiên tiến",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "đạt thành tích tiêu biểu trong phong trào thi đua",
+          "predicate": "CAN_CU_XET_TANG",
+          "object": "Đơn vị tiên tiến"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu Đơn vị tiên tiến được quy định tại Thông tư số 01/2024/TT-BNV.",
+    "response": {
+      "entities": [
+        {
+          "text": "Đơn vị tiên tiến",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Thông tư số 01/2024/TT-BNV",
+          "label": "VAN_BAN_PHAP_LUAT"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Đơn vị tiên tiến",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "Thông tư số 01/2024/TT-BNV"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Điều kiện xét danh hiệu Đơn vị tiên tiến được quy định tại khoản 2 Điều 10 của Thông tư số 01/2024/TT-BNV.",
+    "response": {
+      "entities": [
+        {
+          "text": "Điều kiện xét danh hiệu Đơn vị tiên tiến",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "khoản 2 Điều 10",
+          "label": "DIEU_KHOAN_PHAP_LUAT"
+        },
+        {
+          "text": "Thông tư số 01/2024/TT-BNV",
+          "label": "VAN_BAN_PHAP_LUAT"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Điều kiện xét danh hiệu Đơn vị tiên tiến",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "khoản 2 Điều 10"
+        },
+        {
+          "subject": "khoản 2 Điều 10",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "Thông tư số 01/2024/TT-BNV"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Phạm Thu Hà đạt tiêu chuẩn xét danh hiệu Đơn vị tiên tiến.",
+    "response": {
+      "entities": [
+        {
+          "text": "Phạm Thu Hà",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "tiêu chuẩn xét danh hiệu Đơn vị tiên tiến",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "Đơn vị tiên tiến",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Phạm Thu Hà",
+          "predicate": "DAT_TIEU_CHUAN",
+          "object": "tiêu chuẩn xét danh hiệu Đơn vị tiên tiến"
+        },
+        {
+          "subject": "tiêu chuẩn xét danh hiệu Đơn vị tiên tiến",
+          "predicate": "CAN_CU_XET_TANG",
+          "object": "Đơn vị tiên tiến"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Hợp tác xã Bình Minh có sáng kiến được áp dụng hiệu quả trong năm 2024.",
+    "response": {
+      "entities": [
+        {
+          "text": "Hợp tác xã Bình Minh",
+          "label": "TO_CHUC"
+        },
+        {
+          "text": "sáng kiến được áp dụng hiệu quả",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "năm 2024",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Hợp tác xã Bình Minh",
+          "predicate": "CO_SANG_KIEN",
+          "object": "sáng kiến được áp dụng hiệu quả"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Hợp tác xã Bình Minh có công trình khoa học được nghiệm thu trong năm 2025.",
+    "response": {
+      "entities": [
+        {
+          "text": "Hợp tác xã Bình Minh",
+          "label": "TO_CHUC"
+        },
+        {
+          "text": "công trình khoa học được nghiệm thu",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "năm 2025",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Hợp tác xã Bình Minh",
+          "predicate": "CO_CONG_TRINH_KHOA_HOC",
+          "object": "công trình khoa học được nghiệm thu"
+        },
+        {
+          "subject": "Hợp tác xã Bình Minh",
+          "predicate": "DUOC_XET_TRONG_THOI_GIAN",
+          "object": "năm 2025"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Chủ tịch Ủy ban nhân dân cấp tỉnh bình xét danh hiệu Đơn vị tiên tiến cho Tập thể giáo viên nhà trường trong năm 2025.",
+    "response": {
+      "entities": [
+        {
+          "text": "Chủ tịch Ủy ban nhân dân cấp tỉnh",
+          "label": "CAP_KHEN_THUONG"
+        },
+        {
+          "text": "Đơn vị tiên tiến",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Tập thể giáo viên nhà trường",
+          "label": "TAP_THE"
+        },
+        {
+          "text": "năm 2025",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Chủ tịch Ủy ban nhân dân cấp tỉnh",
+          "predicate": "DUOC_BINH_XET_THONG_QUA",
+          "object": "Đơn vị tiên tiến"
+        },
+        {
+          "subject": "Đơn vị tiên tiến",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Tập thể giáo viên nhà trường"
+        },
+        {
+          "subject": "Tập thể giáo viên nhà trường",
+          "predicate": "DUOC_XET_TRONG_THOI_GIAN",
+          "object": "năm 2025"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Hoàng Quốc Việt đạt danh hiệu Đơn vị quyết thắng.",
+    "response": {
+      "entities": [
+        {
+          "text": "Hoàng Quốc Việt",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "Đơn vị quyết thắng",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Hoàng Quốc Việt",
+          "predicate": "DAT_DANH_HIEU",
+          "object": "Đơn vị quyết thắng"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu Đơn vị quyết thắng áp dụng cho Tập thể đội công tác.",
+    "response": {
+      "entities": [
+        {
+          "text": "Đơn vị quyết thắng",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Tập thể đội công tác",
+          "label": "TAP_THE"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Đơn vị quyết thắng",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Tập thể đội công tác"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Hoàng Quốc Việt có thành tích chấp hành tốt chủ trương và pháp luật.",
+    "response": {
+      "entities": [
+        {
+          "text": "Hoàng Quốc Việt",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "chấp hành tốt chủ trương và pháp luật",
+          "label": "THANH_TICH"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Hoàng Quốc Việt",
+          "predicate": "CO_THANH_TICH",
+          "object": "chấp hành tốt chủ trương và pháp luật"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Thành tích chấp hành tốt chủ trương và pháp luật là căn cứ xét danh hiệu Đơn vị quyết thắng.",
+    "response": {
+      "entities": [
+        {
+          "text": "chấp hành tốt chủ trương và pháp luật",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "Đơn vị quyết thắng",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "chấp hành tốt chủ trương và pháp luật",
+          "predicate": "CAN_CU_XET_TANG",
+          "object": "Đơn vị quyết thắng"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu Đơn vị quyết thắng được quy định tại Thông tư số 15/2025/TT-BNV.",
+    "response": {
+      "entities": [
+        {
+          "text": "Đơn vị quyết thắng",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Thông tư số 15/2025/TT-BNV",
+          "label": "VAN_BAN_PHAP_LUAT"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Đơn vị quyết thắng",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "Thông tư số 15/2025/TT-BNV"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Điều kiện xét danh hiệu Đơn vị quyết thắng được quy định tại điểm a khoản 1 Điều 9 của Thông tư số 15/2025/TT-BNV.",
+    "response": {
+      "entities": [
+        {
+          "text": "Điều kiện xét danh hiệu Đơn vị quyết thắng",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "điểm a khoản 1 Điều 9",
+          "label": "DIEU_KHOAN_PHAP_LUAT"
+        },
+        {
+          "text": "Thông tư số 15/2025/TT-BNV",
+          "label": "VAN_BAN_PHAP_LUAT"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Điều kiện xét danh hiệu Đơn vị quyết thắng",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "điểm a khoản 1 Điều 9"
+        },
+        {
+          "subject": "điểm a khoản 1 Điều 9",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "Thông tư số 15/2025/TT-BNV"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Hoàng Quốc Việt đạt tiêu chuẩn xét danh hiệu Đơn vị quyết thắng.",
+    "response": {
+      "entities": [
+        {
+          "text": "Hoàng Quốc Việt",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "tiêu chuẩn xét danh hiệu Đơn vị quyết thắng",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "Đơn vị quyết thắng",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Hoàng Quốc Việt",
+          "predicate": "DAT_TIEU_CHUAN",
+          "object": "tiêu chuẩn xét danh hiệu Đơn vị quyết thắng"
+        },
+        {
+          "subject": "tiêu chuẩn xét danh hiệu Đơn vị quyết thắng",
+          "predicate": "CAN_CU_XET_TANG",
+          "object": "Đơn vị quyết thắng"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Chính phủ thực hiện việc xét danh hiệu Đơn vị quyết thắng trong thời hạn 10 ngày theo Thông tư số 15/2025/TT-BNV.",
+    "response": {
+      "entities": [
+        {
+          "text": "Chính phủ",
+          "label": "CO_QUAN_NHA_NUOC"
+        },
+        {
+          "text": "Đơn vị quyết thắng",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "trong thời hạn 10 ngày",
+          "label": "THOI_HAN"
+        },
+        {
+          "text": "Thông tư số 15/2025/TT-BNV",
+          "label": "VAN_BAN_PHAP_LUAT"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Đơn vị quyết thắng",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "Thông tư số 15/2025/TT-BNV"
+        },
+        {
+          "subject": "Chính phủ",
+          "predicate": "DUOC_BINH_XET_THONG_QUA",
+          "object": "Đơn vị quyết thắng"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Trung tâm Y tế An Phú có công trình khoa học được nghiệm thu trong giai đoạn 2023–2024.",
+    "response": {
+      "entities": [
+        {
+          "text": "Trung tâm Y tế An Phú",
+          "label": "TO_CHUC"
+        },
+        {
+          "text": "công trình khoa học được nghiệm thu",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "giai đoạn 2023–2024",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Trung tâm Y tế An Phú",
+          "predicate": "CO_CONG_TRINH_KHOA_HOC",
+          "object": "công trình khoa học được nghiệm thu"
+        },
+        {
+          "subject": "Trung tâm Y tế An Phú",
+          "predicate": "DUOC_XET_TRONG_THOI_GIAN",
+          "object": "giai đoạn 2023–2024"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Chính phủ bình xét danh hiệu Đơn vị quyết thắng cho Tập thể đội công tác trong giai đoạn 2023–2024.",
+    "response": {
+      "entities": [
+        {
+          "text": "Chính phủ",
+          "label": "CAP_KHEN_THUONG"
+        },
+        {
+          "text": "Đơn vị quyết thắng",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Tập thể đội công tác",
+          "label": "TAP_THE"
+        },
+        {
+          "text": "giai đoạn 2023–2024",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Chính phủ",
+          "predicate": "DUOC_BINH_XET_THONG_QUA",
+          "object": "Đơn vị quyết thắng"
+        },
+        {
+          "subject": "Đơn vị quyết thắng",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Tập thể đội công tác"
+        },
+        {
+          "subject": "Tập thể đội công tác",
+          "predicate": "DUOC_XET_TRONG_THOI_GIAN",
+          "object": "giai đoạn 2023–2024"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Nguyễn Văn An đạt danh hiệu Gia đình văn hóa.",
+    "response": {
+      "entities": [
+        {
+          "text": "Nguyễn Văn An",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "Gia đình văn hóa",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Nguyễn Văn An",
+          "predicate": "DAT_DANH_HIEU",
+          "object": "Gia đình văn hóa"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu Gia đình văn hóa áp dụng cho Tập thể phòng Kế hoạch.",
+    "response": {
+      "entities": [
+        {
+          "text": "Gia đình văn hóa",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Tập thể phòng Kế hoạch",
+          "label": "TAP_THE"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Gia đình văn hóa",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Tập thể phòng Kế hoạch"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Nguyễn Văn An có thành tích hoàn thành xuất sắc nhiệm vụ được giao.",
+    "response": {
+      "entities": [
+        {
+          "text": "Nguyễn Văn An",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "hoàn thành xuất sắc nhiệm vụ được giao",
+          "label": "THANH_TICH"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Nguyễn Văn An",
+          "predicate": "CO_THANH_TICH",
+          "object": "hoàn thành xuất sắc nhiệm vụ được giao"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Thành tích hoàn thành xuất sắc nhiệm vụ được giao là căn cứ xét danh hiệu Gia đình văn hóa.",
+    "response": {
+      "entities": [
+        {
+          "text": "hoàn thành xuất sắc nhiệm vụ được giao",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "Gia đình văn hóa",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "hoàn thành xuất sắc nhiệm vụ được giao",
+          "predicate": "CAN_CU_XET_TANG",
+          "object": "Gia đình văn hóa"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu Gia đình văn hóa được quy định tại Luật Thi đua, khen thưởng.",
+    "response": {
+      "entities": [
+        {
+          "text": "Gia đình văn hóa",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Luật Thi đua, khen thưởng",
+          "label": "VAN_BAN_PHAP_LUAT"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Gia đình văn hóa",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "Luật Thi đua, khen thưởng"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Điều kiện xét danh hiệu Gia đình văn hóa được quy định tại Điều 9 của Luật Thi đua, khen thưởng.",
+    "response": {
+      "entities": [
+        {
+          "text": "Điều kiện xét danh hiệu Gia đình văn hóa",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "Điều 9",
+          "label": "DIEU_KHOAN_PHAP_LUAT"
+        },
+        {
+          "text": "Luật Thi đua, khen thưởng",
+          "label": "VAN_BAN_PHAP_LUAT"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Điều kiện xét danh hiệu Gia đình văn hóa",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "Điều 9"
+        },
+        {
+          "subject": "Điều 9",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "Luật Thi đua, khen thưởng"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Nguyễn Văn An đạt tiêu chuẩn xét danh hiệu Gia đình văn hóa.",
+    "response": {
+      "entities": [
+        {
+          "text": "Nguyễn Văn An",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "tiêu chuẩn xét danh hiệu Gia đình văn hóa",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "Gia đình văn hóa",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Nguyễn Văn An",
+          "predicate": "DAT_TIEU_CHUAN",
+          "object": "tiêu chuẩn xét danh hiệu Gia đình văn hóa"
+        },
+        {
+          "subject": "tiêu chuẩn xét danh hiệu Gia đình văn hóa",
+          "predicate": "CAN_CU_XET_TANG",
+          "object": "Gia đình văn hóa"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Công ty Minh Phát có sáng kiến được áp dụng hiệu quả trong năm 2024.",
+    "response": {
+      "entities": [
+        {
+          "text": "Công ty Minh Phát",
+          "label": "TO_CHUC"
+        },
+        {
+          "text": "sáng kiến được áp dụng hiệu quả",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "năm 2024",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Công ty Minh Phát",
+          "predicate": "CO_SANG_KIEN",
+          "object": "sáng kiến được áp dụng hiệu quả"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Công ty Minh Phát có công trình khoa học được nghiệm thu trong năm 2022.",
+    "response": {
+      "entities": [
+        {
+          "text": "Công ty Minh Phát",
+          "label": "TO_CHUC"
+        },
+        {
+          "text": "công trình khoa học được nghiệm thu",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "năm 2022",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Công ty Minh Phát",
+          "predicate": "CO_CONG_TRINH_KHOA_HOC",
+          "object": "công trình khoa học được nghiệm thu"
+        },
+        {
+          "subject": "Công ty Minh Phát",
+          "predicate": "DUOC_XET_TRONG_THOI_GIAN",
+          "object": "năm 2022"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Thủ tướng Chính phủ bình xét danh hiệu Gia đình văn hóa cho Tập thể phòng Kế hoạch trong năm 2022.",
+    "response": {
+      "entities": [
+        {
+          "text": "Thủ tướng Chính phủ",
+          "label": "CAP_KHEN_THUONG"
+        },
+        {
+          "text": "Gia đình văn hóa",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Tập thể phòng Kế hoạch",
+          "label": "TAP_THE"
+        },
+        {
+          "text": "năm 2022",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Thủ tướng Chính phủ",
+          "predicate": "DUOC_BINH_XET_THONG_QUA",
+          "object": "Gia đình văn hóa"
+        },
+        {
+          "subject": "Gia đình văn hóa",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Tập thể phòng Kế hoạch"
+        },
+        {
+          "subject": "Tập thể phòng Kế hoạch",
+          "predicate": "DUOC_XET_TRONG_THOI_GIAN",
+          "object": "năm 2022"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Trần Thị Bình đạt danh hiệu Thôn văn hóa.",
+    "response": {
+      "entities": [
+        {
+          "text": "Trần Thị Bình",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "Thôn văn hóa",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Trần Thị Bình",
+          "predicate": "DAT_DANH_HIEU",
+          "object": "Thôn văn hóa"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu Thôn văn hóa áp dụng cho Tập thể khoa Nội.",
+    "response": {
+      "entities": [
+        {
+          "text": "Thôn văn hóa",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Tập thể khoa Nội",
+          "label": "TAP_THE"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Thôn văn hóa",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Tập thể khoa Nội"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Trần Thị Bình có thành tích có thành tích xuất sắc trong công tác.",
+    "response": {
+      "entities": [
+        {
+          "text": "Trần Thị Bình",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "có thành tích xuất sắc trong công tác",
+          "label": "THANH_TICH"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Trần Thị Bình",
+          "predicate": "CO_THANH_TICH",
+          "object": "có thành tích xuất sắc trong công tác"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Thành tích có thành tích xuất sắc trong công tác là căn cứ xét danh hiệu Thôn văn hóa.",
+    "response": {
+      "entities": [
+        {
+          "text": "có thành tích xuất sắc trong công tác",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "Thôn văn hóa",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "có thành tích xuất sắc trong công tác",
+          "predicate": "CAN_CU_XET_TANG",
+          "object": "Thôn văn hóa"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu Thôn văn hóa được quy định tại Nghị định số 98/2023/NĐ-CP.",
+    "response": {
+      "entities": [
+        {
+          "text": "Thôn văn hóa",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Nghị định số 98/2023/NĐ-CP",
+          "label": "VAN_BAN_PHAP_LUAT"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Thôn văn hóa",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "Nghị định số 98/2023/NĐ-CP"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Điều kiện xét danh hiệu Thôn văn hóa được quy định tại Điều 10 của Nghị định số 98/2023/NĐ-CP.",
+    "response": {
+      "entities": [
+        {
+          "text": "Điều kiện xét danh hiệu Thôn văn hóa",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "Điều 10",
+          "label": "DIEU_KHOAN_PHAP_LUAT"
+        },
+        {
+          "text": "Nghị định số 98/2023/NĐ-CP",
+          "label": "VAN_BAN_PHAP_LUAT"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Điều kiện xét danh hiệu Thôn văn hóa",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "Điều 10"
+        },
+        {
+          "subject": "Điều 10",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "Nghị định số 98/2023/NĐ-CP"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Trần Thị Bình đạt tiêu chuẩn xét danh hiệu Thôn văn hóa.",
+    "response": {
+      "entities": [
+        {
+          "text": "Trần Thị Bình",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "tiêu chuẩn xét danh hiệu Thôn văn hóa",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "Thôn văn hóa",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Trần Thị Bình",
+          "predicate": "DAT_TIEU_CHUAN",
+          "object": "tiêu chuẩn xét danh hiệu Thôn văn hóa"
+        },
+        {
+          "subject": "tiêu chuẩn xét danh hiệu Thôn văn hóa",
+          "predicate": "CAN_CU_XET_TANG",
+          "object": "Thôn văn hóa"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Trường Trung học phổ thông Hòa Bình có sáng kiến được áp dụng hiệu quả trong năm 2025.",
+    "response": {
+      "entities": [
+        {
+          "text": "Trường Trung học phổ thông Hòa Bình",
+          "label": "TO_CHUC"
+        },
+        {
+          "text": "sáng kiến được áp dụng hiệu quả",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "năm 2025",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Trường Trung học phổ thông Hòa Bình",
+          "predicate": "CO_SANG_KIEN",
+          "object": "sáng kiến được áp dụng hiệu quả"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Trường Trung học phổ thông Hòa Bình có công trình khoa học được nghiệm thu trong năm 2023.",
+    "response": {
+      "entities": [
+        {
+          "text": "Trường Trung học phổ thông Hòa Bình",
+          "label": "TO_CHUC"
+        },
+        {
+          "text": "công trình khoa học được nghiệm thu",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "năm 2023",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Trường Trung học phổ thông Hòa Bình",
+          "predicate": "CO_CONG_TRINH_KHOA_HOC",
+          "object": "công trình khoa học được nghiệm thu"
+        },
+        {
+          "subject": "Trường Trung học phổ thông Hòa Bình",
+          "predicate": "DUOC_XET_TRONG_THOI_GIAN",
+          "object": "năm 2023"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Bộ trưởng Bộ Nội vụ bình xét danh hiệu Thôn văn hóa cho Tập thể khoa Nội trong năm 2023.",
+    "response": {
+      "entities": [
+        {
+          "text": "Bộ trưởng Bộ Nội vụ",
+          "label": "CAP_KHEN_THUONG"
+        },
+        {
+          "text": "Thôn văn hóa",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Tập thể khoa Nội",
+          "label": "TAP_THE"
+        },
+        {
+          "text": "năm 2023",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Bộ trưởng Bộ Nội vụ",
+          "predicate": "DUOC_BINH_XET_THONG_QUA",
+          "object": "Thôn văn hóa"
+        },
+        {
+          "subject": "Thôn văn hóa",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Tập thể khoa Nội"
+        },
+        {
+          "subject": "Tập thể khoa Nội",
+          "predicate": "DUOC_XET_TRONG_THOI_GIAN",
+          "object": "năm 2023"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Lê Minh Khôi đạt danh hiệu Xã, phường, thị trấn tiêu biểu.",
+    "response": {
+      "entities": [
+        {
+          "text": "Lê Minh Khôi",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "Xã, phường, thị trấn tiêu biểu",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Lê Minh Khôi",
+          "predicate": "DAT_DANH_HIEU",
+          "object": "Xã, phường, thị trấn tiêu biểu"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu Xã, phường, thị trấn tiêu biểu áp dụng cho Tập thể tổ sản xuất số 1.",
+    "response": {
+      "entities": [
+        {
+          "text": "Xã, phường, thị trấn tiêu biểu",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Tập thể tổ sản xuất số 1",
+          "label": "TAP_THE"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Xã, phường, thị trấn tiêu biểu",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Tập thể tổ sản xuất số 1"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Lê Minh Khôi có thành tích đạt năng suất lao động cao.",
+    "response": {
+      "entities": [
+        {
+          "text": "Lê Minh Khôi",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "đạt năng suất lao động cao",
+          "label": "THANH_TICH"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Lê Minh Khôi",
+          "predicate": "CO_THANH_TICH",
+          "object": "đạt năng suất lao động cao"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Thành tích đạt năng suất lao động cao là căn cứ xét danh hiệu Xã, phường, thị trấn tiêu biểu.",
+    "response": {
+      "entities": [
+        {
+          "text": "đạt năng suất lao động cao",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "Xã, phường, thị trấn tiêu biểu",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "đạt năng suất lao động cao",
+          "predicate": "CAN_CU_XET_TANG",
+          "object": "Xã, phường, thị trấn tiêu biểu"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu Xã, phường, thị trấn tiêu biểu được quy định tại Nghị định số 152/2025/NĐ-CP.",
+    "response": {
+      "entities": [
+        {
+          "text": "Xã, phường, thị trấn tiêu biểu",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Nghị định số 152/2025/NĐ-CP",
+          "label": "VAN_BAN_PHAP_LUAT"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Xã, phường, thị trấn tiêu biểu",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "Nghị định số 152/2025/NĐ-CP"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Điều kiện xét danh hiệu Xã, phường, thị trấn tiêu biểu được quy định tại khoản 1 Điều 9 của Nghị định số 152/2025/NĐ-CP.",
+    "response": {
+      "entities": [
+        {
+          "text": "Điều kiện xét danh hiệu Xã, phường, thị trấn tiêu biểu",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "khoản 1 Điều 9",
+          "label": "DIEU_KHOAN_PHAP_LUAT"
+        },
+        {
+          "text": "Nghị định số 152/2025/NĐ-CP",
+          "label": "VAN_BAN_PHAP_LUAT"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Điều kiện xét danh hiệu Xã, phường, thị trấn tiêu biểu",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "khoản 1 Điều 9"
+        },
+        {
+          "subject": "khoản 1 Điều 9",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "Nghị định số 152/2025/NĐ-CP"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Lê Minh Khôi đạt tiêu chuẩn xét danh hiệu Xã, phường, thị trấn tiêu biểu.",
+    "response": {
+      "entities": [
+        {
+          "text": "Lê Minh Khôi",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "tiêu chuẩn xét danh hiệu Xã, phường, thị trấn tiêu biểu",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "Xã, phường, thị trấn tiêu biểu",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Lê Minh Khôi",
+          "predicate": "DAT_TIEU_CHUAN",
+          "object": "tiêu chuẩn xét danh hiệu Xã, phường, thị trấn tiêu biểu"
+        },
+        {
+          "subject": "tiêu chuẩn xét danh hiệu Xã, phường, thị trấn tiêu biểu",
+          "predicate": "CAN_CU_XET_TANG",
+          "object": "Xã, phường, thị trấn tiêu biểu"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Bệnh viện Đa khoa An Bình có sáng kiến được áp dụng hiệu quả trong năm 2024.",
+    "response": {
+      "entities": [
+        {
+          "text": "Bệnh viện Đa khoa An Bình",
+          "label": "TO_CHUC"
+        },
+        {
+          "text": "sáng kiến được áp dụng hiệu quả",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "năm 2024",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Bệnh viện Đa khoa An Bình",
+          "predicate": "CO_SANG_KIEN",
+          "object": "sáng kiến được áp dụng hiệu quả"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Bệnh viện Đa khoa An Bình có công trình khoa học được nghiệm thu trong năm 2024.",
+    "response": {
+      "entities": [
+        {
+          "text": "Bệnh viện Đa khoa An Bình",
+          "label": "TO_CHUC"
+        },
+        {
+          "text": "công trình khoa học được nghiệm thu",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "năm 2024",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Bệnh viện Đa khoa An Bình",
+          "predicate": "CO_CONG_TRINH_KHOA_HOC",
+          "object": "công trình khoa học được nghiệm thu"
+        },
+        {
+          "subject": "Bệnh viện Đa khoa An Bình",
+          "predicate": "DUOC_XET_TRONG_THOI_GIAN",
+          "object": "năm 2024"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Bộ trưởng Bộ Quốc phòng bình xét danh hiệu Xã, phường, thị trấn tiêu biểu cho Tập thể tổ sản xuất số 1 trong năm 2024.",
+    "response": {
+      "entities": [
+        {
+          "text": "Bộ trưởng Bộ Quốc phòng",
+          "label": "CAP_KHEN_THUONG"
+        },
+        {
+          "text": "Xã, phường, thị trấn tiêu biểu",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Tập thể tổ sản xuất số 1",
+          "label": "TAP_THE"
+        },
+        {
+          "text": "năm 2024",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Bộ trưởng Bộ Quốc phòng",
+          "predicate": "DUOC_BINH_XET_THONG_QUA",
+          "object": "Xã, phường, thị trấn tiêu biểu"
+        },
+        {
+          "subject": "Xã, phường, thị trấn tiêu biểu",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Tập thể tổ sản xuất số 1"
+        },
+        {
+          "subject": "Tập thể tổ sản xuất số 1",
+          "predicate": "DUOC_XET_TRONG_THOI_GIAN",
+          "object": "năm 2024"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Phạm Thu Hà đạt danh hiệu Cờ thi đua của Ủy ban nhân dân cấp tỉnh.",
+    "response": {
+      "entities": [
+        {
+          "text": "Phạm Thu Hà",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "Cờ thi đua của Ủy ban nhân dân cấp tỉnh",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Phạm Thu Hà",
+          "predicate": "DAT_DANH_HIEU",
+          "object": "Cờ thi đua của Ủy ban nhân dân cấp tỉnh"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu Cờ thi đua của Ủy ban nhân dân cấp tỉnh áp dụng cho Tập thể giáo viên nhà trường.",
+    "response": {
+      "entities": [
+        {
+          "text": "Cờ thi đua của Ủy ban nhân dân cấp tỉnh",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Tập thể giáo viên nhà trường",
+          "label": "TAP_THE"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Cờ thi đua của Ủy ban nhân dân cấp tỉnh",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Tập thể giáo viên nhà trường"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Phạm Thu Hà có thành tích có sáng kiến được áp dụng hiệu quả.",
+    "response": {
+      "entities": [
+        {
+          "text": "Phạm Thu Hà",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "có sáng kiến được áp dụng hiệu quả",
+          "label": "THANH_TICH"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Phạm Thu Hà",
+          "predicate": "CO_THANH_TICH",
+          "object": "có sáng kiến được áp dụng hiệu quả"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Thành tích có sáng kiến được áp dụng hiệu quả là căn cứ xét danh hiệu Cờ thi đua của Ủy ban nhân dân cấp tỉnh.",
+    "response": {
+      "entities": [
+        {
+          "text": "có sáng kiến được áp dụng hiệu quả",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "Cờ thi đua của Ủy ban nhân dân cấp tỉnh",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "có sáng kiến được áp dụng hiệu quả",
+          "predicate": "CAN_CU_XET_TANG",
+          "object": "Cờ thi đua của Ủy ban nhân dân cấp tỉnh"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu Cờ thi đua của Ủy ban nhân dân cấp tỉnh được quy định tại Thông tư số 01/2024/TT-BNV.",
+    "response": {
+      "entities": [
+        {
+          "text": "Cờ thi đua của Ủy ban nhân dân cấp tỉnh",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Thông tư số 01/2024/TT-BNV",
+          "label": "VAN_BAN_PHAP_LUAT"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Cờ thi đua của Ủy ban nhân dân cấp tỉnh",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "Thông tư số 01/2024/TT-BNV"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Điều kiện xét danh hiệu Cờ thi đua của Ủy ban nhân dân cấp tỉnh được quy định tại khoản 2 Điều 10 của Thông tư số 01/2024/TT-BNV.",
+    "response": {
+      "entities": [
+        {
+          "text": "Điều kiện xét danh hiệu Cờ thi đua của Ủy ban nhân dân cấp tỉnh",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "khoản 2 Điều 10",
+          "label": "DIEU_KHOAN_PHAP_LUAT"
+        },
+        {
+          "text": "Thông tư số 01/2024/TT-BNV",
+          "label": "VAN_BAN_PHAP_LUAT"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Điều kiện xét danh hiệu Cờ thi đua của Ủy ban nhân dân cấp tỉnh",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "khoản 2 Điều 10"
+        },
+        {
+          "subject": "khoản 2 Điều 10",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "Thông tư số 01/2024/TT-BNV"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Phạm Thu Hà đạt tiêu chuẩn xét danh hiệu Cờ thi đua của Ủy ban nhân dân cấp tỉnh.",
+    "response": {
+      "entities": [
+        {
+          "text": "Phạm Thu Hà",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "tiêu chuẩn xét danh hiệu Cờ thi đua của Ủy ban nhân dân cấp tỉnh",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "Cờ thi đua của Ủy ban nhân dân cấp tỉnh",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Phạm Thu Hà",
+          "predicate": "DAT_TIEU_CHUAN",
+          "object": "tiêu chuẩn xét danh hiệu Cờ thi đua của Ủy ban nhân dân cấp tỉnh"
+        },
+        {
+          "subject": "tiêu chuẩn xét danh hiệu Cờ thi đua của Ủy ban nhân dân cấp tỉnh",
+          "predicate": "CAN_CU_XET_TANG",
+          "object": "Cờ thi đua của Ủy ban nhân dân cấp tỉnh"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Chủ tịch Ủy ban nhân dân cấp tỉnh thực hiện việc xét danh hiệu Cờ thi đua của Ủy ban nhân dân cấp tỉnh trong thời hạn 30 ngày theo Thông tư số 01/2024/TT-BNV.",
+    "response": {
+      "entities": [
+        {
+          "text": "Chủ tịch Ủy ban nhân dân cấp tỉnh",
+          "label": "CO_QUAN_NHA_NUOC"
+        },
+        {
+          "text": "Cờ thi đua của Ủy ban nhân dân cấp tỉnh",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "trong thời hạn 30 ngày",
+          "label": "THOI_HAN"
+        },
+        {
+          "text": "Thông tư số 01/2024/TT-BNV",
+          "label": "VAN_BAN_PHAP_LUAT"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Cờ thi đua của Ủy ban nhân dân cấp tỉnh",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "Thông tư số 01/2024/TT-BNV"
+        },
+        {
+          "subject": "Chủ tịch Ủy ban nhân dân cấp tỉnh",
+          "predicate": "DUOC_BINH_XET_THONG_QUA",
+          "object": "Cờ thi đua của Ủy ban nhân dân cấp tỉnh"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Hợp tác xã Bình Minh có công trình khoa học được nghiệm thu trong năm 2025.",
+    "response": {
+      "entities": [
+        {
+          "text": "Hợp tác xã Bình Minh",
+          "label": "TO_CHUC"
+        },
+        {
+          "text": "công trình khoa học được nghiệm thu",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "năm 2025",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Hợp tác xã Bình Minh",
+          "predicate": "CO_CONG_TRINH_KHOA_HOC",
+          "object": "công trình khoa học được nghiệm thu"
+        },
+        {
+          "subject": "Hợp tác xã Bình Minh",
+          "predicate": "DUOC_XET_TRONG_THOI_GIAN",
+          "object": "năm 2025"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Chủ tịch Ủy ban nhân dân cấp tỉnh bình xét danh hiệu Cờ thi đua của Ủy ban nhân dân cấp tỉnh cho Tập thể giáo viên nhà trường trong năm 2025.",
+    "response": {
+      "entities": [
+        {
+          "text": "Chủ tịch Ủy ban nhân dân cấp tỉnh",
+          "label": "CAP_KHEN_THUONG"
+        },
+        {
+          "text": "Cờ thi đua của Ủy ban nhân dân cấp tỉnh",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Tập thể giáo viên nhà trường",
+          "label": "TAP_THE"
+        },
+        {
+          "text": "năm 2025",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Chủ tịch Ủy ban nhân dân cấp tỉnh",
+          "predicate": "DUOC_BINH_XET_THONG_QUA",
+          "object": "Cờ thi đua của Ủy ban nhân dân cấp tỉnh"
+        },
+        {
+          "subject": "Cờ thi đua của Ủy ban nhân dân cấp tỉnh",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Tập thể giáo viên nhà trường"
+        },
+        {
+          "subject": "Tập thể giáo viên nhà trường",
+          "predicate": "DUOC_XET_TRONG_THOI_GIAN",
+          "object": "năm 2025"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Hoàng Quốc Việt đạt danh hiệu Bằng khen của Thủ tướng Chính phủ.",
+    "response": {
+      "entities": [
+        {
+          "text": "Hoàng Quốc Việt",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "Bằng khen của Thủ tướng Chính phủ",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Hoàng Quốc Việt",
+          "predicate": "DAT_DANH_HIEU",
+          "object": "Bằng khen của Thủ tướng Chính phủ"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu Bằng khen của Thủ tướng Chính phủ áp dụng cho Tập thể đội công tác.",
+    "response": {
+      "entities": [
+        {
+          "text": "Bằng khen của Thủ tướng Chính phủ",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Tập thể đội công tác",
+          "label": "TAP_THE"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Bằng khen của Thủ tướng Chính phủ",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Tập thể đội công tác"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Hoàng Quốc Việt có thành tích thực hiện tốt nhiệm vụ quốc phòng.",
+    "response": {
+      "entities": [
+        {
+          "text": "Hoàng Quốc Việt",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "thực hiện tốt nhiệm vụ quốc phòng",
+          "label": "THANH_TICH"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Hoàng Quốc Việt",
+          "predicate": "CO_THANH_TICH",
+          "object": "thực hiện tốt nhiệm vụ quốc phòng"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Thành tích thực hiện tốt nhiệm vụ quốc phòng là căn cứ xét danh hiệu Bằng khen của Thủ tướng Chính phủ.",
+    "response": {
+      "entities": [
+        {
+          "text": "thực hiện tốt nhiệm vụ quốc phòng",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "Bằng khen của Thủ tướng Chính phủ",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "thực hiện tốt nhiệm vụ quốc phòng",
+          "predicate": "CAN_CU_XET_TANG",
+          "object": "Bằng khen của Thủ tướng Chính phủ"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu Bằng khen của Thủ tướng Chính phủ được quy định tại Thông tư số 15/2025/TT-BNV.",
+    "response": {
+      "entities": [
+        {
+          "text": "Bằng khen của Thủ tướng Chính phủ",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Thông tư số 15/2025/TT-BNV",
+          "label": "VAN_BAN_PHAP_LUAT"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Bằng khen của Thủ tướng Chính phủ",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "Thông tư số 15/2025/TT-BNV"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Điều kiện xét danh hiệu Bằng khen của Thủ tướng Chính phủ được quy định tại điểm a khoản 1 Điều 9 của Thông tư số 15/2025/TT-BNV.",
+    "response": {
+      "entities": [
+        {
+          "text": "Điều kiện xét danh hiệu Bằng khen của Thủ tướng Chính phủ",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "điểm a khoản 1 Điều 9",
+          "label": "DIEU_KHOAN_PHAP_LUAT"
+        },
+        {
+          "text": "Thông tư số 15/2025/TT-BNV",
+          "label": "VAN_BAN_PHAP_LUAT"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Điều kiện xét danh hiệu Bằng khen của Thủ tướng Chính phủ",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "điểm a khoản 1 Điều 9"
+        },
+        {
+          "subject": "điểm a khoản 1 Điều 9",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "Thông tư số 15/2025/TT-BNV"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Hoàng Quốc Việt đạt tiêu chuẩn xét danh hiệu Bằng khen của Thủ tướng Chính phủ.",
+    "response": {
+      "entities": [
+        {
+          "text": "Hoàng Quốc Việt",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "tiêu chuẩn xét danh hiệu Bằng khen của Thủ tướng Chính phủ",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "Bằng khen của Thủ tướng Chính phủ",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Hoàng Quốc Việt",
+          "predicate": "DAT_TIEU_CHUAN",
+          "object": "tiêu chuẩn xét danh hiệu Bằng khen của Thủ tướng Chính phủ"
+        },
+        {
+          "subject": "tiêu chuẩn xét danh hiệu Bằng khen của Thủ tướng Chính phủ",
+          "predicate": "CAN_CU_XET_TANG",
+          "object": "Bằng khen của Thủ tướng Chính phủ"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Trung tâm Y tế An Phú có sáng kiến được áp dụng hiệu quả trong năm 2024.",
+    "response": {
+      "entities": [
+        {
+          "text": "Trung tâm Y tế An Phú",
+          "label": "TO_CHUC"
+        },
+        {
+          "text": "sáng kiến được áp dụng hiệu quả",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "năm 2024",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Trung tâm Y tế An Phú",
+          "predicate": "CO_SANG_KIEN",
+          "object": "sáng kiến được áp dụng hiệu quả"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Trung tâm Y tế An Phú có công trình khoa học được nghiệm thu trong giai đoạn 2023–2024.",
+    "response": {
+      "entities": [
+        {
+          "text": "Trung tâm Y tế An Phú",
+          "label": "TO_CHUC"
+        },
+        {
+          "text": "công trình khoa học được nghiệm thu",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "giai đoạn 2023–2024",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Trung tâm Y tế An Phú",
+          "predicate": "CO_CONG_TRINH_KHOA_HOC",
+          "object": "công trình khoa học được nghiệm thu"
+        },
+        {
+          "subject": "Trung tâm Y tế An Phú",
+          "predicate": "DUOC_XET_TRONG_THOI_GIAN",
+          "object": "giai đoạn 2023–2024"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Chính phủ bình xét danh hiệu Bằng khen của Thủ tướng Chính phủ cho Tập thể đội công tác trong giai đoạn 2023–2024.",
+    "response": {
+      "entities": [
+        {
+          "text": "Chính phủ",
+          "label": "CAP_KHEN_THUONG"
+        },
+        {
+          "text": "Bằng khen của Thủ tướng Chính phủ",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Tập thể đội công tác",
+          "label": "TAP_THE"
+        },
+        {
+          "text": "giai đoạn 2023–2024",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Chính phủ",
+          "predicate": "DUOC_BINH_XET_THONG_QUA",
+          "object": "Bằng khen của Thủ tướng Chính phủ"
+        },
+        {
+          "subject": "Bằng khen của Thủ tướng Chính phủ",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Tập thể đội công tác"
+        },
+        {
+          "subject": "Tập thể đội công tác",
+          "predicate": "DUOC_XET_TRONG_THOI_GIAN",
+          "object": "giai đoạn 2023–2024"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Nguyễn Văn An đạt danh hiệu Bằng khen của Bộ trưởng.",
+    "response": {
+      "entities": [
+        {
+          "text": "Nguyễn Văn An",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "Bằng khen của Bộ trưởng",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Nguyễn Văn An",
+          "predicate": "DAT_DANH_HIEU",
+          "object": "Bằng khen của Bộ trưởng"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu Bằng khen của Bộ trưởng áp dụng cho Tập thể phòng Kế hoạch.",
+    "response": {
+      "entities": [
+        {
+          "text": "Bằng khen của Bộ trưởng",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Tập thể phòng Kế hoạch",
+          "label": "TAP_THE"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Bằng khen của Bộ trưởng",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Tập thể phòng Kế hoạch"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Nguyễn Văn An có thành tích có đóng góp nổi bật cho cộng đồng.",
+    "response": {
+      "entities": [
+        {
+          "text": "Nguyễn Văn An",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "có đóng góp nổi bật cho cộng đồng",
+          "label": "THANH_TICH"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Nguyễn Văn An",
+          "predicate": "CO_THANH_TICH",
+          "object": "có đóng góp nổi bật cho cộng đồng"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Thành tích có đóng góp nổi bật cho cộng đồng là căn cứ xét danh hiệu Bằng khen của Bộ trưởng.",
+    "response": {
+      "entities": [
+        {
+          "text": "có đóng góp nổi bật cho cộng đồng",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "Bằng khen của Bộ trưởng",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "có đóng góp nổi bật cho cộng đồng",
+          "predicate": "CAN_CU_XET_TANG",
+          "object": "Bằng khen của Bộ trưởng"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu Bằng khen của Bộ trưởng được quy định tại Luật Thi đua, khen thưởng.",
+    "response": {
+      "entities": [
+        {
+          "text": "Bằng khen của Bộ trưởng",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Luật Thi đua, khen thưởng",
+          "label": "VAN_BAN_PHAP_LUAT"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Bằng khen của Bộ trưởng",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "Luật Thi đua, khen thưởng"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Điều kiện xét danh hiệu Bằng khen của Bộ trưởng được quy định tại Điều 9 của Luật Thi đua, khen thưởng.",
+    "response": {
+      "entities": [
+        {
+          "text": "Điều kiện xét danh hiệu Bằng khen của Bộ trưởng",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "Điều 9",
+          "label": "DIEU_KHOAN_PHAP_LUAT"
+        },
+        {
+          "text": "Luật Thi đua, khen thưởng",
+          "label": "VAN_BAN_PHAP_LUAT"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Điều kiện xét danh hiệu Bằng khen của Bộ trưởng",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "Điều 9"
+        },
+        {
+          "subject": "Điều 9",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "Luật Thi đua, khen thưởng"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Nguyễn Văn An đạt tiêu chuẩn xét danh hiệu Bằng khen của Bộ trưởng.",
+    "response": {
+      "entities": [
+        {
+          "text": "Nguyễn Văn An",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "tiêu chuẩn xét danh hiệu Bằng khen của Bộ trưởng",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "Bằng khen của Bộ trưởng",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Nguyễn Văn An",
+          "predicate": "DAT_TIEU_CHUAN",
+          "object": "tiêu chuẩn xét danh hiệu Bằng khen của Bộ trưởng"
+        },
+        {
+          "subject": "tiêu chuẩn xét danh hiệu Bằng khen của Bộ trưởng",
+          "predicate": "CAN_CU_XET_TANG",
+          "object": "Bằng khen của Bộ trưởng"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Công ty Minh Phát có sáng kiến được áp dụng hiệu quả trong năm 2025.",
+    "response": {
+      "entities": [
+        {
+          "text": "Công ty Minh Phát",
+          "label": "TO_CHUC"
+        },
+        {
+          "text": "sáng kiến được áp dụng hiệu quả",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "năm 2025",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Công ty Minh Phát",
+          "predicate": "CO_SANG_KIEN",
+          "object": "sáng kiến được áp dụng hiệu quả"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Công ty Minh Phát có công trình khoa học được nghiệm thu trong năm 2022.",
+    "response": {
+      "entities": [
+        {
+          "text": "Công ty Minh Phát",
+          "label": "TO_CHUC"
+        },
+        {
+          "text": "công trình khoa học được nghiệm thu",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "năm 2022",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Công ty Minh Phát",
+          "predicate": "CO_CONG_TRINH_KHOA_HOC",
+          "object": "công trình khoa học được nghiệm thu"
+        },
+        {
+          "subject": "Công ty Minh Phát",
+          "predicate": "DUOC_XET_TRONG_THOI_GIAN",
+          "object": "năm 2022"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Thủ tướng Chính phủ bình xét danh hiệu Bằng khen của Bộ trưởng cho Tập thể phòng Kế hoạch trong năm 2022.",
+    "response": {
+      "entities": [
+        {
+          "text": "Thủ tướng Chính phủ",
+          "label": "CAP_KHEN_THUONG"
+        },
+        {
+          "text": "Bằng khen của Bộ trưởng",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Tập thể phòng Kế hoạch",
+          "label": "TAP_THE"
+        },
+        {
+          "text": "năm 2022",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Thủ tướng Chính phủ",
+          "predicate": "DUOC_BINH_XET_THONG_QUA",
+          "object": "Bằng khen của Bộ trưởng"
+        },
+        {
+          "subject": "Bằng khen của Bộ trưởng",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Tập thể phòng Kế hoạch"
+        },
+        {
+          "subject": "Tập thể phòng Kế hoạch",
+          "predicate": "DUOC_XET_TRONG_THOI_GIAN",
+          "object": "năm 2022"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Trần Thị Bình đạt danh hiệu Bằng khen của Chủ tịch Ủy ban nhân dân cấp tỉnh.",
+    "response": {
+      "entities": [
+        {
+          "text": "Trần Thị Bình",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "Bằng khen của Chủ tịch Ủy ban nhân dân cấp tỉnh",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Trần Thị Bình",
+          "predicate": "DAT_DANH_HIEU",
+          "object": "Bằng khen của Chủ tịch Ủy ban nhân dân cấp tỉnh"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu Bằng khen của Chủ tịch Ủy ban nhân dân cấp tỉnh áp dụng cho Tập thể khoa Nội.",
+    "response": {
+      "entities": [
+        {
+          "text": "Bằng khen của Chủ tịch Ủy ban nhân dân cấp tỉnh",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Tập thể khoa Nội",
+          "label": "TAP_THE"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Bằng khen của Chủ tịch Ủy ban nhân dân cấp tỉnh",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Tập thể khoa Nội"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Trần Thị Bình có thành tích hoàn thành tốt kế hoạch công tác.",
+    "response": {
+      "entities": [
+        {
+          "text": "Trần Thị Bình",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "hoàn thành tốt kế hoạch công tác",
+          "label": "THANH_TICH"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Trần Thị Bình",
+          "predicate": "CO_THANH_TICH",
+          "object": "hoàn thành tốt kế hoạch công tác"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Thành tích hoàn thành tốt kế hoạch công tác là căn cứ xét danh hiệu Bằng khen của Chủ tịch Ủy ban nhân dân cấp tỉnh.",
+    "response": {
+      "entities": [
+        {
+          "text": "hoàn thành tốt kế hoạch công tác",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "Bằng khen của Chủ tịch Ủy ban nhân dân cấp tỉnh",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "hoàn thành tốt kế hoạch công tác",
+          "predicate": "CAN_CU_XET_TANG",
+          "object": "Bằng khen của Chủ tịch Ủy ban nhân dân cấp tỉnh"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu Bằng khen của Chủ tịch Ủy ban nhân dân cấp tỉnh được quy định tại Nghị định số 98/2023/NĐ-CP.",
+    "response": {
+      "entities": [
+        {
+          "text": "Bằng khen của Chủ tịch Ủy ban nhân dân cấp tỉnh",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Nghị định số 98/2023/NĐ-CP",
+          "label": "VAN_BAN_PHAP_LUAT"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Bằng khen của Chủ tịch Ủy ban nhân dân cấp tỉnh",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "Nghị định số 98/2023/NĐ-CP"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Điều kiện xét danh hiệu Bằng khen của Chủ tịch Ủy ban nhân dân cấp tỉnh được quy định tại Điều 10 của Nghị định số 98/2023/NĐ-CP.",
+    "response": {
+      "entities": [
+        {
+          "text": "Điều kiện xét danh hiệu Bằng khen của Chủ tịch Ủy ban nhân dân cấp tỉnh",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "Điều 10",
+          "label": "DIEU_KHOAN_PHAP_LUAT"
+        },
+        {
+          "text": "Nghị định số 98/2023/NĐ-CP",
+          "label": "VAN_BAN_PHAP_LUAT"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Điều kiện xét danh hiệu Bằng khen của Chủ tịch Ủy ban nhân dân cấp tỉnh",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "Điều 10"
+        },
+        {
+          "subject": "Điều 10",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "Nghị định số 98/2023/NĐ-CP"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Trần Thị Bình đạt tiêu chuẩn xét danh hiệu Bằng khen của Chủ tịch Ủy ban nhân dân cấp tỉnh.",
+    "response": {
+      "entities": [
+        {
+          "text": "Trần Thị Bình",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "tiêu chuẩn xét danh hiệu Bằng khen của Chủ tịch Ủy ban nhân dân cấp tỉnh",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "Bằng khen của Chủ tịch Ủy ban nhân dân cấp tỉnh",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Trần Thị Bình",
+          "predicate": "DAT_TIEU_CHUAN",
+          "object": "tiêu chuẩn xét danh hiệu Bằng khen của Chủ tịch Ủy ban nhân dân cấp tỉnh"
+        },
+        {
+          "subject": "tiêu chuẩn xét danh hiệu Bằng khen của Chủ tịch Ủy ban nhân dân cấp tỉnh",
+          "predicate": "CAN_CU_XET_TANG",
+          "object": "Bằng khen của Chủ tịch Ủy ban nhân dân cấp tỉnh"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Trường Trung học phổ thông Hòa Bình có sáng kiến được áp dụng hiệu quả trong năm 2024.",
+    "response": {
+      "entities": [
+        {
+          "text": "Trường Trung học phổ thông Hòa Bình",
+          "label": "TO_CHUC"
+        },
+        {
+          "text": "sáng kiến được áp dụng hiệu quả",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "năm 2024",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Trường Trung học phổ thông Hòa Bình",
+          "predicate": "CO_SANG_KIEN",
+          "object": "sáng kiến được áp dụng hiệu quả"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Trường Trung học phổ thông Hòa Bình có công trình khoa học được nghiệm thu trong năm 2023.",
+    "response": {
+      "entities": [
+        {
+          "text": "Trường Trung học phổ thông Hòa Bình",
+          "label": "TO_CHUC"
+        },
+        {
+          "text": "công trình khoa học được nghiệm thu",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "năm 2023",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Trường Trung học phổ thông Hòa Bình",
+          "predicate": "CO_CONG_TRINH_KHOA_HOC",
+          "object": "công trình khoa học được nghiệm thu"
+        },
+        {
+          "subject": "Trường Trung học phổ thông Hòa Bình",
+          "predicate": "DUOC_XET_TRONG_THOI_GIAN",
+          "object": "năm 2023"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Bộ trưởng Bộ Nội vụ bình xét danh hiệu Bằng khen của Chủ tịch Ủy ban nhân dân cấp tỉnh cho Tập thể khoa Nội trong năm 2023.",
+    "response": {
+      "entities": [
+        {
+          "text": "Bộ trưởng Bộ Nội vụ",
+          "label": "CAP_KHEN_THUONG"
+        },
+        {
+          "text": "Bằng khen của Chủ tịch Ủy ban nhân dân cấp tỉnh",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Tập thể khoa Nội",
+          "label": "TAP_THE"
+        },
+        {
+          "text": "năm 2023",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Bộ trưởng Bộ Nội vụ",
+          "predicate": "DUOC_BINH_XET_THONG_QUA",
+          "object": "Bằng khen của Chủ tịch Ủy ban nhân dân cấp tỉnh"
+        },
+        {
+          "subject": "Bằng khen của Chủ tịch Ủy ban nhân dân cấp tỉnh",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Tập thể khoa Nội"
+        },
+        {
+          "subject": "Tập thể khoa Nội",
+          "predicate": "DUOC_XET_TRONG_THOI_GIAN",
+          "object": "năm 2023"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Lê Minh Khôi đạt danh hiệu Giấy khen.",
+    "response": {
+      "entities": [
+        {
+          "text": "Lê Minh Khôi",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "Giấy khen",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Lê Minh Khôi",
+          "predicate": "DAT_DANH_HIEU",
+          "object": "Giấy khen"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu Giấy khen áp dụng cho Tập thể tổ sản xuất số 1.",
+    "response": {
+      "entities": [
+        {
+          "text": "Giấy khen",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Tập thể tổ sản xuất số 1",
+          "label": "TAP_THE"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Giấy khen",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Tập thể tổ sản xuất số 1"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Lê Minh Khôi có thành tích có công trình khoa học được nghiệm thu.",
+    "response": {
+      "entities": [
+        {
+          "text": "Lê Minh Khôi",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "có công trình khoa học được nghiệm thu",
+          "label": "THANH_TICH"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Lê Minh Khôi",
+          "predicate": "CO_THANH_TICH",
+          "object": "có công trình khoa học được nghiệm thu"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Thành tích có công trình khoa học được nghiệm thu là căn cứ xét danh hiệu Giấy khen.",
+    "response": {
+      "entities": [
+        {
+          "text": "có công trình khoa học được nghiệm thu",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "Giấy khen",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "có công trình khoa học được nghiệm thu",
+          "predicate": "CAN_CU_XET_TANG",
+          "object": "Giấy khen"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu Giấy khen được quy định tại Nghị định số 152/2025/NĐ-CP.",
+    "response": {
+      "entities": [
+        {
+          "text": "Giấy khen",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Nghị định số 152/2025/NĐ-CP",
+          "label": "VAN_BAN_PHAP_LUAT"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Giấy khen",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "Nghị định số 152/2025/NĐ-CP"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Điều kiện xét danh hiệu Giấy khen được quy định tại khoản 1 Điều 9 của Nghị định số 152/2025/NĐ-CP.",
+    "response": {
+      "entities": [
+        {
+          "text": "Điều kiện xét danh hiệu Giấy khen",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "khoản 1 Điều 9",
+          "label": "DIEU_KHOAN_PHAP_LUAT"
+        },
+        {
+          "text": "Nghị định số 152/2025/NĐ-CP",
+          "label": "VAN_BAN_PHAP_LUAT"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Điều kiện xét danh hiệu Giấy khen",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "khoản 1 Điều 9"
+        },
+        {
+          "subject": "khoản 1 Điều 9",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "Nghị định số 152/2025/NĐ-CP"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Lê Minh Khôi đạt tiêu chuẩn xét danh hiệu Giấy khen.",
+    "response": {
+      "entities": [
+        {
+          "text": "Lê Minh Khôi",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "tiêu chuẩn xét danh hiệu Giấy khen",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "Giấy khen",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Lê Minh Khôi",
+          "predicate": "DAT_TIEU_CHUAN",
+          "object": "tiêu chuẩn xét danh hiệu Giấy khen"
+        },
+        {
+          "subject": "tiêu chuẩn xét danh hiệu Giấy khen",
+          "predicate": "CAN_CU_XET_TANG",
+          "object": "Giấy khen"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Bộ trưởng Bộ Quốc phòng thực hiện việc xét danh hiệu Giấy khen trước ngày 31 tháng 12 hằng năm theo Nghị định số 152/2025/NĐ-CP.",
+    "response": {
+      "entities": [
+        {
+          "text": "Bộ trưởng Bộ Quốc phòng",
+          "label": "CO_QUAN_NHA_NUOC"
+        },
+        {
+          "text": "Giấy khen",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "trước ngày 31 tháng 12 hằng năm",
+          "label": "THOI_HAN"
+        },
+        {
+          "text": "Nghị định số 152/2025/NĐ-CP",
+          "label": "VAN_BAN_PHAP_LUAT"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Giấy khen",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "Nghị định số 152/2025/NĐ-CP"
+        },
+        {
+          "subject": "Bộ trưởng Bộ Quốc phòng",
+          "predicate": "DUOC_BINH_XET_THONG_QUA",
+          "object": "Giấy khen"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Bệnh viện Đa khoa An Bình có công trình khoa học được nghiệm thu trong năm 2024.",
+    "response": {
+      "entities": [
+        {
+          "text": "Bệnh viện Đa khoa An Bình",
+          "label": "TO_CHUC"
+        },
+        {
+          "text": "công trình khoa học được nghiệm thu",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "năm 2024",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Bệnh viện Đa khoa An Bình",
+          "predicate": "CO_CONG_TRINH_KHOA_HOC",
+          "object": "công trình khoa học được nghiệm thu"
+        },
+        {
+          "subject": "Bệnh viện Đa khoa An Bình",
+          "predicate": "DUOC_XET_TRONG_THOI_GIAN",
+          "object": "năm 2024"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Bộ trưởng Bộ Quốc phòng bình xét danh hiệu Giấy khen cho Tập thể tổ sản xuất số 1 trong năm 2024.",
+    "response": {
+      "entities": [
+        {
+          "text": "Bộ trưởng Bộ Quốc phòng",
+          "label": "CAP_KHEN_THUONG"
+        },
+        {
+          "text": "Giấy khen",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Tập thể tổ sản xuất số 1",
+          "label": "TAP_THE"
+        },
+        {
+          "text": "năm 2024",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Bộ trưởng Bộ Quốc phòng",
+          "predicate": "DUOC_BINH_XET_THONG_QUA",
+          "object": "Giấy khen"
+        },
+        {
+          "subject": "Giấy khen",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Tập thể tổ sản xuất số 1"
+        },
+        {
+          "subject": "Tập thể tổ sản xuất số 1",
+          "predicate": "DUOC_XET_TRONG_THOI_GIAN",
+          "object": "năm 2024"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Phạm Thu Hà đạt danh hiệu Huân chương Lao động hạng Nhất.",
+    "response": {
+      "entities": [
+        {
+          "text": "Phạm Thu Hà",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "Huân chương Lao động hạng Nhất",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Phạm Thu Hà",
+          "predicate": "DAT_DANH_HIEU",
+          "object": "Huân chương Lao động hạng Nhất"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu Huân chương Lao động hạng Nhất áp dụng cho Tập thể giáo viên nhà trường.",
+    "response": {
+      "entities": [
+        {
+          "text": "Huân chương Lao động hạng Nhất",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Tập thể giáo viên nhà trường",
+          "label": "TAP_THE"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Huân chương Lao động hạng Nhất",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Tập thể giáo viên nhà trường"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Phạm Thu Hà có thành tích đạt thành tích tiêu biểu trong phong trào thi đua.",
+    "response": {
+      "entities": [
+        {
+          "text": "Phạm Thu Hà",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "đạt thành tích tiêu biểu trong phong trào thi đua",
+          "label": "THANH_TICH"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Phạm Thu Hà",
+          "predicate": "CO_THANH_TICH",
+          "object": "đạt thành tích tiêu biểu trong phong trào thi đua"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Thành tích đạt thành tích tiêu biểu trong phong trào thi đua là căn cứ xét danh hiệu Huân chương Lao động hạng Nhất.",
+    "response": {
+      "entities": [
+        {
+          "text": "đạt thành tích tiêu biểu trong phong trào thi đua",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "Huân chương Lao động hạng Nhất",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "đạt thành tích tiêu biểu trong phong trào thi đua",
+          "predicate": "CAN_CU_XET_TANG",
+          "object": "Huân chương Lao động hạng Nhất"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu Huân chương Lao động hạng Nhất được quy định tại Thông tư số 01/2024/TT-BNV.",
+    "response": {
+      "entities": [
+        {
+          "text": "Huân chương Lao động hạng Nhất",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Thông tư số 01/2024/TT-BNV",
+          "label": "VAN_BAN_PHAP_LUAT"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Huân chương Lao động hạng Nhất",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "Thông tư số 01/2024/TT-BNV"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Điều kiện xét danh hiệu Huân chương Lao động hạng Nhất được quy định tại khoản 2 Điều 10 của Thông tư số 01/2024/TT-BNV.",
+    "response": {
+      "entities": [
+        {
+          "text": "Điều kiện xét danh hiệu Huân chương Lao động hạng Nhất",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "khoản 2 Điều 10",
+          "label": "DIEU_KHOAN_PHAP_LUAT"
+        },
+        {
+          "text": "Thông tư số 01/2024/TT-BNV",
+          "label": "VAN_BAN_PHAP_LUAT"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Điều kiện xét danh hiệu Huân chương Lao động hạng Nhất",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "khoản 2 Điều 10"
+        },
+        {
+          "subject": "khoản 2 Điều 10",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "Thông tư số 01/2024/TT-BNV"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Phạm Thu Hà đạt tiêu chuẩn xét danh hiệu Huân chương Lao động hạng Nhất.",
+    "response": {
+      "entities": [
+        {
+          "text": "Phạm Thu Hà",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "tiêu chuẩn xét danh hiệu Huân chương Lao động hạng Nhất",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "Huân chương Lao động hạng Nhất",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Phạm Thu Hà",
+          "predicate": "DAT_TIEU_CHUAN",
+          "object": "tiêu chuẩn xét danh hiệu Huân chương Lao động hạng Nhất"
+        },
+        {
+          "subject": "tiêu chuẩn xét danh hiệu Huân chương Lao động hạng Nhất",
+          "predicate": "CAN_CU_XET_TANG",
+          "object": "Huân chương Lao động hạng Nhất"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Hợp tác xã Bình Minh có sáng kiến được áp dụng hiệu quả trong năm 2024.",
+    "response": {
+      "entities": [
+        {
+          "text": "Hợp tác xã Bình Minh",
+          "label": "TO_CHUC"
+        },
+        {
+          "text": "sáng kiến được áp dụng hiệu quả",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "năm 2024",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Hợp tác xã Bình Minh",
+          "predicate": "CO_SANG_KIEN",
+          "object": "sáng kiến được áp dụng hiệu quả"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Hợp tác xã Bình Minh có công trình khoa học được nghiệm thu trong năm 2025.",
+    "response": {
+      "entities": [
+        {
+          "text": "Hợp tác xã Bình Minh",
+          "label": "TO_CHUC"
+        },
+        {
+          "text": "công trình khoa học được nghiệm thu",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "năm 2025",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Hợp tác xã Bình Minh",
+          "predicate": "CO_CONG_TRINH_KHOA_HOC",
+          "object": "công trình khoa học được nghiệm thu"
+        },
+        {
+          "subject": "Hợp tác xã Bình Minh",
+          "predicate": "DUOC_XET_TRONG_THOI_GIAN",
+          "object": "năm 2025"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Chủ tịch Ủy ban nhân dân cấp tỉnh bình xét danh hiệu Huân chương Lao động hạng Nhất cho Tập thể giáo viên nhà trường trong năm 2025.",
+    "response": {
+      "entities": [
+        {
+          "text": "Chủ tịch Ủy ban nhân dân cấp tỉnh",
+          "label": "CAP_KHEN_THUONG"
+        },
+        {
+          "text": "Huân chương Lao động hạng Nhất",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Tập thể giáo viên nhà trường",
+          "label": "TAP_THE"
+        },
+        {
+          "text": "năm 2025",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Chủ tịch Ủy ban nhân dân cấp tỉnh",
+          "predicate": "DUOC_BINH_XET_THONG_QUA",
+          "object": "Huân chương Lao động hạng Nhất"
+        },
+        {
+          "subject": "Huân chương Lao động hạng Nhất",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Tập thể giáo viên nhà trường"
+        },
+        {
+          "subject": "Tập thể giáo viên nhà trường",
+          "predicate": "DUOC_XET_TRONG_THOI_GIAN",
+          "object": "năm 2025"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Hoàng Quốc Việt đạt danh hiệu Huân chương Lao động hạng Nhì.",
+    "response": {
+      "entities": [
+        {
+          "text": "Hoàng Quốc Việt",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "Huân chương Lao động hạng Nhì",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Hoàng Quốc Việt",
+          "predicate": "DAT_DANH_HIEU",
+          "object": "Huân chương Lao động hạng Nhì"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu Huân chương Lao động hạng Nhì áp dụng cho Tập thể đội công tác.",
+    "response": {
+      "entities": [
+        {
+          "text": "Huân chương Lao động hạng Nhì",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Tập thể đội công tác",
+          "label": "TAP_THE"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Huân chương Lao động hạng Nhì",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Tập thể đội công tác"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Hoàng Quốc Việt có thành tích chấp hành tốt chủ trương và pháp luật.",
+    "response": {
+      "entities": [
+        {
+          "text": "Hoàng Quốc Việt",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "chấp hành tốt chủ trương và pháp luật",
+          "label": "THANH_TICH"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Hoàng Quốc Việt",
+          "predicate": "CO_THANH_TICH",
+          "object": "chấp hành tốt chủ trương và pháp luật"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Thành tích chấp hành tốt chủ trương và pháp luật là căn cứ xét danh hiệu Huân chương Lao động hạng Nhì.",
+    "response": {
+      "entities": [
+        {
+          "text": "chấp hành tốt chủ trương và pháp luật",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "Huân chương Lao động hạng Nhì",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "chấp hành tốt chủ trương và pháp luật",
+          "predicate": "CAN_CU_XET_TANG",
+          "object": "Huân chương Lao động hạng Nhì"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu Huân chương Lao động hạng Nhì được quy định tại Thông tư số 15/2025/TT-BNV.",
+    "response": {
+      "entities": [
+        {
+          "text": "Huân chương Lao động hạng Nhì",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Thông tư số 15/2025/TT-BNV",
+          "label": "VAN_BAN_PHAP_LUAT"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Huân chương Lao động hạng Nhì",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "Thông tư số 15/2025/TT-BNV"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Điều kiện xét danh hiệu Huân chương Lao động hạng Nhì được quy định tại điểm a khoản 1 Điều 9 của Thông tư số 15/2025/TT-BNV.",
+    "response": {
+      "entities": [
+        {
+          "text": "Điều kiện xét danh hiệu Huân chương Lao động hạng Nhì",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "điểm a khoản 1 Điều 9",
+          "label": "DIEU_KHOAN_PHAP_LUAT"
+        },
+        {
+          "text": "Thông tư số 15/2025/TT-BNV",
+          "label": "VAN_BAN_PHAP_LUAT"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Điều kiện xét danh hiệu Huân chương Lao động hạng Nhì",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "điểm a khoản 1 Điều 9"
+        },
+        {
+          "subject": "điểm a khoản 1 Điều 9",
+          "predicate": "DUOC_QUY_DINH_TAI",
+          "object": "Thông tư số 15/2025/TT-BNV"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Hoàng Quốc Việt đạt tiêu chuẩn xét danh hiệu Huân chương Lao động hạng Nhì.",
+    "response": {
+      "entities": [
+        {
+          "text": "Hoàng Quốc Việt",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "tiêu chuẩn xét danh hiệu Huân chương Lao động hạng Nhì",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "Huân chương Lao động hạng Nhì",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Hoàng Quốc Việt",
+          "predicate": "DAT_TIEU_CHUAN",
+          "object": "tiêu chuẩn xét danh hiệu Huân chương Lao động hạng Nhì"
+        },
+        {
+          "subject": "tiêu chuẩn xét danh hiệu Huân chương Lao động hạng Nhì",
+          "predicate": "CAN_CU_XET_TANG",
+          "object": "Huân chương Lao động hạng Nhì"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Trung tâm Y tế An Phú có sáng kiến được áp dụng hiệu quả trong năm 2025.",
+    "response": {
+      "entities": [
+        {
+          "text": "Trung tâm Y tế An Phú",
+          "label": "TO_CHUC"
+        },
+        {
+          "text": "sáng kiến được áp dụng hiệu quả",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "năm 2025",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Trung tâm Y tế An Phú",
+          "predicate": "CO_SANG_KIEN",
+          "object": "sáng kiến được áp dụng hiệu quả"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Trung tâm Y tế An Phú có công trình khoa học được nghiệm thu trong giai đoạn 2023–2024.",
+    "response": {
+      "entities": [
+        {
+          "text": "Trung tâm Y tế An Phú",
+          "label": "TO_CHUC"
+        },
+        {
+          "text": "công trình khoa học được nghiệm thu",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "giai đoạn 2023–2024",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Trung tâm Y tế An Phú",
+          "predicate": "CO_CONG_TRINH_KHOA_HOC",
+          "object": "công trình khoa học được nghiệm thu"
+        },
+        {
+          "subject": "Trung tâm Y tế An Phú",
+          "predicate": "DUOC_XET_TRONG_THOI_GIAN",
+          "object": "giai đoạn 2023–2024"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Chính phủ bình xét danh hiệu Huân chương Lao động hạng Nhì cho Tập thể đội công tác trong giai đoạn 2023–2024.",
+    "response": {
+      "entities": [
+        {
+          "text": "Chính phủ",
+          "label": "CAP_KHEN_THUONG"
+        },
+        {
+          "text": "Huân chương Lao động hạng Nhì",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Tập thể đội công tác",
+          "label": "TAP_THE"
+        },
+        {
+          "text": "giai đoạn 2023–2024",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Chính phủ",
+          "predicate": "DUOC_BINH_XET_THONG_QUA",
+          "object": "Huân chương Lao động hạng Nhì"
+        },
+        {
+          "subject": "Huân chương Lao động hạng Nhì",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Tập thể đội công tác"
+        },
+        {
+          "subject": "Tập thể đội công tác",
+          "predicate": "DUOC_XET_TRONG_THOI_GIAN",
+          "object": "giai đoạn 2023–2024"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,944 @@
+[
+  {
+    "instruction": "Danh hiệu Chiến sĩ thi đua cơ sở được trao cho cá nhân có thành tích xuất sắc trong công tác .",
+    "response": {
+      "entities": [
+        {
+          "text": "Chiến sĩ thi đua cơ sở",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "cá nhân",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "thành tích xuất sắc",
+          "label": "THANH_TICH"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Chiến sĩ thi đua cơ sở",
+          "predicate": "AP_DUNG_CHO",
+          "object": "cá nhân"
+        },
+        {
+          "subject": "cá nhân",
+          "predicate": "CO_THANH_TICH",
+          "object": "thành tích xuất sắc"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu Lao động tiên tiến được tặng cho cá nhân hoàn thành tốt nhiệm vụ trong năm đánh giá .",
+    "response": {
+      "entities": [
+        {
+          "text": "Lao động tiên tiến",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "cá nhân",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "hoàn thành tốt nhiệm vụ trong năm đánh giá",
+          "label": "TIEU_CHUAN"
+        },
+        {
+          "text": "năm đánh giá",
+          "label": "THOI_GIAN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Lao động tiên tiến",
+          "predicate": "AP_DUNG_CHO",
+          "object": "cá nhân"
+        },
+        {
+          "subject": "cá nhân",
+          "predicate": "DAP_UNG_TIEU_CHI",
+          "object": "hoàn thành tốt nhiệm vụ trong năm đánh giá"
+        },
+        {
+          "subject": "Lao động tiên tiến",
+          "predicate": "DUOC_XET_TRONG_THOI_GIAN",
+          "object": "năm đánh giá"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu Tập thể lao động xuất sắc được xét tặng cho tổ chức có nhiều thành tích nổi bật .",
+    "response": {
+      "entities": [
+        {
+          "text": "Tập thể lao động xuất sắc",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "tổ chức",
+          "label": "TO_CHUC"
+        },
+        {
+          "text": "nhiều thành tích nổi bật",
+          "label": "THANH_TICH"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Tập thể lao động xuất sắc",
+          "predicate": "AP_DUNG_CHO",
+          "object": "tổ chức"
+        },
+        {
+          "subject": "tổ chức",
+          "predicate": "CO_THANH_TICH",
+          "object": "nhiều thành tích nổi bật"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Giấy khen của Hiệu trưởng được trao cho sinh viên có kết quả học tập xuất sắc .",
+    "response": {
+      "entities": [
+        {
+          "text": "Giấy khen của Hiệu trưởng",
+          "label": "HINH_THUC_KHEN_THUONG"
+        },
+        {
+          "text": "sinh viên",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "kết quả học tập xuất sắc",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "Hiệu trưởng",
+          "label": "CO_QUAN_CO_THAM_QUYEN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Giấy khen của Hiệu trưởng",
+          "predicate": "AP_DUNG_CHO",
+          "object": "sinh viên"
+        },
+        {
+          "subject": "sinh viên",
+          "predicate": "CO_THANH_TICH",
+          "object": "kết quả học tập xuất sắc"
+        },
+        {
+          "subject": "Hiệu trưởng",
+          "predicate": "CO_THAM_QUYEN_XET_TANG",
+          "object": "Giấy khen của Hiệu trưởng"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Giấy khen của Chủ tịch Ủy ban nhân dân được xét trao cho tập thể có đóng góp tích cực cho địa phương .",
+    "response": {
+      "entities": [
+        {
+          "text": "Giấy khen của Chủ tịch Ủy ban nhân dân",
+          "label": "HINH_THUC_KHEN_THUONG"
+        },
+        {
+          "text": "tập thể",
+          "label": "TO_CHUC"
+        },
+        {
+          "text": "đóng góp tích cực",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "Chủ tịch Ủy ban nhân dân",
+          "label": "CO_QUAN_CO_THAM_QUYEN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Giấy khen của Chủ tịch Ủy ban nhân dân",
+          "predicate": "AP_DUNG_CHO",
+          "object": "tập thể"
+        },
+        {
+          "subject": "tập thể",
+          "predicate": "CO_THANH_TICH",
+          "object": "đóng góp tích cực"
+        },
+        {
+          "subject": "Chủ tịch Ủy ban nhân dân",
+          "predicate": "CO_THAM_QUYEN_XET_TANG",
+          "object": "Giấy khen của Chủ tịch Ủy ban nhân dân"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Bằng khen được trao cho cá nhân có sáng kiến mang lại hiệu quả cao trong hoạt động chuyên môn .",
+    "response": {
+      "entities": [
+        {
+          "text": "Bằng khen",
+          "label": "HINH_THUC_KHEN_THUONG"
+        },
+        {
+          "text": "cá nhân",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "sáng kiến mang lại hiệu quả cao",
+          "label": "THANH_TICH"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Bằng khen",
+          "predicate": "AP_DUNG_CHO",
+          "object": "cá nhân"
+        },
+        {
+          "subject": "cá nhân",
+          "predicate": "CO_SANG_KIEN",
+          "object": "sáng kiến mang lại hiệu quả cao"
+        },
+        {
+          "subject": "cá nhân",
+          "predicate": "CO_THANH_TICH",
+          "object": "sáng kiến mang lại hiệu quả cao"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Cá nhân được xét tặng bằng khen khi có ít nhất ba sáng kiến được công nhận .",
+    "response": {
+      "entities": [
+        {
+          "text": "Cá nhân",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "bằng khen",
+          "label": "HINH_THUC_KHEN_THUONG"
+        },
+        {
+          "text": "ít nhất ba",
+          "label": "SO_LUONG"
+        },
+        {
+          "text": "sáng kiến được công nhận",
+          "label": "THANH_TICH"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Cá nhân",
+          "predicate": "DUOC_XET_TANG",
+          "object": "bằng khen"
+        },
+        {
+          "subject": "Cá nhân",
+          "predicate": "CO_SANG_KIEN",
+          "object": "sáng kiến được công nhận"
+        },
+        {
+          "subject": "bằng khen",
+          "predicate": "CO_TIEU_CHUAN",
+          "object": "ít nhất ba"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu “Lao động tiên tiến” được tặng hằng năm cho cán bộ gương mẫu chấp hành tốt chủ trương , đường lối của Đảng và đủ tiêu chuẩn theo khoản 1 Điều 24 Luật Thi đua , khen thưởng .",
+    "response": {
+      "entities": [
+        {
+          "text": "Danh hiệu “Lao động tiên tiến”",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "cán bộ",
+          "label": "CHUC_VU"
+        },
+        {
+          "text": "gương mẫu chấp hành tốt chủ trương , đường lối của",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "đủ tiêu",
+          "label": "TIEU_CHUAN"
+        },
+        {
+          "text": "theo khoản 1 Điều 24 Luật Thi đua ,",
+          "label": "DIEU_KHOAN_PHAP_LUAT"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Danh hiệu “Lao động tiên tiến”",
+          "predicate": "DUOC_XET_TANG",
+          "object": "cán bộ"
+        },
+        {
+          "subject": "Danh hiệu “Lao động tiên tiến”",
+          "predicate": "DAP_UNG_DIEU_KIEN",
+          "object": "gương mẫu chấp hành tốt chủ trương , đường lối của"
+        },
+        {
+          "subject": "Danh hiệu “Lao động tiên tiến”",
+          "predicate": "CO_TIEU_CHUAN",
+          "object": "đủ tiêu"
+        },
+        {
+          "subject": "Danh hiệu “Lao động tiên tiến”",
+          "predicate": "CAN_CU_XET_TANG",
+          "object": "theo khoản 1 Điều 24 Luật Thi đua ,"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu “Lao động tiên tiến” được tặng hằng năm cho công chức gương mẫu chấp hành tốt chủ trương , đường lối của Đảng và đủ tiêu chuẩn theo khoản 1 Điều 24 Luật Thi đua , khen thưởng .",
+    "response": {
+      "entities": [
+        {
+          "text": "Danh hiệu “Lao động tiên tiến”",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "công chức",
+          "label": "CHUC_VU"
+        },
+        {
+          "text": "gương mẫu chấp hành tốt chủ trương , đường lối của",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "đủ tiêu",
+          "label": "TIEU_CHUAN"
+        },
+        {
+          "text": "theo khoản 1 Điều 24 Luật Thi đua ,",
+          "label": "DIEU_KHOAN_PHAP_LUAT"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Danh hiệu “Lao động tiên tiến”",
+          "predicate": "DUOC_XET_TANG",
+          "object": "công chức"
+        },
+        {
+          "subject": "Danh hiệu “Lao động tiên tiến”",
+          "predicate": "DAP_UNG_DIEU_KIEN",
+          "object": "gương mẫu chấp hành tốt chủ trương , đường lối của"
+        },
+        {
+          "subject": "Danh hiệu “Lao động tiên tiến”",
+          "predicate": "CO_TIEU_CHUAN",
+          "object": "đủ tiêu"
+        },
+        {
+          "subject": "Danh hiệu “Lao động tiên tiến”",
+          "predicate": "CAN_CU_XET_TANG",
+          "object": "theo khoản 1 Điều 24 Luật Thi đua ,"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu “Lao động tiên tiến” được tặng hằng năm cho viên chức gương mẫu chấp hành tốt chủ trương , đường lối của Đảng và đủ tiêu chuẩn theo khoản 1 Điều 24 Luật Thi đua , khen thưởng .",
+    "response": {
+      "entities": [
+        {
+          "text": "Danh hiệu “Lao động tiên tiến”",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "viên chức",
+          "label": "CHUC_VU"
+        },
+        {
+          "text": "gương mẫu chấp hành tốt chủ trương , đường lối của",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "đủ tiêu",
+          "label": "TIEU_CHUAN"
+        },
+        {
+          "text": "theo khoản 1 Điều 24 Luật Thi đua ,",
+          "label": "DIEU_KHOAN_PHAP_LUAT"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Danh hiệu “Lao động tiên tiến”",
+          "predicate": "DUOC_XET_TANG",
+          "object": "viên chức"
+        },
+        {
+          "subject": "Danh hiệu “Lao động tiên tiến”",
+          "predicate": "DAP_UNG_DIEU_KIEN",
+          "object": "gương mẫu chấp hành tốt chủ trương , đường lối của"
+        },
+        {
+          "subject": "Danh hiệu “Lao động tiên tiến”",
+          "predicate": "CO_TIEU_CHUAN",
+          "object": "đủ tiêu"
+        },
+        {
+          "subject": "Danh hiệu “Lao động tiên tiến”",
+          "predicate": "CAN_CU_XET_TANG",
+          "object": "theo khoản 1 Điều 24 Luật Thi đua ,"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu “Lao động tiên tiến” được tặng hằng năm cho người lao động gương mẫu chấp hành tốt chủ trương , đường lối của Đảng và đủ tiêu chuẩn theo khoản 1 Điều 24 Luật Thi đua , khen thưởng .",
+    "response": {
+      "entities": [
+        {
+          "text": "Danh hiệu “Lao động tiên tiến”",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "người lao động",
+          "label": "NHOM_DOI_TUONG"
+        },
+        {
+          "text": "gương mẫu chấp hành tốt chủ trương , đường lối của",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "đủ tiêu",
+          "label": "TIEU_CHUAN"
+        },
+        {
+          "text": "theo khoản 1 Điều 24 Luật Thi đua ,",
+          "label": "DIEU_KHOAN_PHAP_LUAT"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Danh hiệu “Lao động tiên tiến”",
+          "predicate": "DUOC_XET_TANG",
+          "object": "người lao động"
+        },
+        {
+          "subject": "Danh hiệu “Lao động tiên tiến”",
+          "predicate": "DAP_UNG_DIEU_KIEN",
+          "object": "gương mẫu chấp hành tốt chủ trương , đường lối của"
+        },
+        {
+          "subject": "Danh hiệu “Lao động tiên tiến”",
+          "predicate": "CO_TIEU_CHUAN",
+          "object": "đủ tiêu"
+        },
+        {
+          "subject": "Danh hiệu “Lao động tiên tiến”",
+          "predicate": "CAN_CU_XET_TANG",
+          "object": "theo khoản 1 Điều 24 Luật Thi đua ,"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Cán bộ , công chức , viên chức , người lao động được tặng danh hiệu “Lao động tiên tiến” khi gương mẫu chấp hành tốt chính sách , pháp luật của Nhà nước .",
+    "response": {
+      "entities": [
+        {
+          "text": "Cán bộ , công chức , viên chức ,",
+          "label": "NHOM_DOI_TUONG"
+        },
+        {
+          "text": "động được tặng danh hiệu “Lao",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "tiên tiến” khi gương mẫu chấp hành tốt chính sách , pháp",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": ", pháp",
+          "label": "CO_QUAN_NHA_NUOC"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Cán bộ , công chức , viên chức ,",
+          "predicate": "DUOC_XET_TANG",
+          "object": "động được tặng danh hiệu “Lao"
+        },
+        {
+          "subject": "động được tặng danh hiệu “Lao",
+          "predicate": "DAP_UNG_DIEU_KIEN",
+          "object": "tiên tiến” khi gương mẫu chấp hành tốt chính sách , pháp"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Cán bộ , công chức , viên chức , người lao động được tặng danh hiệu “Lao động tiên tiến” khi đủ tiêu chuẩn theo khoản 1 Điều 24 Luật Thi đua , khen thưởng .",
+    "response": {
+      "entities": [
+        {
+          "text": "Cán bộ , công chức , viên chức ,",
+          "label": "NHOM_DOI_TUONG"
+        },
+        {
+          "text": "động được tặng danh hiệu “Lao",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "tiên tiến” khi",
+          "label": "TIEU_CHUAN"
+        },
+        {
+          "text": "tiêu chuẩn theo khoản 1 Điều 24 Luật Thi",
+          "label": "DIEU_KHOAN_PHAP_LUAT"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Cán bộ , công chức , viên chức ,",
+          "predicate": "DUOC_XET_TANG",
+          "object": "động được tặng danh hiệu “Lao"
+        },
+        {
+          "subject": "động được tặng danh hiệu “Lao",
+          "predicate": "CO_TIEU_CHUAN",
+          "object": "tiên tiến” khi"
+        },
+        {
+          "subject": "động được tặng danh hiệu “Lao",
+          "predicate": "CAN_CU_XET_TANG",
+          "object": "tiêu chuẩn theo khoản 1 Điều 24 Luật Thi"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu “Lao động tiên tiến” được tặng hằng năm cho công nhân không thuộc đối tượng quy định tại khoản 1 Điều 5 và đạt tiêu chuẩn theo khoản 3 Điều 24 Luật Thi đua , khen thưởng .",
+    "response": {
+      "entities": [
+        {
+          "text": "Danh hiệu “Lao động tiên tiến”",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "công nhân",
+          "label": "NHOM_DOI_TUONG"
+        },
+        {
+          "text": "không thuộc đối tượng quy định tại khoản 1 Điều 5",
+          "label": "TRUONG_HOP_LOAI_TRU"
+        },
+        {
+          "text": "tiêu chuẩn",
+          "label": "TIEU_CHUAN"
+        },
+        {
+          "text": "khoản 3 Điều 24 Luật Thi đua , khen",
+          "label": "DIEU_KHOAN_PHAP_LUAT"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Danh hiệu “Lao động tiên tiến”",
+          "predicate": "DUOC_XET_TANG",
+          "object": "công nhân"
+        },
+        {
+          "subject": "công nhân",
+          "predicate": "THUOC_DOI_TUONG_XET_TANG",
+          "object": "không thuộc đối tượng quy định tại khoản 1 Điều 5"
+        },
+        {
+          "subject": "Danh hiệu “Lao động tiên tiến”",
+          "predicate": "CO_TIEU_CHUAN",
+          "object": "tiêu chuẩn"
+        },
+        {
+          "subject": "Danh hiệu “Lao động tiên tiến”",
+          "predicate": "CAN_CU_XET_TANG",
+          "object": "khoản 3 Điều 24 Luật Thi đua , khen"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu “Lao động tiên tiến” được tặng hằng năm cho nông dân không thuộc đối tượng quy định tại khoản 1 Điều 5 và đạt tiêu chuẩn theo khoản 3 Điều 24 Luật Thi đua , khen thưởng .",
+    "response": {
+      "entities": [
+        {
+          "text": "Danh hiệu “Lao động tiên tiến”",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "nông dân",
+          "label": "NHOM_DOI_TUONG"
+        },
+        {
+          "text": "không thuộc đối tượng quy định tại khoản 1 Điều 5",
+          "label": "TRUONG_HOP_LOAI_TRU"
+        },
+        {
+          "text": "tiêu chuẩn",
+          "label": "TIEU_CHUAN"
+        },
+        {
+          "text": "khoản 3 Điều 24 Luật Thi đua , khen",
+          "label": "DIEU_KHOAN_PHAP_LUAT"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Danh hiệu “Lao động tiên tiến”",
+          "predicate": "DUOC_XET_TANG",
+          "object": "nông dân"
+        },
+        {
+          "subject": "nông dân",
+          "predicate": "THUOC_DOI_TUONG_XET_TANG",
+          "object": "không thuộc đối tượng quy định tại khoản 1 Điều 5"
+        },
+        {
+          "subject": "Danh hiệu “Lao động tiên tiến”",
+          "predicate": "CO_TIEU_CHUAN",
+          "object": "tiêu chuẩn"
+        },
+        {
+          "subject": "Danh hiệu “Lao động tiên tiến”",
+          "predicate": "CAN_CU_XET_TANG",
+          "object": "khoản 3 Điều 24 Luật Thi đua , khen"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu “Lao động tiên tiến” được tặng hằng năm cho người lao động không thuộc đối tượng quy định tại khoản 1 Điều 5 và đạt tiêu chuẩn theo khoản 3 Điều 24 Luật Thi đua , khen thưởng .",
+    "response": {
+      "entities": [
+        {
+          "text": "Danh hiệu “Lao động tiên tiến”",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "người lao động",
+          "label": "NHOM_DOI_TUONG"
+        },
+        {
+          "text": "không thuộc đối tượng quy định tại khoản 1 Điều 5",
+          "label": "TRUONG_HOP_LOAI_TRU"
+        },
+        {
+          "text": "tiêu chuẩn",
+          "label": "TIEU_CHUAN"
+        },
+        {
+          "text": "khoản 3 Điều 24 Luật Thi đua , khen",
+          "label": "DIEU_KHOAN_PHAP_LUAT"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Danh hiệu “Lao động tiên tiến”",
+          "predicate": "DUOC_XET_TANG",
+          "object": "người lao động"
+        },
+        {
+          "subject": "người lao động",
+          "predicate": "THUOC_DOI_TUONG_XET_TANG",
+          "object": "không thuộc đối tượng quy định tại khoản 1 Điều 5"
+        },
+        {
+          "subject": "Danh hiệu “Lao động tiên tiến”",
+          "predicate": "CO_TIEU_CHUAN",
+          "object": "tiêu chuẩn"
+        },
+        {
+          "subject": "Danh hiệu “Lao động tiên tiến”",
+          "predicate": "CAN_CU_XET_TANG",
+          "object": "khoản 3 Điều 24 Luật Thi đua , khen"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố” được tặng hằng năm cho đơn vị dẫn đầu cụm thi đua do thành phố tổ chức .",
+    "response": {
+      "entities": [
+        {
+          "text": "Danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố”",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "đơn vị",
+          "label": "TO_CHUC"
+        },
+        {
+          "text": "dẫn đầu cụm thi đua",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "thành phố tổ chức",
+          "label": "CO_QUAN_NHA_NUOC"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố”",
+          "predicate": "DUOC_XET_TANG",
+          "object": "đơn vị"
+        },
+        {
+          "subject": "đơn vị",
+          "predicate": "DAT_THANH_TICH",
+          "object": "dẫn đầu cụm thi đua"
+        },
+        {
+          "subject": "Danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố”",
+          "predicate": "CO_CAN_CU_PHAP_LY",
+          "object": "thành phố tổ chức"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố” được tặng hằng năm cho đơn vị dẫn đầu khối thi đua do thành phố tổ chức .",
+    "response": {
+      "entities": [
+        {
+          "text": "Danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố”",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "đơn vị",
+          "label": "TO_CHUC"
+        },
+        {
+          "text": "dẫn đầu khối thi đua",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "thành phố tổ chức",
+          "label": "CO_QUAN_NHA_NUOC"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố”",
+          "predicate": "DUOC_XET_TANG",
+          "object": "đơn vị"
+        },
+        {
+          "subject": "đơn vị",
+          "predicate": "DAT_THANH_TICH",
+          "object": "dẫn đầu khối thi đua"
+        },
+        {
+          "subject": "Danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố”",
+          "predicate": "CO_CAN_CU_PHAP_LY",
+          "object": "thành phố tổ chức"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố” được tặng hằng năm cho đơn vị dẫn đầu phong trào thi đua theo chuyên đề do Chủ tịch Ủy ban nhân dân thành phố phát động .",
+    "response": {
+      "entities": [
+        {
+          "text": "Danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố”",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "đơn vị",
+          "label": "TO_CHUC"
+        },
+        {
+          "text": "dẫn đầu phong trào thi đua theo chuyên đề",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "Chủ tịch Ủy ban nhân dân thành phố",
+          "label": "CHUC_VU"
+        },
+        {
+          "text": "Ủy ban nhân dân thành phố",
+          "label": "CO_QUAN_NHA_NUOC"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố”",
+          "predicate": "DUOC_XET_TANG",
+          "object": "đơn vị"
+        },
+        {
+          "subject": "đơn vị",
+          "predicate": "DAT_THANH_TICH",
+          "object": "dẫn đầu phong trào thi đua theo chuyên đề"
+        },
+        {
+          "subject": "đơn vị",
+          "predicate": "CO_THANH_TICH",
+          "object": "Chủ tịch Ủy ban nhân dân thành phố"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Tập thể được tặng danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố” khi gương mẫu chấp hành tốt chủ trương của Đảng .",
+    "response": {
+      "entities": [
+        {
+          "text": "Tập thể",
+          "label": "TO_CHUC"
+        },
+        {
+          "text": "danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố”",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "gương mẫu chấp hành tốt chủ trương của Đảng",
+          "label": "DIEU_KIEN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Tập thể",
+          "predicate": "DUOC_XET_TANG",
+          "object": "danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố”"
+        },
+        {
+          "subject": "danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố”",
+          "predicate": "DAP_UNG_DIEU_KIEN",
+          "object": "gương mẫu chấp hành tốt chủ trương của Đảng"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Tập thể được tặng danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố” khi gương mẫu chấp hành tốt chính sách , pháp luật của Nhà nước .",
+    "response": {
+      "entities": [
+        {
+          "text": "Tập thể",
+          "label": "TO_CHUC"
+        },
+        {
+          "text": "danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố”",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "gương mẫu chấp hành tốt chính sách , pháp luật của Nhà",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "của Nhà",
+          "label": "CO_QUAN_NHA_NUOC"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Tập thể",
+          "predicate": "DUOC_XET_TANG",
+          "object": "danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố”"
+        },
+        {
+          "subject": "danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố”",
+          "predicate": "DAP_UNG_DIEU_KIEN",
+          "object": "gương mẫu chấp hành tốt chính sách , pháp luật của Nhà"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Tập thể được tặng danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố” khi đạt tiêu chuẩn theo khoản 1 Điều 26 Luật Thi đua , khen thưởng .",
+    "response": {
+      "entities": [
+        {
+          "text": "Tập thể",
+          "label": "TO_CHUC"
+        },
+        {
+          "text": "danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố”",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "tiêu chuẩn",
+          "label": "TIEU_CHUAN"
+        },
+        {
+          "text": "khoản 1 Điều 26 Luật Thi đua , khen",
+          "label": "DIEU_KHOAN_PHAP_LUAT"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Tập thể",
+          "predicate": "DUOC_XET_TANG",
+          "object": "danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố”"
+        },
+        {
+          "subject": "danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố”",
+          "predicate": "CO_TIEU_CHUAN",
+          "object": "tiêu chuẩn"
+        },
+        {
+          "subject": "danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố”",
+          "predicate": "CAN_CU_XET_TANG",
+          "object": "khoản 1 Điều 26 Luật Thi đua , khen"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Tập thể được tặng danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố” khi có thành tích nổi bật dẫn đầu được bình xét , suy tôn thông qua cụm , khối thi đua .",
+    "response": {
+      "entities": [
+        {
+          "text": "Tập thể",
+          "label": "TO_CHUC"
+        },
+        {
+          "text": "danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố”",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "có thành tích nổi bật dẫn đầu được bình xét , suy tôn thông qua cụm , khối",
+          "label": "THANH_TICH"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Tập thể",
+          "predicate": "DUOC_XET_TANG",
+          "object": "danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố”"
+        },
+        {
+          "subject": "Tập thể",
+          "predicate": "CO_THANH_TICH",
+          "object": "có thành tích nổi bật dẫn đầu được bình xét , suy tôn thông qua cụm , khối"
+        },
+        {
+          "subject": "danh hiệu “Cờ thi đua của Ủy ban nhân dân thành phố”",
+          "predicate": "DAP_UNG_TIEU_CHI",
+          "object": "có thành tích nổi bật dẫn đầu được bình xét , suy tôn thông qua cụm , khối"
+        }
+      ]
+    }
+  }
+]

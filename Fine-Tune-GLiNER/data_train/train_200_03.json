@@ -1,0 +1,675 @@
+[
+  {
+    "text": "Danh hiệu Chiến sĩ thi đua cơ sở áp dụng cho cá nhân đạt tiêu chuẩn hoàn thành xuất sắc nhiệm vụ.",
+    "tokenized_text": ["Danh", "hiệu", "Chiến", "sĩ", "thi", "đua", "cơ", "sở", "áp", "dụng", "cho", "cá", "nhân", "đạt", "tiêu", "chuẩn", "hoàn", "thành", "xuất", "sắc", "nhiệm", "vụ."],
+    "ner": [[2, 7, "DANH_HIEU_THI_DUA"], [11, 12, "CA_NHAN"], [14, 21, "TIEU_CHUAN"]],
+    "relations": [[0, 1, "AP_DUNG_CHO"], [1, 2, "DAT_TIEU_CHUAN"]]
+  },
+  {
+    "text": "Tập thể lao động xuất sắc được xét tặng cho tập thể hoàn thành xuất sắc nhiệm vụ.",
+    "tokenized_text": ["Tập", "thể", "lao", "động", "xuất", "sắc", "được", "xét", "tặng", "cho", "tập", "thể", "hoàn", "thành", "xuất", "sắc", "nhiệm", "vụ."],
+    "ner": [[0, 5, "DANH_HIEU_THI_DUA"], [10, 11, "TAP_THE"], [12, 17, "THANH_TICH"]],
+    "relations": [[0, 1, "AP_DUNG_CHO"], [1, 2, "CO_THANH_TICH"]]
+  },
+  {
+    "text": "Cá nhân được đề nghị tặng Bằng khen của Chủ tịch UBND thành phố vì có thành tích nổi bật trong công tác.",
+    "tokenized_text": ["Cá", "nhân", "được", "đề", "nghị", "tặng", "Bằng", "khen", "của", "Chủ", "tịch", "UBND", "thành", "phố", "vì", "có", "thành", "tích", "nổi", "bật", "trong", "công", "tác."],
+    "ner": [[0, 1, "CA_NHAN"], [6, 13, "HINH_THUC_KHEN_THUONG"], [16, 22, "THANH_TICH"]],
+    "relations": [[0, 1, "CAN_CU_XET_TANG"], [0, 2, "CO_THANH_TICH"]]
+  },
+  {
+    "text": "Chiến sĩ thi đua cấp tỉnh phải đạt danh hiệu Chiến sĩ thi đua cơ sở theo tiêu chuẩn áp dụng.",
+    "tokenized_text": ["Chiến", "sĩ", "thi", "đua", "cấp", "tỉnh", "phải", "đạt", "danh", "hiệu", "Chiến", "sĩ", "thi", "đua", "cơ", "sở", "theo", "tiêu", "chuẩn", "áp", "dụng."],
+    "ner": [[0, 5, "DANH_HIEU_THI_DUA"], [10, 15, "DANH_HIEU_THI_DUA"], [17, 20, "TIEU_CHUAN"]],
+    "relations": [[0, 1, "PHAI_DAT_DANH_HIEU"], [0, 2, "DAT_TIEU_CHUAN"]]
+  },
+  {
+    "text": "Sáng kiến cải tiến quy trình xử lý hồ sơ của Nguyễn An được cơ quan có thẩm quyền công nhận.",
+    "tokenized_text": ["Sáng", "kiến", "cải", "tiến", "quy", "trình", "xử", "lý", "hồ", "sơ", "của", "Nguyễn", "An", "được", "cơ", "quan", "có", "thẩm", "quyền", "công", "nhận."],
+    "ner": [[0, 9, "SANG_KIEN"], [11, 12, "CA_NHAN"], [14, 18, "CO_QUAN_NHA_NUOC"]],
+    "relations": [[1, 0, "CO_SANG_KIEN"], [0, 2, "DUOC_CONG_NHAN_BOI"]]
+  },
+  {
+    "text": "Công trình khoa học của Trần Minh được Hội đồng khen thưởng đánh giá trong đợt bình xét.",
+    "tokenized_text": ["Công", "trình", "khoa", "học", "của", "Trần", "Minh", "được", "Hội", "đồng", "khen", "thưởng", "đánh", "giá", "trong", "đợt", "bình", "xét."],
+    "ner": [[0, 3, "CONG_TRINH_KHOA_HOC"], [5, 6, "CA_NHAN"], [8, 11, "HOI_DONG_KHEN_THUONG"], [15, 17, "QUY_TRINH_KHEN_THUONG"]],
+    "relations": [[1, 0, "CO_CONG_TRINH_KHOA_HOC"], [3, 2, "THAM_GIA_QUY_TRINH"]]
+  },
+  {
+    "text": "Luật Thi đua, khen thưởng quy định nguyên tắc xét tặng danh hiệu thi đua.",
+    "tokenized_text": ["Luật", "Thi", "đua,", "khen", "thưởng", "quy", "định", "nguyên", "tắc", "xét", "tặng", "danh", "hiệu", "thi", "đua."],
+    "ner": [[0, 4, "VAN_BAN_PHAP_LUAT"], [11, 14, "DANH_HIEU_THI_DUA"]],
+    "relations": [[1, 0, "DUOC_QUY_DINH_TAI"]]
+  },
+  {
+    "text": "Quy trình khen thưởng được thực hiện thông qua Hội đồng khen thưởng của đơn vị.",
+    "tokenized_text": ["Quy", "trình", "khen", "thưởng", "được", "thực", "hiện", "thông", "qua", "Hội", "đồng", "khen", "thưởng", "của", "đơn", "vị."],
+    "ner": [[0, 3, "QUY_TRINH_KHEN_THUONG"], [9, 12, "HOI_DONG_KHEN_THUONG"], [14, 15, "TO_CHUC"]],
+    "relations": [[1, 0, "DUOC_BINH_XET_THONG_QUA"], [1, 2, "THAM_GIA_QUY_TRINH"]]
+  },
+  {
+    "text": "Cá nhân có thành tích xuất sắc trong nghiên cứu khoa học được đề nghị khen thưởng.",
+    "tokenized_text": ["Cá", "nhân", "có", "thành", "tích", "xuất", "sắc", "trong", "nghiên", "cứu", "khoa", "học", "được", "đề", "nghị", "khen", "thưởng."],
+    "ner": [[0, 1, "CA_NHAN"], [3, 11, "THANH_TICH"]],
+    "relations": [[0, 1, "CO_THANH_TICH"]]
+  },
+  {
+    "text": "Tập thể đạt danh hiệu Tập thể lao động tiên tiến được xem xét theo tiêu chuẩn của đơn vị.",
+    "tokenized_text": ["Tập", "thể", "đạt", "danh", "hiệu", "Tập", "thể", "lao", "động", "tiên", "tiến", "được", "xem", "xét", "theo", "tiêu", "chuẩn", "của", "đơn", "vị."],
+    "ner": [[0, 1, "TAP_THE"], [5, 10, "DANH_HIEU_THI_DUA"], [15, 19, "TIEU_CHUAN"]],
+    "relations": [[0, 1, "DAT_DANH_HIEU"], [0, 2, "DAT_TIEU_CHUAN"]]
+  },
+  {
+    "text": "Bằng khen của Bộ trưởng được xét tặng căn cứ vào thành tích công tác của cá nhân.",
+    "tokenized_text": ["Bằng", "khen", "của", "Bộ", "trưởng", "được", "xét", "tặng", "căn", "cứ", "vào", "thành", "tích", "công", "tác", "của", "cá", "nhân."],
+    "ner": [[0, 4, "HINH_THUC_KHEN_THUONG"], [11, 14, "THANH_TICH"], [16, 17, "CA_NHAN"]],
+    "relations": [[0, 1, "CAN_CU_XET_TANG"], [2, 0, "CAN_CU_XET_TANG"]]
+  },
+  {
+    "text": "Cá nhân phải đạt danh hiệu Lao động tiên tiến trước khi được đề nghị xét danh hiệu Chiến sĩ thi đua cơ sở.",
+    "tokenized_text": ["Cá", "nhân", "phải", "đạt", "danh", "hiệu", "Lao", "động", "tiên", "tiến", "trước", "khi", "được", "đề", "nghị", "xét", "danh", "hiệu", "Chiến", "sĩ", "thi", "đua", "cơ", "sở."],
+    "ner": [[0, 1, "CA_NHAN"], [6, 9, "DANH_HIEU_THI_DUA"], [18, 23, "DANH_HIEU_THI_DUA"]],
+    "relations": [[0, 1, "PHAI_DAT_DANH_HIEU"], [0, 2, "DAT_DANH_HIEU"]]
+  },
+  {
+    "text": "Hội đồng khen thưởng tham gia quy trình bình xét danh hiệu thi đua tại cơ quan.",
+    "tokenized_text": ["Hội", "đồng", "khen", "thưởng", "tham", "gia", "quy", "trình", "bình", "xét", "danh", "hiệu", "thi", "đua", "tại", "cơ", "quan."],
+    "ner": [[0, 3, "HOI_DONG_KHEN_THUONG"], [6, 9, "QUY_TRINH_KHEN_THUONG"], [10, 13, "DANH_HIEU_THI_DUA"], [15, 16, "TO_CHUC"]],
+    "relations": [[0, 1, "THAM_GIA_QUY_TRINH"]]
+  },
+  {
+    "text": "Nghị định về thi đua, khen thưởng được ban hành bởi Chính phủ.",
+    "tokenized_text": ["Nghị", "định", "về", "thi", "đua,", "khen", "thưởng", "được", "ban", "hành", "bởi", "Chính", "phủ."],
+    "ner": [[0, 6, "VAN_BAN_PHAP_LUAT"], [11, 12, "CO_QUAN_NHA_NUOC"]],
+    "relations": [[0, 1, "BAN_HANH_BOI"]]
+  },
+  {
+    "text": "Cá nhân đáp ứng điều kiện về thời gian công tác được đưa vào danh sách đề nghị khen thưởng.",
+    "tokenized_text": ["Cá", "nhân", "đáp", "ứng", "điều", "kiện", "về", "thời", "gian", "công", "tác", "được", "đưa", "vào", "danh", "sách", "đề", "nghị", "khen", "thưởng."],
+    "ner": [[0, 1, "CA_NHAN"], [4, 10, "DIEU_KIEN"], [7, 8, "THOI_GIAN"]],
+    "relations": [[0, 1, "DAP_UNG_DIEU_KIEN"]]
+  },
+  {
+    "text": "Cờ thi đua của Chính phủ là hình thức khen thưởng dành cho tập thể có thành tích nổi bật.",
+    "tokenized_text": ["Cờ", "thi", "đua", "của", "Chính", "phủ", "là", "hình", "thức", "khen", "thưởng", "dành", "cho", "tập", "thể", "có", "thành", "tích", "nổi", "bật."],
+    "ner": [[0, 5, "HINH_THUC_KHEN_THUONG"], [13, 14, "TAP_THE"], [16, 19, "THANH_TICH"]],
+    "relations": [[0, 1, "AP_DUNG_CHO"], [1, 2, "CO_THANH_TICH"]]
+  },
+  {
+    "text": "Tập thể được đề nghị tặng Cờ thi đua Bộ, ban, ngành, tỉnh khi đáp ứng điều kiện xét tặng.",
+    "tokenized_text": ["Tập", "thể", "được", "đề", "nghị", "tặng", "Cờ", "thi", "đua", "Bộ,", "ban,", "ngành,", "tỉnh", "khi", "đáp", "ứng", "điều", "kiện", "xét", "tặng."],
+    "ner": [[0, 1, "TAP_THE"], [6, 12, "HINH_THUC_KHEN_THUONG"], [16, 19, "DIEU_KIEN"]],
+    "relations": [[1, 0, "AP_DUNG_CHO"], [0, 2, "DAP_UNG_DIEU_KIEN"]]
+  },
+  {
+    "text": "Cá nhân có sáng kiến được công nhận trong năm công tác.",
+    "tokenized_text": ["Cá", "nhân", "có", "sáng", "kiến", "được", "công", "nhận", "trong", "năm", "công", "tác."],
+    "ner": [[0, 1, "CA_NHAN"], [3, 4, "SANG_KIEN"], [9, 11, "THOI_GIAN"]],
+    "relations": [[0, 1, "CO_SANG_KIEN"]]
+  },
+  {
+    "text": "Thành tích nghiên cứu của tập thể được cơ quan nhà nước có thẩm quyền công nhận.",
+    "tokenized_text": ["Thành", "tích", "nghiên", "cứu", "của", "tập", "thể", "được", "cơ", "quan", "nhà", "nước", "có", "thẩm", "quyền", "công", "nhận."],
+    "ner": [[0, 3, "THANH_TICH"], [5, 6, "TAP_THE"], [8, 14, "CO_QUAN_NHA_NUOC"]],
+    "relations": [[1, 0, "CO_THANH_TICH"], [0, 2, "DUOC_CONG_NHAN_BOI"]]
+  },
+  {
+    "text": "Danh hiệu Lao động tiên tiến áp dụng cho cá nhân hoàn thành tốt nhiệm vụ.",
+    "tokenized_text": ["Danh", "hiệu", "Lao", "động", "tiên", "tiến", "áp", "dụng", "cho", "cá", "nhân", "hoàn", "thành", "tốt", "nhiệm", "vụ."],
+    "ner": [[2, 5, "DANH_HIEU_THI_DUA"], [9, 10, "CA_NHAN"], [11, 15, "TIEU_CHUAN"]],
+    "relations": [[0, 1, "AP_DUNG_CHO"], [1, 2, "DAT_TIEU_CHUAN"]]
+  },
+
+  {
+    "tokenized_text": ["Viên", "chức", "Nguyễn", "Văn", "An", "được", "công", "nhận", "danh", "hiệu", "Lao", "động", "tiên", "tiến", "năm", "2024", "sau", "khi", "hoàn", "thành", "tốt", "nhiệm", "vụ", "."],
+    "ner": [[2, 4, "CA_NHAN"], [8, 13, "DANH_HIEU_THI_DUA"], [14, 15, "THOI_GIAN"], [18, 21, "THANH_TICH"]],
+    "relations": [[0, 1, "DAT_DANH_HIEU"], [0, 3, "CO_THANH_TICH"], [1, 2, "DUOC_XET_TRONG_THOI_GIAN"]]
+  },
+  {
+    "tokenized_text": ["Tập", "thể", "Phòng", "Kế", "hoạch", "đạt", "danh", "hiệu", "Tập", "thể", "lao", "động", "xuất", "sắc", "trong", "năm", "học", "2023", "-", "2024", "."],
+    "ner": [[0, 4, "TO_CHUC"], [8, 13, "DANH_HIEU_THI_DUA"], [15, 19, "THOI_GIAN"]],
+    "relations": [[0, 1, "DAT_DANH_HIEU"], [1, 2, "DUOC_XET_TRONG_THOI_GIAN"]]
+  },
+  {
+    "tokenized_text": ["Bằng", "khen", "của", "Chủ", "tịch", "UBND", "thành", "phố", "được", "trao", "cho", "tập", "thể", "có", "thành", "tích", "nổi", "bật", "."],
+    "ner": [[0, 7, "HINH_THUC_KHEN_THUONG"], [11, 12, "TAP_THE"], [14, 17, "THANH_TICH"]],
+    "relations": [[0, 1, "AP_DUNG_CHO"], [1, 2, "CO_THANH_TICH"]]
+  },
+  {
+    "tokenized_text": ["Cờ", "thi", "đua", "của", "Chính", "phủ", "được", "xem", "xét", "tặng", "cho", "đơn", "vị", "dẫn", "đầu", "phong", "trào", "thi", "đua", "."],
+    "ner": [[0, 5, "HINH_THUC_KHEN_THUONG"], [11, 12, "TO_CHUC"], [13, 18, "THANH_TICH"]],
+    "relations": [[0, 1, "AP_DUNG_CHO"], [1, 2, "CAN_CU_XET_TANG"]]
+  },
+  {
+    "tokenized_text": ["Chiến", "sĩ", "thi", "đua", "cơ", "sở", "là", "danh", "hiệu", "được", "xét", "tặng", "cho", "cá", "nhân", "đáp", "ứng", "tiêu", "chuẩn", "theo", "quy", "định", "."],
+    "ner": [[0, 5, "DANH_HIEU_THI_DUA"], [13, 14, "CA_NHAN"], [17, 18, "TIEU_CHUAN"], [20, 21, "VAN_BAN_PHAP_LUAT"]],
+    "relations": [[0, 1, "AP_DUNG_CHO"], [1, 2, "DAT_TIEU_CHUAN"], [0, 3, "CAN_CU_XET_TANG"]]
+  },
+  {
+    "tokenized_text": ["Theo", "quy", "định", "mô", "phỏng", "này", ",", "cá", "nhân", "phải", "đạt", "danh", "hiệu", "Lao", "động", "tiên", "tiến", "trước", "khi", "được", "đề", "nghị", "khen", "thưởng", "."],
+    "ner": [[7, 8, "CA_NHAN"], [13, 16, "DANH_HIEU_THI_DUA"], [20, 23, "QUY_TRINH_KHEN_THUONG"]],
+    "relations": [[0, 1, "PHAI_DAT_DANH_HIEU"], [1, 2, "THAM_GIA_QUY_TRINH"]]
+  },
+  {
+    "tokenized_text": ["Hội", "đồng", "Thi", "đua", "-", "Khen", "thưởng", "của", "đơn", "vị", "đã", "bình", "xét", "hồ", "sơ", "đề", "nghị", "tặng", "bằng", "khen", "."],
+    "ner": [[0, 6, "HOI_DONG_KHEN_THUONG"], [8, 9, "TO_CHUC"], [13, 14, "QUY_TRINH_KHEN_THUONG"], [18, 19, "HINH_THUC_KHEN_THUONG"]],
+    "relations": [[0, 2, "DUOC_BINH_XET_THONG_QUA"], [0, 1, "THAM_GIA_QUY_TRINH"]]
+  },
+  {
+    "tokenized_text": ["Bộ", "trưởng", "có", "thẩm", "quyền", "quyết", "định", "tặng", "bằng", "khen", "theo", "phạm", "vi", "được", "giao", "."],
+    "ner": [[0, 1, "CO_QUAN_NHA_NUOC"], [3, 6, "CAP_KHEN_THUONG"], [8, 9, "HINH_THUC_KHEN_THUONG"]],
+    "relations": [[0, 1, "CO_THAM_QUYEN_QUYET_DINH"], [1, 2, "CAN_CU_XET_TANG"]]
+  },
+  {
+    "tokenized_text": ["Cá", "nhân", "có", "sáng", "kiến", "được", "công", "nhận", "là", "một", "trong", "những", "thành", "tích", "phục", "vụ", "xét", "thi", "đua", "."],
+    "ner": [[0, 1, "CA_NHAN"], [3, 4, "SANG_KIEN"], [12, 15, "THANH_TICH"]],
+    "relations": [[0, 1, "CO_SANG_KIEN"], [0, 2, "CO_THANH_TICH"]]
+  },
+  {
+    "tokenized_text": ["Đề", "tài", "nghiên", "cứu", "cấp", "thành", "phố", "do", "Trần", "Thị", "Bình", "chủ", "nhiệm", "đã", "được", "nghiệm", "thu", "."],
+    "ner": [[0, 6, "CONG_TRINH_KHOA_HOC"], [8, 10, "CA_NHAN"], [15, 16, "THANH_TICH"]],
+    "relations": [[1, 0, "CO_CONG_TRINH_KHOA_HOC"], [0, 2, "CO_THANH_TICH"]]
+  },
+  {
+    "tokenized_text": ["Luật", "Thi", "đua", ",", "khen", "thưởng", "năm", "2022", "là", "văn", "bản", "pháp", "luật", "điều", "chỉnh", "hoạt", "động", "khen", "thưởng", "."],
+    "ner": [[0, 7, "VAN_BAN_PHAP_LUAT"], [13, 18, "QUY_TRINH_KHEN_THUONG"]],
+    "relations": [[1, 0, "DUOC_QUY_DINH_TAI"]]
+  },
+  {
+    "tokenized_text": ["Khoản", "2", "Điều", "8", "của", "quy", "định", "mô", "phỏng", "nêu", "rõ", "đối", "tượng", "được", "xét", "tặng", "danh", "hiệu", "."],
+    "ner": [[0, 3, "DIEU_KHOAN_PHAP_LUAT"], [5, 8, "VAN_BAN_PHAP_LUAT"], [16, 17, "DANH_HIEU_THI_DUA"]],
+    "relations": [[2, 0, "DUOC_QUY_DINH_TAI"], [1, 2, "CAN_CU_XET_TANG"]]
+  },
+  {
+    "tokenized_text": ["Thời", "gian", "xét", "thành", "tích", "được", "tính", "từ", "tháng", "1", "đến", "tháng", "12", "năm", "2024", "."],
+    "ner": [[0, 4, "THOI_GIAN"]],
+    "relations": []
+  },
+  {
+    "tokenized_text": ["Hồ", "sơ", "đề", "nghị", "khen", "thưởng", "phải", "được", "gửi", "trước", "ngày", "31", "/", "12", "/", "2024", "."],
+    "ner": [[2, 5, "QUY_TRINH_KHEN_THUONG"], [9, 15, "THOI_HAN"]],
+    "relations": []
+  },
+  {
+    "tokenized_text": ["Cấp", "khen", "thưởng", "được", "xác", "định", "theo", "thẩm", "quyền", "của", "cơ", "quan", "quyết", "định", "."],
+    "ner": [[0, 2, "CAP_KHEN_THUONG"], [10, 13, "CO_QUAN_NHA_NUOC"]],
+    "relations": [[0, 1, "CAN_CU_XET_TANG"]]
+  },
+  {
+    "tokenized_text": ["Tập", "thể", "lao", "động", "xuất", "sắc", "là", "danh", "hiệu", "thi", "đua", ",", "không", "phải", "tên", "cơ", "quan", "."],
+    "ner": [[0, 5, "DANH_HIEU_THI_DUA"]],
+    "relations": []
+  },
+  {
+    "tokenized_text": ["Bằng", "khen", "của", "Chủ", "tịch", "UBND", "thành", "phố", "là", "hình", "thức", "khen", "thưởng", "được", "xem", "xét", "trong", "ngữ", "cảnh", "mô", "phỏng", "."],
+    "ner": [[0, 7, "HINH_THUC_KHEN_THUONG"]],
+    "relations": []
+  },
+  {
+    "tokenized_text": ["Hội", "đồng", "Thi", "đua", "-", "Khen", "thưởng", "không", "phải", "là", "cơ", "quan", "nhà", "nước", "ban", "hành", "văn", "bản", "."],
+    "ner": [[0, 6, "HOI_DONG_KHEN_THUONG"], [10, 13, "CO_QUAN_NHA_NUOC"]],
+    "relations": []
+  },
+  {
+    "tokenized_text": ["Thời", "hạn", "nộp", "hồ", "sơ", "là", "ngày", "15", "/", "11", "/", "2025", ",", "còn", "thời", "gian", "thực", "hiện", "thành", "tích", "là", "cả", "năm", "2024", "."],
+    "ner": [[0, 4, "THOI_HAN"], [6, 11, "THOI_HAN"], [14, 23, "THOI_GIAN"]],
+    "relations": []
+  },
+  {
+    "tokenized_text": ["Cụm", "từ", "“", "Chiến", "sĩ", "thi", "đua", "cơ", "sở", "”", "được", "dùng", "làm", "ví", "dụ", "về", "tên", "danh", "hiệu", "."],
+    "ner": [[3, 8, "DANH_HIEU_THI_DUA"]],
+    "relations": []
+  },
+  {
+    "tokenized_text": ["Cá", "nhân", "phải", "đáp", "ứng", "điều", "kiện", "hoàn", "thành", "nhiệm", "vụ", "và", "đạt", "tiêu", "chuẩn", "đánh", "giá", "."],
+    "ner": [[0, 1, "CA_NHAN"], [5, 10, "DIEU_KIEN"], [13, 16, "TIEU_CHUAN"]],
+    "relations": [[0, 1, "DAP_UNG_DIEU_KIEN"], [0, 2, "DAT_TIEU_CHUAN"]]
+  },
+  {
+    "tokenized_text": ["Để", "được", "đề", "nghị", "tặng", "danh", "hiệu", "Chiến", "sĩ", "thi", "đua", "cơ", "sở", ",", "cá", "nhân", "phải", "đạt", "danh", "hiệu", "Lao", "động", "tiên", "tiến", "."],
+    "ner": [[5, 12, "DANH_HIEU_THI_DUA"], [14, 15, "CA_NHAN"], [20, 23, "DANH_HIEU_THI_DUA"]],
+    "relations": [[1, 0, "PHAI_DAT_DANH_HIEU"], [1, 2, "PHAI_DAT_DANH_HIEU"]]
+  },
+  {
+    "tokenized_text": ["Báo", "cáo", "thành", "tích", "của", "Trường", "Đại", "học", "A", "được", "Hội", "đồng", "Thi", "đua", "-", "Khen", "thưởng", "bình", "xét", "."],
+    "ner": [[0, 3, "QUY_TRINH_KHEN_THUONG"], [5, 8, "TO_CHUC"], [10, 16, "HOI_DONG_KHEN_THUONG"]],
+    "relations": [[0, 2, "DUOC_BINH_XET_THONG_QUA"], [1, 2, "THAM_GIA_QUY_TRINH"]]
+  },
+  {
+    "tokenized_text": ["Quyết", "định", "khen", "thưởng", "do", "Ủy", "ban", "nhân", "dân", "thành", "phố", "ban", "hành", "là", "căn", "cứ", "ghi", "nhận", "kết", "quả", "."],
+    "ner": [[0, 3, "VAN_BAN_PHAP_LUAT"], [5, 10, "CO_QUAN_NHA_NUOC"], [18, 19, "THANH_TICH"]],
+    "relations": [[0, 1, "BAN_HANH_BOI"], [0, 2, "CAN_CU_XET_TANG"]]
+  },
+  {
+    "tokenized_text": ["Bà", "Lê", "Thị", "Mai", "được", "trao", "Bằng", "khen", "của", "Chủ", "tịch", "UBND", "thành", "phố", "vì", "có", "sáng", "kiến", "được", "công", "nhận", "."],
+    "ner": [[1, 3, "CA_NHAN"], [6, 13, "HINH_THUC_KHEN_THUONG"], [16, 17, "SANG_KIEN"]],
+    "relations": [[0, 1, "DAT_DANH_HIEU"], [0, 2, "CO_SANG_KIEN"]]
+  },
+  {
+    "tokenized_text": ["Tổ", "chức", "phải", "có", "công", "trình", "khoa", "học", "được", "nghiệm", "thu", "trước", "khi", "đề", "nghị", "khen", "thưởng", "."],
+    "ner": [[0, 1, "TO_CHUC"], [4, 10, "CONG_TRINH_KHOA_HOC"], [13, 16, "QUY_TRINH_KHEN_THUONG"]],
+    "relations": [[0, 1, "CO_CONG_TRINH_KHOA_HOC"], [0, 2, "THAM_GIA_QUY_TRINH"]]
+  },
+  {
+    "tokenized_text": ["Cá", "nhân", "được", "xét", "tặng", "danh", "hiệu", "thi", "đua", "nếu", "đáp", "ứng", "đầy", "đủ", "các", "điều", "kiện", "được", "quy", "định", "."],
+    "ner": [[0, 1, "CA_NHAN"], [5, 8, "DANH_HIEU_THI_DUA"], [15, 16, "DIEU_KIEN"], [18, 19, "VAN_BAN_PHAP_LUAT"]],
+    "relations": [[0, 1, "AP_DUNG_CHO"], [0, 2, "DAP_UNG_DIEU_KIEN"], [2, 3, "DUOC_QUY_DINH_TAI"]]
+  },
+  {
+    "tokenized_text": ["Nghị", "định", "số", "98", "/", "2023", "/", "NĐ", "-", "CP", "quy", "định", "một", "số", "nội", "dung", "về", "thi", "đua", ",", "khen", "thưởng", "."],
+    "ner": [[0, 9, "VAN_BAN_PHAP_LUAT"], [17, 21, "QUY_TRINH_KHEN_THUONG"]],
+    "relations": [[1, 0, "DUOC_QUY_DINH_TAI"]]
+  },
+  {
+    "tokenized_text": ["Tập", "thể", "đạt", "danh", "hiệu", "Tập", "thể", "lao", "động", "xuất", "sắc", "sau", "khi", "hoàn", "thành", "xuất", "sắc", "nhiệm", "vụ", "."],
+    "ner": [[0, 1, "TAP_THE"], [5, 10, "DANH_HIEU_THI_DUA"], [13, 18, "THANH_TICH"]],
+    "relations": [[0, 1, "DAT_DANH_HIEU"], [0, 2, "CO_THANH_TICH"]]
+  },
+  {
+    "tokenized_text": ["Thời", "hạn", "giải", "quyết", "hồ", "sơ", "trong", "mô", "hình", "minh", "họa", "là", "20", "ngày", "kể", "từ", "khi", "nhận", "đủ", "hồ", "sơ", "."],
+    "ner": [[0, 5, "THOI_HAN"]],
+    "relations": []
+  },
+  {
+    "tokenized_text": ["Bộ", "Giáo", "dục", "và", "Đào", "tạo", "là", "cơ", "quan", "nhà", "nước", "ban", "hành", "văn", "bản", "hướng", "dẫn", "."],
+    "ner": [[0, 5, "CO_QUAN_NHA_NUOC"], [13, 14, "VAN_BAN_PHAP_LUAT"]],
+    "relations": [[1, 0, "BAN_HANH_BOI"]]
+  },
+  {
+    "tokenized_text": ["Danh", "hiệu", "Lao", "động", "tiên", "tiến", "không", "đồng", "nghĩa", "với", "hình", "thức", "Bằng", "khen", "."],
+    "ner": [[2, 5, "DANH_HIEU_THI_DUA"], [12, 13, "HINH_THUC_KHEN_THUONG"]],
+    "relations": []
+  },
+  {
+    "tokenized_text": ["Cá", "nhân", "đã", "đạt", "tiêu", "chuẩn", "đánh", "giá", "trong", "đợt", "xét", "thi", "đua", "năm", "2025", "."],
+    "ner": [[0, 1, "CA_NHAN"], [4, 7, "TIEU_CHUAN"], [13, 14, "THOI_GIAN"]],
+    "relations": [[0, 1, "DAT_TIEU_CHUAN"], [0, 2, "DUOC_XET_TRONG_THOI_GIAN"]]
+  },
+  {
+    "tokenized_text": ["Quy", "trình", "khen", "thưởng", "trong", "mô", "hình", "gồm", "tiếp", "nhận", "hồ", "sơ", ",", "thẩm", "định", "và", "trình", "cấp", "có", "thẩm", "quyền", "."],
+    "ner": [[0, 3, "QUY_TRINH_KHEN_THUONG"], [9, 11, "QUY_TRINH_KHEN_THUONG"], [13, 14, "QUY_TRINH_KHEN_THUONG"], [16, 20, "CAP_KHEN_THUONG"]],
+    "relations": [[1, 0, "KE_THUA_TU"], [2, 0, "KE_THUA_TU"], [1, 3, "THAM_GIA_QUY_TRINH"], [2, 3, "THAM_GIA_QUY_TRINH"]]
+  },
+  {
+    "tokenized_text": ["Đơn", "vị", "được", "đề", "nghị", "tặng", "Cờ", "thi", "đua", "của", "Chính", "phủ", "vì", "có", "thành", "tích", "dẫn", "đầu", "phong", "trào", "."],
+    "ner": [[0, 1, "TO_CHUC"], [6, 11, "HINH_THUC_KHEN_THUONG"], [14, 19, "THANH_TICH"]],
+    "relations": [[0, 1, "CAN_CU_XET_TANG"], [0, 2, "CO_THANH_TICH"]]
+  },
+  {
+    "tokenized_text": ["Theo", "Điều", "12", "của", "quy", "định", "mô", "phỏng", ",", "cá", "nhân", "được", "xét", "tặng", "bằng", "khen", "nếu", "đạt", "các", "yêu", "cầu", "."],
+    "ner": [[1, 2, "DIEU_KHOAN_PHAP_LUAT"], [4, 7, "VAN_BAN_PHAP_LUAT"], [9, 10, "CA_NHAN"], [14, 15, "HINH_THUC_KHEN_THUONG"], [18, 20, "DIEU_KIEN"]],
+    "relations": [[0, 1, "DUOC_QUY_DINH_TAI"], [2, 3, "AP_DUNG_CHO"], [2, 4, "DAP_UNG_DIEU_KIEN"]]
+  },
+  {
+    "tokenized_text": ["Trong", "năm", "2024", ",", "Trường", "Đại", "học", "Cần", "Thơ", "đã", "công", "nhận", "hai", "sáng", "kiến", "của", "giảng", "viên", "."],
+    "ner": [[1, 2, "THOI_GIAN"], [4, 8, "TO_CHUC"], [13, 14, "SANG_KIEN"], [16, 17, "CA_NHAN"]],
+    "relations": [[3, 2, "CO_SANG_KIEN"]]
+  },
+  {
+    "tokenized_text": ["Hội", "đồng", "Thi", "đua", "-", "Khen", "thưởng", "đã", "thẩm", "định", "hồ", "sơ", "trước", "khi", "trình", "Chủ", "tịch", "quyết", "định", "."],
+    "ner": [[0, 6, "HOI_DONG_KHEN_THUONG"], [10, 11, "QUY_TRINH_KHEN_THUONG"], [15, 16, "CAP_KHEN_THUONG"]],
+    "relations": [[0, 1, "THAM_GIA_QUY_TRINH"], [0, 2, "DUOC_BINH_XET_THONG_QUA"]]
+  },
+  {
+    "tokenized_text": ["Bằng", "khen", "của", "Chủ", "tịch", "UBND", "thành", "phố", "được", "trao", "cho", "tập", "thể", "Trung", "tâm", "Y", "tế", "A", "."],
+    "ner": [[0, 7, "HINH_THUC_KHEN_THUONG"], [11, 17, "TO_CHUC"]],
+    "relations": [[0, 1, "AP_DUNG_CHO"]]
+  },
+  {
+    "tokenized_text": ["Cá", "nhân", "được", "xét", "tặng", "danh", "hiệu", "Chiến", "sĩ", "thi", "đua", "cơ", "sở", "sau", "hai", "năm", "liên", "tục", "đạt", "Lao", "động", "tiên", "tiến", "."],
+    "ner": [[0, 1, "CA_NHAN"], [5, 12, "DANH_HIEU_THI_DUA"], [14, 17, "THOI_GIAN"], [19, 22, "DANH_HIEU_THI_DUA"]],
+    "relations": [[0, 1, "AP_DUNG_CHO"], [0, 3, "PHAI_DAT_DANH_HIEU"]]
+  },
+  {
+    "tokenized_text": ["Công", "trình", "nghiên", "cứu", "được", "Hội", "đồng", "khoa", "học", "nghiệm", "thu", "đạt", "yêu", "cầu", "."],
+    "ner": [[0, 3, "CONG_TRINH_KHOA_HOC"], [5, 8, "HOI_DONG_KHEN_THUONG"], [12, 13, "TIEU_CHUAN"]],
+    "relations": [[0, 2, "DAT_TIEU_CHUAN"]]
+  },
+  {
+    "tokenized_text": ["Đơn", "vị", "có", "thành", "tích", "xuất", "sắc", "trong", "phong", "trào", "thi", "đua", "được", "đề", "nghị", "khen", "thưởng", "."],
+    "ner": [[0, 1, "TO_CHUC"], [3, 11, "THANH_TICH"], [13, 16, "QUY_TRINH_KHEN_THUONG"]],
+    "relations": [[0, 1, "CO_THANH_TICH"], [0, 2, "THAM_GIA_QUY_TRINH"]]
+  },
+  {
+    "tokenized_text": ["Quy", "định", "mô", "phỏng", "ghi", "nhận", "thời", "hạn", "nộp", "hồ", "sơ", "là", "15", "ngày", "kể", "từ", "ngày", "thông", "báo", "."],
+    "ner": [[0, 3, "VAN_BAN_PHAP_LUAT"], [6, 13, "THOI_HAN"]],
+    "relations": [[1, 0, "DUOC_QUY_DINH_TAI"]]
+  },
+  {
+    "tokenized_text": ["Bà", "Phạm", "Thu", "Hà", "được", "công", "nhận", "có", "sáng", "kiến", "cải", "tiến", "quy", "trình", "."],
+    "ner": [[1, 3, "CA_NHAN"], [8, 13, "SANG_KIEN"]],
+    "relations": [[0, 1, "CO_SANG_KIEN"]]
+  },
+  {
+    "tokenized_text": ["Cấp", "khen", "thưởng", "thành", "phố", "khác", "với", "Bằng", "khen", "của", "Chủ", "tịch", "UBND", "thành", "phố", "."],
+    "ner": [[0, 4, "CAP_KHEN_THUONG"], [7, 14, "HINH_THUC_KHEN_THUONG"]],
+    "relations": []
+  },
+  {
+    "tokenized_text": ["Tập", "thể", "đạt", "tiêu", "chuẩn", "đánh", "giá", "nhưng", "chưa", "được", "công", "nhận", "danh", "hiệu", "."],
+    "ner": [[0, 1, "TAP_THE"], [3, 6, "TIEU_CHUAN"], [12, 13, "DANH_HIEU_THI_DUA"]],
+    "relations": [[0, 1, "DAT_TIEU_CHUAN"]]
+  },
+  {
+    "tokenized_text": ["Giấy", "khen", "của", "Hiệu", "trưởng", "được", "xem", "xét", "trên", "cơ", "sở", "thành", "tích", "học", "tập", "và", "rèn", "luyện", "."],
+    "ner": [[0, 4, "HINH_THUC_KHEN_THUONG"], [11, 17, "THANH_TICH"]],
+    "relations": [[0, 1, "CAN_CU_XET_TANG"]]
+  },
+  {
+    "tokenized_text": ["Trong", "quy", "trình", "mô", "phỏng", ",", "hồ", "sơ", "được", "thẩm", "định", "bởi", "Phòng", "Tổ", "chức", "cán", "bộ", "."],
+    "ner": [[1, 4, "QUY_TRINH_KHEN_THUONG"], [6, 10, "QUY_TRINH_KHEN_THUONG"], [12, 16, "TO_CHUC"]],
+    "relations": [[1, 0, "THAM_GIA_QUY_TRINH"]]
+  },
+  {
+    "tokenized_text": ["Cá", "nhân", "được", "đề", "nghị", "tặng", "Bằng", "khen", "của", "Chủ", "tịch", "UBND", "thành", "phố", "vì", "có", "hai", "đề", "tài", "đã", "nghiệm", "thu", "."],
+    "ner": [[0, 1, "CA_NHAN"], [6, 13, "HINH_THUC_KHEN_THUONG"], [17, 21, "CONG_TRINH_KHOA_HOC"]],
+    "relations": [[0, 1, "AP_DUNG_CHO"], [0, 2, "CO_CONG_TRINH_KHOA_HOC"]]
+  },
+  {
+    "tokenized_text": ["Nghị", "định", "và", "thông", "tư", "là", "hai", "loại", "văn", "bản", "pháp", "luật", "khác", "nhau", "."],
+    "ner": [[0, 1, "VAN_BAN_PHAP_LUAT"], [3, 4, "VAN_BAN_PHAP_LUAT"]],
+    "relations": []
+  },
+  {
+    "tokenized_text": ["Cá", "nhân", "phải", "đạt", "danh", "hiệu", "Lao", "động", "tiên", "tiến", "trong", "thời", "gian", "xét", "thi", "đua", "để", "được", "xem", "xét", "danh", "hiệu", "cao", "hơn", "."],
+    "ner": [[0, 1, "CA_NHAN"], [4, 9, "DANH_HIEU_THI_DUA"], [11, 15, "THOI_GIAN"], [20, 23, "DANH_HIEU_THI_DUA"]],
+    "relations": [[0, 1, "PHAI_DAT_DANH_HIEU"], [0, 3, "DUOC_XET_TRONG_THOI_GIAN"]]
+  },
+  {
+    "tokenized_text": ["Hội", "đồng", "Thi", "đua", "-", "Khen", "thưởng", "đề", "xuất", "cấp", "có", "thẩm", "quyền", "xem", "xét", "hồ", "sơ", "."],
+    "ner": [[0, 6, "HOI_DONG_KHEN_THUONG"], [9, 12, "CAP_KHEN_THUONG"], [15, 16, "QUY_TRINH_KHEN_THUONG"]],
+    "relations": [[0, 2, "DUOC_BINH_XET_THONG_QUA"], [0, 1, "THAM_GIA_QUY_TRINH"]]
+  },
+  {
+    "tokenized_text": ["Trường", "Đại", "học", "A", "được", "công", "nhận", "là", "tập", "thể", "có", "thành", "tích", "nghiên", "cứu", "nổi", "bật", "."],
+    "ner": [[0, 3, "TO_CHUC"], [8, 9, "TAP_THE"], [11, 16, "THANH_TICH"]],
+    "relations": [[0, 1, "DUOC_CONG_NHAN_BOI"], [1, 2, "CO_THANH_TICH"]]
+  },
+  {
+    "tokenized_text": ["Theo", "quy", "định", "mô", "phỏng", ",", "danh", "hiệu", "Tập", "thể", "lao", "động", "xuất", "sắc", "được", "xét", "tặng", "cho", "đơn", "vị", "đủ", "điều", "kiện", "."],
+    "ner": [[1, 4, "VAN_BAN_PHAP_LUAT"], [6, 13, "DANH_HIEU_THI_DUA"], [18, 19, "TO_CHUC"], [21, 22, "DIEU_KIEN"]],
+    "relations": [[1, 0, "DUOC_QUY_DINH_TAI"], [1, 2, "AP_DUNG_CHO"], [2, 3, "DAP_UNG_DIEU_KIEN"]]
+  },
+  
+  {
+    "tokenized_text": ["Ông", "Nguyễn", "Văn", "An", "được", "công", "nhận", "danh", "hiệu", "Chiến", "sĩ", "thi", "đua", "cơ", "sở", "sau", "khi", "đạt", "tiêu", "chuẩn", "hoàn", "thành", "xuất", "sắc", "nhiệm", "vụ", "và", "có", "sáng", "kiến", "được", "công", "nhận."],
+    "ner": [[1, 3, "CA_NHAN"], [7, 14, "DANH_HIEU_THI_DUA"], [18, 23, "TIEU_CHUAN"], [24, 25, "THANH_TICH"], [28, 29, "SANG_KIEN"]],
+    "relations": [[0, 1, "DAT_DANH_HIEU"], [0, 2, "DAT_TIEU_CHUAN"], [0, 3, "CO_THANH_TICH"], [0, 4, "CO_SANG_KIEN"]]
+  },
+  {
+    "tokenized_text": ["Tập", "thể", "Phòng", "Nghiên", "cứu", "khoa", "học", "được", "đề", "nghị", "tặng", "Bằng", "khen", "của", "Chủ", "tịch", "UBND", "thành", "phố", "vì", "có", "công", "trình", "khoa", "học", "được", "ứng", "dụng", "hiệu", "quả."],
+    "ner": [[0, 6, "TAP_THE"], [11, 18, "HINH_THUC_KHEN_THUONG"], [21, 28, "CONG_TRINH_KHOA_HOC"]],
+    "relations": [[0, 2, "CO_CONG_TRINH_KHOA_HOC"]]
+  },
+  {
+    "tokenized_text": ["Cờ", "thi", "đua", "của", "Chính", "phủ", "được", "xét", "tặng", "cho", "tập", "thể", "có", "thành", "tích", "xuất", "sắc", "trong", "phong", "trào", "thi", "đua", "toàn", "quốc."],
+    "ner": [[0, 5, "DANH_HIEU_THI_DUA"], [10, 11, "TAP_THE"], [13, 16, "THANH_TICH"], [18, 23, "THANH_TICH"]],
+    "relations": [[1, 2, "CO_THANH_TICH"], [0, 1, "AP_DUNG_CHO"]]
+  },
+  {
+    "tokenized_text": ["Hội", "đồng", "Thi", "đua", "–", "Khen", "thưởng", "của", "đơn", "vị", "thực", "hiện", "việc", "bình", "xét", "danh", "hiệu", "Lao", "động", "tiên", "tiến."],
+    "ner": [[0, 9, "HOI_DONG_KHEN_THUONG"], [15, 20, "DANH_HIEU_THI_DUA"], [13, 14, "QUY_TRINH_KHEN_THUONG"]],
+    "relations": [[0, 2, "DUOC_BINH_XET_THONG_QUA"]]
+  },
+  {
+    "tokenized_text": ["Theo", "mô", "hình", "dữ", "liệu", "mô", "phỏng", "này,", "viên", "chức", "phải", "đạt", "danh", "hiệu", "Lao", "động", "tiên", "tiến", "trước", "khi", "được", "xem", "xét", "tặng", "danh", "hiệu", "Chiến", "sĩ", "thi", "đua", "cơ", "sở."],
+    "ner": [[8, 9, "CA_NHAN"], [12, 17, "DANH_HIEU_THI_DUA"], [24, 31, "DANH_HIEU_THI_DUA"]],
+    "relations": [[0, 1, "PHAI_DAT_DANH_HIEU"]]
+  },
+  {
+    "tokenized_text": ["Quyết", "định", "khen", "thưởng", "do", "Chủ", "tịch", "Ủy", "ban", "nhân", "dân", "thành", "phố", "ban", "hành", "ghi", "nhận", "thành", "tích", "đổi", "mới", "quy", "trình", "giải", "quyết", "công", "việc", "của", "tập", "thể."],
+    "ner": [[0, 3, "VAN_BAN_PHAP_LUAT"], [5, 12, "CO_QUAN_NHA_NUOC"], [17, 26, "THANH_TICH"], [28, 29, "TAP_THE"]],
+    "relations": [[0, 1, "BAN_HANH_BOI"], [3, 2, "CO_THANH_TICH"]]
+  },
+  {
+    "tokenized_text": ["Trong", "năm", "2025,", "bà", "Trần", "Thị", "Mai", "đạt", "thành", "tích", "giúp", "đỡ", "năm", "hộ", "nông", "dân", "thoát", "nghèo", "ổn", "định."],
+    "ner": [[1, 2, "THOI_GIAN"], [3, 6, "CA_NHAN"], [8, 17, "THANH_TICH"]],
+    "relations": [[1, 2, "CO_THANH_TICH"]]
+  },
+  {
+    "tokenized_text": ["Điều", "kiện", "mô", "phỏng", "để", "được", "đề", "nghị", "khen", "thưởng", "là", "có", "sáng", "kiến", "mang", "lại", "hiệu", "quả", "thiết", "thực."],
+    "ner": [[0, 1, "DIEU_KIEN"], [11, 19, "SANG_KIEN"]],
+    "relations": []
+  },
+  {
+    "tokenized_text": ["Bằng", "khen", "của", "Thủ", "tướng", "Chính", "phủ", "là", "hình", "thức", "khen", "thưởng", "được", "xem", "xét", "trong", "mô", "hình", "thi", "đua", "giả", "định."],
+    "ner": [[0, 6, "HINH_THUC_KHEN_THUONG"], [16, 21, "THANH_TICH"]],
+    "relations": []
+  },
+  {
+    "tokenized_text": ["Tập", "thể", "lao", "động", "xuất", "sắc", "được", "đề", "nghị", "tặng", "Cờ", "thi", "đua", "của", "Chính", "phủ", "theo", "quy", "trình", "xét", "khen", "thưởng", "của", "đơn", "vị."],
+    "ner": [[0, 5, "DANH_HIEU_THI_DUA"], [10, 15, "DANH_HIEU_THI_DUA"], [17, 21, "QUY_TRINH_KHEN_THUONG"], [23, 24, "TO_CHUC"]],
+    "relations": [[0, 1, "DAT_DANH_HIEU"], [1, 2, "DUOC_BINH_XET_THONG_QUA"]]
+  }
+  ,
+  {
+    "tokenized_text": ["Ông", "Lê", "Quốc", "Bình", "có", "sáng", "kiến", "cải", "tiến", "kỹ", "thuật", "được", "Hội", "đồng", "sáng", "kiến", "của", "đơn", "vị", "công", "nhận."],
+    "ner": [[1, 3, "CA_NHAN"], [5, 10, "SANG_KIEN"], [12, 18, "HOI_DONG_KHEN_THUONG"]],
+    "relations": [[0, 1, "CO_SANG_KIEN"], [2, 1, "DUOC_CONG_NHAN_BOI"]]
+  },
+  {
+    "tokenized_text": ["Tập", "thể", "Trung", "tâm", "Công", "nghệ", "thông", "tin", "đạt", "danh", "hiệu", "Tập", "thể", "lao", "động", "xuất", "sắc", "trong", "năm", "2025."],
+    "ner": [[0, 7, "TAP_THE"], [9, 16, "DANH_HIEU_THI_DUA"], [18, 19, "THOI_GIAN"]],
+    "relations": [[0, 1, "DAT_DANH_HIEU"], [0, 2, "DUOC_XET_TRONG_THOI_GIAN"]]
+  },
+  {
+    "tokenized_text": ["Theo", "Điều", "15", "của", "Quy", "chế", "thi", "đua,", "khen", "thưởng", "giả", "định,", "viên", "chức", "phải", "có", "ít", "nhất", "một", "sáng", "kiến", "được", "công", "nhận."],
+    "ner": [[1, 2, "DIEU_KHOAN_PHAP_LUAT"], [4, 11, "VAN_BAN_PHAP_LUAT"], [12, 13, "CA_NHAN"], [16, 20, "DIEU_KIEN"], [19, 20, "SANG_KIEN"]],
+    "relations": [[2, 4, "DUOC_QUY_DINH_TAI"], [2, 3, "DAP_UNG_DIEU_KIEN"]]
+  },
+  {
+    "tokenized_text": ["Bằng", "khen", "của", "Chủ", "tịch", "UBND", "thành", "phố", "được", "đề", "nghị", "tặng", "cho", "cá", "nhân", "có", "thành", "tích", "đột", "xuất."],
+    "ner": [[0, 7, "HINH_THUC_KHEN_THUONG"], [13, 14, "CA_NHAN"], [16, 19, "THANH_TICH"]],
+    "relations": [[0, 1, "AP_DUNG_CHO"], [1, 2, "CO_THANH_TICH"]]
+  },
+  {
+    "tokenized_text": ["Hội", "đồng", "Thi", "đua", "–", "Khen", "thưởng", "xem", "xét", "hồ", "sơ", "đề", "nghị", "tặng", "danh", "hiệu", "Chiến", "sĩ", "thi", "đua", "cơ", "sở."],
+    "ner": [[0, 6, "HOI_DONG_KHEN_THUONG"], [9, 12, "QUY_TRINH_KHEN_THUONG"], [14, 21, "DANH_HIEU_THI_DUA"]],
+    "relations": [[0, 2, "DUOC_BINH_XET_THONG_QUA"]]
+  },
+  {
+    "tokenized_text": ["Cá", "nhân", "được", "đề", "nghị", "xét", "tặng", "danh", "hiệu", "Chiến", "sĩ", "thi", "đua", "cơ", "sở", "khi", "đáp", "ứng", "đầy", "đủ", "các", "tiêu", "chuẩn", "theo", "quy", "định", "áp", "dụng."],
+    "ner": [[0, 1, "CA_NHAN"], [7, 14, "DANH_HIEU_THI_DUA"], [21, 22, "TIEU_CHUAN"]],
+    "relations": [[0, 1, "PHAI_DAT_DANH_HIEU"], [0, 2, "DAT_TIEU_CHUAN"]]
+  },
+  {
+    "tokenized_text": ["Trong", "hai", "năm", "liên", "tục,", "mô", "hình", "sản", "xuất", "của", "ông", "Phạm", "Văn", "Hùng", "mang", "lại", "hiệu", "quả", "kinh", "tế", "ổn", "định."],
+    "ner": [[1, 4, "THOI_GIAN"], [5, 9, "THANH_TICH"], [10, 13, "CA_NHAN"]],
+    "relations": [[2, 1, "CO_THANH_TICH"]]
+  },
+  {
+    "tokenized_text": ["Huân", "chương", "Lao", "động", "là", "hình", "thức", "khen", "thưởng", "được", "xem", "xét", "theo", "thành", "tích", "của", "cá", "nhân", "hoặc", "tập", "thể."],
+    "ner": [[0, 3, "HINH_THUC_KHEN_THUONG"], [13, 14, "THANH_TICH"], [16, 17, "CA_NHAN"], [19, 20, "TAP_THE"]],
+    "relations": [[1, 2, "CAN_CU_XET_TANG"], [1, 3, "CAN_CU_XET_TANG"]]
+  },
+  {
+    "tokenized_text": ["Quy", "trình", "khen", "thưởng", "giả", "định", "yêu", "cầu", "cơ", "quan", "chuyên", "môn", "thẩm", "định", "hồ", "sơ", "trước", "khi", "trình", "cấp", "có", "thẩm", "quyền", "quyết", "định."],
+    "ner": [[0, 3, "QUY_TRINH_KHEN_THUONG"], [8, 13, "CO_QUAN_NHA_NUOC"], [19, 22, "CAP_KHEN_THUONG"]],
+    "relations": [[0, 1, "THAM_GIA_QUY_TRINH"]]
+  },
+  {
+    "tokenized_text": ["Danh", "hiệu", "Lao", "động", "tiên", "tiến", "được", "xét", "tặng", "cho", "người", "lao", "động", "đáp", "ứng", "tiêu", "chuẩn", "hoàn", "thành", "tốt", "nhiệm", "vụ."],
+    "ner": [[0, 5, "DANH_HIEU_THI_DUA"], [10, 12, "CA_NHAN"], [15, 16, "TIEU_CHUAN"], [17, 21, "THANH_TICH"]],
+    "relations": [[0, 1, "AP_DUNG_CHO"], [1, 2, "DAT_TIEU_CHUAN"], [1, 3, "CO_THANH_TICH"]]
+  },
+  {
+    "tokenized_text": ["Tập", "thể", "được", "đề", "nghị", "tặng", "Cờ", "thi", "đua", "của", "Chính", "phủ", "phải", "đạt", "thành", "tích", "nổi", "bật", "trong", "phong", "trào", "thi", "đua."],
+    "ner": [[0, 1, "TAP_THE"], [6, 11, "DANH_HIEU_THI_DUA"], [14, 17, "THANH_TICH"]],
+    "relations": [[0, 1, "PHAI_DAT_DANH_HIEU"], [0, 2, "CO_THANH_TICH"]]
+  },
+  {
+    "tokenized_text": ["Quyết", "định", "số", "12/2025/QĐ-UBND", "do", "Ủy", "ban", "nhân", "dân", "thành", "phố", "ban", "hành", "quy", "định", "quy", "trình", "xét", "khen", "thưởng", "cấp", "thành", "phố."],
+    "ner": [[0, 3, "VAN_BAN_PHAP_LUAT"], [5, 10, "CO_QUAN_NHA_NUOC"], [20, 22, "CAP_KHEN_THUONG"]],
+    "relations": [[0, 1, "BAN_HANH_BOI"]]
+  },
+  {
+    "tokenized_text": ["Bà", "Đặng", "Thị", "Lan", "có", "công", "trình", "nghiên", "cứu", "về", "cải", "cách", "hành", "chính", "được", "nghiệm", "thu."],
+    "ner": [[0, 3, "CA_NHAN"], [5, 13, "CONG_TRINH_KHOA_HOC"], [14, 16, "THANH_TICH"]],
+    "relations": [[0, 1, "CO_CONG_TRINH_KHOA_HOC"], [0, 2, "CO_THANH_TICH"]]
+  },
+  {
+    "tokenized_text": ["Tập", "thể", "Trường", "Trung", "học", "phổ", "thông", "A", "được", "công", "nhận", "danh", "hiệu", "Tập", "thể", "lao", "động", "xuất", "sắc."],
+    "ner": [[0, 7, "TAP_THE"], [11, 18, "DANH_HIEU_THI_DUA"]],
+    "relations": [[0, 1, "DAT_DANH_HIEU"]]
+  },
+  {
+    "tokenized_text": ["Theo", "quy", "định", "giả", "định", "của", "đơn", "vị,", "hồ", "sơ", "khen", "thưởng", "phải", "có", "báo", "cáo", "thành", "tích", "và", "biên", "bản", "họp", "xét", "duyệt."],
+    "ner": [[1, 4, "VAN_BAN_PHAP_LUAT"], [8, 11, "QUY_TRINH_KHEN_THUONG"], [16, 17, "THANH_TICH"]],
+    "relations": [[1, 2, "DUOC_QUY_DINH_TAI"]]
+  },
+  {
+    "tokenized_text": ["Chiến", "sĩ", "thi", "đua", "cơ", "sở", "là", "danh", "hiệu", "thi", "đua", "dành", "cho", "cá", "nhân", "đáp", "ứng", "các", "tiêu", "chuẩn", "tương", "ứng."],
+    "ner": [[0, 5, "DANH_HIEU_THI_DUA"], [13, 14, "CA_NHAN"], [18, 19, "TIEU_CHUAN"]],
+    "relations": [[0, 1, "AP_DUNG_CHO"], [1, 2, "DAT_TIEU_CHUAN"]]
+  },
+  {
+    "tokenized_text": ["Trong", "thời", "hạn", "30", "ngày", "kể", "từ", "khi", "nhận", "đủ", "hồ", "sơ,", "đơn", "vị", "thực", "hiện", "việc", "xét", "khen", "thưởng", "theo", "quy", "trình", "nội", "bộ", "giả", "định."],
+    "ner": [[1, 4, "THOI_HAN"], [10, 11, "QUY_TRINH_KHEN_THUONG"], [22, 24, "QUY_TRINH_KHEN_THUONG"]],
+    "relations": [[1, 2, "DUOC_XET_TRONG_THOI_GIAN"]]
+  },
+  {
+    "tokenized_text": ["Hội", "đồng", "Thi", "đua", "–", "Khen", "thưởng", "có", "trách", "nhiệm", "thẩm", "định", "thành", "tích", "của", "các", "tập", "thể", "được", "đề", "nghị", "khen", "thưởng."],
+    "ner": [[0, 6, "HOI_DONG_KHEN_THUONG"], [12, 13, "THANH_TICH"], [16, 17, "TAP_THE"]],
+    "relations": [[0, 1, "CAN_CU_XET_TANG"], [2, 1, "CO_THANH_TICH"]]
+  },
+  {
+    "tokenized_text": ["Cá", "nhân", "có", "thành", "tích", "xuất", "sắc", "trong", "công", "tác", "cứu", "hộ", "được", "đề", "nghị", "khen", "thưởng", "đột", "xuất."],
+    "ner": [[0, 1, "CA_NHAN"], [3, 6, "THANH_TICH"], [8, 11, "THANH_TICH"]],
+    "relations": [[0, 1, "CO_THANH_TICH"], [0, 2, "CO_THANH_TICH"]]
+  },
+  {
+    "tokenized_text": ["Huân", "chương", "Bảo", "vệ", "Tổ", "quốc", "là", "hình", "thức", "khen", "thưởng", "trong", "lĩnh", "vực", "quốc", "phòng", "và", "an", "ninh."],
+    "ner": [[0, 5, "HINH_THUC_KHEN_THUONG"]],
+    "relations": []
+  },
+  {
+    "tokenized_text": ["Ông", "Võ", "Minh", "Tuấn", "được", "xét", "tặng", "danh", "hiệu", "Chiến", "sĩ", "thi", "đua", "cơ", "sở", "trên", "cơ", "sở", "thành", "tích", "công", "tác", "và", "sáng", "kiến", "được", "công", "nhận."],
+    "ner": [[1, 3, "CA_NHAN"], [7, 14, "DANH_HIEU_THI_DUA"], [18, 21, "THANH_TICH"], [23, 24, "SANG_KIEN"]],
+    "relations": [[0, 1, "PHAI_DAT_DANH_HIEU"], [0, 2, "CO_THANH_TICH"], [0, 3, "CO_SANG_KIEN"]]
+  },
+  {
+    "tokenized_text": ["Cơ", "quan", "chuyên", "môn", "thuộc", "Ủy", "ban", "nhân", "dân", "thành", "phố", "tổng", "hợp", "hồ", "sơ", "đề", "nghị", "khen", "thưởng."],
+    "ner": [[0, 10, "CO_QUAN_NHA_NUOC"], [13, 16, "QUY_TRINH_KHEN_THUONG"]],
+    "relations": [[0, 1, "THAM_GIA_QUY_TRINH"]]
+  },
+  {
+    "tokenized_text": ["Danh", "hiệu", "thi", "đua", "không", "phải", "là", "hình", "thức", "khen", "thưởng", "theo", "cách", "phân", "loại", "được", "sử", "dụng", "trong", "mẫu", "dữ", "liệu", "này."],
+    "ner": [[0, 3, "DANH_HIEU_THI_DUA"], [7, 10, "HINH_THUC_KHEN_THUONG"]],
+    "relations": []
+  },
+  {
+    "tokenized_text": ["Tập", "thể", "được", "đề", "nghị", "tặng", "danh", "hiệu", "Tập", "thể", "lao", "động", "xuất", "sắc", "khi", "đáp", "ứng", "tiêu", "chuẩn", "đánh", "giá", "theo", "quy", "định", "áp", "dụng."],
+    "ner": [[0, 1, "TAP_THE"], [6, 13, "DANH_HIEU_THI_DUA"], [17, 20, "TIEU_CHUAN"]],
+    "relations": [[0, 1, "PHAI_DAT_DANH_HIEU"], [0, 2, "DAT_TIEU_CHUAN"]]
+  },
+  {
+    "tokenized_text": ["Nghị", "định", "số", "91/2017/NĐ-CP", "là", "văn", "bản", "pháp", "luật", "được", "dùng", "làm", "căn", "cứ", "tham", "khảo", "trong", "mẫu", "mô", "phỏng."],
+    "ner": [[0, 3, "VAN_BAN_PHAP_LUAT"], [5, 8, "VAN_BAN_PHAP_LUAT"]],
+    "relations": []
+  },
+  {
+    "tokenized_text": ["Cá", "nhân", "được", "đề", "nghị", "tặng", "Bằng", "khen", "của", "Chủ", "tịch", "UBND", "thành", "phố", "vì", "đã", "có", "đóng", "góp", "nổi", "bật", "cho", "cộng", "đồng."],
+    "ner": [[0, 1, "CA_NHAN"], [6, 13, "HINH_THUC_KHEN_THUONG"], [17, 20, "THANH_TICH"]],
+    "relations": [[0, 1, "CAN_CU_XET_TANG"], [0, 2, "CO_THANH_TICH"]]
+  },
+  {
+    "tokenized_text": ["Hội", "đồng", "khen", "thưởng", "không", "phải", "là", "cơ", "quan", "ban", "hành", "văn", "bản", "pháp", "luật", "trong", "mẫu", "phân", "biệt", "này."],
+    "ner": [[0, 3, "HOI_DONG_KHEN_THUONG"], [7, 14, "CO_QUAN_NHA_NUOC"], [11, 14, "VAN_BAN_PHAP_LUAT"]],
+    "relations": []
+  },
+  {
+    "tokenized_text": ["Thời", "gian", "tổ", "chức", "phong", "trào", "thi", "đua", "kéo", "dài", "từ", "tháng", "1", "đến", "tháng", "12", "năm", "2025."],
+    "ner": [[0, 9, "THOI_GIAN"], [11, 17, "THOI_GIAN"]],
+    "relations": []
+  },
+  {
+    "tokenized_text": ["Thời", "hạn", "nộp", "hồ", "sơ", "đề", "nghị", "khen", "thưởng", "là", "15", "ngày", "kể", "từ", "ngày", "kết", "thúc", "đợt", "thi", "đua", "theo", "quy", "trình", "giả", "định."],
+    "ner": [[0, 1, "THOI_HAN"], [3, 8, "QUY_TRINH_KHEN_THUONG"], [10, 11, "THOI_HAN"]],
+    "relations": []
+  },
+  {
+    "tokenized_text": ["Công", "trình", "nghiên", "cứu", "của", "nhóm", "tác", "giả", "được", "nghiệm", "thu", "và", "ứng", "dụng", "trong", "thực", "tiễn."],
+    "ner": [[0, 3, "CONG_TRINH_KHOA_HOC"], [4, 7, "TAP_THE"], [9, 16, "THANH_TICH"]],
+    "relations": [[1, 0, "CO_CONG_TRINH_KHOA_HOC"], [1, 2, "CO_THANH_TICH"]]
+  },
+  {
+    "tokenized_text": ["Cấp", "khen", "thưởng", "cấp", "thành", "phố", "được", "xác", "định", "theo", "thẩm", "quyền", "của", "cơ", "quan", "có", "thẩm", "quyền."],
+    "ner": [[0, 5, "CAP_KHEN_THUONG"], [13, 17, "CO_QUAN_NHA_NUOC"]],
+    "relations": []
+  },
+  {
+    "tokenized_text": ["Tập", "thể", "Phòng", "Tài", "chính", "–", "Kế", "toán", "có", "thành", "tích", "tiết", "kiệm", "ngân", "sách", "và", "cải", "thiện", "hiệu", "quả", "quản", "lý."],
+    "ner": [[0, 7, "TAP_THE"], [9, 14, "THANH_TICH"], [16, 21, "THANH_TICH"]],
+    "relations": [[0, 1, "CO_THANH_TICH"], [0, 2, "CO_THANH_TICH"]]
+  },
+  {
+    "tokenized_text": ["Theo", "mẫu", "dữ", "liệu", "giả", "định,", "danh", "hiệu", "Chiến", "sĩ", "thi", "đua", "toàn", "quốc", "được", "phân", "biệt", "với", "Huân", "chương", "Lao", "động."],
+    "ner": [[6, 13, "DANH_HIEU_THI_DUA"], [18, 21, "HINH_THUC_KHEN_THUONG"]],
+    "relations": []
+  },
+  {
+    "tokenized_text": ["Cá", "nhân", "phải", "đạt", "danh", "hiệu", "Lao", "động", "tiên", "tiến", "trước", "khi", "được", "đề", "nghị", "xét", "danh", "hiệu", "Chiến", "sĩ", "thi", "đua", "cơ", "sở."],
+    "ner": [[0, 1, "CA_NHAN"], [4, 9, "DANH_HIEU_THI_DUA"], [16, 23, "DANH_HIEU_THI_DUA"]],
+    "relations": [[0, 1, "PHAI_DAT_DANH_HIEU"], [0, 2, "PHAI_DAT_DANH_HIEU"]]
+  },
+  {
+    "tokenized_text": ["Hội", "đồng", "Thi", "đua", "–", "Khen", "thưởng", "đề", "xuất", "hình", "thức", "khen", "thưởng", "phù", "hợp", "với", "thành", "tích", "được", "xác", "minh."],
+    "ner": [[0, 6, "HOI_DONG_KHEN_THUONG"], [9, 14, "HINH_THUC_KHEN_THUONG"], [16, 17, "THANH_TICH"]],
+    "relations": [[0, 1, "CAN_CU_XET_TANG"], [1, 2, "CAN_CU_XET_TANG"]]
+  },
+  {
+    "tokenized_text": ["Văn", "bản", "hướng", "dẫn", "nội", "bộ", "của", "đơn", "vị", "quy", "định", "thành", "phần", "hồ", "sơ", "đề", "nghị", "xét", "tặng", "danh", "hiệu", "thi", "đua."],
+    "ner": [[0, 5, "VAN_BAN_PHAP_LUAT"], [13, 18, "QUY_TRINH_KHEN_THUONG"], [19, 22, "DANH_HIEU_THI_DUA"]],
+    "relations": [[0, 1, "DUOC_QUY_DINH_TAI"]]
+  },
+  {
+    "tokenized_text": ["Bà", "Nguyễn", "Thị", "Hòa", "đạt", "thành", "tích", "vận", "động", "người", "dân", "tham", "gia", "bảo", "vệ", "môi", "trường."],
+    "ner": [[1, 3, "CA_NHAN"], [5, 16, "THANH_TICH"]],
+    "relations": [[0, 1, "CO_THANH_TICH"]]
+  },
+  {
+    "tokenized_text": ["Cờ", "thi", "đua", "của", "Chính", "phủ", "là", "danh", "hiệu", "thi", "đua", "được", "nêu", "trong", "mẫu", "dữ", "liệu", "mô", "phỏng."],
+    "ner": [[0, 5, "DANH_HIEU_THI_DUA"]],
+    "relations": []
+  },
+  {
+    "tokenized_text": ["Cơ", "quan", "nhà", "nước", "có", "thẩm", "quyền", "quyết", "định", "tặng", "danh", "hiệu", "thi", "đua", "theo", "quy", "định", "áp", "dụng."],
+    "ner": [[0, 8, "CO_QUAN_NHA_NUOC"], [10, 13, "DANH_HIEU_THI_DUA"]],
+    "relations": [[0, 1, "CO_THAM_QUYEN_QUYET_DINH"]]
+  },
+  {
+    "tokenized_text": ["Sáng", "kiến", "của", "viên", "chức", "được", "Hội", "đồng", "sáng", "kiến", "công", "nhận", "sau", "quá", "trình", "đánh", "giá."],
+    "ner": [[0, 1, "SANG_KIEN"], [3, 4, "CA_NHAN"], [6, 11, "HOI_DONG_KHEN_THUONG"], [12, 16, "QUY_TRINH_KHEN_THUONG"]],
+    "relations": [[1, 0, "CO_SANG_KIEN"], [0, 2, "DUOC_CONG_NHAN_BOI"]]
+  },
+  {
+    "tokenized_text": ["Tập", "thể", "được", "xét", "tặng", "danh", "hiệu", "Tập", "thể", "lao", "động", "xuất", "sắc", "nếu", "đáp", "ứng", "điều", "kiện", "về", "kết", "quả", "hoạt", "động."],
+    "ner": [[0, 1, "TAP_THE"], [5, 12, "DANH_HIEU_THI_DUA"], [16, 17, "DIEU_KIEN"], [19, 22, "THANH_TICH"]],
+    "relations": [[0, 1, "PHAI_DAT_DANH_HIEU"], [0, 2, "DAP_UNG_DIEU_KIEN"], [0, 3, "CO_THANH_TICH"]]
+  },
+  {
+    "tokenized_text": ["Điều", "8", "của", "quy", "chế", "khen", "thưởng", "giả", "định", "đề", "cập", "đến", "trách", "nhiệm", "của", "Hội", "đồng", "Thi", "đua", "–", "Khen", "thưởng."],
+    "ner": [[0, 1, "DIEU_KHOAN_PHAP_LUAT"], [3, 8, "VAN_BAN_PHAP_LUAT"], [15, 21, "HOI_DONG_KHEN_THUONG"]],
+    "relations": [[2, 1, "DUOC_QUY_DINH_TAI"]]
+  },
+  {
+    "tokenized_text": ["Trong", "quý", "IV", "năm", "2025,", "đơn", "vị", "tổ", "chức", "bình", "xét", "các", "danh", "hiệu", "thi", "đua", "cuối", "năm."],
+    "ner": [[1, 4, "THOI_GIAN"], [5, 8, "TO_CHUC"], [9, 10, "QUY_TRINH_KHEN_THUONG"], [12, 15, "DANH_HIEU_THI_DUA"]],
+    "relations": [[1, 2, "DUOC_XET_TRONG_THOI_GIAN"], [2, 3, "DUOC_BINH_XET_THONG_QUA"]]
+  },
+  {
+    "tokenized_text": ["Huân", "chương", "Độc", "lập", "hạng", "Nhất", "là", "hình", "thức", "khen", "thưởng", "có", "tên", "gọi", "riêng", "trong", "hệ", "thống", "khen", "thưởng."],
+    "ner": [[0, 5, "HINH_THUC_KHEN_THUONG"]],
+    "relations": []
+  },
+  {
+    "tokenized_text": ["Cá", "nhân", "được", "đề", "nghị", "tặng", "danh", "hiệu", "Chiến", "sĩ", "thi", "đua", "cơ", "sở", "phải", "đáp", "ứng", "tiêu", "chuẩn", "và", "điều", "kiện", "tương", "ứng."],
+    "ner": [[0, 1, "CA_NHAN"], [6, 13, "DANH_HIEU_THI_DUA"], [17, 18, "TIEU_CHUAN"], [20, 21, "DIEU_KIEN"]],
+    "relations": [[0, 1, "PHAI_DAT_DANH_HIEU"], [0, 2, "DAT_TIEU_CHUAN"], [0, 3, "DAP_UNG_DIEU_KIEN"]]
+  },
+  {
+    "tokenized_text": ["Tập", "thể", "được", "tặng", "Bằng", "khen", "của", "Chủ", "tịch", "UBND", "thành", "phố", "vì", "đã", "hoàn", "thành", "xuất", "sắc", "nhiệm", "vụ", "được", "giao."],
+    "ner": [[0, 1, "TAP_THE"], [4, 11, "HINH_THUC_KHEN_THUONG"], [14, 19, "THANH_TICH"]],
+    "relations": [[0, 1, "DAT_DANH_HIEU"], [0, 2, "CO_THANH_TICH"]]
+  }
+]

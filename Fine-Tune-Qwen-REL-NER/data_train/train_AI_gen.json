@@ -1,0 +1,943 @@
+
+[
+  {
+    "instruction": "Cá nhân có thành tích nổi bật trong thực hiện nhiệm vụ chuyên môn được đề nghị xét tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố.",
+    "response": {
+      "entities": [
+        {
+          "text": "Cá nhân",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "thành tích nổi bật trong thực hiện nhiệm vụ",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "Bằng khen của Chủ tịch Ủy ban nhân dân thành",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Bằng khen của Chủ tịch Ủy ban nhân dân thành",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Cá nhân"
+        },
+        {
+          "subject": "Cá nhân",
+          "predicate": "CO_THANH_TICH",
+          "object": "thành tích nổi bật trong thực hiện nhiệm vụ"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Tập thể có đóng góp thiết thực vào phong trào thi đua của đơn vị được đề nghị xét tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố.",
+    "response": {
+      "entities": [
+        {
+          "text": "Tập thể",
+          "label": "TAP_THE"
+        },
+        {
+          "text": "đóng góp thiết thực vào phong trào thi đua của đơn vị",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "Bằng khen của Chủ tịch Ủy ban nhân dân thành",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Bằng khen của Chủ tịch Ủy ban nhân dân thành",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Tập thể"
+        },
+        {
+          "subject": "Tập thể",
+          "predicate": "CO_THANH_TICH",
+          "object": "đóng góp thiết thực vào phong trào thi đua của đơn vị"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Tổ chức được xem xét tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố khi có kết quả nổi bật trong hoạt động phục vụ cộng đồng.",
+    "response": {
+      "entities": [
+        {
+          "text": "Tổ chức",
+          "label": "TO_CHUC"
+        },
+        {
+          "text": "Bằng khen của Chủ tịch Ủy ban nhân dân thành",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "kết quả nổi bật trong hoạt động phục vụ cộng đồng",
+          "label": "THANH_TICH"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Bằng khen của Chủ tịch Ủy ban nhân dân thành",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Tổ chức"
+        },
+        {
+          "subject": "Tổ chức",
+          "predicate": "CO_THANH_TICH",
+          "object": "kết quả nổi bật trong hoạt động phục vụ cộng đồng"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Cá nhân có sáng kiến cải tiến phương pháp làm việc mang lại hiệu quả được đề nghị xét tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố.",
+    "response": {
+      "entities": [
+        {
+          "text": "Cá nhân",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "sáng kiến cải tiến phương pháp làm việc mang lại hiệu quả",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "Bằng khen của Chủ tịch Ủy ban nhân dân thành",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Bằng khen của Chủ tịch Ủy ban nhân dân thành",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Cá nhân"
+        },
+        {
+          "subject": "Cá nhân",
+          "predicate": "DAT_TIEU_CHUAN",
+          "object": "sáng kiến cải tiến phương pháp làm việc mang lại hiệu quả"
+        },
+        {
+          "subject": "Cá nhân",
+          "predicate": "CO_SANG_KIEN",
+          "object": "sáng kiến cải tiến phương pháp làm việc mang lại hiệu quả"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Tập thể hoàn thành vượt mức kế hoạch công tác được giao được đề nghị xét tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố.",
+    "response": {
+      "entities": [
+        {
+          "text": "Tập thể",
+          "label": "TAP_THE"
+        },
+        {
+          "text": "hoàn thành vượt mức kế hoạch công tác được giao",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "Bằng khen của Chủ tịch Ủy ban nhân dân thành",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Bằng khen của Chủ tịch Ủy ban nhân dân thành",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Tập thể"
+        },
+        {
+          "subject": "Tập thể",
+          "predicate": "DAT_TIEU_CHUAN",
+          "object": "hoàn thành vượt mức kế hoạch công tác được giao"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Cơ quan nhà nước có thành tích tiêu biểu trong thực hiện nhiệm vụ cải cách hành chính được đề nghị xét tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố.",
+    "response": {
+      "entities": [
+        {
+          "text": "Cơ quan nhà nước",
+          "label": "CO_QUAN_NHA_NUOC"
+        },
+        {
+          "text": "thành tích tiêu biểu trong thực hiện nhiệm vụ cải cách",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "Bằng khen của Chủ tịch Ủy ban nhân dân thành",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Bằng khen của Chủ tịch Ủy ban nhân dân thành",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Cơ quan nhà nước"
+        },
+        {
+          "subject": "Cơ quan nhà nước",
+          "predicate": "CO_THANH_TICH",
+          "object": "thành tích tiêu biểu trong thực hiện nhiệm vụ cải cách"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Cá nhân có đóng góp tích cực trong công tác phòng chống thiên tai được xem xét tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố.",
+    "response": {
+      "entities": [
+        {
+          "text": "Cá nhân",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "đóng góp tích cực trong công tác phòng chống thiên",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "Bằng khen của Chủ tịch Ủy ban nhân dân thành",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Bằng khen của Chủ tịch Ủy ban nhân dân thành",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Cá nhân"
+        },
+        {
+          "subject": "Cá nhân",
+          "predicate": "CO_THANH_TICH",
+          "object": "đóng góp tích cực trong công tác phòng chống thiên"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Tổ chức phối hợp hiệu quả trong triển khai nhiệm vụ liên ngành được đề nghị xét tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố.",
+    "response": {
+      "entities": [
+        {
+          "text": "Tổ chức",
+          "label": "TO_CHUC"
+        },
+        {
+          "text": "phối hợp hiệu quả trong triển khai nhiệm vụ liên ngành",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "Bằng khen của Chủ tịch Ủy ban nhân dân thành",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Bằng khen của Chủ tịch Ủy ban nhân dân thành",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Tổ chức"
+        },
+        {
+          "subject": "Tổ chức",
+          "predicate": "DAT_TIEU_CHUAN",
+          "object": "phối hợp hiệu quả trong triển khai nhiệm vụ liên ngành"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Tập thể có kết quả nổi bật trong cải tiến quy trình giải quyết công việc được đề nghị xét tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố.",
+    "response": {
+      "entities": [
+        {
+          "text": "Tập thể",
+          "label": "TAP_THE"
+        },
+        {
+          "text": "kết quả nổi bật trong cải tiến quy trình giải quyết công việc",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "Bằng khen của Chủ tịch Ủy ban nhân dân thành",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Bằng khen của Chủ tịch Ủy ban nhân dân thành",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Tập thể"
+        },
+        {
+          "subject": "Tập thể",
+          "predicate": "CO_THANH_TICH",
+          "object": "kết quả nổi bật trong cải tiến quy trình giải quyết công việc"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Cá nhân có thành tích xuất sắc trong hoạt động phổ biến kiến thức pháp luật cho cộng đồng được đề nghị xét tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố.",
+    "response": {
+      "entities": [
+        {
+          "text": "Cá nhân",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "thành tích xuất sắc trong hoạt động phổ biến kiến thức pháp luật cho cộng đồng",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "Bằng khen của Chủ tịch Ủy ban nhân dân thành",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Bằng khen của Chủ tịch Ủy ban nhân dân thành",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Cá nhân"
+        },
+        {
+          "subject": "Cá nhân",
+          "predicate": "CO_THANH_TICH",
+          "object": "thành tích xuất sắc trong hoạt động phổ biến kiến thức pháp luật cho cộng đồng"
+        }
+      ]
+    }
+  },
+
+  {
+    "instruction": "Cá nhân hoàn thành xuất sắc nhiệm vụ hoặc có sáng kiến được cơ sở công nhận để được xét tặng danh hiệu “Chiến sĩ thi đua cơ sở”.",
+    "response": {
+      "entities": [
+        {
+          "text": "Chiến sĩ thi đua cơ sở",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Cá nhân",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "hoàn thành xuất sắc nhiệm vụ",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "sáng kiến được cơ sở công nhận",
+          "label": "DIEU_KIEN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Chiến sĩ thi đua cơ sở",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Cá nhân"
+        },
+        {
+          "subject": "Cá nhân",
+          "predicate": "DAT_TIEU_CHUAN",
+          "object": "hoàn thành xuất sắc nhiệm vụ"
+        },
+        {
+          "subject": "Cá nhân",
+          "predicate": "CO_SANG_KIEN",
+          "object": "sáng kiến được cơ sở công nhận"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Cá nhân có đề tài nghiên cứu khoa học đã được nghiệm thu và áp dụng hiệu quả để được xét tặng danh hiệu “Chiến sĩ thi đua cơ sở”.",
+    "response": {
+      "entities": [
+        {
+          "text": "Chiến sĩ thi đua cơ sở",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Cá nhân",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "đề tài nghiên cứu khoa học",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "đã được nghiệm thu và áp dụng hiệu quả",
+          "label": "DIEU_KIEN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Chiến sĩ thi đua cơ sở",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Cá nhân"
+        },
+        {
+          "subject": "Cá nhân",
+          "predicate": "CO_CONG_TRINH_KHOA_HOC",
+          "object": "đề tài nghiên cứu khoa học"
+        },
+        {
+          "subject": "Cá nhân",
+          "predicate": "DAT_TIEU_CHUAN",
+          "object": "đã được nghiệm thu và áp dụng hiệu quả"
+        }
+      ]
+    }
+  },
+  
+  {
+    "instruction": "Cá nhân hoặc tập thể có thành tích xuất sắc trong thực hiện nhiệm vụ công tác để được xét tặng danh hiệu “Bằng khen của Chủ tịch Ủy ban nhân dân cấp tỉnh”.",
+    "response": {
+      "entities": [
+        {
+          "text": "Bằng khen của Chủ tịch Ủy ban nhân dân cấp tỉnh",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Cá nhân",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "tập thể",
+          "label": "TAP_THE"
+        },
+        {
+          "text": "thành tích xuất sắc trong thực hiện nhiệm vụ công tác",
+          "label": "THANH_TICH"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Bằng khen của Chủ tịch Ủy ban nhân dân cấp tỉnh",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Cá nhân"
+        },
+        {
+          "subject": "Bằng khen của Chủ tịch Ủy ban nhân dân cấp tỉnh",
+          "predicate": "AP_DUNG_CHO",
+          "object": "tập thể"
+        },
+        {
+          "subject": "Cá nhân",
+          "predicate": "CO_THANH_TICH",
+          "object": "thành tích xuất sắc trong thực hiện nhiệm vụ công tác"
+        },
+        {
+          "subject": "tập thể",
+          "predicate": "CO_THANH_TICH",
+          "object": "thành tích xuất sắc trong thực hiện nhiệm vụ công tác"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Cá nhân hoặc tập thể có đóng góp tích cực cho sự phát triển kinh tế - xã hội của tỉnh để được xét tặng danh hiệu “Bằng khen của Chủ tịch Ủy ban nhân dân cấp tỉnh”.",
+    "response": {
+      "entities": [
+        {
+          "text": "Bằng khen của Chủ tịch Ủy ban nhân dân cấp tỉnh",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Cá nhân",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "tập thể",
+          "label": "TAP_THE"
+        },
+        {
+          "text": "đóng góp tích cực cho sự phát triển kinh tế - xã hội của tỉnh",
+          "label": "THANH_TICH"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Bằng khen của Chủ tịch Ủy ban nhân dân cấp tỉnh",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Cá nhân"
+        },
+        {
+          "subject": "Bằng khen của Chủ tịch Ủy ban nhân dân cấp tỉnh",
+          "predicate": "AP_DUNG_CHO",
+          "object": "tập thể"
+        },
+        {
+          "subject": "Cá nhân",
+          "predicate": "CO_THANH_TICH",
+          "object": "đóng góp tích cực cho sự phát triển kinh tế - xã hội của tỉnh"
+        },
+        {
+          "subject": "tập thể",
+          "predicate": "CO_THANH_TICH",
+          "object": "đóng góp tích cực cho sự phát triển kinh tế - xã hội của tỉnh"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Cá nhân hoặc tập thể có thành tích đột xuất có phạm vi ảnh hưởng trong địa phương để được xét tặng danh hiệu “Bằng khen của Chủ tịch Ủy ban nhân dân cấp tỉnh”.",
+    "response": {
+      "entities": [
+        {
+          "text": "Bằng khen của Chủ tịch Ủy ban nhân dân cấp tỉnh",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Cá nhân",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "tập thể",
+          "label": "TAP_THE"
+        },
+        {
+          "text": "thành tích đột xuất có phạm vi ảnh hưởng trong địa phương",
+          "label": "THANH_TICH"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Bằng khen của Chủ tịch Ủy ban nhân dân cấp tỉnh",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Cá nhân"
+        },
+        {
+          "subject": "Bằng khen của Chủ tịch Ủy ban nhân dân cấp tỉnh",
+          "predicate": "AP_DUNG_CHO",
+          "object": "tập thể"
+        },
+        {
+          "subject": "Cá nhân",
+          "predicate": "CO_THANH_TICH",
+          "object": "thành tích đột xuất có phạm vi ảnh hưởng trong địa phương"
+        },
+        {
+          "subject": "tập thể",
+          "predicate": "CO_THANH_TICH",
+          "object": "thành tích đột xuất có phạm vi ảnh hưởng trong địa phương"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Cá nhân có thành tích xuất sắc tiêu biểu trong số những người ba lần liên tục đạt danh hiệu “Chiến sĩ thi đua cơ sở” để được xét tặng danh hiệu “Chiến sĩ thi đua cấp bộ, ban, ngành, tỉnh”.",
+    "response": {
+      "entities": [
+        {
+          "text": "Chiến sĩ thi đua cấp bộ, ban, ngành, tỉnh",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Cá nhân",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "thành tích xuất sắc tiêu biểu",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "ba lần liên tục",
+          "label": "THOI_GIAN"
+        },
+        {
+          "text": "Chiến sĩ thi đua cơ sở",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Chiến sĩ thi đua cấp bộ, ban, ngành, tỉnh",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Cá nhân"
+        },
+        {
+          "subject": "Cá nhân",
+          "predicate": "CO_THANH_TICH",
+          "object": "thành tích xuất sắc tiêu biểu"
+        },
+        {
+          "subject": "Cá nhân",
+          "predicate": "DAT_DANH_HIEU",
+          "object": "Chiến sĩ thi đua cơ sở"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Cá nhân được xét tặng danh hiệu “Chiến sĩ thi đua cấp bộ, ban, ngành, tỉnh” khi sáng kiến của cá nhân được áp dụng hiệu quả và có khả năng nhân rộng trong phạm vi cấp bộ, ban, ngành hoặc tỉnh.",
+    "response": {
+      "entities": [
+        {
+          "text": "Chiến sĩ thi đua cấp bộ, ban, ngành, tỉnh",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Cá nhân",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "sáng kiến của cá nhân",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "được áp dụng hiệu quả",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "có khả năng nhân rộng trong phạm vi cấp bộ, ban, ngành hoặc tỉnh",
+          "label": "DIEU_KIEN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Chiến sĩ thi đua cấp bộ, ban, ngành, tỉnh",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Cá nhân"
+        },
+        {
+          "subject": "Cá nhân",
+          "predicate": "CO_SANG_KIEN",
+          "object": "sáng kiến của cá nhân"
+        },
+        {
+          "subject": "Cá nhân",
+          "predicate": "DAT_TIEU_CHUAN",
+          "object": "được áp dụng hiệu quả"
+        },
+        {
+          "subject": "Cá nhân",
+          "predicate": "DAT_TIEU_CHUAN",
+          "object": "có khả năng nhân rộng trong phạm vi cấp bộ, ban, ngành hoặc tỉnh"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Tập thể được xét tặng danh hiệu “Tập thể lao động tiên tiến” khi nội bộ tập thể đoàn kết và thực hiện tốt quy chế dân chủ ở cơ sở.",
+    "response": {
+      "entities": [
+        {
+          "text": "Tập thể lao động tiên tiến",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Tập thể",
+          "label": "TAP_THE"
+        },
+        {
+          "text": "nội bộ tập thể đoàn kết",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "thực hiện tốt quy chế dân chủ ở cơ sở",
+          "label": "DIEU_KIEN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Tập thể lao động tiên tiến",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Tập thể"
+        },
+        {
+          "subject": "Tập thể",
+          "predicate": "DAT_TIEU_CHUAN",
+          "object": "nội bộ tập thể đoàn kết"
+        },
+        {
+          "subject": "Tập thể",
+          "predicate": "DAT_TIEU_CHUAN",
+          "object": "thực hiện tốt quy chế dân chủ ở cơ sở"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Tập thể được xét tặng danh hiệu “Tập thể lao động tiên tiến” khi trên 50% cá nhân trong tập thể đạt danh hiệu “Lao động tiên tiến”.",
+    "response": {
+      "entities": [
+        {
+          "text": "Tập thể lao động tiên tiến",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Tập thể",
+          "label": "TAP_THE"
+        },
+        {
+          "text": "trên 50%",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "cá nhân trong tập thể",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "Lao động tiên tiến",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Tập thể lao động tiên tiến",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Tập thể"
+        },
+        {
+          "subject": "Tập thể",
+          "predicate": "DAT_TIEU_CHUAN",
+          "object": "trên 50%"
+        },
+        {
+          "subject": "Tập thể",
+          "predicate": "DAT_TIEU_CHUAN",
+          "object": "cá nhân trong tập thể"
+        },
+        {
+          "subject": "cá nhân trong tập thể",
+          "predicate": "DAT_DANH_HIEU",
+          "object": "Lao động tiên tiến"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Cá nhân tích cực học tập chính trị, văn hóa, chuyên môn và nghiệp vụ để được xét tặng danh hiệu “Lao động tiên tiến”.",
+    "response": {
+      "entities": [
+        {
+          "text": "Lao động tiên tiến",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Cá nhân",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "tích cực học tập chính trị, văn hóa, chuyên môn và nghiệp vụ",
+          "label": "DIEU_KIEN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Lao động tiên tiến",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Cá nhân"
+        },
+        {
+          "subject": "Cá nhân",
+          "predicate": "DAT_TIEU_CHUAN",
+          "object": "tích cực học tập chính trị, văn hóa, chuyên môn và nghiệp vụ"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Cá nhân tích cực tham gia phong trào thi đua để được xét tặng danh hiệu “Lao động tiên tiến”.",
+    "response": {
+      "entities": [
+        {
+          "text": "Lao động tiên tiến",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Cá nhân",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "tích cực tham gia phong trào thi đua",
+          "label": "DIEU_KIEN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Lao động tiên tiến",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Cá nhân"
+        },
+        {
+          "subject": "Cá nhân",
+          "predicate": "DAT_TIEU_CHUAN",
+          "object": "tích cực tham gia phong trào thi đua"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Cá nhân chấp hành tốt chủ trương của Đảng, chính sách và pháp luật của Nhà nước để được xét tặng danh hiệu “Lao động tiên tiến”.",
+    "response": {
+      "entities": [
+        {
+          "text": "Lao động tiên tiến",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Cá nhân",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "chấp hành tốt chủ trương của Đảng, chính sách và pháp luật của Nhà nước",
+          "label": "DIEU_KIEN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Lao động tiên tiến",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Cá nhân"
+        },
+        {
+          "subject": "Cá nhân",
+          "predicate": "DAT_TIEU_CHUAN",
+          "object": "chấp hành tốt chủ trương của Đảng, chính sách và pháp luật của Nhà nước"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Cá nhân hoàn thành tốt nhiệm vụ được giao để được xét tặng danh hiệu “Lao động tiên tiến”.",
+    "response": {
+      "entities": [
+        {
+          "text": "Lao động tiên tiến",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Cá nhân",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "hoàn thành tốt nhiệm vụ được giao",
+          "label": "DIEU_KIEN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Lao động tiên tiến",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Cá nhân"
+        },
+        {
+          "subject": "Cá nhân",
+          "predicate": "DAT_TIEU_CHUAN",
+          "object": "hoàn thành tốt nhiệm vụ được giao"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Cá nhân có đề tài, đề án hoặc công trình khoa học đã được nghiệm thu và áp dụng hiệu quả để được xét tặng danh hiệu “Chiến sĩ thi đua cấp bộ, ban, ngành, tỉnh”.",
+    "response": {
+      "entities": [
+        {
+          "text": "Chiến sĩ thi đua cấp bộ, ban, ngành, tỉnh",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Cá nhân",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "đề tài khoa học",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "đề án khoa học",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "công trình khoa học",
+          "label": "DIEU_KIEN"
+        },
+        {
+          "text": "đã được nghiệm thu và áp dụng hiệu quả",
+          "label": "DIEU_KIEN"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Chiến sĩ thi đua cấp bộ, ban, ngành, tỉnh",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Cá nhân"
+        },
+        {
+          "subject": "Cá nhân",
+          "predicate": "CO_CONG_TRINH_KHOA_HOC",
+          "object": "đề tài khoa học"
+        },
+        {
+          "subject": "Cá nhân",
+          "predicate": "CO_CONG_TRINH_KHOA_HOC",
+          "object": "đề án khoa học"
+        },
+        {
+          "subject": "Cá nhân",
+          "predicate": "CO_CONG_TRINH_KHOA_HOC",
+          "object": "công trình khoa học"
+        },
+        {
+          "subject": "Cá nhân",
+          "predicate": "DAT_TIEU_CHUAN",
+          "object": "đã được nghiệm thu và áp dụng hiệu quả"
+        }
+      ]
+    }
+  },
+  {
+    "instruction": "Cá nhân có thành tích xuất sắc tiêu biểu trong số những người ba lần liên tục đạt danh hiệu “Chiến sĩ thi đua cơ sở” để được xét tặng danh hiệu “Chiến sĩ thi đua cấp bộ, ban, ngành, tỉnh”.",
+    "response": {
+      "entities": [
+        {
+          "text": "Chiến sĩ thi đua cấp bộ, ban, ngành, tỉnh",
+          "label": "DANH_HIEU_THI_DUA"
+        },
+        {
+          "text": "Cá nhân",
+          "label": "CA_NHAN"
+        },
+        {
+          "text": "thành tích xuất sắc tiêu biểu",
+          "label": "THANH_TICH"
+        },
+        {
+          "text": "ba lần liên tục",
+          "label": "THOI_GIAN"
+        },
+        {
+          "text": "Chiến sĩ thi đua cơ sở",
+          "label": "DANH_HIEU_THI_DUA"
+        }
+      ],
+      "relations": [
+        {
+          "subject": "Chiến sĩ thi đua cấp bộ, ban, ngành, tỉnh",
+          "predicate": "AP_DUNG_CHO",
+          "object": "Cá nhân"
+        },
+        {
+          "subject": "Cá nhân",
+          "predicate": "CO_THANH_TICH",
+          "object": "thành tích xuất sắc tiêu biểu"
+        },
+        {
+          "subject": "Cá nhân",
+          "predicate": "DAT_DANH_HIEU",
+          "object": "Chiến sĩ thi đua cơ sở"
+        }
+      ]
+    }
+  }
+]
