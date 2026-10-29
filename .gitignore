@@ -14,5 +14,9 @@ ENV/
 *.pycache
 
 
+./Data
+./Dataset
+
+
 #Bỏ các model 
 ./Models/Fast_text_model/fast_text_model.bin
