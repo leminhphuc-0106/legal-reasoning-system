@@ -1,4 +1,7 @@
+/* index.css
+   CSS toàn cục: biến màu/typography, style cơ bản cho body và khung #root. */
 :root {
+  /* Bảng màu và font dùng chung cho toàn ứng dụng */
   --text: #6b6375;
   --text-h: #08060d;
   --bg: #fff;
@@ -30,6 +33,7 @@
   }
 }
 
+/* Ghi đè bảng màu khi hệ điều hành bật chế độ tối */
 @media (prefers-color-scheme: dark) {
   :root {
     --text: #9ca3af;
@@ -54,6 +58,7 @@ body {
   margin: 0;
 }
 
+/* Khung gốc chứa toàn bộ ứng dụng, căn giữa và giới hạn chiều rộng */
 #root {
   width: 1126px;
   max-width: 100%;

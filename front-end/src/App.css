@@ -1,30 +1,34 @@
+/* App.css
+   Toàn bộ style giao diện: biến màu, thanh tiêu đề, khung chat, bảng kết quả,
+   thẻ tiêu chí, responsive và chế độ in báo cáo. */
 
 @import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&display=swap");
 
 :root {
   font-family: "Be Vietnam Pro", "Segoe UI", Arial, sans-serif;
-  color: #172b45;
+  color: #235da9;
   background: #f4f7fb;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --navy: #173b65;
+  --navy: #25548b;
   --navy-dark: #112d4c;
   --blue: #2868a8;
   --blue-soft: #eaf3fc;
   --border: #e1e7ef;
   --muted: #738197;
   --surface: #ffffff;
-  --green: #168052;
+  --green: #177c50;
   --green-bg: #eaf7f0;
-  --red: #b83d45;
+  --red: #ff525d;
   --red-bg: #fff0f0;
   --amber: #996a12;
   --amber-bg: #fff6e3;
 }
 
+/* Reset cơ bản và thiết lập nền tảng cho toàn trang */
 * {
   box-sizing: border-box;
 }
@@ -214,7 +218,7 @@ textarea:focus-visible {
 
 .workspace {
   display: grid;
-  grid-template-columns: minmax(320px, 0.88fr) minmax(0, 1.12fr);
+  grid-template-columns: minmax(400px, 1.05fr) minmax(0, 0.95fr);
   flex: 1;
   min-height: calc(100vh - 82px);
 }
@@ -395,8 +399,8 @@ textarea:focus-visible {
 }
 
 .composer-hint {
-  color: #96a1b0;
-  font-size: 9px;
+  color: #7b8797;
+  font-size: 14px;
   line-height: 1.5;
 }
 
@@ -429,20 +433,27 @@ textarea:focus-visible {
 
 .results-heading {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
   gap: 16px;
   margin-bottom: 18px;
 }
 
+/* .title-results-heading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
 .results-heading h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   align-items: center;
   gap: 9px;
   margin: 0;
   color: var(--navy-dark);
   font-size: 19px;
-  font-weight: 800;
+  font-weight: 750;
   letter-spacing: -0.6px;
   line-height: 1.5;
 }
@@ -820,7 +831,7 @@ textarea:focus-visible {
 
 .criteria-heading {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 13px;
@@ -902,7 +913,7 @@ textarea:focus-visible {
 .criterion-card {
   padding: 17px;
   border: 1px solid var(--border);
-  border-left: 4px solid #b9c5d4;
+  border-left: 10px solid #b9c5d4;
   border-radius: 11px;
   background: #fff;
 }
@@ -916,7 +927,7 @@ textarea:focus-visible {
 }
 
 .criterion-card.pending {
-  border-left-color: #d39a2f;
+  border-left-color: #ffcf76;
 }
 
 .criterion-top {
