@@ -1,24 +1,74 @@
-# Environment variables
+# =========================================================
+# .gitignore
+# Mục tiêu: không đưa các thư mục sinh ra khi chạy, môi trường ảo,
+# model, dữ liệu lớn và file tạm vào repository.
+# =========================================================
+
+# ---------- Environment variables ----------
 .env
 .env.*
 !.env.example
 
-# Python virtual environments
+# ---------- Python virtual environments ----------
 venv/
 .venv/
 env/
 ENV/
 
-# Text files
+# ---------- Python cache / build ----------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# ---------- Dữ liệu và model lớn ở thư mục gốc (giữ cả biến thể chữ hoa/thường) ----------
+/models/
+/Models/
+/data/
+/Data/
+/data_test/
+/Data_test/
+/Dataset/
+/dataset/
+/offload/
+/offloads/
+
+# ---------- File model / archive lớn ----------
+*.bin
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.zip
+*.7z
+*.rar
+
+# ---------- Kết quả sinh ra từ pipeline ----------
+app/result/chunking/
+app/result/filter_sentences/
+app/result/ner_rel/
+app/result/full_pipeline/
+
+# ---------- Front-end ----------
+node_modules/
+front-end/dist/
+front-end/.vite/
+front-end/coverage/
+*.local
+
+# ---------- Log và file hệ điều hành ----------
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- Dump / text tạm ----------
 *.txt
-*.pycache
-
-
-./Data
-./Dataset
-
-
-#Bỏ các model 
-./models
-
-./offload
