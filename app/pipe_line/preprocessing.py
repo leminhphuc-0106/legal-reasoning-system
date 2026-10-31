@@ -17,34 +17,34 @@ POINT_RE = re.compile(
 
 
 #hàm đọc dữ liệu từ file pdf
-def read_from_file(file_path):
-    from pdf2image import convert_from_path
-    import pytesseract
-    from pdf2image.pdf2image import pdfinfo_from_path
-    document = pdfinfo_from_path(file_path)
-    total_pages = document["Pages"]
+# def read_from_file(file_path):
+#     from pdf2image import convert_from_path
+#     import pytesseract
+#     from pdf2image.pdf2image import pdfinfo_from_path
+#     document = pdfinfo_from_path(file_path)
+#     total_pages = document["Pages"]
 
-    print(f"PDF có {total_pages} trang")
+#     print(f"PDF có {total_pages} trang")
 
-    text = ""
+#     text = ""
 
-    for page_num in range(1, total_pages + 1):
-        print(f"OCR trang {page_num}/{total_pages}...")
-        image = convert_from_path(
-            file_path,
-            first_page=page_num,
-            last_page=page_num
-        )[0]
+#     for page_num in range(1, total_pages + 1):
+#         print(f"OCR trang {page_num}/{total_pages}...")
+#         image = convert_from_path(
+#             file_path,
+#             first_page=page_num,
+#             last_page=page_num
+#         )[0]
 
-        page_text = pytesseract.image_to_string(
-            image,
-            lang="vie"
-        )
-        text += f"\n===== TRANG {page_num} =====\n"
-        text += page_text
+#         page_text = pytesseract.image_to_string(
+#             image,
+#             lang="vie"
+#         )
+#         text += f"\n===== TRANG {page_num} =====\n"
+#         text += page_text
 
-    print(text)
-    return text
+#     print(text)
+#     return text
 
 
 #Hàm chunking theo cấu trúc

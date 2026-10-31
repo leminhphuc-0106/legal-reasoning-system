@@ -528,6 +528,41 @@ textarea:focus-visible {
   gap: 8px;
 }
 
+/* Nhóm nút "Thêm hồ sơ" kèm menu chọn tải file hoặc thư mục */
+
+.upload-button-group {
+  position: relative;
+}
+
+.upload-menu {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  min-width: 190px;
+  padding: 6px;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 9px;
+  box-shadow: 0 8px 20px rgba(17, 45, 76, 0.12);
+}
+
+.upload-menu button {
+  padding: 10px 12px;
+  border: none;
+  border-radius: 6px;
+  color: #36516f;
+  background: transparent;
+  font-size: 11px;
+  text-align: left;
+}
+
+.upload-menu button:hover {
+  background: #f0f5fb;
+}
+
 /* Uploaded legal documents */
 
 .law-files {

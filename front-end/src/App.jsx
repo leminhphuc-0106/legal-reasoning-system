@@ -9,7 +9,7 @@ import SummaryCard from "./components/SummaryCard.jsx";
 import CriteriaList from "./components/CriteriaList.jsx";
 import Icon from "./components/Icon.jsx";
 import { initialCriteria, initialCandidates } from "./data/initialData.js";
-import { normalizeCriteria, normalizeCandidate, readJsonFile } from "./utils/normalize.js";
+import { normalizeCandidate, readJsonFile } from "./utils/normalize.js";
 import { askAssistant } from "./services/chatService.js";
 import "./App.css";
 
@@ -19,9 +19,10 @@ const welcomeMessage = "Xin chào! Tôi có thể hỗ trợ tra cứu quy đị
 export default function App() {
   // Các ref trỏ tới input file ẩn, dùng để mở hộp chọn tệp từ nút bấm.
   // => DÙNG ĐỂ TẢI CÁC FILE LÊN
-  const criteriaInput = useRef(null);
+  // Tách riêng input chọn file và input chọn thư mục cho hồ sơ.
   const lawInput = useRef(null);
-  const candidateInput = useRef(null);
+  const candidateFileInput = useRef(null);
+  const candidateFolderInput = useRef(null);
 
 
   // Trạng thái dữ liệu chính của ứng dụng.
@@ -80,22 +81,6 @@ export default function App() {
   const visibleResults = results.filter(item => filter === "all" || item.status === filter);
 
 
-  // Hàm đọc file JSON tiêu chí do người dùng chọn và chuẩn hóa trước khi lưu.
-  async function handleCriteriaUpload(event) {
-    const file = event.target.files?.[0];
-    if (!file) return;
-    
-    try {
-      const next = normalizeCriteria(await readJsonFile(file));
-      setCriteria(next); setNotice(`Đã nạp ${next.length} tiêu chí từ ${file.name}.`);
-    } 
-    catch (error) { 
-      setNotice(`Không đọc được file tiêu chí: ${error.message}`); 
-    }
-    
-    event.target.value = "";
-  }
-
   // Ghi nhận danh sách tài liệu pháp luật (chỉ lưu thông tin tệp để hiển thị).
   function handleLawUpload(event) {
     const files = Array.from(event.target.files ?? []);
@@ -122,10 +107,14 @@ export default function App() {
       const parsed = await Promise.all(jsonFiles.map(async file => ({ fileName: file.name, data: await readJsonFile(file) })));
       const loaded = [];
       parsed.forEach(({ fileName, data }) => {
-        const items = Array.isArray(data) ? data : Array.isArray(data?.candidates) ? data.candidates : Array.isArray(data?.ung_vien) ? data.ung_vien : [data];
+        const items = Array.isArray(data) 
+        ? data : Array.isArray(data?.candidates) 
+        ? data.candidates : Array.isArray(data?.ung_vien) 
+        ? data.ung_vien : [data];
         items.forEach(item => {
           const candidate = normalizeCandidate(item, loaded.length);
-          const uniqueId = candidate.id && !loaded.some(c => c.id === candidate.id) ? candidate.id : `${candidate.id}-${loaded.length + 1}`;
+          const uniqueId = candidate.id && !loaded.some(c => c.id === candidate.id) 
+          ? candidate.id : `${candidate.id}-${loaded.length + 1}`;
           loaded.push({ ...candidate, id: uniqueId, sourceFile: fileName });
         });
       });
@@ -141,7 +130,17 @@ export default function App() {
     finally { setIsLoading(false); event.target.value = ""; }
   }
 
-
+  // Xét hồ sơ: nơi sẽ gọi API chạy toàn bộ pipeline xử lý.
+  // Hiện backend chưa có nên tạm thời in dữ liệu đầu vào ra console.
+  function handleEvaluate() {
+    const payload = {
+      lawFiles: lawFiles.map(file => file.name),
+      candidates: candidates.map(candidate => candidate.id),
+      criteria: criteria.map(criterion => criterion.id),
+    };
+    console.log("Xét hồ sơ - dữ liệu pipeline:", payload);
+    setNotice("Đã gửi yêu cầu xét hồ sơ (API pipeline chưa được kết nối).");
+  }
 
   // Gửi câu hỏi của người dùng tới trợ lý và thêm câu trả lời vào hội thoại.
   async function sendMessage(event) {
@@ -186,12 +185,12 @@ export default function App() {
 
     {/* Khu vực nạp dữ liệu: tiêu chí, văn bản luật và hồ sơ ứng viên */}
     <DataUpload 
-    criteriaInput={criteriaInput} 
     lawInput={lawInput} 
-    candidateInput={candidateInput} 
-    onCriteriaUpload={handleCriteriaUpload} 
+    candidateFileInput={candidateFileInput} 
+    candidateFolderInput={candidateFolderInput} 
     onLawUpload={handleLawUpload} 
     onCandidateUpload={handleCandidateUpload} 
+    onEvaluate={handleEvaluate}
     isLoading={isLoading} 
     lawFiles={lawFiles} 
     onClearLawFiles={() => setLawFiles([])} />

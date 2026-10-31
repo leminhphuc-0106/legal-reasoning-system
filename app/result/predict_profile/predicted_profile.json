@@ -1,0 +1,34 @@
+{
+    "loai_xet": "Khen thưởng - Bằng khen của Chủ tịch UBND thành phố",
+    "thoi_diem_xet": "tháng 08/2024",
+    "danh_hieu_thi_dua": [
+        {
+            "nam": "2022 - 2023",
+            "danh_hieu": "Lao động tiên tiến"
+        },
+        {
+            "nam": "2023 - 2024",
+            "danh_hieu": "Lao động tiên tiến"
+        }
+    ],
+    "ket_qua_danh_gia": [
+        {
+            "nam": "2022 - 2023",
+            "ket_qua": "Hoàn thành xuất sắc nhiệm vụ"
+        },
+        {
+            "nam": "2023 - 2024",
+            "ket_qua": "Hoàn thành xuất sắc nhiệm vụ"
+        }
+    ],
+    "hinh_thuc_khen_thuong": [
+        {
+            "nam": "2022 - 2023",
+            "hinh_thuc": "Giấy khen của Hiệu trưởng"
+        },
+        {
+            "nam": "2023 - 2024",
+            "hinh_thuc": "Giấy khen của Hiệu trưởng"
+        }
+    ]
+}

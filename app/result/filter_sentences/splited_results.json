@@ -1,0 +1,298 @@
+[
+  {
+    "text": "Cơ quan cấp thành pho bao gom sở, ban, ngành, cơ quan đảng wp thành pho Ủy ban Mặt trận Tổ quốc Việt Nam, tổ chức chính trị - xã hội cấp thành phố.Hội cấp thành phô",
+    "article_id": 3,
+    "section_id": 1,
+    "point_label": null,
+    "label": "__label__KEEP",
+    "label_score": 0.9318129420280457
+  },
+  {
+    "text": "cấp thành phố là người đứng đầu của cơ quan cấp thành phô nêu tại khoản 1 Điều này.",
+    "article_id": 3,
+    "section_id": 2,
+    "point_label": null,
+    "label": "__label__KEEP",
+    "label_score": 0.8739975094795227
+  },
+  {
+    "text": "Đơn vị trực thuộc là đơn vị có tư cách pháp nhân, có con dấu riêng.Cơ quan cấp thành phố, Ủy ban nhân dân cấp huyện, doanh nghiệp và tổ chức kinh tế khác trực tiếp chịu sự quản lý điều hành của Cơ quan cấp huyện.Hội thi bao gồm các cuộc thi, hội thi, liên hoan, giải thi đấu thể thao và tương đương.",
+    "article_id": 3,
+    "section_id": 3,
+    "point_label": null,
+    "label": "__label__KEEP",
+    "label_score": 0.6202826499938965
+  },
+  {
+    "text": "Hội thi cấp thành phô là hội thi do các cơ quan cấp thành phố tổ chức theo Kế hoạch được cấp có thẩm quyền thống nhất chủ trương.",
+    "article_id": 3,
+    "section_id": 5,
+    "point_label": null,
+    "label": "__label__KEEP",
+    "label_score": 0.8356021642684937
+  },
+  {
+    "text": "Việc khen thưởng vào dịp sơ kết các phong trào thi đua do cơ quan Trung ương phát động, Đại hội nhiệm kỳ mới của các tổ chức chính trị - xã hội, các hội có tính chất đặc thù cấp thành phố phải được cấp có thẩm quyền thống nhất bằng văn bản.",
+    "article_id": 4,
+    "section_id": 3,
+    "point_label": null,
+    "label": "__label__KEEP",
+    "label_score": 0.6318302154541016
+  },
+  {
+    "text": "Danh hiệu Lao động tiên tiến được tặng hàng năm cho cán bộ, công chức, viên chức, người lao động gương mẫu chấp hành tốt chủ trương, đường lồi của Đảng.Danh hiệu này được tặng hằng năm cho công chức và viên chức đủ tiêu chuẩn theo quy định tại khoản I Điều 24 Luật Thi đua, khen thưởng.",
+    "article_id": 5,
+    "section_id": 1,
+    "point_label": null,
+    "label": "__label__KEEP",
+    "label_score": 0.9939339756965637
+  },
+  {
+    "text": "Danh hiệu Lao động tiên tiền để tặng hằng năm cho công nhân, nông dân, người lao động không thuộc đối tượng quy định tại khoản 1 Điều 24 Luật Thi đua, khen thưởng phải đạt các tiêu chuẩn theo quy định.Danh hiệu này được tặng hàng năm cho nông dân.Người lao động có thu nhập không quá 30 triệu đồng.",
+    "article_id": 5,
+    "section_id": 2,
+    "point_label": null,
+    "label": "__label__KEEP",
+    "label_score": 0.9980428814888
+  },
+  {
+    "text": "Danh hiệu Cờ thi đua của Ủy ban nhân dân thành phố năm cho đơn vị dẫn đầu cụm, khối thi đua do thành phố tổ chức.",
+    "article_id": 6,
+    "section_id": 1,
+    "point_label": "a",
+    "label": "__label__KEEP",
+    "label_score": 0.9209083914756775
+  },
+  {
+    "text": "Danh hiệu Cờ thi đua của Ủy ban nhân dân thành phố được tặng hằng năm cho tập thể gương mẫu chấp hành tốt chủ trương của Đảng, chính sách, pháp luật của Nhà nước đạt các tiêu chuẩn theo quy định tại khoản 1 Điều 26 Luật Thi đua, khen thưởng.Thành tích nổi bật dẫn đầu được bình xét, suy tôn thông qua cụm, khối thi đua.",
+    "article_id": 6,
+    "section_id": 2,
+    "point_label": "a",
+    "label": "__label__KEEP",
+    "label_score": 0.9942909479141235
+  },
+  {
+    "text": "Danh hiệu Cờ thi đua của Ủy ban nhân dân thành phố được tặng hằng năm cho tập thể gương mẫu chấp hành tốt chủ trương của Đảng, chính sách, pháp luật của Nhà nước.Tổ chức đảng, đoàn thể (nếu có) được đánh giá, xếp loại hoàn thành tốt nhiệm vụ trở lên.",
+    "article_id": 6,
+    "section_id": 2,
+    "point_label": "b",
+    "label": "__label__KEEP",
+    "label_score": 0.9982416033744812
+  },
+  {
+    "text": "Danh hiệu Cờ thi đua của Ủy ban nhân dân thành phố được tặng hằng năm cho tập thể gương mẫu chấp hành tốt chủ trương của Đảng, chính sách, pháp luật của Nhà nước.Tập thể được cấp có thẩm quyền đánh giá, xếp loại cơ quan, đơn vị hoàn thành xuất sắc nhiệm vụ.",
+    "article_id": 6,
+    "section_id": 2,
+    "point_label": "c",
+    "label": "__label__KEEP",
+    "label_score": 0.9943898320198059
+  },
+  {
+    "text": "Danh hiệu Cờ thi đua của Ủy ban nhân dân thành phố được tặng hằng năm cho tập thể gương mẫu chấp hành tốt chủ trương của Đảng, chính sách, pháp luật của Nhà nước đạt các tiêu chuẩn theo quy định tại khoản 1 Điều 26 Luật Thi đua, khen thưởng.",
+    "article_id": 6,
+    "section_id": 2,
+    "point_label": "d",
+    "label": "__label__KEEP",
+    "label_score": 0.9964287281036377
+  },
+  {
+    "text": "Danh hiệu Cờ thi đua của Ủy ban nhân dân thành phố được tặng cho tập thể gương mẫu dẫn đầu phong trào thi đua theo chuyên đề do Chủ tịch Ủy ban Nhân dân TP phát động có thời gian thực hiện từ 03 năm trở lên khi tổng kết phong trào.",
+    "article_id": 6,
+    "section_id": 3,
+    "point_label": null,
+    "label": "__label__KEEP",
+    "label_score": 0.9595862627029419
+  },
+  {
+    "text": "Danh hiệu Tập thể lao động xuất sắc được tặng hằng năm cho các phòng, ban và tương đương thuộc các cơ quan cấp thành phố.",
+    "article_id": 7,
+    "section_id": 1,
+    "point_label": "a",
+    "label": "__label__KEEP",
+    "label_score": 0.9993626475334167
+  },
+  {
+    "text": "Danh hiệu Tập thể lao động xuất sắc được tặng hằng năm cho các đối tượng sau:",
+    "article_id": 7,
+    "section_id": 1,
+    "point_label": "b",
+    "label": "__label__KEEP",
+    "label_score": 0.9997976422309875
+  },
+  {
+    "text": "Trường học theo phân cấp quản lý trên địa bàn thành phố gồm các khoa, phòng và tương đương thuộc các trường Đại học, Cao đẳắng, bệnh viện tuyến thành phố, trung tâm y tế tuyến huyện.",
+    "article_id": 7,
+    "section_id": 1,
+    "point_label": "e",
+    "label": "__label__KEEP",
+    "label_score": 0.7430402040481567
+  },
+  {
+    "text": "Doanh nghiệp và tổ chức kinh tế khác được tặng danh hiệu Tập thể lao động xuất sắc hằng năm.Doanh nghiệp có thể thuộc các tập đoàn kinh tế, tổng công ty được tặng một danh hiệu tương ứng.Hiệp hội có thể trực thuộc các đơn vị trực thuộc của doanh nghiệp.Tổng công ty gồm chi nhánh, văn phòng đại diện, xí nghiệp, phòng ban, phân xưởng và tương đương.",
+    "article_id": 7,
+    "section_id": 1,
+    "point_label": "d",
+    "label": "__label__KEEP",
+    "label_score": 0.9810373783111572
+  },
+  {
+    "text": "Danh hiệu Tập thể lao động xuất sắc được tặng cho tập thể đủ tiêu chuẩn theo quy định tại khoản 1 Điều 27 của Luật Thi đua, khen thưởng.",
+    "article_id": 7,
+    "section_id": 2,
+    "point_label": null,
+    "label": "__label__KEEP",
+    "label_score": 0.9997097253799438
+  },
+  {
+    "text": "Danh hiệu Tập thể lao động tiên tiền được tặng hằng năm cho các đơn vị trực thuộc doanh nghiệp, tổ chức kinh tế khác theo quy định tại khoản 1 Điều 8 của Quyêt định này.",
+    "article_id": 8,
+    "section_id": 1,
+    "point_label": null,
+    "label": "__label__KEEP",
+    "label_score": 0.9016183614730835
+  },
+  {
+    "text": "Cá nhân được tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố phải gương mẫu chấp hành tốt chủ trương của Đảng, chính sách, pháp luật của Nhà nước.Hộ gia đình được xét tặng bằng khen của Thủ tướng Chính phủ.Cá nhân được đề nghị xét tặng Giấy khen có tiêu chuẩn theo quy định tại điểm d khoản 1 Điều 74 của Luật Thị đua, khen thưởng.",
+    "article_id": 9,
+    "section_id": 1,
+    "point_label": "a",
+    "label": "__label__KEEP",
+    "label_score": 0.9838610291481018
+  },
+  {
+    "text": "Bằng khen của Chủ tịch Ủy ban nhân dân thành phố được tặng hoặc truy tặng cho cá nhân.Tập thể đạt tiêu chuẩn theo quy định tại điểm d khoản 3 Điều 74 của Luật Thị đua, khen thưởng.",
+    "article_id": 9,
+    "section_id": 1,
+    "point_label": "b",
+    "label": "__label__KEEP",
+    "label_score": 0.9966554045677185
+  },
+  {
+    "text": "Bằng khen của Chủ tịch Ủy ban nhân dân thành phố được cấp có thẩm quyền đánh giá, xếp loại hoàn thành 100% các chỉ tiêu thi đua và nhiệm vụ được giao trong năm.Cơ quan, đơn vị, tổ chức đảng, đoàn thể (nếu có) được bình xét, suy tôn thông qua cụm, khối thi đua.Hộ gia đình có thành tích xuất sắc trong phong trào thi đua thường xuyên, thiết thực, hiệu quả.Tập thể được xét tặng bằng khen phải tích cực tham gia phong trào tập thể.Đối với hộ gia đình phải gương mẫu chấp hành tốt chủ trương của Đảng, chính sách, pháp luật của Nhà nước.",
+    "article_id": 9,
+    "section_id": 1,
+    "point_label": "c",
+    "label": "__label__KEEP",
+    "label_score": 0.9749657511711121
+  },
+  {
+    "text": "Bằng khen của Chủ tịch Ủy ban nhân dân thành phố được tặng hoặc truy tặng cho cá nhân.Cá nhân được đề nghị khen thưởng phong trào thi đua phải gương mẫu chấp hành tốt chủ trương của Đảng, chính sách, pháp luật của Nhà nước.Hộ gia đình được xét tặng bằng khen phải có thành tích xuất sắc.Đối tượng được đề cử khen thưởng phải có khả năng tham gia phong trào.",
+    "article_id": 9,
+    "section_id": 2,
+    "point_label": "a",
+    "label": "__label__KEEP",
+    "label_score": 0.9860772490501404
+  },
+  {
+    "text": "Bằng khen của Chủ tịch Ủy ban nhân dân thành phố được tặng hoặc truy tặng cho cá nhân.Cá nhân tham gia các phong trào thi đua chuyên đề theo Kế hoạch và Hướng dẫn sơ kết, tổng kết khen thưởng của Bộ, ban ngành, đoàn thể Trung ương phải gương mẫu chấp hành tốt chủ trương của Đảng, chính sách, pháp luật của Nhà nước.Hộ gia đình được xét tặng cho tập thể, hộ gia đình.Tập thể được xem xét tặng Bằng khen cho tập đoàn.Doanh nghiệp được lựa chọn hình thức khen thưởng phù hợp với tiêu chuẩn khen thưởng quy định tại điểm a khoản 2 Điều 18.Việc xét tặng bằng khen cho cá thể được thực hiện theo tỷ lệ 50% quy định điểm b khoản 1 Điều 19.",
+    "article_id": 9,
+    "section_id": 2,
+    "point_label": "b",
+    "label": "__label__KEEP",
+    "label_score": 0.9816030859947205
+  },
+  {
+    "text": "Bằng khen của Chủ tịch Ủy ban nhân dân thành phố được tặng hoặc truy tặng cho cá nhân.Tập thể, cá nhân có nhiều đóng góp cho quá trình xây dựng và phát triển của cơ quan Trung ương đóng trên địa bàn thành phố phải có thời gian công tác tại đơn vị, địa phương từ 10 năm trở lên.Cá nhân tham gia thi đua tại địa phương phải được tặng bằng khen.",
+    "article_id": 9,
+    "section_id": 2,
+    "point_label": "d",
+    "label": "__label__KEEP",
+    "label_score": 0.9922180771827698
+  },
+  {
+    "text": "Cá nhân được tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố phải gương mẫu chấp hành tốt chủ trương của Đảng, chính sách, pháp luật của Nhà nước.Cá nhân không tham gia ứng cử trong nhiệm kỳ mới của các tổ chức chính trị - xã hội, các hội quân chúng do Đảng, Nhà nước giao nhiệm vụ cấp thành phố hoặc tập thể được lựa chọn báo cáo tham luận tại Đại hội nhiệm kỳ trước.",
+    "article_id": 9,
+    "section_id": 2,
+    "point_label": "đ",
+    "label": "__label__KEEP",
+    "label_score": 0.9560366868972778
+  },
+  {
+    "text": "Bằng khen của Chủ tịch Ủy ban nhân dân thành phố được tặng hoặc truy tặng cho cá nhân.Công nhân, nông dân, người lao động có sáng kiến mang lại lợi ích trị giá từ 100 triệu đồng trở lên cho doanh nghiệp.Doanh nghiệp, hợp tác xã có đóng góp trong việc đào tạo, bồi dưỡng, giúp đỡ đồng nghiệp để nâng cao trình độ chuyên môn, tay nghề.Người lao động được tặng Giấy khen 02 năm liên tục.",
+    "article_id": 9,
+    "section_id": 2,
+    "point_label": "e",
+    "label": "__label__KEEP",
+    "label_score": 0.9800766706466675
+  },
+  {
+    "text": "Bằng khen của Chủ tịch Ủy ban nhân dân thành phố được tặng hoặc truy tặng cho cá nhân.Tập thể gương mẫu chấp hành tốt chủ trương của Đảng, chính sách, pháp luật của Nhà nước.Cá nhân gương mẫu tham gia dnen đầu nấăằm bảo vệ an ninh chính trị, trật tự an toàn xã hội trong điều tra, truy tố, xét xử các vụ án đặc biệt nghiêm trọng.",
+    "article_id": 9,
+    "section_id": 3,
+    "point_label": "a",
+    "label": "__label__KEEP",
+    "label_score": 0.9188601970672607
+  },
+  {
+    "text": "Bằng khen của Chủ tịch Ủy ban nhân dân thành phố được tặng hoặc truy tặng cho cá nhân.Cá nhân đã tố cáo, tích cực cộng tác với cơ quan, tổ chức, cá nhân có thẩm quyền trong việc phát hiện hành vi vi phạm pháp luật gây hậu quả nghiêm trọng.Hộ gia đình gương mẫu chấp hành tốt chủ trương của Đảng, chính sách, pháp luật của Nhà nước.",
+    "article_id": 9,
+    "section_id": 3,
+    "point_label": "b",
+    "label": "__label__KEEP",
+    "label_score": 0.9553994536399841
+  },
+  {
+    "text": "Bằng khen của Chủ tịch Ủy ban nhân dân thành phố được tặng hoặc truy tặng cho cá nhân.Tập thể được tặng Bằng khen phải gương mẫu chấp hành tốt chủ trương của Đảng, chính sách, pháp luật của Nhà nước.Hộ gia đình được tặng bằng khen phải có thành tích trong công tác phòng chống thiên tai, hỏa hoạn, dịch bệnh, tìm kiếm cứu nạn.",
+    "article_id": 9,
+    "section_id": 3,
+    "point_label": "c",
+    "label": "__label__KEEP",
+    "label_score": 0.9993038177490234
+  },
+  {
+    "text": "Cá nhân được tặng Bằng khen của Chủ tịch Ủy ban nhân dân thành phố phải gương mẫu chấp hành tốt chủ trương của Đảng, chính sách, pháp luật của Nhà nước.Hộ gia đình được tặng bằng khen có phạm vi ảnh hưởng trên địa bàn thành phố.",
+    "article_id": 9,
+    "section_id": 3,
+    "point_label": "d",
+    "label": "__label__KEEP",
+    "label_score": 0.9980593919754028
+  },
+  {
+    "text": "Bằng khen của Chủ tịch Ủy ban nhân dân thành phố được tặng hoặc truy tặng cho cá nhân.Tập thể, hộ gia đình hoàn thành xuất sắc nhiệm vụ chính trị đột xuất ngoài kế hoạch do Trung ương hoặc thành phố ban hành.Hộ gia đình được tặng Bằng khen phải gương mẫu chấp hành tốt chủ trương của Đảng, chính sách, pháp luật của Nhà nước.",
+    "article_id": 9,
+    "section_id": 3,
+    "point_label": "đ",
+    "label": "__label__KEEP",
+    "label_score": 0.9948893785476685
+  },
+  {
+    "text": "Bằng khen của Chủ tịch Ủy ban nhân dân thành phố được tặng hoặc truy tặng cho cá nhân.Tập thể đạt giải đặc biệt tại các hội thi cấp khu vực, quốc gia, quốc tế hoặc đạt giải nhất (hoặc tương đương) tại các Hội thi cấp thành phố.",
+    "article_id": 9,
+    "section_id": 3,
+    "point_label": "e",
+    "label": "__label__KEEP",
+    "label_score": 0.9692912697792053
+  },
+  {
+    "text": "Bằng khen của Chủ tịch Ủy ban nhân dân thành phố được tặng hoặc truy tặng cho cá nhân.Cá nhân trực tiếp bồi dưỡng, huấn luyện thí sinh đạt giải nhất tại các hội thi quốc tế phải gương mẫu chấp hành tốt chủ trương của Đảng, chính sách, pháp luật của Nhà nước.Tập thể trực tiếp huấn luyện vận động viên đạt giải nhì (hoặc tương đương) tại các Hội thi Quốc tế.",
+    "article_id": 9,
+    "section_id": 3,
+    "point_label": "g",
+    "label": "__label__KEEP",
+    "label_score": 0.9187766909599304
+  },
+  {
+    "text": "Bằng khen của Chủ tịch Ủy ban nhân dân thành phố được tặng hoặc truy tặng cho cá nhân.Tập thể, cá nhân, hộ gia đình có nhiều đóng góp về công sức, đất đai và tài sản cho địa phương, xã hội.Hộ gia đình được tặng Bằng khen phải có ít nhất 350 triệu đồng trở lên đối với tập thể.Cá nhân được tặng bằng khen phải đạt tiêu chuẩn cao nhất.Doanh nghiệp tham gia đóng góp tài trợ các công trình, sự kiện lớn của thành phố phải trị giá từ 1,5 tỷ đồng.Theo quy định của pháp luật của Nhà nước phải có giá trị từ 2 tỷ đồng trở xuống.",
+    "article_id": 9,
+    "section_id": 3,
+    "point_label": "h",
+    "label": "__label__KEEP",
+    "label_score": 0.9980095028877258
+  },
+  {
+    "text": "Bằng khen của Chủ tịch Ủy ban nhân dân thành phố được tặng hoặc truy tặng cho cá nhân.Cá nhân người Việt Nam định cư ở nước ngoài phải gương mẫu chấp hành tốt chủ trương của Đảng, chính sách, pháp luật của Nhà nước.Tập thể người nước ngoài có nhiều đóng góp cho sự nghiệp xây dựng và phát triển thành phố Cần Thơ.Hộ gia đình được tặng thưởng Bằng khen phải được lấy ý kiến Công an thành phố.Sở Ngoại vụ được tặng tặng Bằng khen cho tập thể.Doanh nghiệp được tặng bằng khen phải có ít nhất một phần tư số tiền được đề nghị khen thưởng trước khi trình khen thưởng.",
+    "article_id": 9,
+    "section_id": 4,
+    "point_label": null,
+    "label": "__label__KEEP",
+    "label_score": 0.9853295087814331
+  },
+  {
+    "text": "Giấy khen đề tặng hoặc truy tặng cho cá nhân là thành tích xuất sắc được bình xét trong các phong trào thi đua, chuyên đề thuộc phạm vi quản lý của cơ quan cấp thành phố, Ủy ban nhân dân cấp xã, doanh nghiệp và tổ chức kinh tế khác phát động.Giấy khen có đóng góp vào sự nghiệp xây dựng và phát triển kinh tế - xã hội, từ thiện nhân đạo của địa phương, tổ chức, địa phương.Tập thể đạt giải nhất trong các hội thi do cơ quan thành phố phát động phải gương mẫu chấp hành tốt chủ trương của Đảng, chính sách pháp luật của Nhà nước.",
+    "article_id": 10,
+    "section_id": null,
+    "point_label": null,
+    "label": "__label__KEEP",
+    "label_score": 0.7753790020942688
+  }
+]
