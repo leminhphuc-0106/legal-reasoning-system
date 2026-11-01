@@ -1,5 +1,5 @@
 import re
-from pprint import pprint
+# from pprint import pprint
 
 ARTICLE_RE = re.compile(
     r"^\s*Điều\s+(\d+)\.\s*(.*)$",
@@ -14,38 +14,6 @@ POINT_RE = re.compile(
     r"(?<!\w)([a-zđ])\)\s*",
     re.IGNORECASE
 )
-
-
-#hàm đọc dữ liệu từ file pdf
-# def read_from_file(file_path):
-#     from pdf2image import convert_from_path
-#     import pytesseract
-#     from pdf2image.pdf2image import pdfinfo_from_path
-#     document = pdfinfo_from_path(file_path)
-#     total_pages = document["Pages"]
-
-#     print(f"PDF có {total_pages} trang")
-
-#     text = ""
-
-#     for page_num in range(1, total_pages + 1):
-#         print(f"OCR trang {page_num}/{total_pages}...")
-#         image = convert_from_path(
-#             file_path,
-#             first_page=page_num,
-#             last_page=page_num
-#         )[0]
-
-#         page_text = pytesseract.image_to_string(
-#             image,
-#             lang="vie"
-#         )
-#         text += f"\n===== TRANG {page_num} =====\n"
-#         text += page_text
-
-#     print(text)
-#     return text
-
 
 #Hàm chunking theo cấu trúc
 def structure_base_chunk(text):
@@ -69,10 +37,10 @@ def structure_base_chunk(text):
         articles.append(article)
         text_after_extraction += article
     i = 1
-    for article in articles:
-        print(f"====Article {i}====")
-        print(article)
-        i += 1
+    # for article in articles:
+    #     print(f"====Article {i}====")
+    #     print(article)
+    #     i += 1
 
     return articles
 
@@ -212,4 +180,49 @@ def build_structure(text):
     return article
 
 
+def context_inheritance(results_chunking):
+    all_chunks = []
+
+    for article in results_chunking:
+        article_id = article["article_id"]
+        article_text = f"Điều {article_id}: {article['content_art']}"
+        if article["sections"]:
+            for section in article["sections"]:
+                section_id = section["section_id"]
+
+                section_text = (
+                    f"{article_text}\n"
+                    f"Khoản {section_id}: {section['title_sec']}"
+                )
+
+                if section["points"]:
+                    for point in section["points"]:
+                        chunk_text = (
+                            f"{section_text}\n"
+                            f"Điểm {point['label']}) {point['text']}"
+                        )
+
+                        all_chunks.append({
+                            "text": chunk_text,
+                            "article_id": article_id,
+                            "section_id": section_id,
+                            "point_label": point["label"]
+                        })
+
+                else:
+                    all_chunks.append({
+                        "text": section_text,
+                        "article_id": article_id,
+                        "section_id": section_id,
+                        "point_label": None
+                    })
+
+        else:
+            all_chunks.append({
+                "text": article_text,
+                "article_id": article_id,
+                "section_id": None,
+                "point_label": None
+            })
+    return all_chunks
 

@@ -6,7 +6,7 @@ import torch
 # )
 
 #Load model đã fine-tune
-def load_model(model_path):
+def load_model(model_path="./models/Vi-T5-Base-Tach-Cau"):
     from pathlib import Path
     offload_dir = Path("./offload/simplify_model").resolve()
     offload_dir.mkdir(parents=True, exist_ok=True)

@@ -5,3 +5,5 @@
 export async function askAssistant(question) {
   return `Giao diện đã nhận câu hỏi: “${question}”. Để trả lời dựa trên văn bản pháp luật và phân tích hồ sơ thực tế, hãy kết nối hàm askAssistant() với API backend.`;
 }
+
+

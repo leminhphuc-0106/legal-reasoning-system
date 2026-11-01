@@ -1,4 +1,4 @@
-def load_gliner(model_path):
+def load_gliner(model_path="./models/GLiNER-Model"):
     from gliner import GLiNER
     import torch
     model_path = (
@@ -43,16 +43,6 @@ def predict_kg(model, text, entity_threshold=0.5, relation_threshold=0.5):
     return result
 
 
-def excute_predict(data):
-    results = []
-    from tqdm.auto import tqdm
-    for sample in tqdm(data, desc="Predict KG"):
-        sentence = sample["text"]
-        result = predict_kg(sentence)
-        results.append(result)
-    return results
-
-
 def filter_results(results, data):
     samples = []
 
@@ -76,3 +66,18 @@ def filter_results(results, data):
         samples.append(sample)
 
     return samples
+
+
+def excute_predict(data):
+    model = load_gliner()
+    results = []
+    from tqdm.auto import tqdm
+    for sample in tqdm(data, desc="Predict KG"):
+        sentence = sample["text"]
+        result = predict_kg(model, sentence)
+        results.append(result)
+
+    filtered_results = filter_results(results, data)
+    return filtered_results
+
+

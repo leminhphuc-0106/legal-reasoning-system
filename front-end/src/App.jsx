@@ -11,6 +11,7 @@ import Icon from "./components/Icon.jsx";
 import { initialCriteria, initialCandidates } from "./data/initialData.js";
 import { normalizeCandidate, readJsonFile } from "./utils/normalize.js";
 import { askAssistant } from "./services/chatService.js";
+import { handleEvaluate } from "./services/evalService.js";
 import "./App.css";
 
 // Tin nhắn chào mừng mặc định của trợ lý khi mở ứng dụng.
@@ -29,7 +30,6 @@ export default function App() {
   // Khi có Backend, những thông tin này sẽ được lấy thông qua hoạt động của chatbot AI
   const [criteria, setCriteria] = useState(initialCriteria);
   const [candidates, setCandidates] = useState(initialCandidates);
-
 
 
   // Hồ sơ đang được chọn và bộ lọc trạng thái tiêu chí (all/pass/fail/pending).
@@ -132,15 +132,15 @@ export default function App() {
 
   // Xét hồ sơ: nơi sẽ gọi API chạy toàn bộ pipeline xử lý.
   // Hiện backend chưa có nên tạm thời in dữ liệu đầu vào ra console.
-  function handleEvaluate() {
-    const payload = {
-      lawFiles: lawFiles.map(file => file.name),
-      candidates: candidates.map(candidate => candidate.id),
-      criteria: criteria.map(criterion => criterion.id),
-    };
-    console.log("Xét hồ sơ - dữ liệu pipeline:", payload);
-    setNotice("Đã gửi yêu cầu xét hồ sơ (API pipeline chưa được kết nối).");
-  }
+  // function handleEvaluate() {
+  //   const payload = {
+  //     lawFiles: lawFiles.map(file => file.name),
+  //     candidates: candidates.map(candidate => candidate.id),
+  //     criteria: criteria.map(criterion => criterion.id),
+  //   };
+  //   console.log("Xét hồ sơ - dữ liệu pipeline:", payload);
+  //   setNotice("Đã gửi yêu cầu xét hồ sơ (API pipeline chưa được kết nối).");
+  // }
 
   // Gửi câu hỏi của người dùng tới trợ lý và thêm câu trả lời vào hội thoại.
   async function sendMessage(event) {

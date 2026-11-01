@@ -92,9 +92,9 @@ def txt_to_json(input_path, output_path):
     print(f"Đã chuyển đổi thành công: {output_path}")
 
 
-# if __name__ == "__main__":
+if __name__ == "__main__":
 
-#     txt_to_json(
-#         input_path="./data_test/2024-canhan-xetBangkhenUBND.txt",
-#         output_path="./back-end/result/predict_profile/predicted_profile.json"
-#     )
+    txt_to_json(
+        input_path="./data_test/2024-canhan-xetBangkhenUBND.txt",
+        output_path="./app/result/predict_profile/predicted_profile.json"
+    )
