@@ -9,9 +9,9 @@ import SummaryCard from "./components/SummaryCard.jsx";
 import CriteriaList from "./components/CriteriaList.jsx";
 import Icon from "./components/Icon.jsx";
 import { initialCriteria, initialCandidates } from "./data/initialData.js";
-import { normalizeCandidate, readJsonFile } from "./utils/normalize.js";
+// import { normalizeCandidate, readJsonFile } from "./utils/normalize.js";
 import { askAssistant } from "./services/chatService.js";
-import { handleEvaluate } from "./services/evalService.js";
+// import { handleEvaluate } from "./services/evalService.js";
 import "./App.css";
 
 // Tin nhắn chào mừng mặc định của trợ lý khi mở ứng dụng.
@@ -43,6 +43,8 @@ export default function App() {
 
   // Danh sách tài liệu pháp luật đã thêm và thông báo trạng thái gần nhất.
   const [lawFiles, setLawFiles] = useState([]);
+  const [candidateFiles, setCandidateFiles] = useState([]);
+
   const [notice, setNotice] = useState("");
 
 
@@ -82,65 +84,128 @@ export default function App() {
 
 
   // Ghi nhận danh sách tài liệu pháp luật (chỉ lưu thông tin tệp để hiển thị).
+  // Xử lý khi người dùng tải lên một hoặc nhiều tài liệu pháp luật.
+  // Xử lý khi người dùng tải lên một tài liệu pháp luật PDF.
   function handleLawUpload(event) {
-    const files = Array.from(event.target.files ?? []);
-   
-   
-    if (!files.length) return;
-    setLawFiles(previous => [...previous, ...files.map(file => ({ name: file.name, size: file.size, type: file.type 
-      || "Không xác định" }))]);
-    
-    
-    setNotice(`Đã thêm ${files.length} tài liệu pháp luật vào danh sách.`);
 
-    event.target.value = "";
+      // Lấy file đầu tiên người dùng chọn.
+      const file = event.target.files?.[0];
+
+      // Nếu người dùng không chọn file thì kết thúc hàm.
+      if (!file) return;
+
+      // Kiểm tra định dạng file, chỉ chấp nhận PDF.
+      if (!file.name.toLowerCase().endsWith(".pdf")) {
+          setNotice("Vui lòng chỉ chọn file PDF.");
+          event.target.value = "";
+          return;
+      }
+
+      // Cập nhật danh sách tài liệu pháp luật.
+      // Mỗi lần tải lên, thay thế tài liệu cũ bằng tài liệu mới.
+      setLawFiles([file]);
+
+      setNotice(`Đã thêm tài liệu pháp luật: ${file.name}`);
+
+      // Reset input để có thể chọn lại cùng một file.
+      event.target.value = "";
   }
 
-  // Đọc một hoặc nhiều file JSON hồ sơ, chuẩn hóa và gộp vào danh sách ứng viên.
-  async function handleCandidateUpload(event) {
-    const files = Array.from(event.target.files ?? []);
-    if (!files.length) return;
-    setIsLoading(true);
-    try {
-      const jsonFiles = files.filter(file => file.name.toLowerCase().endsWith(".json"));
-      if (!jsonFiles.length) throw new Error("Vui lòng chọn ít nhất một file JSON hồ sơ.");
-      const parsed = await Promise.all(jsonFiles.map(async file => ({ fileName: file.name, data: await readJsonFile(file) })));
-      const loaded = [];
-      parsed.forEach(({ fileName, data }) => {
-        const items = Array.isArray(data) 
-        ? data : Array.isArray(data?.candidates) 
-        ? data.candidates : Array.isArray(data?.ung_vien) 
-        ? data.ung_vien : [data];
-        items.forEach(item => {
-          const candidate = normalizeCandidate(item, loaded.length);
-          const uniqueId = candidate.id && !loaded.some(c => c.id === candidate.id) 
-          ? candidate.id : `${candidate.id}-${loaded.length + 1}`;
-          loaded.push({ ...candidate, id: uniqueId, sourceFile: fileName });
-        });
+
+
+  // Đọc một hoặc nhiều file JSON hồ sơ ứng viên,
+  // chuẩn hóa dữ liệu và gộp vào danh sách ứng viên hiện tại.
+  // Xử lý khi người dùng chọn file hoặc thư mục hồ sơ.
+  function handleCandidateUpload(event) {
+      // Lấy danh sách file từ input.
+      const files = Array.from(event.target.files ?? []);
+
+      // Nếu không có file thì kết thúc.
+      if (!files.length) return;
+
+      // Thêm các file mới vào danh sách hồ sơ hiện tại.
+      setCandidateFiles(previous => [...previous, ...files]);
+
+      // In danh sách file ra console để kiểm tra.
+      console.log("Các hồ sơ vừa thêm:", files);
+
+      // In tên từng file.
+      files.forEach(file => {
+          console.log(file.name);
       });
-      if (!loaded.length) throw new Error("Không tìm thấy hồ sơ hợp lệ.");
-      setCandidates(previous => {
-        const byId = new Map(previous.map(item => [item.id, item]));
-        loaded.forEach(item => byId.set(item.id, item));
-        return Array.from(byId.values());
-      });
-      setSelectedId(loaded[0].id); setFilter("all");
-      setNotice(`Đã đọc ${loaded.length} hồ sơ từ ${jsonFiles.length} file JSON.`);
-    } catch (error) { setNotice(`Không đọc được hồ sơ: ${error.message}`); }
-    finally { setIsLoading(false); event.target.value = ""; }
+
+      // Reset input để có thể chọn lại cùng một file.
+      event.target.value = "";
   }
 
-  // Xét hồ sơ: nơi sẽ gọi API chạy toàn bộ pipeline xử lý.
-  // Hiện backend chưa có nên tạm thời in dữ liệu đầu vào ra console.
-  // function handleEvaluate() {
-  //   const payload = {
-  //     lawFiles: lawFiles.map(file => file.name),
-  //     candidates: candidates.map(candidate => candidate.id),
-  //     criteria: criteria.map(criterion => criterion.id),
-  //   };
-  //   console.log("Xét hồ sơ - dữ liệu pipeline:", payload);
-  //   setNotice("Đã gửi yêu cầu xét hồ sơ (API pipeline chưa được kết nối).");
-  // }
+  function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+  }
+
+    // Xét hồ sơ: nơi sẽ gọi API chạy toàn bộ pipeline xử lý.
+    // Hiện backend chưa có nên tạm thời in dữ liệu đầu vào ra console.
+  async function handleEvaluate() {
+      try {
+          // Bật trạng thái loading
+          setIsLoading(true);
+          setNotice("Đang gửi hồ sơ lên hệ thống...");
+
+          await sleep(1000); // Giả lập độ trễ để thấy spinner loading
+
+          // Kiểm tra file tiêu chí
+          if (!lawFiles.length) {
+              throw new Error("Vui lòng chọn file PDF tiêu chí xét thưởng.");
+          }
+
+          // Kiểm tra danh sách hồ sơ ứng viên
+          if (!candidateFiles.length) {
+              throw new Error("Vui lòng thêm hồ sơ ứng viên.");
+          }
+
+          // Tạo FormData để gửi file lên FastAPI
+          const formData = new FormData();
+
+          // Thêm file tiêu chí
+          formData.append("criteria_file", lawFiles[0]);
+          console.log("Đã thêm file tiêu chí:", lawFiles[0].name);
+
+          // Thêm danh sách file ứng viên
+          candidateFiles.forEach(file => {
+              formData.append("candidate_files", file);
+              console.log("Đã thêm file ứng viên:", file.name);
+          });
+          console.log("Tổng số hồ sơ ứng viên:", candidateFiles.length);
+
+          // Gửi request đến FastAPI
+          const response = await fetch("http://127.0.0.1:8000/api/evaluate", {
+              method: "POST",
+              body: formData
+          });
+
+          // Nhận kết quả trả về
+          const result = await response.json();
+
+          // Kiểm tra lỗi từ backend
+          if (!response.ok) {
+              console.error("Backend trả về:", result);
+              throw new Error(
+                  JSON.stringify(result.detail)
+              );
+          }
+          // In kết quả
+          console.log("Kết quả xét hồ sơ:", result);
+
+          setNotice("Đã hoàn tất xét hồ sơ!");
+
+      } catch (error) {
+          console.error("Lỗi xét hồ sơ:", error);
+          setNotice(`Lỗi: ${error.message}`);
+
+      } finally {
+          // Tắt loading dù thành công hay thất bại
+          setIsLoading(false);
+      }
+  }
 
   // Gửi câu hỏi của người dùng tới trợ lý và thêm câu trả lời vào hội thoại.
   async function sendMessage(event) {
@@ -186,14 +251,22 @@ export default function App() {
     {/* Khu vực nạp dữ liệu: tiêu chí, văn bản luật và hồ sơ ứng viên */}
     <DataUpload 
     lawInput={lawInput} 
+
     candidateFileInput={candidateFileInput} 
     candidateFolderInput={candidateFolderInput} 
+
     onLawUpload={handleLawUpload} 
     onCandidateUpload={handleCandidateUpload} 
+
     onEvaluate={handleEvaluate}
+
     isLoading={isLoading} 
+
     lawFiles={lawFiles} 
-    onClearLawFiles={() => setLawFiles([])} />
+    onClearLawFiles={() => setLawFiles([])} 
+
+    candidateFiles={candidateFiles}
+    onClearCandidateFiles={() => setCandidateFiles([])}/>
 
     
     {/* Thanh chọn hồ sơ đang xem */}

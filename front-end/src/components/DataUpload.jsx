@@ -14,6 +14,8 @@ export default function DataUpload({
   isLoading,
   lawFiles,
   onClearLawFiles,
+  candidateFiles,
+  onClearCandidateFiles,
 }) {
   // Trạng thái mở/đóng menu chọn cách thêm hồ sơ (file hoặc thư mục).
   const [showCandidateMenu, setShowCandidateMenu] = useState(false);
@@ -62,14 +64,24 @@ export default function DataUpload({
           </div>}
         </div>
 
-        {/* Nút 3: xét hồ sơ - gọi pipeline (tạm thời in dữ liệu ra console) */}
+        {/* Nút 3: xét hồ sơ - gọi pipeline */}
         <button className="button button-primary" onClick={onEvaluate} disabled={isLoading}>
-          <Icon>✓</Icon> Xét hồ sơ
+          {isLoading ? (
+              <>
+                  <span className="spinner"></span>
+                  Đang xét hồ sơ...
+              </>
+          ) : (
+              <>
+                  <Icon>✓</Icon>
+                  Xét hồ sơ
+              </>
+          )}
         </button>
       </div>
 
       {/* Input ẩn: văn bản luật, hồ sơ dạng file và hồ sơ dạng thư mục */}
-      <input ref={lawInput} type="file" accept=".pdf,.doc,.docx,.txt,.json" multiple hidden onChange={onLawUpload} />
+      <input ref={lawInput} type="file" accept=".pdf,.doc,.docx,.txt,.json" hidden onChange={onLawUpload} />
       <input ref={candidateFileInput} type="file" accept=".json,application/json,.txt" multiple hidden onChange={onCandidateUpload} />
       <input ref={candidateFolderInput} type="file" accept=".json,application/json,.txt" multiple hidden onChange={onCandidateUpload} {...{ webkitdirectory: "", directory: "" }} />
     </div>
@@ -87,5 +99,26 @@ export default function DataUpload({
         </span>)}
       </div>
     </div>}
+    
+    {/* Danh sách hồ sơ ứng viên đã thêm (chỉ hiển thị khi có dữ liệu) */}
+    {candidateFiles.length > 0 && <div className="candidate-files">
+        <div className="candidate-files-heading">
+            <strong>
+                <Icon>▧</Icon> Hồ sơ đã thêm ({candidateFiles.length})
+            </strong>
+            <button className="text-button" onClick={onClearCandidateFiles}>
+                Xóa danh sách
+            </button>
+        </div>
+
+        <div className="file-chips">
+            {candidateFiles.map((file, index) =>
+                <span className="file-chip" key={`${file.name}-${index}`}>
+                    <Icon>▤</Icon> {file.name}
+                </span>
+            )}
+        </div>
+    </div>}
+
   </>;
 }

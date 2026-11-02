@@ -582,6 +582,26 @@ textarea:focus-visible {
   font-size: 11px;
 }
 
+.candidate-files {
+  margin-bottom: 15px;
+  padding: 13px 15px;
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 11px;
+}
+
+.candidate-files-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  color: #354a63;
+  font-size: 11px;
+}
+
+
+
+
 .text-button {
   padding: 3px;
   border: none;
@@ -1519,4 +1539,23 @@ body,
     bottom: 0;
     margin-top: auto;
   }
+}
+
+
+.spinner {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-top-color: white;
+    border-radius: 50%;
+
+    animation: spin 0.7s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
 }

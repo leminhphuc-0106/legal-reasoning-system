@@ -11,8 +11,7 @@ async def evaluate(
     criteria_file: UploadFile = File(...),
     candidate_files: list[UploadFile] = File(...)
 ):
-    # print(criteria_file.filename)
-    # print(candidate_files[0].filename)
+    #Kiểm tra file đầu vào
     if not candidate_files:
         raise HTTPException(
             status_code=400,
@@ -25,6 +24,7 @@ async def evaluate(
             detail="File tiêu chí phải là PDF"
         )
 
+    #Đọc nội dung file tiêu chí và danh sách file ứng viên
     criteria_bytes = await criteria_file.read()
     candidate_files_data = [await file.read() for file in candidate_files]
 

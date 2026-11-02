@@ -21,4 +21,14 @@ export const handleEvaluate = async () => {
     } finally {
         setIsLoading(false);
     }
-};
+};   
+
+function handleEvaluate() {
+    const payload = {
+        lawFiles: lawFiles.map(file => file.name),
+        candidates: candidates.map(candidate => candidate.id),
+        criteria: criteria.map(criterion => criterion.id),
+    };
+    console.log("Xét hồ sơ - dữ liệu pipeline:", payload);
+    setNotice("Đã gửi yêu cầu xét hồ sơ (API pipeline chưa được kết nối).");
+}
