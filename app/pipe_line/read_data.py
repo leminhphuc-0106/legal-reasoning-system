@@ -126,13 +126,9 @@ def extract_text(source: Any, filename: Optional[str] = None) -> str:
         return extract_text_from_pdf(data)
     
 
-async def read_data(criteria_file: Any, candidate_files: Optional[Iterable[Any]] = None):
+async def read_data(criteria_file: Any):
     #Đọc dữ liệu vào từ API gửi
     text = await extract_text_from_pdf_async(criteria_file)
-    candidates = []
-    for candidate_file in candidate_files:
-        candidate = extract_text(candidate_file)
-        candidates.append(candidate)
 
     #Chunking theo cấu trúc Điều - Khoản - Điểm
     print("Đang chunking theo cấu trúc Điều - Khoản - Điểm...")

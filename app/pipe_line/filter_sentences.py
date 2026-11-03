@@ -23,3 +23,17 @@ def filter(data):
                     result_after_filter.append(sample_)
     print(f"So luong mau sau khi loc: {len(result_after_filter)}")
     return result_after_filter
+
+
+
+if __name__ == "__main__":
+    import json
+    data=[{
+        "text": "Tôi là một sinh viên. Tôi đang học lập trình. Tôi thích học Python."
+    }]
+    # with open(data_path, "r", encoding="utf-8") as f:
+    #     data = json.load(f)
+
+    filtered_data = filter(data)
+
+    print(json.dumps(filtered_data, ensure_ascii=False, indent=4))

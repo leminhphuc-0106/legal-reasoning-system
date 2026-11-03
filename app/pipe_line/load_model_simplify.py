@@ -64,3 +64,9 @@ def simplify(chunk, tokenizer, model):
     return answer
 
 
+if __name__ == "__main__":
+    model, tokenizer = load_model()
+    chunk = "Tôi là một sinh viên. Tôi đang học lập trình. Tôi thích học Python."
+    result = simplify(chunk, tokenizer, model)
+    print(result)
+
