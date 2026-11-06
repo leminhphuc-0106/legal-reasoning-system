@@ -1,0 +1,113 @@
+{
+    "candidates": [
+        {
+            "id": "HS01",
+            "name": "Đinh Thị O",
+            "data": {
+                "LOAI_DOI_TUONG": "CA_NHAN",
+                "DOI_TUONG": "Đinh Thị O",
+                "LOAI_XET": "Khen thưởng - Bằng khen của Chủ tịch UBND thành phố",
+                "THOI_DIEM_XET": "tháng 08/2024",
+                "DANH_HIEU_THI_DUA": "Lao động tiên tiến 2022 - 2023; Lao động tiên tiến 2023 - 2024",
+                "KET_QUA_DANH_GIA": "Hoàn thành xuất sắc nhiệm vụ 2022 - 2023; Hoàn thành xuất sắc nhiệm vụ 2023 - 2024",
+                "HINH_THUC_KHEN_THUONG": "Giấy khen của Hiệu trưởng 2022 - 2023; Giấy khen của Hiệu trưởng 2023 - 2024",
+                "SANG_KIEN_NCKH": "02 sáng kiến được công nhận có hiệu quả áp dụng và phạm vi ảnh hưởng ở cơ sở trong năm học 2022 - 2023 và 2023 - 2024"
+            },
+            "mapped_results": {
+                "DANH_HIEU_THI_DUA": [
+                    {
+                        "input": "Lao động tiên tiến 2022 - 2023",
+                        "matches": []
+                    },
+                    {
+                        "input": "Lao động tiên tiến 2023 - 2024",
+                        "matches": []
+                    }
+                ],
+                "KET_QUA_DANH_GIA": [
+                    {
+                        "input": "Hoàn thành xuất sắc nhiệm vụ 2022 - 2023",
+                        "matches": []
+                    },
+                    {
+                        "input": "Hoàn thành xuất sắc nhiệm vụ 2023 - 2024",
+                        "matches": []
+                    }
+                ],
+                "HINH_THUC_KHEN_THUONG": [
+                    {
+                        "input": "Giấy khen của Hiệu trưởng 2022 - 2023",
+                        "matches": []
+                    },
+                    {
+                        "input": "Giấy khen của Hiệu trưởng 2023 - 2024",
+                        "matches": []
+                    }
+                ],
+                "SANG_KIEN_NCKH": [
+                    {
+                        "input": "02 sáng kiến được công nhận có hiệu quả áp dụng và phạm vi ảnh hưởng ở cơ sở trong năm học 2022 - 2023 và 2023 - 2024",
+                        "matches": []
+                    }
+                ]
+            },
+            "criteria": [
+                {
+                    "article_id": 9,
+                    "section_id": 3,
+                    "point_label": "b",
+                    "path": [
+                        {
+                            "head": "Cá nhân",
+                            "head_type": "CA_NHAN",
+                            "relation": "CO_THANH_TICH",
+                            "tail": "tích cực cộng tác",
+                            "tail_type": "THANH_TICH",
+                            "text": "Cá nhân CO_THANH_TICH tích cực cộng tác"
+                        },
+                        {
+                            "head": "tích cực cộng tác",
+                            "head_type": "THANH_TICH",
+                            "relation": "DUOC_CONG_NHAN_BOI",
+                            "tail": "cơ quan",
+                            "tail_type": "TO_CHUC",
+                            "text": "tích cực cộng tác DUOC_CONG_NHAN_BOI cơ quan"
+                        }
+                    ]
+                }
+            ],
+            "coverage": {
+                "total_criteria": 1,
+                "achieved_criteria": 0,
+                "not_achieved_criteria": 1,
+                "coverage_percentage": 0.0,
+                "matched_criteria": [],
+                "unmatched_criteria": [
+                    {
+                        "article_id": 9,
+                        "section_id": 3,
+                        "point_label": "b",
+                        "path": [
+                            {
+                                "head": "Cá nhân",
+                                "head_type": "CA_NHAN",
+                                "relation": "CO_THANH_TICH",
+                                "tail": "tích cực cộng tác",
+                                "tail_type": "THANH_TICH",
+                                "text": "Cá nhân CO_THANH_TICH tích cực cộng tác"
+                            },
+                            {
+                                "head": "tích cực cộng tác",
+                                "head_type": "THANH_TICH",
+                                "relation": "DUOC_CONG_NHAN_BOI",
+                                "tail": "cơ quan",
+                                "tail_type": "TO_CHUC",
+                                "text": "tích cực cộng tác DUOC_CONG_NHAN_BOI cơ quan"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}

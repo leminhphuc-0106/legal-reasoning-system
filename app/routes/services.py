@@ -36,21 +36,60 @@ async def evaluate_api(
     result = await read_data(
         criteria_file=criteria_bytes
     )
-    print("Chờ trong khi xây dựng đồ thị Neo4j...")
+    print("Chờ trong khi xây dựng đồ thị...")
 
     # Import hàm xây dựng Knowledge Graph
     from app.pipe_line.build_graph import build_graph_from_json
 
     # Xây dựng đồ thị
     status_graph = await build_graph_from_json(result)
+    candidates = []
 
-    results_eval = []
-    for candidate in candidate_files_data:
-        result = evaluate(candidate)
-        results_eval.append(result)
-    return {
-            "message": "Files received successfully", 
-            "candidate_files_count": len(candidate_files_data),
-            "status_graph": status_graph,
-            "result_eval": results_eval
+    for idx, candidate in enumerate(candidate_files_data, start=1):
+        # Chạy pipeline đánh giá hồ sơ
+        mapped_results, criteria, data_candidate, coverage = evaluate(candidate)
+        # Tạo ID cho hồ sơ
+        candidate_id = f"HS{idx:02d}"
+        # Tên đối tượng xét thưởng
+        candidate_name = (
+            data_candidate.get("DOI_TUONG", f"Hồ sơ {candidate_id}")
+        )
+        # Ghép toàn bộ dữ liệu vào một hồ sơ
+        candidate_result = {
+            "id": candidate_id,
+            "name": candidate_name,
+
+            # Thông tin đã trích xuất từ hồ sơ
+            "data": data_candidate,
+
+            # Kết quả mapping với Knowledge Graph
+            "mapped_results": mapped_results,
+
+            # Các tiêu chí pháp lý tìm được
+            "criteria": criteria,
+            "coverage": coverage
         }
+
+        candidates.append(candidate_result)
+
+    # Cấu trúc kết quả tổng hợp
+    output = {
+        "candidates": candidates
+    }
+
+    # Lưu kết quả JSON
+    with open(
+        "app/result/predict_profile/predicted_profile.json",
+        "w",
+        encoding="utf-8"
+    ) as f:
+        json.dump(output, f, ensure_ascii=False, indent=4)
+
+    print("Đã lưu kết quả đánh giá hồ sơ.")
+
+    return {
+        "message": "Files received successfully",
+        "candidate_files_count": len(candidates),
+        "status_graph": status_graph,
+        "candidates": candidates
+    }

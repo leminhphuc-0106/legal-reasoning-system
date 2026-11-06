@@ -1,14 +1,18 @@
 // App.jsx
 // Thành phần gốc của ứng dụng: quản lý toàn bộ trạng thái (tiêu chí, hồ sơ,
-// hội thoại, tài liệu) và điều phối các component con trong màn hình đánh giá.
-import { useMemo, useRef, useState } from "react";
+// hội thoại, tài liệu) và điều phối các component con trong màn hình đánh giá.\
+
+
+
+
+import { useRef, useState } from "react";
 import MainLayout from "./layouts/MainLayout.jsx";
 import DataUpload from "./components/DataUpload.jsx";
 import CandidateOverview from "./components/CandidateOverview.jsx";
 import SummaryCard from "./components/SummaryCard.jsx";
 import CriteriaList from "./components/CriteriaList.jsx";
 import Icon from "./components/Icon.jsx";
-import { initialCriteria, initialCandidates } from "./data/initialData.js";
+
 // import { normalizeCandidate, readJsonFile } from "./utils/normalize.js";
 import { askAssistant } from "./services/chatService.js";
 // import { handleEvaluate } from "./services/evalService.js";
@@ -26,14 +30,122 @@ export default function App() {
   const candidateFolderInput = useRef(null);
 
 
+
   // Trạng thái dữ liệu chính của ứng dụng.
   // Khi có Backend, những thông tin này sẽ được lấy thông qua hoạt động của chatbot AI
-  const [criteria, setCriteria] = useState(initialCriteria);
-  const [candidates, setCandidates] = useState(initialCandidates);
-
+  // const [criteria, setCriteria] = useState([]);
+  const [candidates, setCandidates] = useState([       {
+            "id": "HS01",
+            "name": "Đinh Thị O",
+            "data": {
+                "LOAI_DOI_TUONG": "CA_NHAN",
+                "DOI_TUONG": "Đinh Thị O",
+                "LOAI_XET": "Khen thưởng - Bằng khen của Chủ tịch UBND thành phố",
+                "THOI_DIEM_XET": "tháng 08/2024",
+                "DANH_HIEU_THI_DUA": "Lao động tiên tiến 2022 - 2023; Lao động tiên tiến 2023 - 2024",
+                "KET_QUA_DANH_GIA": "Hoàn thành xuất sắc nhiệm vụ 2022 - 2023; Hoàn thành xuất sắc nhiệm vụ 2023 - 2024",
+                "HINH_THUC_KHEN_THUONG": "Giấy khen của Hiệu trưởng 2022 - 2023; Giấy khen của Hiệu trưởng 2023 - 2024",
+                "SANG_KIEN_NCKH": "02 sáng kiến được công nhận có hiệu quả áp dụng và phạm vi ảnh hưởng ở cơ sở trong năm học 2022 - 2023 và 2023 - 2024"
+            },
+            "mapped_results": {
+                "DANH_HIEU_THI_DUA": [
+                    {
+                        "input": "Lao động tiên tiến 2022 - 2023",
+                        "matches": []
+                    },
+                    {
+                        "input": "Lao động tiên tiến 2023 - 2024",
+                        "matches": []
+                    }
+                ],
+                "KET_QUA_DANH_GIA": [
+                    {
+                        "input": "Hoàn thành xuất sắc nhiệm vụ 2022 - 2023",
+                        "matches": []
+                    },
+                    {
+                        "input": "Hoàn thành xuất sắc nhiệm vụ 2023 - 2024",
+                        "matches": []
+                    }
+                ],
+                "HINH_THUC_KHEN_THUONG": [
+                    {
+                        "input": "Giấy khen của Hiệu trưởng 2022 - 2023",
+                        "matches": []
+                    },
+                    {
+                        "input": "Giấy khen của Hiệu trưởng 2023 - 2024",
+                        "matches": []
+                    }
+                ],
+                "SANG_KIEN_NCKH": [
+                    {
+                        "input": "02 sáng kiến được công nhận có hiệu quả áp dụng và phạm vi ảnh hưởng ở cơ sở trong năm học 2022 - 2023 và 2023 - 2024",
+                        "matches": []
+                    }
+                ]
+            },
+            "criteria": [
+                {
+                    "article_id": 9,
+                    "section_id": 3,
+                    "point_label": "b",
+                    "path": [
+                        {
+                            "head": "Cá nhân",
+                            "head_type": "CA_NHAN",
+                            "relation": "CO_THANH_TICH",
+                            "tail": "tích cực cộng tác",
+                            "tail_type": "THANH_TICH",
+                            "text": "Cá nhân CO_THANH_TICH tích cực cộng tác"
+                        },
+                        {
+                            "head": "tích cực cộng tác",
+                            "head_type": "THANH_TICH",
+                            "relation": "DUOC_CONG_NHAN_BOI",
+                            "tail": "cơ quan",
+                            "tail_type": "TO_CHUC",
+                            "text": "tích cực cộng tác DUOC_CONG_NHAN_BOI cơ quan"
+                        }
+                    ]
+                }
+            ],
+            "coverage": {
+                "total_criteria": 1,
+                "achieved_criteria": 0,
+                "not_achieved_criteria": 1,
+                "coverage_percentage": 0.0,
+                "matched_criteria": [],
+                "unmatched_criteria": [
+                    {
+                        "article_id": 9,
+                        "section_id": 3,
+                        "point_label": "b",
+                        "path": [
+                            {
+                                "head": "Cá nhân",
+                                "head_type": "CA_NHAN",
+                                "relation": "CO_THANH_TICH",
+                                "tail": "tích cực cộng tác",
+                                "tail_type": "THANH_TICH",
+                                "text": "Cá nhân CO_THANH_TICH tích cực cộng tác"
+                            },
+                            {
+                                "head": "tích cực cộng tác",
+                                "head_type": "THANH_TICH",
+                                "relation": "DUOC_CONG_NHAN_BOI",
+                                "tail": "cơ quan",
+                                "tail_type": "TO_CHUC",
+                                "text": "tích cực cộng tác DUOC_CONG_NHAN_BOI cơ quan"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }]);
 
   // Hồ sơ đang được chọn và bộ lọc trạng thái tiêu chí (all/pass/fail/pending).
-  const [selectedId, setSelectedId] = useState("HS001");
+  const [selectedId, setSelectedId] = useState("HS01");
   const [filter, setFilter] = useState("all");
 
   // Nội dung câu hỏi đang nhập và lịch sử hội thoại với trợ lý.
@@ -54,38 +166,6 @@ export default function App() {
   // Hồ sơ hiện tại được chọn; nếu không tìm thấy thì lấy hồ sơ đầu tiên.
   const selectedCandidate = candidates.find(item => item.id === selectedId) ?? candidates[0];
 
-
-  // Ghép tiêu chí với kết quả đối chiếu của hồ sơ đang chọn để hiển thị.
-  const results = useMemo(() => {
-
-    if (!selectedCandidate) return [];
-
-    return criteria.map(criterion => {
-      const result = selectedCandidate.criteriaResults.find(item => item.criterionId === criterion.id);
-      
-      return { ...criterion, status: result?.status ?? "pending", reason: result?.reason 
-        || "Chưa có kết quả đối chiếu cho tiêu chí này.", evidence: result?.evidence 
-        || "Chưa có minh chứng được ghi nhận." };
-    });
-
-  }, [criteria, selectedCandidate]);
-
-
-  // Thống kê số tiêu chí theo từng trạng thái và tỷ lệ đạt tổng thể.
-  const counts = {
-    pass: results.filter(item => item.status === "pass").length,
-    fail: results.filter(item => item.status === "fail").length,
-    pending: results.filter(item => item.status === "pending").length,
-  };
-
-  const percentage = results.length ? Math.round(counts.pass / results.length * 100) : 0;
-  // Danh sách tiêu chí sau khi áp dụng bộ lọc hiện tại.
-  const visibleResults = results.filter(item => filter === "all" || item.status === filter);
-
-
-  // Ghi nhận danh sách tài liệu pháp luật (chỉ lưu thông tin tệp để hiển thị).
-  // Xử lý khi người dùng tải lên một hoặc nhiều tài liệu pháp luật.
-  // Xử lý khi người dùng tải lên một tài liệu pháp luật PDF.
   function handleLawUpload(event) {
 
       // Lấy file đầu tiên người dùng chọn.
@@ -138,9 +218,9 @@ export default function App() {
       event.target.value = "";
   }
 
-  function sleep(ms) {
-    return new Promise(resolve => setTimeout(resolve, ms));
-  }
+  // function sleep(ms) {
+  //   return new Promise(resolve => setTimeout(resolve, ms));
+  // }
 
     // Xét hồ sơ: nơi sẽ gọi API chạy toàn bộ pipeline xử lý.
     // Hiện backend chưa có nên tạm thời in dữ liệu đầu vào ra console.
@@ -150,7 +230,7 @@ export default function App() {
           setIsLoading(true);
           setNotice("Đang gửi hồ sơ lên hệ thống...");
 
-          await sleep(1000); // Giả lập độ trễ để thấy spinner loading
+          // await sleep(1000); // Giả lập độ trễ để thấy spinner loading
 
           // Kiểm tra file tiêu chí
           if (!lawFiles.length) {
@@ -192,9 +272,18 @@ export default function App() {
                   JSON.stringify(result.detail)
               );
           }
-          // In kết quả
-          console.log("Kết quả xét hồ sơ:", result);
+          // setCriteria(result.criteria_list || []);
 
+          // Lưu kết quả đánh giá hồ sơ ứng viên
+          setCandidates(result.candidates || []);
+          if (result.candidates?.length > 0) {
+              setSelectedId(result.candidates[0].id);
+          }
+
+          // In thông tin kết quả
+          console.log("Kết quả xét hồ sơ:", result);
+          console.log("Danh sách ứng viên:", result.candidates);
+          // In kết quả
           setNotice("Đã hoàn tất xét hồ sơ!");
 
       } catch (error) {
@@ -224,8 +313,8 @@ export default function App() {
 
   // Khôi phục toàn bộ dữ liệu minh họa và trạng thái ban đầu.
   function resetApp() {
-    setCriteria(initialCriteria); setCandidates(initialCandidates); setSelectedId("HS001");
-    setFilter("all"); setLawFiles([]); setNotice("Đã khôi phục dữ liệu minh họa ban đầu.");
+    setSelectedId("HS01");
+    setFilter("all"); setNotice("Đã khôi phục dữ liệu minh họa ban đầu.");
     setMessages([{ role: "assistant", content: welcomeMessage }]); setQuery("");
   }
 
@@ -290,15 +379,13 @@ export default function App() {
       <>
         <CandidateOverview candidate={selectedCandidate} />
 
-        <SummaryCard candidate={selectedCandidate} 
-                      percentage={percentage} 
-                      counts={counts} />
+        <SummaryCard candidate={selectedCandidate} />
 
-        <CriteriaList results={results} 
-                      visibleResults={visibleResults} 
-                      counts={counts} 
-                      filter={filter} 
-                      setFilter={setFilter} />
+        <CriteriaList
+          candidate={selectedCandidate}
+          filter={filter}
+          setFilter={setFilter}
+        />
 
         <div className="disclaimer">
           <Icon>ⓘ</Icon><p><strong>Lưu ý: </strong> 
