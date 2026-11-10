@@ -5,6 +5,22 @@
 #         data = json.load(f)
 #     return data
 
+def remove_duplicates(data):
+    seen = set()
+    results = []
+
+    for item in data:
+        key = (
+            item.get("article_id"),
+            item.get("text")
+        )
+
+        if key not in seen:
+            seen.add(key)
+            results.append(item)
+
+    return results
+
 def filter(data):
     import fasttext
 
@@ -21,8 +37,10 @@ def filter(data):
                     sample_ = sample.copy()
                     sample_["text"] = sentence
                     result_after_filter.append(sample_)
+    result_after_filter = remove_duplicates(result_after_filter)
     print(f"So luong mau sau khi loc: {len(result_after_filter)}")
     return result_after_filter
+
 
 
 

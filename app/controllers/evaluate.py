@@ -1,17 +1,12 @@
-import asyncio
-import json
-
-from fastapi import FastAPI, File, HTTPException, UploadFile, APIRouter
-from app.pipe_line import read_data
-from app.pipe_line.read_data import read_data
-from app.pipe_line.evaluate_profile import evaluate
-router = APIRouter()
-
-@router.post("/api/evaluate")
-async def evaluate_api(
-    criteria_file: UploadFile = File(...),
-    candidate_files: list[UploadFile] = File(...)
+async def evaluate_controller(
+    criteria_file,
+    candidate_files
 ):
+    import json
+    from fastapi import File, HTTPException 
+    from app.services.ner_rel_extractrion import extract_ner_rel
+    from app.services.evaluate_profile import evaluate
+    from app.services.build_graph import build_graph_from_json
     #Kiểm tra file đầu vào
     if not candidate_files:
         raise HTTPException(
@@ -33,16 +28,11 @@ async def evaluate_api(
     ]
 
     # Đọc và xử lý file luật trước
-    result = await read_data(
+    result_extraction_ner_rel, article_ids = await extract_ner_rel(
         criteria_file=criteria_bytes
     )
-    print("Chờ trong khi xây dựng đồ thị...")
-
-    # Import hàm xây dựng Knowledge Graph
-    from app.pipe_line.build_graph import build_graph_from_json
-
     # Xây dựng đồ thị
-    status_graph = await build_graph_from_json(result)
+    status_graph = await build_graph_from_json(result_extraction_ner_rel, article_ids)
     candidates = []
 
     for idx, candidate in enumerate(candidate_files_data, start=1):
@@ -71,19 +61,13 @@ async def evaluate_api(
         }
 
         candidates.append(candidate_result)
-
-    # Cấu trúc kết quả tổng hợp
-    output = {
-        "candidates": candidates
-    }
-
     # Lưu kết quả JSON
     with open(
         "app/result/predict_profile/predicted_profile.json",
         "w",
         encoding="utf-8"
     ) as f:
-        json.dump(output, f, ensure_ascii=False, indent=4)
+        json.dump(candidates, f, ensure_ascii=False, indent=4)
 
     print("Đã lưu kết quả đánh giá hồ sơ.")
 
@@ -93,3 +77,4 @@ async def evaluate_api(
         "status_graph": status_graph,
         "candidates": candidates
     }
+

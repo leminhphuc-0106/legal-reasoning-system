@@ -182,10 +182,16 @@ def build_structure(text):
 
 def context_inheritance(results_chunking):
     all_chunks = []
+    article_ids = set()
 
     for article in results_chunking:
         article_id = article["article_id"]
+
+        # Thu thập article_id, tự động loại bỏ trùng lặp
+        article_ids.add(article_id)
+
         article_text = f"Điều {article_id}: {article['content_art']}"
+
         if article["sections"]:
             for section in article["sections"]:
                 section_id = section["section_id"]
@@ -224,5 +230,6 @@ def context_inheritance(results_chunking):
                 "section_id": None,
                 "point_label": None
             })
-    return all_chunks
+
+    return all_chunks, list(article_ids)
 

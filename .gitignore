@@ -73,3 +73,43 @@ desktop.ini
 # ---------- Dump / text tạm ----------
 *.txt
 *.json
+data_criteria
+
+
+
+# ==============================
+# MODEL CHECKPOINTS
+# ==============================
+
+# Các thư mục checkpoint ở mọi cấp
+**/checkpoint/
+**/checkpoints/
+**/checkpoint-*/
+**/checkpoint_*/
+
+# Các file trọng số mô hình
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.onnx
+*.h5
+*.hdf5
+*.model
+
+# ==============================
+# TRAINING OUTPUTS
+# ==============================
+
+# Thư mục lưu kết quả huấn luyện
+**/runs/
+**/outputs/
+**/wandb/
+
+# ==============================
+# MODEL CACHE
+# ==============================
+
+**/.cache/
+**/huggingface_cache/

@@ -39,10 +39,6 @@ OUTPUT_FILE = OUTPUT_DIR / "output.json"
 
 POPPLER_PATH = "D:/ProgramFile86/poppler-26.09.0/Library/bin"
 
-# Cache model để tránh nạp lại nhiều lần trong cùng tiến trình.
-_MODEL_CACHE = {}
-
-
 # # ---------------------------------------------------------------------------
 # # ORCHESTRATOR
 # # ---------------------------------------------------------------------------
@@ -126,12 +122,11 @@ def extract_text(source: Any, filename: Optional[str] = None) -> str:
         return extract_text_from_pdf(data)
     
 
-async def read_data(criteria_file: Any):
+async def extract_ner_rel(criteria_file: Any):
     #Đọc dữ liệu vào từ API gửi
     text = await extract_text_from_pdf_async(criteria_file)
 
     #Chunking theo cấu trúc Điều - Khoản - Điểm
-    print("Đang chunking theo cấu trúc Điều - Khoản - Điểm...")
     from app.pipe_line.preprocessing import structure_base_chunk, build_structure, context_inheritance
     articles = structure_base_chunk(text)
     results_chunking = []
@@ -139,13 +134,12 @@ async def read_data(criteria_file: Any):
         article = build_structure(article)
         results_chunking.append(article)
 
-    print("Đang kế thừa ngữ cảnh từ Điều - Khoản - Điểm..., xây dựng các chunk văn bản...")
-    text_chunks = context_inheritance(results_chunking)
+    #Kế thừa ngữ nghĩa
+    text_chunks, article_ids = context_inheritance(results_chunking)
     output_path = "./app/result/chunking/results_chunking.json"
     _save_output(payload=text_chunks, output_file=output_path)
 
 
-    print("Đang tách câu đơn bằng mô hình Vi-T5 đã fine-tune...")
     #Tách câu đơn bằng mô hình Vi-T5 đã fine-tune
     from app.pipe_line.load_model_simplify import load_model, simplify
     model, tokenizer = load_model()
@@ -165,7 +159,6 @@ async def read_data(criteria_file: Any):
             print(answer)
 
 
-    print("Đang lọc câu bằng mô hình FastText...")
     #Lọc câu bằng mô hình FastText
     from app.pipe_line.filter_sentences import filter
     filtered_chunk = filter(data=splited_results)
@@ -173,7 +166,6 @@ async def read_data(criteria_file: Any):
     _save_output(payload=filtered_chunk, output_file=output_path)
 
 
-    print("Đang trích xuất thực thể và quan hệ bằng mô hình GLiNER...")
     #trích xuất thực thể và quan hệ bằng mô hình GLiNER
     from app.pipe_line.ner_rel_extractrion import excute_predict
     results_ner_rel = excute_predict(filtered_chunk)
@@ -182,7 +174,7 @@ async def read_data(criteria_file: Any):
 
 
     #Trả về kết quả trích xuất thực thể và quan hệ
-    return results_ner_rel
+    return results_ner_rel, article_ids
 
 
 

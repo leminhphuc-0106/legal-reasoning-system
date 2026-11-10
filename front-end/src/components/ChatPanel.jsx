@@ -11,10 +11,6 @@ export default function ChatPanel({ messages, notice, query, setQuery, onSend })
       <div className="intro-symbol">✳</div>
       <p className="eyebrow">TRỢ LÝ HÀNH CHÍNH SỐ</p>
       <h2>Xin chào, tôi có thể giúp gì?</h2>
-      {/* <p className="intro-description">
-        Tra cứu quy định khen thưởng, 
-        kiểm tra điều kiện và tổng hợp thông tin hồ sơ ứng viên trên cùng một giao diện.
-      </p> */}
     </div>
 
 
@@ -63,8 +59,5 @@ export default function ChatPanel({ messages, notice, query, setQuery, onSend })
         </button>
       </div>
     </form></div>
-
-
-
   </section>;
 }

@@ -13,13 +13,14 @@ import SummaryCard from "./components/SummaryCard.jsx";
 import CriteriaList from "./components/CriteriaList.jsx";
 import Icon from "./components/Icon.jsx";
 
+
 // import { normalizeCandidate, readJsonFile } from "./utils/normalize.js";
 import { askAssistant } from "./services/chatService.js";
 // import { handleEvaluate } from "./services/evalService.js";
 import "./App.css";
 
 // Tin nhắn chào mừng mặc định của trợ lý khi mở ứng dụng.
-const welcomeMessage = "Xin chào! Tôi có thể hỗ trợ tra cứu quy định, đối chiếu tiêu chí và tổng hợp thông tin hồ sơ ứng viên. Hãy chọn một ứng viên ở bên phải hoặc nhập câu hỏi bên dưới.";
+const welcomeMessage = `Xin chào! Tôi có thể hỗ trợ được gì cho bạn ?`;
 
 export default function App() {
   // Các ref trỏ tới input file ẩn, dùng để mở hộp chọn tệp từ nút bấm.
@@ -34,115 +35,7 @@ export default function App() {
   // Trạng thái dữ liệu chính của ứng dụng.
   // Khi có Backend, những thông tin này sẽ được lấy thông qua hoạt động của chatbot AI
   // const [criteria, setCriteria] = useState([]);
-  const [candidates, setCandidates] = useState([       {
-            "id": "HS01",
-            "name": "Đinh Thị O",
-            "data": {
-                "LOAI_DOI_TUONG": "CA_NHAN",
-                "DOI_TUONG": "Đinh Thị O",
-                "LOAI_XET": "Khen thưởng - Bằng khen của Chủ tịch UBND thành phố",
-                "THOI_DIEM_XET": "tháng 08/2024",
-                "DANH_HIEU_THI_DUA": "Lao động tiên tiến 2022 - 2023; Lao động tiên tiến 2023 - 2024",
-                "KET_QUA_DANH_GIA": "Hoàn thành xuất sắc nhiệm vụ 2022 - 2023; Hoàn thành xuất sắc nhiệm vụ 2023 - 2024",
-                "HINH_THUC_KHEN_THUONG": "Giấy khen của Hiệu trưởng 2022 - 2023; Giấy khen của Hiệu trưởng 2023 - 2024",
-                "SANG_KIEN_NCKH": "02 sáng kiến được công nhận có hiệu quả áp dụng và phạm vi ảnh hưởng ở cơ sở trong năm học 2022 - 2023 và 2023 - 2024"
-            },
-            "mapped_results": {
-                "DANH_HIEU_THI_DUA": [
-                    {
-                        "input": "Lao động tiên tiến 2022 - 2023",
-                        "matches": []
-                    },
-                    {
-                        "input": "Lao động tiên tiến 2023 - 2024",
-                        "matches": []
-                    }
-                ],
-                "KET_QUA_DANH_GIA": [
-                    {
-                        "input": "Hoàn thành xuất sắc nhiệm vụ 2022 - 2023",
-                        "matches": []
-                    },
-                    {
-                        "input": "Hoàn thành xuất sắc nhiệm vụ 2023 - 2024",
-                        "matches": []
-                    }
-                ],
-                "HINH_THUC_KHEN_THUONG": [
-                    {
-                        "input": "Giấy khen của Hiệu trưởng 2022 - 2023",
-                        "matches": []
-                    },
-                    {
-                        "input": "Giấy khen của Hiệu trưởng 2023 - 2024",
-                        "matches": []
-                    }
-                ],
-                "SANG_KIEN_NCKH": [
-                    {
-                        "input": "02 sáng kiến được công nhận có hiệu quả áp dụng và phạm vi ảnh hưởng ở cơ sở trong năm học 2022 - 2023 và 2023 - 2024",
-                        "matches": []
-                    }
-                ]
-            },
-            "criteria": [
-                {
-                    "article_id": 9,
-                    "section_id": 3,
-                    "point_label": "b",
-                    "path": [
-                        {
-                            "head": "Cá nhân",
-                            "head_type": "CA_NHAN",
-                            "relation": "CO_THANH_TICH",
-                            "tail": "tích cực cộng tác",
-                            "tail_type": "THANH_TICH",
-                            "text": "Cá nhân CO_THANH_TICH tích cực cộng tác"
-                        },
-                        {
-                            "head": "tích cực cộng tác",
-                            "head_type": "THANH_TICH",
-                            "relation": "DUOC_CONG_NHAN_BOI",
-                            "tail": "cơ quan",
-                            "tail_type": "TO_CHUC",
-                            "text": "tích cực cộng tác DUOC_CONG_NHAN_BOI cơ quan"
-                        }
-                    ]
-                }
-            ],
-            "coverage": {
-                "total_criteria": 1,
-                "achieved_criteria": 0,
-                "not_achieved_criteria": 1,
-                "coverage_percentage": 0.0,
-                "matched_criteria": [],
-                "unmatched_criteria": [
-                    {
-                        "article_id": 9,
-                        "section_id": 3,
-                        "point_label": "b",
-                        "path": [
-                            {
-                                "head": "Cá nhân",
-                                "head_type": "CA_NHAN",
-                                "relation": "CO_THANH_TICH",
-                                "tail": "tích cực cộng tác",
-                                "tail_type": "THANH_TICH",
-                                "text": "Cá nhân CO_THANH_TICH tích cực cộng tác"
-                            },
-                            {
-                                "head": "tích cực cộng tác",
-                                "head_type": "THANH_TICH",
-                                "relation": "DUOC_CONG_NHAN_BOI",
-                                "tail": "cơ quan",
-                                "tail_type": "TO_CHUC",
-                                "text": "tích cực cộng tác DUOC_CONG_NHAN_BOI cơ quan"
-                            }
-                        ]
-                    }
-                ]
-            }
-        }]);
+  const [candidates, setCandidates] = useState([]);
 
   // Hồ sơ đang được chọn và bộ lọc trạng thái tiêu chí (all/pass/fail/pending).
   const [selectedId, setSelectedId] = useState("HS01");
@@ -151,7 +44,6 @@ export default function App() {
   // Nội dung câu hỏi đang nhập và lịch sử hội thoại với trợ lý.
   const [query, setQuery] = useState("");
   const [messages, setMessages] = useState([{ role: "assistant", content: welcomeMessage }]);
-
 
   // Danh sách tài liệu pháp luật đã thêm và thông báo trạng thái gần nhất.
   const [lawFiles, setLawFiles] = useState([]);
@@ -191,8 +83,6 @@ export default function App() {
       event.target.value = "";
   }
 
-
-
   // Đọc một hoặc nhiều file JSON hồ sơ ứng viên,
   // chuẩn hóa dữ liệu và gộp vào danh sách ứng viên hiện tại.
   // Xử lý khi người dùng chọn file hoặc thư mục hồ sơ.
@@ -217,84 +107,124 @@ export default function App() {
       // Reset input để có thể chọn lại cùng một file.
       event.target.value = "";
   }
-
-  // function sleep(ms) {
-  //   return new Promise(resolve => setTimeout(resolve, ms));
-  // }
-
     // Xét hồ sơ: nơi sẽ gọi API chạy toàn bộ pipeline xử lý.
     // Hiện backend chưa có nên tạm thời in dữ liệu đầu vào ra console.
-  async function handleEvaluate() {
-      try {
-          // Bật trạng thái loading
-          setIsLoading(true);
-          setNotice("Đang gửi hồ sơ lên hệ thống...");
+    
+    async function handleEvaluate() {
+        try {
+            // Bật trạng thái loading
+            setIsLoading(true);
+            setNotice("Đang gửi hồ sơ lên hệ thống...");
 
-          // await sleep(1000); // Giả lập độ trễ để thấy spinner loading
+            // =========================================
+            // 1. KIỂM TRA DỮ LIỆU ĐẦU VÀO
+            // =========================================
 
-          // Kiểm tra file tiêu chí
-          if (!lawFiles.length) {
-              throw new Error("Vui lòng chọn file PDF tiêu chí xét thưởng.");
-          }
+            if (!lawFiles.length) {
+                throw new Error("Vui lòng chọn file PDF tiêu chí xét thưởng.");
+            }
 
-          // Kiểm tra danh sách hồ sơ ứng viên
-          if (!candidateFiles.length) {
-              throw new Error("Vui lòng thêm hồ sơ ứng viên.");
-          }
+            if (!candidateFiles.length) {
+                throw new Error("Vui lòng thêm hồ sơ ứng viên.");
+            }
 
-          // Tạo FormData để gửi file lên FastAPI
-          const formData = new FormData();
+            // =========================================
+            // 2. TẠO FORMDATA VÀ GỬI API EVALUATE
+            // =========================================
 
-          // Thêm file tiêu chí
-          formData.append("criteria_file", lawFiles[0]);
-          console.log("Đã thêm file tiêu chí:", lawFiles[0].name);
+            const formData = new FormData();
+            formData.append("criteria_file", lawFiles[0]);
+            console.log("Đã thêm file tiêu chí:", lawFiles[0].name);
+            candidateFiles.forEach(file => {
+                formData.append("candidate_files", file);
+                console.log("Đã thêm file ứng viên:", file.name);
+            });
 
-          // Thêm danh sách file ứng viên
-          candidateFiles.forEach(file => {
-              formData.append("candidate_files", file);
-              console.log("Đã thêm file ứng viên:", file.name);
-          });
-          console.log("Tổng số hồ sơ ứng viên:", candidateFiles.length);
+            console.log("Tổng số hồ sơ ứng viên:", candidateFiles.length);
 
-          // Gửi request đến FastAPI
-          const response = await fetch("http://127.0.0.1:8000/api/evaluate", {
-              method: "POST",
-              body: formData
-          });
+            // Gọi API 1: Đánh giá hồ sơ bằng Knowledge Graph
+            const response = await fetch(
+                "http://127.0.0.1:8000/api/evaluate",
+                {
+                    method: "POST",
+                    body: formData
+                }
+            );
 
-          // Nhận kết quả trả về
-          const result = await response.json();
+            const result = await response.json();
+            if (!response.ok) {
+                console.error("Backend trả về:", result);
+                throw new Error(
+                    JSON.stringify(result.detail)
+                );
+            }
 
-          // Kiểm tra lỗi từ backend
-          if (!response.ok) {
-              console.error("Backend trả về:", result);
-              throw new Error(
-                  JSON.stringify(result.detail)
-              );
-          }
-          // setCriteria(result.criteria_list || []);
+            // Lưu kết quả đánh giá
+            setCandidates(result.candidates || []);
 
-          // Lưu kết quả đánh giá hồ sơ ứng viên
-          setCandidates(result.candidates || []);
-          if (result.candidates?.length > 0) {
-              setSelectedId(result.candidates[0].id);
-          }
+            if (result.candidates?.length > 0) {
+                setSelectedId(result.candidates[0].id);
+            }
 
-          // In thông tin kết quả
-          console.log("Kết quả xét hồ sơ:", result);
-          console.log("Danh sách ứng viên:", result.candidates);
-          // In kết quả
-          setNotice("Đã hoàn tất xét hồ sơ!");
+            console.log("Kết quả xét hồ sơ:", result);
+            console.log("Danh sách ứng viên:", result.candidates);
 
-      } catch (error) {
-          console.error("Lỗi xét hồ sơ:", error);
-          setNotice(`Lỗi: ${error.message}`);
+            // =========================================
+            // GỌI API 2: GENERATE REPORT BẰNG QWEN
+            // =========================================
 
-      } finally {
-          // Tắt loading dù thành công hay thất bại
-          setIsLoading(false);
-      }
-  }
+            setNotice("Đang sử dụng Qwen để phân tích và sinh báo cáo...");
+            const reportResponse = await fetch(
+                "http://127.0.0.1:8000/generate-report",
+                {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify(
+                        result.candidates
+                    )
+                }
+            );
+
+            const reportResult = await reportResponse.json();
+
+            if (!reportResponse.ok) {
+                console.error("Backend trả về:", reportResult);
+                throw new Error(
+                    JSON.stringify(reportResult.detail)
+                );
+            }
+
+            // =========================================
+            // 4. LƯU VÀ HIỂN THỊ BÁO CÁO
+            // =========================================
+
+            // setReport(reportResult.results || []);
+            const results = reportResult.results || [];
+
+            const combinedReport = results.join("\n\n");
+            setMessages(prev => [
+                ...prev,
+                {
+                    role: "assistant",
+                    content: combinedReport
+                }
+            ]);
+            console.log("Báo cáo do Qwen sinh:", reportResult.report);
+            setNotice("Đã hoàn tất xét hồ sơ và sinh báo cáo!");
+
+        } catch (error) {
+            console.error("Lỗi xét hồ sơ:", error);
+            setNotice(`Lỗi: ${error.message}`);
+
+        } finally {
+            // Tắt loading dù thành công hay thất bại
+            setIsLoading(false);
+        }
+    }   
+
+
 
   // Gửi câu hỏi của người dùng tới trợ lý và thêm câu trả lời vào hội thoại.
   async function sendMessage(event) {

@@ -138,9 +138,7 @@ def find_criterion(results, type_):
 
     # 2. Kết nối Neo4j
     from app.pipe_line.build_graph import connect_neo4j
-
     driver = connect_neo4j()
-
     cypher = """
         MATCH path = (h:Entity)-[*1..5]->(t:Entity)
 

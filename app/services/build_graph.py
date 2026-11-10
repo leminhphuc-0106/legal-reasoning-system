@@ -65,60 +65,91 @@ import re
 from collections import defaultdict
 
 
-def build_neo4j_graph(driver, batch_samples, batch_size=1000):
-    
+
+from collections import defaultdict
+import re
+
+def prepare_graph_data(batch_samples, article_ids):
+
     entity_rows = []
+    # Ví dụ: [
+    # {"name": "Bằng khen", 
+    # "type": "KHEN_THUONG", 
+    # "article_id": 9, 
+    # "section_id": 1
+    # }]
     relation_groups = defaultdict(list)
+    #   relation_groups = {
+    #     (
+    #         "AP_DUNG_CHO",
+    #         ("article_id", "section_id")
+    #     ): [
+    #         {
+    #             "head_name": "Bằng khen",
+    #             "tail_name": "Cá nhân",
+    #             "article_id": 9,
+    #             "props": {
+    #                 "article_id": 9,
+    #                 "section_id": 1
+    #             }
+    #         },
+    #         {
+    #             "head_name": "Giấy khen",
+    #             "tail_name": "Cá nhân",
+    #             "article_id": 10,
+    #             "props": {
+    #                 "article_id": 10,
+    #                 "section_id": 2
+    #             }
+    #         }
+    #     ]
+    # }
 
     total_entities = 0
     total_relations = 0
     skipped_relations = 0
 
-    # 1. Duyệt qua từng sample
     for sample in batch_samples:
+
+        article_id = sample.get("article_id")
+
+        if article_ids and article_id not in article_ids:
+            continue
 
         entities = sample.get("entities", [])
         relations = sample.get("relations", [])
 
-        article_id = sample.get("article_id")
         section_id = sample.get("section_id")
         point_label = sample.get("point_label")
 
-        # Metadata của relationship
         rel_props = {
-            "article_id": article_id,
-            "section_id": section_id,
-            "point_label": point_label
-        }
-
-        rel_props = {
-            k: v for k, v in rel_props.items()
+            k: v for k, v in {
+                "article_id": article_id,
+                "section_id": section_id,
+                "point_label": point_label
+            }.items()
             if v is not None
         }
 
         entity_map = {}
 
-        # 2. Thu thập entity nodes
+        # Thu thập entities
         for idx, entity in enumerate(entities):
+
             node_data = {
                 "name": entity["text"],
                 "type": entity["label"],
-                "article_id": rel_props.get("article_id"),
-                "section_id": rel_props.get("section_id"),
-                "point_label": rel_props.get("point_label")
+                "article_id": article_id,
+                "section_id": section_id,
+                "point_label": point_label
             }
-
-            # Bổ sung thông tin Điều, Khoản, Điểm
-            if entity["label"] == "HINH_THUC_KHEN_THUONG":
-                node_data.update({
-                    "dieu": sample.get("article_id")
-                })
 
             entity_rows.append(node_data)
             entity_map[idx] = node_data
+
         total_entities += len(entities)
 
-        # 3. Thu thập relationships
+        # Thu thập relationships
         for relation in relations:
 
             head = relation["head"]
@@ -133,109 +164,142 @@ def build_neo4j_graph(driver, batch_samples, batch_size=1000):
 
             rel_type = relation["relation"]
 
-
-            # Kiểm tra tên relationship để tránh Cypher injection
             if not re.fullmatch(r"[A-Za-z_][A-Za-z0-9_]*", rel_type):
-                raise ValueError(
-                    f"Relationship type không hợp lệ: {rel_type}"
-                )
+                raise ValueError(f"Relationship không hợp lệ: {rel_type}")
 
             rel_type = normalize_relation_name(rel_type)
+
+            if not re.fullmatch(r"[A-Za-z_][A-Za-z0-9_]*", rel_type):
+                raise ValueError(f"Relationship sau normalize không hợp lệ: {rel_type}")
 
             row = {
                 "head_name": h["name"],
                 "head_type": h["type"],
                 "tail_name": t["name"],
                 "tail_type": t["type"],
+                "article_id": article_id,
                 "props": rel_props
             }
 
-            # Nhóm theo relationship type và tập thuộc tính
             group_key = (
                 rel_type,
                 tuple(sorted(rel_props.keys()))
             )
 
             relation_groups[group_key].append(row)
-
             total_relations += 1
 
-    # 4. Ghi dữ liệu vào Neo4j
+    return {
+        "entity_rows": entity_rows,
+        "relation_groups": relation_groups,
+        "total_entities": total_entities,
+        "total_relations": total_relations,
+        "skipped_relations": skipped_relations
+    }
+
+
+
+
+import re
+from collections import defaultdict
+
+
+def insert_graph_to_neo4j(driver, graph_data, batch_size=1000):
+
+    entity_rows = graph_data["entity_rows"]
+    relation_groups = graph_data["relation_groups"]
+
+    # 1. Tạo unique constraint cho node
     with driver.session() as session:
 
-        # Tạo constraint
         session.run("""
-            CREATE CONSTRAINT entity_name_type_unique IF NOT EXISTS
-            FOR (e:Entity)
-            REQUIRE (e.name, e.type) IS UNIQUE
-        """).consume()
+            CREATE CONSTRAINT entity_unique IF NOT EXISTS
+            FOR (n:Entity)
+            REQUIRE (n.name, n.type, n.article_id) IS UNIQUE
+        """)
 
-        # 5. Batch tạo entity nodes
+        # 2. Insert nodes
+        entity_query = """
+            UNWIND $rows AS row
+
+            MERGE (n:Entity {
+                name: row.name,
+                type: row.type,
+                article_id: row.article_id
+            })
+        """
+
         for i in range(0, len(entity_rows), batch_size):
 
             batch = entity_rows[i:i + batch_size]
 
-            session.run("""
-                UNWIND $batch AS row
-                    MERGE (e:Entity {
-                        name: row.name,
-                        type: row.type
-                    })
+            session.run(entity_query, rows=batch)
 
-                    SET e += row
-            """, batch=batch).consume()
+        # 3. Insert relationships
+        total_inserted = 0
 
-        # 6. Batch tạo relationships
-        for (rel_type, prop_keys), rows in relation_groups.items():
+        for (rel_type, prop_keys), relations in relation_groups.items():
 
-            # Tạo biểu thức thuộc tính cho MERGE
-            prop_conditions = ", ".join(
+            # Kiểm tra tên relationship và property để tránh Cypher injection
+            if not re.fullmatch(r"[A-Za-z_][A-Za-z0-9_]*", rel_type):
+                raise ValueError(f"Invalid relationship type: {rel_type}")
+
+            for key in prop_keys:
+                if not re.fullmatch(r"[A-Za-z_][A-Za-z0-9_]*", key):
+                    raise ValueError(f"Invalid property key: {key}")
+
+            # Xây dựng phần khóa của relationship
+            merge_props = ", ".join(
                 f"{key}: row.props.{key}"
                 for key in prop_keys
             )
 
-            if prop_conditions:
-                relationship_pattern = (
-                    f"[r:{rel_type} {{{prop_conditions}}}]"
-                )
-            else:
-                relationship_pattern = f"[r:{rel_type}]"
+            merge_pattern = (
+                f"{{{merge_props}}}" if merge_props else ""
+            )
 
-            cypher = f"""
-                UNWIND $batch AS row
+            relation_query = f"""
+                UNWIND $rows AS row
 
                 MATCH (h:Entity {{
                     name: row.head_name,
-                    type: row.head_type
+                    type: row.head_type,
+                    article_id: row.article_id
                 }})
 
                 MATCH (t:Entity {{
                     name: row.tail_name,
-                    type: row.tail_type
+                    type: row.tail_type,
+                    article_id: row.article_id
                 }})
 
-                MERGE (h)-{relationship_pattern}->(t)
+                MERGE (h)-[r:{rel_type} {merge_pattern}]->(t)
+
+                SET r += row.props
             """
 
-            for i in range(0, len(rows), batch_size):
+            for i in range(0, len(relations), batch_size):
 
-                batch = rows[i:i + batch_size]
+                batch = relations[i:i + batch_size]
 
-                session.run(
-                    cypher,
-                    batch=batch
-                ).consume()
+                result = session.run(
+                    relation_query,
+                    rows=batch
+                )
 
-    print(
-        f"""
-        Đã build graph thành công!
+                summary = result.consume()
 
-        Samples: {len(batch_samples)}
-        Entities: {total_entities}
-        Relations: {total_relations}
-        Skipped relations: {skipped_relations}
-        """
-    )
+                total_inserted += summary.counters.relationships_created
+
+    return {
+        "total_entities": graph_data["total_entities"],
+        "total_relations": graph_data["total_relations"],
+        "skipped_relations": graph_data["skipped_relations"],
+        "relationships_created": total_inserted
+    }
+
+
+
 
 #Hàm reset toàn bộ dữ liệu trong cơ sở dữ liệu Neo4j
 def delete_all_data(tx):
@@ -256,12 +320,21 @@ def reset_neo4j_data(driver):
         print(e)
 
 
-async def build_graph_from_json(samples):
+async def build_graph_from_json(samples, article_ids):
     driver = connect_neo4j()
     if driver is None:
         return {"error": "Không thể kết nối đến cơ sở dữ liệu Neo4j"}
     reset_neo4j_data(driver)
 
-    build_neo4j_graph(driver, samples, batch_size=1000)
+    graph_data = prepare_graph_data(
+        samples,
+        article_ids
+    )
+
+    # Bước 2: Ghi vào Neo4j
+    insert_graph_to_neo4j(
+        driver,
+        graph_data
+    )
     driver.close()
     return {"message": "Đã build graph thành công!"}
