@@ -1,3 +1,4 @@
+#Hàm load mô hình gliner
 def load_gliner(model_path="./models/GLiNER-Model"):
     from gliner import GLiNER
     import torch
@@ -12,8 +13,8 @@ def load_gliner(model_path="./models/GLiNER-Model"):
     return model
 
 
-# 4. Hàm dự đoán Entity + Relation
-def predict_kg(model, text, entity_threshold=0.5, relation_threshold=0.5):
+#Hàm dự đoán Entity + Relation
+def extract_ner_rel(model, text, entity_threshold=0.5, relation_threshold=0.5):
     entity_labels = [
         "CA_NHAN", "TO_CHUC", "CO_QUAN_NHA_NUOC", "TAP_THE",
         "HOI_DONG_KHEN_THUONG", "DANH_HIEU_THI_DUA",
@@ -42,7 +43,7 @@ def predict_kg(model, text, entity_threshold=0.5, relation_threshold=0.5):
     )
     return result
 
-
+#lọc các câu không quan hệ
 def filter_results(results, data):
     samples = []
 
@@ -68,16 +69,17 @@ def filter_results(results, data):
     return samples
 
 
-def excute_predict(data):
+#Trích xuất ner_rel từng dữ liệu nhiều câu dơn
+def excute_extraction(data):
     model = load_gliner()
     results = []
     from tqdm.auto import tqdm
     for sample in tqdm(data, desc="Predict KG"):
         sentence = sample["text"]
-        result = predict_kg(model, sentence)
+        result = extract_ner_rel(model, sentence)
         results.append(result)
 
-    filtered_results = filter_results(results, data)
-    return filtered_results
+    extracted_results = filter_results(results, data)
+    return extracted_results
 
 

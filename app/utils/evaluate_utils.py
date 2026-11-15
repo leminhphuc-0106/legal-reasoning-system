@@ -1,3 +1,5 @@
+# Chuyển văn bản đầu vào thành dictionary JSON theo cấu trúc các trường dữ liệu đã định nghĩa.
+# Tự động xác định loại đối tượng xét khen thưởng và ánh xạ các thông tin sang tên thuộc tính tương ứng.
 def parse_text_to_dict(text):
     field_mapping = {
         "Cá nhân": "DOI_TUONG",
@@ -9,7 +11,6 @@ def parse_text_to_dict(text):
         "Hình thức khen thưởng": "HINH_THUC_KHEN_THUONG",
         "Sáng kiến NCKH": "SANG_KIEN_NCKH"
     }
-
     result = {}
     lines = text.splitlines()
 
@@ -30,7 +31,6 @@ def parse_text_to_dict(text):
             continue
 
         key, value = line.split(":", 1)
-
         key = key.strip()
         value = value.strip()
 
@@ -38,3 +38,5 @@ def parse_text_to_dict(text):
             result[field_mapping[key]] = value
 
     return result
+
+

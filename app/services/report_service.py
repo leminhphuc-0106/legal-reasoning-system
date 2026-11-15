@@ -28,8 +28,6 @@ def load_llm_model(MODEL_NAME="D:/PROJECT/Xet_Khen_Thuong/models/Qwen3-0.6B"):
 # =====================================================
 
 def generate_report(json_data, model, tokenizer):
-
-
     SYSTEM_PROMPT  = """
         Bạn là trợ lý AI chuyên tổng hợp kết quả xét thi đua, khen thưởng
         dựa trên dữ liệu được cung cấp từ hệ thống Knowledge Graph.
@@ -176,33 +174,10 @@ def generate_report(json_data, model, tokenizer):
 
     return report.strip()
 
-
-import re
-def clean_report_text(text):
-    # Loại bỏ Markdown
-    text = re.sub(r'\*\*|__|~~|==', '', text)
-    # Loại bỏ ký tự escape không cần thiết
-    text = text.replace('\\', '')
-    # Chỉ giữ nội dung từ mục 1 đến hết mục 4
-    match = re.search(
-        r'1\.\s.*?(?=\n\s*5\.\s|\Z)',
-        text,
-        flags=re.DOTALL
-    )
-    if match:
-        text = match.group(0)
-
-    # Loại bỏ dấu gạch đầu dòng ở đầu mỗi dòng
-    text = re.sub(r'^\s*[-•*]\s*', '', text, flags=re.MULTILINE)
-    # Chuẩn hóa khoảng trắng
-    text = re.sub(r'[ \t]+', ' ', text)
-    text = re.sub(r'\n{2,}', '\n', text)
-    return text.strip()
-
 # =====================================================
 # 4. HÀM MAIN
 # =====================================================
-def run(data, model, tokenizer, device):
+def excute_generation(data, model, tokenizer, device):
 
     # 1. Cấu hình file đầu ra
     OUTPUT_FILE = "D:/PROJECT/Xet_Khen_Thuong/app/result/predict_profile/report.txt"
@@ -215,6 +190,7 @@ def run(data, model, tokenizer, device):
         # model, tokenizer, device = load_llm_model()
 
         report = generate_report(data, model, tokenizer)
+        from app.utils.report_utils import clean_report_text
         report = clean_report_text(report)
 
         # 3. Hiển thị báo cáo

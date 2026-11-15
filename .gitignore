@@ -114,7 +114,8 @@ data_criteria
 **/.cache/
 **/huggingface_cache/
 
-app/result
+result
 
 **/.
 *.ipynb
+

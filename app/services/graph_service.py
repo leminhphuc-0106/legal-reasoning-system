@@ -1,9 +1,131 @@
-import torch
-import torch.nn.functional as F
-from transformers import AutoTokenizer, AutoModel
+from app.modules.knowlege_graph import load_embedding_model, build_graph, build_name_embeddings, create_vector_index, query_graph
+from app.modules.knowlege_graph import get_embedding_map
+# Truy xuất các đường dẫn quan hệ trong Knowledge Graph dựa trên node có độ tương đồng cao nhất.
+# Lọc theo loại thực thể và article_id, đồng thời loại bỏ các đường dẫn trùng lặp dạng tiền tố.
+def find_criterion(results, type_):
+    criteria = []
 
+    # 1. Lấy node có Similarity Score cao nhất
+    if not results:
+        print("\nKhông tìm thấy node phù hợp.")
+        return criteria
+
+    best_result = max(results, key=lambda x: x["score"])
+    article_id = best_result["article_id"]
+
+    # 2. Kết nối Neo4j
+    from app.database.connection import Neo4jConnection
+    neo4j = Neo4jConnection()
+    driver = neo4j.get_driver()
+    cypher = """
+        MATCH path = (h:Entity)-[*1..5]->(t:Entity)
+
+        WHERE h.type = $type_
+        AND ALL(r IN relationships(path)
+            WHERE r.article_id = $article_id)
+
+        RETURN
+            [n IN nodes(path) | {
+                name: n.name,
+                type: n.type
+            }] AS nodes,
+
+            [r IN relationships(path) | {
+                relation: type(r),
+                article_id: r.article_id,
+                section_id: r.section_id,
+                point_label: r.point_label
+            }] AS relations
+    """
+
+    try:
+        with driver.session() as session:
+            result = session.run(
+                cypher,
+                article_id=article_id,
+                type_=type_
+            )
+
+            # 3. Thu thập toàn bộ path
+            all_paths = []
+
+            for record in result:
+                nodes = record["nodes"]
+                relations = record["relations"]
+
+                path = []
+
+                for i, rel in enumerate(relations):
+                    path.append({
+                        "head": nodes[i]["name"],
+                        "head_type": nodes[i]["type"],
+                        "relation": rel["relation"],
+                        "tail": nodes[i + 1]["name"],
+                        "tail_type": nodes[i + 1]["type"],
+                        "text": (
+                            f'{nodes[i]["name"]} '
+                            f'{rel["relation"]} '
+                            f'{nodes[i + 1]["name"]}'
+                        )
+                    })
+
+                if path:
+                    all_paths.append({
+                        "article_id": relations[0]["article_id"],
+                        "section_id": relations[0]["section_id"],
+                        "point_label": relations[0]["point_label"],
+                        "path": path
+                    })
+
+        # 4. Kiểm tra path1 có phải tiền tố của path2 không
+        def is_prefix(path1, path2):
+            if len(path1) >= len(path2):
+                return False
+
+            return all(
+                (
+                    p1["head"],
+                    p1["relation"],
+                    p1["tail"]
+                ) == (
+                    p2["head"],
+                    p2["relation"],
+                    p2["tail"]
+                )
+                for p1, p2 in zip(path1, path2)
+            )
+
+        # 5. Loại bỏ các path dư thừa
+        for i, item in enumerate(all_paths):
+            current_path = item["path"]
+
+            redundant = any(
+                is_prefix(current_path, other["path"])
+                and (
+                    item["article_id"],
+                    item["section_id"],
+                    item["point_label"]
+                ) == (
+                    other["article_id"],
+                    other["section_id"],
+                    other["point_label"]
+                )
+                for j, other in enumerate(all_paths)
+                if i != j
+            )
+
+            if not redundant:
+                criteria.append(item)
+
+    finally:
+        driver.close()
+    return criteria
+
+
+import torch
+# Ánh xạ các thông tin thành tích trong hồ sơ ứng viên với các tiêu chí tương ứng trong Knowledge Graph.
+# Sử dụng cosine similarity giữa các vector embedding để tìm các tiêu chí phù hợp theo ngưỡng tương đồng.
 def map_data_to_criteria(data, criteria, model, tokenizer, device, threshold=0.65):
-    from app.pipe_line.embedding import get_embedding_map
     results = {}
 
     # Các trường cần mapping
@@ -56,7 +178,6 @@ def map_data_to_criteria(data, criteria, model, tokenizer, device, threshold=0.6
         results[field] = []
 
         for text in values:
-
             input_embedding = get_embedding_map(
                 text, model, tokenizer, device
             )
@@ -84,15 +205,16 @@ def map_data_to_criteria(data, criteria, model, tokenizer, device, threshold=0.6
                     **criterion,
                     "similarity": round(score, 4)
                 })
-
             results[field].append({
                 "input": text,
                 "matches": matches
             })
-
     return results
 
 
+
+# Đánh giá mức độ bao phủ của các tiêu chí pháp lý dựa trên kết quả ánh xạ dữ liệu hồ sơ.
+# Thống kê số tiêu chí đã đạt, chưa đạt và tỷ lệ bao phủ, đồng thời lưu thông tin đối chiếu tương ứng.
 def evaluate_criterion_coverage(criteria, mapped_results):
     """
     Thống kê số tiêu chí có thông tin đối chiếu phù hợp
@@ -170,70 +292,3 @@ def evaluate_criterion_coverage(criteria, mapped_results):
             if key not in matched_criteria
         ]
     }
-
-def evaluate(text = """Cá nhân: Đinh Thị O
-    Loại xét: Khen thưởng - Bằng khen của Chủ tịch UBND thành phố
-    Thời điểm xét: tháng 08/2024
-    Danh hiệu thi đua: Lao động tiên tiến 2022 - 2023; Lao động tiên tiến 2023 - 2024
-    Kết quả đánh giá: Hoàn thành xuất sắc nhiệm vụ 2022 - 2023; Hoàn thành xuất sắc nhiệm vụ 2023 - 2024
-    Hình thức khen thưởng: Giấy khen của Hiệu trưởng 2022 - 2023; Giấy khen của Hiệu trưởng 2023 - 2024
-    Sáng kiến NCKH: 02 sáng kiến được công nhận có hiệu quả áp dụng và phạm vi ảnh hưởng ở cơ sở trong năm học 2022 - 2023 và 2023 - 2024
-    """, ):
-    from app.pipe_line.data_parser import parse_text_to_dict
-    data = parse_text_to_dict(text)
-    award = data["LOAI_XET"]
-    type_ = data["LOAI_DOI_TUONG"]
-    # 1. Khởi tạo model và tokenizer
-    
-    from app.pipe_line.embedding import load_embedding_model
-    embedding_model, tokenizer, device = load_embedding_model()
-
-    # 2. Tạo embedding cho tất cả node trong Neo4j
-    from app.pipe_line.query_graph import build_name_embeddings, create_vector_index, query_graph, find_criterion
-    build_name_embeddings(
-        batch_size=100,
-        tokenizer=tokenizer,
-        embedding_model=embedding_model,
-        device=device
-    )
-
-    # 3. Tạo Vector Index
-    create_vector_index()
-
-    # 4. Thử nghiệm truy vấn Knowledge Graph
-    results = query_graph(
-        text_name=award,
-        top_k=5,
-        tokenizer=tokenizer,
-        embedding_model=embedding_model,
-        device=device
-    )
-
-    print(f"\nKết quả truy vấn cho: {award}")
-
-    for i, result in enumerate(results, start=1):
-        print(f"\nKết quả {i}:")
-        print(f"Node ID: {result['node_id']}")
-        print(f"Name: {result['name']}")
-        print(f"Type: {result['type']}")
-        print(f"Article ID: {result['article_id']}")
-        print(f"Section ID: {result['section_id']}")
-        print(f"Similarity Score: {result['score']:.4f}")
-
-    criteria = find_criterion(results=results, type_=type_)
-
-    # Mapping dữ liệu hồ sơ với tiêu chí
-    mapped_results = map_data_to_criteria(
-        data=data,
-        criteria=criteria,
-        model=embedding_model,
-        tokenizer=tokenizer,
-        device=device,
-        threshold=0.65
-    )
-    coverage = evaluate_criterion_coverage(
-        criteria=criteria,
-        mapped_results=mapped_results
-    )
-
-    return mapped_results, criteria, data, coverage

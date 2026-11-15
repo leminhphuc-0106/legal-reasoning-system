@@ -1,0 +1,1 @@
+from .ner_rel_extractrion import excute_extraction

@@ -3,10 +3,8 @@ async def evaluate_controller(
     candidate_files
 ):
     import json
-    from fastapi import File, HTTPException 
-    from app.services.ner_rel_extractrion import extract_ner_rel
-    from app.services.evaluate_profile import evaluate
-    from app.services.build_graph import build_graph_from_json
+    from fastapi import HTTPException 
+    from app.services.workflows import flow_evaluate
     #Kiểm tra file đầu vào
     if not candidate_files:
         raise HTTPException(
@@ -20,24 +18,21 @@ async def evaluate_controller(
             detail="File tiêu chí phải là PDF"
         )
 
-    #Đọc nội dung file tiêu chí và danh sách file ứng viên
+    #FLOW 1: Xây dựng đồ thị từ file tiêu chí
     criteria_bytes = await criteria_file.read()
+    from app.services.workflows import flow_build
+    status_graph = await flow_build(criteria_file=criteria_bytes)
+
+
+    #FLOW 2: ĐÁNH GIÁ HỒ SƠ ỨNG VIÊN
     candidate_files_data = [
         (await file.read()).decode("utf-8")
         for file in candidate_files
     ]
-
-    # Đọc và xử lý file luật trước
-    result_extraction_ner_rel, article_ids = await extract_ner_rel(
-        criteria_file=criteria_bytes
-    )
-    # Xây dựng đồ thị
-    status_graph = await build_graph_from_json(result_extraction_ner_rel, article_ids)
     candidates = []
-
     for idx, candidate in enumerate(candidate_files_data, start=1):
         # Chạy pipeline đánh giá hồ sơ
-        mapped_results, criteria, data_candidate, coverage = evaluate(candidate)
+        mapped_results, criteria, data_candidate, coverage = flow_evaluate(candidate)
         # Tạo ID cho hồ sơ
         candidate_id = f"HS{idx:02d}"
         # Tên đối tượng xét thưởng
@@ -62,19 +57,19 @@ async def evaluate_controller(
 
         candidates.append(candidate_result)
     # Lưu kết quả JSON
-    with open(
-        "app/result/predict_profile/predicted_profile.json",
-        "w",
-        encoding="utf-8"
-    ) as f:
-        json.dump(candidates, f, ensure_ascii=False, indent=4)
-
-    print("Đã lưu kết quả đánh giá hồ sơ.")
-
-    return {
+    # with open(
+    #     "app/result/predict_profile/predicted_profile.json",
+    #     "w",
+    #     encoding="utf-8"
+    # ) as f:
+    #     json.dump(candidates, f, ensure_ascii=False, indent=4)
+    result = {
         "message": "Files received successfully",
         "candidate_files_count": len(candidates),
         "status_graph": status_graph,
         "candidates": candidates
     }
+    from app.utils.controller_utils import check_coroutines
+    check_coroutines(result)
 
+    return result

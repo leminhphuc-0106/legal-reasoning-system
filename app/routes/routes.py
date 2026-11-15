@@ -3,11 +3,9 @@ from typing import Any
 from app.controllers.evaluate import evaluate_controller
 from app.controllers.generate_report import generate_controller
 
-router = APIRouter(
-    prefix="/api"
-)
+router = APIRouter()
 
-@router.post("evaluate")
+@router.post("/evaluate")
 async def evaluate(
     criteria_file: UploadFile = File(...),
     candidate_files: list[UploadFile] = File(...)

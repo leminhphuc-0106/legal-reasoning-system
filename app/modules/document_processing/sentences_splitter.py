@@ -1,12 +1,6 @@
-from transformers import T5Tokenizer, AutoModelForSeq2SeqLM
-import torch
-
-# model_path = (
-#     "./models/Vi-T5-Base-Tach-Cau"
-# )
-
 #Load model đã fine-tune
 def load_model(model_path="./models/Vi-T5-Base-Tach-Cau"):
+    from transformers import T5Tokenizer, AutoModelForSeq2SeqLM
     from pathlib import Path
     offload_dir = Path("./offload/simplify_model").resolve()
     offload_dir.mkdir(parents=True, exist_ok=True)
@@ -32,8 +26,9 @@ def load_model(model_path="./models/Vi-T5-Base-Tach-Cau"):
     # model.eval()
 
 
-#hàm gọi model và tách câu
+#Tách từng câu
 def simplify(chunk, tokenizer, model):
+    import torch
     inputs = tokenizer(
         chunk,
         return_tensors="pt",
@@ -63,10 +58,22 @@ def simplify(chunk, tokenizer, model):
 
     return answer
 
-
-if __name__ == "__main__":
+#Tách cả văn bản sau khi chunking
+def simplify_chunk(text_chunks):
+    #Tách câu đơn bằng mô hình Vi-T5 đã fine-tune
     model, tokenizer = load_model()
-    chunk = "Tôi là một sinh viên. Tôi đang học lập trình. Tôi thích học Python."
-    result = simplify(chunk, tokenizer, model)
-    print(result)
-
+    splited_results = []
+    count = 0
+    for chunk in text_chunks:
+        answer = simplify(chunk["text"], tokenizer, model)
+        answer = {
+            "text": answer,
+            "article_id": chunk["article_id"],
+            "section_id": chunk["section_id"],
+            "point_label": chunk["point_label"]
+        }
+        splited_results.append(answer)
+        if count <= 5:
+            count += 1
+            print(answer)
+    return splited_results
