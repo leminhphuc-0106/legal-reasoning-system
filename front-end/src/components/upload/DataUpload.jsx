@@ -2,7 +2,7 @@
 // Thanh công cụ nạp dữ liệu đầu vào: văn bản pháp luật, hồ sơ ứng viên
 // (tải file hoặc thư mục) và nút xét hồ sơ để chạy toàn bộ pipeline.
 import { useState } from "react";
-import Icon from "./Icon.jsx";
+import Icon from "../common/Icon.jsx";
 
 export default function DataUpload({
   lawInput,

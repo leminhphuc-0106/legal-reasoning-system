@@ -1,7 +1,10 @@
+
 import os
 from neo4j import GraphDatabase
 from dotenv import load_dotenv
+
 load_dotenv(dotenv_path="./config/.env")
+
 
 class Neo4jConnection:
     def __init__(self):
@@ -39,16 +42,12 @@ class Neo4jConnection:
             raise
 
     def get_driver(self):
-        """Lấy Neo4j Driver hiện tại."""
-
         if self.driver is None:
             return self.connect()
 
         return self.driver
 
     def close(self):
-        """Đóng kết nối Neo4j."""
-
         if self.driver is not None:
             self.driver.close()
             self.driver = None

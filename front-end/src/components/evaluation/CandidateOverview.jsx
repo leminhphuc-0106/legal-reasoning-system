@@ -1,7 +1,7 @@
 // CandidateOverview.jsx
 // Thẻ tóm tắt thông tin nhận diện của hồ sơ ứng viên: họ tên, mã, chức vụ,
 // đơn vị, ngày nộp, hình thức khen thưởng và tệp nguồn (nếu có).
-import Icon from "./Icon.jsx";
+import Icon from "../common/Icon.jsx";
 
 export default function CandidateOverview({ candidate }) {
   // Tạo chữ viết tắt từ hai từ cuối của họ tên để hiển thị trong avatar.

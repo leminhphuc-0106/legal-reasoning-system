@@ -1,8 +1,8 @@
 // MainLayout.jsx
 // Bố cục chính của ứng dụng: thanh tiêu đề phía trên, bên dưới chia hai cột
 // (khung chat bên trái và vùng kết quả đánh giá bên phải).
-import Topbar from "../components/Topbar.jsx";
-import ChatPanel from "../components/ChatPanel.jsx";
+import Topbar from "./Topbar.jsx";
+import ChatPanel from "../components/chat/ChatPanel.jsx";
 
 export default function MainLayout({ onReset, chatProps, children }) {
   return <div className="app-shell">

@@ -422,6 +422,11 @@ textarea:focus-visible {
   background: #2c5988;
 }
 
+.message-bubble.assistant {
+    white-space: pre-wrap;
+    text-align: left;
+}
+
 /* Right panel */
 
 .results-panel {

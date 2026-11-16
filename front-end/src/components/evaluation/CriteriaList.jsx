@@ -1,5 +1,6 @@
-
-import Icon from "./Icon.jsx";
+// CriteriaList.jsx
+// Hiển thị mức độ đáp ứng và danh sách chi tiết các tiêu chí của hồ sơ.
+import Icon from "../common/Icon.jsx";
 
 // Chuyển tiếng Việt có dấu thành chữ IN HOA KHÔNG DẤU
 // const removeVietnameseAccents = (str = "") => {

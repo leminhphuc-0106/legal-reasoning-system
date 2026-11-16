@@ -1,9 +1,17 @@
 // ChatPanel.jsx
 // Khung trò chuyện với trợ lý: phần giới thiệu, danh sách tin nhắn,
 // thông báo trạng thái và ô nhập câu hỏi kèm nút gửi.
-import Icon from "./Icon.jsx";
+import Icon from "../common/Icon.jsx";
 
 export default function ChatPanel({ messages, notice, query, setQuery, onSend }) {
+  // Xử lí gửi câu hỏi khi nhấn Enter, Shift+Enter để xuống dòng.
+  function handleKeyDown(event) {
+    if (event.key === "Enter" && !event.shiftKey) {
+      event.preventDefault();
+      event.currentTarget.form.requestSubmit();
+    }
+  }
+
   return <section className="chat-panel">
     {/* Phần giới thiệu đầu khung chat */}
 
@@ -16,23 +24,22 @@ export default function ChatPanel({ messages, notice, query, setQuery, onSend })
 
     {/* Lịch sử hội thoại: tin nhắn của trợ lý và người dùng */}
     <div className="conversation">
-      {messages.map((message, index) => 
+      {messages.map((message, index) =>
+        <div
+          key={`${message.role}-${index}`}
+          className={`message-row ${message.role === "user" ? "message-user" : ""}`}
+        >
+          {/* Hiển thị avatar của AI */}
+          {message.role === "assistant" && <div className="avatar avatar-ai">AI</div>}
 
-      <div className={`message-row 
-        // Phân biệt user và AI role
-        ${message.role === "user" ? "message-user" : ""}`
-      } 
-        // Nhận diện từng phần tử trong tin nhắn
-        key={`${message.role}-${index}`}>
-        
-        {/* Hiển thị avatar của AI */}
-        {message.role === "assistant" && <div className="avatar avatar-ai">AI</div>}
-
-        <div className={`message-bubble ${message.role}`}>{message.content}</div>
-
-        {/* {message.role === "user" && <div className="avatar avatar-user">Bạn</div>} */}
-
-      </div>)}
+          <div
+            className={`message-bubble ${message.role}`}
+            style={{ whiteSpace: "pre-wrap" }}
+          >
+            {message.content}
+          </div>
+          
+        </div>)}
 
       {/* Thông báo trạng thái (nạp dữ liệu, lỗi, ...) nếu có */}
       {notice && <div className="notice"><Icon>ℹ</Icon>{notice}</div>}
@@ -46,9 +53,7 @@ export default function ChatPanel({ messages, notice, query, setQuery, onSend })
 
         placeholder="Nhập câu hỏi về quy định hoặc hồ sơ ứng viên..." rows={2} 
         aria-label="Nhập câu hỏi"
-        onKeyDown={e => { if (e.key === "Enter" && !e.shiftKey) 
-
-        { e.preventDefault(); e.currentTarget.form.requestSubmit(); } }} 
+        onKeyDown={handleKeyDown}
       />
 
       <div className="composer-bottom">

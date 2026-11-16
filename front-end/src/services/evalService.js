@@ -1,24 +1,36 @@
-export const handleEvaluate = async () => {
-    try {
-        setIsLoading(true);
+// evalService.js
+// Lớp dịch vụ gọi các API xét hồ sơ và sinh báo cáo từ backend.
+const API_BASE_URL = "http://127.0.0.1:8000";
 
-        // Gọi API xét hồ sơ
-        const response = await fetch("http://127.0.0.1:8000/api/evaluate", {
-            method: "POST",
-            body: formData
-        });
+// Gửi file tiêu chí và hồ sơ ứng viên lên API đánh giá bằng Knowledge Graph.
+export async function evaluateCandidates(formData) {
+  const response = await fetch(`${API_BASE_URL}/evaluate`, {
+    method: "POST",
+    body: formData,
+  });
 
-        const data = await response.json();
+  const result = await response.json();
+  if (!response.ok) {
+    throw new Error(JSON.stringify(result.detail));
+  }
 
-        if (!response.ok) {
-            throw new Error(data.detail || "Có lỗi xảy ra");
-        }
+  return result;
+}
 
-        console.log(data);
+// Gửi kết quả đánh giá sang API để Qwen sinh báo cáo tổng hợp.
+export async function generateReport(candidates) {
+  const response = await fetch(`${API_BASE_URL}/generate-report`, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify(candidates),
+  });
 
-    } catch (error) {
-        console.error("Lỗi xét hồ sơ:", error);
-    } finally {
-        setIsLoading(false);
-    }
-};   
+  const result = await response.json();
+  if (!response.ok) {
+    throw new Error(JSON.stringify(result.detail));
+  }
+
+  return result;
+}

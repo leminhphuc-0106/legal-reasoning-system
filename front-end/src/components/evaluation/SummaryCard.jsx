@@ -1,5 +1,5 @@
-
 // SummaryCard.jsx
+// Thẻ tổng quan tỷ lệ đạt tiêu chí và thống kê đạt/chưa đạt của hồ sơ.
 
 // Chuyển tiếng Việt có dấu thành chữ IN HOA KHÔNG DẤU
 const removeVietnameseAccents = (str = "") => {

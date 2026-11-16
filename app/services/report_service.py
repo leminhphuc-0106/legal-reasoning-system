@@ -4,7 +4,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 # =====================================================
 # 1. CẤU HÌNH MODEL
 # =====================================================
-def load_llm_model(MODEL_NAME="D:/PROJECT/Xet_Khen_Thuong/models/Qwen3-0.6B"):
+def load_llm_model(MODEL_NAME="D:/PROJECT/Xet_Khen_Thuong/models/Model-Qwen-Viet"):
     device = "cuda" if torch.cuda.is_available() else "cpu"
     print(f"Device: {device}")
     tokenizer = AutoTokenizer.from_pretrained(
@@ -180,7 +180,7 @@ def generate_report(json_data, model, tokenizer):
 def excute_generation(data, model, tokenizer, device):
 
     # 1. Cấu hình file đầu ra
-    OUTPUT_FILE = "D:/PROJECT/Xet_Khen_Thuong/app/result/predict_profile/report.txt"
+    OUTPUT_FILE = "D:/PROJECT/Xet_Khen_Thuong/result/predict_profile/report.txt"
 
     try:
         print("Nhận dữ liệu JSON thành công!")

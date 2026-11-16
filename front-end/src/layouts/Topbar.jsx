@@ -1,6 +1,6 @@
 // Topbar.jsx
 // Thanh tiêu đề trên cùng: tên hệ thống, trạng thái giao diện và nút đặt lại dữ liệu.
-import Icon from "./Icon.jsx";
+import Icon from "../components/common/Icon.jsx";
 
 export default function Topbar({ onReset }) {
   return <header className="topbar">
