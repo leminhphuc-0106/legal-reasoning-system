@@ -2,6 +2,7 @@ from fastapi import File, UploadFile, APIRouter
 from typing import Any
 from app.controllers.evaluate import evaluate_controller
 from app.controllers.generate_report import generate_controller
+from app.controllers.chat import ChatRequest, chat_controller
 
 router = APIRouter()
 
@@ -17,4 +18,10 @@ async def evaluate(
 @router.post("/generate-report")
 def generate_report(candidates: list[dict[str, Any]]):
     result = generate_controller(candidates=candidates)
+    return result
+
+
+@router.post("/chat")
+def chat(payload: ChatRequest):
+    result = chat_controller(payload=payload)
     return result

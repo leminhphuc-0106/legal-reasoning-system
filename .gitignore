@@ -119,3 +119,5 @@ result
 **/.
 *.ipynb
 
+app/test.py
+

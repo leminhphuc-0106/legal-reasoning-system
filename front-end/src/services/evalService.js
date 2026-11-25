@@ -1,6 +1,6 @@
 // evalService.js
 // Lớp dịch vụ gọi các API xét hồ sơ và sinh báo cáo từ backend.
-const API_BASE_URL = "http://127.0.0.1:8000";
+import { API_BASE_URL } from "./apiConfig.js";
 
 // Gửi file tiêu chí và hồ sơ ứng viên lên API đánh giá bằng Knowledge Graph.
 export async function evaluateCandidates(formData) {

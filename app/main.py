@@ -3,8 +3,7 @@ from app.routes import routes
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(
-    title="Online Examination System",
-    description="Backend API for Online Examination System",
+    title="He Thong Ho Tro Xet KHen Thuong Hanh Chinh",
     version="1.0.0"
 )
 # Cấu hình CORS

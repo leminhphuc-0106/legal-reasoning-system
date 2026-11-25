@@ -13,7 +13,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --navy: #25548b;
+  --navy: #112d4c;
   --navy-dark: #112d4c;
   --blue: #2868a8;
   --blue-soft: #eaf3fc;
@@ -22,7 +22,7 @@
   --surface: #ffffff;
   --green: #177c50;
   --green-bg: #eaf7f0;
-  --red: #ff525d;
+  --red: #da2a2a;
   --red-bg: #fff0f0;
   --amber: #996a12;
   --amber-bg: #fff6e3;
@@ -210,7 +210,7 @@ textarea:focus-visible {
   flex-shrink: 0;
   align-items: center;
   justify-content: center;
-  font-size: 15px;
+  font-size: 18px;
   line-height: 1;
 }
 
@@ -322,9 +322,9 @@ textarea:focus-visible {
   padding: 15px 16px;
   border: 1px solid var(--border);
   border-radius: 5px 15px 15px 15px;
-  color: #35465d;
+  color: #1c2a3c;
   background: #f8fafc;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.9;
   overflow-wrap: anywhere;
 }
@@ -381,7 +381,7 @@ textarea:focus-visible {
   outline: none;
   color: #243c58;
   background: transparent;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.8;
 }
 
@@ -425,6 +425,7 @@ textarea:focus-visible {
 .message-bubble.assistant {
     white-space: pre-wrap;
     text-align: left;
+    background-color:  #f8fafc95;
 }
 
 /* Right panel */
@@ -444,10 +445,9 @@ textarea:focus-visible {
   margin-bottom: 18px;
 }
 
-/* .title-results-heading{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+/* .title-results-heading h2{
+  font-size: 20px;
+  color: #225a96;
 } */
 
 .results-heading h2 {
@@ -456,8 +456,8 @@ textarea:focus-visible {
   align-items: center;
   gap: 9px;
   margin: 0;
-  color: var(--navy-dark);
-  font-size: 19px;
+  font-size: 20px;
+  color: #10437e;
   font-weight: 750;
   letter-spacing: -0.6px;
   line-height: 1.5;
@@ -655,8 +655,8 @@ textarea:focus-visible {
   align-items: center;
   gap: 7px;
   flex-shrink: 0;
-  color: #425670;
-  font-size: 11px;
+  color: #375d8e;
+  font-size: 12px;
   font-weight: 600;
 }
 
@@ -668,12 +668,14 @@ textarea:focus-visible {
   border-radius: 8px;
   color: #233c58;
   background: #fff;
-  font-size: 11px;
+  font-size: 14px;
 }
 
+
 .candidate-count {
-  color: var(--muted);
-  font-size: 10px;
+  color: #2d5888;
+  font-size: 12px;
+  font-weight: 600;
   white-space: nowrap;
 }
 
@@ -1014,14 +1016,14 @@ textarea:focus-visible {
   border-radius: 7px;
   color: #496584;
   background: #edf3f9;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 800;
 }
 
 .criterion-title h4 {
   margin: 2px 0 0;
   color: #243b56;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 700;
   line-height: 1.7;
   overflow-wrap: anywhere;
@@ -1096,9 +1098,9 @@ textarea:focus-visible {
   padding: 35px 20px;
   border: 1px dashed #cbd7e5;
   border-radius: 12px;
-  color: #71839a;
+  color: #385b8a;
   background: #fff;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.8;
   text-align: center;
 }
@@ -1122,7 +1124,7 @@ textarea:focus-visible {
 
 .disclaimer p {
   margin: 0;
-  font-size: 10px;
+  font-size: 12px;
   line-height: 1.8;
 }
 
@@ -1827,7 +1829,6 @@ body,
   display: block;
   font-size: 12px;
   font-weight: 700;
-  color: #475569;
   margin-bottom: 10px;
   letter-spacing: 0.4px;
   text-align: left;

@@ -35,7 +35,8 @@ export default function DataUpload({
   return <>
     {/* Thanh nút bấm và các input file ẩn */}
     <div className="upload-toolbar">
-      <div className="upload-toolbar-title"><Icon>▣</Icon>
+      <div className="upload-toolbar-title">
+        <Icon>▣</Icon>
         <div>
           <strong>Nguồn dữ liệu</strong>
         </div>

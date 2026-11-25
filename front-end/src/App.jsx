@@ -113,14 +113,26 @@ export default function App() {
     const content = query.trim();
     if (!content) return;
 
+    // Lưu lịch sử trước khi thêm câu hỏi mới để gửi kèm ngữ cảnh cho trợ lý.
+    const history = messages.map(({ role, content }) => ({ role, content }));
+
+    // Chỉ gửi thông tin tóm tắt của hồ sơ để giữ payload chat gọn nhẹ.
+    const candidateContext = candidates.map(({ id, name, coverage }) => ({ id, name, coverage }));
+
     setMessages(previous => [...previous, { role: "user", content }]);
     setQuery("");
+    setNotice("Trợ lý đang soạn câu trả lời...");
 
     try {
-      const answer = await askAssistant(content);
+      const answer = await askAssistant(content, { history, candidates: candidateContext });
       setMessages(previous => [...previous, { role: "assistant", content: answer }]);
-    } catch {
-      setMessages(previous => [...previous, { role: "assistant", content: "Không thể kết nối backend lúc này." }]);
+      setNotice("");
+    } catch (error) {
+      setMessages(previous => [...previous, {
+        role: "assistant",
+        content: error.message || "Không thể kết nối backend lúc này.",
+      }]);
+      setNotice("");
     }
   }
 

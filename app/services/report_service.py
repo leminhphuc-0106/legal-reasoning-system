@@ -1,24 +1,15 @@
 import json
 import torch
-from transformers import AutoTokenizer, AutoModelForCausalLM
 # =====================================================
 # 1. CẤU HÌNH MODEL
 # =====================================================
-def load_llm_model(MODEL_NAME="D:/PROJECT/Xet_Khen_Thuong/models/Model-Qwen-Viet"):
+def load_llm_model(MODEL_NAME=None):
+    # Dùng chung model đã nạp trong chat_service để tránh nạp trùng vào bộ nhớ.
+    from app.services.chat_service import load_chat_model
+
     device = "cuda" if torch.cuda.is_available() else "cpu"
     print(f"Device: {device}")
-    tokenizer = AutoTokenizer.from_pretrained(
-        MODEL_NAME,
-        trust_remote_code=True
-    )
-
-    model = AutoModelForCausalLM.from_pretrained(
-        MODEL_NAME,
-        torch_dtype="auto",
-        device_map="auto",
-        trust_remote_code=True
-    )
-    model.eval()
+    model, tokenizer = load_chat_model()
     return model, tokenizer, device
 
 

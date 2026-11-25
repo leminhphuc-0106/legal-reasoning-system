@@ -5,6 +5,7 @@ async def evaluate_controller(
     import json
     from fastapi import HTTPException 
     from app.services.workflows import flow_evaluate
+    from app.utils.timing_utils import start_run
     #Kiểm tra file đầu vào
     if not candidate_files:
         raise HTTPException(
@@ -18,10 +19,13 @@ async def evaluate_controller(
             detail="File tiêu chí phải là PDF"
         )
 
+    # Bắt đầu ghi nhận thời gian chạy cho lượt xét này.
+    timer = start_run()
+
     #FLOW 1: Xây dựng đồ thị từ file tiêu chí
     criteria_bytes = await criteria_file.read()
     from app.services.workflows import flow_build
-    status_graph = await flow_build(criteria_file=criteria_bytes)
+    status_graph = await flow_build(criteria_file=criteria_bytes, timer=timer)
 
 
     #FLOW 2: ĐÁNH GIÁ HỒ SƠ ỨNG VIÊN
@@ -52,7 +56,10 @@ async def evaluate_controller(
 
             # Các tiêu chí pháp lý tìm được
             "criteria": criteria,
-            "coverage": coverage
+            "coverage": coverage,
+
+            # Mã lượt chạy để bước sinh báo cáo ghi chung một file CSV.
+            "_timing_run_id": timer.run_id
         }
 
         candidates.append(candidate_result)

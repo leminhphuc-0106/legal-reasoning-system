@@ -23,7 +23,7 @@ export default function CriteriaList({
   const total = coverage.total_criteria || 0;
   const pass = coverage.achieved_criteria || 0;
   const fail = coverage.not_achieved_criteria || 0;
-  const percentage = coverage.coverage_percentage || 0;
+  // const percentage = coverage.coverage_percentage || 0;
 
   // Chuyển matched_criteria và unmatched_criteria
   // thành cấu trúc thống nhất
@@ -140,7 +140,7 @@ export default function CriteriaList({
   return (
     <>
       {/* Tổng quan mức độ đáp ứng */}
-      <div className="coverage-summary">
+      {/* <div className="coverage-summary">
         <div className="coverage-header">
           <h3>
 
@@ -171,7 +171,7 @@ export default function CriteriaList({
             {"Chưa đạt"}: {fail}
           </span>
         </div>
-      </div>
+      </div> */}
 
       {/* Tiêu đề và bộ lọc */}
       <div className="criteria-heading">

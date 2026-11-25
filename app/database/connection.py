@@ -11,6 +11,10 @@ class Neo4jConnection:
         self.uri = os.getenv("NEO4J_URI")
         self.username = os.getenv("NEO4J_USERNAME")
         self.password = os.getenv("NEO4J_PASSWORD")
+        print("URI:", os.getenv("NEO4J_URI"))
+        print("USERNAME:", os.getenv("NEO4J_USERNAME"))
+        print("PASSWORD EXISTS:", bool(os.getenv("NEO4J_PASSWORD")))
+        print("PASSWORD LENGTH:", len(os.getenv("NEO4J_PASSWORD") or ""))
         self.driver = None
 
     def connect(self):
@@ -52,3 +56,6 @@ class Neo4jConnection:
             self.driver.close()
             self.driver = None
             print("Đã đóng kết nối Neo4j.")
+
+
+

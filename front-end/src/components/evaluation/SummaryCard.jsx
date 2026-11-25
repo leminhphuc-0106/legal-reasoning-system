@@ -2,14 +2,14 @@
 // Thẻ tổng quan tỷ lệ đạt tiêu chí và thống kê đạt/chưa đạt của hồ sơ.
 
 // Chuyển tiếng Việt có dấu thành chữ IN HOA KHÔNG DẤU
-const removeVietnameseAccents = (str = "") => {
-  return str
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .replace(/đ/g, "d")
-    .replace(/Đ/g, "D")
-    .toUpperCase();
-};
+// const removeVietnameseAccents = (str = "") => {
+//   return str
+//     .normalize("NFD")
+//     .replace(/[\u0300-\u036f]/g, "")
+//     .replace(/đ/g, "d")
+//     .replace(/Đ/g, "D")
+//     .toUpperCase();
+// };
 
 export default function SummaryCard({ candidate }) {
   // Lấy dữ liệu coverage từ candidate
@@ -26,7 +26,7 @@ export default function SummaryCard({ candidate }) {
 
   // Nội dung hiển thị
   const summary = candidate?.summary
-    || `HO SO ${candidate?.name || ""} DA DAT ${achieved}/${total} TIEU CHI.`;
+    || `Hồ sơ ${candidate?.name || ""} đã đạt ${achieved}/${total} tiêu chí.`;
 
   return (
     <article className="summary-card">
@@ -35,18 +35,18 @@ export default function SummaryCard({ candidate }) {
       <div className="summary-header">
         <div>
           <p className="eyebrow">
-            {removeVietnameseAccents("Tổng quan đánh giá")}
+            {("Tổng quan đánh giá")}
           </p>
 
           <h3>
-            {removeVietnameseAccents("Mức độ đáp ứng tiêu chí")}
+            {("Mức độ đáp ứng tiêu chí")}
           </h3>
         </div>
 
         <div className="score">
           <strong>{percentage}%</strong>
           <span>
-            {removeVietnameseAccents("Đạt tiêu chí")}
+            {("Đạt tiêu chí")}
           </span>
         </div>
       </div>
@@ -67,7 +67,7 @@ export default function SummaryCard({ candidate }) {
           <div>
             <strong>{achieved}</strong>
             <span>
-              {removeVietnameseAccents("Đạt")}
+              {("Đạt")}
             </span>
           </div>
         </div>
@@ -77,7 +77,7 @@ export default function SummaryCard({ candidate }) {
           <div>
             <strong>{notAchieved}</strong>
             <span>
-              {removeVietnameseAccents("Chưa đạt")}
+              {("Chưa đạt")}
             </span>
           </div>
         </div>
@@ -86,7 +86,7 @@ export default function SummaryCard({ candidate }) {
 
       {/* Summary */}
       <p className="summary-note">
-        {removeVietnameseAccents(summary)}
+        {(summary)}
       </p>
 
     </article>
